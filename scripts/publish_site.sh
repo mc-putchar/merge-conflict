@@ -25,7 +25,7 @@ trap cleanup EXIT
 if git show-ref --verify --quiet "refs/heads/$BRANCH"; then
   git worktree add "$tmp/wt" "$BRANCH"
 else
-  git worktree add --orphan "$BRANCH" "$tmp/wt"
+  git worktree add --orphan -b "$BRANCH" "$tmp/wt"
 fi
 
 # Replace branch contents with the built site
