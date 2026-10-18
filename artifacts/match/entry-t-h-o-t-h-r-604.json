@@ -1,0 +1,121 @@
+{
+  "entry_id": "entry-t-h-o-t-h-r-604",
+  "britannica_title": "T H O T H R",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:604"
+  ],
+  "matched": true,
+  "status": "accepted_bm25_only",
+  "selected_candidate": {
+    "page_id": "10504214",
+    "revision_id": "1286483203",
+    "title": "Braided Hopf algebra",
+    "url": "https://en.wikipedia.org/wiki/Braided_Hopf_algebra",
+    "bm25_score": 18.9832706451416,
+    "excerpt": "In mathematics, a braided Hopf algebra is a Hopf algebra in a braided monoidal category. The most common braided Hopf algebras are objects in a Yetter–Drinfeld category of a Hopf algebra H, particularly the Nichols algebra of a braided vector space in that category.\n\nThe notion should not be confused with quasitriangular Hopf algebra.\n\nLet H be a Hopf algebra over a field k, and assume that the antipode of H is bijective. A Yetter–Drinfeld module R over H is called a braided bialgebra in the Yetter–Drinfeld category H H Y D {\\displaystyle {}_{H}^{H}{\\mathcal {YD}}} if\n\n(R, ⋅, η) {\\displaystyle (R,\\cdot,\\eta)} is a unital associative algebra, where the multiplication map ⋅: R × R → R {\\displaystyle \\cdot:R\\times R\\to R} and the unit η: k → R {\\displaystyle \\eta:k\\to R} are maps of Yetter–Drinfeld modules,\n\n(R, Δ, ε) {\\displaystyle (R,\\Delta,\\varepsilon)} is a coassociative coalgebra with counit ε {\\displaystyle \\varepsilon }, and both Δ {\\displaystyle \\Delta } and ε {\\displaystyle \\varepsilon } are maps of Yetter–Drinfeld modules,\n\nthe maps Δ: R → R ⊗ R {\\displaystyle \\Delta:R\\to R\\otimes R} and ε: R → k {\\displaystyle \\varepsilon:R\\to k} are algebra maps in the category H H Y D {\\d",
+    "stage1_score": null,
+    "multimodal_score": null,
+    "is_disambiguation": false,
+    "source_query": "T H O T H R"
+  },
+  "all_candidates": [
+    {
+      "page_id": "10504214",
+      "revision_id": "1286483203",
+      "title": "Braided Hopf algebra",
+      "url": "https://en.wikipedia.org/wiki/Braided_Hopf_algebra",
+      "bm25_score": 18.9832706451416,
+      "excerpt": "In mathematics, a braided Hopf algebra is a Hopf algebra in a braided monoidal category. The most common braided Hopf algebras are objects in a Yetter–Drinfeld category of a Hopf algebra H, particularly the Nichols algebra of a braided vector space in that category.\n\nThe notion should not be confused with quasitriangular Hopf algebra.\n\nLet H be a Hopf algebra over a field k, and assume that the antipode of H is bijective. A Yetter–Drinfeld module R over H is called a braided bialgebra in the Yetter–Drinfeld category H H Y D {\\displaystyle {}_{H}^{H}{\\mathcal {YD}}} if\n\n(R, ⋅, η) {\\displaystyle (R,\\cdot,\\eta)} is a unital associative algebra, where the multiplication map ⋅: R × R → R {\\displaystyle \\cdot:R\\times R\\to R} and the unit η: k → R {\\displaystyle \\eta:k\\to R} are maps of Yetter–Drinfeld modules,\n\n(R, Δ, ε) {\\displaystyle (R,\\Delta,\\varepsilon)} is a coassociative coalgebra with counit ε {\\displaystyle \\varepsilon }, and both Δ {\\displaystyle \\Delta } and ε {\\displaystyle \\varepsilon } are maps of Yetter–Drinfeld modules,\n\nthe maps Δ: R → R ⊗ R {\\displaystyle \\Delta:R\\to R\\otimes R} and ε: R → k {\\displaystyle \\varepsilon:R\\to k} are algebra maps in the category H H Y D {\\d",
+      "stage1_score": null,
+      "multimodal_score": null,
+      "is_disambiguation": false,
+      "source_query": "T H O T H R"
+    },
+    {
+      "page_id": "12347214",
+      "revision_id": "1297840772",
+      "title": "Fleischmannia",
+      "url": "https://en.wikipedia.org/wiki/Fleischmannia",
+      "bm25_score": 18.871692657470703,
+      "excerpt": "Fleischmannia is a genus of flowering plant in the family Asteraceae. The name honours Gottfried F. Fleischmann (1777–1850), the teacher of Carl Heinrich Schultz at University of Erlangen–Nuremberg. Members of the genus are native to South, Central, and North America, with some species found as far north as Virginia and Illinois. They are commonly known as thoroughworts.\n\nFleischmannia is in the tribe Eupatorieae and as such has flower heads with disc florets and no ray florets. Within that tribe it is most closely related to Conoclinium and Ageratum.\n\nFleischmannia species were traditionally included as part of the large Eupatorium, recognized in the broad sense based on achenes with five ribs and a pappus of capillary bristles. Fleischmannia is distinguished morphologically by having the inner surface of the corolla lobes markedly papillate (requires magnification to see), the carpopodia symmetrical and stopper-shaped, and the involucres small and with 3 series of subimbricate bracts. The number of flowers per head is typically 20 or more (up to 50). Many species are herbs and somewhat weedy, and have leaves with long petioles. Although the base chromosome number for the genus is",
+      "stage1_score": null,
+      "multimodal_score": null,
+      "is_disambiguation": false,
+      "source_query": "T H O T H R"
+    },
+    {
+      "page_id": "904441",
+      "revision_id": "1330533788",
+      "title": "Ageratina",
+      "url": "https://en.wikipedia.org/wiki/Ageratina",
+      "bm25_score": 18.847204208374023,
+      "excerpt": "Ageratina, commonly known as snakeroot, is a genus of over 300 species of perennials and rounded shrubs in the family Asteraceae.\n\nThese plants grow mainly in the warmer regions of the Americas and West Indies. Over 150 species are native to Mexico. Some flourish in the cooler areas of the eastern United States. Two Mexican species have become a pest in parts of Australia and Taiwan. Ageratina used to belong to the genus Eupatorium, but it has been reclassified.\n\nThe genus name Ageratina means \"like Ageratum \" and consists of Ageratum and -ina, the feminine form of the Latin adjectival suffix -inus.\n\nThe inflorescence consists of multiple fluffy, red or pinkish-white capitula in clusters. These lack the typical ray flowers of the composites.\n\nThey have multiple, much-branched woody stems. The petioles are rather long. The leaves are triangular, serrate and opposite with a foul-smelling, musky scent.\n\nAs of May 2024, Plants of the World online accepted 315 species:\n\nAgeratina acevedoana B.L.Turner\n\nAgeratina acevedoi H.Rob.\n\nAgeratina adenophora (Spreng.) R.M.King & H.Rob.\n\nAgeratina adenophoroides H.Rob.\n\nAgeratina aegirophylla (B.L.Rob.) R.M.King & H.Rob.\n\nAgeratina altissima (L.)",
+      "stage1_score": null,
+      "multimodal_score": null,
+      "is_disambiguation": false,
+      "source_query": "T H O T H R"
+    },
+    {
+      "page_id": "12346357",
+      "revision_id": "1160267545",
+      "title": "Cronquistianthus",
+      "url": "https://en.wikipedia.org/wiki/Cronquistianthus",
+      "bm25_score": 18.8131160736084,
+      "excerpt": "Cronquistianthus is a genus of shrubs native to the Andes in Colombia, Ecuador, and Peru.\n\nThe genus is named after the American botanist Arthur John Cronquist (1919–1992).\n\nSpecies\n\nCronquistianthus bishopii R.M.King & H.Rob.\n\nCronquistianthus bulliferus (S.F.Blake) R.M.King & H.Rob.\n\nCronquistianthus callacatensis (Hieron.) R.M.King & H.Rob.\n\nCronquistianthus celendensis R.M.King & H.Rob.\n\nCronquistianthus celendinensis R.M.King & H.Rob.\n\nCronquistianthus chachapoyensis R.M.King & H.Rob.\n\nCronquistianthus chamaedrifolius (Kunth) R.M.King & H.Rob.\n\nCronquistianthus chotensis (Hieron.) R.M.King & H.Rob.\n\nCronquistianthus desmophyllus (B.L.Rob.) R.M.King & H.Rob.\n\nCronquistianthus determinatus (B.L.Rob.) R.M.King & H.Rob.\n\nCronquistianthus ferreyrae R.M.King & H.Rob.\n\nCronquistianthus ferreyrii R.M.King & H.Rob.\n\nCronquistianthus glomeratus (DC.) R.M.King & H.Rob.\n\nCronquistianthus infantesii R.M.King & H.Rob.\n\nCronquistianthus kalenbornianus (B.L.Rob.) R.M.King & H.Rob.\n\nCronquistianthus lavandulaefolius (DC.) R.M.King & H.Rob.\n\nCronquistianthus lavandulifolius (DC.) R.M.King & H.Rob.\n\nCronquistianthus leucophyllus (Kunth) R.M.King & H.Rob.\n\nCronquistianthus lopez-mirandae (Cabrera",
+      "stage1_score": null,
+      "multimodal_score": null,
+      "is_disambiguation": false,
+      "source_query": "T H O T H R"
+    },
+    {
+      "page_id": "3727020",
+      "revision_id": "1314515655",
+      "title": "Quasitriangular Hopf algebra",
+      "url": "https://en.wikipedia.org/wiki/Quasitriangular_Hopf_algebra",
+      "bm25_score": 18.808639526367188,
+      "excerpt": "In mathematics, a Hopf algebra, H, is quasitriangular if there exists an invertible element, R, of H ⊗ H {\\displaystyle H\\otimes H} such that\n\nR Δ (x) R − 1 = (T ∘ Δ) (x) {\\displaystyle R\\ \\Delta (x)R^{-1}=(T\\circ \\Delta)(x)} for all x ∈ H {\\displaystyle x\\in H}, where Δ {\\displaystyle \\Delta } is the coproduct on H, and the linear map T: H ⊗ H → H ⊗ H {\\displaystyle T:H\\otimes H\\to H\\otimes H} is given by T (x ⊗ y) = y ⊗ x {\\displaystyle T(x\\otimes y)=y\\otimes x},\n\n(Δ ⊗ 1) (R) = R 13 R 23 {\\displaystyle (\\Delta \\otimes 1)(R)=R_{13}\\ R_{23}},\n\n(1 ⊗ Δ) (R) = R 13 R 12 {\\displaystyle (1\\otimes \\Delta)(R)=R_{13}\\ R_{12}},\n\nwhere R 12 = ϕ 12 (R) {\\displaystyle R_{12}=\\phi _{12}(R)}, R 13 = ϕ 13 (R) {\\displaystyle R_{13}=\\phi _{13}(R)}, and R 23 = ϕ 23 (R) {\\displaystyle R_{23}=\\phi _{23}(R)}, where ϕ 12: H ⊗ H → H ⊗ H ⊗ H {\\displaystyle \\phi _{12}:H\\otimes H\\to H\\otimes H\\otimes H}, ϕ 13: H ⊗ H → H ⊗ H ⊗ H {\\displaystyle \\phi _{13}:H\\otimes H\\to H\\otimes H\\otimes H}, and ϕ 23: H ⊗ H → H ⊗ H ⊗ H {\\displaystyle \\phi _{23}:H\\otimes H\\to H\\otimes H\\otimes H}, are algebra morphisms determined by\n\nϕ 12 (a ⊗ b) = a ⊗ b ⊗ 1, {\\displaystyle \\phi _{12}(a\\otimes b)=a\\otimes b\\otimes 1,}\n\nϕ 13 (a ",
+      "stage1_score": null,
+      "multimodal_score": null,
+      "is_disambiguation": false,
+      "source_query": "T H O T H R"
+    },
+    {
+      "page_id": "2604796",
+      "revision_id": "1326829321",
+      "title": "Eupatorieae",
+      "url": "https://en.wikipedia.org/wiki/Eupatorieae",
+      "bm25_score": 18.806385040283203,
+      "excerpt": "Eupatorieae is a tribe of over 2000 species of plants in the family Asteraceae. Most of the species are native to tropical, subtropical, and warm temperate areas of the Americas, but some are found elsewhere. Well-known members are Stevia rebaudiana (used as a sugar substitute), a number of medicinal plants (Eupatorium), and a variety of late summer to autumn blooming garden flowers, including Ageratum (flossflower), Conoclinium (mistflower), and Liatris (blazing star or gayfeather).\n\nPlants in this tribe have only disc florets (no ray florets) and their petals are white, slightly yellowish off-white, pink, or purple (never a full yellow).\n\nWithin the aster family, the Eupatorieae are in the subfamily Asteroideae. Within Asteroideae, they are in the supertribe Helianthodae. Within Helianthodae, they belong to an informal group without taxonomic rank called the phytomelanin cypsela clade, which contains 11 tribes.\n\nThe sister tribe of Eupatorieae is probably Perityleae. This result received moderate statistical support (68% bootstrap percentage) in a study published in 2002.\n\nThe largest genera and the approximate number of species in each are: Mikania (440), Ageratina (290), Stevia",
+      "stage1_score": null,
+      "multimodal_score": null,
+      "is_disambiguation": false,
+      "source_query": "T H O T H R"
+    },
+    {
+      "page_id": "64550992",
+      "revision_id": "1334871553",
+      "title": "Ryser's conjecture",
+      "url": "https://en.wikipedia.org/wiki/Ryser%27s_conjecture",
+      "bm25_score": 18.793357849121094,
+      "excerpt": "In graph theory, Ryser's conjecture is a conjecture relating the maximum matching size and the minimum transversal size in hypergraphs.\n\nThis conjecture first appeared in 1971 in the Ph.D. thesis of J. R. Henderson, whose advisor was Herbert John Ryser.\n\nA matching in a hypergraph is a set of hyperedges such that each vertex appears in at most one of them. The largest size of a matching in a hypergraph H is denoted by ν (H) {\\displaystyle \\nu (H)}.\n\nA transversal (or vertex cover) in a hypergraph is a set of vertices such that each hyperedge contains at least one of them. The smallest size of a transversal in a hypergraph H is denoted by τ (H) {\\displaystyle \\tau (H)}.\n\nFor every H, ν (H) ≤ τ (H) {\\displaystyle \\nu (H)\\leq \\tau (H)}, since every cover must contain at least one point from each edge in any matching.\n\nIf H is r -uniform (each hyperedge has exactly r vertices), then τ (H) ≤ r ⋅ ν (H) {\\displaystyle \\tau (H)\\leq r\\cdot \\nu (H)}, since the union of the edges from any maximal matching is a set of at most rv vertices that meets every edge.\n\nRyser's conjecture is that, if H is not only r -uniform but also r-partite (i.e., its vertices can be partitioned into r sets so that ",
+      "stage1_score": null,
+      "multimodal_score": null,
+      "is_disambiguation": false,
+      "source_query": "T H O T H R"
+    },
+    {
+      "page_id": "23667568",
+      "revision_id": "1086015190",
+      "title": "Neomirandea",
+      "url": "https://en.wikipedia.org/wiki/Neomirandea",
+      "bm25_score": 18.78727149963379,
+      "excerpt": "Neomirandea is a genus of Central American and South American flowering plants in the boneset tribe within the sunflower family.\n\nSpecies\n\nNeomirandea allenii R.M.King & H.Rob.\n\nNeomirandea angularis (B.L.Rob.) R.M.King & H.Rob.\n\nNeomirandea araliaefolia (Less.) R.M.King & H.Rob.\n\nNeomirandea araliifolia (Less.) R.M.King & H.Rob.\n\nNeomirandea arthodes (B.L.Rob.) R.M.King & H.Rob.\n\nNeomirandea biflora R.M.King & H.Rob.\n\nNeomirandea burgeri R.M.King & H.Rob.\n\nNeomirandea carnosa (Kuntze) R.M.King & H.Rob.\n\nNeomirandea chiriquensis R.M.King & H.Rob.\n\nNeomirandea costaricensis R.M.King & H.Rob.\n\nNeomirandea croatii R.M.King & H.Rob.\n\nNeomirandea cuatrecasana S.Díaz\n\nNeomirandea eximia (B.L.Rob.) R.M.King & H.Rob.\n\nNeomirandea folsomiana M.O.Dillon & D'Arcy\n\nNeomirandea gracilis R.M.King & H.Rob.\n\nNeomirandea grosvenorii R.M.King & H.Rob.\n\nNeomirandea guevarii R.M.King & H.Rob.\n\nNeomirandea homogama (Hieron.) H.Rob. & Brettell\n\nNeomirandea ovandensis R.M.King & H.Rob.\n\nNeomirandea panamensis R.M.King & H.Rob.\n\nNeomirandea parasitica (Klatt) R.M.King & H.Rob.\n\nNeomirandea pendulissima Al.Rodr.\n\nNeomirandea pithecobia (B.L.Rob.) R.M.King & H.Rob.\n\nNeomirandea pseudopsoralea R.M.King & H.R",
+      "stage1_score": null,
+      "multimodal_score": null,
+      "is_disambiguation": false,
+      "source_query": "T H O T H R"
+    }
+  ],
+  "article_text_sha256": "9b884ddb58bd467e831cf686262c051914f72084b6c5218e3abfae24ec2619c6",
+  "decision_rationale": "Accepted candidate 'Braided Hopf algebra' using BM25 score 18.98 (retrieval scores not computed)."
+}

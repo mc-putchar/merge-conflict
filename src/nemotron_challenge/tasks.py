@@ -163,9 +163,148 @@ def extract(settings: Settings, work_dir: Path) -> dict[str, Any]:
     }
 
 
+from .clients import ChatClient, RetrievalClient, WikiClient
+from .matching import (
+    MatchResult,
+    evaluate_match_decision,
+    fetch_full_article_verified,
+    generate_search_queries,
+    record_match_provenance,
+    rerank_candidates_multimodal,
+    rerank_candidates_text,
+    retrieve_candidates,
+)
+
+
 def match(settings: Settings, work_dir: Path) -> dict[str, Any]:
-    """TODO: define how your team finds and verifies article matches."""
-    _unfinished("match")
+    """Find and verify Wikipedia articles matching extracted Britannica entries."""
+    work_dir = Path(work_dir)
+    extract_file = work_dir / "extract" / "entries.json"
+    if not extract_file.is_file():
+        # Fall back to root artifacts if work_dir is different
+        alt_extract = Path("artifacts/extract/entries.json")
+        if alt_extract.is_file():
+            extract_file = alt_extract
+        else:
+            raise FileNotFoundError(f"Extracted entries not found at {extract_file}. Run extract stage first.")
+
+    raw_dir = Path("data/raw/britannica")
+    query_cache_dir = Path(os.environ.get("QUERY_CACHE_DIR", "data/cache/queries"))
+    wiki_cache_dir = Path(os.environ.get("WIKI_CACHE_DIR", "data/cache/wikipedia"))
+    match_dir = work_dir / "match"
+    match_dir.mkdir(parents=True, exist_ok=True)
+
+    manifest = load_manifest()
+    pages_by_id = {page["page_id"]: page for page in manifest.get("pages", [])}
+
+    entries = json.loads(extract_file.read_text(encoding="utf-8"))
+
+    # Initialize clients
+    wiki_client = WikiClient(settings.wikipedia_api_url)
+
+    chat_client = None
+    if settings.super_base_url and settings.super_api_key:
+        try:
+            chat_client = ChatClient(settings.super_base_url, settings.super_api_key, settings.super_model)
+        except Exception:
+            chat_client = None
+
+    retrieval_client = None
+    if settings.retrieval_base_url:
+        try:
+            rc = RetrievalClient(settings.retrieval_base_url, settings.retrieval_api_key)
+            rc.verify_models()
+            retrieval_client = rc
+        except Exception:
+            retrieval_client = None
+
+    store = LanceArtifactStore(settings.db_path)
+
+    def process_one_entry(entry: dict[str, Any]) -> MatchResult:
+        entry_id = entry["entry_id"]
+        title = entry["title"]
+        text = entry.get("text", "")
+        source_pages = entry.get("source_pages", [])
+
+        # 1. Generate search queries
+        queries = generate_search_queries(entry_id, title, text, chat_client, query_cache_dir)
+
+        # 2. Retrieve lexical candidates from Wikipedia BM25 API
+        candidates = retrieve_candidates(queries, wiki_client, top_k_per_query=8)
+
+        # 3. Two-stage reranking (if retrieval service is online)
+        if retrieval_client and candidates:
+            candidates = rerank_candidates_text(title, text, candidates, retrieval_client)
+
+            scan_paths = []
+            for pid in source_pages:
+                pmeta = pages_by_id.get(pid)
+                if pmeta:
+                    scan_paths.append(raw_dir / pmeta["filename"])
+            candidates = rerank_candidates_multimodal(candidates, text, scan_paths, retrieval_client)
+
+        # 4. Evaluate acceptance decision
+        matched, top_cand, status, rationale = evaluate_match_decision(candidates, threshold=0.0)
+
+        # 5. For accepted matches, fetch complete verified Wikipedia article
+        article_sha256 = None
+        if matched and top_cand:
+            try:
+                article = fetch_full_article_verified(top_cand.page_id, wiki_client, wiki_cache_dir)
+                article_sha256 = article.provenance.text_sha256
+            except Exception as exc:
+                # If article retrieval fails, flag match reason
+                status = "accepted_unverified_article"
+                rationale += f" (Article fetch warning: {exc})"
+
+        result = MatchResult(
+            entry_id=entry_id,
+            britannica_title=title,
+            source_pages=source_pages,
+            matched=matched,
+            status=status,
+            selected_candidate=top_cand if matched else None,
+            all_candidates=candidates,
+            article_text_sha256=article_sha256,
+            decision_rationale=rationale,
+        )
+
+        # Persist individual match result artifact
+        (match_dir / f"{entry_id}.json").write_text(result.model_dump_json(indent=2), encoding="utf-8")
+        return result
+
+    # Run entry matching concurrently across entries
+    results_by_id: dict[str, MatchResult] = {}
+    with ThreadPoolExecutor(max_workers=3) as executor:
+        futures = {executor.submit(process_one_entry, entry): entry["entry_id"] for entry in entries}
+        for future in as_completed(futures):
+            res = future.result()
+            results_by_id[res.entry_id] = res
+
+    # Restore deterministic order matching input entries
+    results = [results_by_id[entry["entry_id"]] for entry in entries]
+
+    # Persist dual-source provenance to LanceDB
+    for result in results:
+        record_match_provenance(store, result, manifest, pages_by_id, work_dir)
+
+    # Save summary matches and unmatched lists
+    matches_list = [r.model_dump() for r in results if r.matched]
+    unmatched_list = [r.model_dump() for r in results if not r.matched]
+
+    (match_dir / "matches.json").write_text(json.dumps(matches_list, indent=2), encoding="utf-8")
+    (match_dir / "unmatched.json").write_text(json.dumps(unmatched_list, indent=2), encoding="utf-8")
+
+    return {
+        "stage": "match",
+        "status": "completed",
+        "entries_total": len(entries),
+        "matches_accepted": len(matches_list),
+        "matches_rejected": len(unmatched_list),
+        "retrieval_service_active": retrieval_client is not None,
+        "artifacts_dir": str(match_dir),
+        "database_path": str(settings.db_path),
+    }
 
 
 def compare(settings: Settings, work_dir: Path) -> dict[str, Any]:

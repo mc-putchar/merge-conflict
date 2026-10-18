@@ -32,7 +32,7 @@ def test_live_doctor_reports_missing_resources(monkeypatch):
     assert report["inference"] == "not tested"
 
 
-@pytest.mark.parametrize("stage", ["match", "compare", "agent", "site", "evaluate"])
+@pytest.mark.parametrize("stage", ["compare", "agent", "site", "evaluate"])
 def test_unfinished_stage_fails_with_guide_and_creates_no_result(stage, tmp_path, capsys):
     path = tmp_path / "team-artifacts"
     assert main(["run", stage, "--work-dir", str(path)]) == 2
@@ -69,6 +69,54 @@ def test_extract_stage_with_mocked_parse(monkeypatch, tmp_path):
 
     assert main(["run", "extract", "--work-dir", str(artifacts_path)]) == 0
     assert (artifacts_path / "extract" / "entries.json").is_file()
+
+
+def test_match_stage_execution(monkeypatch, tmp_path):
+    artifacts_path = tmp_path / "artifacts"
+    extract_dir = artifacts_path / "extract"
+    extract_dir.mkdir(parents=True, exist_ok=True)
+    sample_entries = [
+        {
+            "entry_id": "test-entry-1",
+            "title": "ABYSSINIA",
+            "text": "Abyssinia is an ancient country in eastern Africa.",
+            "source_pages": ["britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:13"],
+            "source_row_indices": [13],
+            "volume_id": "193913444",
+            "is_continuation": False,
+            "block_count": 1,
+            "character_count": 50,
+        }
+    ]
+    (extract_dir / "entries.json").write_text(json.dumps(sample_entries), encoding="utf-8")
+
+    db_path = tmp_path / "test.lancedb"
+    monkeypatch.setenv("CHALLENGE_DB_PATH", str(db_path))
+    monkeypatch.setenv("QUERY_CACHE_DIR", str(tmp_path / "queries"))
+    monkeypatch.setenv("WIKI_CACHE_DIR", str(tmp_path / "wiki"))
+
+    # Mock matching functions to avoid live network in unit test
+    import nemotron_challenge.tasks as t
+    from nemotron_challenge.matching import MatchCandidate
+    mock_cand = MatchCandidate(
+        page_id="100", revision_id="1", title="Ethiopia", url="https://en.wikipedia.org/wiki/Ethiopia",
+        bm25_score=15.0, excerpt="Ethiopia is a country in the Horn of Africa.",
+        stage1_score=2.0, multimodal_score=2.5,
+    )
+    monkeypatch.setattr(t, "generate_search_queries", lambda *args, **kwargs: ["Ethiopia"])
+    monkeypatch.setattr(t, "retrieve_candidates", lambda *args, **kwargs: [mock_cand])
+
+    class MockArticle:
+        class Provenance:
+            text_sha256 = "d" * 64
+        provenance = Provenance()
+
+    monkeypatch.setattr(t, "fetch_full_article_verified", lambda *args, **kwargs: MockArticle())
+
+    assert main(["run", "match", "--work-dir", str(artifacts_path)]) == 0
+    assert (artifacts_path / "match" / "matches.json").is_file()
+    assert (artifacts_path / "match" / "unmatched.json").is_file()
+
 
 
 def test_stages_list_has_todos(capsys):

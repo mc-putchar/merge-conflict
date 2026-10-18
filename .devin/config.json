@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(**)",
+      "Exec(git status)",
+      "Exec(git diff)",
+      "Exec(git log)",
+      "Exec(uv run)",
+      "Exec(uvx)",
+      "Exec(terminal-browser)",
+      "mcp__fetch__*",
+      "mcp__filesystem__*"
+    ],
+    "deny": [
+      "Read(.env)",
+      "Read(.env.*)",
+      "Read(.secrets/**)",
+      "Exec(git push)"
+    ]
+  }
+}

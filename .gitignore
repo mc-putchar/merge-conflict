@@ -21,3 +21,7 @@ site/
 .secrets/
 *.key
 *.pem
+.devin/*
+!.devin/skills/
+!.devin/config.json
+!.devin/mcp_config.json
