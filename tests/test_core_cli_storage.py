@@ -56,9 +56,27 @@ def test_site_stage_execution(tmp_path, monkeypatch):
     monkeypatch.setenv("CHALLENGE_DB_PATH", str(db_path))
 
     assert main(["run", "site", "--work-dir", str(artifacts_path)]) == 0
-    assert (artifacts_path / "site" / "index.html").is_file()
-    assert (artifacts_path / "site" / "latex" / "test-entry-site.tex").is_file()
-    assert "ABYSSINIA" in (artifacts_path / "site" / "latex" / "test-entry-site.tex").read_text()
+    site_dir = artifacts_path / "site"
+    assert (site_dir / "index.html").is_file()
+    tex_file = site_dir / "latex" / "test-entry-site.tex"
+    assert tex_file.is_file()
+    tex = tex_file.read_text()
+    assert "ABYSSINIA" in tex and "\\usepackage{graphicx}" in tex
+    assert (site_dir / "latex" / "compile_report.json").is_file()
+
+    # Slim index + per-entry detail split
+    index = json.loads((site_dir / "data" / "challenge_data.json").read_text())
+    card = index["entries"][0]
+    assert "text" not in card and card["detail_file"] == "data/entries/test-entry-site.json"
+    detail = json.loads((site_dir / "data" / "entries" / "test-entry-site.json").read_text())
+    assert detail["entry"]["text"] == "Historical text on Abyssinia."
+    assert detail["scans"][0]["path"].startswith("scans/")
+
+    # Manifest + link verification artifacts
+    manifest = json.loads((site_dir / "site_manifest.json").read_text())
+    assert "data/entries/test-entry-site.json" in manifest
+    verify = json.loads((site_dir / "site_verify.json").read_text())
+    assert verify["links_broken"] == 0
 
 
 def test_evaluate_stage_execution(tmp_path, monkeypatch):

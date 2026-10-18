@@ -1,10 +1,10 @@
 # Submission: Nemotron Agentic AI Challenge
 
 Team: Merge Conflict
-Repository URL and commit: e17a278a6a4033d22118d5d4910841f2e9f2d2eb
+Repository URL and commit: dde0b15284bcad79161ab5e322f6de1824f10452
 Video URL, 3 to 5 minutes: [Submitted in portal]
-Static website URL: artifacts/site/index.html (SvelteKit SPA)
-Compiled LaTeX documents: artifacts/site/latex/ (95 generated documents)
+Static website URL: https://mc-putchar.github.io/merge-conflict/ (publish via `scripts/publish_site.sh`; local build at `artifacts/site/`, serve the directory root over HTTP)
+Compiled LaTeX documents: artifacts/site/latex/ (95 compiled PDFs + .tex sources, tectonic)
 
 ## Reproduce the run
 
