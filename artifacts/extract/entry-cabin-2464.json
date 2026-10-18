@@ -1,0 +1,30 @@
+{
+  "entry_id": "entry-cabin-2464",
+  "title": "CABIN",
+  "text": "CABIN, in the fea-language, a final room, or apartment, whereby there are a great many in fewelful parts of a flip, particularly on the quarter-deck, and on each side of the fleerage, for the officers of the flip to lie in.\n\nThe great cabin is the chief of ’all, and that which properly belongs to the captain, or chief commander.",
+  "normalized_text": "CABIN, in the sea-language, a final room, or apartment, whereby there are a great many in fewelful parts of a flip, particularly on the quarter-deck, and on each side of the fleerage, for the officers of the flip to lie in.\n\nThe great cabin is the chief of ’all, and that which properly belongs to the captain, or chief commander.",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2464"
+  ],
+  "source_row_indices": [
+    2464
+  ],
+  "volume_id": "144133902",
+  "is_continuation": false,
+  "block_count": 2,
+  "character_count": 330,
+  "validity_score": 0.6441,
+  "metadata": {
+    "page_number": null,
+    "running_title": "",
+    "headword": "CABIN",
+    "text_changes_count": 1,
+    "text_changes_sample": [
+      {
+        "rule": "ocr_f_s_confusion",
+        "original": "fea",
+        "replacement": "sea"
+      }
+    ]
+  }
+}

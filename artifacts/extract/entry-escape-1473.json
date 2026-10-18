@@ -1,0 +1,35 @@
+{
+  "entry_id": "entry-escape-1473",
+  "title": "ESCAPE",
+  "text": "ESCAPE, in how a violent or privyvation out of\nhome lawful reflrant, without being delivered by due\ncourse of low. There are two lots of escape, valent\nbay and negligent. Voluntary, when a amreth\nanother for folony, or other crime, and afterwards lets\nhim go freely by conting, in which cafe, the party\nthat permits fich escapes and dailyly commended\nand multi author for it. Negligent eleceps, on the con-\ntrany, in where one is arrested, and afterwards deepas\nagainst the will of the perform that arred him, and is\nnot purified with fresh guards, and treaken before the\nperson containing lands left fight or him. By fast, it\noy Will. III: C. 26., the keepers of priform conviving at\nefecapes final (forter) crois; and in civil cases the flee\nrifi's a preferable for the debt.",
+  "normalized_text": "ESCAPE, in how a violent or privyvation out of\nhome lawful reflrant, without being delivered by due\ncourse of low. There are two lots of escape, valent\nbay and negligent. Voluntary, when a amreth\nanother for folony, or other crime, and afterwards lets\nhim go freely by conting, in which case, the party\nthat permits fich escapes and dailyly commended\nand multi author for it. Negligent eleceps, on the contrany, in where one is arrested, and afterwards deepas\nagainst the will of the perform that arred him, and is\nnot purified with fresh guards, and treaken before the\nperson containing lands left fight or him. By fast, it\noy Will. III: C. 26., the keepers of priform conviving at\nefecapes final (forter) crois; and in civil cases the flee\nrifi's a preferable for the debt.",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1473"
+  ],
+  "source_row_indices": [
+    1473
+  ],
+  "volume_id": "149979622",
+  "is_continuation": false,
+  "block_count": 1,
+  "character_count": 777,
+  "validity_score": 0.4615,
+  "metadata": {
+    "page_number": null,
+    "running_title": "ESC 1723 I ESC",
+    "headword": "ESCAPE",
+    "text_changes_count": 2,
+    "text_changes_sample": [
+      {
+        "rule": "line_break_hyphen",
+        "original": "con-\ntrany",
+        "replacement": "contrany"
+      },
+      {
+        "rule": "ocr_f_s_confusion",
+        "original": "cafe",
+        "replacement": "case"
+      }
+    ]
+  }
+}

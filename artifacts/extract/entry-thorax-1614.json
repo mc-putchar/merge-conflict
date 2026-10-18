@@ -1,0 +1,44 @@
+{
+  "entry_id": "entry-thorax-1614",
+  "title": "Engraved Plate (Row 1614)",
+  "text": "THORAX, in anatomy. See Anatomy, p. 277.\n\n[HISTORICAL COPPERPLATE ENGRAVING: Engraved Plate (Row 1614)]\nCategory: Historical Illustration\nVisual Description: Historical copperplate engraving from Encyclopaedia Britannica (1771).\nIdentified Engraved Figures:\n\nRelated Scientific Subjects: Encyclopaedia Britannica, Engraving",
+  "normalized_text": "THORAX, in anatomy. See Anatomy, p. 277.",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1614"
+  ],
+  "source_row_indices": [
+    1614
+  ],
+  "volume_id": "144133903",
+  "is_continuation": false,
+  "block_count": 1,
+  "character_count": 323,
+  "validity_score": 0.4,
+  "metadata": {
+    "page_number": null,
+    "running_title": "T H O ( 896 )",
+    "headword": "THORAX",
+    "text_changes_count": 0,
+    "visual_annotation": {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1614",
+      "row_index": 1614,
+      "filename": "page-1614-ea352b487d65.jpg",
+      "plate_title": "Engraved Plate (Row 1614)",
+      "plate_category": "Historical Illustration",
+      "description": "Historical copperplate engraving from Encyclopaedia Britannica (1771).",
+      "identified_figures": [],
+      "wikipedia_keywords": [
+        "Encyclopaedia Britannica",
+        "Engraving"
+      ],
+      "bbox": {
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 1.0,
+        "y2": 1.0
+      },
+      "model_used": "nvidia/Nemotron-3.5-Super-VL"
+    },
+    "is_illustration_plate": true
+  }
+}

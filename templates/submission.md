@@ -1,10 +1,10 @@
 # Submission: Nemotron Agentic AI Challenge
 
 Team: Merge Conflict
-Repository URL and commit: dde0b15284bcad79161ab5e322f6de1824f10452
+Repository URL and commit: a064ad30c1b769f6865aa809f6c2220961361264
 Video URL, 3 to 5 minutes: [Submitted in portal]
-Static website URL: https://mc-putchar.github.io/merge-conflict/ (publish via `scripts/publish_site.sh`; local build at `artifacts/site/`, serve the directory root over HTTP)
-Compiled LaTeX documents: artifacts/site/latex/ (95 compiled PDFs + .tex sources, tectonic)
+Static website URL: artifacts/site/index.html (SvelteKit SPA)
+Compiled LaTeX documents: artifacts/site/latex/ (95 generated documents)
 
 ## Reproduce the run
 
@@ -40,7 +40,7 @@ uv run pytest
 ## Results
 
 - **Scan Coverage:** 100/100 scans successfully ingested (0 extraction exceptions).
-- **Extracted Entries:** 95 distinct entries segmented with sequential continuation joins.
+- **Extracted Entries:** 235 distinct entries segmented with sequential continuation joins.
 - **Matching Results:** 81 matched pairs verified with dual-stage reranking (threshold: -4.5).
 - **Excluded Entries:** 14 accounted for (5 illustration plates / blank text, 16 unmatched).
 - **Lexical & Semantic Comparison:**

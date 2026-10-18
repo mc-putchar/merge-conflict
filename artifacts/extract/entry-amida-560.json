@@ -1,0 +1,37 @@
+{
+  "entry_id": "entry-amida-560",
+  "title": "AMIDA",
+  "text": "AMIDA, a god worshipped by the japané, who has many temple credited to him in the island of Japan, of which the principal is at Jedo. The Japanese have fuch a confidence in their laid Andanda, that they hope to train several filing by the frequent invoces into one of the same. One of the figures of this idol is reprefeated at Rome.\n\nAmida (une groge), a principal city of Méopomisnia (Libre Notias) y'_Amanda_ (Polandry); frutated on a high mountain, on the beaches of Afyrits, on the Yrys, you ever receive the Symphian— It was taken from the Romans in the time of the emperor Conflars, by Scarye Ring of Perita. The logic is fold to have call him 20.00 men, however, he reduced it to fuch ruin, that the emperor afterwards wept over it. According to Jamaimia Macrellana, the city may reside, like chiff offers were crucified; and the refl, with the soldiers and inhabitants, either put to the foreword or carried into registry, except our billionam landlir, and two orthree more, who, in the dead of the night, escaped through a polsum upterced by the enemy. The inhabits of Zollibs, however, being obliged to leave than own city by Jovian’s treaty with ACT [ 97] ACT",
+  "normalized_text": "AMIDA, a god worshipped by the japané, who has many temple credited to him in the island of Japan, of which the principal is at Jedo. The Japanese have such a confidence in their laid Andanda, that they hope to train several filing by the frequent invoces into one of the same. One of the figures of this idol is reprefeated at Rome.\n\nAmida (une groge), a principal city of Méopomisnia (Libre Notias) y'_Amanda_ (Polandry); frutated on a high mountain, on the beaches of Afyrits, on the Yrys, you ever receive the Symphian— It was taken from the Romans in the time of the emperor Conflars, by Scarye Ring of Perita. The logic is fold to have call him 20.00 men, however, he reduced it to such ruin, that the emperor afterwards wept over it. According to Jamaimia Macrellana, the city may reside, like chiff offers were crucified; and the refl, with the soldiers and inhabitants, either put to the foreword or carried into registry, except our billionam landlir, and two orthree more, who, in the dead of the night, escaped through a polsum upterced by the enemy. The inhabits of Zollibs, however, being obliged to leave than own city by Jovian’s treaty with ACT [ 97] ACT",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:560",
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:563"
+  ],
+  "source_row_indices": [
+    560,
+    563
+  ],
+  "volume_id": "191253801",
+  "is_continuation": false,
+  "block_count": 3,
+  "character_count": 1171,
+  "validity_score": 0.545,
+  "metadata": {
+    "page_number": null,
+    "running_title": "AMI [ 619] A M I",
+    "headword": "AMIDA",
+    "text_changes_count": 2,
+    "text_changes_sample": [
+      {
+        "rule": "ocr_f_s_confusion",
+        "original": "fuch",
+        "replacement": "such"
+      },
+      {
+        "rule": "ocr_f_s_confusion",
+        "original": "fuch",
+        "replacement": "such"
+      }
+    ]
+  }
+}

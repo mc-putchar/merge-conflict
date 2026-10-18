@@ -1,0 +1,30 @@
+{
+  "entry_id": "entry-helmintholthuis-1017",
+  "title": "HELMINTHOLTHUIS",
+  "text": "HELMINTHOLTHUIS, in natural history a name given by Lumana un pretrified bodies of rembling worms. Of the lie no reckons four genera. 1. Petrified li- thehyts, found in the mountains of Sweden. 2. Petirified shells. 3. Petrified zophytes. 4. Petrified reptiles.",
+  "normalized_text": "HELMINTHOLTHUIS, in natural history a name given by Lumana un pretrified bodies of rembling worms. Of the lie no reckons four genera. 1. Petrified li- thehyts, sound in the mountains of Sweden. 2. Petirified shells. 3. Petrified zophytes. 4. Petrified reptiles.",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1017"
+  ],
+  "source_row_indices": [
+    1017
+  ],
+  "volume_id": "144850367",
+  "is_continuation": false,
+  "block_count": 1,
+  "character_count": 261,
+  "validity_score": 0.3333,
+  "metadata": {
+    "page_number": null,
+    "running_title": "( 781 )",
+    "headword": "HELMINTHOLTHUIS",
+    "text_changes_count": 1,
+    "text_changes_sample": [
+      {
+        "rule": "ocr_f_s_confusion",
+        "original": "found",
+        "replacement": "sound"
+      }
+    ]
+  }
+}

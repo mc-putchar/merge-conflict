@@ -1,0 +1,35 @@
+{
+  "entry_id": "entry-buxton-2250",
+  "title": "BUXTON",
+  "text": "BUXTON, a place in the peak of Derbyhires; celebrated for medicinal waters; the bottelt in England, next to Bath.\n\nBuxcoow-will. The frats of earth and minerals, in the parts adjacent to Buxton, are peat-mols, blue clay, iron, and coal, mixed with filpular and brazzl. The warm waters there, as preferers are the ban, which takes in federal water-franges; St Am’s well, a hot and cold spring riding up into the fame receptele, and Ilgham-well.\n\nThefe waters greatly promote digestion, unief they are drunk too long; in which cell they relax the flo- made, and reared digestion; they are well adapted to obstructions of every kind, whence they produce fur- grilling effects in gouy, rheumatic, athrire, and feor- butic pains. As this water as warn, highly impregnated with a mineral foam, vapoon, or finite, it is figally beneficial to crampt, convilions, dry affthmas, the biluso colis, liftedly, cz.\n\nThey advirle both drinking and bathing in the ule of thute waters is only the left is of bad consequence in the gout, inward inflammations, fevers, dyfentery, large inward tumours, or in an outward preflure of the body.",
+  "normalized_text": "BUXTON, a place in the peak of Derbyhires; celebrated for medicinal waters; the bottelt in England, next to Bath.\n\nBuxcoow-will. The frats of earth and minerals, in the parts adjacent to Buxton, are peat-mols, blue clay, iron, and coal, mixed with filpular and brazzl. The warm waters there, as preferers are the ban, which takes in federal water-franges; St Am’s well, a hot and cold spring riding up into the same receptele, and Ilgham-well.\n\nThese waters greatly promote digestion, unief they are drunk too long; in which cell they relax the flo- made, and reared digestion; they are well adapted to obstructions of every kind, whence they produce fur- grilling effects in gouy, rheumatic, athrire, and feor- butic pains. As this water as warn, highly impregnated with a mineral foam, vapoon, or finite, it is figally beneficial to crampt, convilions, dry affthmas, the biluso colis, liftedly, cz.\n\nThey advirle both drinking and bathing in the ule of thute waters is only the left is of bad consequence in the gout, inward inflammations, fevers, dyfentery, large inward tumours, or in an outward preflure of the body.",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2250"
+  ],
+  "source_row_indices": [
+    2250
+  ],
+  "volume_id": "144133901",
+  "is_continuation": false,
+  "block_count": 4,
+  "character_count": 1121,
+  "validity_score": 0.4462,
+  "metadata": {
+    "page_number": null,
+    "running_title": "",
+    "headword": "BUXTON",
+    "text_changes_count": 2,
+    "text_changes_sample": [
+      {
+        "rule": "ocr_f_s_confusion",
+        "original": "fame",
+        "replacement": "same"
+      },
+      {
+        "rule": "ocr_f_s_confusion",
+        "original": "Thefe",
+        "replacement": "these"
+      }
+    ]
+  }
+}

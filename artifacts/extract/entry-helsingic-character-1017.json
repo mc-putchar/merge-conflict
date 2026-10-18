@@ -1,0 +1,30 @@
+{
+  "entry_id": "entry-helsingic-character-1017",
+  "title": "HELSINGIC CHARACTER",
+  "text": "HELSINGIC CHARACTER, a peculiar kind of character, found inferited on flones in the province of Hel- fingia s the Runic and Hellingic characters may be easily transformed into each other.",
+  "normalized_text": "HELSINGIC CHARACTER, a peculiar kind of character, sound inferited on flones in the province of Hel- fingia s the Runic and Hellingic characters may be easily transformed into each other.",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1017"
+  ],
+  "source_row_indices": [
+    1017
+  ],
+  "volume_id": "144850367",
+  "is_continuation": false,
+  "block_count": 1,
+  "character_count": 187,
+  "validity_score": 0.5,
+  "metadata": {
+    "page_number": null,
+    "running_title": "( 781 )",
+    "headword": "HELSINGIC CHARACTER",
+    "text_changes_count": 1,
+    "text_changes_sample": [
+      {
+        "rule": "ocr_f_s_confusion",
+        "original": "found",
+        "replacement": "sound"
+      }
+    ]
+  }
+}

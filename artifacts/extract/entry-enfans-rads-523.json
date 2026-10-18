@@ -1,0 +1,44 @@
+{
+  "entry_id": "entry-enfans-rads-523",
+  "title": "Engraved Plate (Row 523)",
+  "text": "ENFANS RADS, the time with folorn-hope FORONS.\n\n[HISTORICAL COPPERPLATE ENGRAVING: Engraved Plate (Row 523)]\nCategory: Historical Illustration\nVisual Description: Historical copperplate engraving from Encyclopaedia Britannica (1771).\nIdentified Engraved Figures:\n\nRelated Scientific Subjects: Encyclopaedia Britannica, Engraving",
+  "normalized_text": "ENFANS RADS, the time with folorn-hope FORONS.",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:523"
+  ],
+  "source_row_indices": [
+    523
+  ],
+  "volume_id": "144850375",
+  "is_continuation": false,
+  "block_count": 1,
+  "character_count": 328,
+  "validity_score": 0.375,
+  "metadata": {
+    "page_number": null,
+    "running_title": "EN G [ 2729] E N G",
+    "headword": "ENFANS RADS",
+    "text_changes_count": 0,
+    "visual_annotation": {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:523",
+      "row_index": 523,
+      "filename": "page-0523-a583606e375a.jpg",
+      "plate_title": "Engraved Plate (Row 523)",
+      "plate_category": "Historical Illustration",
+      "description": "Historical copperplate engraving from Encyclopaedia Britannica (1771).",
+      "identified_figures": [],
+      "wikipedia_keywords": [
+        "Encyclopaedia Britannica",
+        "Engraving"
+      ],
+      "bbox": {
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 1.0,
+        "y2": 1.0
+      },
+      "model_used": "nvidia/Nemotron-3.5-Super-VL"
+    },
+    "is_illustration_plate": true
+  }
+}

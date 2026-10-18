@@ -1,0 +1,30 @@
+{
+  "entry_id": "entry-engine-523",
+  "title": "ENGINE",
+  "text": "ENGINE, Sì mechanics, its a compound machine, made of one or more mechanical powers, as levers, pullies, ferws, &. in order to raise, cat, or fulanany any weight, or produce any effect which could not be easily effected otherwise. The word is formed of the French reign, from the Latin ingeniums witst by England reafon of the ingenuity required in the contrivance of engines to augment the effect of moving powers.\n\nENGINS for extingufliling Fires. See HYBROSTA- tics, n°3 Pile-EgGins, one convirted for driving piles. See Pix- Engine.\n\nStates Engins, a machine to raife water by fire, or rather by the force of water turned into fleam. See States Engine.\n\nEnsings for dividing Mathematical Infrements. See Ramadern’s Engine.",
+  "normalized_text": "ENGINE, Sì mechanics, its a compound machine, made of one or more mechanical powers, as levers, pullies, ferws, &. in order to raise, cat, or fulanany any weight, or produce any effect which could not be easily effected otherwise. The word is formed of the French reign, from the Latin ingeniums witst by England reason of the ingenuity required in the contrivance of engines to augment the effect of moving powers.\n\nENGINS for extingufliling Fires. See HYBROSTA- tics, n°3 Pile-EgGins, one convirted for driving piles. See Pix- Engine.\n\nStates Engins, a machine to raife water by fire, or rather by the force of water turned into fleam. See States Engine.\n\nEnsings for dividing Mathematical Infrements. See Ramadern’s Engine.",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:523"
+  ],
+  "source_row_indices": [
+    523
+  ],
+  "volume_id": "144850375",
+  "is_continuation": false,
+  "block_count": 6,
+  "character_count": 726,
+  "validity_score": 0.4912,
+  "metadata": {
+    "page_number": null,
+    "running_title": "EN G [ 2729] E N G",
+    "headword": "ENGINE",
+    "text_changes_count": 1,
+    "text_changes_sample": [
+      {
+        "rule": "ocr_f_s_confusion",
+        "original": "reafon",
+        "replacement": "reason"
+      }
+    ]
+  }
+}

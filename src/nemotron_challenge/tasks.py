@@ -44,7 +44,8 @@ def extract(settings: Settings, work_dir: Path) -> dict[str, Any]:
         if cache_path.is_file():
             try:
                 raw_json = json.loads(cache_path.read_text(encoding="utf-8"))
-                return page_meta, raw_json
+                if raw_json.get("status") != "failed":
+                    return page_meta, raw_json
             except (json.JSONDecodeError, OSError):
                 pass
 
@@ -56,14 +57,26 @@ def extract(settings: Settings, work_dir: Path) -> dict[str, Any]:
         encoded = base64.b64encode(image_bytes).decode("ascii")
         data_url = f"data:image/jpeg;base64,{encoded}"
 
-        try:
-            with ParseClient(settings.parse_base_url, settings.parse_api_key) as client:
-                raw_json = client.parse(data_url)
-        except Exception as exc:
-            # Capture error details without inventing fake results
+        max_attempts = 3
+        last_exc: Exception | None = None
+        raw_json = None
+        import time
+
+        for attempt in range(max_attempts):
+            try:
+                with ParseClient(settings.parse_base_url, settings.parse_api_key, timeout=300) as client:
+                    raw_json = client.parse(data_url)
+                if raw_json and raw_json.get("choices"):
+                    break
+            except Exception as exc:
+                last_exc = exc
+                if attempt < max_attempts - 1:
+                    time.sleep(2 ** attempt)
+
+        if not raw_json or not raw_json.get("choices"):
             raw_json = {
                 "status": "failed",
-                "error": str(exc),
+                "error": str(last_exc) if last_exc else "unknown extraction error",
                 "choices": [],
             }
 
@@ -164,6 +177,12 @@ def extract(settings: Settings, work_dir: Path) -> dict[str, Any]:
         ))
         records_saved += 1
 
+    avg_validity = (
+        round(sum(e.validity_score for e in entries) / len(entries), 4)
+        if entries else 0.0
+    )
+    low_validity_count = sum(1 for e in entries if e.validity_score < 0.60)
+
     return {
         "stage": "extract",
         "status": "completed",
@@ -175,6 +194,8 @@ def extract(settings: Settings, work_dir: Path) -> dict[str, Any]:
         "plates_recovered": plates_recovered,
         "continuations": sum(1 for e in entries if e.is_continuation),
         "total_characters": sum(e.character_count for e in entries),
+        "average_validity_score": avg_validity,
+        "low_validity_entries_count": low_validity_count,
         "provenance_records_saved": records_saved,
         "artifacts_dir": str(extract_dir),
         "database_path": str(settings.db_path),

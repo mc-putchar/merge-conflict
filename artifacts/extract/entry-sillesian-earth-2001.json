@@ -1,0 +1,30 @@
+{
+  "entry_id": "entry-sillesian-earth-2001",
+  "title": "SILLESIAN EARTH",
+  "text": "SILLESIAN EARTH, in the _Materia Medice_, a fine affungent bole. It is very heavy, of a firm compel tantras, and in colors of the brownie yellow. It breaks early between the fingers, and does not flash the hands; is naturally a smooth before, is readily available in water, and multis freely into a butterflies, lightable in the mouth. It leaves no grittiness between the teeth, and does not ferment with acids. It is found in the perpendicular letters of rocks across the gold mines in Hungary.",
+  "normalized_text": "SILLESIAN EARTH, in the _Materia Medice_, a fine affungent bole. It is very heavy, of a firm compel tantras, and in colors of the brownie yellow. It breaks early between the fingers, and does not flash the hands; is naturally a smooth before, is readily available in water, and multis freely into a butterflies, lightable in the mouth. It leaves no grittiness between the teeth, and does not ferment with acids. It is sound in the perpendicular letters of rocks across the gold mines in Hungary.",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2001"
+  ],
+  "source_row_indices": [
+    2001
+  ],
+  "volume_id": "192200899",
+  "is_continuation": false,
+  "block_count": 1,
+  "character_count": 495,
+  "validity_score": 0.4634,
+  "metadata": {
+    "page_number": null,
+    "running_title": "S I L [ 355 ]",
+    "headword": "SILLESIAN EARTH",
+    "text_changes_count": 1,
+    "text_changes_sample": [
+      {
+        "rule": "ocr_f_s_confusion",
+        "original": "found",
+        "replacement": "sound"
+      }
+    ]
+  }
+}

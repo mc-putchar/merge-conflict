@@ -1,0 +1,25 @@
+{
+  "entry_id": "entry-thonn-1614",
+  "title": "THONN",
+  "text": "THONN. a city of Poland, in the province of regal Praflix, illustrated on the river Villula e. E. long. 19\", and N. lat.",
+  "normalized_text": "THONN. a city of Poland, in the province of regal Praflix, illustrated on the river Villula e. E. long. 19\", and N. lat.",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1614",
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1615"
+  ],
+  "source_row_indices": [
+    1614,
+    1615
+  ],
+  "volume_id": "144133903",
+  "is_continuation": true,
+  "block_count": 2,
+  "character_count": 120,
+  "validity_score": 0.5556,
+  "metadata": {
+    "page_number": null,
+    "running_title": "T H O ( 896 )",
+    "headword": "THONN",
+    "text_changes_count": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "entry_id": "entry-hemerobius-1017",
+  "title": "HEMEROBIUS",
+  "text": "HEMEROBIUS, in zoology, a genus of deficits of the temperature, the characters of which are thefe. The mouth is furnished with two teeth; the pulpit are four; the wings are dellected, but not planted; and:",
+  "normalized_text": "HEMEROBIUS, in zoology, a genus of deficits of the temperature, the characters of which are these. The mouth is furnished with two teeth; the pulpit are four; the wings are dellected, but not planted; and:",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1017"
+  ],
+  "source_row_indices": [
+    1017
+  ],
+  "volume_id": "144850367",
+  "is_continuation": false,
+  "block_count": 1,
+  "character_count": 205,
+  "validity_score": 0.5882,
+  "metadata": {
+    "page_number": null,
+    "running_title": "( 781 )",
+    "headword": "HEMEROBIUS",
+    "text_changes_count": 1,
+    "text_changes_sample": [
+      {
+        "rule": "ocr_f_s_confusion",
+        "original": "thefe",
+        "replacement": "these"
+      }
+    ]
+  }
+}

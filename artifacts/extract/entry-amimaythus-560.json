@@ -1,0 +1,30 @@
+{
+  "entry_id": "entry-amimaythus-560",
+  "title": "AMIMAYTHUS",
+  "text": "AMIMAYTHUS, or BAATH-FLAX, in natural hi- flory & thron, flexila, elastic, mineral inheritance, confifting of floor, abrupt, and interwoven ligaments. It is found in Germany, in the firara of iron ore, fomo Amination is called by Mr Kirwan in the muriatic geum of earth, breatls it contains about a fifth part of magnifica. Its other enthusiasts are, film, mid calcareous earth, bayres, clay, and a very final pro portion of iron. It is fullible _per f in a first long,_ but, and allo with the common fluxes. It differs from afbele in containing force prodorous art.",
+  "normalized_text": "AMIMAYTHUS, or BAATH-FLAX, in natural hi- flory & thron, flexila, elastic, mineral inheritance, confifting of floor, abrupt, and interwoven ligaments. It is sound in Germany, in the firara of iron ore, fomo Amination is called by Mr Kirwan in the muriatic geum of earth, breatls it contains about a fifth part of magnifica. Its other enthusiasts are, film, mid calcareous earth, bayres, clay, and a very final pro portion of iron. It is fullible _per f in a first long,_ but, and allo with the common fluxes. It differs from afbele in containing force prodorous art.",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:560"
+  ],
+  "source_row_indices": [
+    560
+  ],
+  "volume_id": "191253801",
+  "is_continuation": false,
+  "block_count": 2,
+  "character_count": 566,
+  "validity_score": 0.4783,
+  "metadata": {
+    "page_number": null,
+    "running_title": "AMI [ 619] A M I",
+    "headword": "AMIMAYTHUS",
+    "text_changes_count": 1,
+    "text_changes_sample": [
+      {
+        "rule": "ocr_f_s_confusion",
+        "original": "found",
+        "replacement": "sound"
+      }
+    ]
+  }
+}

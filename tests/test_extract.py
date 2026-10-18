@@ -9,6 +9,8 @@ from nemotron_challenge.extraction import (
     ExtractedBlock,
     ParsedPage,
     clean_markdown_text,
+    compute_vocabulary_validity,
+    normalize_entry_text,
     parse_blocks,
     parse_page,
     record_provenance,
@@ -162,3 +164,110 @@ def test_record_provenance_store(tmp_path):
     assert len(rec.sources) == 1
     assert rec.sources[0].source_id == p.page_id
     assert rec.sources[0].content_sha256 == "f" * 64
+
+
+def test_section_header_preserved_in_body():
+    page_meta = {
+        "page_id": "britannica:test:train:200",
+        "volume_id": "99",
+        "row_index": 200,
+        "filename": "page-0200.jpg",
+        "image_sha256": "b" * 64,
+    }
+    raw_response = {
+        "choices": [
+            {
+                "message": {
+                    "content": (
+                        "<x_0.05><y_0.02>292 SHIP-BUILDING.<x_0.65><y_0.04><class_Page-header>\n\n"
+                        "<x_0.06><y_0.06>Practical Building<x_0.50><y_0.10><class_Section-header>\n\n"
+                        "<x_0.06><y_0.11>Detailed ship construction explanation.<x_0.50><y_0.30><class_Text>"
+                    )
+                }
+            }
+        ]
+    }
+    parsed = parse_page(page_meta, raw_response)
+    assert parsed.running_title == "SHIP-BUILDING."
+    assert "Practical Building" in parsed.body_text
+    assert "Detailed ship construction explanation." in parsed.body_text
+    assert parsed.body_text.index("Practical Building") < parsed.body_text.index("Detailed ship construction explanation.")
+
+
+def test_spanning_header_reading_order():
+    page_meta = {
+        "page_id": "britannica:test:train:201",
+        "volume_id": "99",
+        "row_index": 201,
+        "filename": "page-0201.jpg",
+        "image_sha256": "c" * 64,
+    }
+    raw_response = {
+        "choices": [
+            {
+                "message": {
+                    "content": (
+                        "<x_0.10><y_0.05>FULL PAGE TREATISE TITLE<x_0.90><y_0.12><class_Section-header>\n\n"
+                        "<x_0.05><y_0.15>Column one content.<x_0.48><y_0.50><class_Text>\n\n"
+                        "<x_0.52><y_0.15>Column two content.<x_0.95><y_0.50><class_Text>"
+                    )
+                }
+            }
+        ]
+    }
+    parsed = parse_page(page_meta, raw_response)
+    title_pos = parsed.body_text.index("FULL PAGE TREATISE TITLE")
+    col1_pos = parsed.body_text.index("Column one content.")
+    col2_pos = parsed.body_text.index("Column two content.")
+    assert title_pos < col1_pos < col2_pos
+
+
+def test_dictionary_headword_segmentation():
+    p = ParsedPage(
+        page_id="britannica:test:train:251",
+        volume_id="vol-3",
+        row_index=251,
+        filename="p251.jpg",
+        image_sha256="d" * 64,
+        running_title="SWI [ 248 ] SYD",
+        page_number=248,
+        body_text=(
+            "SWIVELS, a kind of ring made to turn round in a fluid or other ring.\n\n"
+            "SWORD, an offensive weapon worn at the side and serving to cut.\n\n"
+            "SYCOPHANT, an appellation given by the ancient Athenians to informants."
+        ),
+    )
+    entries = segment_entries([p])
+    assert len(entries) == 3
+    titles = [e.title for e in entries]
+    assert titles == ["SWIVELS", "SWORD", "SYCOPHANT"]
+    assert "kind of ring made to turn round" in entries[0].text
+    assert "offensive weapon" in entries[1].text
+    assert "appellation given by the ancient" in entries[2].text
+    assert all(e.validity_score > 0.6 for e in entries)
+
+
+def test_orthography_normalization_long_s_and_ligatures():
+    raw_text = "The Swifs cantons and their horfes, with fleep in the field of colour."
+    normalized, changes = normalize_entry_text(raw_text)
+    assert "horses" in normalized
+    assert "sleep" in normalized
+    assert "Swiss" in normalized
+    rule_names = {c["rule"] for c in changes}
+    assert "ocr_f_s_confusion" in rule_names
+
+    ligature_text = "The cœlum and the phœnix with ﬁne feathers."
+    norm_lig, lig_changes = normalize_entry_text(ligature_text)
+    assert "coelum" in norm_lig
+    assert "phoenix" in norm_lig
+    assert "fine" in norm_lig
+    assert any(c["rule"] == "ligature_expansion" for c in lig_changes)
+
+
+def test_compute_vocabulary_validity():
+    good_text = "The horse and sheep water in the river by the mountain."
+    garbled_text = "Xjkqz qzvwx blmpf zzzrq plkmn asdfg."
+    good_score = compute_vocabulary_validity(good_text)
+    garbled_score = compute_vocabulary_validity(garbled_text)
+    assert good_score >= 0.70
+    assert garbled_score == 0.0

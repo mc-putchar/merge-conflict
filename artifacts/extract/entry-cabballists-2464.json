@@ -1,0 +1,35 @@
+{
+  "entry_id": "entry-cabballists-2464",
+  "title": "CABBALLISTS",
+  "text": "CABBALLISTS, the Jewish doctors who profels the fluly of the cabbals.\n\nIn the opinion of thefe men, there is not a word, letter, or accent in the law, without fome mystery in it. The Jies are divided into two general feels, the karaice, who refute to receive either tradition or the talmud, or any thing but the pure text of ferripture; and the rabbinills, or talmudits, who, befedes this, receive the traditions of the ancients, and follow the talmud.\n\nThe latter are again divided into two other fields; pure rabbinills, explain the ferripure, in its a rural feeling, by grammar, history, and traditions, and cabbullits, who, to difcover hidden mythical fenles, which, they foppefe God to have coached therein, make all of the cabbals, and the mythical methods at bove mentioned.",
+  "normalized_text": "CABBALLISTS, the Jewish doctors who profels the fluly of the cabbals.\n\nIn the opinion of these men, there is not a word, letter, or accent in the law, without some mystery in it. The Jies are divided into two general feels, the karaice, who refute to receive either tradition or the talmud, or any thing but the pure text of ferripture; and the rabbinills, or talmudits, who, befedes this, receive the traditions of the ancients, and follow the talmud.\n\nThe latter are again divided into two other fields; pure rabbinills, explain the ferripure, in its a rural feeling, by grammar, history, and traditions, and cabbullits, who, to difcover hidden mythical fenles, which, they foppefe God to have coached therein, make all of the cabbals, and the mythical methods at bove mentioned.",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2464"
+  ],
+  "source_row_indices": [
+    2464
+  ],
+  "volume_id": "144133902",
+  "is_continuation": false,
+  "block_count": 3,
+  "character_count": 781,
+  "validity_score": 0.5271,
+  "metadata": {
+    "page_number": null,
+    "running_title": "",
+    "headword": "CABBALLISTS",
+    "text_changes_count": 2,
+    "text_changes_sample": [
+      {
+        "rule": "ocr_f_s_confusion",
+        "original": "thefe",
+        "replacement": "these"
+      },
+      {
+        "rule": "ocr_f_s_confusion",
+        "original": "fome",
+        "replacement": "some"
+      }
+    ]
+  }
+}

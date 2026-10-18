@@ -20,7 +20,40 @@ BLOCK_PATTERN = re.compile(
 HEADWORD_PATTERN = re.compile(
     r"(?:^|\n)\*{2}([A-Z][A-Z0-9\s,.'-]{1,50}\.?)\*{2}\s*"
 )
+ENTRY_HEADWORD_RE = re.compile(
+    r"^(?:_|\*\*)?([A-Z][A-Z0-9\s\'’\-]{1,40}(?:\s*\([^\)]+\))?)(?:_|\*\*)?[\),.:;]+\s+(.*)$",
+    re.DOTALL,
+)
+RANGE_TITLE_RE = re.compile(r"^[A-Z\s]{1,10}\[\s*\d+\s*\]\s*[A-Z\s]{1,10}$")
 PAGE_NUM_PATTERN = re.compile(r"^\s*([0-9]{1,4})\s*$")
+
+LIGATURES = {
+    "æ": "ae", "œ": "oe", "ﬀ": "ff", "ﬁ": "fi", "ﬂ": "fl", "ﬃ": "ffi", "ﬄ": "ffl",
+    "Æ": "Ae", "Œ": "Oe",
+}
+
+COMMON_ENGLISH_WORDS = frozenset([
+    "the", "of", "and", "a", "to", "in", "is", "you", "that", "it", "he", "was", "for", "on", "are", "as", "with",
+    "his", "they", "i", "at", "be", "this", "have", "from", "or", "one", "had", "by", "word", "but", "not", "what",
+    "all", "were", "we", "when", "your", "can", "said", "there", "use", "an", "each", "which", "she", "do", "how",
+    "their", "if", "will", "up", "other", "about", "out", "many", "then", "them", "these", "so", "some", "her",
+    "would", "make", "like", "him", "into", "time", "has", "look", "two", "more", "write", "go", "see", "number",
+    "no", "way", "could", "people", "my", "than", "first", "water", "been", "call", "who", "oil", "its", "now",
+    "find", "long", "down", "day", "did", "get", "come", "made", "may", "part", "state", "place", "form", "general",
+    "system", "order", "body", "great", "name", "species", "power", "small", "hand", "high", "head", "called",
+    "case", "book", "large", "air", "light", "side", "plant", "water", "fire", "earth", "acid", "salt", "metal",
+    "science", "art", "work", "force", "tree", "animal", "nature", "figure", "iron", "gold", "silver", "lead",
+    "line", "point", "surface", "sound", "heat", "cold", "blood", "vessel", "nerve", "motion", "weight", "measure",
+    "ship", "king", "country", "city", "town", "sea", "river", "island", "mountain", "church", "law", "right",
+    "swiss", "switzerland", "swivels", "sword", "sydenham", "sycophant", "endless", "endorse", "endorsed", "endowment",
+    "endymion", "energy", "enemy", "botany", "astronomy", "optics", "mechanics", "chemistry", "bleaching", "horses",
+    "sheep", "cattle", "skins", "service", "such", "several", "some", "same", "shall", "should", "spirit", "sumptuary",
+    "kind", "ring", "turn", "round", "fluid", "weapon", "worn", "serving", "cut", "appellation", "given", "ancient",
+    "athenians", "informants", "sleep", "field", "colour", "color", "cantons", "cause", "sometimes", "simple",
+    "degree", "difference", "action", "effect", "manner", "means", "part", "parts", "quality", "quantity", "reason",
+    "relation", "respect", "space", "time", "true", "truth", "value", "view", "whole", "wood", "stone", "water",
+    "building", "practical", "frame", "timber", "hold", "arch", "beam", "deck", "plank", "trade", "revenue", "militia",
+])
 
 
 class BBox(BaseModel):
@@ -55,13 +88,76 @@ class ExtractedEntry(BaseModel):
     entry_id: str
     title: str
     text: str
+    normalized_text: str = ""
     source_pages: list[str]
     source_row_indices: list[int]
     volume_id: str
     is_continuation: bool = False
     block_count: int = 0
     character_count: int = 0
+    validity_score: float = 0.0
     metadata: dict[str, Any] = Field(default_factory=dict)
+
+
+def compute_vocabulary_validity(
+    text: str,
+    lexicon: frozenset[str] | set[str] | None = None,
+) -> float:
+    """Calculate the ratio of recognized dictionary words to measure OCR readability."""
+    tokens = re.findall(r"[a-zA-Z]{2,}", text.lower())
+    if not tokens:
+        return 0.0
+    vocab = lexicon if lexicon is not None else COMMON_ENGLISH_WORDS
+    valid_count = sum(1 for token in tokens if token in vocab)
+    return round(valid_count / len(tokens), 4)
+
+
+def normalize_entry_text(
+    text: str,
+    modern_vocab: set[str] | frozenset[str] | None = None,
+) -> tuple[str, list[dict[str, Any]]]:
+    """Normalize historical typography while preserving raw text and auditing changes."""
+    changes: list[dict[str, Any]] = []
+    normalized = text
+
+    # 1. Line-break hyphen rejoining
+    def unhyphen(match: re.Match) -> str:
+        orig = match.group(0)
+        rejoined = match.group(1) + match.group(2)
+        changes.append({"rule": "line_break_hyphen", "original": orig, "replacement": rejoined})
+        return rejoined
+
+    normalized = re.sub(r"([A-Za-z]+)-\s*\n\s*([a-z]+)", unhyphen, normalized)
+
+    # 2. Ligatures expansion
+    def expand_ligature(match: re.Match) -> str:
+        char = match.group(0)
+        repl = LIGATURES[char]
+        changes.append({"rule": "ligature_expansion", "original": char, "replacement": repl})
+        return repl
+
+    normalized = re.sub("[" + "".join(LIGATURES.keys()) + "]", expand_ligature, normalized)
+
+    # 3. Unicode long-s
+    if "ſ" in normalized:
+        count = normalized.count("ſ")
+        normalized = normalized.replace("ſ", "s")
+        changes.append({"rule": "long_s", "original": "ſ", "replacement": "s", "count": count})
+
+    # 4. Dictionary-arbitrated OCR f/s confusion
+    vocab = modern_vocab or COMMON_ENGLISH_WORDS
+    def fix_fs(match: re.Match) -> str:
+        token = match.group(0)
+        lower = token.lower()
+        if "f" in lower and lower not in vocab:
+            candidate = lower.replace("f", "s")
+            if candidate in vocab and candidate != lower:
+                changes.append({"rule": "ocr_f_s_confusion", "original": token, "replacement": candidate})
+                return candidate if token.islower() else candidate.capitalize()
+        return token
+
+    normalized = re.sub(r"[A-Za-z]+", fix_fs, normalized)
+    return normalized, changes
 
 
 def clean_markdown_text(text: str) -> str:
@@ -95,6 +191,11 @@ def parse_blocks(content: str) -> list[ExtractedBlock]:
     return blocks
 
 
+def clean_headword_title(hw: str) -> str:
+    cleaned = re.sub(r"[\*\_]", "", hw).strip(".,:; )(")
+    return cleaned
+
+
 def parse_page(
     page_meta: dict[str, Any],
     raw_response: dict[str, Any],
@@ -117,7 +218,7 @@ def parse_page(
 
     for block in blocks:
         cls_lower = block.class_name.lower()
-        if "header" in cls_lower:
+        if ("page-header" in cls_lower or cls_lower == "header") and "section" not in cls_lower:
             headers.append(block)
             num_match = PAGE_NUM_PATTERN.match(block.text)
             if num_match:
@@ -127,16 +228,21 @@ def parse_page(
                 title_candidate = re.sub(r"[\*\_]", "", title_candidate).strip()
                 if title_candidate and len(title_candidate) > len(running_title):
                     running_title = title_candidate
-        elif "footer" in cls_lower or "footnote" in cls_lower:
+        elif "page-footer" in cls_lower or "footer" in cls_lower or "footnote" in cls_lower:
             footnotes.append(block)
         else:
             body_blocks.append(block)
 
-    # Sort body blocks in natural 2-column reading order:
-    # First sort by horizontal column (x midpoint < 0.5 vs >= 0.5), then by y position.
-    def reading_order_key(b: ExtractedBlock) -> tuple[int, float]:
-        col = 0 if ((b.bbox.x1 + b.bbox.x2) / 2.0) < 0.52 else 1
-        return (col, b.bbox.y1)
+    # Sort body blocks in natural reading order:
+    # Top spanning blocks (width > 0.65, y1 < 0.25) -> Column 1 (x_mid < 0.52) -> Column 2 -> Bottom spanning blocks
+    def reading_order_key(b: ExtractedBlock) -> tuple[int, float, float]:
+        is_spanning = (b.bbox.x2 - b.bbox.x1) > 0.65
+        if is_spanning and b.bbox.y1 < 0.25:
+            return (0, b.bbox.y1, b.bbox.x1)
+        if is_spanning and b.bbox.y2 > 0.85:
+            return (3, b.bbox.y1, b.bbox.x1)
+        col = 1 if ((b.bbox.x1 + b.bbox.x2) / 2.0) < 0.52 else 2
+        return (col, b.bbox.y1, b.bbox.x1)
 
     body_blocks_sorted = sorted(body_blocks, key=reading_order_key)
     body_text_parts = [b.text for b in body_blocks_sorted if b.text]
@@ -162,62 +268,162 @@ def segment_entries(pages: list[ParsedPage]) -> list[ExtractedEntry]:
     if not pages:
         return []
 
-    # Sort pages by volume_id then row_index
     sorted_pages = sorted(pages, key=lambda p: (p.volume_id, p.row_index))
-    entries: list[ExtractedEntry] = []
+    raw_entries: list[dict[str, Any]] = []
+    current_entry: dict[str, Any] | None = None
 
-    current_entry: ExtractedEntry | None = None
+    stopwords = {
+        "THE", "AND", "FOR", "SEE", "PART", "VOL", "CHAP", "SEC", "SECT",
+        "FIG", "PLATE", "AN", "OF", "IN", "ON", "AT", "TO", "BY", "WITH", "FROM",
+    }
 
     for page in sorted_pages:
         page_title = page.running_title or f"Britannica Volume {page.volume_id} Row {page.row_index}"
-        clean_title = re.sub(r"[^\w\s-]", "", page_title).strip()
-        if not clean_title:
-            clean_title = f"Entry_{page.row_index}"
+        clean_title = re.sub(r"[^\w\s-]", "", page_title).strip() or f"Entry_{page.row_index}"
+        is_range = bool(RANGE_TITLE_RE.match(page.running_title.strip()))
 
-        # Check if page continues previous entry:
-        # Condition 1: Same volume and consecutive row_index (diff == 1)
-        # Condition 2: Same volume, same running_title, and small gap (diff <= 3)
-        is_continuation = False
-        if current_entry and current_entry.volume_id == page.volume_id:
-            last_row = current_entry.source_row_indices[-1]
-            row_diff = page.row_index - last_row
-            if row_diff == 1:
-                is_continuation = True
-            elif row_diff <= 3 and page.running_title and current_entry.title.lower() == clean_title.lower():
-                is_continuation = True
+        paragraphs = [p.strip() for p in page.body_text.split("\n\n") if p.strip()]
+        detected_hws: list[str] = []
+        for p in paragraphs:
+            m = ENTRY_HEADWORD_RE.match(p)
+            if m:
+                cand = m.group(1).strip()
+                first_w = cand.split()[0].rstrip(".,:;")
+                if first_w not in stopwords and len(cand) > 1:
+                    detected_hws.append(cand)
 
-        if is_continuation and current_entry is not None:
-            # Join text to current entry
-            join_delimiter = " " if not current_entry.text.endswith((".", "!", "?", "\n")) else "\n\n"
-            current_entry.text = f"{current_entry.text}{join_delimiter}{page.body_text}".strip()
-            current_entry.source_pages.append(page.page_id)
-            current_entry.source_row_indices.append(page.row_index)
-            current_entry.is_continuation = True
-            current_entry.block_count += len(page.blocks)
-            current_entry.character_count = len(current_entry.text)
+        is_dict_page = is_range or len(detected_hws) >= 2
+
+        if not is_dict_page:
+            # Treatise / single-entry page
+            is_cont = False
+            if current_entry and current_entry["volume_id"] == page.volume_id:
+                last_row = current_entry["source_row_indices"][-1]
+                row_diff = page.row_index - last_row
+                if row_diff == 1:
+                    is_cont = True
+                elif row_diff <= 3 and page.running_title and current_entry["title"].lower() == clean_title.lower():
+                    is_cont = True
+
+            if is_cont and current_entry is not None:
+                delim = " " if not current_entry["text"].endswith((".", "!", "?", "\n")) else "\n\n"
+                current_entry["text"] = f"{current_entry['text']}{delim}{page.body_text}".strip()
+                current_entry["source_pages"].append(page.page_id)
+                current_entry["source_row_indices"].append(page.row_index)
+                current_entry["is_continuation"] = True
+                current_entry["block_count"] += len(page.blocks)
+                current_entry["character_count"] = len(current_entry["text"])
+            else:
+                if current_entry is not None:
+                    raw_entries.append(current_entry)
+                entry_id = f"entry-{re.sub(r'[^a-zA-Z0-9]+', '-', clean_title).strip('-').lower()}-{page.row_index}"
+                current_entry = {
+                    "entry_id": entry_id,
+                    "title": clean_title,
+                    "text": page.body_text,
+                    "source_pages": [page.page_id],
+                    "source_row_indices": [page.row_index],
+                    "volume_id": page.volume_id,
+                    "is_continuation": False,
+                    "block_count": len(page.blocks),
+                    "character_count": len(page.body_text),
+                    "metadata": {
+                        "page_number": page.page_number,
+                        "running_title": page.running_title,
+                    },
+                }
         else:
-            if current_entry is not None:
-                entries.append(current_entry)
+            # Dictionary page: split paragraphs by headword
+            for p in paragraphs:
+                m = ENTRY_HEADWORD_RE.match(p)
+                hw = None
+                if m:
+                    cand = m.group(1).strip()
+                    first_w = cand.split()[0].rstrip(".,:;")
+                    if first_w not in stopwords and len(cand) > 1:
+                        hw = cand
 
-            entry_id = f"entry-{re.sub(r'[^a-zA-Z0-9]+', '-', clean_title).strip('-').lower()}-{page.row_index}"
-            current_entry = ExtractedEntry(
-                entry_id=entry_id,
-                title=clean_title,
-                text=page.body_text,
-                source_pages=[page.page_id],
-                source_row_indices=[page.row_index],
-                volume_id=page.volume_id,
-                is_continuation=False,
-                block_count=len(page.blocks),
-                character_count=len(page.body_text),
-                metadata={
-                    "page_number": page.page_number,
-                    "running_title": page.running_title,
-                },
-            )
+                if hw:
+                    if current_entry is not None:
+                        raw_entries.append(current_entry)
+                    h_clean = clean_headword_title(hw)
+                    entry_id = f"entry-{re.sub(r'[^a-zA-Z0-9]+', '-', h_clean).strip('-').lower()}-{page.row_index}"
+                    current_entry = {
+                        "entry_id": entry_id,
+                        "title": h_clean,
+                        "text": p,
+                        "source_pages": [page.page_id],
+                        "source_row_indices": [page.row_index],
+                        "volume_id": page.volume_id,
+                        "is_continuation": False,
+                        "block_count": 1,
+                        "character_count": len(p),
+                        "metadata": {
+                            "page_number": page.page_number,
+                            "running_title": page.running_title,
+                            "headword": hw,
+                        },
+                    }
+                else:
+                    if current_entry is not None and current_entry["volume_id"] == page.volume_id:
+                        delim = " " if not current_entry["text"].endswith((".", "!", "?", "\n")) else "\n\n"
+                        current_entry["text"] = f"{current_entry['text']}{delim}{p}".strip()
+                        if page.page_id not in current_entry["source_pages"]:
+                            current_entry["source_pages"].append(page.page_id)
+                        if page.row_index not in current_entry["source_row_indices"]:
+                            current_entry["source_row_indices"].append(page.row_index)
+                        current_entry["block_count"] += 1
+                        current_entry["character_count"] = len(current_entry["text"])
+                    else:
+                        if current_entry is not None:
+                            raw_entries.append(current_entry)
+                        c_title = clean_title or f"Entry_{page.row_index}"
+                        entry_id = f"entry-{re.sub(r'[^a-zA-Z0-9]+', '-', c_title).strip('-').lower()}-{page.row_index}"
+                        current_entry = {
+                            "entry_id": entry_id,
+                            "title": c_title,
+                            "text": p,
+                            "source_pages": [page.page_id],
+                            "source_row_indices": [page.row_index],
+                            "volume_id": page.volume_id,
+                            "is_continuation": False,
+                            "block_count": 1,
+                            "character_count": len(p),
+                            "metadata": {
+                                "page_number": page.page_number,
+                                "running_title": page.running_title,
+                            },
+                        }
 
     if current_entry is not None:
-        entries.append(current_entry)
+        raw_entries.append(current_entry)
+
+    entries: list[ExtractedEntry] = []
+    for raw in raw_entries:
+        raw_text = raw["text"]
+        norm_text, text_changes = normalize_entry_text(raw_text)
+        validity = compute_vocabulary_validity(norm_text)
+        raw_meta = raw.get("metadata", {})
+        raw_meta["text_changes_count"] = len(text_changes)
+        if text_changes:
+            raw_meta["text_changes_sample"] = text_changes[:5]
+
+        entries.append(
+            ExtractedEntry(
+                entry_id=raw["entry_id"],
+                title=raw["title"],
+                text=raw_text,
+                normalized_text=norm_text,
+                source_pages=raw["source_pages"],
+                source_row_indices=raw["source_row_indices"],
+                volume_id=raw["volume_id"],
+                is_continuation=raw["is_continuation"],
+                block_count=raw["block_count"],
+                character_count=raw["character_count"],
+                validity_score=validity,
+                metadata=raw_meta,
+            )
+        )
 
     return entries
 

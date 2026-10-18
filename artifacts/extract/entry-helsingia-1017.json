@@ -1,0 +1,23 @@
+{
+  "entry_id": "entry-helsingia-1017",
+  "title": "HELSINGIA",
+  "text": "HELSINGIA, a province of Sweden, bounded by the Botnhic gulph on the cafl, and by Dalecarila on the well.",
+  "normalized_text": "HELSINGIA, a province of Sweden, bounded by the Botnhic gulph on the cafl, and by Dalecarila on the well.",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1017"
+  ],
+  "source_row_indices": [
+    1017
+  ],
+  "volume_id": "144850367",
+  "is_continuation": false,
+  "block_count": 1,
+  "character_count": 105,
+  "validity_score": 0.5,
+  "metadata": {
+    "page_number": null,
+    "running_title": "( 781 )",
+    "headword": "HELSINGIA",
+    "text_changes_count": 0
+  }
+}

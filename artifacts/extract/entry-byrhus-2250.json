@@ -1,0 +1,30 @@
+{
+  "entry_id": "entry-byrhus-2250",
+  "title": "BYRHUS",
+  "text": "BYRHUS, in zodogy, an order of infects belonging to the order of coloroptera. The feelers are clavated, pretty folkl, and a little compelled. These are five species, all of which are to be found on particular plants and principally disfiguplified from each other by the colour and figure of the clytra or cruttaccous wing cases.",
+  "normalized_text": "BYRHUS, in zodogy, an order of infects belonging to the order of coloroptera. The feelers are clavated, pretty folkl, and a little compelled. These are five species, all of which are to be sound on particular plants and principally disfiguplified from each other by the colour and figure of the clytra or cruttaccous wing cases.",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2250"
+  ],
+  "source_row_indices": [
+    2250
+  ],
+  "volume_id": "144133901",
+  "is_continuation": false,
+  "block_count": 1,
+  "character_count": 328,
+  "validity_score": 0.6296,
+  "metadata": {
+    "page_number": null,
+    "running_title": "",
+    "headword": "BYRHUS",
+    "text_changes_count": 1,
+    "text_changes_sample": [
+      {
+        "rule": "ocr_f_s_confusion",
+        "original": "found",
+        "replacement": "sound"
+      }
+    ]
+  }
+}

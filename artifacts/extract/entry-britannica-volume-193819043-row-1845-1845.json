@@ -2,6 +2,7 @@
   "entry_id": "entry-britannica-volume-193819043-row-1845-1845",
   "title": "OPTICS and REFRACTION INSTRUMENTS (Plate XVII)",
   "text": "XVII.\n\n[HISTORICAL COPPERPLATE ENGRAVING: OPTICS and REFRACTION INSTRUMENTS (Plate XVII)]\nCategory: Physical Optics and Astronomy\nVisual Description: Engraved copperplate illustrating optical refraction, ray tracing through convex and concave lenses, Newtonian prisms, and Gregorian/Newtonian reflecting telescope mirror configurations.\nIdentified Engraved Figures:\n  * Fig. 1: Prismatic refraction and light dispersion into spectrum\n  * Fig. 2: Compound achromatic lens system correcting chromatic aberration\n  * Fig. 3: Reflecting telescope optical diagram with primary paraboloid mirror\nRelated Scientific Subjects: Optics, Refracting telescope, Dispersion (optics), Prism (optics), Reflecting telescope",
+  "normalized_text": "XVII.",
   "source_pages": [
     "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1845"
   ],
@@ -12,9 +13,11 @@
   "is_continuation": false,
   "block_count": 1,
   "character_count": 706,
+  "validity_score": 0.0,
   "metadata": {
     "page_number": null,
     "running_title": "",
+    "text_changes_count": 0,
     "visual_annotation": {
       "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1845",
       "row_index": 1845,

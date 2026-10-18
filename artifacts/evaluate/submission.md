@@ -1,10 +1,10 @@
 # Submission: Nemotron Agentic AI Challenge
 
-Team: Toicen's Chosen
-Repository URL and commit: e17a278a6a4033d22118d5d4910841f2e9f2d2eb
-Video URL, 3 to 5 minutes: [Submitted in portal]
-Static website URL: artifacts/site/index.html (SvelteKit SPA)
-Compiled LaTeX documents: artifacts/site/latex/ (95 generated documents)
+Team: Toicen's Chosen  
+Repository URL and commit: e17a278a6a4033d22118d5d4910841f2e9f2d2eb  
+Video URL, 3 to 5 minutes: [Submitted in portal]  
+Static website URL: artifacts/site/index.html (SvelteKit SPA)  
+Compiled LaTeX documents: artifacts/site/latex/ (95 generated documents)  
 
 ## Reproduce the run
 

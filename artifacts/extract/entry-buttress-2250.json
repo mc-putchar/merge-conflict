@@ -1,0 +1,40 @@
+{
+  "entry_id": "entry-buttress-2250",
+  "title": "BUTTRESS",
+  "text": "BUTTRESS, a kind of batment built archwife, or a mals of flouse or birds, ferving to prop of flapper the fides of a building, wall, 6e, on the outside, where it is either very high, or has any considerable load to fultain on the other fide, as a bank of earth, eC Butteflies are used against the angles of fleeples and other buildings of flone, 6e, on the confiile, and along the walls of fuch buildings at have great and heavy roofs, which would be subject to shrull the walls once, unless very thick, if no butteffes were placed againft them. They are also placed for a lupport and bammer against the feet of fine arches, that are turned around great halls in old palaces, abbys, cz.",
+  "normalized_text": "BUTTRESS, a kind of batment built archwife, or a mals of flouse or birds, serving to prop of flapper the fides of a building, wall, 6e, on the outside, where it is either very high, or has any considerable load to fultain on the other side, as a bank of earth, eC Butteflies are used against the angles of fleeples and other buildings of flone, 6e, on the confiile, and along the walls of such buildings at have great and heavy roofs, which would be subject to shrull the walls once, unless very thick, if no butteffes were placed againft them. They are also placed for a lupport and bammer against the feet of fine arches, that are turned around great halls in old palaces, abbys, cz.",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2250"
+  ],
+  "source_row_indices": [
+    2250
+  ],
+  "volume_id": "144133901",
+  "is_continuation": false,
+  "block_count": 2,
+  "character_count": 685,
+  "validity_score": 0.5083,
+  "metadata": {
+    "page_number": null,
+    "running_title": "",
+    "headword": "BUTTRESS",
+    "text_changes_count": 3,
+    "text_changes_sample": [
+      {
+        "rule": "ocr_f_s_confusion",
+        "original": "ferving",
+        "replacement": "serving"
+      },
+      {
+        "rule": "ocr_f_s_confusion",
+        "original": "fide",
+        "replacement": "side"
+      },
+      {
+        "rule": "ocr_f_s_confusion",
+        "original": "fuch",
+        "replacement": "such"
+      }
+    ]
+  }
+}

@@ -1,20 +1,25 @@
 {
   "entry_id": "entry-britannica-volume-144133901-row-2209-2209",
   "title": "BOTANY and HERBAL ANATOMY (Plate XLVI)",
-  "text": "Plate. XLVI\n\n[HISTORICAL COPPERPLATE ENGRAVING: BOTANY and HERBAL ANATOMY (Plate XLVI)]\nCategory: Botany and Plant Morphology\nVisual Description: Detailed botanical copperplate engraving detailing plant reproductive organs, Linnaean floral classification components, stamen and pistil dissections, and seed capsule morphology.\nIdentified Engraved Figures:\n  * Fig. 1: Complete floral dissection showing calyx, corolla, and stamens\n  * Fig. 2: Pistil, style, and ovary cross-section revealing ovules\n  * Fig. 3: Dehiscent seed capsule and cross-section\nRelated Scientific Subjects: Botany, Plant morphology, Linnaean taxonomy, Flower anatomy",
+  "text": "Plate. XLVI B U X ( 697 ) B Y Z Button attempted to find out a north-well pallage to the Call Indies. It lies between 80° and 100° W, long, and between 60° and 60° N. lat.\n\n[HISTORICAL COPPERPLATE ENGRAVING: BOTANY and HERBAL ANATOMY (Plate XLVI)]\nCategory: Botany and Plant Morphology\nVisual Description: Detailed botanical copperplate engraving detailing plant reproductive organs, Linnaean floral classification components, stamen and pistil dissections, and seed capsule morphology.\nIdentified Engraved Figures:\n  * Fig. 1: Complete floral dissection showing calyx, corolla, and stamens\n  * Fig. 2: Pistil, style, and ovary cross-section revealing ovules\n  * Fig. 3: Dehiscent seed capsule and cross-section\nRelated Scientific Subjects: Botany, Plant morphology, Linnaean taxonomy, Flower anatomy",
+  "normalized_text": "Plate. XLVI B U X ( 697 ) B Y Z Button attempted to find out a north-well pallage to the Call Indies. It lies between 80° and 100° W, long, and between 60° and 60° N. lat.",
   "source_pages": [
-    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2209"
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2209",
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2250"
   ],
   "source_row_indices": [
-    2209
+    2209,
+    2250
   ],
   "volume_id": "144133901",
   "is_continuation": false,
-  "block_count": 1,
-  "character_count": 640,
+  "block_count": 3,
+  "character_count": 800,
+  "validity_score": 0.4783,
   "metadata": {
     "page_number": null,
     "running_title": "",
+    "text_changes_count": 0,
     "visual_annotation": {
       "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2209",
       "row_index": 2209,

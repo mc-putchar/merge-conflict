@@ -3,12 +3,12 @@
     "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:452",
     "filename": "page-0452-233256cb3c3c.jpg",
     "row_index": 452,
-    "error": "service request reached its timeout"
+    "error": "chat response is incomplete; inspect the token budget and finish_reason"
   },
   {
     "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2243",
     "filename": "page-2243-0bd9a3e05239.jpg",
     "row_index": 2243,
-    "error": "service request reached its timeout"
+    "error": "chat response is incomplete; inspect the token budget and finish_reason"
   }
 ]

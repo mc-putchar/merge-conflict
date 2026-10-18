@@ -2,6 +2,7 @@
   "entry_id": "entry-britannica-volume-149982181-row-270-270",
   "title": "HYDROSTATICS (Plate CCXXXIX)",
   "text": "HYDROSTATICS. Plate CCXXXIX.\n\n[HISTORICAL COPPERPLATE ENGRAVING: HYDROSTATICS (Plate CCXXXIX)]\nCategory: Physics and Fluid Mechanics\nVisual Description: Detailed 18th-century copperplate engraving illustrating principles of hydrostatics and fluid equilibrium. Depicts experimental apparatus demonstrating hydrostatic pressure, communicating vessels, and the hydrostatic paradox (water level equilibrium regardless of vessel shape). Includes apparatus for measuring specific gravity, siphons, and buoyant force diagrams.\nIdentified Engraved Figures:\n  * Fig. 1: Communicating vessels demonstrating uniform hydrostatic fluid level\n  * Fig. 2: Hydrostatic balance apparatus for specific gravity measurement\n  * Fig. 3: Inverted siphon and atmospheric fluid pressure column\n  * Fig. 4: Water-wheel turbine mechanism and hydrostatic head pressure reservoir\nRelated Scientific Subjects: Hydrostatics, Fluid statics, Hydrostatic paradox, Communicating vessels, Specific gravity, Archimedes' principle",
+  "normalized_text": "HYDROSTATICS. Plate CCXXXIX.",
   "source_pages": [
     "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:270"
   ],
@@ -12,9 +13,11 @@
   "is_continuation": false,
   "block_count": 1,
   "character_count": 993,
+  "validity_score": 0.0,
   "metadata": {
     "page_number": null,
     "running_title": "",
+    "text_changes_count": 0,
     "visual_annotation": {
       "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:270",
       "row_index": 270,

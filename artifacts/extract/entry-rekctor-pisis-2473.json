@@ -1,0 +1,44 @@
+{
+  "entry_id": "entry-rekctor-pisis-2473",
+  "title": "Engraved Plate (Row 2473)",
+  "text": "REKCTOR PISIS. See FISIS.\n\n[HISTORICAL COPPERPLATE ENGRAVING: Engraved Plate (Row 2473)]\nCategory: Historical Illustration\nVisual Description: Historical copperplate engraving from Encyclopaedia Britannica (1771).\nIdentified Engraved Figures:\n\nRelated Scientific Subjects: Encyclopaedia Britannica, Engraving",
+  "normalized_text": "REKCTOR PISIS. See FISIS.",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2473"
+  ],
+  "source_row_indices": [
+    2473
+  ],
+  "volume_id": "144133902",
+  "is_continuation": false,
+  "block_count": 1,
+  "character_count": 308,
+  "validity_score": 0.25,
+  "metadata": {
+    "page_number": null,
+    "running_title": "",
+    "headword": "REKCTOR PISIS",
+    "text_changes_count": 0,
+    "visual_annotation": {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2473",
+      "row_index": 2473,
+      "filename": "page-2473-b849fb7f25f2.jpg",
+      "plate_title": "Engraved Plate (Row 2473)",
+      "plate_category": "Historical Illustration",
+      "description": "Historical copperplate engraving from Encyclopaedia Britannica (1771).",
+      "identified_figures": [],
+      "wikipedia_keywords": [
+        "Encyclopaedia Britannica",
+        "Engraving"
+      ],
+      "bbox": {
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 1.0,
+        "y2": 1.0
+      },
+      "model_used": "nvidia/Nemotron-3.5-Super-VL"
+    },
+    "is_illustration_plate": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "entry_id": "entry-sworn-borshas-after-juradi-251",
+  "title": "SWORN BORSHAS ((after juradi",
+  "text": "SWORN BORSHAS ((after juradi), perfonió, by\nmanual oath, overward to flare each others fortune. For-\nmetly, in any notable question in invade and concuer en\nsummits country, it was the culton for the more eminent ful\ndiers to engage themselves by reciprocal oaths to fame the\nrevards of their device. This practice gave cocotion to the\ngrowth of _Jones brothers to freedom in majority,_ because of\ntheir dividing plunder and fpalt.\n\nSYCOMORFrans, has发言. See Acces.",
+  "normalized_text": "SWORN BORSHAS ((after juradi), perfonió, by\nmanual oath, overward to flare each others fortune. Formetly, in any notable question in invade and concuer en\nsummits country, it was the culton for the more eminent ful\ndiers to engage themselves by reciprocal oaths to same the\nrevards of their device. This practice gave cocotion to the\ngrowth of _Jones brothers to freedom in majority,_ because of\ntheir dividing plunder and fpalt.\n\nSYCOMORFrans, has发言. See Acces.",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:251"
+  ],
+  "source_row_indices": [
+    251
+  ],
+  "volume_id": "191679021",
+  "is_continuation": false,
+  "block_count": 2,
+  "character_count": 464,
+  "validity_score": 0.4189,
+  "metadata": {
+    "page_number": null,
+    "running_title": "SWI [ 248] SYD",
+    "headword": "SWORN BORSHAS ((after juradi)",
+    "text_changes_count": 2,
+    "text_changes_sample": [
+      {
+        "rule": "line_break_hyphen",
+        "original": "For-\nmetly",
+        "replacement": "Formetly"
+      },
+      {
+        "rule": "ocr_f_s_confusion",
+        "original": "fame",
+        "replacement": "same"
+      }
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "entry_id": "entry-hughes-john-1327",
+  "title": "HUGHES (John",
+  "text": "HUGHES (John), an ingenious and polite wri-\nter, was born in 1677. In the earliest parts of his\nyouish, he continued the difference, poetry, drawing,\nand minds, in each of which he by team made a con-\nfidercable progress() but followed thoof and his other\nfluides only as regarded amendments, except frequent\ncontainment on account of his illust of health. The\nland Chanelhoe Cowper made hint forecerty for the\ncommitons of the peace, not his knowledge, and\nillinguished him with singular marks of his clients.\nHe contained in the farm employment under the end\nof Meschelek, and had it to the day of his death,\nwhich happened in 1719, the very light in which his\ntragedy, entitled _The large of Damar, was first ac-_\ning. He was then ... He realized Pontoredley\ndialogues of the dead, Vertact's evolutions of Portu-\ngal, and the latter of Abrilad and Dolits. He gave\nvery accurate edition of species's works, with his\nlife, a gloffary, and remarks; and wrote several papers\nin the Father, Speichere, and Grandians Mr Duno-\ncombo, who married his father, collected his poems\nand days in a vols 12mo, in 735.",
+  "normalized_text": "HUGHES (John), an ingenious and polite writer, was born in 1677. In the earliest parts of his\nyouish, he continued the difference, poetry, drawing,\nand minds, in each of which he by team made a confidercable progress() but followed thoof and his other\nfluides only as regarded amendments, except frequent\ncontainment on account of his illust of health. The\nland Chanelhoe Cowper made hint forecerty for the\ncommitons of the peace, not his knowledge, and\nillinguished him with singular marks of his clients.\nHe contained in the farm employment under the end\nof Meschelek, and had it to the day of his death,\nwhich happened in 1719, the very light in which his\ntragedy, entitled _The large of Damar, was first ac-_\ning. He was then ... He realized Pontoredley\ndialogues of the dead, Vertact's evolutions of Portugal, and the latter of Abrilad and Dolits. He gave\nvery accurate edition of species's works, with his\nlife, a gloffary, and remarks; and wrote several papers\nin the Father, Speichere, and Grandians Mr Dunocombo, who married his father, collected his poems\nand days in a vols 12mo, in 735.",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1327"
+  ],
+  "source_row_indices": [
+    1327
+  ],
+  "volume_id": "149981670",
+  "is_continuation": false,
+  "block_count": 1,
+  "character_count": 1106,
+  "validity_score": 0.5278,
+  "metadata": {
+    "page_number": null,
+    "running_title": "",
+    "headword": "HUGHES (John)",
+    "text_changes_count": 4,
+    "text_changes_sample": [
+      {
+        "rule": "line_break_hyphen",
+        "original": "wri-\nter",
+        "replacement": "writer"
+      },
+      {
+        "rule": "line_break_hyphen",
+        "original": "con-\nfidercable",
+        "replacement": "confidercable"
+      },
+      {
+        "rule": "line_break_hyphen",
+        "original": "Portu-\ngal",
+        "replacement": "Portugal"
+      },
+      {
+        "rule": "line_break_hyphen",
+        "original": "Duno-\ncombo",
+        "replacement": "Dunocombo"
+      }
+    ]
+  }
+}

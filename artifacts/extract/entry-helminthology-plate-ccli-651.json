@@ -2,6 +2,7 @@
   "entry_id": "entry-helminthology-plate-ccli-651",
   "title": "HELMINTHOLOGY Plate CCLI",
   "text": "Fig.2.\n\nFig 1\n\nFig.2.\n\nFig.1.\n\nO\n\nFig.7.\n\nFig.9.\n\nFig.9.\n\nFig.3. Fig.3.\n\nFig.8.",
+  "normalized_text": "Fig.2.\n\nFig 1\n\nFig.2.\n\nFig.1.\n\nO\n\nFig.7.\n\nFig.9.\n\nFig.9.\n\nFig.3. Fig.3.\n\nFig.8.",
   "source_pages": [
     "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:651"
   ],
@@ -12,8 +13,10 @@
   "is_continuation": false,
   "block_count": 12,
   "character_count": 79,
+  "validity_score": 0.0,
   "metadata": {
     "page_number": null,
-    "running_title": "HELMINTHOLOGY. Plate CCLI"
+    "running_title": "HELMINTHOLOGY. Plate CCLI",
+    "text_changes_count": 0
   }
 }

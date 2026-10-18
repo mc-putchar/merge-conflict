@@ -1,0 +1,35 @@
+{
+  "entry_id": "entry-huesne-1327",
+  "title": "HUESNE",
+  "text": "HUESNE, or Hussx, a familiardan in the Dul-\ntie Box, in the Sound, where was the famous obr-\nvatory of Tycho Brake. E. Long 13. 5. Nat.\n15.54.",
+  "normalized_text": "HUESNE, or Hussx, a familiardan in the Dultie Box, in the Sound, where was the famous obrvatory of Tycho Brake. E. Long 13. 5. Nat.\n15.54.",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1327"
+  ],
+  "source_row_indices": [
+    1327
+  ],
+  "volume_id": "149981670",
+  "is_continuation": false,
+  "block_count": 1,
+  "character_count": 142,
+  "validity_score": 0.4762,
+  "metadata": {
+    "page_number": null,
+    "running_title": "",
+    "headword": "HUESNE",
+    "text_changes_count": 2,
+    "text_changes_sample": [
+      {
+        "rule": "line_break_hyphen",
+        "original": "Dul-\ntie",
+        "replacement": "Dultie"
+      },
+      {
+        "rule": "line_break_hyphen",
+        "original": "obr-\nvatory",
+        "replacement": "obrvatory"
+      }
+    ]
+  }
+}
