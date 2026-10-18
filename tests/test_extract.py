@@ -2,7 +2,9 @@
 import json
 from pathlib import Path
 import pytest
+from PIL import Image
 
+from nemotron_challenge.clients import ServiceError
 from nemotron_challenge.contracts import ArtifactRecord
 from nemotron_challenge.extraction import (
     BBox,
@@ -15,6 +17,9 @@ from nemotron_challenge.extraction import (
     parse_page,
     record_provenance,
     segment_entries,
+)
+from nemotron_challenge.ocr_correction import (
+    CropCorrection, apply_corrections, correct_page_crops, select_correction_blocks,
 )
 from nemotron_challenge.storage import LanceArtifactStore
 
@@ -271,3 +276,119 @@ def test_compute_vocabulary_validity():
     garbled_score = compute_vocabulary_validity(garbled_text)
     assert good_score >= 0.70
     assert garbled_score == 0.0
+
+
+def test_select_correction_blocks_uses_column_openers_and_low_quality():
+    page = ParsedPage(
+        page_id="page-select", volume_id="vol-1", row_index=5, filename="page.jpg",
+        image_sha256="e" * 64,
+        blocks=[
+            ExtractedBlock(class_name="Text", bbox=BBox(x1=0.05, y1=0.1, x2=0.45, y2=0.2), text="The first left column text.", raw_text=""),
+            ExtractedBlock(class_name="Text", bbox=BBox(x1=0.05, y1=0.3, x2=0.45, y2=0.4), text="xjkqz blmpf zzzrq", raw_text=""),
+            ExtractedBlock(class_name="Text", bbox=BBox(x1=0.55, y1=0.1, x2=0.95, y2=0.2), text="The first right column text.", raw_text=""),
+            ExtractedBlock(class_name="Text", bbox=BBox(x1=0.55, y1=0.3, x2=0.95, y2=0.4), text="The water and fire are in the earth.", raw_text=""),
+        ],
+    )
+    assert select_correction_blocks(page) == {0, 1, 2}
+
+
+def test_crop_correction_preserves_raw_text_and_uncertainty(tmp_path):
+    image_path = tmp_path / "page.jpg"
+    Image.new("RGB", (1000, 1200), "white").save(image_path)
+    page = ParsedPage(
+        page_id="page-1", volume_id="vol-1", row_index=1, filename="page.jpg",
+        image_sha256="a" * 64, body_text="The horfe is [bad].",
+        blocks=[ExtractedBlock(
+            class_name="Text", bbox=BBox(x1=0.05, y1=0.1, x2=0.45, y2=0.3),
+            text="The horfe is [bad].", raw_text="The horfe is [bad].",
+        )],
+    )
+
+    class Client:
+        def complete(self, messages, max_tokens, extra_body):
+            assert messages[0]["content"][1]["type"] == "image_url"
+            return {"choices": [{"message": {"content": json.dumps({
+                "transcription": "The horse is [unclear:bay].",
+                "uncertain_spans": ["bay"],
+            })}}]}
+
+    corrected, reports = correct_page_crops(page, image_path, Client(), "test-model")
+    entries = segment_entries([corrected])
+    assert reports[0].status == "corrected"
+    assert reports[0].crop_sha256
+    assert reports[0].raw_model_output
+    assert corrected.body_text == "The horfe is [bad]."
+    assert corrected.corrected_body_text == "The horse is [unclear:bay]."
+    assert entries[0].raw_text == "The horfe is [bad]."
+    assert entries[0].corrected_text == "The horse is [unclear:bay]."
+    assert reports[0].uncertain_spans == ["bay", "[unclear:bay]"]
+
+
+def test_apply_corrections_removes_exact_block_overlap():
+    page = ParsedPage(
+        page_id="page-overlap", volume_id="vol-1", row_index=3, filename="page.jpg",
+        image_sha256="c" * 64, body_text="raw",
+        blocks=[
+            ExtractedBlock(class_name="Text", bbox=BBox(x1=0.1, y1=0.1, x2=0.4, y2=0.4), text="raw one", raw_text="raw one"),
+            ExtractedBlock(class_name="Text", bbox=BBox(x1=0.1, y1=0.3, x2=0.4, y2=0.6), text="raw two", raw_text="raw two"),
+        ],
+    )
+    reports = [
+        CropCorrection(block_index=0, bbox={}, raw_text="raw one", corrected_text="The exact repeated phrase has five words here", status="corrected", model_id="test", crop_sha256="a" * 64),
+        CropCorrection(block_index=1, bbox={}, raw_text="raw two", corrected_text="exact repeated phrase has five words here and unique continuation", status="corrected", model_id="test", crop_sha256="b" * 64),
+    ]
+    corrected = apply_corrections(page, reports)
+    assert corrected.corrected_body_text.count("exact repeated phrase") == 1
+    assert corrected.corrected_body_text.endswith("and unique continuation")
+
+
+def test_crop_correction_retries_incomplete_response(tmp_path):
+    image_path = tmp_path / "page.jpg"
+    Image.new("RGB", (200, 200), "white").save(image_path)
+    page = ParsedPage(
+        page_id="page-retry", volume_id="vol-1", row_index=4, filename="page.jpg",
+        image_sha256="d" * 64, body_text="Original text.",
+        blocks=[ExtractedBlock(
+            class_name="Text", bbox=BBox(x1=0.1, y1=0.1, x2=0.9, y2=0.9),
+            text="Original text.", raw_text="Original text.",
+        )],
+    )
+
+    class Client:
+        limits = []
+
+        def complete(self, messages, max_tokens, extra_body):
+            self.limits.append(max_tokens)
+            if max_tokens == 8192:
+                raise ServiceError("chat response is incomplete")
+            return {"choices": [{"message": {"content": json.dumps({
+                "transcription": "Corrected text.", "uncertain_spans": [],
+            })}}]}
+
+    client = Client()
+    corrected, reports = correct_page_crops(page, image_path, client, "test-model")
+    assert client.limits == [8192, 16384]
+    assert reports[0].status == "corrected"
+    assert corrected.corrected_body_text == "Corrected text."
+
+
+def test_crop_correction_failure_keeps_parse_text(tmp_path):
+    image_path = tmp_path / "page.jpg"
+    Image.new("RGB", (200, 200), "white").save(image_path)
+    page = ParsedPage(
+        page_id="page-2", volume_id="vol-1", row_index=2, filename="page.jpg",
+        image_sha256="b" * 64, body_text="Original parse text.",
+        blocks=[ExtractedBlock(
+            class_name="Text", bbox=BBox(x1=0.1, y1=0.1, x2=0.9, y2=0.9),
+            text="Original parse text.", raw_text="Original parse text.",
+        )],
+    )
+
+    class Client:
+        def complete(self, messages, max_tokens, extra_body):
+            return {"choices": [{"message": {"content": "not json"}}]}
+
+    corrected, reports = correct_page_crops(page, image_path, Client(), "test-model")
+    assert corrected.corrected_body_text == "Original parse text."
+    assert reports[0].status == "failed"
+    assert "JSON object" in reports[0].error

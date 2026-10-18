@@ -67,6 +67,13 @@ class AlignedChunkComparison(BaseModel):
     wikipedia_excerpt: str
 
 
+class RelevantWikipediaScope(BaseModel):
+    text: str
+    chunk_indices: list[int] = Field(default_factory=list)
+    similarities: list[float] = Field(default_factory=list)
+    character_count: int = Field(ge=0)
+
+
 class CitedClaim(BaseModel):
     claim_text: str
     claim_type: Literal["factual", "inference"]
@@ -102,6 +109,8 @@ class EntryComparison(BaseModel):
     wikipedia_url: str
     wikipedia_text_sha256: str
     wikipedia_raw_chars: int = Field(ge=0)
+    wikipedia_relevant_chars: int = Field(default=0, ge=0)
+    wikipedia_relevant_chunk_indices: list[int] = Field(default_factory=list)
     wikipedia_tokens: int = Field(ge=0)
     wikipedia_unique_tokens: int = Field(ge=0)
     length_ratio: float
@@ -325,13 +334,75 @@ def compute_lexical_comparison(
     )
 
 
+def select_relevant_wikipedia_scope(
+    brit_text: str,
+    wiki_text: str,
+    retrieval_client: RetrievalClient | None = None,
+    max_chars: int = 4000,
+    relevance_weight: float = 0.75,
+    min_similarity: float = 0.05,
+) -> RelevantWikipediaScope:
+    wiki_chunks = split_chunks(wiki_text)
+    if not brit_text.strip() or not wiki_chunks:
+        return RelevantWikipediaScope(text="", character_count=0)
+    similarities: np.ndarray | None = None
+    redundancy: np.ndarray | None = None
+    if retrieval_client is not None:
+        try:
+            vectors = retrieval_client.embed([brit_text[:32000], *wiki_chunks], "document")
+            matrix = np.asarray(vectors, dtype=np.float64)
+            norms = np.linalg.norm(matrix, axis=1, keepdims=True)
+            norms[norms == 0] = 1.0
+            matrix = matrix / norms
+            similarities = matrix[1:] @ matrix[0]
+            redundancy = matrix[1:] @ matrix[1:].T
+        except Exception:
+            similarities = None
+    if similarities is None or redundancy is None:
+        tokenized = [tokenize(brit_text), *[tokenize(chunk) for chunk in wiki_chunks]]
+        idf = compute_corpus_idf(tokenized, min_df=1)
+        vectors = [_tfidf_vector(tokens, idf) for tokens in tokenized]
+        similarities = np.asarray([_cosine(vectors[0], vector) for vector in vectors[1:]])
+        redundancy = np.asarray([[_cosine(a, b) for b in vectors[1:]] for a in vectors[1:]])
+
+    selected: list[int] = []
+    selected_scores: list[float] = []
+    characters = 0
+    remaining = set(range(len(wiki_chunks)))
+    while remaining:
+        best: tuple[float, float, int] | None = None
+        for index in remaining:
+            relevance = float(similarities[index])
+            overlap = max((float(redundancy[index, chosen]) for chosen in selected), default=0.0)
+            score = relevance_weight * relevance - (1.0 - relevance_weight) * overlap
+            candidate = (score, relevance, index)
+            if best is None or candidate > best:
+                best = candidate
+        if best is None or best[1] < min_similarity:
+            break
+        _, relevance, index = best
+        addition = len(wiki_chunks[index]) + (2 if selected else 0)
+        if selected and characters + addition > max_chars:
+            break
+        selected.append(index)
+        selected_scores.append(round(relevance, 4))
+        characters += addition
+        remaining.remove(index)
+    text = "\n\n".join(wiki_chunks[index] for index in selected)
+    return RelevantWikipediaScope(
+        text=text, chunk_indices=selected, similarities=selected_scores, character_count=len(text),
+    )
+
+
 def align_chunks(
     brit_text: str,
     wiki_text: str,
     retrieval_client: RetrievalClient | None = None,
     top_n: int = TOP_ALIGNED_CHUNKS,
+    relevance_weight: float = 0.75,
+    min_similarity: float = 0.05,
 ) -> list[AlignedChunkComparison]:
-    """Match Britannica paragraph chunks to their closest Wikipedia chunks."""
+    """Select relevant chunk pairs with a penalty for repeated Wikipedia evidence."""
     brit_chunks, wiki_chunks = split_chunks(brit_text), split_chunks(wiki_text)
     if not brit_chunks or not wiki_chunks:
         return []
@@ -354,17 +425,32 @@ def align_chunks(
         wiki_vecs = [_tfidf_vector(tokenize(c), idf) for c in wiki_chunks]
         similarities = np.array([[_cosine(b, w) for w in wiki_vecs] for b in brit_vecs])
 
-    pairs: list[AlignedChunkComparison] = []
-    for b_idx, row in enumerate(similarities):
-        w_idx = int(np.argmax(row))
-        pairs.append(AlignedChunkComparison(
+    selected: list[AlignedChunkComparison] = []
+    remaining_britannica = set(range(len(brit_chunks)))
+    wikipedia_uses: dict[int, int] = {}
+    while remaining_britannica and len(selected) < top_n:
+        best: tuple[float, float, int, int] | None = None
+        for b_idx in remaining_britannica:
+            for w_idx, similarity in enumerate(similarities[b_idx]):
+                relevance = float(similarity)
+                redundancy = min(1.0, wikipedia_uses.get(w_idx, 0))
+                mmr_score = relevance_weight * relevance - (1.0 - relevance_weight) * redundancy
+                candidate = (mmr_score, relevance, b_idx, w_idx)
+                if best is None or candidate > best:
+                    best = candidate
+        if best is None or best[1] < min_similarity:
+            break
+        _, similarity, b_idx, w_idx = best
+        selected.append(AlignedChunkComparison(
             britannica_chunk_index=b_idx,
             wikipedia_chunk_index=w_idx,
-            similarity=round(float(row[w_idx]), 4),
+            similarity=round(similarity, 4),
             britannica_excerpt=brit_chunks[b_idx][:TOP_CLAIM_CHARS],
             wikipedia_excerpt=wiki_chunks[w_idx][:TOP_CLAIM_CHARS],
         ))
-    return sorted(pairs, key=lambda p: p.similarity, reverse=True)[:top_n]
+        remaining_britannica.remove(b_idx)
+        wikipedia_uses[w_idx] = wikipedia_uses.get(w_idx, 0) + 1
+    return selected
 
 
 def compute_corpus_topics(
@@ -488,6 +574,9 @@ def _quote_of(text: str, limit: int = TOP_CLAIM_CHARS) -> str:
     return text.strip()[:limit]
 
 
+CLAIMS_PROMPT_VERSION = "claims-v2-relevant-scope"
+
+
 def generate_cited_claims(
     entry: dict[str, Any],
     article: WikiArticle,
@@ -504,14 +593,23 @@ def generate_cited_claims(
     """
     cache_dir.mkdir(parents=True, exist_ok=True)
     cache_path = cache_dir / f"{entry['entry_id']}.json"
+    brit_raw, wiki_raw = entry.get("text", ""), article.text
+    model_id = getattr(chat_client, "model", "test-or-custom-client") if chat_client is not None else "deterministic"
+    fingerprint = hashlib.sha256(json.dumps({
+        "britannica_sha256": hashlib.sha256(brit_raw.encode("utf-8")).hexdigest(),
+        "wikipedia_sha256": hashlib.sha256(wiki_raw.encode("utf-8")).hexdigest(),
+        "wikipedia_revision_id": article.revision_id,
+        "model_id": model_id,
+        "prompt_version": CLAIMS_PROMPT_VERSION,
+    }, sort_keys=True).encode("utf-8")).hexdigest()
     if cache_path.is_file():
         try:
             cached = json.loads(cache_path.read_text(encoding="utf-8"))
-            return [CitedClaim.model_validate(c) for c in cached["claims"]], int(cached.get("dropped", 0))
+            if cached.get("fingerprint") == fingerprint:
+                return [CitedClaim.model_validate(c) for c in cached["claims"]], int(cached.get("dropped", 0))
         except Exception:
             pass
 
-    brit_raw, wiki_raw = entry.get("text", ""), article.text
     base: dict[str, Any] = {
         "britannica_pages": entry.get("source_pages", []),
         "wikipedia_page_id": article.page_id,
@@ -622,7 +720,10 @@ def generate_cited_claims(
 
     try:
         cache_path.write_text(
-            json.dumps({"claims": [c.model_dump() for c in claims], "dropped": dropped}, indent=2),
+            json.dumps({
+                "fingerprint": fingerprint, "prompt_version": CLAIMS_PROMPT_VERSION,
+                "model_id": model_id, "claims": [c.model_dump() for c in claims], "dropped": dropped,
+            }, indent=2),
             encoding="utf-8",
         )
     except OSError:

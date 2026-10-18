@@ -121,6 +121,16 @@ Read the [challenge brief](docs/challenge.md) for the required models and delive
 Use the [submission template](templates/submission.md) to record your results.
 Submit a video of 3 to 5 minutes and your solution repository.
 
+### Team pipeline
+
+The extraction stage keeps the raw Parse response, crop-level Super VL output, corrected transcription, and normalized analysis text separate. It uses Parse bounding boxes to crop the first text region in each column, section headings, and blocks with poor OCR quality. This selective policy targets about 351 of 1,114 text blocks. It reduces Super VL calls by about 68.5% compared with correcting every block. Incomplete replies receive one larger-token retry. Failed crops retain the Parse transcription and an error record.
+
+Matching query caches include the corrected text hash, model ID, and prompt version. A changed transcription cannot reuse stale search queries. Candidate acceptance still requires a reviewed 30-case calibration set before the score-fusion policy is fitted.
+
+The comparison stage selects up to about 4,000 relevant Wikipedia characters for pair-level metrics. It retains whole-article metadata separately. Chunk alignment uses maximal marginal relevance to penalize repeated Wikipedia evidence and rejects weak alignments. Claim caches include both source hashes, the Wikipedia revision, model ID, and prompt version.
+
+Generated OCR correction files remain run artifacts. Do not commit partial correction caches or treat a stopped run as completed evidence.
+
 ### Topic comparison with BERTopic
 
 The illustration shows one method for comparing Britannica entries with selected Wikipedia articles.

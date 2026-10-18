@@ -5,7 +5,7 @@ from nemotron_challenge.comparison import (
     EntryComparison, ExclusionRecord, LexicalMetrics,
     align_chunks, compute_corpus_idf, compute_corpus_topics, compute_lexical_comparison,
     generate_cited_claims, generate_comparison_plots, normalize_historical_text,
-    record_compare_provenance, tokenize, verify_plot_counts,
+    record_compare_provenance, select_relevant_wikipedia_scope, tokenize, verify_plot_counts,
 )
 from nemotron_challenge.storage import LanceArtifactStore
 
@@ -88,6 +88,22 @@ def test_compute_lexical_comparison_metrics():
     assert metrics.distinctive_britannica or metrics.distinctive_wikipedia
 
 
+def test_select_relevant_wikipedia_scope_limits_and_filters():
+    brit_text = "Optics studies light, lenses, vision, and refraction. " * 20
+    wiki_text = (
+        "Medieval taxation concerned charters and feudal rents. " * 15
+        + "\n\n"
+        + "Optics studies light, lenses, refraction, and visual perception. " * 15
+        + "\n\n"
+        + "Cooking recipes describe bread and vegetable soups. " * 15
+    )
+    scope = select_relevant_wikipedia_scope(brit_text, wiki_text, max_chars=1000)
+    assert scope.character_count <= 1000
+    assert "Optics" in scope.text
+    assert scope.chunk_indices
+    assert scope.similarities[0] > 0.0
+
+
 def test_align_chunks_finds_closest_paragraphs():
     brit_text = ("Optics is the science of light and vision. " * 12
                  + "\n\nAstronomy studies celestial bodies and their motions. " * 12)
@@ -97,6 +113,16 @@ def test_align_chunks_finds_closest_paragraphs():
     assert len(aligned) >= 1
     assert all(0.0 <= c.similarity <= 1.0 for c in aligned)
     assert all(c.britannica_excerpt and c.wikipedia_excerpt for c in aligned)
+    assert len({c.wikipedia_chunk_index for c in aligned}) == len(aligned)
+
+
+def test_align_chunks_rejects_unrelated_evidence():
+    aligned = align_chunks(
+        "optics lenses refraction light " * 30,
+        "medieval taxation feudal charter monarchy " * 30,
+        retrieval_client=None,
+    )
+    assert aligned == []
 
 
 def test_generate_cited_claims_deterministic(tmp_path):

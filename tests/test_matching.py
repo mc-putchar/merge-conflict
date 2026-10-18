@@ -36,18 +36,28 @@ def test_extract_fallback_queries():
     assert "ABY S SINIA" in queries[0]
 
 
-def test_generate_search_queries_with_cache(tmp_path):
+def test_generate_search_queries_cache_tracks_source_text(tmp_path):
     cache_dir = tmp_path / "queries"
-    entry_id = "test-entry-1"
 
-    # Pre-write cache
-    cached_queries = ["History of Ethiopia", "Kingdom of Aksum"]
-    cache_path = cache_dir / f"{entry_id}.json"
-    cache_dir.mkdir(parents=True, exist_ok=True)
-    cache_path.write_text(json.dumps(cached_queries), encoding="utf-8")
+    class FakeChat:
+        model = "test-model"
+        calls = 0
 
-    result = generate_search_queries(entry_id, "Abyssinia", "Some text", client=None, cache_dir=cache_dir)
-    assert result == cached_queries
+        def complete(self, *args, **kwargs):
+            self.calls += 1
+            return {"choices": [{"message": {"content": '["Abyssinia", "Kingdom of Aksum"]'}}]}
+
+    client = FakeChat()
+    first = generate_search_queries("test-entry-1", "Abyssinia", "Old OCR text", client, cache_dir)
+    cached = generate_search_queries("test-entry-1", "Abyssinia", "Old OCR text", client, cache_dir)
+    changed = generate_search_queries("test-entry-1", "Abyssinia", "Corrected OCR text", client, cache_dir)
+
+    assert first == cached == changed
+    assert client.calls == 2
+    payload = json.loads((cache_dir / "test-entry-1.json").read_text())
+    assert payload["model_id"] == "test-model"
+    assert payload["prompt_version"]
+    assert payload["fingerprint"]
 
 
 def test_retrieve_candidates_deduplication():

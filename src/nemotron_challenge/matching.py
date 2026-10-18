@@ -83,6 +83,17 @@ def extract_fallback_queries(title: str, text: str) -> list[str]:
     return queries[:4] if queries else ["Britannica"]
 
 
+QUERY_PROMPT_VERSION = "query-v2-corrected-ocr"
+
+
+def _query_fingerprint(title: str, text: str, model_id: str) -> str:
+    payload = json.dumps({
+        "title": title, "text_sha256": hashlib.sha256(text.encode("utf-8")).hexdigest(),
+        "model_id": model_id, "prompt_version": QUERY_PROMPT_VERSION,
+    }, sort_keys=True)
+    return hashlib.sha256(payload.encode("utf-8")).hexdigest()
+
+
 def generate_search_queries(
     entry_id: str,
     title: str,
@@ -93,11 +104,14 @@ def generate_search_queries(
     """Generate 2-3 focused Wikipedia search terms using Super 3.5 VL or cached results."""
     cache_dir.mkdir(parents=True, exist_ok=True)
     cache_path = cache_dir / f"{entry_id}.json"
+    model_id = client.model if client is not None else "deterministic-fallback"
+    fingerprint = _query_fingerprint(title, text, model_id)
     if cache_path.is_file():
         try:
             cached = json.loads(cache_path.read_text(encoding="utf-8"))
-            if isinstance(cached, list) and cached and all(isinstance(q, str) for q in cached):
-                return cached
+            queries = cached.get("queries", []) if isinstance(cached, dict) else []
+            if cached.get("fingerprint") == fingerprint and queries and all(isinstance(q, str) for q in queries):
+                return queries
         except (json.JSONDecodeError, OSError):
             pass
 
@@ -129,14 +143,20 @@ def generate_search_queries(
             if isinstance(parsed, list) and parsed:
                 queries = [str(q).strip() for q in parsed if str(q).strip()][:3]
                 if queries:
-                    cache_path.write_text(json.dumps(queries, indent=2), encoding="utf-8")
+                    cache_path.write_text(json.dumps({
+                        "fingerprint": fingerprint, "prompt_version": QUERY_PROMPT_VERSION,
+                        "model_id": model_id, "queries": queries,
+                    }, indent=2), encoding="utf-8")
                     return queries
     except Exception:
         pass
 
     # Save fallback to cache
     try:
-        cache_path.write_text(json.dumps(fallback, indent=2), encoding="utf-8")
+        cache_path.write_text(json.dumps({
+            "fingerprint": fingerprint, "prompt_version": QUERY_PROMPT_VERSION,
+            "model_id": model_id, "queries": fallback,
+        }, indent=2), encoding="utf-8")
     except OSError:
         pass
     return fallback

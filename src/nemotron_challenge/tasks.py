@@ -109,19 +109,39 @@ def extract(settings: Settings, work_dir: Path) -> dict[str, Any]:
             parsed = parse_page(page_meta, raw_json)
             parsed_pages.append(parsed)
 
-    # Segment entries and join multi-page continuations
-    entries = segment_entries(parsed_pages)
-
-    # Multimodal Vision Extension: inspect and recover copperplate illustration scans
-    from .extraction import ExtractedEntry
-    from .vision import enrich_entries_with_vision
+    from .ocr_correction import CropCorrection, apply_corrections, correct_page_crops, select_correction_blocks
 
     chat_client = None
     if settings.super_base_url and settings.super_api_key:
-        try:
-            chat_client = ChatClient(settings.super_base_url, settings.super_api_key, settings.super_model)
-        except Exception:
-            chat_client = None
+        chat_client = ChatClient(settings.super_base_url, settings.super_api_key, settings.super_model)
+
+    corrections_dir = extract_dir / "ocr_corrections"
+    corrections_dir.mkdir(parents=True, exist_ok=True)
+    correction_reports: list[CropCorrection] = []
+    if chat_client is not None:
+        for index, page in enumerate(parsed_pages):
+            cache_path = corrections_dir / f"{page.filename}.json"
+            selected_indices = select_correction_blocks(page)
+            reports = []
+            if cache_path.is_file():
+                reports = [CropCorrection(**item) for item in json.loads(cache_path.read_text(encoding="utf-8"))]
+            covered_indices = {report.block_index for report in reports if report.status == "corrected"}
+            if selected_indices <= covered_indices:
+                parsed_pages[index] = apply_corrections(page, reports)
+            else:
+                corrected_page, reports = correct_page_crops(
+                    page, raw_dir / page.filename, chat_client, settings.super_model, selected_indices,
+                )
+                parsed_pages[index] = corrected_page
+                cache_path.write_text(
+                    json.dumps([report.model_dump() for report in reports], indent=2), encoding="utf-8",
+                )
+            correction_reports.extend(reports)
+
+    entries = segment_entries(parsed_pages)
+
+    from .extraction import ExtractedEntry
+    from .vision import enrich_entries_with_vision
 
     vision_cache_dir = Path(os.environ.get("VISION_CACHE_DIR", "data/cache/vision"))
     entries_payload = [e.model_dump() for e in entries]
@@ -191,6 +211,11 @@ def extract(settings: Settings, work_dir: Path) -> dict[str, Any]:
         "scans_failed": len(failed_scans),
         "failed_scans": failed_scans,
         "entries_extracted": len(entries),
+        "ocr_crops_total": len(correction_reports),
+        "ocr_crops_corrected": sum(report.status == "corrected" for report in correction_reports),
+        "ocr_crops_failed": sum(report.status == "failed" for report in correction_reports),
+        "ocr_uncertain_spans": sum(len(report.uncertain_spans) for report in correction_reports),
+        "ocr_correction_model": settings.super_model if correction_reports else None,
         "plates_recovered": plates_recovered,
         "continuations": sum(1 for e in entries if e.is_continuation),
         "total_characters": sum(e.character_count for e in entries),
@@ -356,7 +381,8 @@ def compare(settings: Settings, work_dir: Path) -> dict[str, Any]:
         CorpusComparisonSummary, EntryComparison, ExclusionRecord,
         align_chunks, britannica_text_sha256, compute_corpus_idf, compute_corpus_topics,
         compute_lexical_comparison, generate_cited_claims, generate_comparison_plots,
-        normalize_historical_text, record_compare_provenance, tokenize, verify_plot_counts,
+        normalize_historical_text, record_compare_provenance, select_relevant_wikipedia_scope,
+        tokenize, verify_plot_counts,
     )
 
     work_dir = Path(work_dir)
@@ -453,13 +479,16 @@ def compare(settings: Settings, work_dir: Path) -> dict[str, Any]:
     normalized_docs: list[tuple[str, str, str, str]] = []  # (entry_id, side, raw, normalized)
     per_pair_norm: dict[str, tuple[str, str]] = {}
     per_pair_changes: dict[str, list[Any]] = {}
+    per_pair_scope: dict[str, Any] = {}
     for entry, _, article in pairs:
         brit_norm, changes = normalize_historical_text(entry["text"], modern_vocab)
-        wiki_norm = article.text
+        scope = select_relevant_wikipedia_scope(brit_norm, article.text, retrieval_client)
+        wiki_norm = scope.text or article.text[:4000]
         per_pair_norm[entry["entry_id"]] = (brit_norm, wiki_norm)
         per_pair_changes[entry["entry_id"]] = changes
+        per_pair_scope[entry["entry_id"]] = scope
         normalized_docs.append((entry["entry_id"], "britannica", entry["text"], brit_norm))
-        normalized_docs.append((entry["entry_id"], "wikipedia", article.text, wiki_norm))
+        normalized_docs.append((entry["entry_id"], "wikipedia", wiki_norm, wiki_norm))
 
     all_tokens = [tokenize(doc[3]) for doc in normalized_docs]
     idf = compute_corpus_idf(all_tokens)
@@ -494,13 +523,19 @@ def compare(settings: Settings, work_dir: Path) -> dict[str, Any]:
         brit_norm, wiki_norm = per_pair_norm[entry_id]
         changes = per_pair_changes[entry_id]
 
-        metrics = compute_lexical_comparison(entry["text"], brit_norm, article.text, wiki_norm, idf, background)
+        metrics = compute_lexical_comparison(entry["text"], brit_norm, wiki_norm, wiki_norm, idf, background)
         if entry_id in embedding_cosine:
             metrics.cosine_embedding = embedding_cosine[entry_id]
 
-        aligned = align_chunks(brit_norm, article.text, retrieval_client)
+        aligned = align_chunks(brit_norm, wiki_norm, retrieval_client)
+        if hasattr(article, "model_copy"):
+            scoped_article = article.model_copy(update={"text": wiki_norm})
+        else:
+            import copy
+            scoped_article = copy.copy(article)
+            scoped_article.text = wiki_norm
         claims, dropped = generate_cited_claims(
-            entry, article, metrics, changes, chat_client, claims_cache_dir, brit_norm,
+            entry, scoped_article, metrics, changes, chat_client, claims_cache_dir, brit_norm,
         )
         dropped_claims += dropped
 
@@ -520,9 +555,11 @@ def compare(settings: Settings, work_dir: Path) -> dict[str, Any]:
             wikipedia_url=article.url,
             wikipedia_text_sha256=article.provenance.text_sha256,
             wikipedia_raw_chars=len(article.text),
+            wikipedia_relevant_chars=len(wiki_norm),
+            wikipedia_relevant_chunk_indices=per_pair_scope[entry_id].chunk_indices,
             wikipedia_tokens=len(wiki_tokens),
             wikipedia_unique_tokens=len(set(wiki_tokens)),
-            length_ratio=round(len(article.text) / max(len(entry["text"]), 1), 3),
+            length_ratio=round(len(wiki_norm) / max(len(entry["text"]), 1), 3),
             text_changes=changes,
             metrics=metrics,
             aligned_chunks=aligned,

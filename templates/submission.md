@@ -1,10 +1,10 @@
 # Submission: Nemotron Agentic AI Challenge
 
 Team: Toicen's Chosen
-Repository URL and commit: https://github.com/mc-putchar/merge-conflict @ 97a1445461780bee4166f64a3e5cdcbd17ef14bd
+Repository URL and commit: 5047d4d88e9774fdfbfb3e7aedd944bf6f1f5967
 Video URL, 3 to 5 minutes: [Submitted in portal]
-Static website URL: https://mc-putchar.github.io/merge-conflict/
-Compiled LaTeX documents: artifacts/site/latex/ (234 PDFs and `.tex` sources, compiled with Tectonic)
+Static website URL: https://mc-putchar.github.io/merge-conflict
+Compiled LaTeX documents: artifacts/site/latex/ (234 PDFs)
 
 ## Reproduce the run
 

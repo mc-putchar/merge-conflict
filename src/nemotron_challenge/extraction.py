@@ -68,6 +68,8 @@ class ExtractedBlock(BaseModel):
     bbox: BBox
     text: str
     raw_text: str
+    corrected_text: str = ""
+    uncertain_spans: list[str] = Field(default_factory=list)
 
 
 class ParsedPage(BaseModel):
@@ -80,6 +82,7 @@ class ParsedPage(BaseModel):
     page_number: int | None = None
     blocks: list[ExtractedBlock] = Field(default_factory=list)
     body_text: str = ""
+    corrected_body_text: str = ""
     headers: list[ExtractedBlock] = Field(default_factory=list)
     footnotes: list[ExtractedBlock] = Field(default_factory=list)
 
@@ -88,6 +91,8 @@ class ExtractedEntry(BaseModel):
     entry_id: str
     title: str
     text: str
+    raw_text: str = ""
+    corrected_text: str = ""
     normalized_text: str = ""
     source_pages: list[str]
     source_row_indices: list[int]
@@ -278,11 +283,13 @@ def segment_entries(pages: list[ParsedPage]) -> list[ExtractedEntry]:
     }
 
     for page in sorted_pages:
+        page_text = page.corrected_body_text or page.body_text
         page_title = page.running_title or f"Britannica Volume {page.volume_id} Row {page.row_index}"
         clean_title = re.sub(r"[^\w\s-]", "", page_title).strip() or f"Entry_{page.row_index}"
         is_range = bool(RANGE_TITLE_RE.match(page.running_title.strip()))
 
-        paragraphs = [p.strip() for p in page.body_text.split("\n\n") if p.strip()]
+        paragraphs = [p.strip() for p in page_text.split("\n\n") if p.strip()]
+        raw_paragraphs = [p.strip() for p in page.body_text.split("\n\n") if p.strip()]
         detected_hws: list[str] = []
         for p in paragraphs:
             m = ENTRY_HEADWORD_RE.match(p)
@@ -307,7 +314,9 @@ def segment_entries(pages: list[ParsedPage]) -> list[ExtractedEntry]:
 
             if is_cont and current_entry is not None:
                 delim = " " if not current_entry["text"].endswith((".", "!", "?", "\n")) else "\n\n"
-                current_entry["text"] = f"{current_entry['text']}{delim}{page.body_text}".strip()
+                current_entry["text"] = f"{current_entry['text']}{delim}{page_text}".strip()
+                raw_delim = " " if not current_entry["raw_text"].endswith((".", "!", "?", "\n")) else "\n\n"
+                current_entry["raw_text"] = f"{current_entry['raw_text']}{raw_delim}{page.body_text}".strip()
                 current_entry["source_pages"].append(page.page_id)
                 current_entry["source_row_indices"].append(page.row_index)
                 current_entry["is_continuation"] = True
@@ -320,7 +329,8 @@ def segment_entries(pages: list[ParsedPage]) -> list[ExtractedEntry]:
                 current_entry = {
                     "entry_id": entry_id,
                     "title": clean_title,
-                    "text": page.body_text,
+                    "text": page_text,
+                    "raw_text": page.body_text,
                     "source_pages": [page.page_id],
                     "source_row_indices": [page.row_index],
                     "volume_id": page.volume_id,
@@ -334,7 +344,8 @@ def segment_entries(pages: list[ParsedPage]) -> list[ExtractedEntry]:
                 }
         else:
             # Dictionary page: split paragraphs by headword
-            for p in paragraphs:
+            for paragraph_index, p in enumerate(paragraphs):
+                raw_paragraph = raw_paragraphs[paragraph_index] if paragraph_index < len(raw_paragraphs) else p
                 m = ENTRY_HEADWORD_RE.match(p)
                 hw = None
                 if m:
@@ -352,6 +363,7 @@ def segment_entries(pages: list[ParsedPage]) -> list[ExtractedEntry]:
                         "entry_id": entry_id,
                         "title": h_clean,
                         "text": p,
+                        "raw_text": raw_paragraph,
                         "source_pages": [page.page_id],
                         "source_row_indices": [page.row_index],
                         "volume_id": page.volume_id,
@@ -368,6 +380,8 @@ def segment_entries(pages: list[ParsedPage]) -> list[ExtractedEntry]:
                     if current_entry is not None and current_entry["volume_id"] == page.volume_id:
                         delim = " " if not current_entry["text"].endswith((".", "!", "?", "\n")) else "\n\n"
                         current_entry["text"] = f"{current_entry['text']}{delim}{p}".strip()
+                        raw_delim = " " if not current_entry["raw_text"].endswith((".", "!", "?", "\n")) else "\n\n"
+                        current_entry["raw_text"] = f"{current_entry['raw_text']}{raw_delim}{raw_paragraph}".strip()
                         if page.page_id not in current_entry["source_pages"]:
                             current_entry["source_pages"].append(page.page_id)
                         if page.row_index not in current_entry["source_row_indices"]:
@@ -383,6 +397,7 @@ def segment_entries(pages: list[ParsedPage]) -> list[ExtractedEntry]:
                             "entry_id": entry_id,
                             "title": c_title,
                             "text": p,
+                            "raw_text": raw_paragraph,
                             "source_pages": [page.page_id],
                             "source_row_indices": [page.row_index],
                             "volume_id": page.volume_id,
@@ -413,6 +428,8 @@ def segment_entries(pages: list[ParsedPage]) -> list[ExtractedEntry]:
                 entry_id=raw["entry_id"],
                 title=raw["title"],
                 text=raw_text,
+                raw_text=raw.get("raw_text", raw_text),
+                corrected_text=raw_text,
                 normalized_text=norm_text,
                 source_pages=raw["source_pages"],
                 source_row_indices=raw["source_row_indices"],

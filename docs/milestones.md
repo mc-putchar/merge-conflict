@@ -14,6 +14,8 @@ Keep raw model output and scan coordinates with each derived record.
 Check source coverage, missing text, and failed or blank scans.
 Compare selected outputs with the source images.
 
+Team method: Parse supplies page layout and raw text. Super VL retranscribes selected crops: the first text region in each column, section headings, and blocks with poor OCR quality. The pipeline preserves raw, corrected, and normalized text in separate fields. It records crop hashes, bounding boxes, model output, uncertainty spans, and failures. A page cache is valid only when it covers every crop selected by the current policy.
+
 ## Match
 
 Entry point: `tasks.match`.
@@ -25,6 +27,8 @@ Keep article IDs, revisions, scores, and the evidence for each decision.
 Check matches by reading both source documents.
 Report omissions and repeated article selections.
 
+Team method: search-query caches are content-addressed by corrected text, model ID, and prompt version. BM25 supplies candidates. Text and multimodal rerankers supply separate evidence. The next acceptance policy will fuse these scores only after the team labels and reviews a stratified 30-case calibration set. Until then, do not describe the threshold as calibrated.
+
 ## Compare
 
 Entry point: `tasks.compare`.
@@ -35,6 +39,8 @@ Keep a record of text changes and exclusions.
 
 Check that plots count the intended documents.
 Support each comparison with source text.
+
+Team method: pair-level metrics use up to about 4,000 relevant Wikipedia characters selected with embedding similarity or a TF-IDF fallback. Whole-article identifiers, hashes, and lengths remain available as source metadata. Chunk alignment uses maximal marginal relevance with a repeated-evidence penalty and a minimum similarity threshold. Claim caches include both source hashes and the Wikipedia revision.
 
 ## Agent
 

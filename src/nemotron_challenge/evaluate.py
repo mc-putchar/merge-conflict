@@ -263,18 +263,20 @@ def build_evaluation(settings: Settings, work_dir: Path) -> dict[str, Any]:
 
     # Compile submission.md
     extract_file = artifacts_dir / "extract" / "entries.json"
-    entries_count = len(json.loads(extract_file.read_text(encoding="utf-8"))) if extract_file.is_file() else 95
+    entries_count = len(json.loads(extract_file.read_text(encoding="utf-8"))) if extract_file.is_file() else 0
+    latex_dir = artifacts_dir / "site" / "latex"
+    pdf_count = len(list(latex_dir.glob("*.pdf"))) if latex_dir.is_dir() else 0
 
     compare_summary_file = artifacts_dir / "compare" / "summary.json"
     comp_sum = json.loads(compare_summary_file.read_text(encoding="utf-8")) if compare_summary_file.is_file() else {}
 
     submission_content = f"""# Submission: Nemotron Agentic AI Challenge
 
-Team: Merge Conflict
+Team: Toicen's Chosen
 Repository URL and commit: {git_rev}
 Video URL, 3 to 5 minutes: [Submitted in portal]
-Static website URL: artifacts/site/index.html (SvelteKit SPA)
-Compiled LaTeX documents: artifacts/site/latex/ (95 generated documents)
+Static website URL: https://mc-putchar.github.io/merge-conflict
+Compiled LaTeX documents: artifacts/site/latex/ ({pdf_count} PDFs)
 
 ## Reproduce the run
 
