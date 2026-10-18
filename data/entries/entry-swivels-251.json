@@ -1,0 +1,66 @@
+{
+  "entry": {
+    "entry_id": "entry-swivels-251",
+    "title": "SWIVELS",
+    "text": "SWIVELS, a kind of ring made to turn round in a\nfluids, or other ring. Theirs are ufed when a ship lies st\nhe monitoring sals in teleckes for adults, that they may turn\nround without overwarping the tedder.\n\n_Switet-Canonas_, is a fault piece of artillery belonging to\na filing of way which carries a flux of half a pound, and is\nfixed in a locked on the top of the ship's ride, then, or how,\nand also in her tops. The renumion of this piece are con-\ntained in a fara of iron roots, of which the lowest tre-\nminutes in a cylindrical pivot rolling in the locket, fo as to\nfupport the weight of the canon.\" the footer is born in\nthe living place of sky, resulting with from hoops in order\nto cable it to fulltain the recoil. By means of this frame,\nwhich called the _hybrid_, and as iron heads on its caf-\nsible, the game be directed by the head to any object.\nIt is therefore very necellary in the tops, particularly when\nloaded with multiclusls, to fire down on the upper decks\nof the shelter in an area.",
+    "normalized_text": "SWIVELS, a kind of ring made to turn round in a\nfluids, or other ring. Theirs are ufed when a ship lies st\nhe monitoring sals in teleckes for adults, that they may turn\nround without overwarping the tedder.\n\n_Switet-Canonas_, is a fault piece of artillery belonging to\na filing of way which carries a flux of half a pound, and is\nfixed in a locked on the top of the ship's ride, then, or how,\nand also in her tops. The renumion of this piece are contained in a fara of iron roots, of which the lowest treminutes in a cylindrical pivot rolling in the locket, so as to\nfupport the weight of the canon.\" the footer is born in\nthe living place of sky, resulting with from hoops in order\nto cable it to fulltain the recoil. By means of this frame,\nwhich called the _hybrid_, and as iron heads on its cafsible, the game be directed by the head to any object.\nIt is therefore very necellary in the tops, particularly when\nloaded with multiclusls, to fire down on the upper decks\nof the shelter in an area.",
+    "source_pages": [
+      "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:251"
+    ],
+    "source_row_indices": [
+      251
+    ],
+    "volume_id": "191679021",
+    "is_continuation": false,
+    "block_count": 2,
+    "character_count": 1004,
+    "validity_score": 0.6209,
+    "metadata": {
+      "page_number": null,
+      "running_title": "SWI [ 248] SYD",
+      "headword": "SWIVELS",
+      "text_changes_count": 4,
+      "text_changes_sample": [
+        {
+          "rule": "line_break_hyphen",
+          "original": "con-\ntained",
+          "replacement": "contained"
+        },
+        {
+          "rule": "line_break_hyphen",
+          "original": "tre-\nminutes",
+          "replacement": "treminutes"
+        },
+        {
+          "rule": "line_break_hyphen",
+          "original": "caf-\nsible",
+          "replacement": "cafsible"
+        },
+        {
+          "rule": "ocr_f_s_confusion",
+          "original": "fo",
+          "replacement": "so"
+        }
+      ]
+    }
+  },
+  "match": null,
+  "comparison": null,
+  "exclusion": null,
+  "wikipedia": {
+    "available": false
+  },
+  "scans": [
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:251",
+      "filename": "page-0251-69952e7c4a0f.jpg",
+      "image_sha256": "69952e7c4a0f40267d357d04308f674155b3ab206ce8f2f4887124ce481f8c1d",
+      "row_index": 251,
+      "path": "scans/page-0251-69952e7c4a0f.jpg"
+    }
+  ],
+  "documents": {
+    "tex": "latex/entry-swivels-251.tex",
+    "pdf": "latex/entry-swivels-251.pdf"
+  }
+}

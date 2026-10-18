@@ -1,0 +1,44 @@
+{
+  "entry": {
+    "entry_id": "entry-damsel-1214",
+    "title": "DAMSEL",
+    "text": "DAMSEL, from the French _damself or demasifons_, an application ancestri given to all young people of eitherys, that were of endular or genest extraction, as the fons and daughters of princes, knights, and barons: thus we read of Daniel Prisin DaudiL Louis le Gros, David Richard spruce (My Wales.\n\nFrom the folos of Kings this appellation ftp piled to theife of great locals and barons, and a length to think of gestionome who were not yet lengths.\n\nAt present damful is applied to all meals or girls not yet material, provided by be not of the vulgar.",
+    "normalized_text": "DAMSEL, from the French _damself or demasifons_, an application ancestri given to all young people of eitherys, that were of endular or genest extraction, as the fons and daughters of princes, knights, and barons: thus we read of Daniel Prisin DaudiL Louis le Gros, David Richard spruce (My Wales.\n\nFrom the folos of Kings this appellation ftp piled to theife of great locals and barons, and a length to think of gestionome who were not yet lengths.\n\nAt present damful is applied to all meals or girls not yet material, provided by be not of the vulgar.",
+    "source_pages": [
+      "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1214"
+    ],
+    "source_row_indices": [
+      1214
+    ],
+    "volume_id": "149979156",
+    "is_continuation": false,
+    "block_count": 3,
+    "character_count": 553,
+    "validity_score": 0.4896,
+    "metadata": {
+      "page_number": null,
+      "running_title": "DAM [ 658]",
+      "headword": "DAMSEL",
+      "text_changes_count": 0
+    }
+  },
+  "match": null,
+  "comparison": null,
+  "exclusion": null,
+  "wikipedia": {
+    "available": false
+  },
+  "scans": [
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1214",
+      "filename": "page-1214-17d180a99e0a.jpg",
+      "image_sha256": "17d180a99e0a48546a555d98cd7fdf15bb8f8ea4b751c50e02536eba79c2473a",
+      "row_index": 1214,
+      "path": "scans/page-1214-17d180a99e0a.jpg"
+    }
+  ],
+  "documents": {
+    "tex": "latex/entry-damsel-1214.tex",
+    "pdf": "latex/entry-damsel-1214.pdf"
+  }
+}

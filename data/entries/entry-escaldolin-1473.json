@@ -1,0 +1,44 @@
+{
+  "entry": {
+    "entry_id": "entry-escaldolin-1473",
+    "title": "ESCALDOLIN",
+    "text": "ESCALDOLIN, In January, a grass off the man\nmagnetor, belonging to the presumiric data of\nplants. The fruit is bluebar and poly/permons; the\npetal diftants and longest-lived; the figures headed.",
+    "normalized_text": "ESCALDOLIN, In January, a grass off the man\nmagnetor, belonging to the presumiric data of\nplants. The fruit is bluebar and poly/permons; the\npetal diftants and longest-lived; the figures headed.",
+    "source_pages": [
+      "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1473"
+    ],
+    "source_row_indices": [
+      1473
+    ],
+    "volume_id": "149979622",
+    "is_continuation": false,
+    "block_count": 1,
+    "character_count": 194,
+    "validity_score": 0.3548,
+    "metadata": {
+      "page_number": null,
+      "running_title": "ESC 1723 I ESC",
+      "headword": "ESCALDOLIN",
+      "text_changes_count": 0
+    }
+  },
+  "match": null,
+  "comparison": null,
+  "exclusion": null,
+  "wikipedia": {
+    "available": false
+  },
+  "scans": [
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1473",
+      "filename": "page-1473-b3b602ef6a3d.jpg",
+      "image_sha256": "b3b602ef6a3d4961fd1926a15d634a40ec929c15b00e2f7cc5109b3f7180daac",
+      "row_index": 1473,
+      "path": "scans/page-1473-b3b602ef6a3d.jpg"
+    }
+  ],
+  "documents": {
+    "tex": "latex/entry-escaldolin-1473.tex",
+    "pdf": "latex/entry-escaldolin-1473.pdf"
+  }
+}

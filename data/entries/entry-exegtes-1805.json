@@ -1,0 +1,44 @@
+{
+  "entry": {
+    "entry_id": "entry-exegtes-1805",
+    "title": "EXEGTES",
+    "text": "EXEGTES, (form of cfayyama, \"I explain,\") among the information, portion learned in the law, whom the judges told to couldn\u2019t capital cuefufe.",
+    "normalized_text": "EXEGTES, (form of cfayyama, \"I explain,\") among the information, portion learned in the law, whom the judges told to couldn\u2019t capital cuefufe.",
+    "source_pages": [
+      "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1805"
+    ],
+    "source_row_indices": [
+      1805
+    ],
+    "volume_id": "191320560",
+    "is_continuation": false,
+    "block_count": 1,
+    "character_count": 142,
+    "validity_score": 0.381,
+    "metadata": {
+      "page_number": null,
+      "running_title": "EXE [ 375 ] EXE",
+      "headword": "EXEGTES",
+      "text_changes_count": 0
+    }
+  },
+  "match": null,
+  "comparison": null,
+  "exclusion": null,
+  "wikipedia": {
+    "available": false
+  },
+  "scans": [
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1805",
+      "filename": "page-1805-226885408318.jpg",
+      "image_sha256": "2268854083181b93f7bf134647f2e3214aacdd4ce0279092f4743cf113d32abd",
+      "row_index": 1805,
+      "path": "scans/page-1805-226885408318.jpg"
+    }
+  ],
+  "documents": {
+    "tex": "latex/entry-exegtes-1805.tex",
+    "pdf": "latex/entry-exegtes-1805.pdf"
+  }
+}

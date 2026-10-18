@@ -1,0 +1,268 @@
+{
+  "entry": {
+    "entry_id": "entry-a-s-t-852-a-s-t-2171",
+    "title": "A S T  852 A S T",
+    "text": "Ataraxy, a term ed by the floes and fequips, to denote that calmness of mind which feureus us from all emotions arising from vanity and fell-conceit.",
+    "normalized_text": "Ataraxy, a term ed by the floes and fequips, to denote that calmness of mind which feureus us from all emotions arising from vanity and fell-conceit.",
+    "source_pages": [
+      "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2171"
+    ],
+    "source_row_indices": [
+      2171
+    ],
+    "volume_id": "144850373",
+    "is_continuation": false,
+    "block_count": 1,
+    "character_count": 149,
+    "validity_score": 0.4231,
+    "metadata": {
+      "page_number": null,
+      "running_title": "A S T [ 852] A S T",
+      "text_changes_count": 0
+    }
+  },
+  "match": {
+    "entry_id": "entry-a-s-t-852-a-s-t-2171",
+    "britannica_title": "A S T  852 A S T",
+    "source_pages": [
+      "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2171"
+    ],
+    "matched": false,
+    "status": "rejected_threshold",
+    "selected_candidate": {
+      "page_id": "62541377",
+      "revision_id": "1327842361",
+      "title": "NGC 852",
+      "url": "https://en.wikipedia.org/wiki/NGC_852",
+      "bm25_score": 15.385030746459961,
+      "excerpt": "NGC 852 is a barred spiral galaxy located in the Eridanus constellation. It is estimated to be 281 million light-years from the Milky Way and has a diameter of about 110,000 light-years. NGC 852 was discovered on October 27, 1834, by John Herschel.",
+      "stage1_score": -4.584591865539551,
+      "multimodal_score": -5.464707374572754,
+      "is_disambiguation": false,
+      "source_query": "A S T  852 A S T"
+    },
+    "all_candidates": [
+      {
+        "page_id": "63056102",
+        "revision_id": "1217286245",
+        "title": "List of highways numbered 852",
+        "url": "https://en.wikipedia.org/wiki/List_of_highways_numbered_852",
+        "bm25_score": 15.851561546325684,
+        "excerpt": "The following highways are numbered 852:\n\nSR 852\n\nLA 852\n\nMD 852\n\nSR 852\n\nPR-852\n\nFM 852",
+        "stage1_score": -4.2308125495910645,
+        "multimodal_score": -4.444860458374023,
+        "is_disambiguation": true,
+        "source_query": "A S T  852 A S T"
+      },
+      {
+        "page_id": "62541377",
+        "revision_id": "1327842361",
+        "title": "NGC 852",
+        "url": "https://en.wikipedia.org/wiki/NGC_852",
+        "bm25_score": 15.385030746459961,
+        "excerpt": "NGC 852 is a barred spiral galaxy located in the Eridanus constellation. It is estimated to be 281 million light-years from the Milky Way and has a diameter of about 110,000 light-years. NGC 852 was discovered on October 27, 1834, by John Herschel.",
+        "stage1_score": -4.584591865539551,
+        "multimodal_score": -5.464707374572754,
+        "is_disambiguation": false,
+        "source_query": "A S T  852 A S T"
+      },
+      {
+        "page_id": "3036684",
+        "revision_id": "1348466506",
+        "title": "852 Wladilena",
+        "url": "https://en.wikipedia.org/wiki/852_Wladilena",
+        "bm25_score": 15.305954933166504,
+        "excerpt": "852 Wladilena is a Phocaea asteroid from the inner region of the asteroid belt. It is named after the Russian Communist leader Vladimir Lenin.",
+        "stage1_score": -4.774264812469482,
+        "multimodal_score": -6.3807501792907715,
+        "is_disambiguation": false,
+        "source_query": "A S T  852 A S T"
+      },
+      {
+        "page_id": "3131910",
+        "revision_id": "1278880321",
+        "title": "Florida State Road 852",
+        "url": "https://en.wikipedia.org/wiki/Florida_State_Road_852",
+        "bm25_score": 15.3130521774292,
+        "excerpt": "State Road 852 (SR 852), locally known as County Line Road and North 215th Street, is a 2.534-mile-long (4.078 km) east-west four lane divided highway straddling the boundary between Broward and Miami-Dade counties in Florida. The western terminus is an intersection with SR 817 (West 27th Avenue in Miami-Dade County, University Drive in Broward); the eastern terminus is an intersection with U.S. Route 441 (US 441) / SR 7 in Broward County, Northwest 2nd Avenue in Miami-Dade. The state road designation is omitted on many maps, but the street itself is signed by the Florida Department of Transportation.\n\nState Road 852 begins at SR 817 at the intersection with the eastbound exit from the HEFT to SR 817, with SR 852 heading east as County Line Road as a divided four-lane highway. The westernmost mile of SR 852 is wedged between the property line of Calder Race Track and an embankment atop which the Turnpike extension is constructed. At roughly the midpoint of SR 852 are onramps to the mainline Turnpike (SR 91). East of the Turnpike interchange, County Line Road passes through a residential area and near the eastern terminus, passes by a collection of television and radio transmission ",
+        "stage1_score": -4.7838006019592285,
+        "multimodal_score": null,
+        "is_disambiguation": false,
+        "source_query": "A S T  852 A S T"
+      },
+      {
+        "page_id": "5438068",
+        "revision_id": "1287574058",
+        "title": "Ohio State Route 852",
+        "url": "https://en.wikipedia.org/wiki/Ohio_State_Route_852",
+        "bm25_score": 15.01889705657959,
+        "excerpt": "State Route 852 (SR 852) is a north \u2013 south state highway in the southern portion of the U.S. state of Ohio. Its southern terminus is at the Kentucky state line on the Carl Perkins Memorial Bridge over the Ohio River near Portsmouth, and its northern terminus is at an interchange with the State Route 73 / State Route 104 concurrency, just north of a complex interchange with U.S. Route 52 about 1.75 miles (2.82 km) west of Portsmouth.\n\nSR 852 begins on the Carl Perkins Memorial Bridge over the Ohio River. The route heads north as a two-lane highway, passing through farmland and woodland. The highway passes the Portsmouth Raceway Park and has an interchange with U.S. Route 52 (US 52), US 23 Truck, SR 73 east, and SR 104 south. The road has a traffic light at an access road from northbound SR 73 and SR 104. SR 852 ends at a partial interchange with SR 73 and SR 104.\n\nThe only section of SR 852 that is included as a part of the National Highway System (NHS), is that from the Kentucky state line north to the interchange with US 52. The NHS is a system of routes determined to be the most important for the nation's economy, mobility and defense. The highway is maintained by the Ohio Depar",
+        "stage1_score": -4.899808883666992,
+        "multimodal_score": null,
+        "is_disambiguation": false,
+        "source_query": "A S T  852 A S T"
+      },
+      {
+        "page_id": "30176788",
+        "revision_id": "1341916480",
+        "title": "USS Wissahickon (SP-852)",
+        "url": "https://en.wikipedia.org/wiki/USS_Wissahickon_(SP-852)",
+        "bm25_score": 14.971460342407227,
+        "excerpt": "The second USS Wissahickon (SP-852), which also served as USS SP-852, was a United States Navy patrol vessel in commission from 1917 to 1918.\n\nWissahickon was laid down in 1899 by George Lawley & Son at Neponset, Massachusetts, as the private single- screw steam yacht Valda, with a composite hull made of an iron frame with wood planking. Valda was completed in 1900 and renamed Wissahickon in late 1901 or early 1902. She was the property of Mrs. Charles W. Henry of Philadelphia, Pennsylvania, when the United States entered World War I on 6 April 1917 and may have served in the Maine Naval Militia prior to her acquisition by the U.S. Navy.\n\nIn 1917, the U.S. Navy acquired Wissahickon from Mrs. Henry for use as a section patrol vessel during World War I. Records concerning Wissahickon ' s acquisition and commissioning are vague, somewhat contradictory, and incomplete. It appears that U.S. Navy personnel reported aboard Wissahickon as early as April 1917, although one record source states that the Navy did not acquire her from Mrs. Henry until 13 July 1917. No primary source states her commissioning date; her ship's log starts on 20 August 1917 - but one secondary source states that sh",
+        "stage1_score": -5.38455057144165,
+        "multimodal_score": null,
+        "is_disambiguation": false,
+        "source_query": "A S T  852 A S T"
+      },
+      {
+        "page_id": "65889884",
+        "revision_id": "1322731885",
+        "title": "1942 in Belgium",
+        "url": "https://en.wikipedia.org/wiki/1942_in_Belgium",
+        "bm25_score": 15.022716522216797,
+        "excerpt": "Events in the year 1942 in Belgium\n\nMonarch (in captivity): Leopold III\n\nPrime Minister (in exile): Hubert Pierlot\n\nHead of German occupying forces: Alexander von Falkenhausen\n\nHead of the administrative staff of the Occupation: Eggert Reeder\n\n1 January \u2013 Belgian government in exile becomes a signatory of the Atlantic Charter.: 853\n\n3 January \u2013 Occupying forces prohibit listening to radio broadcasts not subject to German control.: 852\n\n21 January \u2013 Eleven hostages killed by the occupying forces.: 852\n\n25 January \u2013 Temperatures reach 12 below zero Celsius.: 852\n\n6 March \u2013 Decree issued for the recruitment of forced labour for German factories.: 852\n\n10 March \u2013 Walloon Legion parades in Brussels.: 852\n\n1 April \u2013 Hendrik de Man opposes the unified trade union\n\n5 April \u2013 Court of Cassation finds that secretaries-general, civil servants appointed to lead ministries in the absence of the government, have no legislative powers, annulling the decree of 15 February 1941 instituting administrative legislation.: 852\n\n9 April \u2013 Decree obliging miners to work Sundays and feast days.: 852\n\n16 April \u2013 Decree prohibits the establishment of new businesses or expansion of existing businesses.: 852\n\n",
+        "stage1_score": -5.396904945373535,
+        "multimodal_score": null,
+        "is_disambiguation": false,
+        "source_query": "A S T  852 A S T"
+      },
+      {
+        "page_id": "46718991",
+        "revision_id": "1333526427",
+        "title": "Ruben Pang",
+        "url": "https://en.wikipedia.org/wiki/Ruben_Pang",
+        "bm25_score": 22.58761215209961,
+        "excerpt": " paintings on aluminium.\n\nPang has received the Winston Oh Travelogue Award, the Georgette Chen Arts Scholarship, and was shortlisted for the Sovereign Asian Art Prize.\n\nIn 2015 Pang was selected as the inaugural artist-in-residence launched by the Tiroche DeLeon Collection in Jaffa, Israel.\n\n2015, Ataraxy, Chan Hampe Galleries, Singapore\n\nAtaraxy, Ruben Pang's fifth solo exhibition, extracts creative energy from disarray and entropy, thus realising the state of tranquility the term implies. In each painting, various artistic personalities find themselves in psychodramatic scenarios with their subconscious drives personified through figures in constant change, sometimes playing host to parasitic vegetation, other times surgically reconfigured and twisted into conversations with one another and their surroundings.\n\n2013, New Energetics: Inverting the Process, Chan Hampe Galleries, Singapore\n\nFeaturing a series of canvases and sculptures, New Energetics: Inverting the Process departs from his earlier Futurist vision of split personalities and psychic schisms, and allows for the recollection of the past through the present. The pictures are not self-portraits in the literal sense, but",
+        "stage1_score": -6.04058837890625,
+        "multimodal_score": null,
+        "is_disambiguation": false,
+        "source_query": "Ataraxy term floes fequips"
+      },
+      {
+        "page_id": "504495",
+        "revision_id": "1350889206",
+        "title": "Ice floe",
+        "url": "https://en.wikipedia.org/wiki/Ice_floe",
+        "bm25_score": 18.988122940063477,
+        "excerpt": "An ice floe (/ f l o\u028a /) is a segment of floating ice defined as a flat piece at least 20 metres (66 ft) across at its widest point, and up to more than 10 kilometres (6.2 miles) across. Drift ice is a floating field of sea ice composed of several ice floes. They may cause ice jams on freshwater rivers, and in the open ocean may damage the hulls of ships.\n\nIce floes pose significant dangers due to their instability, unpredictability, and susceptibility to environmental forces. Unlike thick, grounded ice, floes are buoyant and mobile, drifting with ocean currents and winds at variable speeds. This movement can rapidly separate a floe from the shoreline or from other floes, trapping individuals or wildlife with no means of return. Structurally, ice floes are often riddled with hidden fractures and varying thickness, making them prone to sudden breakage or collapse under weight. Additionally, temperature fluctuations can weaken their integrity, while tidal shifts and wave action can cause tilting or rolling, creating crushing forces or ejecting occupants into frigid, hypothermia -inducing waters. For vessels, ice floes present navigational hazards as collisions with even modest floes ",
+        "stage1_score": -6.132566452026367,
+        "multimodal_score": null,
+        "is_disambiguation": false,
+        "source_query": "Ataraxy term floes fequips"
+      },
+      {
+        "page_id": "15540661",
+        "revision_id": "1347117820",
+        "title": "Floe, West Virginia",
+        "url": "https://en.wikipedia.org/wiki/Floe,_West_Virginia",
+        "bm25_score": 18.661598205566406,
+        "excerpt": "Floe is an unincorporated community in Clay County, West Virginia, United States. It was previously known as Walker.",
+        "stage1_score": -6.197640895843506,
+        "multimodal_score": null,
+        "is_disambiguation": false,
+        "source_query": "Ataraxy term floes fequips"
+      },
+      {
+        "page_id": "31942274",
+        "revision_id": "1345634744",
+        "title": "Heroes of Ruin",
+        "url": "https://en.wikipedia.org/wiki/Heroes_of_Ruin",
+        "bm25_score": 24.710601806640625,
+        "excerpt": "Heroes of Ruin is an action role-playing game developed by n-Space and published by Square Enix for the Nintendo 3DS. It was released on June 15, 2012, in Europe and July 17 in North America. Square Enix London Studios worked with n-Space for the development.\n\nHeroes of Ruin is an action role-playing game in which the player battles various enemies such as snipers, beasts, and fencers.\n\nThe game uses both StreetPass and SpotPass technology. Using StreetPass, players can use a feature called \"Traders Network\", and trade items with other players. In the shop, players can sell items for points, which can be used to buy items which would otherwise be unobtainable. Using SpotPass, players can complete daily challenges for a year after release. The community website will allow players to keep track of their completed challenges, and find even more challenges to complete.\n\nThe story of Heroes of Ruin follows a mercenary who is attempting to find a cure for the ruler of the city of Nexus, a sphinx named Ataraxis, who is dying from a curse. The hero can either create an alliance with others or adventure separately. There are many strange and dangerous creatures in the land, including the ev",
+        "stage1_score": -6.220593452453613,
+        "multimodal_score": null,
+        "is_disambiguation": false,
+        "source_query": "Ataraxy term floes fequips"
+      },
+      {
+        "page_id": "3654070",
+        "revision_id": "1325668000",
+        "title": "Hazen\u2013Williams equation",
+        "url": "https://en.wikipedia.org/wiki/Hazen%E2%80%93Williams_equation",
+        "bm25_score": 15.786927223205566,
+        "excerpt": "The Hazen\u2013Williams equation is an empirical relationship that relates the flow of water in a pipe with the physical properties of the pipe and the pressure drop caused by friction. It is used in the design of water pipe systems such as fire sprinkler systems, water supply networks, and irrigation systems. It is named after Allen Hazen and Gardner Stewart Williams.\n\nThe Hazen\u2013Williams equation has the advantage that the coefficient C is not a function of the Reynolds number, but it has the disadvantage that it is only valid for water. Also, it does not account for the temperature or viscosity of the water, and therefore is only valid at room temperature and conventional velocities.\n\nHenri Pitot discovered that the velocity of a fluid was proportional to the square root of its head in the early 18th century. It takes energy to push a fluid through a pipe, and Antoine de Ch\u00e9zy discovered that the hydraulic head loss was proportional to the velocity squared. Consequently, the Ch\u00e9zy formula relates hydraulic slope S (head loss per unit length) to the fluid velocity V and hydraulic radius R:\n\nV = C R S = C R 0.5 S 0.5 {\\displaystyle V=C{\\sqrt {RS}}=C\\,R^{0.5}\\,S^{0.5}}\n\nThe variable C ex",
+        "stage1_score": -6.270177364349365,
+        "multimodal_score": null,
+        "is_disambiguation": false,
+        "source_query": "A S T  852 A S T"
+      },
+      {
+        "page_id": "69720388",
+        "revision_id": "1245166750",
+        "title": "Floe (disambiguation)",
+        "url": "https://en.wikipedia.org/wiki/Floe_(disambiguation)",
+        "bm25_score": 19.348875045776367,
+        "excerpt": "An ice floe is a moving pack of rafts of ice.\n\nFloe may also refer to:\n\nFloe Peak, Kootenay National Park, British Columbia, Canada; a mountain in the Canadian Rockies\n\nFloe Lake, Kootenay National Park, British Columbia, Canada; a lake\n\nFloe, West Virginia, US; an unincorporated community in Clay County\n\nFirst Lady of Ethiopia (FLOE)\n\nFlo\u00e9 K\u00fchnert (born 1984), German pole vaulter\n\nEdgar Allen Floe (born 1978), American hiphop artist\n\nFloe, a character from the anime series Simoun\n\n\"Floe\", a movement from the 1981 Philip Glass composition Glassworks\n\nSouthern Floe, a Southern-class whaler",
+        "stage1_score": -6.313914775848389,
+        "multimodal_score": null,
+        "is_disambiguation": true,
+        "source_query": "Ataraxy term floes fequips"
+      },
+      {
+        "page_id": "60213845",
+        "revision_id": "1260650800",
+        "title": "Floe Peak",
+        "url": "https://en.wikipedia.org/wiki/Floe_Peak",
+        "bm25_score": 18.886520385742188,
+        "excerpt": "Floe Peak is a 3,006-metre (9,862 ft) mountain summit located on the western border of Kootenay National Park, in the Canadian Rockies of British Columbia, Canada. The name for this mountain has not been officially adopted yet. Its nearest higher peak is Foster Peak, 3.0 km (1.9 mi) to the northwest, and both are part of the Vermilion Range. The mountain is part of what is known as the Rockwall in the Vermilion Range, and is named for Floe Lake which is situated below the enormous northern cliffs of the peak. Floe Lake, one of the beauty spots of Kootenay Park, is accessible via the Floe Lake Trail.\n\nFloe Peak is composed of limestone, a sedimentary rock laid down during the Precambrian to Jurassic periods and pushed east and over the top of younger rock during the Laramide orogeny.\n\nBased on the K\u00f6ppen climate classification, Floe Peak is located in a subarctic climate with cold, snowy winters, and mild summers. Temperatures can drop below \u221220 \u00b0C with wind chill factors below \u221230 \u00b0C. Precipitation runoff from the mountain drains east into Floe Creek, a tributary of the Vermilion River, or west into tributaries of the Kootenay River.",
+        "stage1_score": -6.33843469619751,
+        "multimodal_score": null,
+        "is_disambiguation": false,
+        "source_query": "Ataraxy term floes fequips"
+      },
+      {
+        "page_id": "9310118",
+        "revision_id": "1350832016",
+        "title": "Edgar Allen Floe",
+        "url": "https://en.wikipedia.org/wiki/Edgar_Allen_Floe",
+        "bm25_score": 18.97380256652832,
+        "excerpt": "Daryl Sams, known professionally as Edgar Allen Floe (born January 26, 1978) is a hip hop artist from North Carolina and a member of Justus League and The Undefined. His name is a play on words of the name of the famous writer, Edgar Allan Poe.\n\nFloe's early ambition in hip hop was to become a DJ rather than an MC, but hearing his uncle playing records by the likes of Rakim and Ice Cube led to Floe writing his first lyrics at the age of 14. Mal Demolish, Floe's partner in the group The Undefined, gave him this name in 1996, and Floe stuck with it saying, \"Edgar Allan Poe was a well-respected writer and storyteller. I tried to incorporate that into my standpoint. He was a dope writer; I'm trying to be a well respected and dope writer, so it all goes hand in hand.\" He has released one EP, True Links (2005) and two mixtapes, Floe Almighty (2006, with a remixed version released later) and The Road to The Streetwise (2008). All contain production from Khrysis and 9th Wonder. Floe also produces on these albums under the alias SliceMysta. Floe Almighty received mixed reviews from critics, several frustrated at the delays in releasing his first album.\n\nFloe released his first full-length a",
+        "stage1_score": -6.370776653289795,
+        "multimodal_score": null,
+        "is_disambiguation": false,
+        "source_query": "Ataraxy term floes fequips"
+      },
+      {
+        "page_id": "71040617",
+        "revision_id": "1349804171",
+        "title": "Cecilie Fl\u00f8e",
+        "url": "https://en.wikipedia.org/wiki/Cecilie_Fl%C3%B8e",
+        "bm25_score": 18.78206443786621,
+        "excerpt": "Cecilie Fl\u00f8e Nielsen (born 8 October 2001) is a Danish professional footballer who plays as a striker for Serie A club Napoli and the Denmark national team. She has previously played for Danish A-Liga clubs Odense Boldklub Q, KoldingQ and HB K\u00f8ge, as well as USL Super League club Tampa Bay Sun FC.\n\nIn June 2017, Fl\u00f8e joined the football program at Montverde Academy. She found out about the Academy when she played a friendly match against them with Efterskolen ved Nyborg when they toured Florida.\n\nIn February 2021, it was announced that Fl\u00f8e would join the American team SMU Mustangs who represent Southern Methodist University located in University Park, Texas. However, in the end she decided not to move to the United States, signing instead for Danish club HB K\u00f8ge.\n\nFl\u00f8e started playing football in kindergarten when her parents bought her boots. In 2006 she started playing with Errits\u00f8 GIF, where she played 9 years before moving to Middelfart Boldklub and after that to Efterskolen ved Nyborg.\n\nIn May 2019, Fl\u00f8e made her debut senior appearance for Odense Boldklub Q, having played for the under-18 team. She scored a brace in a 3\u20133 draw with Nordsj\u00e6lland at Right to Dream Park and was",
+        "stage1_score": -6.495694637298584,
+        "multimodal_score": null,
+        "is_disambiguation": false,
+        "source_query": "Ataraxy term floes fequips"
+      }
+    ],
+    "article_text_sha256": null,
+    "decision_rationale": "Rejected candidate 'NGC 852'; relevance score -5.4647 < threshold -4.5."
+  },
+  "comparison": null,
+  "exclusion": {
+    "entry_id": "entry-a-s-t-852-a-s-t-2171",
+    "britannica_title": "A S T  852 A S T",
+    "source_pages": [
+      "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2171"
+    ],
+    "reason": "unmatched",
+    "match_status": "rejected_threshold",
+    "character_count": 6425
+  },
+  "wikipedia": {
+    "available": false
+  },
+  "scans": [
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2171",
+      "filename": "page-2171-f8869fa95f19.jpg",
+      "image_sha256": "f8869fa95f190d0e556bf8d2397c0c36da436ea1b23405995f0aac0f398f26d5",
+      "row_index": 2171,
+      "path": "scans/page-2171-f8869fa95f19.jpg"
+    }
+  ],
+  "documents": {
+    "tex": "latex/entry-a-s-t-852-a-s-t-2171.tex",
+    "pdf": "latex/entry-a-s-t-852-a-s-t-2171.pdf"
+  }
+}

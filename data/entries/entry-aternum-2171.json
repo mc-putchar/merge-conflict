@@ -1,0 +1,44 @@
+{
+  "entry": {
+    "entry_id": "entry-aternum-2171",
+    "title": "ATERNUM",
+    "text": "ATERNUM, s town of Lucerna in Italy, now _Alteris_, (Chorusas )). Alfo a town in the territory of the Piceni, now _Pofcara_, a port-town of Naples, fitu-ated and the infinite. E. Long 15.25. V.Lav. 42.50.",
+    "normalized_text": "ATERNUM, s town of Lucerna in Italy, now _Alteris_, (Chorusas )). Alfo a town in the territory of the Piceni, now _Pofcara_, a port-town of Naples, fitu-ated and the infinite. E. Long 15.25. V.Lav. 42.50.",
+    "source_pages": [
+      "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2171"
+    ],
+    "source_row_indices": [
+      2171
+    ],
+    "volume_id": "144850373",
+    "is_continuation": false,
+    "block_count": 1,
+    "character_count": 204,
+    "validity_score": 0.5,
+    "metadata": {
+      "page_number": null,
+      "running_title": "A S T [ 852] A S T",
+      "headword": "ATERNUM",
+      "text_changes_count": 0
+    }
+  },
+  "match": null,
+  "comparison": null,
+  "exclusion": null,
+  "wikipedia": {
+    "available": false
+  },
+  "scans": [
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2171",
+      "filename": "page-2171-f8869fa95f19.jpg",
+      "image_sha256": "f8869fa95f190d0e556bf8d2397c0c36da436ea1b23405995f0aac0f398f26d5",
+      "row_index": 2171,
+      "path": "scans/page-2171-f8869fa95f19.jpg"
+    }
+  ],
+  "documents": {
+    "tex": "latex/entry-aternum-2171.tex",
+    "pdf": "latex/entry-aternum-2171.pdf"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "entry": {
+    "entry_id": "entry-danae-1214",
+    "title": "DANAE",
+    "text": "DANAE, in antiquity, a coin famewhat more than an obolus, died to be put into the mouths of the dead, to pay their patige over the river Acheron.\n\nDANAS",
+    "normalized_text": "DANAE, in antiquity, a coin famewhat more than an obolus, died to be put into the mouths of the dead, to pay their patige over the river Acheron.\n\nDANAS",
+    "source_pages": [
+      "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1214"
+    ],
+    "source_row_indices": [
+      1214
+    ],
+    "volume_id": "149979156",
+    "is_continuation": false,
+    "block_count": 2,
+    "character_count": 152,
+    "validity_score": 0.5,
+    "metadata": {
+      "page_number": null,
+      "running_title": "DAM [ 658]",
+      "headword": "DANAE",
+      "text_changes_count": 0
+    }
+  },
+  "match": null,
+  "comparison": null,
+  "exclusion": null,
+  "wikipedia": {
+    "available": false
+  },
+  "scans": [
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1214",
+      "filename": "page-1214-17d180a99e0a.jpg",
+      "image_sha256": "17d180a99e0a48546a555d98cd7fdf15bb8f8ea4b751c50e02536eba79c2473a",
+      "row_index": 1214,
+      "path": "scans/page-1214-17d180a99e0a.jpg"
+    }
+  ],
+  "documents": {
+    "tex": "latex/entry-danae-1214.tex",
+    "pdf": "latex/entry-danae-1214.pdf"
+  }
+}

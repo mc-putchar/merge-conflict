@@ -1,0 +1,272 @@
+{
+  "entry": {
+    "entry_id": "entry-helminthology-plate-ccli-651",
+    "title": "HELMINTHOLOGY Plate CCLI",
+    "text": "Fig.2.\n\nFig 1\n\nFig.2.\n\nFig.1.\n\nO\n\nFig.7.\n\nFig.9.\n\nFig.9.\n\nFig.3. Fig.3.\n\nFig.8.",
+    "normalized_text": "Fig.2.\n\nFig 1\n\nFig.2.\n\nFig.1.\n\nO\n\nFig.7.\n\nFig.9.\n\nFig.9.\n\nFig.3. Fig.3.\n\nFig.8.",
+    "source_pages": [
+      "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:651"
+    ],
+    "source_row_indices": [
+      651
+    ],
+    "volume_id": "192692192",
+    "is_continuation": false,
+    "block_count": 12,
+    "character_count": 79,
+    "validity_score": 0.0,
+    "metadata": {
+      "page_number": null,
+      "running_title": "HELMINTHOLOGY. Plate CCLI",
+      "text_changes_count": 0
+    }
+  },
+  "match": {
+    "entry_id": "entry-helminthology-plate-ccli-651",
+    "britannica_title": "HELMINTHOLOGY Plate CCLI",
+    "source_pages": [
+      "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:651"
+    ],
+    "matched": true,
+    "status": "accepted",
+    "selected_candidate": {
+      "page_id": "2203555",
+      "revision_id": "1324313982",
+      "title": "Helminthology",
+      "url": "https://en.wikipedia.org/wiki/Helminthology",
+      "bm25_score": 21.720844268798828,
+      "excerpt": "Helminthology, from Ancient Greek \u1f15\u03bb\u03bc\u03b9\u03bd\u03c2 (h\u00e9lmins), meaning \"parasitic worm\", and \u03bb\u03cc\u03b3\u03bf\u03c2 (l\u00f3gos), meaning \"study\", is the study of parasitic worms (helminths). The field studies the taxonomy of helminths and their effects on their hosts.\n\nIn the 18th and early 19th century there was wave of publications on helminthology; this period has been described as the science's \"Golden Era\". During that period the authors F\u00e9lix Dujardin, William Blaxland Benham, Peter Simon Pallas, Marcus Elieser Bloch, Otto Friedrich M\u00fcller, Johann Goeze, Friedrich Zenker, Charles Wardell Stiles, Carl Asmund Rudolphi, Otto Friedrich Bernhard von Linstow and Johann Gottfried Bremser started systematic scientific studies of the subject.\n\nThe Japanese parasitologist Satyu Yamaguti was one of the most active helminthologists of the 20th century; he wrote the six-volume Systema Helminthum.",
+      "stage1_score": -4.8494157791137695,
+      "multimodal_score": -3.4665465354919434,
+      "is_disambiguation": false,
+      "source_query": "HELMINTHOLOGY Plate CCLI"
+    },
+    "all_candidates": [
+      {
+        "page_id": "2203555",
+        "revision_id": "1324313982",
+        "title": "Helminthology",
+        "url": "https://en.wikipedia.org/wiki/Helminthology",
+        "bm25_score": 21.720844268798828,
+        "excerpt": "Helminthology, from Ancient Greek \u1f15\u03bb\u03bc\u03b9\u03bd\u03c2 (h\u00e9lmins), meaning \"parasitic worm\", and \u03bb\u03cc\u03b3\u03bf\u03c2 (l\u00f3gos), meaning \"study\", is the study of parasitic worms (helminths). The field studies the taxonomy of helminths and their effects on their hosts.\n\nIn the 18th and early 19th century there was wave of publications on helminthology; this period has been described as the science's \"Golden Era\". During that period the authors F\u00e9lix Dujardin, William Blaxland Benham, Peter Simon Pallas, Marcus Elieser Bloch, Otto Friedrich M\u00fcller, Johann Goeze, Friedrich Zenker, Charles Wardell Stiles, Carl Asmund Rudolphi, Otto Friedrich Bernhard von Linstow and Johann Gottfried Bremser started systematic scientific studies of the subject.\n\nThe Japanese parasitologist Satyu Yamaguti was one of the most active helminthologists of the 20th century; he wrote the six-volume Systema Helminthum.",
+        "stage1_score": -4.8494157791137695,
+        "multimodal_score": -3.4665465354919434,
+        "is_disambiguation": false,
+        "source_query": "HELMINTHOLOGY Plate CCLI"
+      },
+      {
+        "page_id": "34802434",
+        "revision_id": "1167710681",
+        "title": "Edwin Linton",
+        "url": "https://en.wikipedia.org/wiki/Edwin_Linton",
+        "bm25_score": 18.938304901123047,
+        "excerpt": "Edwin Linton (March 14, 1855, in East Bethlehem, Pennsylvania \u2013 1939) was an American biologist noted for his research in the field of helminthology, the study of worms, especially parasitic worms in fishes. Linton was Research Fellow in Biology at University of Pennsylvania and professor emeritus at Washington and Jefferson College. The New York Times called Linton \"one of the world's leading authorities on helminthology\". Linton received his doctorate from Yale University. He was awarded the 1937 Leidy Award from the Academy of Natural Sciences of Philadelphia.",
+        "stage1_score": -6.301826477050781,
+        "multimodal_score": -3.9228463172912598,
+        "is_disambiguation": false,
+        "source_query": "HELMINTHOLOGY Plate CCLI"
+      },
+      {
+        "page_id": "39297270",
+        "revision_id": "1330838571",
+        "title": "Robert Thomson Leiper",
+        "url": "https://en.wikipedia.org/wiki/Robert_Thomson_Leiper",
+        "bm25_score": 20.551298141479492,
+        "excerpt": "rmingham), matriculating in physics, mathematics, English and Latin. He then entered the University of Glasgow to study medicine, at which he excelled, winning awards such as the John Hunter Medal and the Senior Arnott Prize in the field; graduating in 1904.\n\nFrom an early age Leiper was devoted to helminthology, the study of parasitic flatworms; while still an undergraduate, at the age of 21, he discovered an undocumented turbellarian worm in the Spatangoida sea urchin. This discovery lead to the publication of his first paper in Nature magazine. He later, in 1923, founded the Journal of Helminthology. In that same year on 3 May he was made a Fellow of the Royal Society. He was appointed to the Fellow of the Royal College of Physicians in 1936, Order of St Michael and St George in 1941, and received an LLD degree from Glasgow University in 1955.\n\nLeiper was the first professor of helminthology at the University of London and director of the helminthology course at the London School of Hygiene & Tropical Medicine. Leiper worked at LSHTM from 1905 until his retirement in 1947. During his time there he studied under Professor Arthur Looss at the University of Cairo and took part in t",
+        "stage1_score": -6.2611894607543945,
+        "multimodal_score": -4.40433406829834,
+        "is_disambiguation": false,
+        "source_query": "HELMINTHOLOGY Plate CCLI"
+      },
+      {
+        "page_id": "49030783",
+        "revision_id": "1328785211",
+        "title": "Journal of Helminthology",
+        "url": "https://en.wikipedia.org/wiki/Journal_of_Helminthology",
+        "bm25_score": 21.944923400878906,
+        "excerpt": "The Journal of Helminthology is a bimonthly peer-reviewed scientific journal established in 1923. It covers all aspects of pure and applied helminthology, particularly those helminth parasites of environmental health, medical, or veterinary importance. According to the Journal Citation Reports, the journal has a 2014 impact factor of 1.421.",
+        "stage1_score": -6.413135528564453,
+        "multimodal_score": null,
+        "is_disambiguation": false,
+        "source_query": "HELMINTHOLOGY Plate CCLI"
+      },
+      {
+        "page_id": "65154766",
+        "revision_id": "1342408635",
+        "title": "Elena Kalantaryan",
+        "url": "https://en.wikipedia.org/wiki/Elena_Kalantaryan",
+        "bm25_score": 19.332008361816406,
+        "excerpt": "Elena Kalantaryan (Armenian: \u0535\u056c\u0565\u0576\u0561 \u054e\u056c\u0561\u0564\u056b\u0574\u056b\u0580\u056b \u0554\u0561\u056c\u0561\u0576\u0569\u0561\u0580\u0575\u0561\u0576, June 16, 1890 \u2013 May 30, 1963) was an Armenian helminthologist. The founder of scientific helminthology in the Armenian SSR. Doctor of Medical Sciences (1951), Professor. Honored Scientist of the Armenian SSR (1954), Honored Doctor of the Armenian SSR.\n\nIn 1915 Kalantaryan graduated from the Moscow Medical Institute. From 1915 to 1921 she worked in Tbilissi (Georgia). 1923-1955 she was the head of the department of helminthology at the Yerevan Tropical Institute, 1944-1950 - the dean of the Yerevan Medical Institute.\n\nKalantaryan's research interests include the study of Pinworm, terrestrial pathology, enterobiasis, teniasis (especially Trichostrongylus, Hymenolepiasis) in the Armenian SSR. Kalantaryan was the first to describe the species of parasitic pinworms called Trichos-trongylus ax, ei (1924) and Skrijabini Kalantarian (1932) named after her. Kalantaryan proposed a new method of examining helminth eggs (1927), which is named after her.\n\nKalantaryan is buried at Tokhmakh Cemetery of Yerevan.\n\nHonored Scientist of the Armenian SSR\n\nHonored Doctor of the Armenian SSR\n\nOrder of Lenin",
+        "stage1_score": -6.8157501220703125,
+        "multimodal_score": null,
+        "is_disambiguation": false,
+        "source_query": "HELMINTHOLOGY Plate CCLI"
+      },
+      {
+        "page_id": "77993230",
+        "revision_id": "1331132313",
+        "title": "Margarita Bravo Hollis",
+        "url": "https://en.wikipedia.org/wiki/Margarita_Bravo_Hollis",
+        "bm25_score": 20.647907257080078,
+        "excerpt": "Margarita Bravo Hollis (10 June 1911 \u2013 13 December 2011) was a Mexican parasitologist. A 1955 Guggenheim Fellow and expert in helminthology, she worked at the National Autonomous University of Mexico (UNAM) as a researcher and educator, and she managed UNAM's helminthological research as curator of the Helminthological Collection of the Institute of Biology and co-developer of the Helminthology Laboratory.\n\nMargarita Bravo Hollis was born on 10 June 1911 in Mixcoac, then part of the Mexican Federal District separate from Mexico City. Her sister was botanist Helia Bravo Hollis. She joined the National Autonomous University of Mexico 's Institute of Biology in the 1930s, where she began a career as a research assistant and later became a senior researcher. She was then promoted to professor in 1947, before getting her master's degree in science from UNAM in 1949. In 1955, she was awarded a Guggenheim Fellowship for \"studies of the trematode parasites of fishes\"; she worked under Harold W. Manter at the University of Nebraska.\n\nReturning to UNAM, she served as curator of the Institute of Biology's Helminthological Collection from 1960 to 1980, publishing a catalogue for them in 1973. ",
+        "stage1_score": -6.867495536804199,
+        "multimodal_score": null,
+        "is_disambiguation": false,
+        "source_query": "HELMINTHOLOGY Plate CCLI"
+      },
+      {
+        "page_id": "2068437",
+        "revision_id": "1351012358",
+        "title": "Christian Copyright Licensing International",
+        "url": "https://en.wikipedia.org/wiki/Christian_Copyright_Licensing_International",
+        "bm25_score": 24.22273063659668,
+        "excerpt": "Christian Copyright Licensing International (CCLI) is a privately owned company that was founded in the US in 1988 by Howard Rachinski. CCLI was launched after being developed by Rachinski for 3\u00bd years while he was a music minister at a large church in Portland, Oregon. This prototype, called Starpraise Ministries, began in May 1985. CCLI offers copyright licensing of songs and other resource materials for use in Christian worship.\n\nSince its foundation, CCLI has expanded around the world to Australia, Botswana, Canada, Denmark, Faroe Islands, Finland, Germany, Iceland, Ireland, Lesotho, Malawi, Namibia, Netherlands, New Zealand, Norway, Singapore, South Africa, Swaziland, Sweden, Switzerland, United Kingdom, Zimbabwe, South Korea and as of 2016 can now serve most countries.\n\nThe mechanism of copyright solution invented by CCLI has been cited by the United States government and official copyright organization in United Kingdom when introducing the relevant policy.\n\nCCLI is owned by SESAC.\n\nThe performance of works in copyright (for example, playing music) as part of an act of worship is specifically exempted from copyright laws in several countries. US Copyright Law, for example, e",
+        "stage1_score": -7.280965328216553,
+        "multimodal_score": null,
+        "is_disambiguation": false,
+        "source_query": "HELMINTHOLOGY Plate CCLI"
+      },
+      {
+        "page_id": "11935644",
+        "revision_id": "1315409192",
+        "title": "Holy Is the Lord",
+        "url": "https://en.wikipedia.org/wiki/Holy_Is_the_Lord",
+        "bm25_score": 21.011371612548828,
+        "excerpt": "\" Holy Is the Lord \" is a song by Chris Tomlin, featured on his album Arriving, that reached No. 2 on the Billboard Hot Christian Songs chart and won the \"Worship Song of the Year\" award at the 2007 GMA Dove Awards. It reached number thirteen on CCLI's top five hundred worship songs list of 2005, and number seven on CCLI's Top 25 Worship Songs List, as of August 2007.\n\nThis song also appeared on the Christian compilation album WOW Hits 2006.\n\nIn 2007, the song won a Dove Award for Worship Song of the Year at the 38th GMA Dove Awards.",
+        "stage1_score": -8.00871467590332,
+        "multimodal_score": null,
+        "is_disambiguation": false,
+        "source_query": "HELMINTHOLOGY Plate CCLI"
+      }
+    ],
+    "article_text_sha256": "6bc91a39661ab3429beb220bf900eeaea155740b5c5e5c3cb20298644135a728",
+    "decision_rationale": "Accepted candidate 'Helminthology' with relevance score -3.4665 >= threshold -4.5."
+  },
+  "comparison": {
+    "entry_id": "entry-helminthology-plate-ccli-651",
+    "britannica_title": "HELMINTHOLOGY Plate CCLI",
+    "source_pages": [
+      "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:651"
+    ],
+    "britannica_sha256": "515759c8c92ca11e934bdc25e60d15608147100edb13cda22f885e62150ac802",
+    "britannica_raw_chars": 79,
+    "britannica_tokens": 10,
+    "britannica_unique_tokens": 1,
+    "wikipedia_page_id": "2203555",
+    "wikipedia_revision_id": "1324313982",
+    "wikipedia_title": "Helminthology",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Helminthology",
+    "wikipedia_text_sha256": "6bc91a39661ab3429beb220bf900eeaea155740b5c5e5c3cb20298644135a728",
+    "wikipedia_raw_chars": 870,
+    "wikipedia_tokens": 80,
+    "wikipedia_unique_tokens": 68,
+    "length_ratio": 11.013,
+    "text_changes": [],
+    "metrics": {
+      "jaccard_raw": 0.0,
+      "jaccard_normalized": 0.0,
+      "cosine_tfidf": 0.0,
+      "cosine_embedding": -0.0005,
+      "distinctive_britannica": [
+        "fig",
+        "edition",
+        "britannica",
+        "articles",
+        "volumes",
+        "pages",
+        "dia",
+        "volume",
+        "published",
+        "encyclopedia",
+        "article",
+        "supplement",
+        "third",
+        "encyclop",
+        "fourth"
+      ],
+      "distinctive_wikipedia": [
+        "period",
+        "studies",
+        "study",
+        "johann",
+        "meaning",
+        "century",
+        "friedrich",
+        "peter",
+        "japanese",
+        "effects",
+        "wave",
+        "carl",
+        "started",
+        "era",
+        "described"
+      ],
+      "shared_terms": []
+    },
+    "aligned_chunks": [
+      {
+        "britannica_chunk_index": 0,
+        "wikipedia_chunk_index": 1,
+        "similarity": 0.09,
+        "britannica_excerpt": "Fig.2.\n\nFig 1\n\nFig.2.\n\nFig.1.\n\nO\n\nFig.7.\n\nFig.9.\n\nFig.9.\n\nFig.3. Fig.3.\n\nFig.8.",
+        "wikipedia_excerpt": "The Japanese parasitologist Satyu Yamaguti was one of the most active helminthologists of the 20th century; he wrote the six-volume Systema Helminthum."
+      }
+    ],
+    "topic_id": 3,
+    "topic_terms": [
+      "upon",
+      "feet",
+      "tree"
+    ],
+    "claims": [
+      {
+        "claim_text": "The Britannica entry \"HELMINTHOLOGY Plate CCLI\" uses 10 content tokens while the Wikipedia article \"Helminthology\" uses 80; their normalized vocabularies share a Jaccard overlap of 0.0 (raw 0.0) and a TF-IDF cosine similarity of 0.0.",
+        "claim_type": "factual",
+        "label": "[factual]",
+        "britannica_pages": [
+          "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:651"
+        ],
+        "britannica_quote": "Fig.2.\n\nFig 1\n\nFig.2.\n\nFig.1.\n\nO\n\nFig.7.\n\nFig.9.\n\nFig.9.\n\nFig.3. Fig.3.\n\nFig.8.",
+        "wikipedia_page_id": "2203555",
+        "wikipedia_revision_id": "1324313982",
+        "wikipedia_quote": "Helminthology, from Ancient Greek \u1f15\u03bb\u03bc\u03b9\u03bd\u03c2 (h\u00e9lmins), meaning \"parasitic worm\", and \u03bb\u03cc\u03b3\u03bf\u03c2 (l\u00f3gos), meaning \"study\", is the study of parasitic worms (helminths). The field studies the taxonomy of helminths and their effects on their hosts.\n\nIn"
+      },
+      {
+        "claim_text": "Britannica's most distinctive term is \"fig\"; Wikipedia's is \"period\", showing the era-specific vocabulary of each source.",
+        "claim_type": "factual",
+        "label": "[factual]",
+        "britannica_pages": [
+          "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:651"
+        ],
+        "britannica_quote": "Fig.2.",
+        "wikipedia_page_id": "2203555",
+        "wikipedia_revision_id": "1324313982",
+        "wikipedia_quote": "In the 18th and early 19th century there was wave of publications on helminthology; this period has been described as the science's \"Golden Era\"."
+      }
+    ]
+  },
+  "exclusion": null,
+  "wikipedia": {
+    "available": true,
+    "text": "Helminthology, from Ancient Greek \u1f15\u03bb\u03bc\u03b9\u03bd\u03c2 (h\u00e9lmins), meaning \"parasitic worm\", and \u03bb\u03cc\u03b3\u03bf\u03c2 (l\u00f3gos), meaning \"study\", is the study of parasitic worms (helminths). The field studies the taxonomy of helminths and their effects on their hosts.\n\nIn the 18th and early 19th century there was wave of publications on helminthology; this period has been described as the science's \"Golden Era\". During that period the authors F\u00e9lix Dujardin, William Blaxland Benham, Peter Simon Pallas, Marcus Elieser Bloch, Otto Friedrich M\u00fcller, Johann Goeze, Friedrich Zenker, Charles Wardell Stiles, Carl Asmund Rudolphi, Otto Friedrich Bernhard von Linstow and Johann Gottfried Bremser started systematic scientific studies of the subject.\n\nThe Japanese parasitologist Satyu Yamaguti was one of the most active helminthologists of the 20th century; he wrote the six-volume Systema Helminthum.",
+    "title": "Helminthology",
+    "url": "https://en.wikipedia.org/wiki/Helminthology",
+    "page_id": "2203555",
+    "revision_id": "1324313982",
+    "text_sha256": "6bc91a39661ab3429beb220bf900eeaea155740b5c5e5c3cb20298644135a728",
+    "truncated": false
+  },
+  "scans": [
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:651",
+      "filename": "page-0651-a4e89a900a40.jpg",
+      "image_sha256": "a4e89a900a4041b934828dcc5c677df6edf0de903ab97d097948b7b17427da7d",
+      "row_index": 651,
+      "path": "scans/page-0651-a4e89a900a40.jpg"
+    }
+  ],
+  "documents": {
+    "tex": "latex/entry-helminthology-plate-ccli-651.tex",
+    "pdf": "latex/entry-helminthology-plate-ccli-651.pdf"
+  }
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "run": "00-compare-the-britannica-entry-entry-b-u-x.json",
+    "status": "success",
+    "tool_calls": [
+      "tool_search",
+      "tool_describe",
+      "challenge_compare",
+      "challenge_check_coverage"
+    ]
+  },
+  {
+    "run": "01-how-many-of-the-extracted-britannica-ent.json",
+    "status": "success",
+    "tool_calls": [
+      "tool_describe",
+      "challenge_check_coverage"
+    ]
+  },
+  {
+    "run": "02-compare-the-britannica-entry-entry-a-s-t.json",
+    "status": "success",
+    "tool_calls": [
+      "tool_describe",
+      "challenge_compare"
+    ]
+  }
+]

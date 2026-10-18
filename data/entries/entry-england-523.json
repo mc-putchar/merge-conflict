@@ -1,0 +1,51 @@
+{
+  "entry": {
+    "entry_id": "entry-england-523",
+    "title": "ENGLAND",
+    "text": "ENGLAND), the founder division of the illand of Great Britain. Including Wales, is at a triangular form, and lies between the 50^ and 55^ degrees of north latitudes, extending about 400 miles length from fourth to north, and in the place, it is 300 miles in breadth. It is bounded by Scotland on the north; by the English Channel on the fourth, dividing it from France by the German Sea on the city; and on the well by St George's, or the Irish, Chanel.\n\nAt what time to illand of British was people is Where ancestors, nor do we know whether the members or people, northern parts were first inhabited. We have no ac- cousas that can be depended upon before the arrival of Jullou Cedar, and if to certain he found the Southern parts full of people of a very warlike dipofotion. Tehe people, according to Cedar, were a colony of the Guidy, and that opinion is embraced by most of the ancient as well as modern writers. It is slightly founded on the agreement obtered by the Roman between the two nations in their cultures, manners, language, rell- gion, government, way of fighting, &. The more northern inhabitants, according to Tactics, came from Germany. This he inferen from the make of their limbs, but Cedar family calls them _Aborigians_.\n\nEngland, including the principality of Wales, when inhabited it invaded by the Romans, was divided into a petty by six dir flatter. 1. The Damonnic, called allo Duronomi and green ins- domonic, Danoniis, inhabiting the counties of Cornwall and Devonliire. 2. The Darotriges, who inhabited the track now called _Derjefihrs._ 3. The Belge poffelled Somer-",
+    "normalized_text": "ENGLAND), the founder division of the illand of Great Britain. Including Wales, is at a triangular form, and lies between the 50^ and 55^ degrees of north latitudes, extending about 400 miles length from fourth to north, and in the place, it is 300 miles in breadth. It is bounded by Scotland on the north; by the English Channel on the fourth, dividing it from France by the German Sea on the city; and on the well by St George's, or the Irish, Chanel.\n\nAt what time to illand of British was people is Where ancestors, nor do we know whether the members or people, northern parts were first inhabited. We have no ac- cousas that can be depended upon before the arrival of Jullou Cedar, and if to certain he sound the Southern parts full of people of a very warlike dipofotion. Tehe people, according to Cedar, were a colony of the Guidy, and that opinion is embraced by most of the ancient as well as modern writers. It is slightly founded on the agreement obtered by the Roman between the two nations in their cultures, manners, language, rell- gion, government, way of fighting, &. The more northern inhabitants, according to Tactics, came from Germany. This he inferen from the make of their limbs, but Cedar family calls them _Aborigians_.\n\nEngland, including the principality of Wales, when inhabited it invaded by the Romans, was divided into a petty by six dir flatter. 1. The Damonnic, called allo Duronomi and green ins- domonic, Danoniis, inhabiting the counties of Cornwall and Devonliire. 2. The Darotriges, who inhabited the track now called _Derjefihrs._ 3. The Belge poffelled Somer-",
+    "source_pages": [
+      "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:523"
+    ],
+    "source_row_indices": [
+      523
+    ],
+    "volume_id": "144850375",
+    "is_continuation": false,
+    "block_count": 4,
+    "character_count": 1599,
+    "validity_score": 0.5265,
+    "metadata": {
+      "page_number": null,
+      "running_title": "EN G [ 2729] E N G",
+      "headword": "ENGLAND",
+      "text_changes_count": 1,
+      "text_changes_sample": [
+        {
+          "rule": "ocr_f_s_confusion",
+          "original": "found",
+          "replacement": "sound"
+        }
+      ]
+    }
+  },
+  "match": null,
+  "comparison": null,
+  "exclusion": null,
+  "wikipedia": {
+    "available": false
+  },
+  "scans": [
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:523",
+      "filename": "page-0523-a583606e375a.jpg",
+      "image_sha256": "a583606e375ad92d79af8ad8b4fabc4fa22632e6ccbeea6e20f0fa47a27e2858",
+      "row_index": 523,
+      "path": "scans/page-0523-a583606e375a.jpg"
+    }
+  ],
+  "documents": {
+    "tex": "latex/entry-england-523.tex",
+    "pdf": "latex/entry-england-523.pdf"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "entry": {
+    "entry_id": "entry-danx-1214",
+    "title": "DANX",
+    "text": "DANX, er Jo now, which shall literally denotes \u201cthe river Dan?\u201d to named from the people where it has its forces, which is also called Plulah, from its round figure, to the north of big apparent ting from the mountain Panman or Pancum, as was discovered by Philip, Tetrarch of Trecontenes, for on throwing light bodies into the Plulah, he found them to emerge at Pancum (Jofaphay) Eron Pancum it runs in a direct course to a lake called _Manandames_ is for as which is called _Yardan the Lafa_s and theme to the lake Cheretherly, of Tiberias, where it comes incrediely the lake Samanthouis and its fringes and is called the _Greater Yardan_ containing its check counts, forthwards, till it falls into the Alkalities.\n\nDax (use grow), a term to the wet of the fource of the Jordan\u2019s formerly called Leair (Jofhan, Judges, Jofaphus). This was the north, as Berichholz was the fourth, bounded of the patient, as appears from the common expection in Scripture, from Dar to Beefhe- ha. At Dan Jeradeam credited one of the golden calers (1 King size).\n\nDax, the tribe, extended itself wellward of Judah, and was permitted by Azotus and Dora on the Medi- terminom (Jofaphay).",
+    "normalized_text": "DANX, er Jo now, which shall literally denotes \u201cthe river Dan?\u201d to named from the people where it has its forces, which is also called Plulah, from its round figure, to the north of big apparent ting from the mountain Panman or Pancum, as was discovered by Philip, Tetrarch of Trecontenes, for on throwing light bodies into the Plulah, he sound them to emerge at Pancum (Jofaphay) Eron Pancum it runs in a direct course to a lake called _Manandames_ is for as which is called _Yardan the Lafa_s and theme to the lake Cheretherly, of Tiberias, where it comes incrediely the lake Samanthouis and its fringes and is called the _Greater Yardan_ containing its check counts, forthwards, till it falls into the Alkalities.\n\nDax (use grow), a term to the wet of the fource of the Jordan\u2019s formerly called Leair (Jofhan, Judges, Jofaphus). This was the north, as Berichholz was the fourth, bounded of the patient, as appears from the common expection in Scripture, from Dar to Beefhe- ha. At Dan Jeradeam credited one of the golden calers (1 King size).\n\nDax, the tribe, extended itself wellward of Judah, and was permitted by Azotus and Dora on the Medi- terminom (Jofaphay).",
+    "source_pages": [
+      "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1214"
+    ],
+    "source_row_indices": [
+      1214
+    ],
+    "volume_id": "149979156",
+    "is_continuation": false,
+    "block_count": 3,
+    "character_count": 1168,
+    "validity_score": 0.5152,
+    "metadata": {
+      "page_number": null,
+      "running_title": "DAM [ 658]",
+      "headword": "DANX",
+      "text_changes_count": 1,
+      "text_changes_sample": [
+        {
+          "rule": "ocr_f_s_confusion",
+          "original": "found",
+          "replacement": "sound"
+        }
+      ]
+    }
+  },
+  "match": null,
+  "comparison": null,
+  "exclusion": null,
+  "wikipedia": {
+    "available": false
+  },
+  "scans": [
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1214",
+      "filename": "page-1214-17d180a99e0a.jpg",
+      "image_sha256": "17d180a99e0a48546a555d98cd7fdf15bb8f8ea4b751c50e02536eba79c2473a",
+      "row_index": 1214,
+      "path": "scans/page-1214-17d180a99e0a.jpg"
+    }
+  ],
+  "documents": {
+    "tex": "latex/entry-danx-1214.tex",
+    "pdf": "latex/entry-danx-1214.pdf"
+  }
+}

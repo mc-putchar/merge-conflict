@@ -1,0 +1,65 @@
+{
+  "entry": {
+    "entry_id": "entry-eschalot-1473",
+    "title": "Engraved Plate (Row 1473)",
+    "text": "ESCHALOT, or Shallot. See ALUM.\n\n[HISTORICAL COPPERPLATE ENGRAVING: Engraved Plate (Row 1473)]\nCategory: Historical Illustration\nVisual Description: Historical copperplate engraving from Encyclopaedia Britannica (1771).\nIdentified Engraved Figures:\n\nRelated Scientific Subjects: Encyclopaedia Britannica, Engraving",
+    "normalized_text": "ESCHALOT, or Shallot. See ALUM.",
+    "source_pages": [
+      "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1473"
+    ],
+    "source_row_indices": [
+      1473
+    ],
+    "volume_id": "149979622",
+    "is_continuation": false,
+    "block_count": 1,
+    "character_count": 314,
+    "validity_score": 0.4,
+    "metadata": {
+      "page_number": null,
+      "running_title": "ESC 1723 I ESC",
+      "headword": "ESCHALOT",
+      "text_changes_count": 0,
+      "visual_annotation": {
+        "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1473",
+        "row_index": 1473,
+        "filename": "page-1473-b3b602ef6a3d.jpg",
+        "plate_title": "Engraved Plate (Row 1473)",
+        "plate_category": "Historical Illustration",
+        "description": "Historical copperplate engraving from Encyclopaedia Britannica (1771).",
+        "identified_figures": [],
+        "wikipedia_keywords": [
+          "Encyclopaedia Britannica",
+          "Engraving"
+        ],
+        "bbox": {
+          "x1": 0.0,
+          "y1": 0.0,
+          "x2": 1.0,
+          "y2": 1.0
+        },
+        "model_used": "nvidia/Nemotron-3.5-Super-VL"
+      },
+      "is_illustration_plate": true
+    }
+  },
+  "match": null,
+  "comparison": null,
+  "exclusion": null,
+  "wikipedia": {
+    "available": false
+  },
+  "scans": [
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1473",
+      "filename": "page-1473-b3b602ef6a3d.jpg",
+      "image_sha256": "b3b602ef6a3d4961fd1926a15d634a40ec929c15b00e2f7cc5109b3f7180daac",
+      "row_index": 1473,
+      "path": "scans/page-1473-b3b602ef6a3d.jpg"
+    }
+  ],
+  "documents": {
+    "tex": "latex/entry-eschalot-1473.tex",
+    "pdf": "latex/entry-eschalot-1473.pdf"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "entry": {
+    "entry_id": "entry-iin-493",
+    "title": "Engraved Plate (Row 493)",
+    "text": "IIN. No Getta.\n\n[HISTORICAL COPPERPLATE ENGRAVING: Engraved Plate (Row 493)]\nCategory: Historical Illustration\nVisual Description: Historical copperplate engraving from Encyclopaedia Britannica (1771).\nIdentified Engraved Figures:\n\nRelated Scientific Subjects: Encyclopaedia Britannica, Engraving",
+    "normalized_text": "IIN. No Getta.",
+    "source_pages": [
+      "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:493"
+    ],
+    "source_row_indices": [
+      493
+    ],
+    "volume_id": "192984257",
+    "is_continuation": false,
+    "block_count": 1,
+    "character_count": 296,
+    "validity_score": 0.3333,
+    "metadata": {
+      "page_number": null,
+      "running_title": "L A [ 159] T L A",
+      "headword": "IIN",
+      "text_changes_count": 0,
+      "visual_annotation": {
+        "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:493",
+        "row_index": 493,
+        "filename": "page-0493-29246f4d055a.jpg",
+        "plate_title": "Engraved Plate (Row 493)",
+        "plate_category": "Historical Illustration",
+        "description": "Historical copperplate engraving from Encyclopaedia Britannica (1771).",
+        "identified_figures": [],
+        "wikipedia_keywords": [
+          "Encyclopaedia Britannica",
+          "Engraving"
+        ],
+        "bbox": {
+          "x1": 0.0,
+          "y1": 0.0,
+          "x2": 1.0,
+          "y2": 1.0
+        },
+        "model_used": "nvidia/Nemotron-3.5-Super-VL"
+      },
+      "is_illustration_plate": true
+    }
+  },
+  "match": null,
+  "comparison": null,
+  "exclusion": null,
+  "wikipedia": {
+    "available": false
+  },
+  "scans": [
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:493",
+      "filename": "page-0493-29246f4d055a.jpg",
+      "image_sha256": "29246f4d055a224974dd91ae949df53daace4862c8dff8f0b2fb6b8a7490444a",
+      "row_index": 493,
+      "path": "scans/page-0493-29246f4d055a.jpg"
+    }
+  ],
+  "documents": {
+    "tex": "latex/entry-iin-493.tex",
+    "pdf": "latex/entry-iin-493.pdf"
+  }
+}

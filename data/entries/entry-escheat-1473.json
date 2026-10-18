@@ -1,0 +1,66 @@
+{
+  "entry": {
+    "entry_id": "entry-escheat-1473",
+    "title": "ESCHEAT",
+    "text": "ESCHEAT, in law, signifies any lands or ten-\nparts that cafinally fail to a Lord within his manor.\nIt is one of the confeugeures of tenure in divary\n(See _Fiona Sylpa, Amoran-Serous_, and Texas).\nIf the determination of the course are diflutions\nof the mutual bond between the loud and tenans, from\nthe extinction of the blood of the latter by other ana-\nural or crist means : if the deck without hers of his\nblood, or if his blood the company and named by\ncomunition of coercion or fidory; whereby every hori-\nbritable quality was entirely blasted out and doubled,\nfa fault, cakes the hand echated or fell back to the\nlost of the cry that is, the teens was determined by\nbreach of the original condition, esperified or implied\nin the fetal donation. In later once cats, there were\nno here inhibiting of the blood of the fork tettatory\nor puchader, to which hers alone the grant of the\nfeed extended: in the other, the tenant, by perpe-\ntrating an atrocious crime, showed that he was no",
+    "normalized_text": "ESCHEAT, in law, signifies any lands or tenparts that cafinally fail to a Lord within his manor.\nIt is one of the confeugeures of tenure in divary\n(See _Fiona Sylpa, Amoran-Serous_, and Texas).\nIf the determination of the course are diflutions\nof the mutual bond between the loud and tenans, from\nthe extinction of the blood of the latter by other anaural or crist means : if the deck without hers of his\nblood, or if his blood the company and named by\ncomunition of coercion or fidory; whereby every horibritable quality was entirely blasted out and doubled,\nfa fault, cakes the hand echated or fell back to the\nlost of the cry that is, the teens was determined by\nbreach of the original condition, esperified or implied\nin the fetal donation. In later once cats, there were\nno here inhibiting of the blood of the fork tettatory\nor puchader, to which hers alone the grant of the\nfeed extended: in the other, the tenant, by perpetrating an atrocious crime, showed that he was no",
+    "source_pages": [
+      "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1473"
+    ],
+    "source_row_indices": [
+      1473
+    ],
+    "volume_id": "149979622",
+    "is_continuation": false,
+    "block_count": 1,
+    "character_count": 986,
+    "validity_score": 0.5517,
+    "metadata": {
+      "page_number": null,
+      "running_title": "ESC 1723 I ESC",
+      "headword": "ESCHEAT",
+      "text_changes_count": 4,
+      "text_changes_sample": [
+        {
+          "rule": "line_break_hyphen",
+          "original": "ten-\nparts",
+          "replacement": "tenparts"
+        },
+        {
+          "rule": "line_break_hyphen",
+          "original": "ana-\nural",
+          "replacement": "anaural"
+        },
+        {
+          "rule": "line_break_hyphen",
+          "original": "hori-\nbritable",
+          "replacement": "horibritable"
+        },
+        {
+          "rule": "line_break_hyphen",
+          "original": "perpe-\ntrating",
+          "replacement": "perpetrating"
+        }
+      ]
+    }
+  },
+  "match": null,
+  "comparison": null,
+  "exclusion": null,
+  "wikipedia": {
+    "available": false
+  },
+  "scans": [
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1473",
+      "filename": "page-1473-b3b602ef6a3d.jpg",
+      "image_sha256": "b3b602ef6a3d4961fd1926a15d634a40ec929c15b00e2f7cc5109b3f7180daac",
+      "row_index": 1473,
+      "path": "scans/page-1473-b3b602ef6a3d.jpg"
+    }
+  ],
+  "documents": {
+    "tex": "latex/entry-escheat-1473.tex",
+    "pdf": "latex/entry-escheat-1473.pdf"
+  }
+}

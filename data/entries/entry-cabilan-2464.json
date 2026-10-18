@@ -1,0 +1,44 @@
+{
+  "entry": {
+    "entry_id": "entry-cabilan-2464",
+    "title": "CABILAN",
+    "text": "CABILAN, the man of a kingdom and city of India, beyond the Ganges.",
+    "normalized_text": "CABILAN, the man of a kingdom and city of India, beyond the Ganges.",
+    "source_pages": [
+      "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2464"
+    ],
+    "source_row_indices": [
+      2464
+    ],
+    "volume_id": "144133902",
+    "is_continuation": false,
+    "block_count": 1,
+    "character_count": 67,
+    "validity_score": 0.5,
+    "metadata": {
+      "page_number": null,
+      "running_title": "",
+      "headword": "CABILAN",
+      "text_changes_count": 0
+    }
+  },
+  "match": null,
+  "comparison": null,
+  "exclusion": null,
+  "wikipedia": {
+    "available": false
+  },
+  "scans": [
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2464",
+      "filename": "page-2464-24f450326eee.jpg",
+      "image_sha256": "24f450326eee13b008306d2b355bd49b295db96603186268db20b85552cf958e",
+      "row_index": 2464,
+      "path": "scans/page-2464-24f450326eee.jpg"
+    }
+  ],
+  "documents": {
+    "tex": "latex/entry-cabilan-2464.tex",
+    "pdf": "latex/entry-cabilan-2464.pdf"
+  }
+}

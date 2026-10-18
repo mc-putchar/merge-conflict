@@ -1,0 +1,51 @@
+{
+  "entry": {
+    "entry_id": "entry-athanasia-2171",
+    "title": "ATHANASIA",
+    "text": "ATHANASIA, GOLDLOCKS, a genus of the polygania aqualia order, belonging to the fyngeneria class of plants. Of this genus, Dr.Limous mentions 11 _Species_ of which the followingic are by Mr Millerreckoned worthy of a place in those gardens where there are convenience for preferring tender plants, as some of the species will outlive the waters of this country. 1. The dentants grows naturally at the Cape of God Hope. It rises three or four feet high, finding out many fine branches garnished with pretty long narrow leaves, having form resemblance to thole of buckthown plannian. The branches are generally terminated by yellow flowers formed into a kind of tunnel. Thefe flowers appear early in summer, and the feeds ripen in autumn. 3. The trifectate is alio a native of Africa, as are the three following sorts. It is a damby plant, about the height of the former, fending out several weak shoots, garnished with awl-flagged until leaves let close to them, of a pale liberty onborn. The flowers are yellow, and terminate the branches in a corymbus. They appear in August, and the black ripen in Otolom. 3. The ethuthella rides with a strong flambaby halk to the heights of fic or eight feet, fending out many ligneous branches garnished with long narrow leaves terminating in four or five pairs like thole of fampiro. The flowers are like thole of the former, and appear in July and Au-guilt, being feduced by feeds which ripen in Otolber. 3. The pudeless hath frong woody flakes four or five feet high, covered with a woolly bark, as are alfo the branches, which are closely garnished with entire, fearshaped, woolly leaves, and are terminated by yel-low flowers hanging hang food,alks, and are sometimes fucceeded by feeds that ripen in the autumn. 5. The animals is a low annual plants, fellow rings above a foot, high, and feeding forth two or three lender branches garnished with wing-pointed leaves : the flalks are ter-minated",
+    "normalized_text": "ATHANASIA, GOLDLOCKS, a genus of the polygania aqualia order, belonging to the fyngeneria class of plants. Of this genus, Dr.Limous mentions 11 _Species_ of which the followingic are by Mr Millerreckoned worthy of a place in those gardens where there are convenience for preferring tender plants, as some of the species will outlive the waters of this country. 1. The dentants grows naturally at the Cape of God Hope. It rises three or four feet high, finding out many fine branches garnished with pretty long narrow leaves, having form resemblance to thole of buckthown plannian. The branches are generally terminated by yellow flowers formed into a kind of tunnel. These flowers appear early in summer, and the feeds ripen in autumn. 3. The trifectate is alio a native of Africa, as are the three following sorts. It is a damby plant, about the height of the former, fending out several weak shoots, garnished with awl-flagged until leaves let close to them, of a pale liberty onborn. The flowers are yellow, and terminate the branches in a corymbus. They appear in August, and the black ripen in Otolom. 3. The ethuthella rides with a strong flambaby halk to the heights of fic or eight feet, fending out many ligneous branches garnished with long narrow leaves terminating in four or five pairs like thole of fampiro. The flowers are like thole of the former, and appear in July and Au-guilt, being feduced by feeds which ripen in Otolber. 3. The pudeless hath frong woody flakes four or five feet high, covered with a woolly bark, as are alfo the branches, which are closely garnished with entire, fearshaped, woolly leaves, and are terminated by yel-low flowers hanging hang food,alks, and are sometimes fucceeded by feeds that ripen in the autumn. 5. The animals is a low annual plants, fellow rings above a foot, high, and feeding forth two or three lender branches garnished with wing-pointed leaves : the flalks are ter-minated",
+    "source_pages": [
+      "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2171"
+    ],
+    "source_row_indices": [
+      2171
+    ],
+    "volume_id": "144850373",
+    "is_continuation": false,
+    "block_count": 2,
+    "character_count": 1937,
+    "validity_score": 0.4353,
+    "metadata": {
+      "page_number": null,
+      "running_title": "A S T [ 852] A S T",
+      "headword": "ATHANASIA",
+      "text_changes_count": 1,
+      "text_changes_sample": [
+        {
+          "rule": "ocr_f_s_confusion",
+          "original": "Thefe",
+          "replacement": "these"
+        }
+      ]
+    }
+  },
+  "match": null,
+  "comparison": null,
+  "exclusion": null,
+  "wikipedia": {
+    "available": false
+  },
+  "scans": [
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2171",
+      "filename": "page-2171-f8869fa95f19.jpg",
+      "image_sha256": "f8869fa95f190d0e556bf8d2397c0c36da436ea1b23405995f0aac0f398f26d5",
+      "row_index": 2171,
+      "path": "scans/page-2171-f8869fa95f19.jpg"
+    }
+  ],
+  "documents": {
+    "tex": "latex/entry-athanasia-2171.tex",
+    "pdf": "latex/entry-athanasia-2171.pdf"
+  }
+}

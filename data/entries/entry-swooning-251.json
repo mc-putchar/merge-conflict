@@ -1,0 +1,65 @@
+{
+  "entry": {
+    "entry_id": "entry-swooning-251",
+    "title": "Engraved Plate (Row 251)",
+    "text": "SWOONING. See Manchiss, n\u00b0 273.\n\n[HISTORICAL COPPERPLATE ENGRAVING: Engraved Plate (Row 251)]\nCategory: Historical Illustration\nVisual Description: Historical copperplate engraving from Encyclopaedia Britannica (1771).\nIdentified Engraved Figures:\n\nRelated Scientific Subjects: Encyclopaedia Britannica, Engraving",
+    "normalized_text": "SWOONING. See Manchiss, n\u00b0 273.",
+    "source_pages": [
+      "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:251"
+    ],
+    "source_row_indices": [
+      251
+    ],
+    "volume_id": "191679021",
+    "is_continuation": false,
+    "block_count": 1,
+    "character_count": 313,
+    "validity_score": 0.3333,
+    "metadata": {
+      "page_number": null,
+      "running_title": "SWI [ 248] SYD",
+      "headword": "SWOONING",
+      "text_changes_count": 0,
+      "visual_annotation": {
+        "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:251",
+        "row_index": 251,
+        "filename": "page-0251-69952e7c4a0f.jpg",
+        "plate_title": "Engraved Plate (Row 251)",
+        "plate_category": "Historical Illustration",
+        "description": "Historical copperplate engraving from Encyclopaedia Britannica (1771).",
+        "identified_figures": [],
+        "wikipedia_keywords": [
+          "Encyclopaedia Britannica",
+          "Engraving"
+        ],
+        "bbox": {
+          "x1": 0.0,
+          "y1": 0.0,
+          "x2": 1.0,
+          "y2": 1.0
+        },
+        "model_used": "nvidia/Nemotron-3.5-Super-VL"
+      },
+      "is_illustration_plate": true
+    }
+  },
+  "match": null,
+  "comparison": null,
+  "exclusion": null,
+  "wikipedia": {
+    "available": false
+  },
+  "scans": [
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:251",
+      "filename": "page-0251-69952e7c4a0f.jpg",
+      "image_sha256": "69952e7c4a0f40267d357d04308f674155b3ab206ce8f2f4887124ce481f8c1d",
+      "row_index": 251,
+      "path": "scans/page-0251-69952e7c4a0f.jpg"
+    }
+  ],
+  "documents": {
+    "tex": "latex/entry-swooning-251.tex",
+    "pdf": "latex/entry-swooning-251.pdf"
+  }
+}

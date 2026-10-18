@@ -1,0 +1,51 @@
+{
+  "entry": {
+    "entry_id": "entry-willins-d-thomas-258",
+    "title": "WILLINS (D Thomas",
+    "text": "WILLINS (D Thomas), a celebrated English Myckling, was born at Great Bodwin, in WildHere, in 1611, and fludied at Chrift-church college, Oxford. When that city was parturient for the king, the among other scholars, bore must be his Majidity, and devoted his three hours to the flyt of phyfeic. The garrior of Oxford at Leughr furnerdening to the patmanie, he applied himself to the practice of his pacification and foam rendered himself famous by his care and full. He appropriated a room as an contrary for driven revoc according to the church of England, whether end of the loyalists in Oxford only without. In 1604, he became Seeldian profiler of natural philosophy, and the fame year took the degree of dochor of phyfe. In 1604, he discovered the famonic medicinal prins at Allftrop, our Brackley. He was one of the first members of the Royal Society, and from made his name illustrious by his excellent writings. In 1605 after the first of London, he traveled to Wilminker; and his practice became greater than that of any of the physicians his contemporaries. Soon after he farfetment in London, his only for Thomas falling into a companion, the feet him to Monopolier in France for the recovery of his health; and it proved fucetful. His wife allo boating under the frame different the areas of providing for his family, died in 1670. He died at his house in So Bharti's in Oregon, and was buried near her in fifathmande abby. Dr Willis was extremely mournish and mannikians, and refrufed the honour of knightthood. He was remarkably proust. As he role early in the morning, that the maybe he pointed across foreign forces, which conclually frequested before he vifited his patients, he procured prayers to be read beyond the secundance times while he lives and at his death settled a ifgood of such pernum to continue them. He was a liberal benefactor to the poor wherever he came, having from his only practice adopted yet of his profits to charitable use. He was exact and re-gular is all his hours; a and through his table was the refert of molt of the great men of London, yet he was remarkable",
+    "normalized_text": "WILLINS (D Thomas), a celebrated English Myckling, was born at Great Bodwin, in WildHere, in 1611, and fludied at Chrift-church college, Oxford. When that city was parturient for the king, the among other scholars, bore must be his Majidity, and devoted his three hours to the flyt of phyfeic. The garrior of Oxford at Leughr furnerdening to the patmanie, he applied himself to the practice of his pacification and foam rendered himself famous by his care and full. He appropriated a room as an contrary for driven revoc according to the church of England, whether end of the loyalists in Oxford only without. In 1604, he became Seeldian profiler of natural philosophy, and the same year took the degree of dochor of phyfe. In 1604, he discovered the famonic medicinal prins at Allftrop, our Brackley. He was one of the first members of the Royal Society, and from made his name illustrious by his excellent writings. In 1605 after the first of London, he traveled to Wilminker; and his practice became greater than that of any of the physicians his contemporaries. Soon after he farfetment in London, his only for Thomas falling into a companion, the feet him to Monopolier in France for the recovery of his health; and it proved fucetful. His wife allo boating under the frame different the areas of providing for his family, died in 1670. He died at his house in So Bharti's in Oregon, and was buried near her in fifathmande abby. Dr Willis was extremely mournish and mannikians, and refrufed the honour of knightthood. He was remarkably proust. As he role early in the morning, that the maybe he pointed across foreign forces, which conclually frequested before he vifited his patients, he procured prayers to be read beyond the secundance times while he lives and at his death settled a ifgood of such pernum to continue them. He was a liberal benefactor to the poor wherever he came, having from his only practice adopted yet of his profits to charitable use. He was exact and re-gular is all his hours; a and through his table was the refert of molt of the great men of London, yet he was remarkable",
+    "source_pages": [
+      "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:258"
+    ],
+    "source_row_indices": [
+      258
+    ],
+    "volume_id": "191679021",
+    "is_continuation": false,
+    "block_count": 1,
+    "character_count": 2106,
+    "validity_score": 0.5098,
+    "metadata": {
+      "page_number": null,
+      "running_title": "",
+      "headword": "WILLINS (D Thomas)",
+      "text_changes_count": 1,
+      "text_changes_sample": [
+        {
+          "rule": "ocr_f_s_confusion",
+          "original": "fame",
+          "replacement": "same"
+        }
+      ]
+    }
+  },
+  "match": null,
+  "comparison": null,
+  "exclusion": null,
+  "wikipedia": {
+    "available": false
+  },
+  "scans": [
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:258",
+      "filename": "page-0258-631a7ae7df34.jpg",
+      "image_sha256": "631a7ae7df340a64a33318be0161e911b328ec2b7354754da2dc37a1606ece4c",
+      "row_index": 258,
+      "path": "scans/page-0258-631a7ae7df34.jpg"
+    }
+  ],
+  "documents": {
+    "tex": "latex/entry-willins-d-thomas-258.tex",
+    "pdf": "latex/entry-willins-d-thomas-258.pdf"
+  }
+}

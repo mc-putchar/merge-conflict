@@ -1,0 +1,61 @@
+{
+  "entry": {
+    "entry_id": "entry-esarhaddon-1473",
+    "title": "ESARHADDON",
+    "text": "ESARHADDON, the fen of Sennacherib, and his\nfavorite in the Baylorion of Alfryen. He is faid\nhave reigned to 9 years at Church, from the year 1904\nto 3322; believe which he reigned 13 years at Baby-\nton, in all 8 years. He died in the year of the week\nSSS, and was faceded by Sandoshina. Elar-\nhaddon, in the opinion of Sir Ilane Newton, feems to\nbe the Shanghai who often, as Catecharina fayo,\nold way after the result of Syria, the name _Bekriamo_\npolar being derived from _Afrhadon Pal._",
+    "normalized_text": "ESARHADDON, the fen of Sennacherib, and his\nfavorite in the Baylorion of Alfryen. He is said\nhave reigned to 9 years at Church, from the year 1904\nto 3322; believe which he reigned 13 years at Babyton, in all 8 years. He died in the year of the week\nSSS, and was faceded by Sandoshina. Elarhaddon, in the opinion of Sir Ilane Newton, feems to\nbe the Shanghai who often, as Catecharina fayo,\nold way after the result of Syria, the name _Bekriamo_\npolar being derived from _Afrhadon Pal._",
+    "source_pages": [
+      "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1473"
+    ],
+    "source_row_indices": [
+      1473
+    ],
+    "volume_id": "149979622",
+    "is_continuation": false,
+    "block_count": 1,
+    "character_count": 490,
+    "validity_score": 0.5238,
+    "metadata": {
+      "page_number": null,
+      "running_title": "ESC 1723 I ESC",
+      "headword": "ESARHADDON",
+      "text_changes_count": 3,
+      "text_changes_sample": [
+        {
+          "rule": "line_break_hyphen",
+          "original": "Baby-\nton",
+          "replacement": "Babyton"
+        },
+        {
+          "rule": "line_break_hyphen",
+          "original": "Elar-\nhaddon",
+          "replacement": "Elarhaddon"
+        },
+        {
+          "rule": "ocr_f_s_confusion",
+          "original": "faid",
+          "replacement": "said"
+        }
+      ]
+    }
+  },
+  "match": null,
+  "comparison": null,
+  "exclusion": null,
+  "wikipedia": {
+    "available": false
+  },
+  "scans": [
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1473",
+      "filename": "page-1473-b3b602ef6a3d.jpg",
+      "image_sha256": "b3b602ef6a3d4961fd1926a15d634a40ec929c15b00e2f7cc5109b3f7180daac",
+      "row_index": 1473,
+      "path": "scans/page-1473-b3b602ef6a3d.jpg"
+    }
+  ],
+  "documents": {
+    "tex": "latex/entry-esarhaddon-1473.tex",
+    "pdf": "latex/entry-esarhaddon-1473.pdf"
+  }
+}

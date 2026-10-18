@@ -1,0 +1,44 @@
+{
+  "entry": {
+    "entry_id": "entry-exemention-1805",
+    "title": "EXEMENTION",
+    "text": "EXEMENTION, in Laws, a prings to be free from forms feriev or appearance : thus, barons and peers of the entire area, on account at their dipluity, corrupted from being thrown upon inquiry and insights, clergy-men, and others, from appearing as the Berliff's turn. Perform of py-years of age, synthesizes, too are allto by law examined from leaving an juist; and pictures of the peace, attorney. See: four earth offices.",
+    "normalized_text": "EXEMENTION, in Laws, a prings to be free from forms feriev or appearance : thus, barons and peers of the entire area, on account at their dipluity, corrupted from being thrown upon inquiry and insights, clergy-men, and others, from appearing as the Berliff's turn. Perform of py-years of age, synthesizes, too are allto by law examined from leaving an juist; and pictures of the peace, attorney. See: four earth offices.",
+    "source_pages": [
+      "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1805"
+    ],
+    "source_row_indices": [
+      1805
+    ],
+    "volume_id": "191320560",
+    "is_continuation": false,
+    "block_count": 1,
+    "character_count": 420,
+    "validity_score": 0.4286,
+    "metadata": {
+      "page_number": null,
+      "running_title": "EXE [ 375 ] EXE",
+      "headword": "EXEMENTION",
+      "text_changes_count": 0
+    }
+  },
+  "match": null,
+  "comparison": null,
+  "exclusion": null,
+  "wikipedia": {
+    "available": false
+  },
+  "scans": [
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1805",
+      "filename": "page-1805-226885408318.jpg",
+      "image_sha256": "2268854083181b93f7bf134647f2e3214aacdd4ce0279092f4743cf113d32abd",
+      "row_index": 1805,
+      "path": "scans/page-1805-226885408318.jpg"
+    }
+  ],
+  "documents": {
+    "tex": "latex/entry-exemention-1805.tex",
+    "pdf": "latex/entry-exemention-1805.pdf"
+  }
+}

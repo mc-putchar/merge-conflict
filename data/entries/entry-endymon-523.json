@@ -1,0 +1,44 @@
+{
+  "entry": {
+    "entry_id": "entry-endymon-523",
+    "title": "ENDYMON",
+    "text": "ENDYMON, the 1zth king of Elia. Being ex- pelled his kingdom, he retired into Caria to mount Lat-mos, where he fluded the bewenly bodies, but chiefly the moo's which gave rise to the false of the poets, that he was beloved by the moo, who visited him every night as he lay alleep upon the top of that hill.\n\nENEM In law, an alien or foreigner, who pub- lied invades the kingdom.",
+    "normalized_text": "ENDYMON, the 1zth king of Elia. Being ex- pelled his kingdom, he retired into Caria to mount Lat-mos, where he fluded the bewenly bodies, but chiefly the moo's which gave rise to the false of the poets, that he was beloved by the moo, who visited him every night as he lay alleep upon the top of that hill.\n\nENEM In law, an alien or foreigner, who pub- lied invades the kingdom.",
+    "source_pages": [
+      "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:523"
+    ],
+    "source_row_indices": [
+      523
+    ],
+    "volume_id": "144850375",
+    "is_continuation": false,
+    "block_count": 2,
+    "character_count": 378,
+    "validity_score": 0.4658,
+    "metadata": {
+      "page_number": null,
+      "running_title": "EN G [ 2729] E N G",
+      "headword": "ENDYMON",
+      "text_changes_count": 0
+    }
+  },
+  "match": null,
+  "comparison": null,
+  "exclusion": null,
+  "wikipedia": {
+    "available": false
+  },
+  "scans": [
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:523",
+      "filename": "page-0523-a583606e375a.jpg",
+      "image_sha256": "a583606e375ad92d79af8ad8b4fabc4fa22632e6ccbeea6e20f0fa47a27e2858",
+      "row_index": 523,
+      "path": "scans/page-0523-a583606e375a.jpg"
+    }
+  ],
+  "documents": {
+    "tex": "latex/entry-endymon-523.tex",
+    "pdf": "latex/entry-endymon-523.pdf"
+  }
+}

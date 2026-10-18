@@ -1,0 +1,44 @@
+{
+  "entry": {
+    "entry_id": "entry-energumens-523",
+    "title": "ENERGUMENS",
+    "text": "ENERGUMENS, in church-hitory, perfons lip- pdfet to be purified by the devil, concerning whom there were regiments among the primitive Christians. They were denied baptirn, and the eu- charifit at held, this was the practice of from students: i and thought they were under the care of exercils, yet it was thought a becoming act of charity, to let them have the public prayers of the church, in which they were permitted to be prefect. See Exgressions.",
+    "normalized_text": "ENERGUMENS, in church-hitory, perfons lip- pdfet to be purified by the devil, concerning whom there were regiments among the primitive Christians. They were denied baptirn, and the eu- charifit at held, this was the practice of from students: i and thought they were under the care of exercils, yet it was thought a becoming act of charity, to let them have the public prayers of the church, in which they were permitted to be prefect. See Exgressions.",
+    "source_pages": [
+      "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:523"
+    ],
+    "source_row_indices": [
+      523
+    ],
+    "volume_id": "144850375",
+    "is_continuation": false,
+    "block_count": 1,
+    "character_count": 452,
+    "validity_score": 0.5395,
+    "metadata": {
+      "page_number": null,
+      "running_title": "EN G [ 2729] E N G",
+      "headword": "ENERGUMENS",
+      "text_changes_count": 0
+    }
+  },
+  "match": null,
+  "comparison": null,
+  "exclusion": null,
+  "wikipedia": {
+    "available": false
+  },
+  "scans": [
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:523",
+      "filename": "page-0523-a583606e375a.jpg",
+      "image_sha256": "a583606e375ad92d79af8ad8b4fabc4fa22632e6ccbeea6e20f0fa47a27e2858",
+      "row_index": 523,
+      "path": "scans/page-0523-a583606e375a.jpg"
+    }
+  ],
+  "documents": {
+    "tex": "latex/entry-energumens-523.tex",
+    "pdf": "latex/entry-energumens-523.pdf"
+  }
+}

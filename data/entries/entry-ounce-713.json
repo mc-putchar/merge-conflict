@@ -1,0 +1,44 @@
+{
+  "entry": {
+    "entry_id": "entry-ounce-713",
+    "title": "OUNCE",
+    "text": "OUNCE, a little weight, the fitteenth part of a pound a- voirdupois, and the wealth part of a pound troy.",
+    "normalized_text": "OUNCE, a little weight, the fitteenth part of a pound a- voirdupois, and the wealth part of a pound troy.",
+    "source_pages": [
+      "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:713"
+    ],
+    "source_row_indices": [
+      713
+    ],
+    "volume_id": "144850368",
+    "is_continuation": false,
+    "block_count": 1,
+    "character_count": 105,
+    "validity_score": 0.5,
+    "metadata": {
+      "page_number": null,
+      "running_title": "",
+      "headword": "OUNCE",
+      "text_changes_count": 0
+    }
+  },
+  "match": null,
+  "comparison": null,
+  "exclusion": null,
+  "wikipedia": {
+    "available": false
+  },
+  "scans": [
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:713",
+      "filename": "page-0713-3db0c66f81f4.jpg",
+      "image_sha256": "3db0c66f81f48bd0948a7644d3f0c1c4213d3d49e54c500a317bf147695b1fc5",
+      "row_index": 713,
+      "path": "scans/page-0713-3db0c66f81f4.jpg"
+    }
+  ],
+  "documents": {
+    "tex": "latex/entry-ounce-713.tex",
+    "pdf": "latex/entry-ounce-713.pdf"
+  }
+}

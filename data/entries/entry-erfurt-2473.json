@@ -1,0 +1,44 @@
+{
+  "entry": {
+    "entry_id": "entry-erfurt-2473",
+    "title": "ERFURT",
+    "text": "ERFURT, a large and beautiful city of Upper Saxony in Germany, capital of Thailand, and subject to the elckor of Menus; E. long.117 \u00e9', N.lax. 910.",
+    "normalized_text": "ERFURT, a large and beautiful city of Upper Saxony in Germany, capital of Thailand, and subject to the elckor of Menus; E. long.117 \u00e9', N.lax. 910.",
+    "source_pages": [
+      "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2473"
+    ],
+    "source_row_indices": [
+      2473
+    ],
+    "volume_id": "144133902",
+    "is_continuation": false,
+    "block_count": 1,
+    "character_count": 147,
+    "validity_score": 0.5,
+    "metadata": {
+      "page_number": null,
+      "running_title": "",
+      "headword": "ERFURT",
+      "text_changes_count": 0
+    }
+  },
+  "match": null,
+  "comparison": null,
+  "exclusion": null,
+  "wikipedia": {
+    "available": false
+  },
+  "scans": [
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2473",
+      "filename": "page-2473-b849fb7f25f2.jpg",
+      "image_sha256": "b849fb7f25f25b39685069d12c13b17d47169beeea958446bdff439c230a0f65",
+      "row_index": 2473,
+      "path": "scans/page-2473-b849fb7f25f2.jpg"
+    }
+  ],
+  "documents": {
+    "tex": "latex/entry-erfurt-2473.tex",
+    "pdf": "latex/entry-erfurt-2473.pdf"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "entry": {
+    "entry_id": "entry-hellenism-1017",
+    "title": "HELLENISM",
+    "text": "HELLENISM, in matters of language, a phrae in the idem, going, or collection of the Greek tongue.\n\nThis words is only of what breaking of the authors who, writing in a different language, express themselves in a philosophy peculiar to the Greek",
+    "normalized_text": "HELLENISM, in matters of language, a phrae in the idem, going, or collection of the Greek tongue.\n\nThis words is only of what breaking of the authors who, writing in a different language, express themselves in a philosophy peculiar to the Greek",
+    "source_pages": [
+      "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1017"
+    ],
+    "source_row_indices": [
+      1017
+    ],
+    "volume_id": "144850367",
+    "is_continuation": false,
+    "block_count": 2,
+    "character_count": 244,
+    "validity_score": 0.4615,
+    "metadata": {
+      "page_number": null,
+      "running_title": "( 781 )",
+      "headword": "HELLENISM",
+      "text_changes_count": 0
+    }
+  },
+  "match": null,
+  "comparison": null,
+  "exclusion": null,
+  "wikipedia": {
+    "available": false
+  },
+  "scans": [
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1017",
+      "filename": "page-1017-5395deb0e141.jpg",
+      "image_sha256": "5395deb0e1413694dd6a4e16890741c049681f5838d6fc92ef14a3019a1c87a4",
+      "row_index": 1017,
+      "path": "scans/page-1017-5395deb0e141.jpg"
+    }
+  ],
+  "documents": {
+    "tex": "latex/entry-hellenism-1017.tex",
+    "pdf": "latex/entry-hellenism-1017.pdf"
+  }
+}

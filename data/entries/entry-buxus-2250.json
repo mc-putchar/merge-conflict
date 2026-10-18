@@ -1,0 +1,51 @@
+{
+  "entry": {
+    "entry_id": "entry-buxus-2250",
+    "title": "BUXUS",
+    "text": "BUXUS, in botany, a genus of the monocina terrandia elids. The calix of the male coaffins of three leaves; and the crotilla has two petals: The calix of the fo- male has four leaves; the petals are three; it has three flyily, and the copfila has three cells containing two feeds. There is but one species, viz, the fampevi-rens, or box-tree, a native of Britain. A decdition of the leaves and wood has been recommended as a powerful fiducifie; but is not now used by prestitioners. The wood is of a hard clole texture, and is greatly used by mechanics for to\u00dfls of various kinds.",
+    "normalized_text": "BUXUS, in botany, a genus of the monocina terrandia elids. The calix of the male coaffins of three leaves; and the crotilla has two petals: The calix of the so- male has four leaves; the petals are three; it has three flyily, and the copfila has three cells containing two feeds. There is but one species, viz, the fampevi-rens, or box-tree, a native of Britain. A decdition of the leaves and wood has been recommended as a powerful fiducifie; but is not now used by prestitioners. The wood is of a hard clole texture, and is greatly used by mechanics for to\u00dfls of various kinds.",
+    "source_pages": [
+      "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2250"
+    ],
+    "source_row_indices": [
+      2250
+    ],
+    "volume_id": "144133901",
+    "is_continuation": false,
+    "block_count": 2,
+    "character_count": 579,
+    "validity_score": 0.5534,
+    "metadata": {
+      "page_number": null,
+      "running_title": "",
+      "headword": "BUXUS",
+      "text_changes_count": 1,
+      "text_changes_sample": [
+        {
+          "rule": "ocr_f_s_confusion",
+          "original": "fo",
+          "replacement": "so"
+        }
+      ]
+    }
+  },
+  "match": null,
+  "comparison": null,
+  "exclusion": null,
+  "wikipedia": {
+    "available": false
+  },
+  "scans": [
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2250",
+      "filename": "page-2250-75315f455009.jpg",
+      "image_sha256": "75315f45500988daa37cc73e58bee8b227772229b576475ee23ddb584172baee",
+      "row_index": 2250,
+      "path": "scans/page-2250-75315f455009.jpg"
+    }
+  ],
+  "documents": {
+    "tex": "latex/entry-buxus-2250.tex",
+    "pdf": "latex/entry-buxus-2250.pdf"
+  }
+}

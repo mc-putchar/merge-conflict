@@ -1,0 +1,44 @@
+{
+  "entry": {
+    "entry_id": "entry-thomists-1614",
+    "title": "THOMISTS",
+    "text": "THOMISTS, a feet of school-driven, who maintain thom- in, and the preceding article.\n\nTHEORACIC Dc ctr. See Astronomy, p. 282.",
+    "normalized_text": "THOMISTS, a feet of school-driven, who maintain thom- in, and the preceding article.\n\nTHEORACIC Dc ctr. See Astronomy, p. 282.",
+    "source_pages": [
+      "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1614"
+    ],
+    "source_row_indices": [
+      1614
+    ],
+    "volume_id": "144133903",
+    "is_continuation": false,
+    "block_count": 2,
+    "character_count": 126,
+    "validity_score": 0.3889,
+    "metadata": {
+      "page_number": null,
+      "running_title": "T H O ( 896 )",
+      "headword": "THOMISTS",
+      "text_changes_count": 0
+    }
+  },
+  "match": null,
+  "comparison": null,
+  "exclusion": null,
+  "wikipedia": {
+    "available": false
+  },
+  "scans": [
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1614",
+      "filename": "page-1614-ea352b487d65.jpg",
+      "image_sha256": "ea352b487d650c713a3e6bdd8e4bc1ded85e0d7558c3fa1d9cdbce89abc38ca3",
+      "row_index": 1614,
+      "path": "scans/page-1614-ea352b487d65.jpg"
+    }
+  ],
+  "documents": {
+    "tex": "latex/entry-thomists-1614.tex",
+    "pdf": "latex/entry-thomists-1614.pdf"
+  }
+}

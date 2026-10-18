@@ -1,0 +1,44 @@
+{
+  "entry": {
+    "entry_id": "entry-naxos-1268",
+    "title": "NAXOS",
+    "text": "NAXOS, or NAXIA, a considerable town, and capital of the lake of Naoxe, opposite the lake of Peru, with a cudal and two ambishaby\u2019s seen, the one check out the other Latin. The greater part of the inhabitants are Greek, Lilly, 25.13. E., Lae 37.6.N.",
+    "normalized_text": "NAXOS, or NAXIA, a considerable town, and capital of the lake of Naoxe, opposite the lake of Peru, with a cudal and two ambishaby\u2019s seen, the one check out the other Latin. The greater part of the inhabitants are Greek, Lilly, 25.13. E., Lae 37.6.N.",
+    "source_pages": [
+      "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1268"
+    ],
+    "source_row_indices": [
+      1268
+    ],
+    "volume_id": "194474782",
+    "is_continuation": false,
+    "block_count": 1,
+    "character_count": 249,
+    "validity_score": 0.525,
+    "metadata": {
+      "page_number": 66,
+      "running_title": "NAZ",
+      "headword": "NAXOS",
+      "text_changes_count": 0
+    }
+  },
+  "match": null,
+  "comparison": null,
+  "exclusion": null,
+  "wikipedia": {
+    "available": false
+  },
+  "scans": [
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1268",
+      "filename": "page-1268-e5ec9e5b4086.jpg",
+      "image_sha256": "e5ec9e5b4086576d908e749cf55ee5aa6db8079444bb0961627c9475b434ca7e",
+      "row_index": 1268,
+      "path": "scans/page-1268-e5ec9e5b4086.jpg"
+    }
+  ],
+  "documents": {
+    "tex": "latex/entry-naxos-1268.tex",
+    "pdf": "latex/entry-naxos-1268.pdf"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "entry": {
+    "entry_id": "entry-byghof-2250",
+    "title": "BYGHOF",
+    "text": "BYGHOF, or BYGow, a city of Lithuania in Poland, firstured on the river Niper; E. long, 30\u00b0, and N. lat. 32\u00b0.",
+    "normalized_text": "BYGHOF, or BYGow, a city of Lithuania in Poland, firstured on the river Niper; E. long, 30\u00b0, and N. lat. 32\u00b0.",
+    "source_pages": [
+      "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2250"
+    ],
+    "source_row_indices": [
+      2250
+    ],
+    "volume_id": "144133901",
+    "is_continuation": false,
+    "block_count": 1,
+    "character_count": 109,
+    "validity_score": 0.5625,
+    "metadata": {
+      "page_number": null,
+      "running_title": "",
+      "headword": "BYGHOF",
+      "text_changes_count": 0
+    }
+  },
+  "match": null,
+  "comparison": null,
+  "exclusion": null,
+  "wikipedia": {
+    "available": false
+  },
+  "scans": [
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2250",
+      "filename": "page-2250-75315f455009.jpg",
+      "image_sha256": "75315f45500988daa37cc73e58bee8b227772229b576475ee23ddb584172baee",
+      "row_index": 2250,
+      "path": "scans/page-2250-75315f455009.jpg"
+    }
+  ],
+  "documents": {
+    "tex": "latex/entry-byghof-2250.tex",
+    "pdf": "latex/entry-byghof-2250.pdf"
+  }
+}

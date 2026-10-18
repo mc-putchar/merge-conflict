@@ -1,0 +1,309 @@
+{
+  "entry": {
+    "entry_id": "entry-britannica-volume-149982181-row-270-270",
+    "title": "HYDROSTATICS (Plate CCXXXIX)",
+    "text": "HYDROSTATICS. Plate CCXXXIX.\n\n[HISTORICAL COPPERPLATE ENGRAVING: HYDROSTATICS (Plate CCXXXIX)]\nCategory: Physics and Fluid Mechanics\nVisual Description: Detailed 18th-century copperplate engraving illustrating principles of hydrostatics and fluid equilibrium. Depicts experimental apparatus demonstrating hydrostatic pressure, communicating vessels, and the hydrostatic paradox (water level equilibrium regardless of vessel shape). Includes apparatus for measuring specific gravity, siphons, and buoyant force diagrams.\nIdentified Engraved Figures:\n  * Fig. 1: Communicating vessels demonstrating uniform hydrostatic fluid level\n  * Fig. 2: Hydrostatic balance apparatus for specific gravity measurement\n  * Fig. 3: Inverted siphon and atmospheric fluid pressure column\n  * Fig. 4: Water-wheel turbine mechanism and hydrostatic head pressure reservoir\nRelated Scientific Subjects: Hydrostatics, Fluid statics, Hydrostatic paradox, Communicating vessels, Specific gravity, Archimedes' principle",
+    "normalized_text": "HYDROSTATICS. Plate CCXXXIX.",
+    "source_pages": [
+      "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:270"
+    ],
+    "source_row_indices": [
+      270
+    ],
+    "volume_id": "149982181",
+    "is_continuation": false,
+    "block_count": 1,
+    "character_count": 993,
+    "validity_score": 0.0,
+    "metadata": {
+      "page_number": null,
+      "running_title": "",
+      "text_changes_count": 0,
+      "visual_annotation": {
+        "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:270",
+        "row_index": 270,
+        "filename": "page-0270-6831cc1f149b.jpg",
+        "plate_title": "HYDROSTATICS (Plate CCXXXIX)",
+        "plate_category": "Physics and Fluid Mechanics",
+        "description": "Detailed 18th-century copperplate engraving illustrating principles of hydrostatics and fluid equilibrium. Depicts experimental apparatus demonstrating hydrostatic pressure, communicating vessels, and the hydrostatic paradox (water level equilibrium regardless of vessel shape). Includes apparatus for measuring specific gravity, siphons, and buoyant force diagrams.",
+        "identified_figures": [
+          "Fig. 1: Communicating vessels demonstrating uniform hydrostatic fluid level",
+          "Fig. 2: Hydrostatic balance apparatus for specific gravity measurement",
+          "Fig. 3: Inverted siphon and atmospheric fluid pressure column",
+          "Fig. 4: Water-wheel turbine mechanism and hydrostatic head pressure reservoir"
+        ],
+        "wikipedia_keywords": [
+          "Hydrostatics",
+          "Fluid statics",
+          "Hydrostatic paradox",
+          "Communicating vessels",
+          "Specific gravity",
+          "Archimedes' principle"
+        ],
+        "bbox": {
+          "x1": 0.0,
+          "y1": 0.0,
+          "x2": 1.0,
+          "y2": 1.0
+        },
+        "model_used": "nvidia/Nemotron-3.5-Super-VL"
+      },
+      "is_illustration_plate": true
+    }
+  },
+  "match": {
+    "entry_id": "entry-britannica-volume-149982181-row-270-270",
+    "britannica_title": "HYDROSTATICS (Plate CCXXXIX)",
+    "source_pages": [
+      "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:270"
+    ],
+    "matched": true,
+    "status": "accepted",
+    "selected_candidate": {
+      "page_id": "78413092",
+      "revision_id": "1351079103",
+      "title": "Editor-in-chief of the Encyclop\u00e6dia Britannica",
+      "url": "https://en.wikipedia.org/wiki/Editor-in-chief_of_the_Encyclop%C3%A6dia_Britannica",
+      "bm25_score": 20.85797882080078,
+      "excerpt": "The editor-in-chief of the Encyclop\u00e6dia Britannica serves as the editorial leader of the Encyclop\u00e6dia Britannica, a general reference encyclopedia published since 1768. Since 2012, the encyclopedia is published exclusively on the internet, following 244 years of physical editions. The first editor-in-chief of the Britannica was Scotsman William Smellie, and the current holder of the office is Jason Tuohey.\n\nThe Encyclop\u00e6dia Britannica is an English-language general reference encyclopedia, published since 1768. The Britannica was first published in Edinburgh, Scotland, in three volumes, with printer William Smellie serving as its principal editor. By 1988, the encyclopedia grew to consist of 32 volumes in total, but later stopped printing physical copies to focus on the online edition in 2012. As of 2025, the current editor-in-chief of the encyclopedia is Jason Tuohey, who was formerly an editor at Yahoo News.",
+      "stage1_score": -0.9867374897003174,
+      "multimodal_score": -4.282778739929199,
+      "is_disambiguation": false,
+      "source_query": "Britannica Volume 149982181 Row"
+    },
+    "all_candidates": [
+      {
+        "page_id": "78413092",
+        "revision_id": "1351079103",
+        "title": "Editor-in-chief of the Encyclop\u00e6dia Britannica",
+        "url": "https://en.wikipedia.org/wiki/Editor-in-chief_of_the_Encyclop%C3%A6dia_Britannica",
+        "bm25_score": 20.85797882080078,
+        "excerpt": "The editor-in-chief of the Encyclop\u00e6dia Britannica serves as the editorial leader of the Encyclop\u00e6dia Britannica, a general reference encyclopedia published since 1768. Since 2012, the encyclopedia is published exclusively on the internet, following 244 years of physical editions. The first editor-in-chief of the Britannica was Scotsman William Smellie, and the current holder of the office is Jason Tuohey.\n\nThe Encyclop\u00e6dia Britannica is an English-language general reference encyclopedia, published since 1768. The Britannica was first published in Edinburgh, Scotland, in three volumes, with printer William Smellie serving as its principal editor. By 1988, the encyclopedia grew to consist of 32 volumes in total, but later stopped printing physical copies to focus on the online edition in 2012. As of 2025, the current editor-in-chief of the encyclopedia is Jason Tuohey, who was formerly an editor at Yahoo News.",
+        "stage1_score": -0.9867374897003174,
+        "multimodal_score": -4.282778739929199,
+        "is_disambiguation": false,
+        "source_query": "Britannica Volume 149982181 Row"
+      },
+      {
+        "page_id": "9004976",
+        "revision_id": "1340071003",
+        "title": "History of the Encyclop\u00e6dia Britannica",
+        "url": "https://en.wikipedia.org/wiki/History_of_the_Encyclop%C3%A6dia_Britannica",
+        "bm25_score": 21.16259765625,
+        "excerpt": "The Encyclop\u00e6dia Britannica has been published continuously since 1768, appearing in fifteen official editions. Several editions were amended with multi-volume \"supplements\" (3rd, 4th/5th/6th), several consisted of previous editions with added supplements (10th, 12th, 13th), and one represented a drastic re-organization (15th). In recent years, digital versions of the Britannica have been developed, both online and on optical media. Since the early 1930s, the Britannica has developed \"spin-off\" products to leverage its reputation as a reliable reference work and educational tool.\n\nPrint editions were ended in 2012, but the Britannica continues as an online encyclopedia on the internet.\n\nEncyclopedias of various types had been published since antiquity, beginning with the collected works of Aristotle and the Natural History of Pliny the Elder, the latter having 2,493 articles in 37 books. Encyclopedias were published in Europe and China throughout the Middle Ages, such as the Satyricon of Martianus Minneus Felix Capella (early 5th century), the Speculum majus (Great Mirror) of Vincent of Beauvais (1250), and Encyclopedia septem tomis distincta (A Seven-Part Encyclopedia) by Johann H",
+        "stage1_score": -0.9425748586654663,
+        "multimodal_score": -4.330811023712158,
+        "is_disambiguation": false,
+        "source_query": "Britannica Volume 149982181 Row"
+      },
+      {
+        "page_id": "25058539",
+        "revision_id": "1323457767",
+        "title": "Papyrus Larousse Britannica",
+        "url": "https://en.wikipedia.org/wiki/Papyrus_Larousse_Britannica",
+        "bm25_score": 20.57272720336914,
+        "excerpt": "The Papyrus Larousse Britannica (\u03a0\u03ac\u03c0\u03c5\u03c1\u03bf\u03c2 Larousse Britannica) is a Greek language encyclopedia of 61 volumes, based on the French encyclopedia Grand Larousse encyclop\u00e9dique and the English Encyclop\u00e6dia Britannica.",
+        "stage1_score": -0.9643982648849487,
+        "multimodal_score": -5.720357894897461,
+        "is_disambiguation": false,
+        "source_query": "Britannica Volume 149982181 Row"
+      },
+      {
+        "page_id": "25230591",
+        "revision_id": "1334551244",
+        "title": "Biographia Britannica",
+        "url": "https://en.wikipedia.org/wiki/Biographia_Britannica",
+        "bm25_score": 21.381187438964844,
+        "excerpt": "Biographia Britannica was a multi-volume biographical compendium, \"the most ambitious attempt in the latter half of the eighteenth century to document the lives of notable British men and women\". The first edition, edited by William Oldys (1696\u20131761) until his death, appeared in 6 volumes (the sixth in two parts, the second sometimes catalogued as volume 7) between 1747 and 1766. The editor of the two parts of volume 6 (1763 & 1766) is unknown. Five volumes of an incomplete second edition, edited by Andrew Kippis (1725\u20131795) with the assistance of Joseph Towers (1737\u20131799), appeared between 1778 and 1793, and cover names commencing Aa through to Fa; a sixth volume was prepared for publication, and may have been published, but now seems to be lost.\n\nContributors included Thomas Broughton and John Campbell, compiler of Lives of the Admirals (1742).",
+        "stage1_score": -1.0507272481918335,
+        "multimodal_score": null,
+        "is_disambiguation": false,
+        "source_query": "Britannica Volume 149982181 Row"
+      },
+      {
+        "page_id": "1204744",
+        "revision_id": "1350080560",
+        "title": "Encyclop\u00e6dia Britannica, Inc.",
+        "url": "https://en.wikipedia.org/wiki/Encyclop%C3%A6dia_Britannica,_Inc.",
+        "bm25_score": 20.774234771728516,
+        "excerpt": "Encyclop\u00e6dia Britannica, Inc., is the company known for publishing the Encyclop\u00e6dia Britannica, the world's oldest continuously published encyclopaedia. The company also owns the American dictionary publisher Merriam-Webster. Originally founded in Edinburgh, Scotland, and historically British, the company is now based in Chicago, Illinois, United States.\n\nThe company was founded in Edinburgh, Scotland, in the 18th century, during the historical period termed the Scottish Enlightenment. Colin Macfarquhar and Andrew Bell began the first edition in 1768. The pair engaged William Smellie, who compiled most of the articles in the first edition. The second edition was published in 1784. After Macfarquhar's death in 1793, Bell became its sole proprietor and published the third and fourth editions.\n\nArchibald Constable, an Edinburgh publisher, published the fifth and sixth editions. When Constable died in 1827, A & C Black Ltd. bought the copyrights to the encyclopaedia at auction, and they published it for the next 70 years.\n\nBeginning with the ninth edition in 1875, the range of topics were expanded by bringing in contributors from the literary field, social sciences and the scientific c",
+        "stage1_score": -1.213012456893921,
+        "multimodal_score": null,
+        "is_disambiguation": false,
+        "source_query": "Britannica Volume 149982181 Row"
+      },
+      {
+        "page_id": "33773906",
+        "revision_id": "1331089848",
+        "title": "Pax Britannica (disambiguation)",
+        "url": "https://en.wikipedia.org/wiki/Pax_Britannica_(disambiguation)",
+        "bm25_score": 20.357879638671875,
+        "excerpt": "Pax Britannica was a period of relative peace in Europe 1815\u20131914.\n\nPax Britannica may also refer to:\n\nPax Britannica, the title of the middle volume of the Pax Britannica Trilogy by British author Jan Morris\n\nPax Britannica, the title of a 1949 book by the British writer and commentator F. A. Voigt\n\nPax Britannica, a novel in the series by Abaddon Books\n\nPax Britannica, the 1991 album of the London industrial music group Test Dept\n\nPax Britannica, a 1985 board wargame by Greg Costikyan",
+        "stage1_score": -1.2921404838562012,
+        "multimodal_score": null,
+        "is_disambiguation": true,
+        "source_query": "Britannica Volume 149982181 Row"
+      },
+      {
+        "page_id": "9079027",
+        "revision_id": "1303055376",
+        "title": "Dobson's Encyclop\u00e6dia",
+        "url": "https://en.wikipedia.org/wiki/Dobson%27s_Encyclop%C3%A6dia",
+        "bm25_score": 21.089820861816406,
+        "excerpt": " in the newly independent United States of America, published by Thomas Dobson from 1789 to 1798. Encyclop\u00e6dia was the full title of the work, with Dobson's name at the bottom of the title page (see illustration).\n\nThe encyclopedia was a reprint of the contemporary third edition of the Encyclop\u00e6dia Britannica (published 1788\u20131797), although Dobson's Encyclop\u00e6dia was a somewhat longer work in which a few articles were edited for a patriotic American audience. The term Britannica was dropped from the title, the dedication to King George III was replaced with a dedication to the readers, and sundry facts about American history, geography and peoples were added. Reproduction of printed pages was not then possible; the entire work was re-set in type, allowing changes to be made throughout. However, the work is largely a reprint of Britannica. The plates were re-engraved from the originals as accurately as possible, but some were changed. For example, the map of North America used in Britannica' s third edition was the very out-of-date one used in the first and second editions; Dobson's used a larger and much more detailed and updated map, and a slightly improved map of South America.\n\nT",
+        "stage1_score": -1.5661438703536987,
+        "multimodal_score": null,
+        "is_disambiguation": false,
+        "source_query": "Britannica Volume 149982181 Row"
+      },
+      {
+        "page_id": "8164293",
+        "revision_id": "1332938999",
+        "title": "Insecta Britannica Diptera",
+        "url": "https://en.wikipedia.org/wiki/Insecta_Britannica_Diptera",
+        "bm25_score": 21.672515869140625,
+        "excerpt": "Insecta Britannica Diptera is a seminal work of entomology by Francis Walker. The work spans three volumes; a fourth volume was never published. Parts of the work were credited by Walker to Alexander Henry Haliday, including the characters and synoptic tables of the Empididae, Syrphidae, and Dolichopodidae and addenda and corrigenda intended for volume 4.\n\nThe precise dates of early entomological publications are frequently hard to establish.\n\nVolume 1: The preface is dated December 1851.\n\nVolume 2: Putatively dated 1853.\n\nVolume 3: An advertisement bound at the back of the volume is dated 31 March 1856.",
+        "stage1_score": -1.6610229015350342,
+        "multimodal_score": null,
+        "is_disambiguation": false,
+        "source_query": "Britannica Volume 149982181 Row"
+      }
+    ],
+    "article_text_sha256": "a88c8e5ba55a69a2c856854b269462f28ae43b532903d36db33baf393e93818b",
+    "decision_rationale": "Accepted candidate 'Editor-in-chief of the Encyclop\u00e6dia Britannica' with relevance score -4.2828 >= threshold -4.5."
+  },
+  "comparison": {
+    "entry_id": "entry-britannica-volume-149982181-row-270-270",
+    "britannica_title": "HYDROSTATICS (Plate CCXXXIX)",
+    "source_pages": [
+      "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:270"
+    ],
+    "britannica_sha256": "61dee220c636eabe1bdcd7d63389f9be88272c51014f1afead4173dbb3f245f8",
+    "britannica_raw_chars": 993,
+    "britannica_tokens": 96,
+    "britannica_unique_tokens": 61,
+    "wikipedia_page_id": "78413092",
+    "wikipedia_revision_id": "1351079103",
+    "wikipedia_title": "Editor-in-chief of the Encyclop\u00e6dia Britannica",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Editor-in-chief_of_the_Encyclop%C3%A6dia_Britannica",
+    "wikipedia_text_sha256": "a88c8e5ba55a69a2c856854b269462f28ae43b532903d36db33baf393e93818b",
+    "wikipedia_raw_chars": 922,
+    "wikipedia_tokens": 76,
+    "wikipedia_unique_tokens": 47,
+    "length_ratio": 0.928,
+    "text_changes": [],
+    "metrics": {
+      "jaccard_raw": 0.0,
+      "jaccard_normalized": 0.0,
+      "cosine_tfidf": 0.0,
+      "cosine_embedding": 0.0592,
+      "distinctive_britannica": [
+        "fig",
+        "fluid",
+        "pressure",
+        "gravity",
+        "specific",
+        "hydrostatic",
+        "plate",
+        "copperplate",
+        "level",
+        "engraving",
+        "vessels",
+        "apparatus",
+        "hydrostatics",
+        "communicating",
+        "shape"
+      ],
+      "distinctive_wikipedia": [
+        "encyclopedia",
+        "editor-in-chief",
+        "since",
+        "published",
+        "current",
+        "encyclop",
+        "britannica",
+        "physical",
+        "reference",
+        "smellie",
+        "editor",
+        "general",
+        "dia",
+        "jason",
+        "william"
+      ],
+      "shared_terms": []
+    },
+    "aligned_chunks": [
+      {
+        "britannica_chunk_index": 0,
+        "wikipedia_chunk_index": 0,
+        "similarity": 0.054,
+        "britannica_excerpt": "HYDROSTATICS. Plate CCXXXIX.\n\n[HISTORICAL COPPERPLATE ENGRAVING: HYDROSTATICS (Plate CCXXXIX)]\n\nCategory: Physics and Fluid Mechanics\n\nVisual Description: Detailed 18th-century copperplate engraving illustrating principles of hydrostatics a",
+        "wikipedia_excerpt": "The editor-in-chief of the Encyclop\u00e6dia Britannica serves as the editorial leader of the Encyclop\u00e6dia Britannica, a general reference encyclopedia published since 1768. Since 2012, the encyclopedia is published exclusively on the internet, "
+      },
+      {
+        "britannica_chunk_index": 1,
+        "wikipedia_chunk_index": 0,
+        "similarity": 0.0272,
+        "britannica_excerpt": "* Fig. 4: Water-wheel turbine mechanism and hydrostatic head pressure reservoir\n\nRelated Scientific Subjects: Hydrostatics, Fluid statics, Hydrostatic paradox, Communicating vessels, Specific gravity, Archimedes' principle",
+        "wikipedia_excerpt": "The editor-in-chief of the Encyclop\u00e6dia Britannica serves as the editorial leader of the Encyclop\u00e6dia Britannica, a general reference encyclopedia published since 1768. Since 2012, the encyclopedia is published exclusively on the internet, "
+      }
+    ],
+    "topic_id": 5,
+    "topic_terms": [
+      "rays",
+      "water",
+      "fig"
+    ],
+    "claims": [
+      {
+        "claim_text": "The Britannica entry \"HYDROSTATICS (Plate CCXXXIX)\" uses 96 content tokens while the Wikipedia article \"Editor-in-chief of the Encyclop\u00e6dia Britannica\" uses 76; their normalized vocabularies share a Jaccard overlap of 0.0 (raw 0.0) and a TF-IDF cosine similarity of 0.0.",
+        "claim_type": "factual",
+        "label": "[factual]",
+        "britannica_pages": [
+          "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:270"
+        ],
+        "britannica_quote": "HYDROSTATICS. Plate CCXXXIX.\n\n[HISTORICAL COPPERPLATE ENGRAVING: HYDROSTATICS (Plate CCXXXIX)]\nCategory: Physics and Fluid Mechanics\nVisual Description: Detailed 18th-century copperplate engraving illustrating principles of hydrostatics and",
+        "wikipedia_page_id": "78413092",
+        "wikipedia_revision_id": "1351079103",
+        "wikipedia_quote": "The editor-in-chief of the Encyclop\u00e6dia Britannica serves as the editorial leader of the Encyclop\u00e6dia Britannica, a general reference encyclopedia published since 1768. Since 2012, the encyclopedia is published exclusively on the internet, "
+      },
+      {
+        "claim_text": "Britannica's most distinctive term is \"fig\"; Wikipedia's is \"encyclopedia\", showing the era-specific vocabulary of each source.",
+        "claim_type": "factual",
+        "label": "[factual]",
+        "britannica_pages": [
+          "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:270"
+        ],
+        "britannica_quote": "Identified Engraved Figures:",
+        "wikipedia_page_id": "78413092",
+        "wikipedia_revision_id": "1351079103",
+        "wikipedia_quote": "The editor-in-chief of the Encyclop\u00e6dia Britannica serves as the editorial leader of the Encyclop\u00e6dia Britannica, a general reference encyclopedia published since 1768."
+      }
+    ]
+  },
+  "exclusion": null,
+  "wikipedia": {
+    "available": true,
+    "text": "The editor-in-chief of the Encyclop\u00e6dia Britannica serves as the editorial leader of the Encyclop\u00e6dia Britannica, a general reference encyclopedia published since 1768. Since 2012, the encyclopedia is published exclusively on the internet, following 244 years of physical editions. The first editor-in-chief of the Britannica was Scotsman William Smellie, and the current holder of the office is Jason Tuohey.\n\nThe Encyclop\u00e6dia Britannica is an English-language general reference encyclopedia, published since 1768. The Britannica was first published in Edinburgh, Scotland, in three volumes, with printer William Smellie serving as its principal editor. By 1988, the encyclopedia grew to consist of 32 volumes in total, but later stopped printing physical copies to focus on the online edition in 2012. As of 2025, the current editor-in-chief of the encyclopedia is Jason Tuohey, who was formerly an editor at Yahoo News.",
+    "title": "Editor-in-chief of the Encyclop\u00e6dia Britannica",
+    "url": "https://en.wikipedia.org/wiki/Editor-in-chief_of_the_Encyclop%C3%A6dia_Britannica",
+    "page_id": "78413092",
+    "revision_id": "1351079103",
+    "text_sha256": "a88c8e5ba55a69a2c856854b269462f28ae43b532903d36db33baf393e93818b",
+    "truncated": false
+  },
+  "scans": [
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:270",
+      "filename": "page-0270-6831cc1f149b.jpg",
+      "image_sha256": "6831cc1f149b50ecdf07b3af7ab3e4ef10572a486faafa06481061973c4100f8",
+      "row_index": 270,
+      "path": "scans/page-0270-6831cc1f149b.jpg"
+    }
+  ],
+  "documents": {
+    "tex": "latex/entry-britannica-volume-149982181-row-270-270.tex",
+    "pdf": "latex/entry-britannica-volume-149982181-row-270-270.pdf"
+  }
+}

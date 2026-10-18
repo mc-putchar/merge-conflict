@@ -1,0 +1,44 @@
+{
+  "entry": {
+    "entry_id": "entry-silicernium-2001",
+    "title": "SILICERNIUM",
+    "text": "SILICERNIUM, among the Romanus was a fault of a private nature, provided for the Great line time after the funeral. It confited of beans, lettues, bread, eggs, &co. Their eyes laid upon the tomb, and they possibly believed that the died would come out of the repair. What was left was generally burnt on the floor. The word _Alternate_ as derived from _Place and_ crear, i. e. of figure upon a fleece . Eating what had thus been provided for the dead, was effecemed amark of the small minerible powder. A similar entertainment was made by the Greek sit in the tender of the seaside; but it was ufalal among them to treat the globils with the fragments from the feat of the living. See FUNFAL AND INTERLE.",
+    "normalized_text": "SILICERNIUM, among the Romanus was a fault of a private nature, provided for the Great line time after the funeral. It confited of beans, lettues, bread, eggs, &co. Their eyes laid upon the tomb, and they possibly believed that the died would come out of the repair. What was left was generally burnt on the floor. The word _Alternate_ as derived from _Place and_ crear, i. e. of figure upon a fleece . Eating what had thus been provided for the dead, was effecemed amark of the small minerible powder. A similar entertainment was made by the Greek sit in the tender of the seaside; but it was ufalal among them to treat the globils with the fragments from the feat of the living. See FUNFAL AND INTERLE.",
+    "source_pages": [
+      "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2001"
+    ],
+    "source_row_indices": [
+      2001
+    ],
+    "volume_id": "192200899",
+    "is_continuation": false,
+    "block_count": 1,
+    "character_count": 704,
+    "validity_score": 0.5537,
+    "metadata": {
+      "page_number": null,
+      "running_title": "S I L [ 355 ]",
+      "headword": "SILICERNIUM",
+      "text_changes_count": 0
+    }
+  },
+  "match": null,
+  "comparison": null,
+  "exclusion": null,
+  "wikipedia": {
+    "available": false
+  },
+  "scans": [
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2001",
+      "filename": "page-2001-93040a5ab362.jpg",
+      "image_sha256": "93040a5ab3625efc0259c9878caea3e2285bc73aae0c1fda452f9f5198dedd67",
+      "row_index": 2001,
+      "path": "scans/page-2001-93040a5ab362.jpg"
+    }
+  ],
+  "documents": {
+    "tex": "latex/entry-silicernium-2001.tex",
+    "pdf": "latex/entry-silicernium-2001.pdf"
+  }
+}

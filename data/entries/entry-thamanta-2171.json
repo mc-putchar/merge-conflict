@@ -1,0 +1,51 @@
+{
+  "entry": {
+    "entry_id": "entry-thamanta-2171",
+    "title": "THAMANTA",
+    "text": "THAMANTA, STORKS, a genus of the di-nynia order, belonging to the pantandria claf of plants. Of this genus Limone enumerated nine species; but none of them most particular notice except there-teals, otherwise called _dance creticus_. This is an unbeliferous plant growing wild in the Levant and the warranza part of Europe. The leaves are irger-larly dipoled, and formed like thole of fence]. The flower-flake ribs about two feet high, finding out many branches, terminated at the top by compound number, compelled of new zo small ones. There have white flowers with the petals, which are focected by sibling, hairy, channelled fruit, divided into two parts, containing one shloog hairy feed. The feeds have a warm biting tails, with an agreeable aromatic fmell. They are kept in the shape as a medium, are corn-native, and laid to be diverted, but are little tied in practice. The plant may be propagated from feeds, which should be flown on an open bed of light dry ground, the following autumn the plants should be taken up, and planted at about a foot dilness in a bed of light sandy earth, where the roots will continue fo-veral years.",
+    "normalized_text": "THAMANTA, STORKS, a genus of the di-nynia order, belonging to the pantandria claf of plants. Of this genus Limone enumerated nine species; but none of them most particular notice except there-teals, otherwise called _dance creticus_. This is an unbeliferous plant growing wild in the Levant and the warranza part of Europe. The leaves are irger-larly dipoled, and formed like thole of fence]. The flower-flake ribs about two feet high, finding out many branches, terminated at the top by compound number, compelled of new zo small ones. There have white flowers with the petals, which are focected by sibling, hairy, channelled fruit, divided into two parts, containing one shloog hairy feed. The feeds have a warm biting tails, with an agreeable aromatic fmell. They are kept in the shape as a medium, are corn-native, and laid to be diverted, but are little tied in practice. The plant may be propagated from feeds, which should be flown on an open bed of light dry ground, the following autumn the plants should be taken up, and planted at about a foot dilness in a bed of light sandy earth, where the roots will continue so-veral years.",
+    "source_pages": [
+      "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2171"
+    ],
+    "source_row_indices": [
+      2171
+    ],
+    "volume_id": "144850373",
+    "is_continuation": false,
+    "block_count": 1,
+    "character_count": 1140,
+    "validity_score": 0.4897,
+    "metadata": {
+      "page_number": null,
+      "running_title": "A S T [ 852] A S T",
+      "headword": "THAMANTA",
+      "text_changes_count": 1,
+      "text_changes_sample": [
+        {
+          "rule": "ocr_f_s_confusion",
+          "original": "fo",
+          "replacement": "so"
+        }
+      ]
+    }
+  },
+  "match": null,
+  "comparison": null,
+  "exclusion": null,
+  "wikipedia": {
+    "available": false
+  },
+  "scans": [
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2171",
+      "filename": "page-2171-f8869fa95f19.jpg",
+      "image_sha256": "f8869fa95f190d0e556bf8d2397c0c36da436ea1b23405995f0aac0f398f26d5",
+      "row_index": 2171,
+      "path": "scans/page-2171-f8869fa95f19.jpg"
+    }
+  ],
+  "documents": {
+    "tex": "latex/entry-thamanta-2171.tex",
+    "pdf": "latex/entry-thamanta-2171.pdf"
+  }
+}

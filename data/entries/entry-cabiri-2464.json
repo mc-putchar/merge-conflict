@@ -1,0 +1,44 @@
+{
+  "entry": {
+    "entry_id": "entry-cabiri-2464",
+    "title": "CABIRI",
+    "text": "CABIRI, a term in the biology of the ancient Pagars, figuring great and powerful gods, being a name given to the gods of Samotbracia. They were allo worthipped in other parts of Greece, as Lemos and Thehees, where the cabinets were celebrated in honour of them; the fests go are laid to be, in number, four, viz. Axieros, Axiocerla, Axiocerfius, and Calinila.",
+    "normalized_text": "CABIRI, a term in the biology of the ancient Pagars, figuring great and powerful gods, being a name given to the gods of Samotbracia. They were allo worthipped in other parts of Greece, as Lemos and Thehees, where the cabinets were celebrated in honour of them; the fests go are laid to be, in number, four, viz. Axieros, Axiocerla, Axiocerfius, and Calinila.",
+    "source_pages": [
+      "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2464"
+    ],
+    "source_row_indices": [
+      2464
+    ],
+    "volume_id": "144133902",
+    "is_continuation": false,
+    "block_count": 1,
+    "character_count": 359,
+    "validity_score": 0.55,
+    "metadata": {
+      "page_number": null,
+      "running_title": "",
+      "headword": "CABIRI",
+      "text_changes_count": 0
+    }
+  },
+  "match": null,
+  "comparison": null,
+  "exclusion": null,
+  "wikipedia": {
+    "available": false
+  },
+  "scans": [
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2464",
+      "filename": "page-2464-24f450326eee.jpg",
+      "image_sha256": "24f450326eee13b008306d2b355bd49b295db96603186268db20b85552cf958e",
+      "row_index": 2464,
+      "path": "scans/page-2464-24f450326eee.jpg"
+    }
+  ],
+  "documents": {
+    "tex": "latex/entry-cabiri-2464.tex",
+    "pdf": "latex/entry-cabiri-2464.pdf"
+  }
+}

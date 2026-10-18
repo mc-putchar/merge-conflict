@@ -1,0 +1,1 @@
+import{F as e,H as t,I as n,L as r,M as i,U as a,_ as o,x as s,y as c}from"../chunks/BrHYahl-.js";import{t as l}from"../chunks/DsPa7If2.js";var u=s(`<h1> </h1> <p> </p>`,1);function d(s,d){a(d,!0);var f=u(),p=e(f),m=n(p,!0),h=r(p,2),g=n(h,!0);i(()=>{o(m,l.status),o(g,l.error?.message)}),c(s,f),t()}export{d as component};

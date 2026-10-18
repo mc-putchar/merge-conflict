@@ -1,0 +1,44 @@
+{
+  "entry": {
+    "entry_id": "entry-ate-2171",
+    "title": "ATE",
+    "text": "ATE, the goddels of mithief; in the Pagan tho-ology. She was daughter of Jupiter, and caft down from heaven at the birth of Hercules. For Juno ha-ving decided Jupiter, in scaling Enulflets to be born before Hercules, Jupiter expelled his retirement on Ates, as the author of that miichief; and threw her headlong from heaven to earth, featuring the floodal never return children again (Honeri L six. 125.) The name of the goddels comes from stars, men, to _hart_. Her being the daughter of Jupiter means, according to mythologiils, has no evil happens to us but by the permitief providence, and her healthment to earth denotes the terrible effects of divine jul-tice among men.",
+    "normalized_text": "ATE, the goddels of mithief; in the Pagan tho-ology. She was daughter of Jupiter, and caft down from heaven at the birth of Hercules. For Juno ha-ving decided Jupiter, in scaling Enulflets to be born before Hercules, Jupiter expelled his retirement on Ates, as the author of that miichief; and threw her headlong from heaven to earth, featuring the floodal never return children again (Honeri L six. 125.) The name of the goddels comes from stars, men, to _hart_. Her being the daughter of Jupiter means, according to mythologiils, has no evil happens to us but by the permitief providence, and her healthment to earth denotes the terrible effects of divine jul-tice among men.",
+    "source_pages": [
+      "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2171"
+    ],
+    "source_row_indices": [
+      2171
+    ],
+    "volume_id": "144850373",
+    "is_continuation": false,
+    "block_count": 1,
+    "character_count": 677,
+    "validity_score": 0.4522,
+    "metadata": {
+      "page_number": null,
+      "running_title": "A S T [ 852] A S T",
+      "headword": "ATE",
+      "text_changes_count": 0
+    }
+  },
+  "match": null,
+  "comparison": null,
+  "exclusion": null,
+  "wikipedia": {
+    "available": false
+  },
+  "scans": [
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2171",
+      "filename": "page-2171-f8869fa95f19.jpg",
+      "image_sha256": "f8869fa95f190d0e556bf8d2397c0c36da436ea1b23405995f0aac0f398f26d5",
+      "row_index": 2171,
+      "path": "scans/page-2171-f8869fa95f19.jpg"
+    }
+  ],
+  "documents": {
+    "tex": "latex/entry-ate-2171.tex",
+    "pdf": "latex/entry-ate-2171.pdf"
+  }
+}

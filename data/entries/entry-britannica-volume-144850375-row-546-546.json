@@ -1,0 +1,410 @@
+{
+  "entry": {
+    "entry_id": "entry-britannica-volume-144850375-row-546-546",
+    "title": "Britannica Volume 144850375 Row 546",
+    "text": "This means that the number of users are available to the same as they do not have a few times. The number of users can be used in the case where the number of users are able to use the number of users. However, the number of users are also used to generate the number of users and the number of users are able to use the number of users. For example, the number of users are used to compute the number of users and the number of users are able to use the number of users. As mentioned, the number of users are used to compute the number of users and the number of users are able to use the number of users. In addition, the number of users are used to compute the number of users and the number of users are able to use the number of users.",
+    "normalized_text": "This means that the number of users are available to the same as they do not have a few times. The number of users can be used in the case where the number of users are able to use the number of users. However, the number of users are also used to generate the number of users and the number of users are able to use the number of users. For example, the number of users are used to compute the number of users and the number of users are able to use the number of users. As mentioned, the number of users are used to compute the number of users and the number of users are able to use the number of users. In addition, the number of users are used to compute the number of users and the number of users are able to use the number of users.",
+    "source_pages": [
+      "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:546"
+    ],
+    "source_row_indices": [
+      546
+    ],
+    "volume_id": "144850375",
+    "is_continuation": false,
+    "block_count": 1,
+    "character_count": 740,
+    "validity_score": 0.7133,
+    "metadata": {
+      "page_number": null,
+      "running_title": "",
+      "text_changes_count": 0
+    }
+  },
+  "match": {
+    "entry_id": "entry-britannica-volume-144850375-row-546-546",
+    "britannica_title": "Britannica Volume 144850375 Row 546",
+    "source_pages": [
+      "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:546"
+    ],
+    "matched": true,
+    "status": "accepted",
+    "selected_candidate": {
+      "page_id": "612",
+      "revision_id": "1346126933",
+      "title": "Arithmetic mean",
+      "url": "https://en.wikipedia.org/wiki/Arithmetic_mean",
+      "bm25_score": 9.381651878356934,
+      "excerpt": "In mathematics and statistics, the arithmetic mean (/ \u02cc \u00e6 r \u026a \u03b8 \u02c8 m \u025b t \u026a k / arr-ith- MET -ik), arithmetic average, or just the mean or average is the sum of a collection of numbers divided by the count of numbers in the collection. The collection is often a set of results from an experiment, an observational study, or a survey. The term \"arithmetic mean\" is preferred in some contexts in mathematics and statistics because it helps to distinguish it from other types of means, such as geometric and harmonic.\n\nArithmetic means are also frequently used in economics, anthropology, history, and almost every other academic field to some extent. For example, per capita income is the arithmetic average of the income of a nation 's population.\n\nWhile the arithmetic mean is often used to report central tendencies, it is not a robust statistic: it is greatly influenced by outliers (values much larger or smaller than most others). For skewed distributions, such as the distribution of income for which a few people's incomes are substantially higher than most people's, the arithmetic mean may not coincide with one's notion of \"middle\". In that case, robust statistics, such as the median, may pro",
+      "stage1_score": -6.239256381988525,
+      "multimodal_score": -2.752826452255249,
+      "is_disambiguation": false,
+      "source_query": "This means that number"
+    },
+    "all_candidates": [
+      {
+        "page_id": "612",
+        "revision_id": "1346126933",
+        "title": "Arithmetic mean",
+        "url": "https://en.wikipedia.org/wiki/Arithmetic_mean",
+        "bm25_score": 9.381651878356934,
+        "excerpt": "In mathematics and statistics, the arithmetic mean (/ \u02cc \u00e6 r \u026a \u03b8 \u02c8 m \u025b t \u026a k / arr-ith- MET -ik), arithmetic average, or just the mean or average is the sum of a collection of numbers divided by the count of numbers in the collection. The collection is often a set of results from an experiment, an observational study, or a survey. The term \"arithmetic mean\" is preferred in some contexts in mathematics and statistics because it helps to distinguish it from other types of means, such as geometric and harmonic.\n\nArithmetic means are also frequently used in economics, anthropology, history, and almost every other academic field to some extent. For example, per capita income is the arithmetic average of the income of a nation 's population.\n\nWhile the arithmetic mean is often used to report central tendencies, it is not a robust statistic: it is greatly influenced by outliers (values much larger or smaller than most others). For skewed distributions, such as the distribution of income for which a few people's incomes are substantially higher than most people's, the arithmetic mean may not coincide with one's notion of \"middle\". In that case, robust statistics, such as the median, may pro",
+        "stage1_score": -6.239256381988525,
+        "multimodal_score": -2.752826452255249,
+        "is_disambiguation": false,
+        "source_query": "This means that number"
+      },
+      {
+        "page_id": "1204744",
+        "revision_id": "1350080560",
+        "title": "Encyclop\u00e6dia Britannica, Inc.",
+        "url": "https://en.wikipedia.org/wiki/Encyclop%C3%A6dia_Britannica,_Inc.",
+        "bm25_score": 20.774234771728516,
+        "excerpt": "Encyclop\u00e6dia Britannica, Inc., is the company known for publishing the Encyclop\u00e6dia Britannica, the world's oldest continuously published encyclopaedia. The company also owns the American dictionary publisher Merriam-Webster. Originally founded in Edinburgh, Scotland, and historically British, the company is now based in Chicago, Illinois, United States.\n\nThe company was founded in Edinburgh, Scotland, in the 18th century, during the historical period termed the Scottish Enlightenment. Colin Macfarquhar and Andrew Bell began the first edition in 1768. The pair engaged William Smellie, who compiled most of the articles in the first edition. The second edition was published in 1784. After Macfarquhar's death in 1793, Bell became its sole proprietor and published the third and fourth editions.\n\nArchibald Constable, an Edinburgh publisher, published the fifth and sixth editions. When Constable died in 1827, A & C Black Ltd. bought the copyrights to the encyclopaedia at auction, and they published it for the next 70 years.\n\nBeginning with the ninth edition in 1875, the range of topics were expanded by bringing in contributors from the literary field, social sciences and the scientific c",
+        "stage1_score": -6.267359733581543,
+        "multimodal_score": -3.5689845085144043,
+        "is_disambiguation": false,
+        "source_query": "Britannica Volume 144850375 Row"
+      },
+      {
+        "page_id": "8164293",
+        "revision_id": "1332938999",
+        "title": "Insecta Britannica Diptera",
+        "url": "https://en.wikipedia.org/wiki/Insecta_Britannica_Diptera",
+        "bm25_score": 21.672515869140625,
+        "excerpt": "Insecta Britannica Diptera is a seminal work of entomology by Francis Walker. The work spans three volumes; a fourth volume was never published. Parts of the work were credited by Walker to Alexander Henry Haliday, including the characters and synoptic tables of the Empididae, Syrphidae, and Dolichopodidae and addenda and corrigenda intended for volume 4.\n\nThe precise dates of early entomological publications are frequently hard to establish.\n\nVolume 1: The preface is dated December 1851.\n\nVolume 2: Putatively dated 1853.\n\nVolume 3: An advertisement bound at the back of the volume is dated 31 March 1856.",
+        "stage1_score": -6.26027774810791,
+        "multimodal_score": -4.887558937072754,
+        "is_disambiguation": false,
+        "source_query": "Britannica Volume 144850375 Row"
+      },
+      {
+        "page_id": "25230591",
+        "revision_id": "1334551244",
+        "title": "Biographia Britannica",
+        "url": "https://en.wikipedia.org/wiki/Biographia_Britannica",
+        "bm25_score": 21.381187438964844,
+        "excerpt": "Biographia Britannica was a multi-volume biographical compendium, \"the most ambitious attempt in the latter half of the eighteenth century to document the lives of notable British men and women\". The first edition, edited by William Oldys (1696\u20131761) until his death, appeared in 6 volumes (the sixth in two parts, the second sometimes catalogued as volume 7) between 1747 and 1766. The editor of the two parts of volume 6 (1763 & 1766) is unknown. Five volumes of an incomplete second edition, edited by Andrew Kippis (1725\u20131795) with the assistance of Joseph Towers (1737\u20131799), appeared between 1778 and 1793, and cover names commencing Aa through to Fa; a sixth volume was prepared for publication, and may have been published, but now seems to be lost.\n\nContributors included Thomas Broughton and John Campbell, compiler of Lives of the Admirals (1742).",
+        "stage1_score": -6.3105902671813965,
+        "multimodal_score": null,
+        "is_disambiguation": false,
+        "source_query": "Britannica Volume 144850375 Row"
+      },
+      {
+        "page_id": "25058539",
+        "revision_id": "1323457767",
+        "title": "Papyrus Larousse Britannica",
+        "url": "https://en.wikipedia.org/wiki/Papyrus_Larousse_Britannica",
+        "bm25_score": 20.57272720336914,
+        "excerpt": "The Papyrus Larousse Britannica (\u03a0\u03ac\u03c0\u03c5\u03c1\u03bf\u03c2 Larousse Britannica) is a Greek language encyclopedia of 61 volumes, based on the French encyclopedia Grand Larousse encyclop\u00e9dique and the English Encyclop\u00e6dia Britannica.",
+        "stage1_score": -6.388762474060059,
+        "multimodal_score": null,
+        "is_disambiguation": false,
+        "source_query": "Britannica Volume 144850375 Row"
+      },
+      {
+        "page_id": "9004976",
+        "revision_id": "1340071003",
+        "title": "History of the Encyclop\u00e6dia Britannica",
+        "url": "https://en.wikipedia.org/wiki/History_of_the_Encyclop%C3%A6dia_Britannica",
+        "bm25_score": 21.16259765625,
+        "excerpt": "The Encyclop\u00e6dia Britannica has been published continuously since 1768, appearing in fifteen official editions. Several editions were amended with multi-volume \"supplements\" (3rd, 4th/5th/6th), several consisted of previous editions with added supplements (10th, 12th, 13th), and one represented a drastic re-organization (15th). In recent years, digital versions of the Britannica have been developed, both online and on optical media. Since the early 1930s, the Britannica has developed \"spin-off\" products to leverage its reputation as a reliable reference work and educational tool.\n\nPrint editions were ended in 2012, but the Britannica continues as an online encyclopedia on the internet.\n\nEncyclopedias of various types had been published since antiquity, beginning with the collected works of Aristotle and the Natural History of Pliny the Elder, the latter having 2,493 articles in 37 books. Encyclopedias were published in Europe and China throughout the Middle Ages, such as the Satyricon of Martianus Minneus Felix Capella (early 5th century), the Speculum majus (Great Mirror) of Vincent of Beauvais (1250), and Encyclopedia septem tomis distincta (A Seven-Part Encyclopedia) by Johann H",
+        "stage1_score": -6.395745754241943,
+        "multimodal_score": null,
+        "is_disambiguation": false,
+        "source_query": "Britannica Volume 144850375 Row"
+      },
+      {
+        "page_id": "78413092",
+        "revision_id": "1351079103",
+        "title": "Editor-in-chief of the Encyclop\u00e6dia Britannica",
+        "url": "https://en.wikipedia.org/wiki/Editor-in-chief_of_the_Encyclop%C3%A6dia_Britannica",
+        "bm25_score": 20.85797882080078,
+        "excerpt": "The editor-in-chief of the Encyclop\u00e6dia Britannica serves as the editorial leader of the Encyclop\u00e6dia Britannica, a general reference encyclopedia published since 1768. Since 2012, the encyclopedia is published exclusively on the internet, following 244 years of physical editions. The first editor-in-chief of the Britannica was Scotsman William Smellie, and the current holder of the office is Jason Tuohey.\n\nThe Encyclop\u00e6dia Britannica is an English-language general reference encyclopedia, published since 1768. The Britannica was first published in Edinburgh, Scotland, in three volumes, with printer William Smellie serving as its principal editor. By 1988, the encyclopedia grew to consist of 32 volumes in total, but later stopped printing physical copies to focus on the online edition in 2012. As of 2025, the current editor-in-chief of the encyclopedia is Jason Tuohey, who was formerly an editor at Yahoo News.",
+        "stage1_score": -6.400746822357178,
+        "multimodal_score": null,
+        "is_disambiguation": false,
+        "source_query": "Britannica Volume 144850375 Row"
+      },
+      {
+        "page_id": "33773906",
+        "revision_id": "1331089848",
+        "title": "Pax Britannica (disambiguation)",
+        "url": "https://en.wikipedia.org/wiki/Pax_Britannica_(disambiguation)",
+        "bm25_score": 20.357879638671875,
+        "excerpt": "Pax Britannica was a period of relative peace in Europe 1815\u20131914.\n\nPax Britannica may also refer to:\n\nPax Britannica, the title of the middle volume of the Pax Britannica Trilogy by British author Jan Morris\n\nPax Britannica, the title of a 1949 book by the British writer and commentator F. A. Voigt\n\nPax Britannica, a novel in the series by Abaddon Books\n\nPax Britannica, the 1991 album of the London industrial music group Test Dept\n\nPax Britannica, a 1985 board wargame by Greg Costikyan",
+        "stage1_score": -6.428864479064941,
+        "multimodal_score": null,
+        "is_disambiguation": true,
+        "source_query": "Britannica Volume 144850375 Row"
+      },
+      {
+        "page_id": "19192",
+        "revision_id": "1353050073",
+        "title": "Mean",
+        "url": "https://en.wikipedia.org/wiki/Mean",
+        "bm25_score": 9.238054275512695,
+        "excerpt": "A mean is a quantity representing the \"center\" of a collection of numbers and is intermediate to the extreme values of the set of numbers. There are several kinds of means (or \"measures of central tendency \") in mathematics, especially in statistics. Each attempts to summarize or typify a given group of data, illustrating the magnitude and sign of the data set. Which of these measures is most illuminating depends on what is being measured, and on context and purpose.\n\nThe arithmetic mean, also known as \"arithmetic average\", is the sum of the values divided by the number of values. The arithmetic mean of a set of numbers x, x,..., x is typically denoted using an overhead bar, x \u00af {\\displaystyle {\\bar {x}}}. If the numbers are from observing a sample of a larger group, the arithmetic mean is termed the sample mean (x \u00af {\\displaystyle {\\bar {x}}}) to distinguish it from the group mean (or expected value) of the underlying distribution, denoted \u03bc {\\displaystyle \\mu } or \u03bc x {\\displaystyle \\mu _{x}}.\n\nOutside probability and statistics, a wide range of other notions of mean are often used in geometry and mathematical analysis; examples are given below.\n\nIn mathematics, the three classic",
+        "stage1_score": -6.574721336364746,
+        "multimodal_score": null,
+        "is_disambiguation": false,
+        "source_query": "This means that number"
+      },
+      {
+        "page_id": "75217983",
+        "revision_id": "1351990261",
+        "title": "299 (number)",
+        "url": "https://en.wikipedia.org/wiki/299_(number)",
+        "bm25_score": 9.273375511169434,
+        "excerpt": "299 is the natural number following 298 and preceding 300.\n\n299 is an odd composite number with two prime factors.\n\n299 is a highly cototient number, meaning that it has more values for x \u2212 \u03d5 (x) {\\displaystyle x-\\phi (x)} equal to that number than any before it.\n\n299 is a self number, meaning that it has 298 integer partitions.\n\n299 is the twelfth cake number, the maximum number of pieces to get from 12 slices of a cake.\n\n299 is a brilliant number meaning that it is the product of 2 primes with both having the same number of digits.",
+        "stage1_score": -6.7131805419921875,
+        "multimodal_score": null,
+        "is_disambiguation": false,
+        "source_query": "This means that number"
+      },
+      {
+        "page_id": "75219053",
+        "revision_id": "1256864081",
+        "title": "302 (number)",
+        "url": "https://en.wikipedia.org/wiki/302_(number)",
+        "bm25_score": 9.287123680114746,
+        "excerpt": "302 is the natural number following 301 and preceding 303.\n\n302 is an even composite number with two prime factors.\n\n302 is the number of prime partitions of 40 meaning that there are 302 ways to separate 40 into the sum of prime parts.\n\n302 is a happy number meaning that repeatedly taking the sum of the squares of the digits of the number will eventually result in 1.\n\n302 is a nontotient number meaning that it is an even number where phi(x)=302 has no answers.",
+        "stage1_score": -6.752980709075928,
+        "multimodal_score": null,
+        "is_disambiguation": false,
+        "source_query": "This means that number"
+      },
+      {
+        "page_id": "9079027",
+        "revision_id": "1303055376",
+        "title": "Dobson's Encyclop\u00e6dia",
+        "url": "https://en.wikipedia.org/wiki/Dobson%27s_Encyclop%C3%A6dia",
+        "bm25_score": 21.089820861816406,
+        "excerpt": " in the newly independent United States of America, published by Thomas Dobson from 1789 to 1798. Encyclop\u00e6dia was the full title of the work, with Dobson's name at the bottom of the title page (see illustration).\n\nThe encyclopedia was a reprint of the contemporary third edition of the Encyclop\u00e6dia Britannica (published 1788\u20131797), although Dobson's Encyclop\u00e6dia was a somewhat longer work in which a few articles were edited for a patriotic American audience. The term Britannica was dropped from the title, the dedication to King George III was replaced with a dedication to the readers, and sundry facts about American history, geography and peoples were added. Reproduction of printed pages was not then possible; the entire work was re-set in type, allowing changes to be made throughout. However, the work is largely a reprint of Britannica. The plates were re-engraved from the originals as accurately as possible, but some were changed. For example, the map of North America used in Britannica' s third edition was the very out-of-date one used in the first and second editions; Dobson's used a larger and much more detailed and updated map, and a slightly improved map of South America.\n\nT",
+        "stage1_score": -6.837390422821045,
+        "multimodal_score": null,
+        "is_disambiguation": false,
+        "source_query": "Britannica Volume 144850375 Row"
+      },
+      {
+        "page_id": "75045458",
+        "revision_id": "1292385929",
+        "title": "285 (number)",
+        "url": "https://en.wikipedia.org/wiki/285_(number)",
+        "bm25_score": 9.349945068359375,
+        "excerpt": "285 is the natural number following 284 and preceding 286.\n\n285 is an odd composite number.\n\n285 is the 9th square pyramidal number. That means it is the sum of a number of consecutive perfect squares starting with 1. For 285, it is the sum of all of the single digits' perfect squares.\n\n285 is the number of variations possible with a binary rooted tree with 13 points. A binary rooted tree means that it always begins with 1 point that is rooted. From there, each point can branch in up to two directions.\n\n285 is a sphenic number which means that it has three distinct prime factors.\n\n285 is a Harshad number. That means that it is divisible by the sum of its digits. 285 is divisible by 15.\n\n285 is a repdigit number in base 7. In base 7, 285 is 555.\n\n285 is a very symmetric number. If flipped horizontally, these numbers are symmetrical.",
+        "stage1_score": -6.851292610168457,
+        "multimodal_score": null,
+        "is_disambiguation": false,
+        "source_query": "This means that number"
+      },
+      {
+        "page_id": "8132847",
+        "revision_id": "1341714201",
+        "title": "Grand mean",
+        "url": "https://en.wikipedia.org/wiki/Grand_mean",
+        "bm25_score": 9.418238639831543,
+        "excerpt": "The grand mean or pooled mean is the average of the means of several subsamples, as long as the subsamples have the same number of data points. For example, consider several lots, each containing several items. The items from each lot are sampled for a measure of some variable and the means of the measurements from each lot are computed. The mean of the measures from each lot constitutes the subsample mean. The mean of these subsample means is then the grand mean.\n\nIn the general case where each subsample has a different number of data points, the grand mean can be calculated as follows:\n\nSuppose there are three groups of numbers: group A has 2, 3, 7; group B has 6, 7, 12, 4; group C has 1, 3.\n\nThe grand mean of all numbers = (2+3+7+6+7+12+4+1+3)/9 = 5.\n\nIn the special case where all subsamples have the same number of data points, the grand mean can be calculated as follows:\n\nSuppose there are three groups of numbers: group A has 2, 6, 7, 11, 4; group B has 4, 6, 8, 14, 8; group C has 8, 7, 4, 1, 5.\n\nThe mean of group A = (2+6+7+11+4)/5 = 6,\n\nThe mean of group B = (4+6+8+14+8)/5 = 8,\n\nThe mean of group C = (8+7+4+1+5)/5 = 5,\n\nTherefore, the grand mean of all numbers = (6+8+5)/3 = 6",
+        "stage1_score": -6.868862152099609,
+        "multimodal_score": null,
+        "is_disambiguation": false,
+        "source_query": "This means that number"
+      },
+      {
+        "page_id": "5747450",
+        "revision_id": "1329476600",
+        "title": "Heronian mean",
+        "url": "https://en.wikipedia.org/wiki/Heronian_mean",
+        "bm25_score": 9.472054481506348,
+        "excerpt": "In mathematics, the Heronian mean H of two non-negative real numbers A and B is given by the formula H = 1 3 (A + A B + B). {\\displaystyle H={\\frac {1}{3}}\\left(A+{\\sqrt {AB}}+B\\right).}\n\nIt is named after Hero of Alexandria.\n\nJust like all means, the Heronian mean is symmetric (it does not depend on the order in which its two arguments are given) and idempotent (the mean of any number with itself is the same number).\n\nThe Heronian mean of the numbers A and B is a weighted mean of their arithmetic and geometric means: H = 2 3 \u22c5 A + B 2 + 1 3 \u22c5 A B. {\\displaystyle H={\\frac {2}{3}}\\cdot {\\frac {A+B}{2}}+{\\frac {1}{3}}\\cdot {\\sqrt {AB}}.} Therefore, it lies between these two means, and between the two given numbers.\n\nThe Heronian mean may be used in finding the volume of a frustum of a pyramid or cone. The volume is equal to the product of the height of the frustum and the Heronian mean of the areas of the opposing parallel faces.\n\nA version of this formula, for square frusta, appears in the Moscow Mathematical Papyrus from Ancient Egyptian mathematics, whose content dates to roughly 1850 BC.",
+        "stage1_score": -7.0472540855407715,
+        "multimodal_score": null,
+        "is_disambiguation": false,
+        "source_query": "This means that number"
+      },
+      {
+        "page_id": "28125905",
+        "revision_id": "1303921093",
+        "title": "If You Know What I Mean",
+        "url": "https://en.wikipedia.org/wiki/If_You_Know_What_I_Mean",
+        "bm25_score": 9.318120002746582,
+        "excerpt": "\" If You Know What I Mean \" is a song written and recorded by Neil Diamond. It is a track from Diamond's 1976 album, Beautiful Noise, and was his third number 1 on the Easy Listening chart, where it spent two weeks. \"If You Know What I Mean\" went to number 1 for two nonconsecutive weeks and peaked at number 11 on the Billboard Hot 100. In Canada, the song reached number 19 on the pop singles chart and hit number 1 on the Adult Contemporary chart.\n\nBillboard described \"If You Know What I Mean\" as a \"powerful ballad\", stating that Diamond sings with more emotion than he had in the recent past, and also praised Robbie Robertson 's production. Cash Box said that the song \"has a couple of diverse, yet distinct musical moods\" and that \"the chorus, underscored by a first class string section, builds the song up to an emotional peak.\"\n\nDiamond has stated that the song is a \"tender recollection\" of a relationship in his teens, in which he successfully seduced a significantly older woman.",
+        "stage1_score": -7.112060070037842,
+        "multimodal_score": null,
+        "is_disambiguation": false,
+        "source_query": "This means that number"
+      }
+    ],
+    "article_text_sha256": "de11db2ebe76278bf6c4e84093c203502f1426ce7a43b7081ecaeb630b371389",
+    "decision_rationale": "Accepted candidate 'Arithmetic mean' with relevance score -2.7528 >= threshold -4.5."
+  },
+  "comparison": {
+    "entry_id": "entry-britannica-volume-144850375-row-546-546",
+    "britannica_title": "Britannica Volume 144850375 Row 546",
+    "source_pages": [
+      "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:546"
+    ],
+    "britannica_sha256": "25fbba2875070e0b66ccd96cde864a07c12c6d6e149b18c7dda4dc39142af48e",
+    "britannica_raw_chars": 740,
+    "britannica_tokens": 68,
+    "britannica_unique_tokens": 16,
+    "wikipedia_page_id": "612",
+    "wikipedia_revision_id": "1346126933",
+    "wikipedia_title": "Arithmetic mean",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Arithmetic_mean",
+    "wikipedia_text_sha256": "de11db2ebe76278bf6c4e84093c203502f1426ce7a43b7081ecaeb630b371389",
+    "wikipedia_raw_chars": 10746,
+    "wikipedia_tokens": 796,
+    "wikipedia_unique_tokens": 376,
+    "length_ratio": 14.522,
+    "text_changes": [
+      {
+        "rule": "ocr_f_s_confusion",
+        "original": "few",
+        "replacement": "sew",
+        "count": 1,
+        "samples": [
+          "do not have a few times. The num"
+        ]
+      }
+    ],
+    "metrics": {
+      "jaccard_raw": 0.0182,
+      "jaccard_normalized": 0.0182,
+      "cosine_tfidf": 0.0851,
+      "cosine_embedding": 0.1567,
+      "distinctive_britannica": [
+        "number",
+        "users",
+        "able",
+        "use",
+        "edition",
+        "used",
+        "britannica",
+        "however",
+        "times",
+        "addition",
+        "sew",
+        "available",
+        "generate",
+        "articles",
+        "compute"
+      ],
+      "distinctive_wikipedia": [
+        "displaystyle",
+        "mean",
+        "arithmetic",
+        "frac",
+        "set",
+        "numbers",
+        "sum",
+        "average",
+        "value",
+        "data",
+        "values",
+        "population",
+        "bar",
+        "distribution",
+        "example"
+      ],
+      "shared_terms": [
+        "case",
+        "example",
+        "means",
+        "mentioned",
+        "number",
+        "use",
+        "used"
+      ]
+    },
+    "aligned_chunks": [
+      {
+        "britannica_chunk_index": 0,
+        "wikipedia_chunk_index": 11,
+        "similarity": 0.2755,
+        "britannica_excerpt": "This means that the number of users are available to the same as they do not have a sew times. The number of users can be used in the case where the number of users are able to use the number of users. However, the number of users are also ",
+        "wikipedia_excerpt": "A weighted average, or weighted mean, is an average in which some data points count more heavily than others in that they are given more weight in the calculation. For example, the arithmetic mean of 3 {\\displaystyle 3} and 5 {\\displaystyle"
+      }
+    ],
+    "topic_id": 7,
+    "topic_terms": [
+      "users",
+      "number",
+      "able"
+    ],
+    "claims": [
+      {
+        "claim_text": "The Britannica entry \"Britannica Volume 144850375 Row 546\" uses 67 content tokens while the Wikipedia article \"Arithmetic mean\" uses 796; their normalized vocabularies share a Jaccard overlap of 0.0182 (raw 0.0182) and a TF-IDF cosine similarity of 0.087.",
+        "claim_type": "factual",
+        "label": "[factual]",
+        "britannica_pages": [
+          "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:546"
+        ],
+        "britannica_quote": "This means that the number of users are available to the same as they do not have a few times. The number of users can be used in the case where the number of users are able to use the number of users. However, the number of users are also ",
+        "wikipedia_page_id": "612",
+        "wikipedia_revision_id": "1346126933",
+        "wikipedia_quote": "In mathematics and statistics, the arithmetic mean (/ \u02cc \u00e6 r \u026a \u03b8 \u02c8 m \u025b t \u026a k / arr-ith- MET -ik), arithmetic average, or just the mean or average is the sum of a collection of numbers divided by the count of numbers in the collection. The co"
+      },
+      {
+        "claim_text": "Britannica's most distinctive term is \"number\"; Wikipedia's is \"displaystyle\", showing the era-specific vocabulary of each source.",
+        "claim_type": "factual",
+        "label": "[factual]",
+        "britannica_pages": [
+          "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:546"
+        ],
+        "britannica_quote": "This means that the number of users are available to the same as they do not have a few times.",
+        "wikipedia_page_id": "612",
+        "wikipedia_revision_id": "1346126933",
+        "wikipedia_quote": "Symbolically, for a data set consisting of the values x 1, \u2026, x n {\\displaystyle x_{1},\\dots,x_{n}}, the arithmetic mean is defined by the formula:"
+      },
+      {
+        "claim_text": "Both sources share core vocabulary including: case, example, means, mentioned, number.",
+        "claim_type": "factual",
+        "label": "[factual]",
+        "britannica_pages": [
+          "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:546"
+        ],
+        "britannica_quote": "The number of users can be used in the case where the number of users are able to use the number of users.",
+        "wikipedia_page_id": "612",
+        "wikipedia_revision_id": "1346126933",
+        "wikipedia_quote": "In that case, robust statistics, such as the median, may provide a better description of central tendency."
+      },
+      {
+        "claim_text": "1 normalization rules fired on the Britannica text (\"few\" -> \"sew\"); residual vocabulary differences likely reflect era terminology rather than OCR noise alone.",
+        "claim_type": "inference",
+        "label": "[inference]",
+        "britannica_pages": [
+          "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:546"
+        ],
+        "britannica_quote": "do not have a few times. The num",
+        "wikipedia_page_id": "612",
+        "wikipedia_revision_id": "1346126933",
+        "wikipedia_quote": "In mathematics and statistics, the arithmetic mean (/ \u02cc \u00e6 r \u026a \u03b8 \u02c8 m \u025b t \u026a k / arr-ith- MET -ik), arithmetic average, or just the mean or average is the sum of a collection of numbers divided by the count of numbers in the collection. The co"
+      }
+    ]
+  },
+  "exclusion": null,
+  "wikipedia": {
+    "available": true,
+    "text": "In mathematics and statistics, the arithmetic mean (/ \u02cc \u00e6 r \u026a \u03b8 \u02c8 m \u025b t \u026a k / arr-ith- MET -ik), arithmetic average, or just the mean or average is the sum of a collection of numbers divided by the count of numbers in the collection. The collection is often a set of results from an experiment, an observational study, or a survey. The term \"arithmetic mean\" is preferred in some contexts in mathematics and statistics because it helps to distinguish it from other types of means, such as geometric and harmonic.\n\nArithmetic means are also frequently used in economics, anthropology, history, and almost every other academic field to some extent. For example, per capita income is the arithmetic average of the income of a nation 's population.\n\nWhile the arithmetic mean is often used to report central tendencies, it is not a robust statistic: it is greatly influenced by outliers (values much larger or smaller than most others). For skewed distributions, such as the distribution of income for which a few people's incomes are substantially higher than most people's, the arithmetic mean may not coincide with one's notion of \"middle\". In that case, robust statistics, such as the median, may provide a better description of central tendency.\n\nThe arithmetic mean of a set of observed data is equal to the sum of the numerical values of each observation, divided by the total number of observations. Symbolically, for a data set consisting of the values x 1, \u2026, x n {\\displaystyle x_{1},\\dots,x_{n}}, the arithmetic mean is defined by the formula:\n\nx = 1 n (\u2211 i = 1 n x i) = x 1 + x 2 + \u22ef + x n n {\\displaystyle {x}={\\frac {1}{n}}\\left(\\sum _{i=1}^{n}{x_{i}}\\right)={\\frac {x_{1}+x_{2}+\\dots +x_{n}}{n}}}\n\nIn simpler terms, the formula for the arithmetic mean is:\n\nSum of all values Number of values {\\displaystyle {\\frac {\\text{Sum of all values}}{\\text{Number of values}}}}\n\nFor example, if the monthly salaries of 5 {\\displaystyle 5} employees are { 2500, 2700, 2300, 2650, 2450 } {\\displaystyle \\{2500,2700,2300,2650,2450\\}}, then the arithmetic mean is:\n\n2500 + 2700 + 2300 + 2650 + 2450 5 = 2520 {\\displaystyle {\\frac {2500+2700+2300+2650+2450}{5}}=2520}\n\nIf the data set is a statistical population (i.e. consists of every possible observation and not just a subset of them), then the mean of that population is called the population mean and denoted by the Greek letter \u03bc {\\displaystyle \\mu }. If the data set is a statistical sample (a subset of the population), it is called the sample mean (which for a data set X {\\displaystyle X} is denoted as X \u00af {\\displaystyle {\\overline {X}}}).\n\nThe arithmetic mean can be similarly defined for vectors in multiple dimensions, not only scalar values; this is often referred to as a centroid. More generally, because the arithmetic mean is a convex combination (meaning its coefficients sum to 1 {\\displaystyle 1}), it can be defined on a convex space, not only a vector space.\n\nStatistician Churchill Eisenhart, senior researcher fellow at the U. S. National Bureau of Standards, traced the history of the arithmetic mean in detail. In the modern age, it started to be used as a way of combining various observations that should be identical, but were not such as estimates of the direction of magnetic north. In 1635, mathematician Henry Gellibrand described as \"meane\" the midpoint of a lowest and highest number, not quite the arithmetic mean. In 1668, a person known as \"D. B.\" was quoted in the Transactions of the Royal Society describing \"taking the mean\" of five values:\n\nIn this Table, he notes the greatest difference to be 14 minutes; and so taking the mean for the true Variation, he concludes it then and there to be just 1. deg. 27. min.\n\n\u2014 D.B., p. 726\n\nThe arithmetic mean has several properties that make it interesting, especially as a measure of central tendency. These include:\n\nIf numbers x 1, \u2026, x n {\\displaystyle x_{1},\\dotsc,x_{n}} have a mean x \u00af {\\displaystyle {\\bar {x}}}, then (x 1 \u2212 x \u00af) + \u22ef + (x n \u2212 x \u00af) = 0 {\\displaystyle (x_{1}-{\\bar {x}})+\\dotsb +(x_{n}-{\\bar {x}})=0}. Since x i \u2212 x \u00af {\\displaystyle x_{i}-{\\bar {x}}} is the distance from a given number to the mean, one way to interpret this property is by saying that the numbers to the left of the mean are balanced by the numbers to the right. The mean is the only number for which the residuals (deviations from the estimate) sum to zero. This can also be interpreted as saying that the mean is translationally invariant in the sense that for any real number a {\\displaystyle a}, x + a \u00af = x \u00af + a {\\displaystyle {\\overline {x+a}}={\\bar {x}}+a}.\n\nIf it is required to use a single number as a \"typical\" value for a set of known numbers x 1, \u2026, x n {\\displaystyle x_{1},\\dotsc,x_{n}}, then the arithmetic mean of the numbers does this best since it minimizes the sum of squared deviations from the typical value: the sum of (x i \u2212 x \u00af) 2 {\\displaystyle (x_{i}-{\\bar {x}})^{2}}. The sample mean is also the best single predictor because it has the lowest root mean squared error. If the arithmetic mean of a population of numbers is desired, then the estimate of it that is unbiased is the arithmetic mean of a sample drawn from the population.\n\nThe arithmetic mean is independent of scale of the units of measurement, in the sense that avg (c a 1, \u22ef, c a n) = c \u22c5 avg (a 1, \u22ef, a n). {\\displaystyle {\\text{avg}}(ca_{1},\\cdots,ca_{n})=c\\cdot {\\text{avg}}(a_{1},\\cdots,a_{n}).} So, for example, calculating a mean of liters and then converting to gallons is the same as converting to gallons first and then calculating the mean. This is also called first order homogeneity.\n\nThe arithmetic mean of a sample is always between the largest and smallest values in that sample.\n\nThe arithmetic mean of any amount of equal-sized number groups together is the arithmetic mean of the arithmetic means of each group.\n\nThe arithmetic mean differs from the median, which is the value that separates the higher half and lower half of a data set. When the values in a data set form an arithmetic progression, the median and arithmetic mean are equal. For example, in the data set 1, 2, 3, 4 {\\displaystyle {1,2,3,4}}, both the mean and median are 2.5 {\\displaystyle 2.5}.\n\nIn other cases, the mean and median can differ significantly. For instance, in the data set 1, 2, 4, 8, 16 {\\displaystyle {1,2,4,8,16}}, the arithmetic mean is 6.2 {\\displaystyle 6.2}, while the median is 4 {\\displaystyle 4}. This occurs because the mean is sensitive to extreme values and may not accurately reflect the central tendency of most data points.\n\nThis distinction has practical implications across different fields. For example, since the 1980s, the median income in the United States has increased at a slower rate than the arithmetic mean income.\n\nSimilarly, in climate studies, daily mean temperature distributions tend to approximate a normal distribution, whereas annual or monthly rainfall totals often display a skewed distribution, with some periods having unusually high totals while most have relatively low amounts. In such cases, the median can provide a more representative measure of central tendency.\n\nA weighted average, or weighted mean, is an average in which some data points count more heavily than others in that they are given more weight in the calculation. For example, the arithmetic mean of 3 {\\displaystyle 3} and 5 {\\displaystyle 5} is 3 + 5 2 = 4 {\\displaystyle {\\frac {3+5}{2}}=4}, or equivalently 3 \u22c5 1 2 + 5 \u22c5 1 2 = 4 {\\displaystyle 3\\cdot {\\frac {1}{2}}+5\\cdot {\\frac {1}{2}}=4}. In contrast, a weighted mean in which the first number receives, for example, twice as much weight as the second (perhaps because it is assumed to appear twice as often in the general population from which these numbers were sampled) would be calculated as 3 \u22c5 2 3 + 5 \u22c5 1 3 = 11 3 {\\displaystyle 3\\cdot {\\frac {2}{3}}+5\\cdot {\\frac {1}{3}}={\\frac {11}{3}}}. Here the weights, which necessarily sum to one, are 2 3 {\\displaystyle {\\frac {2}{3}}} and 1 3 {\\displaystyle {\\frac {1}{3}}}, the former being twice the latter. The arithmetic mean (sometimes called the \"unweighted average\" or \"equally weighted average\") can be interpreted as a special case of a weighted average in which all weights are equal to the same number (1 2 {\\displaystyle {\\frac {1}{2}}} in the above example and 1 n {\\displaystyle {\\frac {1}{n}}} in a situation with n {\\displaystyle n} numbers being averaged).\n\nIn calculus, and especially multivariable calculus, the mean of a function is loosely defined as the average value of the function over its domain.\n\nIf a numerical property, and any sample of data from it, can take on any value from a continuous range instead of, for example, just integers, then the probability of a number falling into some range of possible values can be described by integrating a continuous probability distribution across this range, even when the naive probability for a sample number taking one certain value from infinitely many is zero. In this context, the analog of a weighted average, in which there are infinitely many possibilities for the precise value of the variable in each range, is called the mean of the probability distribution. The most widely encountered probability distribution is called the normal distribution; it has the property that all measures of its central tendency, including not just the mean but also the median mentioned above and the mode (the three Ms), are equal. This equality does not hold for other probability distributions, as illustrated for the log-normal distribution here.\n\nParticular care is needed when using cyclic data, such as phases or angles. Taking the arithmetic mean of 1 \u00b0 and 359\u00b0 yields a result of 180\u00b0. This is incorrect for two reasons:\n\nAngle measurements are only defined up to an additive constant of 360\u00b0 (2 \u03c0 {\\displaystyle 2\\pi } or \u03c4 {\\displaystyle \\tau }, if measuring in radians). Thus, these could easily be called 1\u00b0 and -1\u00b0, or 361\u00b0 and 719\u00b0, since each one of them produces a different average.\n\nIn this situation, 0\u00b0 (or 360\u00b0) is geometrically a better average value: there is lower dispersion about it (the points are both 1\u00b0 from it and 179\u00b0 from 180\u00b0, the putative average).\n\nIn general application, such an oversight will lead to the average value artificially moving towards the middle of the numerical range. A solution to this problem is to use the optimization formulation (that is, define the mean as the central point: the point about which one has the lowest dispersion) and redefine the difference as a modular distance (i.e. the distance on the circle: so the modular distance between 1\u00b0 and 359\u00b0 is 2\u00b0, not 358\u00b0).\n\nThe arithmetic mean is often denoted by a bar (vinculum or macron), as in x \u00af {\\displaystyle {\\bar {x}}}.",
+    "title": "Arithmetic mean",
+    "url": "https://en.wikipedia.org/wiki/Arithmetic_mean",
+    "page_id": "612",
+    "revision_id": "1346126933",
+    "text_sha256": "de11db2ebe76278bf6c4e84093c203502f1426ce7a43b7081ecaeb630b371389",
+    "truncated": false
+  },
+  "scans": [
+    {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:546",
+      "filename": "page-0546-7c6f39d92d2b.jpg",
+      "image_sha256": "7c6f39d92d2b138c157a67a3e8fd5165574195cf6643aa1a15c03a243e962708",
+      "row_index": 546,
+      "path": "scans/page-0546-7c6f39d92d2b.jpg"
+    }
+  ],
+  "documents": {
+    "tex": "latex/entry-britannica-volume-144850375-row-546-546.tex",
+    "pdf": "latex/entry-britannica-volume-144850375-row-546-546.pdf"
+  }
+}
