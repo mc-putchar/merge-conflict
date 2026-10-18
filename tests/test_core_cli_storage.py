@@ -1,6 +1,7 @@
 """Offline setup and storage contracts do not implement challenge stages."""
 from dataclasses import replace
 import json
+from pathlib import Path
 
 import httpx
 import pytest
@@ -31,12 +32,43 @@ def test_live_doctor_reports_missing_resources(monkeypatch):
     assert report["inference"] == "not tested"
 
 
-@pytest.mark.parametrize("stage", ["extract", "match", "compare", "agent", "site", "evaluate"])
+@pytest.mark.parametrize("stage", ["match", "compare", "agent", "site", "evaluate"])
 def test_unfinished_stage_fails_with_guide_and_creates_no_result(stage, tmp_path, capsys):
     path = tmp_path / "team-artifacts"
     assert main(["run", stage, "--work-dir", str(path)]) == 2
     assert f"docs/milestones.md#{stage}" in capsys.readouterr().err
     assert not path.exists()
+
+
+def test_extract_stage_with_mocked_parse(monkeypatch, tmp_path):
+    from nemotron_challenge.clients import ParseClient
+
+    sample_output = {
+        "choices": [
+            {
+                "message": {
+                    "content": "<x_0.05><y_0.02>100<x_0.10><y_0.04><class_Page-header>\n<x_0.20><y_0.02>**TOPIC**<x_0.50><y_0.04><class_Page-header>\n<x_0.05><y_0.05>Sample entry text.<x_0.80><y_0.80><class_Text>"
+                }
+            }
+        ]
+    }
+    monkeypatch.setattr(ParseClient, "parse", lambda self, image_data_url: sample_output)
+    artifacts_path = tmp_path / "artifacts"
+    db_path = tmp_path / "test.lancedb"
+    test_cache = tmp_path / "cache"
+    monkeypatch.setenv("CHALLENGE_DB_PATH", str(db_path))
+    monkeypatch.setenv("PARSE_CACHE_DIR", str(test_cache))
+
+    # Mock load_manifest with 2 pages to keep unit test isolated and fast
+    import nemotron_challenge.data as d
+    real_manifest = d.load_manifest()
+    sub_manifest = dict(real_manifest, pages=real_manifest["pages"][:2])
+    monkeypatch.setattr(d, "load_manifest", lambda: sub_manifest)
+    import nemotron_challenge.tasks as t
+    monkeypatch.setattr(t, "load_manifest", lambda: sub_manifest)
+
+    assert main(["run", "extract", "--work-dir", str(artifacts_path)]) == 0
+    assert (artifacts_path / "extract" / "entries.json").is_file()
 
 
 def test_stages_list_has_todos(capsys):
