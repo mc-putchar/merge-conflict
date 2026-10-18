@@ -147,6 +147,21 @@ def generate_latex_document(
 """
 
 
+def _dedupe_entries(entries: list[dict[str, Any]]) -> tuple[list[dict[str, Any]], list[str]]:
+    """Drop entries with a repeated entry_id; the first record wins. Returns (unique, duplicate_ids)."""
+    seen: set[str] = set()
+    unique: list[dict[str, Any]] = []
+    duplicates: list[str] = []
+    for entry in entries:
+        eid = entry["entry_id"]
+        if eid in seen:
+            duplicates.append(eid)
+            continue
+        seen.add(eid)
+        unique.append(entry)
+    return unique, duplicates
+
+
 def _first_heading(path: Path) -> str:
     for line in path.read_text(encoding="utf-8").splitlines():
         if line.startswith("#"):
@@ -163,7 +178,8 @@ def bundle_site_data(
     manifest = load_manifest()
 
     extract_file = artifacts_dir / "extract" / "entries.json"
-    entries = json.loads(extract_file.read_text(encoding="utf-8")) if extract_file.is_file() else []
+    raw_entries = json.loads(extract_file.read_text(encoding="utf-8")) if extract_file.is_file() else []
+    entries, duplicate_ids = _dedupe_entries(raw_entries)
 
     matches_file = artifacts_dir / "match" / "matches.json"
     matches = {m["entry_id"]: m for m in json.loads(matches_file.read_text(encoding="utf-8"))} if matches_file.is_file() else {}
@@ -261,7 +277,8 @@ def bundle_site_data(
             "scans_total": len(manifest.get("pages", [])),
         },
         "stats": {
-            "entries_total": len(entries),
+            "entries_total": len(raw_entries),
+            "duplicate_entry_ids": duplicate_ids,
             "matches_accepted": len(matches),
             "matches_rejected": len(unmatched),
             "compared_count": len(comparisons),
@@ -497,7 +514,8 @@ def build_site(settings: Settings, work_dir: Path) -> dict[str, Any]:
     extract_file = artifacts_dir / "extract" / "entries.json"
     if not extract_file.is_file():
         raise FileNotFoundError(f"Extract entries not found at {extract_file}. Run extract stage first.")
-    entries = json.loads(extract_file.read_text(encoding="utf-8"))
+    raw_entries = json.loads(extract_file.read_text(encoding="utf-8"))
+    entries, duplicate_ids = _dedupe_entries(raw_entries)
 
     matches_file = artifacts_dir / "match" / "matches.json"
     matches = {m["entry_id"]: m for m in json.loads(matches_file.read_text(encoding="utf-8"))} if matches_file.is_file() else {}
@@ -654,6 +672,7 @@ def build_site(settings: Settings, work_dir: Path) -> dict[str, Any]:
         "svelte_built": svelte_built,
         "build_error": build_error,
         "entry_details_written": entry_details,
+        "duplicate_entry_ids": duplicate_ids,
         "assets_copied": asset_counts,
         "files_in_manifest": len(file_manifest),
         "links_checked": verify_report["links_checked"],

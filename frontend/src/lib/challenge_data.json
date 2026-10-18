@@ -6,6 +6,7 @@
   },
   "stats": {
     "entries_total": 1,
+    "duplicate_entry_ids": [],
     "matches_accepted": 0,
     "matches_rejected": 0,
     "compared_count": 0,

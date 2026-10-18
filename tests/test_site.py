@@ -7,6 +7,7 @@ from pathlib import Path
 import pytest
 
 from nemotron_challenge.site import (
+    _dedupe_entries,
     build_site_manifest,
     bundle_site_data,
     compile_latex_documents,
@@ -77,6 +78,15 @@ def test_latex_document_without_known_page_has_no_figure():
     entry = _entry(source_pages=["missing-page"])
     doc = generate_latex_document(entry, _manifest(), _pages_by_id())
     assert "\\includegraphics" not in doc
+
+
+def test_dedupe_entries_drops_repeated_ids():
+    unique, dupes = _dedupe_entries([
+        _entry(entry_id="a"), _entry(entry_id="b"), _entry(entry_id="a", title="DUP"),
+    ])
+    assert [e["entry_id"] for e in unique] == ["a", "b"]
+    assert dupes == ["a"]
+    assert unique[0]["title"] == "TEST & ENTRY_1"
 
 
 def test_bundle_index_is_slim(tmp_path, monkeypatch):

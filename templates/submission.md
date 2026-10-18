@@ -1,7 +1,7 @@
 # Submission: Nemotron Agentic AI Challenge
 
 Team: Merge Conflict
-Repository URL and commit: a064ad30c1b769f6865aa809f6c2220961361264
+Repository URL and commit: 7f32a9e504cff11ebbb5ed700f6f7e86b5deed7d
 Video URL, 3 to 5 minutes: [Submitted in portal]
 Static website URL: artifacts/site/index.html (SvelteKit SPA)
 Compiled LaTeX documents: artifacts/site/latex/ (95 generated documents)
