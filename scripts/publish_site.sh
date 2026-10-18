@@ -45,7 +45,7 @@ git -C "$tmp/wt" push -u origin "$BRANCH"
 repo=$(gh repo view --json nameWithOwner -q .nameWithOwner)
 gh api "repos/$repo/pages" --method POST \
   -f "source[branch]=$BRANCH" -f "source[path]=/" >/dev/null 2>&1 || \
-gh api "repos/$repo/pages" --method PATCH \
+gh api "repos/$repo/pages" --method PUT \
   -f "source[branch]=$BRANCH" -f "source[path]=/" >/dev/null
 
 url="https://$(echo "$repo" | cut -d/ -f1).github.io/$(echo "$repo" | cut -d/ -f2)/"
