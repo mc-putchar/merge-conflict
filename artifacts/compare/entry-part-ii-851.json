@@ -1,0 +1,177 @@
+{
+  "entry_id": "entry-part-ii-851",
+  "britannica_title": "Part II",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:851"
+  ],
+  "britannica_sha256": "2c9eca3e1f41d7438e94283e359a32c9fe9f5ca9b9e37b1b3eda630ef2217aee",
+  "britannica_raw_chars": 6331,
+  "britannica_tokens": 466,
+  "britannica_unique_tokens": 198,
+  "wikipedia_page_id": "216308",
+  "wikipedia_revision_id": "1297406180",
+  "wikipedia_title": "Part Two",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Part_Two",
+  "wikipedia_text_sha256": "e5c1739ec2f24d4176da44c09d93feeac81fa25d426e74c83fe9ac3eb156372d",
+  "wikipedia_raw_chars": 1265,
+  "wikipedia_tokens": 124,
+  "wikipedia_unique_tokens": 65,
+  "length_ratio": 0.2,
+  "text_changes": [
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "cafe",
+      "replacement": "case",
+      "count": 9,
+      "samples": [
+        "n the forgoing cafe. Then an SD as",
+        "n SD as in the cafe selected with",
+        "flatred in the cafe manufacturing",
+        "the foreground cafe. Then an ED wa",
+        "ED was in that cafe reflected into"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "cafes",
+      "replacement": "cases",
+      "count": 2,
+      "samples": [
+        "two remaining cafes may be confirm",
+        "y of the other cafes of diverging o"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fore",
+      "replacement": "sore",
+      "count": 1,
+      "samples": [
+        "ine CD+ where- fore, RD is to DF,"
+      ]
+    }
+  ],
+  "metrics": {
+    "jaccard_raw": 0.0076,
+    "jaccard_normalized": 0.0077,
+    "cosine_tfidf": 0.0009,
+    "cosine_embedding": 0.0633,
+    "distinctive_britannica": [
+      "rays",
+      "focus",
+      "point",
+      "upon",
+      "case",
+      "parallel",
+      "fame",
+      "incident",
+      "equal",
+      "let",
+      "surface",
+      "refleted",
+      "falling",
+      "ray",
+      "fig"
+    ],
+    "distinctive_wikipedia": [
+      "part",
+      "episode",
+      "album",
+      "song",
+      "single",
+      "man",
+      "method",
+      "true",
+      "constitution",
+      "honor",
+      "bass",
+      "wars",
+      "star",
+      "peaks",
+      "galaxy"
+    ],
+    "shared_terms": [
+      "become",
+      "father"
+    ]
+  },
+  "aligned_chunks": [
+    {
+      "britannica_chunk_index": 4,
+      "wikipedia_chunk_index": 1,
+      "similarity": 0.1743,
+      "britannica_excerpt": "Cass 7. Of converging rays falling upon a convex surface, and including towards a point beyond the cen- tro.",
+      "wikipedia_excerpt": "\"Part Two\" (Lego Star Wars: Rebuild the Galaxy), an episode of Lego Star Wars: Rebuild the Galaxy\n\n\"Part Two\" (The Pacific), an episode of The Pacific\n\n\"Part Two\" (Your Honor), an episode of Your Honor\n\n\" Part Two: Toil and Trouble \", an ep"
+    },
+    {
+      "britannica_chunk_index": 0,
+      "wikipedia_chunk_index": 1,
+      "similarity": 0.1723,
+      "britannica_excerpt": "**OPTICS.**",
+      "wikipedia_excerpt": "\"Part Two\" (Lego Star Wars: Rebuild the Galaxy), an episode of Lego Star Wars: Rebuild the Galaxy\n\n\"Part Two\" (The Pacific), an episode of The Pacific\n\n\"Part Two\" (Your Honor), an episode of Your Honor\n\n\" Part Two: Toil and Trouble \", an ep"
+    },
+    {
+      "britannica_chunk_index": 10,
+      "wikipedia_chunk_index": 1,
+      "similarity": 0.1497,
+      "britannica_excerpt": "om B; that is, that the refleted ray DR and DR be parallel. _@E.D._",
+      "wikipedia_excerpt": "\"Part Two\" (Lego Star Wars: Rebuild the Galaxy), an episode of Lego Star Wars: Rebuild the Galaxy\n\n\"Part Two\" (The Pacific), an episode of The Pacific\n\n\"Part Two\" (Your Honor), an episode of Your Honor\n\n\" Part Two: Toil and Trouble \", an ep"
+    }
+  ],
+  "topic_id": 5,
+  "topic_terms": [
+    "every",
+    "people",
+    "upon"
+  ],
+  "claims": [
+    {
+      "claim_text": "The Britannica entry \"Part II\" uses 466 content tokens while the Wikipedia article \"Part Two\" uses 124; their normalized vocabularies share a Jaccard overlap of 0.0077 (raw 0.0076) and a TF-IDF cosine similarity of 0.0009.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:851"
+      ],
+      "britannica_quote": "**OPTICS.**\n\ntre is C, and focus of parallel rays is at P; and let the imaginary focus of the incident rays be as F, a point between P and B, and he DR be the refleth ray. From C and R draw the lines CH, RH, the one palling through D, the o",
+      "wikipedia_page_id": "216308",
+      "wikipedia_revision_id": "1297406180",
+      "wikipedia_quote": "Part Two, Part 2 or Part II may refer to:\n\nPart 2 (Brix & the Extricated album), 2017\n\nPart II (Brad Paisley album), 2001\n\nPart II (Lil Jon & the East Side Boyz album), 2003\n\nPart Two (Throbbing Gristle album), 2007\n\n\"Part II\" (Method Man &"
+    },
+    {
+      "claim_text": "Britannica's most distinctive term is \"rays\"; Wikipedia's is \"part\", showing the era-specific vocabulary of each source.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:851"
+      ],
+      "britannica_quote": "tre is C, and focus of parallel rays is at P; and let the imaginary focus of the incident rays be as F, a point between P and B, and he DR be the refleth ray.",
+      "wikipedia_page_id": "216308",
+      "wikipedia_revision_id": "1297406180",
+      "wikipedia_quote": "Part Two, Part 2 or Part II may refer to:"
+    },
+    {
+      "claim_text": "Both sources share core vocabulary including: become, father.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:851"
+      ],
+      "britannica_quote": "Cass to Diverging rays falling upon a concave fur-ness and preceding from the focus of parallel rays, become parallel after reflection.",
+      "wikipedia_page_id": "216308",
+      "wikipedia_revision_id": "1297406180",
+      "wikipedia_quote": "Part II, a stage of the qualification process in the UK to become an architect"
+    },
+    {
+      "claim_text": "3 normalization rules fired on the Britannica text (\"cafe\" -> \"case\"; \"cafes\" -> \"cases\"; \"fore\" -> \"sore\"); residual vocabulary differences likely reflect era terminology rather than OCR noise alone.",
+      "claim_type": "inference",
+      "label": "[inference]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:851"
+      ],
+      "britannica_quote": "n the forgoing cafe. Then an SD as",
+      "wikipedia_page_id": "216308",
+      "wikipedia_revision_id": "1297406180",
+      "wikipedia_quote": "Part Two, Part 2 or Part II may refer to:\n\nPart 2 (Brix & the Extricated album), 2017\n\nPart II (Brad Paisley album), 2001\n\nPart II (Lil Jon & the East Side Boyz album), 2003\n\nPart Two (Throbbing Gristle album), 2007\n\n\"Part II\" (Method Man &"
+    }
+  ]
+}

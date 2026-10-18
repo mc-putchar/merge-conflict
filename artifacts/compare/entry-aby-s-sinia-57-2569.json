@@ -1,0 +1,169 @@
+{
+  "entry_id": "entry-aby-s-sinia-57-2569",
+  "britannica_title": "ABY S SINIA 57",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2569",
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2570"
+  ],
+  "britannica_sha256": "61dd7b8017f7f26ff88b4cc1e95ca7bb071b3426c155dc3862668dde05656008",
+  "britannica_raw_chars": 10650,
+  "britannica_tokens": 875,
+  "britannica_unique_tokens": 659,
+  "wikipedia_page_id": "61344333",
+  "wikipedia_revision_id": "1339217744",
+  "wikipedia_title": "Mavri Sinia",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Mavri_Sinia",
+  "wikipedia_text_sha256": "787744fac2fdfbe1608ed085f1b4d02283d66d474c89415480913ff324fdcbc1",
+  "wikipedia_raw_chars": 705,
+  "wikipedia_tokens": 57,
+  "wikipedia_unique_tokens": 40,
+  "length_ratio": 0.066,
+  "text_changes": [
+    {
+      "rule": "archaic_spelling",
+      "original": "behaviour",
+      "replacement": "behavior",
+      "count": 1,
+      "samples": [
+        "cording to the behaviour cust- om of th"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fun",
+      "replacement": "sun",
+      "count": 1,
+      "samples": [
+        "st filled with fun, into which Po"
+      ]
+    }
+  ],
+  "metrics": {
+    "jaccard_raw": 0.0043,
+    "jaccard_normalized": 0.0043,
+    "cosine_tfidf": 0.0214,
+    "cosine_embedding": 0.0183,
+    "distinctive_britannica": [
+      "time",
+      "people",
+      "death",
+      "ethiopian",
+      "himself",
+      "country",
+      "principal",
+      "already",
+      "mentioned",
+      "army",
+      "christians",
+      "according",
+      "war",
+      "arabian",
+      "arabia"
+    ],
+    "distinctive_wikipedia": [
+      "edition",
+      "average",
+      "mavri",
+      "britannica",
+      "metres",
+      "schinia",
+      "sea",
+      "point",
+      "around",
+      "south",
+      "east",
+      "west",
+      "january",
+      "level",
+      "larger"
+    ],
+    "shared_terms": [
+      "highest",
+      "mountain",
+      "sea"
+    ]
+  },
+  "aligned_chunks": [
+    {
+      "britannica_chunk_index": 4,
+      "wikipedia_chunk_index": 0,
+      "similarity": 0.0514,
+      "britannica_excerpt": "The translation of the way, according to the Arabian historian, was mirinculous, the was mother of the named _Aobhli_ came from the sea, having faces like lion; s each carrying in its class a small stone about the size of a pen, which they ",
+      "wikipedia_excerpt": "Mavri Sinia or Mavri Schinia is a mountain in Neo Chorio in the Paphos District of Cyprus. Its peak elevation is 429 metres (1,407 ft) above sea level. The terrain around Mavri Schinia is hilly on the east, but flat in the west and the sea "
+    },
+    {
+      "britannica_chunk_index": 7,
+      "wikipedia_chunk_index": 0,
+      "similarity": 0.0367,
+      "britannica_excerpt": "The Christians applied for relief to the Emperor Junta; but it was being at that time singed in as with the Persian, could intereire; however, in the year 232, he sent an embay to Elisban, who was now also a member of the Greek church, inte",
+      "wikipedia_excerpt": "Mavri Sinia or Mavri Schinia is a mountain in Neo Chorio in the Paphos District of Cyprus. Its peak elevation is 429 metres (1,407 ft) above sea level. The terrain around Mavri Schinia is hilly on the east, but flat in the west and the sea "
+    },
+    {
+      "britannica_chunk_index": 1,
+      "wikipedia_chunk_index": 0,
+      "similarity": 0.0295,
+      "britannica_excerpt": "The two things are these prineses it remarkable for an ex- pedition into Arabic Policy, called by the Mohamar dan writers the war of the elephant, and which was undertaken on the following occasion: The temple of Mecca, situated nearly in t",
+      "wikipedia_excerpt": "Mavri Sinia or Mavri Schinia is a mountain in Neo Chorio in the Paphos District of Cyprus. Its peak elevation is 429 metres (1,407 ft) above sea level. The terrain around Mavri Schinia is hilly on the east, but flat in the west and the sea "
+    }
+  ],
+  "topic_id": 5,
+  "topic_terms": [
+    "every",
+    "people",
+    "upon"
+  ],
+  "claims": [
+    {
+      "claim_text": "The Britannica entry \"ABY S SINIA 57\" uses 875 content tokens while the Wikipedia article \"Mavri Sinia\" uses 57; their normalized vocabularies share a Jaccard overlap of 0.0043 (raw 0.0043) and a TF-IDF cosine similarity of 0.0214.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2569",
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2570"
+      ],
+      "britannica_quote": "Abyssinie her affairs entirely to Frumentis, who made use of his influence to define the Christian religion through- out the country, and at last was appointed bishop of Axuma. It is said, however, that the court and principal people. I don",
+      "wikipedia_page_id": "61344333",
+      "wikipedia_revision_id": "1339217744",
+      "wikipedia_quote": "Mavri Sinia or Mavri Schinia is a mountain in Neo Chorio in the Paphos District of Cyprus. Its peak elevation is 429 metres (1,407 ft) above sea level. The terrain around Mavri Schinia is hilly on the east, but flat in the west and the sea "
+    },
+    {
+      "claim_text": "Britannica's most distinctive term is \"time\"; Wikipedia's is \"edition\", showing the era-specific vocabulary of each source.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2569",
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2570"
+      ],
+      "britannica_quote": "On second time the reservation in which this tower and ideal were held by the Arabilians, Mr Bruce supposes that the thought was first suggested of making the emoments of the trade between India and Africa as , but Abra, in order to divert ",
+      "wikipedia_page_id": "61344333",
+      "wikipedia_revision_id": "1339217744",
+      "wikipedia_quote": "Mavri Sinia or Mavri Schinia is a mountain in Neo Chorio in the Paphos District of Cyprus. Its peak elevation is 429 metres (1,407 ft) above sea level. The terrain around Mavri Schinia is hilly on the east, but flat in the west and the sea"
+    },
+    {
+      "claim_text": "Both sources share core vocabulary including: highest, mountain, sea.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2569",
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2570"
+      ],
+      "britannica_quote": "the kingdom, and was already the highest subject in it.",
+      "wikipedia_page_id": "61344333",
+      "wikipedia_revision_id": "1339217744",
+      "wikipedia_quote": "Lára is the highest point nearby at an elevation of 669 metres (2,195 ft)."
+    },
+    {
+      "claim_text": "2 normalization rules fired on the Britannica text (\"behaviour\" -> \"behavior\"; \"fun\" -> \"sun\"); residual vocabulary differences likely reflect era terminology rather than OCR noise alone.",
+      "claim_type": "inference",
+      "label": "[inference]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2569",
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2570"
+      ],
+      "britannica_quote": "cording to the behaviour cust- om of th",
+      "wikipedia_page_id": "61344333",
+      "wikipedia_revision_id": "1339217744",
+      "wikipedia_quote": "Mavri Sinia or Mavri Schinia is a mountain in Neo Chorio in the Paphos District of Cyprus. Its peak elevation is 429 metres (1,407 ft) above sea level. The terrain around Mavri Schinia is hilly on the east, but flat in the west and the sea "
+    }
+  ]
+}

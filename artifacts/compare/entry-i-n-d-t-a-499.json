@@ -1,0 +1,153 @@
+{
+  "entry_id": "entry-i-n-d-t-a-499",
+  "britannica_title": "I N D T A",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:499"
+  ],
+  "britannica_sha256": "4cdf04b592dc3d3f299a465849a0fadbbb9f7ab303ab3e170814189c4e9199ac",
+  "britannica_raw_chars": 6799,
+  "britannica_tokens": 536,
+  "britannica_unique_tokens": 416,
+  "wikipedia_page_id": "56530457",
+  "wikipedia_revision_id": "1307812264",
+  "wikipedia_title": "Astonishing",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Astonishing",
+  "wikipedia_text_sha256": "8ef5e075575ec9d71b6b5f706aa9e8bae4127ec0aac7688bf1fc14d63eb850ad",
+  "wikipedia_raw_chars": 345,
+  "wikipedia_tokens": 28,
+  "wikipedia_unique_tokens": 19,
+  "length_ratio": 0.051,
+  "text_changes": [
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "few",
+      "replacement": "sew",
+      "count": 1,
+      "samples": [
+        "ean, which the few words of Herod"
+      ]
+    }
+  ],
+  "metrics": {
+    "jaccard_raw": 0.0023,
+    "jaccard_normalized": 0.0023,
+    "cosine_tfidf": 0.0144,
+    "cosine_embedding": -0.0304,
+    "distinctive_britannica": [
+      "india",
+      "country",
+      "alexander",
+      "sea",
+      "means",
+      "authority",
+      "indeed",
+      "indus",
+      "countries",
+      "red",
+      "view",
+      "concerning",
+      "accounts",
+      "modern",
+      "rivers"
+    ],
+    "distinctive_wikipedia": [
+      "publication",
+      "astonishing",
+      "edition",
+      "album",
+      "refer",
+      "song",
+      "women",
+      "science",
+      "published",
+      "atlas",
+      "american",
+      "comics",
+      "fiction",
+      "britannica",
+      "magazine"
+    ],
+    "shared_terms": [
+      "little"
+    ]
+  },
+  "aligned_chunks": [
+    {
+      "britannica_chunk_index": 8,
+      "wikipedia_chunk_index": 0,
+      "similarity": 0.0526,
+      "britannica_excerpt": "rted to the other parts of his dominions by means of the Persian gulf; while through the Red sea they were con-veyed to Alexandria in Egypt, and theme dispersed all were Europe.",
+      "wikipedia_excerpt": "Astonishing may refer to:\n\nAstonishing, Atlas Comics / Marvel Comics publication from 1951 to 1957\n\nAstonishing Tales, Marvel Comics publication from 1970 to 1976 and 2009\n\nThe Astonishing, a 2016 album by Dream Theater\n\nAstonishing Stories"
+    },
+    {
+      "britannica_chunk_index": 11,
+      "wikipedia_chunk_index": 0,
+      "similarity": 0.0398,
+      "britannica_excerpt": "t they seen ever to have possessed?\"",
+      "wikipedia_excerpt": "Astonishing may refer to:\n\nAstonishing, Atlas Comics / Marvel Comics publication from 1951 to 1957\n\nAstonishing Tales, Marvel Comics publication from 1970 to 1976 and 2009\n\nThe Astonishing, a 2016 album by Dream Theater\n\nAstonishing Stories"
+    },
+    {
+      "britannica_chunk_index": 2,
+      "wikipedia_chunk_index": 0,
+      "similarity": 0.0344,
+      "britannica_excerpt": ", indeed, considering the very little rise of the tide in the Mediterranean, by which alone the Greek oil Roman had access, we may reckon the account given us by Arrian highly probablyaba.",
+      "wikipedia_excerpt": "Astonishing may refer to:\n\nAstonishing, Atlas Comics / Marvel Comics publication from 1951 to 1957\n\nAstonishing Tales, Marvel Comics publication from 1970 to 1976 and 2009\n\nThe Astonishing, a 2016 album by Dream Theater\n\nAstonishing Stories"
+    }
+  ],
+  "topic_id": 4,
+  "topic_terms": [
+    "blow-pipe",
+    "captain",
+    "flame"
+  ],
+  "claims": [
+    {
+      "claim_text": "The Britannica entry \"I N D T A\" uses 535 content tokens while the Wikipedia article \"Astonishing\" uses 28; their normalized vocabularies share a Jaccard overlap of 0.0023 (raw 0.0023) and a TF-IDF cosine similarity of 0.0144.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:499"
+      ],
+      "britannica_quote": "astonished that he should have given any credit). Also ander was the first who had invaded India. Arrin informed us that the Assocen, and other people who inhabited the country may called _Canadian_, had been tributary first to the Assyrian",
+      "wikipedia_page_id": "56530457",
+      "wikipedia_revision_id": "1307812264",
+      "wikipedia_quote": "Astonishing may refer to:\n\nAstonishing, Atlas Comics / Marvel Comics publication from 1951 to 1957\n\nAstonishing Tales, Marvel Comics publication from 1970 to 1976 and 2009\n\nThe Astonishing, a 2016 album by Dream Theater\n\nAstonishing Stories"
+    },
+    {
+      "claim_text": "Britannica's most distinctive term is \"india\"; Wikipedia's is \"publication\", showing the era-specific vocabulary of each source.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:499"
+      ],
+      "britannica_quote": "Also ander was the first who had invaded India.",
+      "wikipedia_page_id": "56530457",
+      "wikipedia_revision_id": "1307812264",
+      "wikipedia_quote": "Astonishing, Atlas Comics / Marvel Comics publication from 1951 to 1957"
+    },
+    {
+      "claim_text": "Both sources share core vocabulary including: little.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:499"
+      ],
+      "britannica_quote": "Cea searches the attainment of life soalers as a proper tide in Britain which greatly damaged his feet; and, indeed, considering the very little rise of the tide in the Mediterranean, by which alone the Greek oil Roman had access, we may re",
+      "wikipedia_page_id": "56530457",
+      "wikipedia_revision_id": "1307812264",
+      "wikipedia_quote": "\"Astonishing\", song from Little Women"
+    },
+    {
+      "claim_text": "1 normalization rules fired on the Britannica text (\"few\" -> \"sew\"); residual vocabulary differences likely reflect era terminology rather than OCR noise alone.",
+      "claim_type": "inference",
+      "label": "[inference]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:499"
+      ],
+      "britannica_quote": "ean, which the few words of Herod",
+      "wikipedia_page_id": "56530457",
+      "wikipedia_revision_id": "1307812264",
+      "wikipedia_quote": "Astonishing may refer to:\n\nAstonishing, Atlas Comics / Marvel Comics publication from 1951 to 1957\n\nAstonishing Tales, Marvel Comics publication from 1970 to 1976 and 2009\n\nThe Astonishing, a 2016 album by Dream Theater\n\nAstonishing Stories"
+    }
+  ]
+}

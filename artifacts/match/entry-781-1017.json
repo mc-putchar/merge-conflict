@@ -5,32 +5,20 @@
     "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1017"
   ],
   "matched": true,
-  "status": "accepted_bm25_only",
+  "status": "accepted",
   "selected_candidate": {
-    "page_id": "22710296",
-    "revision_id": "1326413917",
-    "title": "Miss France 2009",
-    "url": "https://en.wikipedia.org/wiki/Miss_France_2009",
-    "bm25_score": 14.439043045043945,
-    "excerpt": "Miss France 2009, the 62nd edition of the Miss France pageant, was held in Puy du Fou, Pays de la Loire on December 6, 2008.\n\nIt was the first time that the pageant took place in Puy du Fou and the Pays de la Loire region.\n\nThe ceremony was held at TF1, and was presented by Jean-Pierre Foucault and the national director Sylvie Tellier.\n\nChloé Mortaud of Albigeois Midi-Pyrénées was crowned Miss France 2009 by the outgoing title-holder Valérie Bègue of Réunion, Miss France 2008. She represented France at Miss World 2009 where she placed among Top 7 finalists. She also placed in Top 10 in Miss Universe 2009.\n\nMiss Albigeois Midi-Pyrenees, Chloé Mortaud, is American.\n\nMiss Brittany, Bianca Taillard, has got Malagasy origins.\n\nMiss Flandre, Éméné Nyamé, has got Algerian and Cameroonian origins.\n\nMiss Languedoc-Roussillon, Cindy Filipiak, has many titles : 1st runner-up of Miss Montpellier 2006, 2nd runner-up of Miss Canton of Pigan, 1st runner-up of Miss Hérault 2006, Miss Perolls 2007 and Miss Hérault 2007.\n\nMiss Martinique, Laura Fidi, has got Senegalese origins.\n\nMiss New Caledonia, Aurélia Morelli, has got Corsican, Arabic, Tahitian and Japanese origins.\n\nMiss Paris, Sarah Barzyk, i",
-    "stage1_score": null,
-    "multimodal_score": null,
+    "page_id": "3709808",
+    "revision_id": "1352263131",
+    "title": "Sikka Regency",
+    "url": "https://en.wikipedia.org/wiki/Sikka_Regency",
+    "bm25_score": 9.763751983642578,
+    "excerpt": "Sikka is a regency within East Nusa Tenggara province, Indonesia, on the island of Flores. It is bordered to the west by Ende Regency and to the east by East Flores Regency. It covers an area of 1,675.36 km 2 and has a population around 340 thousand people. The capital is the town of Maumere, which comprises the districts of Alok Barat, Alok and Alok Timur (although the last two also include a number of inhabited islands to the north of Flores such as Besar and Babi).\n\nPrior to Indonesian independence, much of the present-day regency was part of the Kingdom of Sikka. The founding of the kingdom, associated with its first raja ' s adoption of Catholicism, is generally celebrated as 1607. The kingdom was initially centered in Sikka Natar on the south coast, today the village of Sikka in Lela district of the regency. The kingdom from its outset was strongly influenced by the Portuguese, in particular \" Black Portuguese \" residing in Timor. Portuguese colonial authorities transferred Sikka, along with its remaining holdings in Flores, to the Dutch East Indies in 1859.\n\nThe Dutch would establish a new seat of government in Maumere, and by the late 1910s the raja of Sikka had also moved ",
+    "stage1_score": -6.63974142074585,
+    "multimodal_score": -3.6768698692321777,
     "is_disambiguation": false,
     "source_query": "fixth pigans feventh pocrites"
   },
   "all_candidates": [
-    {
-      "page_id": "22710296",
-      "revision_id": "1326413917",
-      "title": "Miss France 2009",
-      "url": "https://en.wikipedia.org/wiki/Miss_France_2009",
-      "bm25_score": 14.439043045043945,
-      "excerpt": "Miss France 2009, the 62nd edition of the Miss France pageant, was held in Puy du Fou, Pays de la Loire on December 6, 2008.\n\nIt was the first time that the pageant took place in Puy du Fou and the Pays de la Loire region.\n\nThe ceremony was held at TF1, and was presented by Jean-Pierre Foucault and the national director Sylvie Tellier.\n\nChloé Mortaud of Albigeois Midi-Pyrénées was crowned Miss France 2009 by the outgoing title-holder Valérie Bègue of Réunion, Miss France 2008. She represented France at Miss World 2009 where she placed among Top 7 finalists. She also placed in Top 10 in Miss Universe 2009.\n\nMiss Albigeois Midi-Pyrenees, Chloé Mortaud, is American.\n\nMiss Brittany, Bianca Taillard, has got Malagasy origins.\n\nMiss Flandre, Éméné Nyamé, has got Algerian and Cameroonian origins.\n\nMiss Languedoc-Roussillon, Cindy Filipiak, has many titles : 1st runner-up of Miss Montpellier 2006, 2nd runner-up of Miss Canton of Pigan, 1st runner-up of Miss Hérault 2006, Miss Perolls 2007 and Miss Hérault 2007.\n\nMiss Martinique, Laura Fidi, has got Senegalese origins.\n\nMiss New Caledonia, Aurélia Morelli, has got Corsican, Arabic, Tahitian and Japanese origins.\n\nMiss Paris, Sarah Barzyk, i",
-      "stage1_score": null,
-      "multimodal_score": null,
-      "is_disambiguation": false,
-      "source_query": "fixth pigans feventh pocrites"
-    },
     {
       "page_id": "3709808",
       "revision_id": "1352263131",
@@ -38,20 +26,8 @@
       "url": "https://en.wikipedia.org/wiki/Sikka_Regency",
       "bm25_score": 9.763751983642578,
       "excerpt": "Sikka is a regency within East Nusa Tenggara province, Indonesia, on the island of Flores. It is bordered to the west by Ende Regency and to the east by East Flores Regency. It covers an area of 1,675.36 km 2 and has a population around 340 thousand people. The capital is the town of Maumere, which comprises the districts of Alok Barat, Alok and Alok Timur (although the last two also include a number of inhabited islands to the north of Flores such as Besar and Babi).\n\nPrior to Indonesian independence, much of the present-day regency was part of the Kingdom of Sikka. The founding of the kingdom, associated with its first raja ' s adoption of Catholicism, is generally celebrated as 1607. The kingdom was initially centered in Sikka Natar on the south coast, today the village of Sikka in Lela district of the regency. The kingdom from its outset was strongly influenced by the Portuguese, in particular \" Black Portuguese \" residing in Timor. Portuguese colonial authorities transferred Sikka, along with its remaining holdings in Flores, to the Dutch East Indies in 1859.\n\nThe Dutch would establish a new seat of government in Maumere, and by the late 1910s the raja of Sikka had also moved ",
-      "stage1_score": null,
-      "multimodal_score": null,
-      "is_disambiguation": false,
-      "source_query": "fixth pigans feventh pocrites"
-    },
-    {
-      "page_id": "11426",
-      "revision_id": "1344917103",
-      "title": "Flores",
-      "url": "https://en.wikipedia.org/wiki/Flores",
-      "bm25_score": 3.8883235454559326,
-      "excerpt": "Flores is one of the Lesser Sunda Islands, a group of islands in the eastern half of Indonesia. Administratively, it forms the largest island in the East Nusa Tenggara Province. The area is 14,250 km 2. Including Komodo and Rinca islands off its west coast (but excluding the Solor Archipelago to the east of Flores), the population was 1,878,875 in the 2020 Census (including various offshore islands); the official estimate as of mid-2024 was 2,014,110. The largest towns are Ende and Maumere. The name Flores is of Portuguese origin, meaning \"Flowers\".\n\nFlores is located east of Sumbawa and the Komodo Islands, and west of the Solor Islands and the Alor Archipelago. To the southeast is Timor. To the south, across the Sumba Strait, is Sumba Island, and to the north, beyond the Flores Sea, is Sulawesi.\n\nAmong all islands containing Indonesian territory, Flores is the 10th most populous after Java, Sumatra, Borneo (Kalimantan), Sulawesi, New Guinea, Bali, Madura, Lombok, and Timor, and also the 10th biggest island of Indonesia.\n\nUntil the arrival of modern humans, Flores was inhabited by Homo floresiensis, a small archaic human.\n\nUnlike most islands in the Indonesian archipelago, the mode",
-      "stage1_score": null,
-      "multimodal_score": null,
+      "stage1_score": -6.63974142074585,
+      "multimodal_score": -3.6768698692321777,
       "is_disambiguation": false,
       "source_query": "fixth pigans feventh pocrites"
     },
@@ -62,12 +38,36 @@
       "url": "https://en.wikipedia.org/wiki/Traditional_English_pronunciation_of_Latin",
       "bm25_score": 1.6031463146209717,
       "excerpt": "The traditional English pronunciation of Latin, and Classical Greek words borrowed through Latin, is the way the Latin language was traditionally pronounced by speakers of English until the early 20th century. Although this pronunciation is no longer taught in Latin classes, it is still broadly used in the fields of biology, law, and medicine.\n\nIn the Middle Ages speakers of English, from Middle English onward, pronounced Latin not as the ancient Romans did, but in the way that had developed among speakers of French. This traditional pronunciation then became closely linked to the pronunciation of English, and as the pronunciation of English changed with time, the English pronunciation of Latin changed as well.\n\nUntil the beginning of the 19th century all English speakers used this pronunciation, including Roman Catholics for liturgical purposes. Following Catholic emancipation in Britain in 1829 and the subsequent Oxford Movement, newly converted Catholics preferred the Italianate pronunciation, which became the norm for the Catholic liturgy. Meanwhile, scholarly proposals were made for a reconstructed Classical pronunciation, close to the pronunciation used in the late Roman Repu",
-      "stage1_score": null,
+      "stage1_score": -6.49912691116333,
+      "multimodal_score": -3.9230799674987793,
+      "is_disambiguation": false,
+      "source_query": "fixth pigans feventh pocrites"
+    },
+    {
+      "page_id": "11426",
+      "revision_id": "1344917103",
+      "title": "Flores",
+      "url": "https://en.wikipedia.org/wiki/Flores",
+      "bm25_score": 3.8883235454559326,
+      "excerpt": "Flores is one of the Lesser Sunda Islands, a group of islands in the eastern half of Indonesia. Administratively, it forms the largest island in the East Nusa Tenggara Province. The area is 14,250 km 2. Including Komodo and Rinca islands off its west coast (but excluding the Solor Archipelago to the east of Flores), the population was 1,878,875 in the 2020 Census (including various offshore islands); the official estimate as of mid-2024 was 2,014,110. The largest towns are Ende and Maumere. The name Flores is of Portuguese origin, meaning \"Flowers\".\n\nFlores is located east of Sumbawa and the Komodo Islands, and west of the Solor Islands and the Alor Archipelago. To the southeast is Timor. To the south, across the Sumba Strait, is Sumba Island, and to the north, beyond the Flores Sea, is Sulawesi.\n\nAmong all islands containing Indonesian territory, Flores is the 10th most populous after Java, Sumatra, Borneo (Kalimantan), Sulawesi, New Guinea, Bali, Madura, Lombok, and Timor, and also the 10th biggest island of Indonesia.\n\nUntil the arrival of modern humans, Flores was inhabited by Homo floresiensis, a small archaic human.\n\nUnlike most islands in the Indonesian archipelago, the mode",
+      "stage1_score": -6.2866082191467285,
+      "multimodal_score": -4.234461784362793,
+      "is_disambiguation": false,
+      "source_query": "fixth pigans feventh pocrites"
+    },
+    {
+      "page_id": "22710296",
+      "revision_id": "1326413917",
+      "title": "Miss France 2009",
+      "url": "https://en.wikipedia.org/wiki/Miss_France_2009",
+      "bm25_score": 14.439043045043945,
+      "excerpt": "Miss France 2009, the 62nd edition of the Miss France pageant, was held in Puy du Fou, Pays de la Loire on December 6, 2008.\n\nIt was the first time that the pageant took place in Puy du Fou and the Pays de la Loire region.\n\nThe ceremony was held at TF1, and was presented by Jean-Pierre Foucault and the national director Sylvie Tellier.\n\nChloé Mortaud of Albigeois Midi-Pyrénées was crowned Miss France 2009 by the outgoing title-holder Valérie Bègue of Réunion, Miss France 2008. She represented France at Miss World 2009 where she placed among Top 7 finalists. She also placed in Top 10 in Miss Universe 2009.\n\nMiss Albigeois Midi-Pyrenees, Chloé Mortaud, is American.\n\nMiss Brittany, Bianca Taillard, has got Malagasy origins.\n\nMiss Flandre, Éméné Nyamé, has got Algerian and Cameroonian origins.\n\nMiss Languedoc-Roussillon, Cindy Filipiak, has many titles : 1st runner-up of Miss Montpellier 2006, 2nd runner-up of Miss Canton of Pigan, 1st runner-up of Miss Hérault 2006, Miss Perolls 2007 and Miss Hérault 2007.\n\nMiss Martinique, Laura Fidi, has got Senegalese origins.\n\nMiss New Caledonia, Aurélia Morelli, has got Corsican, Arabic, Tahitian and Japanese origins.\n\nMiss Paris, Sarah Barzyk, i",
+      "stage1_score": -6.7588019371032715,
       "multimodal_score": null,
       "is_disambiguation": false,
       "source_query": "fixth pigans feventh pocrites"
     }
   ],
-  "article_text_sha256": "d4fe528250a64bab9a9a21d6cc4fd9d8f2d685c94cac22841a3b00d02a041c6f",
-  "decision_rationale": "Accepted candidate 'Miss France 2009' using BM25 score 14.44 (retrieval scores not computed)."
+  "article_text_sha256": "69913326099e22c21cf84df19e600a9ddff2475dc31ab6000afd9110585a2a36",
+  "decision_rationale": "Accepted candidate 'Sikka Regency' with relevance score -3.6769 >= threshold -4.5."
 }

@@ -1,0 +1,218 @@
+{
+  "entry_id": "entry-et-h-797-e-t-h-1415",
+  "britannica_title": "ET H  797  E T H",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1415"
+  ],
+  "britannica_sha256": "5b62a626f11bc3cb5f30088b824947c99a1322b9bc7635a9acfa5a4d0f77beb7",
+  "britannica_raw_chars": 6948,
+  "britannica_tokens": 589,
+  "britannica_unique_tokens": 452,
+  "wikipedia_page_id": "34323422",
+  "wikipedia_revision_id": "1347576211",
+  "wikipedia_title": "Ethopia",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Ethopia",
+  "wikipedia_text_sha256": "3d94a07fe2a605030c2a343ea4e259b3a985c0ae89a718d923228b2b7c6b1523",
+  "wikipedia_raw_chars": 209,
+  "wikipedia_tokens": 19,
+  "wikipedia_unique_tokens": 13,
+  "length_ratio": 0.03,
+  "text_changes": [
+    {
+      "rule": "archaic_spelling",
+      "original": "colour",
+      "replacement": "color",
+      "count": 2,
+      "samples": [
+        "refl of a dark colour. The flowers o",
+        "eautiful white colour; but it does n"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "rec-\n\nmarkable",
+      "replacement": "recmarkable",
+      "count": 1,
+      "samples": [
+        "rec-\n\nmarkable"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "clofe",
+      "replacement": "close",
+      "count": 1,
+      "samples": [
+        "ance, and keep clofe at home. It is"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "feeds",
+      "replacement": "seeds",
+      "count": 1,
+      "samples": [
+        "ve on grain or feeds of various kin"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fown",
+      "replacement": "sown",
+      "count": 1,
+      "samples": [
+        "liage, is alto fown very generally"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fprings",
+      "replacement": "springs",
+      "count": 2,
+      "samples": [
+        "ed in the fall fprings but, being for",
+        "ats when theft fprings were funded by"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fun",
+      "replacement": "sun",
+      "count": 1,
+      "samples": [
+        "rn towards the fun like that of t"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "ufed",
+      "replacement": "used",
+      "count": 1,
+      "samples": [
+        "ch Echiopia is ufed for common dri"
+      ]
+    }
+  ],
+  "metrics": {
+    "jaccard_raw": 0.0022,
+    "jaccard_normalized": 0.0022,
+    "cosine_tfidf": 0.0453,
+    "cosine_embedding": 0.1354,
+    "distinctive_britannica": [
+      "made",
+      "kind",
+      "great",
+      "country",
+      "tree",
+      "like",
+      "parts",
+      "beautiful",
+      "feet",
+      "flowers",
+      "every",
+      "common",
+      "animals",
+      "wild",
+      "white"
+    ],
+    "distinctive_wikipedia": [
+      "ethopia",
+      "edition",
+      "described",
+      "genus",
+      "walker",
+      "britannica",
+      "francis",
+      "moths",
+      "yang",
+      "articles",
+      "volumes",
+      "listed",
+      "published",
+      "pages",
+      "dia"
+    ],
+    "shared_terms": [
+      "ethopia"
+    ]
+  },
+  "aligned_chunks": [
+    {
+      "britannica_chunk_index": 0,
+      "wikipedia_chunk_index": 0,
+      "similarity": 0.1935,
+      "britannica_excerpt": "Ethopia, make a very beautiful appearance. The whole plant is full of a very serd and caulite milk. 7. Rack is a large tree, growing too only to: Alyffinia but in the places of Aries Felds. Its word was not touch it; for which reason it is ",
+      "wikipedia_excerpt": "Ethopia is a genus of snout moths. It was described by Francis Walker in 1865.\n\nEthopia gigantea Owada, 1986\n\nEthopia polyisogramma Wu & Yang, 2007\n\nEthopia roseilinea Walker, 1865\n\nEthopia sapa Wu & Yang 2007"
+    },
+    {
+      "britannica_chunk_index": 5,
+      "wikipedia_chunk_index": 0,
+      "similarity": 0.1249,
+      "britannica_excerpt": "grain a fourrifi liquor called _loza_ is prepared, which Echiopia is used for common drink like our final beer. A li- queor of the fine kind, but of inferior quality, is made from barley cakes. Some have been of opinion, that the uife of tr",
+      "wikipedia_excerpt": "Ethopia is a genus of snout moths. It was described by Francis Walker in 1865.\n\nEthopia gigantea Owada, 1986\n\nEthopia polyisogramma Wu & Yang, 2007\n\nEthopia roseilinea Walker, 1865\n\nEthopia sapa Wu & Yang 2007"
+    },
+    {
+      "britannica_chunk_index": 10,
+      "wikipedia_chunk_index": 0,
+      "similarity": 0.0974,
+      "britannica_excerpt": "There are other birds which feed upon infects, and multitles which live on grain or seeds of various kinds all of which are simply supplied by the moments of guests of fruits and berries which grow in Abyffinis, and are ripe at all feathers",
+      "wikipedia_excerpt": "Ethopia is a genus of snout moths. It was described by Francis Walker in 1865.\n\nEthopia gigantea Owada, 1986\n\nEthopia polyisogramma Wu & Yang, 2007\n\nEthopia roseilinea Walker, 1865\n\nEthopia sapa Wu & Yang 2007"
+    }
+  ],
+  "topic_id": 5,
+  "topic_terms": [
+    "every",
+    "people",
+    "upon"
+  ],
+  "claims": [
+    {
+      "claim_text": "The Britannica entry \"ET H  797  E T H\" uses 590 content tokens while the Wikipedia article \"Ethopia\" uses 19; their normalized vocabularies share a Jaccard overlap of 0.0022 (raw 0.0022) and a TF-IDF cosine similarity of 0.0453.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1415"
+      ],
+      "britannica_quote": "Ethopia, make a very beautiful appearance. The whole plant is full of a very serd and caulite milk. 7. Rack is a large tree, growing too only to: Alyffinia but in the places of Aries Felds. Its word was not touch it; for which reason it is ",
+      "wikipedia_page_id": "34323422",
+      "wikipedia_revision_id": "1347576211",
+      "wikipedia_quote": "Ethopia is a genus of snout moths. It was described by Francis Walker in 1865.\n\nEthopia gigantea Owada, 1986\n\nEthopia polyisogramma Wu & Yang, 2007\n\nEthopia roseilinea Walker, 1865\n\nEthopia sapa Wu & Yang 2007"
+    },
+    {
+      "claim_text": "Britannica's most distinctive term is \"made\"; Wikipedia's is \"ethopia\", showing the era-specific vocabulary of each source.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1415"
+      ],
+      "britannica_quote": "Has a fruit like a ben, or a red colony, the red colony aged we made of us a weight for gold and diamonds; and hence Mr Brue is of opinion that the name of the imaginary weight _canal_ be derived.",
+      "wikipedia_page_id": "34323422",
+      "wikipedia_revision_id": "1347576211",
+      "wikipedia_quote": "Ethopia is a genus of snout moths."
+    },
+    {
+      "claim_text": "Both sources share core vocabulary including: ethopia.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1415"
+      ],
+      "britannica_quote": "Ethopia, make a very beautiful appearance.",
+      "wikipedia_page_id": "34323422",
+      "wikipedia_revision_id": "1347576211",
+      "wikipedia_quote": "Ethopia is a genus of snout moths."
+    },
+    {
+      "claim_text": "8 normalization rules fired on the Britannica text (\"colour\" -> \"color\"; \"rec-\n\nmarkable\" -> \"recmarkable\"; \"clofe\" -> \"close\"); residual vocabulary differences likely reflect era terminology rather than OCR noise alone.",
+      "claim_type": "inference",
+      "label": "[inference]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1415"
+      ],
+      "britannica_quote": "refl of a dark colour. The flowers o",
+      "wikipedia_page_id": "34323422",
+      "wikipedia_revision_id": "1347576211",
+      "wikipedia_quote": "Ethopia is a genus of snout moths. It was described by Francis Walker in 1865.\n\nEthopia gigantea Owada, 1986\n\nEthopia polyisogramma Wu & Yang, 2007\n\nEthopia roseilinea Walker, 1865\n\nEthopia sapa Wu & Yang 2007"
+    }
+  ]
+}

@@ -5,29 +5,41 @@
     "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1939"
   ],
   "matched": true,
-  "status": "accepted_bm25_only",
+  "status": "accepted",
   "selected_candidate": {
-    "page_id": "17905790",
-    "revision_id": "1153536531",
-    "title": "Eucalyptus oleosa",
-    "url": "https://en.wikipedia.org/wiki/Eucalyptus_oleosa",
-    "bm25_score": 18.942533493041992,
-    "excerpt": "Eucalyptus oleosa, commonly known as the red mallee, glossy-leaved red mallee, acorn mallee, oil mallee or giant mallee, is a tree or mallee that is native to Australia. The leaves were once harvested for the production of cineole based eucalyptus oil. Eucalyptus cneorifolia is now the predominant strain used in production due to a higher oil content in new growth.\n\nEucalyptus oleosa is a multi-stemmed tree or mallee that typically grows to a height of 11 to 12 metres (36 to 39 ft) and has rough fibrous brown bark at the base that becomes smooth and grey above. It blooms between November and December producing yellow flowers. The adult leaves are around 130 millimetres (5.1 in) in length and 19 mm (0.7 in) wide. They have a narrow-lanceolate to lanceolate shape and are glossy and green in colour. The flowers are arranged in leaf axils in groups of between seven and eleven. Smooth buds form later with a length of approximately to 10 mm (0.4 in) and a width of 4.5 mm (0.18 in). The bud-cap is cone-shaped to cylinder-shaped. Fruits are round-shaped with a diameter of about 7 mm (0.28 in) with a descending disc and 3 or 4 valves exserted with attenuate tips. The seeds are dark brown wi",
-    "stage1_score": null,
-    "multimodal_score": null,
+    "page_id": "26118043",
+    "revision_id": "1064267287",
+    "title": "Etlingera fulgens",
+    "url": "https://en.wikipedia.org/wiki/Etlingera_fulgens",
+    "bm25_score": 16.825746536254883,
+    "excerpt": "Etlingera fulgens is a species of herbaceous perennial plant of the family Zingiberaceae. This species occurs in southern Thailand and peninsular Malaysia. E. fulgens is used as an ornamental plant in landscape gardens for its bright red flowers and young leaves.\n\nEtlingera fulgens can be recognized by its shiny undulating leaves that are dark green in colour. When young, the undersides of its leaves are bright red in color, turning greenish on maturing. In older leaves, only the petiole and midrib are red. Petioles are 1.5–2.0 cm (0.6–0.8 in) in length. Rhizomes, 3 cm (1.2 in) in diameter, occur just below the ground. The plant can grow up to 5 m (16 ft) tall. Crushed leaf sheaths emit a pleasant sour fragrance similar to that of Etlingera elatior. Inflorescences are raised above the ground and infructescences are globular in shape.\n\nLeaves of E. fulgens displayed stronger ferrous ion- chelating ability than young leaves of Camellia sinensis. Chlorogenic acid found in leaves of E. fulgens was higher in content than Lonicera japonica (Japanese honeysuckle), the commercial source. Fruit and rhizome oils of E. fulgens are mainly aliphatic hydrocarbons with cyclododecane, dodecanol, a",
+    "stage1_score": -5.8166584968566895,
+    "multimodal_score": -3.4746017456054688,
     "is_disambiguation": false,
     "source_query": "Efential oil of fuerin leaves L E"
   },
   "all_candidates": [
     {
-      "page_id": "17905790",
-      "revision_id": "1153536531",
-      "title": "Eucalyptus oleosa",
-      "url": "https://en.wikipedia.org/wiki/Eucalyptus_oleosa",
-      "bm25_score": 18.942533493041992,
-      "excerpt": "Eucalyptus oleosa, commonly known as the red mallee, glossy-leaved red mallee, acorn mallee, oil mallee or giant mallee, is a tree or mallee that is native to Australia. The leaves were once harvested for the production of cineole based eucalyptus oil. Eucalyptus cneorifolia is now the predominant strain used in production due to a higher oil content in new growth.\n\nEucalyptus oleosa is a multi-stemmed tree or mallee that typically grows to a height of 11 to 12 metres (36 to 39 ft) and has rough fibrous brown bark at the base that becomes smooth and grey above. It blooms between November and December producing yellow flowers. The adult leaves are around 130 millimetres (5.1 in) in length and 19 mm (0.7 in) wide. They have a narrow-lanceolate to lanceolate shape and are glossy and green in colour. The flowers are arranged in leaf axils in groups of between seven and eleven. Smooth buds form later with a length of approximately to 10 mm (0.4 in) and a width of 4.5 mm (0.18 in). The bud-cap is cone-shaped to cylinder-shaped. Fruits are round-shaped with a diameter of about 7 mm (0.28 in) with a descending disc and 3 or 4 valves exserted with attenuate tips. The seeds are dark brown wi",
-      "stage1_score": null,
-      "multimodal_score": null,
+      "page_id": "26118043",
+      "revision_id": "1064267287",
+      "title": "Etlingera fulgens",
+      "url": "https://en.wikipedia.org/wiki/Etlingera_fulgens",
+      "bm25_score": 16.825746536254883,
+      "excerpt": "Etlingera fulgens is a species of herbaceous perennial plant of the family Zingiberaceae. This species occurs in southern Thailand and peninsular Malaysia. E. fulgens is used as an ornamental plant in landscape gardens for its bright red flowers and young leaves.\n\nEtlingera fulgens can be recognized by its shiny undulating leaves that are dark green in colour. When young, the undersides of its leaves are bright red in color, turning greenish on maturing. In older leaves, only the petiole and midrib are red. Petioles are 1.5–2.0 cm (0.6–0.8 in) in length. Rhizomes, 3 cm (1.2 in) in diameter, occur just below the ground. The plant can grow up to 5 m (16 ft) tall. Crushed leaf sheaths emit a pleasant sour fragrance similar to that of Etlingera elatior. Inflorescences are raised above the ground and infructescences are globular in shape.\n\nLeaves of E. fulgens displayed stronger ferrous ion- chelating ability than young leaves of Camellia sinensis. Chlorogenic acid found in leaves of E. fulgens was higher in content than Lonicera japonica (Japanese honeysuckle), the commercial source. Fruit and rhizome oils of E. fulgens are mainly aliphatic hydrocarbons with cyclododecane, dodecanol, a",
+      "stage1_score": -5.8166584968566895,
+      "multimodal_score": -3.4746017456054688,
+      "is_disambiguation": false,
+      "source_query": "Efential oil of fuerin leaves L E"
+    },
+    {
+      "page_id": "22388181",
+      "revision_id": "1319297857",
+      "title": "Tordylium apulum",
+      "url": "https://en.wikipedia.org/wiki/Tordylium_apulum",
+      "bm25_score": 16.672962188720703,
+      "excerpt": "Tordylium apulum, commonly known as the Mediterranean hartwort, is an annual forb or herb. It is classified within the family Apiaceae, the carrot family. It is native to Europe and Western Asia, but has been introduced to the United States, where it is now found only in Arizona. This plant's seeds are suggested as the plant model used for the famous gold \" Malia Pendant \", a jewel of high quality gold-smithery of the Minoan times now on display at the Heraklion Archaeological Museum.\n\nThe name Hartwort, meaning ‘Deer plant’ is a scholarly coinage from the belief, first recorded by Aristotle that female deer sought out the leaves of the plant to eat, after giving birth. If true, this observation might indicate medicinal or nutritive properties in the plant preventative of post-partum haemorrhage.\n\nThe Mediterranean hartwort usually grows to 20-50 centimeters in height. It has an erect stem that is branched with soft, spreading hairs at the base, and scattered hairs along the rest of the stem. The leaves are softly hairy and pinnate, with the lower leaves being oval with toothed segments, and the upper leaves having linear segments. It has 2-8 primary rays. The marginal flowers each",
+      "stage1_score": -6.144870281219482,
+      "multimodal_score": -4.5839409828186035,
       "is_disambiguation": false,
       "source_query": "Efential oil of fuerin leaves L E"
     },
@@ -38,8 +50,8 @@
       "url": "https://en.wikipedia.org/wiki/Oil",
       "bm25_score": 18.68476104736328,
       "excerpt": "Oil is a liquid with varying degrees of viscosity depending on temperature. Oil is any nonpolar chemical substance that is composed primarily of hydrocarbons and is hydrophobic and lipophilic. Oils are usually flammable and surface active. Most oils are unsaturated lipids that are liquid at room temperature.\n\nThe general definition of oil includes classes of chemical compounds that may be otherwise unrelated in structure, properties, and uses. Oils may be animal, vegetable, or petrochemical in origin, and may be volatile or non-volatile. They are used for food (e.g., olive oil), fuel (e.g., heating oil), medical purposes (e.g., mineral oil), lubrication (e.g. motor oil), and the manufacture of many types of paints, plastics, and other materials. Specially prepared oils are used in some religious ceremonies and rituals as purifying agents.\n\nFirst usage in a form resembling the modern is in Anglo-Norman before (a)1300 in Land of Cokaygne in Middle English from Old French oile as a consequence of influence of Edward the Confessor (1042–1066) and after the killing of King Harold on 14 October 1066 after the 1066 invasion from Normandy, the earliest extant source a translation from Lati",
-      "stage1_score": null,
-      "multimodal_score": null,
+      "stage1_score": -5.866422176361084,
+      "multimodal_score": -4.698556900024414,
       "is_disambiguation": false,
       "source_query": "Efential oil of fuerin leaves L E"
     },
@@ -50,7 +62,19 @@
       "url": "https://en.wikipedia.org/wiki/Agathosma",
       "bm25_score": 18.150299072265625,
       "excerpt": "Agathosma is a genus of about 140 species of flowering plants in the family Rutaceae, native to the southern part of Africa. Common names include buchu, boegoe, bucco, bookoo, and diosma. Buchu formally denotes two herbal species, prized for their fragrance and medicinal use despite their toxicity. In colloquial use however, the term (see Boegoe) is applied to a wider set of fragrant shrubs or substitutes.\n\nThey are small shrubs and subshrubs, mostly with erect woody stems reaching 30–100 cm (1–3 ft) tall, but low-growing and prostrate in some species. The leaves are usually opposite, ericoid, often crowded, simple, entire, from 0.5 to 3.5 cm (1 ⁄ 4 to 1 + 1 ⁄ 2 in) long. The flowers are produced in terminal clusters, 0.7–2 cm (1 ⁄ 4 – 3 ⁄ 4 in) diameter, with five white, pink, red or purple, petals.\n\nMany of the species are highly aromatic, and the genus name means \"good fragrance\". Some species of the genus are used as herbal remedies.\n\nTwo species of Agathosma endemic to the Western Cape mountains of South Africa and colloquially referred to as \"buchu\" are cultivated on a commercial basis for their essential oils, Agathosma betulina and Agathosma crenulata. The leaves of Agathos",
-      "stage1_score": null,
+      "stage1_score": -6.212773323059082,
+      "multimodal_score": null,
+      "is_disambiguation": false,
+      "source_query": "Efential oil of fuerin leaves L E"
+    },
+    {
+      "page_id": "17905790",
+      "revision_id": "1153536531",
+      "title": "Eucalyptus oleosa",
+      "url": "https://en.wikipedia.org/wiki/Eucalyptus_oleosa",
+      "bm25_score": 18.942533493041992,
+      "excerpt": "Eucalyptus oleosa, commonly known as the red mallee, glossy-leaved red mallee, acorn mallee, oil mallee or giant mallee, is a tree or mallee that is native to Australia. The leaves were once harvested for the production of cineole based eucalyptus oil. Eucalyptus cneorifolia is now the predominant strain used in production due to a higher oil content in new growth.\n\nEucalyptus oleosa is a multi-stemmed tree or mallee that typically grows to a height of 11 to 12 metres (36 to 39 ft) and has rough fibrous brown bark at the base that becomes smooth and grey above. It blooms between November and December producing yellow flowers. The adult leaves are around 130 millimetres (5.1 in) in length and 19 mm (0.7 in) wide. They have a narrow-lanceolate to lanceolate shape and are glossy and green in colour. The flowers are arranged in leaf axils in groups of between seven and eleven. Smooth buds form later with a length of approximately to 10 mm (0.4 in) and a width of 4.5 mm (0.18 in). The bud-cap is cone-shaped to cylinder-shaped. Fruits are round-shaped with a diameter of about 7 mm (0.28 in) with a descending disc and 3 or 4 valves exserted with attenuate tips. The seeds are dark brown wi",
+      "stage1_score": -6.267204284667969,
       "multimodal_score": null,
       "is_disambiguation": false,
       "source_query": "Efential oil of fuerin leaves L E"
@@ -62,7 +86,7 @@
       "url": "https://en.wikipedia.org/wiki/Chief_Roughneck_Award",
       "bm25_score": 17.096389770507812,
       "excerpt": "The Chief Roughneck Award has presented annually since 1955 by U.S. Steel Tubular Products, Inc., a subsidiary of United States Steel Corporation. It honors the highest ideals of the petroleum industry and is awarded to honor the achievements and character of a petroleum executive. Recently it has been presented at the annual meeting of the Independent Petroleum Association of America in San Antonio, Texas.\n\nThe bronze Joe Roughneck bust, created by Torg Thompson and presented to each Chief Roughneck recipient, began life in Lone Star Steel Company print advertising.\n\nJoe Roughneck's sculpture has been dedicated in several oil patch parks, saluted by governors, and featured in newspaper and magazine articles.\n\nThe award is recognized as one of the most meaningful honors in the industry; the award and the character behind it symbolize the spirit, determination, leadership and integrity of individuals who have made a lasting impression on the energy industry.\n\n2014 – Jeffrey L. Ventura, president and chief executive officer, Range Resources\n\n2013 – Bruce H. Vincent, president and director, Swift Energy Company\n\n2012 – Charles D. Davidson, chairman and CEO, Noble Energy, Inc.\n\n2011 – ",
-      "stage1_score": null,
+      "stage1_score": -6.272241115570068,
       "multimodal_score": null,
       "is_disambiguation": false,
       "source_query": "Efential oil of fuerin leaves L E"
@@ -74,7 +98,7 @@
       "url": "https://en.wikipedia.org/wiki/Crambe",
       "bm25_score": 16.983264923095703,
       "excerpt": "Crambe is a genus of annual and perennial flowering plants in the family Brassicaceae, native to a variety of habitats in Europe, Turkey, southwest and central Asia and eastern Africa. They carry dense racemes of tiny white or yellow flowers on (mostly leafless) stems above the basal leaves. Crambe hispanica subsp. abyssinica, formerly known as Crambe abyssinica, is grown for the oil from the seeds that has characteristics similar to whale oil.\n\nThe word \"crambe\" derives, via the Latin crambe, from the Greek κράμβη, a kind of cabbage.\n\nCrambe species are used as food plants by the larvae of the weevil Lixus canescens (Coleoptera) and some Lepidoptera species including the lime-speck pug.\n\nCurrently accepted species include:\n\nCrambe alutacea Hand.-Mazz.\n\nCrambe arborea Webb ex Christ\n\nCrambe armena N.Busch\n\nCrambe cordifolia Steven\n\nCrambe edentula Fisch. & C.A.Mey. ex Korsh.\n\nCrambe feuilleei A.Santos ex Prina & Mart.-Laborde\n\nCrambe filiformis Jacq.\n\nCrambe fruticosa L.f.\n\nCrambe gigantea (Ceballos & Ortuño) Bramwell\n\nCrambe gomeraea Webb ex Christ\n\nCrambe gordjagini Sprygin & Popov\n\nCrambe grandiflora DC.\n\nCrambe grossheimii I.I.Khalilov\n\nCrambe hedgei I.I.Khalilov\n\nCrambe hispan",
-      "stage1_score": null,
+      "stage1_score": -6.322328567504883,
       "multimodal_score": null,
       "is_disambiguation": false,
       "source_query": "Efential oil of fuerin leaves L E"
@@ -86,36 +110,12 @@
       "url": "https://en.wikipedia.org/wiki/Hydnocarpus",
       "bm25_score": 16.93484878540039,
       "excerpt": "Hydnocarpus is a genus of medium to large trees in the family Achariaceae; the genus was previously placed in the now defunct family Flacourtiaceae. Species have been recorded from Indochina, Indonesia, Malaysia and the Philippines.\n\nHydnocarpus has alternate leaves, small dioecious racemose flowers, and capsules of which several are sources of chaulmoogra oil and hydnocarpus oil. A species of Hydnocarpus is thought to host to the Peacock mite Tuckerella filipina.\n\nPlants of the World Online currently includes:\n\nHydnocarpus alcalae C.DC.\n\nHydnocarpus alpinus Wight (H.alpina)\n\nHydnocarpus annamensis Lescot & Sleumer ex Harwood & B.L.Webber\n\nHydnocarpus annamicus H.L.Li\n\nHydnocarpus anomalus (Merr.) Sleumer\n\nHydnocarpus anthelminithicus (Merr.) Sleumer\n\nHydnocarpus beccarianus Sleumer\n\nHydnocarpus borneensis Sleumer\n\nHydnocarpus calophyllus (Ridl.) Sleumer\n\nHydnocarpus calvipetalus Craib\n\nHydnocarpus castaneus Hook.f. & Thomson\n\nsynonym: (sic) Pierre ex Laness.\n\nHydnocarpus cauliflorus Merr.\n\nHydnocarpus corymbosus Seem.\n\nHydnocarpus crassifolius Sleumer\n\nHydnocarpus cucurbitinus King (H. cucurbitana)\n\nHydnocarpus curtisii King\n\nHydnocarpus dawnensis C.E.Parkinson & C.E.C.Fisch.\n\nHyd",
-      "stage1_score": null,
-      "multimodal_score": null,
-      "is_disambiguation": false,
-      "source_query": "Efential oil of fuerin leaves L E"
-    },
-    {
-      "page_id": "26118043",
-      "revision_id": "1064267287",
-      "title": "Etlingera fulgens",
-      "url": "https://en.wikipedia.org/wiki/Etlingera_fulgens",
-      "bm25_score": 16.825746536254883,
-      "excerpt": "Etlingera fulgens is a species of herbaceous perennial plant of the family Zingiberaceae. This species occurs in southern Thailand and peninsular Malaysia. E. fulgens is used as an ornamental plant in landscape gardens for its bright red flowers and young leaves.\n\nEtlingera fulgens can be recognized by its shiny undulating leaves that are dark green in colour. When young, the undersides of its leaves are bright red in color, turning greenish on maturing. In older leaves, only the petiole and midrib are red. Petioles are 1.5–2.0 cm (0.6–0.8 in) in length. Rhizomes, 3 cm (1.2 in) in diameter, occur just below the ground. The plant can grow up to 5 m (16 ft) tall. Crushed leaf sheaths emit a pleasant sour fragrance similar to that of Etlingera elatior. Inflorescences are raised above the ground and infructescences are globular in shape.\n\nLeaves of E. fulgens displayed stronger ferrous ion- chelating ability than young leaves of Camellia sinensis. Chlorogenic acid found in leaves of E. fulgens was higher in content than Lonicera japonica (Japanese honeysuckle), the commercial source. Fruit and rhizome oils of E. fulgens are mainly aliphatic hydrocarbons with cyclododecane, dodecanol, a",
-      "stage1_score": null,
-      "multimodal_score": null,
-      "is_disambiguation": false,
-      "source_query": "Efential oil of fuerin leaves L E"
-    },
-    {
-      "page_id": "22388181",
-      "revision_id": "1319297857",
-      "title": "Tordylium apulum",
-      "url": "https://en.wikipedia.org/wiki/Tordylium_apulum",
-      "bm25_score": 16.672962188720703,
-      "excerpt": "Tordylium apulum, commonly known as the Mediterranean hartwort, is an annual forb or herb. It is classified within the family Apiaceae, the carrot family. It is native to Europe and Western Asia, but has been introduced to the United States, where it is now found only in Arizona. This plant's seeds are suggested as the plant model used for the famous gold \" Malia Pendant \", a jewel of high quality gold-smithery of the Minoan times now on display at the Heraklion Archaeological Museum.\n\nThe name Hartwort, meaning ‘Deer plant’ is a scholarly coinage from the belief, first recorded by Aristotle that female deer sought out the leaves of the plant to eat, after giving birth. If true, this observation might indicate medicinal or nutritive properties in the plant preventative of post-partum haemorrhage.\n\nThe Mediterranean hartwort usually grows to 20-50 centimeters in height. It has an erect stem that is branched with soft, spreading hairs at the base, and scattered hairs along the rest of the stem. The leaves are softly hairy and pinnate, with the lower leaves being oval with toothed segments, and the upper leaves having linear segments. It has 2-8 primary rays. The marginal flowers each",
-      "stage1_score": null,
+      "stage1_score": -6.353682518005371,
       "multimodal_score": null,
       "is_disambiguation": false,
       "source_query": "Efential oil of fuerin leaves L E"
     }
   ],
-  "article_text_sha256": "e5599fcefb306430a3f1fb98d4ad618eedad43fca4740cf92d534545c5b5baa9",
-  "decision_rationale": "Accepted candidate 'Eucalyptus oleosa' using BM25 score 18.94 (retrieval scores not computed)."
+  "article_text_sha256": "3bf644e6b16bc3142a58e906395d26d905cc3dfd6963e9e334ddbe086af73b5e",
+  "decision_rationale": "Accepted candidate 'Etlingera fulgens' with relevance score -3.4746 >= threshold -4.5."
 }

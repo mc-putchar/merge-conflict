@@ -1,0 +1,182 @@
+{
+  "entry_id": "entry-blow-pipe-713-1818",
+  "britannica_title": "BLOW-PIPE 713",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1818"
+  ],
+  "britannica_sha256": "d7da407756e66ab4ba9fa1c9669a220b47e5825a4a161ff169ba9230ca596827",
+  "britannica_raw_chars": 7833,
+  "britannica_tokens": 664,
+  "britannica_unique_tokens": 481,
+  "wikipedia_page_id": "2762233",
+  "wikipedia_revision_id": "1353619780",
+  "wikipedia_title": "Blowpipe (tool)",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Blowpipe_(tool)",
+  "wikipedia_text_sha256": "1eae48c8f74595de4532918ed64a40e7a4335d3fa61c6317d183824cba70d399",
+  "wikipedia_raw_chars": 5620,
+  "wikipedia_tokens": 492,
+  "wikipedia_unique_tokens": 330,
+  "length_ratio": 0.717,
+  "text_changes": [
+    {
+      "rule": "archaic_spelling",
+      "original": "colour",
+      "replacement": "color",
+      "count": 1,
+      "samples": [
+        "r. This violet colour may be made to"
+      ]
+    }
+  ],
+  "metrics": {
+    "jaccard_raw": 0.0943,
+    "jaccard_normalized": 0.0945,
+    "cosine_tfidf": 0.3087,
+    "cosine_embedding": 0.6165,
+    "distinctive_britannica": [
+      "blow-pipe",
+      "heat",
+      "charcoal",
+      "made",
+      "body",
+      "inches",
+      "platina",
+      "kept",
+      "along",
+      "quantity",
+      "quality",
+      "become",
+      "metal",
+      "less",
+      "flame"
+    ],
+    "distinctive_wikipedia": [
+      "blowpipe",
+      "blow",
+      "air",
+      "used",
+      "term",
+      "fire",
+      "chemistry",
+      "english",
+      "glass",
+      "treatise",
+      "blowpipes",
+      "tool",
+      "established",
+      "pipe",
+      "considered"
+    ],
+    "shared_terms": [
+      "alcohol",
+      "analysis",
+      "application",
+      "applying",
+      "bergman",
+      "blast",
+      "blow",
+      "brought",
+      "charcoal",
+      "chemical",
+      "coal",
+      "college",
+      "creation",
+      "cronstedt",
+      "different",
+      "directed",
+      "directing",
+      "employed",
+      "enable",
+      "end",
+      "enough",
+      "exponent",
+      "flame",
+      "flames",
+      "gas",
+      "giving",
+      "great",
+      "held",
+      "hydrogen",
+      "improved"
+    ]
+  },
+  "aligned_chunks": [
+    {
+      "britannica_chunk_index": 4,
+      "wikipedia_chunk_index": 3,
+      "similarity": 0.6663,
+      "britannica_excerpt": "The first who applied the blow-pipe to the analysis of materials was weak, counselor of the college of mines in Sweden in 1725. Its application to the science of mineralogy was afterwards further improved by Cronstedt, Rine, may Gabon, Sche",
+      "wikipedia_excerpt": "In chemistry and mineralogy blowpipes have been used as scientific instruments for the analysis of small samples since about 1738, according to the accounts of Torbern Bergman. One Andreas Swab, a Swedish metallurgist and Counsellor of the "
+    },
+    {
+      "britannica_chunk_index": 8,
+      "wikipedia_chunk_index": 0,
+      "similarity": 0.4321,
+      "britannica_excerpt": "m the jet of flame, the goldishth wolders his small work by the blow-pipe attached to work to a piece of charcoal, by means of wires, in the process of soldering.",
+      "wikipedia_excerpt": "A blowpipe is one of several tools used to direct streams of gases into any of several working media."
+    },
+    {
+      "britannica_chunk_index": 1,
+      "wikipedia_chunk_index": 1,
+      "similarity": 0.4134,
+      "britannica_excerpt": " bitumen by a particular process of decomposition. The blow-pipe, by directing the manifestances particles of which the flame consistas so as a strike against and surround a small body, produces the effect of heating the body considerably. ",
+      "wikipedia_excerpt": "If a stream or jet of air is directed through a flame, fuel air mixing is enhanced and the jet exiting the flame is intensely hot. Jewelers and glassblowers engaged in lampwork have used the blowpipe since ancient times, with the blast bein"
+    }
+  ],
+  "topic_id": 4,
+  "topic_terms": [
+    "blow-pipe",
+    "captain",
+    "flame"
+  ],
+  "claims": [
+    {
+      "claim_text": "The Britannica entry \"BLOW-PIPE 713\" uses 664 content tokens while the Wikipedia article \"Blowpipe (tool)\" uses 492; their normalized vocabularies share a Jaccard overlap of 0.0945 (raw 0.0943) and a TF-IDF cosine similarity of 0.3087.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1818"
+      ],
+      "britannica_quote": "to the axis of the blow-pipe. A consists of two pieces, one of which fits air-tight into the other, and may be turned out as six, so that the pipe of issue may be made to form different angles with the axis of the blow-pipe, the position of",
+      "wikipedia_page_id": "2762233",
+      "wikipedia_revision_id": "1353619780",
+      "wikipedia_quote": "A blowpipe is one of several tools used to direct streams of gases into any of several working media.\n\nIf a stream or jet of air is directed through a flame, fuel air mixing is enhanced and the jet exiting the flame is intensely hot. Jewele"
+    },
+    {
+      "claim_text": "Britannica's most distinctive term is \"blow-pipe\"; Wikipedia's is \"blowpipe\", showing the era-specific vocabulary of each source.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1818"
+      ],
+      "britannica_quote": "to the axis of the blow-pipe.",
+      "wikipedia_page_id": "2762233",
+      "wikipedia_revision_id": "1353619780",
+      "wikipedia_quote": "A blowpipe is one of several tools used to direct streams of gases into any of several working media."
+    },
+    {
+      "claim_text": "Both sources share core vocabulary including: alcohol, analysis, application, applying, bergman.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1818"
+      ],
+      "britannica_quote": "For domestic uses, and for the arms, or granized bodies of the vegetable and animal kingdom along are employed to produce it; such as oils, some of which are sold, others think, at the most temperature of its skin, alcohol, other wood, and ",
+      "wikipedia_page_id": "2762233",
+      "wikipedia_revision_id": "1353619780",
+      "wikipedia_quote": "For small work, a mouth-blown blowpipe may be used with a candle flame or an alcohol lamp, with established techniques for applying oxidizing and reducing flames to the workpiece or specimen."
+    },
+    {
+      "claim_text": "1 normalization rules fired on the Britannica text (\"colour\" -> \"color\"); residual vocabulary differences likely reflect era terminology rather than OCR noise alone.",
+      "claim_type": "inference",
+      "label": "[inference]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1818"
+      ],
+      "britannica_quote": "r. This violet colour may be made to",
+      "wikipedia_page_id": "2762233",
+      "wikipedia_revision_id": "1353619780",
+      "wikipedia_quote": "A blowpipe is one of several tools used to direct streams of gases into any of several working media.\n\nIf a stream or jet of air is directed through a flame, fuel air mixing is enhanced and the jet exiting the flame is intensely hot. Jewele"
+    }
+  ]
+}

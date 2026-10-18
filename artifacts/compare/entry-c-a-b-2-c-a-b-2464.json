@@ -1,0 +1,211 @@
+{
+  "entry_id": "entry-c-a-b-2-c-a-b-2464",
+  "britannica_title": "C A B  2  C A B",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2464"
+  ],
+  "britannica_sha256": "05807b1fe2ea6e6117f6a549dac0488cf98c912f79fce1e2d1064866a58369d6",
+  "britannica_raw_chars": 5775,
+  "britannica_tokens": 496,
+  "britannica_unique_tokens": 400,
+  "wikipedia_page_id": "1457846",
+  "wikipedia_revision_id": "1342058679",
+  "wikipedia_title": "Nesbitt's inequality",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Nesbitt%27s_inequality",
+  "wikipedia_text_sha256": "0343bb674423c02a55f819c5245de2918e1c21675f7c989b2a09e1db41e3ddb8",
+  "wikipedia_raw_chars": 7459,
+  "wikipedia_tokens": 408,
+  "wikipedia_unique_tokens": 138,
+  "length_ratio": 1.292,
+  "text_changes": [
+    {
+      "rule": "archaic_spelling",
+      "original": "honour",
+      "replacement": "honor",
+      "count": 2,
+      "samples": [
+        "celebrated in honour of them; the f",
+        ", fellirals in honour of the cabrii,"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "cheft",
+      "replacement": "chest",
+      "count": 1,
+      "samples": [
+        "nd of prels or cheft, with several"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fea",
+      "replacement": "sea",
+      "count": 1,
+      "samples": [
+        "CABIN, in the fea-language, a fi"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fet",
+      "replacement": "set",
+      "count": 1,
+      "samples": [
+        "of a building, fet spart for writ"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fort",
+      "replacement": "sort",
+      "count": 2,
+      "samples": [
+        "ed. The fecond fort of cabbals, ca",
+        "ise, a certain fort of magic is, b"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "ufe",
+      "replacement": "use",
+      "count": 1,
+      "samples": [
+        "are made, they ufe flicks, which"
+      ]
+    }
+  ],
+  "metrics": {
+    "jaccard_raw": 0.0209,
+    "jaccard_normalized": 0.0228,
+    "cosine_tfidf": 0.0035,
+    "cosine_embedding": 0.1048,
+    "distinctive_britannica": [
+      "called",
+      "cable",
+      "word",
+      "divided",
+      "letters",
+      "every",
+      "chief",
+      "common",
+      "given",
+      "make",
+      "name",
+      "great",
+      "ropes",
+      "cabinets",
+      "changes"
+    ],
+    "distinctive_wikipedia": [
+      "frac",
+      "displaystyle",
+      "geq",
+      "left",
+      "inequality",
+      "right",
+      "vec",
+      "cdot",
+      "sum",
+      "let",
+      "sqrt",
+      "yields",
+      "result",
+      "real",
+      "function"
+    ],
+    "shared_terms": [
+      "every",
+      "final",
+      "large",
+      "left",
+      "like",
+      "made",
+      "now",
+      "numbers",
+      "order",
+      "places",
+      "side",
+      "use"
+    ]
+  },
+  "aligned_chunks": [
+    {
+      "britannica_chunk_index": 0,
+      "wikipedia_chunk_index": 7,
+      "similarity": 0.1056,
+      "britannica_excerpt": "which compole it a this cabbula is divided into three kinds, the gemartie, the uncommon, and the tenuta or themurah. The fifth whereof confits in taking the letters of a Hebrew word for ciphers or arithmetical numbers, and explaining every ",
+      "wikipedia_excerpt": "We use the lemma on (x k) = (1, 1, 1) {\\displaystyle (x_{k})=(1,1,1)} and (a k) = (b + c, a + c, a + b) {\\displaystyle (a_{k})=(b+c,a+c,a+b)}. This gives\n\n1 b + c + 1 c + a + 1 a + b ≥ 3 2 2 (a + b + c), {\\displaystyle {\\frac {1}{b+c}}+{\\fr"
+    },
+    {
+      "britannica_chunk_index": 8,
+      "wikipedia_chunk_index": 9,
+      "similarity": 0.1054,
+      "britannica_excerpt": "There is no merchant-thup, however weak, but has at half three cables; namely, the chief cable, or cable of the flies-anchor, a common cable, and a finaler on<y_0.6633><class_Text>\n\n<x_0.4844><y_0.6648>Cable is alfo fluid of ropes, which fe",
+      "wikipedia_excerpt": "a S − a + b S − b + c S − c 3 ≥ S / 3 S − S / 3. {\\displaystyle \\displaystyle {\\frac {{\\frac {a}{S-a}}+{\\frac {b}{S-b}}+{\\frac {c}{S-c}}}{3}}\\geq {\\frac {S/3}{S-S/3}}.}\n\nA straightforward computation then yields\n\na b + c + b c + a + c a + b"
+    },
+    {
+      "britannica_chunk_index": 6,
+      "wikipedia_chunk_index": 1,
+      "similarity": 0.1039,
+      "britannica_excerpt": "CABIRI, a term in the biology of the ancient Pagars, figuring great and powerful gods, being a name given to the gods of Samotbracia. They were allo worthipped in other parts of Greece, as Lemos and Thehees, where the cabinets were celebrat",
+      "wikipedia_excerpt": "(a + b) + (a + c) + (b + c) 3 ≥ 3 1 a + b + 1 a + c + 1 b + c. {\\displaystyle {\\frac {(a+b)+(a+c)+(b+c)}{3}}\\geq {\\frac {3}{\\displaystyle {\\frac {1}{a+b}}+{\\frac {1}{a+c}}+{\\frac {1}{b+c}}}}.}\n\nClearing denominators yields\n\n((a + b) + (a + "
+    }
+  ],
+  "topic_id": 5,
+  "topic_terms": [
+    "every",
+    "people",
+    "upon"
+  ],
+  "claims": [
+    {
+      "claim_text": "The Britannica entry \"C A B  2  C A B\" uses 496 content tokens while the Wikipedia article \"Nesbitt's inequality\" uses 408; their normalized vocabularies share a Jaccard overlap of 0.0228 (raw 0.0209) and a TF-IDF cosine similarity of 0.0035.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2464"
+      ],
+      "britannica_quote": "which compole it a this cabbula is divided into three kinds, the gemartie, the uncommon, and the tenuta or themurah. The fifth whereof confits in taking the letters of a Hebrew word for ciphers or arithmetical numbers, and explaining every ",
+      "wikipedia_page_id": "1457846",
+      "wikipedia_revision_id": "1342058679",
+      "wikipedia_quote": "In mathematics, Nesbitt's inequality, named after Alfred Nesbitt, states that for positive real numbers a, b and c,\n\na b + c + b a + c + c a + b ≥ 3 2, {\\displaystyle {\\frac {a}{b+c}}+{\\frac {b}{a+c}}+{\\frac {c}{a+b}}\\geq {\\frac {3}{2}},}\n\n"
+    },
+    {
+      "claim_text": "Britannica's most distinctive term is \"called\"; Wikipedia's is \"frac\", showing the era-specific vocabulary of each source.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2464"
+      ],
+      "britannica_quote": "The fecond fort of cabbals, called notaricon, confits in takking every particular letter of a word for an entire edition; and the third, called themumafi, _I.e._ changes, confits in making different transfodions or changes of letters, placi",
+      "wikipedia_page_id": "1457846",
+      "wikipedia_revision_id": "1342058679",
+      "wikipedia_quote": "a b + c + b a + c + c a + b ≥ 3 2, {\\displaystyle {\\frac {a}{b+c}}+{\\frac {b}{a+c}}+{\\frac {c}{a+b}}\\geq {\\frac {3}{2}},}"
+    },
+    {
+      "claim_text": "Both sources share core vocabulary including: every, final, large, left, like.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2464"
+      ],
+      "britannica_quote": "The fifth whereof confits in taking the letters of a Hebrew word for ciphers or arithmetical numbers, and explaining every word by the arithmetic caling of the letters wherein it is composed.",
+      "wikipedia_page_id": "1457846",
+      "wikipedia_revision_id": "1342058679",
+      "wikipedia_quote": "Note: every rational inequality can be demonstrated by transforming it to the appropriate sum-of-squares identity—see Hilbert's seventeenth problem."
+    },
+    {
+      "claim_text": "6 normalization rules fired on the Britannica text (\"honour\" -> \"honor\"; \"cheft\" -> \"chest\"; \"fea\" -> \"sea\"); residual vocabulary differences likely reflect era terminology rather than OCR noise alone.",
+      "claim_type": "inference",
+      "label": "[inference]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2464"
+      ],
+      "britannica_quote": "celebrated in honour of them; the f",
+      "wikipedia_page_id": "1457846",
+      "wikipedia_revision_id": "1342058679",
+      "wikipedia_quote": "In mathematics, Nesbitt's inequality, named after Alfred Nesbitt, states that for positive real numbers a, b and c,\n\na b + c + b a + c + c a + b ≥ 3 2, {\\displaystyle {\\frac {a}{b+c}}+{\\frac {b}{a+c}}+{\\frac {c}{a+b}}\\geq {\\frac {3}{2}},}\n\n"
+    }
+  ]
+}

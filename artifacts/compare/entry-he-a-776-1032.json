@@ -1,0 +1,156 @@
+{
+  "entry_id": "entry-he-a-776-1032",
+  "britannica_title": "HE A  776",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1032"
+  ],
+  "britannica_sha256": "589d7d0a69d0534986d7f315b5a2b4a2d93bdcbe2e2784e0e0a1dd11597f36aa",
+  "britannica_raw_chars": 2283,
+  "britannica_tokens": 141,
+  "britannica_unique_tokens": 102,
+  "wikipedia_page_id": "347261",
+  "wikipedia_revision_id": "1352223370",
+  "wikipedia_title": "Inward investment",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Inward_investment",
+  "wikipedia_text_sha256": "6c3ee3bf39d15e91e92bcdbcd0fad98222a17d997c212aa5e66733516809fa5f",
+  "wikipedia_raw_chars": 2183,
+  "wikipedia_tokens": 186,
+  "wikipedia_unique_tokens": 147,
+  "length_ratio": 0.956,
+  "text_changes": [
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "faid",
+      "replacement": "said",
+      "count": 1,
+      "samples": [
+        "ly compare the faid eliminates tog"
+      ]
+    }
+  ],
+  "metrics": {
+    "jaccard_raw": 0.0163,
+    "jaccard_normalized": 0.0163,
+    "cosine_tfidf": 0.0758,
+    "cosine_embedding": 0.0159,
+    "distinctive_britannica": [
+      "blood",
+      "pounds",
+      "weight",
+      "inches",
+      "left",
+      "heart",
+      "equal",
+      "square",
+      "man",
+      "minute",
+      "tabular",
+      "ventricle",
+      "fiction",
+      "aorta",
+      "tubes"
+    ],
+    "distinctive_wikipedia": [
+      "inward",
+      "investment",
+      "development",
+      "economic",
+      "region",
+      "money",
+      "relatively",
+      "companies",
+      "agency",
+      "corporations",
+      "sources",
+      "attracting",
+      "jobs",
+      "source",
+      "car"
+    ],
+    "shared_terms": [
+      "area",
+      "inward",
+      "much",
+      "order"
+    ]
+  },
+  "aligned_chunks": [
+    {
+      "britannica_chunk_index": 0,
+      "wikipedia_chunk_index": 0,
+      "similarity": 0.0598,
+      "britannica_excerpt": "tery of a man, and that the inward area of the left ventricle of his heart is equal to fifteen figures under; their multiplied inn =+1 for, give 13 to cubicinches of blood, which prefix on that ventricle, when it drift begins to control, a ",
+      "wikipedia_excerpt": "Inward investment is the injection of money from an external source into a region. It may be in order to purchase capital goods for a branch of a corporation to locate or develop its presence in the region. Alternatively, it may also be use"
+    },
+    {
+      "britannica_chunk_index": 2,
+      "wikipedia_chunk_index": 0,
+      "similarity": 0.0426,
+      "britannica_excerpt": "**The feeral animals.** & **Weight of each.** & **Height of the blood in the tube from the gui- urine.** & **Capacity of the left ventricle of the heart.** & **Area of the orifice of the aorta.** & **Velocity of the blood in the sorta.** & ",
+      "wikipedia_excerpt": "Inward investment is the injection of money from an external source into a region. It may be in order to purchase capital goods for a branch of a corporation to locate or develop its presence in the region. Alternatively, it may also be use"
+    },
+    {
+      "britannica_chunk_index": 3,
+      "wikipedia_chunk_index": 3,
+      "similarity": 0.0168,
+      "britannica_excerpt": "Horfe 1th. 2d. 3d. & 12 5 & 9 8 & 8 9 & 10 2.5 & 1.036 & 86.85 & 60 88 & 13.75 & 113.22 & 86 38 & 0.369\\\\\n\nOx & 835 1600 & 12 5 & 9 6 & 10 1.539 & 86.95 & 76.95 & 18.14 & 113.22 & 86 38 & 0.677 0.912 & 0.84\\\\\n\nSheep Doe & 91 & 5† & 9 6 & 1.",
+      "wikipedia_excerpt": "Examples of inward investment include investments made by Japanese corporations in the UK car industry, including those investments as a result of government policy through agencies such as the Scottish Development Agency and Welsh Developm"
+    }
+  ],
+  "topic_id": 2,
+  "topic_terms": [
+    "water",
+    "acid",
+    "quantity"
+  ],
+  "claims": [
+    {
+      "claim_text": "The Britannica entry \"HE A  776\" uses 141 content tokens while the Wikipedia article \"Inward investment\" uses 186; their normalized vocabularies share a Jaccard overlap of 0.0163 (raw 0.0163) and a TF-IDF cosine similarity of 0.0758.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1032"
+      ],
+      "britannica_quote": "tery of a man, and that the inward area of the left ventricle of his heart is equal to fifteen figures under; their multiplied inn =+1 for, give 13 to cubicinches of blood, which prefix on that ventricle, when it drift begins to control, a ",
+      "wikipedia_page_id": "347261",
+      "wikipedia_revision_id": "1352223370",
+      "wikipedia_quote": "Inward investment is the injection of money from an external source into a region. It may be in order to purchase capital goods for a branch of a corporation to locate or develop its presence in the region. Alternatively, it may also be use"
+    },
+    {
+      "claim_text": "Britannica's most distinctive term is \"blood\"; Wikipedia's is \"inward\", showing the era-specific vocabulary of each source.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1032"
+      ],
+      "britannica_quote": "tery of a man, and that the inward area of the left ventricle of his heart is equal to fifteen figures under; their multiplied inn =+1 for, give 13 to cubicinches of blood, which prefix on that ventricle, when it drift begins to control, a ",
+      "wikipedia_page_id": "347261",
+      "wikipedia_revision_id": "1352223370",
+      "wikipedia_quote": "Inward investment is the injection of money from an external source into a region."
+    },
+    {
+      "claim_text": "Both sources share core vocabulary including: area, inward, much, order.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1032"
+      ],
+      "britannica_quote": "tery of a man, and that the inward area of the left ventricle of his heart is equal to fifteen figures under; their multiplied inn =+1 for, give 13 to cubicinches of blood, which prefix on that ventricle, when it drift begins to control, a ",
+      "wikipedia_page_id": "347261",
+      "wikipedia_revision_id": "1352223370",
+      "wikipedia_quote": "Foreign sources, such as transnational corporations or multinational corporations invest money by introducing new industrial sites to an area, in order to produce more of their product, sometimes in response to changes noticed in that area,"
+    },
+    {
+      "claim_text": "1 normalization rules fired on the Britannica text (\"faid\" -> \"said\"); residual vocabulary differences likely reflect era terminology rather than OCR noise alone.",
+      "claim_type": "inference",
+      "label": "[inference]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1032"
+      ],
+      "britannica_quote": "ly compare the faid eliminates tog",
+      "wikipedia_page_id": "347261",
+      "wikipedia_revision_id": "1352223370",
+      "wikipedia_quote": "Inward investment is the injection of money from an external source into a region. It may be in order to purchase capital goods for a branch of a corporation to locate or develop its presence in the region. Alternatively, it may also be use"
+    }
+  ]
+}

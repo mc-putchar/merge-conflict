@@ -1,0 +1,198 @@
+{
+  "entry_id": "entry-a-r-a-182-a-r-a-914",
+  "britannica_title": "A R A  182  A R A",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:914"
+  ],
+  "britannica_sha256": "b64893b6b1c1565a1c8f46534f3de613c7ad71b23b7115bd315901b90ee30c7a",
+  "britannica_raw_chars": 6905,
+  "britannica_tokens": 575,
+  "britannica_unique_tokens": 537,
+  "wikipedia_page_id": "21337482",
+  "wikipedia_revision_id": "1059486720",
+  "wikipedia_title": "Minuscule 182",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Minuscule_182",
+  "wikipedia_text_sha256": "92a0985cb4446477026157efa426c5a3807b3e65b36dde35960194835a7ef84e",
+  "wikipedia_raw_chars": 1224,
+  "wikipedia_tokens": 96,
+  "wikipedia_unique_tokens": 75,
+  "length_ratio": 0.177,
+  "text_changes": [
+    {
+      "rule": "archaic_spelling",
+      "original": "honours",
+      "replacement": "honors",
+      "count": 1,
+      "samples": [
+        "burangers, the honours of the king'n"
+      ]
+    },
+    {
+      "rule": "archaic_spelling",
+      "original": "neighbour",
+      "replacement": "neighbor",
+      "count": 1,
+      "samples": [
+        "ibged; and the neighbour faces the remo"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "afia",
+      "replacement": "asia",
+      "count": 1,
+      "samples": [
+        "n the heart of Afia, the form or r"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "difc",
+      "replacement": "disc",
+      "count": 1,
+      "samples": [
+        "meled away in difc eafe and laili"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "few",
+      "replacement": "sew",
+      "count": 2,
+      "samples": [
+        "n empire , yet few princes of the",
+        "e robber, no a few allocations, a"
+      ]
+    }
+  ],
+  "metrics": {
+    "jaccard_raw": 0.015,
+    "jaccard_normalized": 0.0149,
+    "cosine_tfidf": 0.0344,
+    "cosine_embedding": 0.0426,
+    "distinctive_britannica": [
+      "without",
+      "arabia",
+      "mankind",
+      "arabian",
+      "war",
+      "freedom",
+      "blood",
+      "heart",
+      "nation",
+      "familiar",
+      "mult",
+      "character",
+      "spirit",
+      "princes",
+      "divided"
+    ],
+    "distinctive_wikipedia": [
+      "text",
+      "century",
+      "dated",
+      "contains",
+      "family",
+      "page",
+      "manuscript",
+      "codex",
+      "tables",
+      "luke",
+      "chapters",
+      "parchment",
+      "minuscule",
+      "lines",
+      "letters"
+    ],
+    "shared_terms": [
+      "according",
+      "byzantine",
+      "family",
+      "florence",
+      "four",
+      "greek",
+      "leaves",
+      "member",
+      "per"
+    ]
+  },
+  "aligned_chunks": [
+    {
+      "britannica_chunk_index": 6,
+      "wikipedia_chunk_index": 1,
+      "similarity": 0.2373,
+      "britannica_excerpt": "nd his lined an celtors, appear in foreign and domestic translations as the princes of their country; but they reigned like Pendidies at Athens, or the Mediel at Florence, by the opinion of",
+      "wikipedia_excerpt": "The Greek text of the codex is a representative of the Byzantine text-type. Aland placed it in Category V. According to the Claremont Profile Method it belongs to the textual family K r in Luke 1. In Luke 10 and Luke 20 it represents textua"
+    },
+    {
+      "britannica_chunk_index": 3,
+      "wikipedia_chunk_index": 1,
+      "similarity": 0.1996,
+      "britannica_excerpt": "19? Thel of the native doom and character’s",
+      "wikipedia_excerpt": "The Greek text of the codex is a representative of the Byzantine text-type. Aland placed it in Category V. According to the Claremont Profile Method it belongs to the textual family K r in Luke 1. In Luke 10 and Luke 20 it represents textua"
+    },
+    {
+      "britannica_chunk_index": 12,
+      "wikipedia_chunk_index": 1,
+      "similarity": 0.1755,
+      "britannica_excerpt": "r, and revege. In the con- filution of Europe, the right of peace and war is",
+      "wikipedia_excerpt": "The Greek text of the codex is a representative of the Byzantine text-type. Aland placed it in Category V. According to the Claremont Profile Method it belongs to the textual family K r in Luke 1. In Luke 10 and Luke 20 it represents textua"
+    }
+  ],
+  "topic_id": 5,
+  "topic_terms": [
+    "every",
+    "people",
+    "upon"
+  ],
+  "claims": [
+    {
+      "claim_text": "The Britannica entry \"A R A  182  A R A\" uses 573 content tokens while the Wikipedia article \"Minuscule 182\" uses 96; their normalized vocabularies share a Jaccard overlap of 0.0149 (raw 0.015) and a TF-IDF cosine similarity of 0.0344.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:914"
+      ],
+      "britannica_quote": "in the purifit of an invitible foe, who forns his efforts, and fairly reposis in the heart of the burning follicle. The area and defines of the Bedowners are not only the disparard of their own freedom, but the barriers alio of the Huppy Ar",
+      "wikipedia_page_id": "21337482",
+      "wikipedia_revision_id": "1059486720",
+      "wikipedia_quote": "Minuscule 182 (in the Gregory-Aland numbering), ε 409 (Soden), is a Greek minuscule manuscript of the New Testament, on parchment. Paleographically it has been assigned to the 14th century. Scrivener dated it to the 12th century. It has mar"
+    },
+    {
+      "claim_text": "Britannica's most distinctive term is \"without\"; Wikipedia's is \"text\", showing the era-specific vocabulary of each source.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:914"
+      ],
+      "britannica_quote": "\"The flavors of domanticly tramway may vastly exist in their national independence / but the Arab is performally first; and he enjoys, in force degree, the benefits of society, without torturing the imperative of nature.",
+      "wikipedia_page_id": "21337482",
+      "wikipedia_revision_id": "1059486720",
+      "wikipedia_quote": "The codex contains a complete text of the four Gospels on 226 elegant parchment leaves (size 25.3 cm by 18 cm)."
+    },
+    {
+      "claim_text": "Both sources share core vocabulary including: according, byzantine, family, florence, four.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:914"
+      ],
+      "britannica_quote": "According to the remark of Pliny, the Arabian tribes are equally addicted to theft and merchandile : the caravans that traverse the dictare are numbered to plibged; and the neighbour faces the remote times (JO and Sefdrirs, have been the vi",
+      "wikipedia_page_id": "21337482",
+      "wikipedia_revision_id": "1059486720",
+      "wikipedia_quote": "According to the Claremont Profile Method it belongs to the textual family K r in Luke 1."
+    },
+    {
+      "claim_text": "5 normalization rules fired on the Britannica text (\"honours\" -> \"honors\"; \"neighbour\" -> \"neighbor\"; \"afia\" -> \"asia\"); residual vocabulary differences likely reflect era terminology rather than OCR noise alone.",
+      "claim_type": "inference",
+      "label": "[inference]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:914"
+      ],
+      "britannica_quote": "burangers, the honours of the king'n",
+      "wikipedia_page_id": "21337482",
+      "wikipedia_revision_id": "1059486720",
+      "wikipedia_quote": "Minuscule 182 (in the Gregory-Aland numbering), ε 409 (Soden), is a Greek minuscule manuscript of the New Testament, on parchment. Paleographically it has been assigned to the 14th century. Scrivener dated it to the 12th century. It has mar"
+    }
+  ]
+}

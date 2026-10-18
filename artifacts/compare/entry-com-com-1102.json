@@ -1,0 +1,141 @@
+{
+  "entry_id": "entry-com-com-1102",
+  "britannica_title": "COM COM",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1102"
+  ],
+  "britannica_sha256": "6f0d6dc07a0738e045f960c03d0673b7beafbe060b7e386fd06272c2c32a698f",
+  "britannica_raw_chars": 7932,
+  "britannica_tokens": 627,
+  "britannica_unique_tokens": 513,
+  "wikipedia_page_id": "11663382",
+  "wikipedia_revision_id": "1278893834",
+  "wikipedia_title": "COM Interop",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/COM_Interop",
+  "wikipedia_text_sha256": "2f9833da0a3b6854b20a38e5aebcda9b434d28fd63b343a71785811894d16ea7",
+  "wikipedia_raw_chars": 1539,
+  "wikipedia_tokens": 158,
+  "wikipedia_unique_tokens": 96,
+  "length_ratio": 0.194,
+  "text_changes": [],
+  "metrics": {
+    "jaccard_raw": 0.0184,
+    "jaccard_normalized": 0.0184,
+    "cosine_tfidf": 0.0179,
+    "cosine_embedding": 0.0401,
+    "distinctive_britannica": [
+      "people",
+      "divided",
+      "curtu",
+      "every",
+      "particular",
+      "proper",
+      "comitia",
+      "name",
+      "city",
+      "paris",
+      "never",
+      "man",
+      "thirty",
+      "louis",
+      "centuries"
+    ],
+    "distinctive_wikipedia": [
+      "com",
+      "net",
+      "type",
+      "types",
+      "objects",
+      "component",
+      "access",
+      "object",
+      "managed",
+      "values",
+      "translation",
+      "library",
+      "equivalent",
+      "interop",
+      "exe"
+    ],
+    "shared_terms": [
+      "assembly",
+      "calls",
+      "classes",
+      "common",
+      "entries",
+      "merely",
+      "registered",
+      "return",
+      "set",
+      "used",
+      "without"
+    ]
+  },
+  "aligned_chunks": [
+    {
+      "britannica_chunk_index": 13,
+      "wikipedia_chunk_index": 2,
+      "similarity": 0.0874,
+      "britannica_excerpt": "or entries, the protectorii and the capite coast. The former, as their name implies, were designed purely to stock the republic with men, since they could supply it with so little money i",
+      "wikipedia_excerpt": "COM interop automatically provides the following services to simplify COM usage from.NET:\n\nConversion between COM types and equivalent.NET types.\n\nTranslation of retval arguments into return values.\n\nTranslation of HRESULT return values int"
+    },
+    {
+      "britannica_chunk_index": 4,
+      "wikipedia_chunk_index": 0,
+      "similarity": 0.0733,
+      "britannica_excerpt": "Contracts or Contracts a town of Telephone, province of West Flanders, on the left bank of the Lys, miles SE, of Treés, Pop, (Cion) 3448. To the opposite bank of the river, in the department of Nord, is the French team of this name, with ab",
+      "wikipedia_excerpt": "COM Interop is a technology included in the.NET Framework Common Language Runtime (CLR) that enables Component Object Model (COM) objects to interact with.NET objects, and vice versa.\n\nCOM Interop aims to provide access to the existing COM "
+    },
+    {
+      "britannica_chunk_index": 12,
+      "wikipedia_chunk_index": 1,
+      "similarity": 0.0496,
+      "britannica_excerpt": "The comitia center was inserted by Servita Tul-lia, who had obliged every one to give a time account of that he has saved, and divided the people, according to the returns, that six rows or cases, which is subdivided into a hundred and mine",
+      "wikipedia_excerpt": "The.NET Framework creates a type library and special registry entries when a component is registered. It provides a specialized utility (RegAsm.exe, usually located in C:\\Windows\\Microsoft.NET\\Framework) that exports the managed types into "
+    }
+  ],
+  "topic_id": 7,
+  "topic_terms": [
+    "see",
+    "upon",
+    "great"
+  ],
+  "claims": [
+    {
+      "claim_text": "The Britannica entry \"COM COM\" uses 627 content tokens while the Wikipedia article \"COM Interop\" uses 158; their normalized vocabularies share a Jaccard overlap of 0.0184 (raw 0.0184) and a TF-IDF cosine similarity of 0.0179.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1102"
+      ],
+      "britannica_quote": "Comlima a matter of the utmost consequence to the success of the enterprise. Comimies declared this important duty with his usual ability and delayed, through he could not prevent, the defendants of the symbolic in favor of the enemies of F",
+      "wikipedia_page_id": "11663382",
+      "wikipedia_revision_id": "1278893834",
+      "wikipedia_quote": "COM Interop is a technology included in the.NET Framework Common Language Runtime (CLR) that enables Component Object Model (COM) objects to interact with.NET objects, and vice versa.\n\nCOM Interop aims to provide access to the existing COM "
+    },
+    {
+      "claim_text": "Britannica's most distinctive term is \"people\"; Wikipedia's is \"com\", showing the era-specific vocabulary of each source.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1102"
+      ],
+      "britannica_quote": "He people hitte of himself, and the most important circumstances of his line omitted, probably because he results of them might have enumerated him.",
+      "wikipedia_page_id": "11663382",
+      "wikipedia_revision_id": "1278893834",
+      "wikipedia_quote": "COM Interop is a technology included in the.NET Framework Common Language Runtime (CLR) that enables Component Object Model (COM) objects to interact with.NET objects, and vice versa."
+    },
+    {
+      "claim_text": "Both sources share core vocabulary including: assembly, calls, classes, common, entries.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1102"
+      ],
+      "britannica_quote": "Before the institution of the comitia contents, all the great concerts of the state were transacted in the assembly of the curtu; as the election of kings and other chief officers, the major and beginning of lives, and the judging of qui- u",
+      "wikipedia_page_id": "11663382",
+      "wikipedia_revision_id": "1278893834",
+      "wikipedia_quote": "This tool will create a set of proxy classes implemented in CIL which is encapsulated in an assembly."
+    }
+  ]
+}

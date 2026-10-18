@@ -5,6 +5,8 @@ providers:
     key_env: SUPER_API_KEY
     transport: chat_completions
     default_model: nvidia/Nemotron-3.5-Super-VL
+    extra_body:
+      temperature: 0
 
 model:
   provider: custom:tokenfactory-super

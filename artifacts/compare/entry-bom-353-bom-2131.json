@@ -1,0 +1,374 @@
+{
+  "entry_id": "entry-bom-353-bom-2131",
+  "britannica_title": "BOM  353 BOM",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2131"
+  ],
+  "britannica_sha256": "d60c36a5fb9cfbf8256fbc364be770b1ce1fb31e291dc17c46edb7537148dd95",
+  "britannica_raw_chars": 5529,
+  "britannica_tokens": 436,
+  "britannica_unique_tokens": 366,
+  "wikipedia_page_id": "848101",
+  "wikipedia_revision_id": "1347215892",
+  "wikipedia_title": "BOM",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/BOM",
+  "wikipedia_text_sha256": "aadf879085a92724861944f5e96949dde0d0028a63267527e12369f9833af2dd",
+  "wikipedia_raw_chars": 1404,
+  "wikipedia_tokens": 145,
+  "wikipedia_unique_tokens": 115,
+  "length_ratio": 0.254,
+  "text_changes": [
+    {
+      "rule": "line_break_hyphen",
+      "original": "accom-\nding",
+      "replacement": "accomding",
+      "count": 1,
+      "samples": [
+        "accom-\nding"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "an-\ncifions",
+      "replacement": "ancifions",
+      "count": 1,
+      "samples": [
+        "an-\ncifions"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "ap-\ntering",
+      "replacement": "aptering",
+      "count": 1,
+      "samples": [
+        "ap-\ntering"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "appropriated-\nweds",
+      "replacement": "appropriatedweds",
+      "count": 1,
+      "samples": [
+        "appropriated-\nweds"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "bet-\nter",
+      "replacement": "better",
+      "count": 1,
+      "samples": [
+        "bet-\nter"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "col-\nlection",
+      "replacement": "collection",
+      "count": 1,
+      "samples": [
+        "col-\nlection"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "con-\nfidential",
+      "replacement": "confidential",
+      "count": 1,
+      "samples": [
+        "con-\nfidential"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "difad-\nmages",
+      "replacement": "difadmages",
+      "count": 1,
+      "samples": [
+        "difad-\nmages"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "equip-\nfiely",
+      "replacement": "equipfiely",
+      "count": 1,
+      "samples": [
+        "equip-\nfiely"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "fore-\nrunner",
+      "replacement": "forerunner",
+      "count": 1,
+      "samples": [
+        "fore-\nrunner"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "in-\nschoolfor",
+      "replacement": "inschoolfor",
+      "count": 1,
+      "samples": [
+        "in-\nschoolfor"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "li-\nquor",
+      "replacement": "liquor",
+      "count": 1,
+      "samples": [
+        "li-\nquor"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "popo-\nfar",
+      "replacement": "popofar",
+      "count": 1,
+      "samples": [
+        "popo-\nfar"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "re-\nferment",
+      "replacement": "referment",
+      "count": 1,
+      "samples": [
+        "re-\nferment"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "re-\nmarked",
+      "replacement": "remarked",
+      "count": 1,
+      "samples": [
+        "re-\nmarked"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "un-\nwholders",
+      "replacement": "unwholders",
+      "count": 1,
+      "samples": [
+        "un-\nwholders"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "un-\nworthy",
+      "replacement": "unworthy",
+      "count": 1,
+      "samples": [
+        "un-\nworthy"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fays",
+      "replacement": "says",
+      "count": 1,
+      "samples": [
+        "icant. Mr Ives fays, that is it fe"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "few",
+      "replacement": "sew",
+      "count": 1,
+      "samples": [
+        "terperfed fome few _berab_\n_trees"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fnake",
+      "replacement": "snake",
+      "count": 1,
+      "samples": [
+        "a small bluish fnake, of the fire o"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "foil",
+      "replacement": "soil",
+      "count": 1,
+      "samples": [
+        "futuation and foil is favorable t"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fold",
+      "replacement": "sold",
+      "count": 1,
+      "samples": [
+        "n of wells was fold by auction.\n\nM"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fomewhat",
+      "replacement": "somewhat",
+      "count": 1,
+      "samples": [
+        "ves an account fomewhat different—\n“Th"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fort",
+      "replacement": "sort",
+      "count": 2,
+      "samples": [
+        "of the poorer fort of people; but",
+        "rticularly the fort\ncalled second-"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fun",
+      "replacement": "sun",
+      "count": 1,
+      "samples": [
+        "eated from the fun as all\nhours i"
+      ]
+    }
+  ],
+  "metrics": {
+    "jaccard_raw": 0.0103,
+    "jaccard_normalized": 0.0105,
+    "cosine_tfidf": 0.0166,
+    "cosine_embedding": 0.1,
+    "distinctive_britannica": [
+      "tree",
+      "quantity",
+      "bombay",
+      "september",
+      "feet",
+      "october",
+      "called",
+      "long",
+      "though",
+      "wherever",
+      "particularly",
+      "today",
+      "sort",
+      "trees",
+      "june"
+    ],
+    "distinctive_wikipedia": [
+      "language",
+      "bom",
+      "code",
+      "materials",
+      "england",
+      "born",
+      "file",
+      "station",
+      "bank",
+      "restaurant",
+      "korean",
+      "singer",
+      "bureau",
+      "airport",
+      "format"
+    ],
+    "shared_terms": [
+      "day",
+      "drug",
+      "parts",
+      "people",
+      "product"
+    ]
+  },
+  "aligned_chunks": [
+    {
+      "britannica_chunk_index": 0,
+      "wikipedia_chunk_index": 1,
+      "similarity": 0.1888,
+      "britannica_excerpt": "Bombay: AQUULY.\n\nSEPTEMBER.\n\nDay of Quantity of the month.\n\nLain in In. Tenths.\n\n19 - 0 22 22 - 0 2\n\n20 - 0 2 23 - 0 3\n\n21 - 0 1 24 - 3\n\n22 - 0 4 25 - 0 2\n\n25 - 0 4 20 - 0 2\n\n26 - 0 7 27-30 - 0 0\n\n27 - 0 5 Octobre.\n\n28 - 0 2 2-7 - 2 1\n\n30 -",
+      "wikipedia_excerpt": "Byte order mark (U+FEFF and others), a Unicode character\n\nBōm (restaurant), a Michelin-starred Korean restaurant in New York City\n\nBuilder's Old Measurement of a ship's cargo carrying capacity, England, 1650-1848\n\nBromborough railway statio"
+    },
+    {
+      "britannica_chunk_index": 6,
+      "wikipedia_chunk_index": 1,
+      "similarity": 0.0896,
+      "britannica_excerpt": "boat, the age of which was upwards of 20 years. Bland\n\nFrugs, which abound every where through the Fall\n\nIndies, are very large as Bombay. One author fav\n\none that preferred 22 inches from the extremities of\n\nthe front and final feet when e",
+      "wikipedia_excerpt": "Byte order mark (U+FEFF and others), a Unicode character\n\nBōm (restaurant), a Michelin-starred Korean restaurant in New York City\n\nBuilder's Old Measurement of a ship's cargo carrying capacity, England, 1650-1848\n\nBromborough railway statio"
+    },
+    {
+      "britannica_chunk_index": 5,
+      "wikipedia_chunk_index": 1,
+      "similarity": 0.0856,
+      "britannica_excerpt": "called from their attachment to, make their equipfiely curious petits, brought out of the thumb seeds\n\nand filament of branches, with an inimable melocha.\n\nThe bird themselves are about the face of a\n\npartridge, but are of no way either the",
+      "wikipedia_excerpt": "Byte order mark (U+FEFF and others), a Unicode character\n\nBōm (restaurant), a Michelin-starred Korean restaurant in New York City\n\nBuilder's Old Measurement of a ship's cargo carrying capacity, England, 1650-1848\n\nBromborough railway statio"
+    }
+  ],
+  "topic_id": 2,
+  "topic_terms": [
+    "water",
+    "acid",
+    "quantity"
+  ],
+  "claims": [
+    {
+      "claim_text": "The Britannica entry \"BOM  353 BOM\" uses 444 content tokens while the Wikipedia article \"BOM\" uses 145; their normalized vocabularies share a Jaccard overlap of 0.0105 (raw 0.0103) and a TF-IDF cosine similarity of 0.0166.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2131"
+      ],
+      "britannica_quote": "Bombay: AQUULY.\nSEPTEMBER.\nDay of Quantity of the month.\nLain in In. Tenths.\n19 - 0 22 22 - 0 2\n20 - 0 2 23 - 0 3\n21 - 0 1 24 - 3\n22 - 0 4 25 - 0 2\n25 - 0 4 20 - 0 2\n26 - 0 7 27-30 - 0 0\n27 - 0 5 Octobre.\n28 - 0 2 2-7 - 2 1\n30 - 0 1 9 - 0\n3",
+      "wikipedia_page_id": "848101",
+      "wikipedia_revision_id": "1347215892",
+      "wikipedia_quote": "BOM, BoM or bom may refer to:\n\nBom language, an endangered language of Sierra Leone\n\nBerom language (ISO 639 code: bom), a Plateau language of Nigeria\n\nBank One Mauritius, a commercial bank based in Mauritius\n\nBarrel of Monkeys Productions,"
+    },
+    {
+      "claim_text": "Britannica's most distinctive term is \"tree\"; Wikipedia's is \"language\", showing the era-specific vocabulary of each source.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2131"
+      ],
+      "britannica_quote": "is the uncount tree, from which they extract a li-",
+      "wikipedia_page_id": "848101",
+      "wikipedia_revision_id": "1347215892",
+      "wikipedia_quote": "Bom language, an endangered language of Sierra Leone"
+    },
+    {
+      "claim_text": "Both sources share core vocabulary including: day, drug, parts, people, product.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2131"
+      ],
+      "britannica_quote": "Day of Quantity of the month.",
+      "wikipedia_page_id": "848101",
+      "wikipedia_revision_id": "1347215892",
+      "wikipedia_quote": "Book of Mormon, a religious text of the Latter Day Saint movement, published in 1830"
+    },
+    {
+      "claim_text": "25 normalization rules fired on the Britannica text (\"accom-\nding\" -> \"accomding\"; \"an-\ncifions\" -> \"ancifions\"; \"ap-\ntering\" -> \"aptering\"); residual vocabulary differences likely reflect era terminology rather than OCR noise alone.",
+      "claim_type": "inference",
+      "label": "[inference]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2131"
+      ],
+      "britannica_quote": "accom-\nding",
+      "wikipedia_page_id": "848101",
+      "wikipedia_revision_id": "1347215892",
+      "wikipedia_quote": "BOM, BoM or bom may refer to:\n\nBom language, an endangered language of Sierra Leone\n\nBerom language (ISO 639 code: bom), a Plateau language of Nigeria\n\nBank One Mauritius, a commercial bank based in Mauritius\n\nBarrel of Monkeys Productions,"
+    }
+  ]
+}

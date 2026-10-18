@@ -1,0 +1,259 @@
+{
+  "entry_id": "entry-nates-fine-feminine-facets-2448",
+  "britannica_title": "Nates fine feminine facets",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2448"
+  ],
+  "britannica_sha256": "5db74558a235d26626cc384d87a3a886326c085377901aa7a17e2496aef18c9f",
+  "britannica_raw_chars": 6114,
+  "britannica_tokens": 505,
+  "britannica_unique_tokens": 450,
+  "wikipedia_page_id": "62092596",
+  "wikipedia_revision_id": "1343506292",
+  "wikipedia_title": "Natee Utarit",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Natee_Utarit",
+  "wikipedia_text_sha256": "df891c8b083c8c12e319561c3fafb5997ea9e39cbbba5c138cd16fc21458dcff",
+  "wikipedia_raw_chars": 1911,
+  "wikipedia_tokens": 161,
+  "wikipedia_unique_tokens": 107,
+  "length_ratio": 0.313,
+  "text_changes": [
+    {
+      "rule": "archaic_spelling",
+      "original": "neighbours",
+      "replacement": "neighbors",
+      "count": 1,
+      "samples": [
+        "here, like bad neighbours, all suffer fr"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "affumes",
+      "replacement": "assumes",
+      "count": 1,
+      "samples": [
+        "ike Parrocius, affumes his name, and,"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "confidered",
+      "replacement": "considered",
+      "count": 1,
+      "samples": [
+        "were no longer confidered as matters and"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fays",
+      "replacement": "says",
+      "count": 1,
+      "samples": [
+        "f one.\"\n\nBacon fays, \" Mer feek no"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fears",
+      "replacement": "sears",
+      "count": 1,
+      "samples": [
+        "orance, and or fears, and does mifc"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "feek",
+      "replacement": "seek",
+      "count": 1,
+      "samples": [
+        "on fays, \" Mer feek not to know th"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "few",
+      "replacement": "sew",
+      "count": 1,
+      "samples": [
+        "leaf embryo of few thoughts: open"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fong",
+      "replacement": "song",
+      "count": 1,
+      "samples": [
+        "nity of heroic fong? How much nobl"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fuccefs",
+      "replacement": "success",
+      "count": 1,
+      "samples": [
+        "probability of fuccefs is greater tha"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fun",
+      "replacement": "sun",
+      "count": 1,
+      "samples": [
+        "moon from the fun.\n\nBut as nothi"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "loft",
+      "replacement": "lost",
+      "count": 1,
+      "samples": [
+        "ed, and should loft in the thing."
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "raife",
+      "replacement": "raise",
+      "count": 1,
+      "samples": [
+        "metimes rather raife their _origina"
+      ]
+    }
+  ],
+  "metrics": {
+    "jaccard_raw": 0.0146,
+    "jaccard_normalized": 0.0146,
+    "cosine_tfidf": 0.0372,
+    "cosine_embedding": 0.0824,
+    "distinctive_britannica": [
+      "like",
+      "great",
+      "much",
+      "fall",
+      "greater",
+      "others",
+      "verfe",
+      "wife",
+      "rule",
+      "true",
+      "call",
+      "know",
+      "wrong",
+      "mind",
+      "bad"
+    ],
+    "distinctive_wikipedia": [
+      "art",
+      "works",
+      "arts",
+      "western",
+      "view",
+      "utarit",
+      "contemporary",
+      "cultures",
+      "born",
+      "historical",
+      "described",
+      "points",
+      "religious",
+      "various",
+      "natee"
+    ],
+    "shared_terms": [
+      "differs",
+      "fine",
+      "group",
+      "original",
+      "tradition",
+      "various",
+      "works",
+      "world"
+    ]
+  },
+  "aligned_chunks": [
+    {
+      "britannica_chunk_index": 0,
+      "wikipedia_chunk_index": 2,
+      "similarity": 0.1502,
+      "britannica_excerpt": "makes one of a group, and thinks in wretched unanity with the throng. Incumbered with the notions of others, and impoverified by their abundance, he concecites not the leaf embryo of sew thoughts: open out the life wilts through the glown o",
+      "wikipedia_excerpt": "According to one analysis, Natee's works can be regarded as finding newer perspective by creating a figurative which differs from the original / tradition views. With that, the artist's use of sociopolitical and religious points of view to "
+    },
+    {
+      "britannica_chunk_index": 7,
+      "wikipedia_chunk_index": 2,
+      "similarity": 0.0949,
+      "britannica_excerpt": "Bacon says, \" Mer seek not to know their own flock, and abilities, but fancy their puffellions to be greater, and their abilities lets, than they really arc.\" Which is in effect dying. \" That we ought to exert more than we do, and that, on ",
+      "wikipedia_excerpt": "According to one analysis, Natee's works can be regarded as finding newer perspective by creating a figurative which differs from the original / tradition views. With that, the artist's use of sociopolitical and religious points of view to "
+    },
+    {
+      "britannica_chunk_index": 8,
+      "wikipedia_chunk_index": 2,
+      "similarity": 0.0913,
+      "britannica_excerpt": "Moreover, to boundless ear the bold excursions of the human mind, that in the vail voit beyond real coffences, it can call forth shadowy beings, and unknown worlds, as numerous, as bright, and perhaps as falling as the flats , fuch quite-or",
+      "wikipedia_excerpt": "According to one analysis, Natee's works can be regarded as finding newer perspective by creating a figurative which differs from the original / tradition views. With that, the artist's use of sociopolitical and religious points of view to "
+    }
+  ],
+  "topic_id": 5,
+  "topic_terms": [
+    "every",
+    "people",
+    "upon"
+  ],
+  "claims": [
+    {
+      "claim_text": "The Britannica entry \"Nates fine feminine facets\" uses 504 content tokens while the Wikipedia article \"Natee Utarit\" uses 161; their normalized vocabularies share a Jaccard overlap of 0.0146 (raw 0.0146) and a TF-IDF cosine similarity of 0.0372.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2448"
+      ],
+      "britannica_quote": "makes one of a group, and thinks in wretched unanity with the throng. Incumbered with the notions of others, and impoverified by their abundance, he concecites not the leaf embryo of few thoughts: open out the life wilts through the glown o",
+      "wikipedia_page_id": "62092596",
+      "wikipedia_revision_id": "1343506292",
+      "wikipedia_quote": "Natee Utarit (Thai: นที อุตฤทธิ์, born 9 April 1970) is a contemporary artist from Bangkok, Thailand. He has participated in group and several solo exhibitions in East Asia and Europe.\n\nUtarit's artworks have been described as involving the"
+    },
+    {
+      "claim_text": "Britannica's most distinctive term is \"like\"; Wikipedia's is \"art\", showing the era-specific vocabulary of each source.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2448"
+      ],
+      "britannica_quote": "Incumbered with the notions of others, and impoverified by their abundance, he concecites not the leaf embryo of few thoughts: open out the life wilts through the glown of ordinary writers into the bright walks of rare imagination, and sing",
+      "wikipedia_page_id": "62092596",
+      "wikipedia_revision_id": "1343506292",
+      "wikipedia_quote": "Natee Utarit (Thai: นที อุตฤทธิ์, born 9 April 1970) is a contemporary artist from Bangkok, Thailand."
+    },
+    {
+      "claim_text": "Both sources share core vocabulary including: differs, fine, group, original, tradition.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2448"
+      ],
+      "britannica_quote": "But topping Pops: His to have been perfect in its kind; yet it is a _translation_ filly, which differs as much from an _origini_, as the moon from the fun.",
+      "wikipedia_page_id": "62092596",
+      "wikipedia_revision_id": "1343506292",
+      "wikipedia_quote": "According to one analysis, Natee's works can be regarded as finding newer perspective by creating a figurative which differs from the original / tradition views."
+    },
+    {
+      "claim_text": "12 normalization rules fired on the Britannica text (\"neighbours\" -> \"neighbors\"; \"affumes\" -> \"assumes\"; \"confidered\" -> \"considered\"); residual vocabulary differences likely reflect era terminology rather than OCR noise alone.",
+      "claim_type": "inference",
+      "label": "[inference]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2448"
+      ],
+      "britannica_quote": "here, like bad neighbours, all suffer fr",
+      "wikipedia_page_id": "62092596",
+      "wikipedia_revision_id": "1343506292",
+      "wikipedia_quote": "Natee Utarit (Thai: นที อุตฤทธิ์, born 9 April 1970) is a contemporary artist from Bangkok, Thailand. He has participated in group and several solo exhibitions in East Asia and Europe.\n\nUtarit's artworks have been described as involving the"
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "entry_id": "entry-chapii-of-the-source-of-wealth-383",
+  "britannica_title": "CHAPII Of the Source of Wealth",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:383"
+  ],
+  "britannica_sha256": "c7b94a20962f52bffbe345813715300f6656df2a6a267205562075c21018776b",
+  "britannica_raw_chars": 6371,
+  "britannica_tokens": 510,
+  "britannica_unique_tokens": 380,
+  "wikipedia_page_id": "46044",
+  "wikipedia_revision_id": "1353267562",
+  "wikipedia_title": "Political economy",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Political_economy",
+  "wikipedia_text_sha256": "534fc488d3918ffbf1f4722b9d1828f58c47af0cb0e93f303fe4dd7537e96aa5",
+  "wikipedia_raw_chars": 20451,
+  "wikipedia_tokens": 1766,
+  "wikipedia_unique_tokens": 906,
+  "length_ratio": 3.21,
+  "text_changes": [
+    {
+      "rule": "archaic_spelling",
+      "original": "labour",
+      "replacement": "labor",
+      "count": 3,
+      "samples": [
+        "ved methods of labour. The opposite",
+        "or they by the labour of the lands a",
+        "with regard to labour in particular,"
+      ]
+    },
+    {
+      "rule": "archaic_spelling",
+      "original": "labours",
+      "replacement": "labors",
+      "count": 1,
+      "samples": [
+        "he most severe labours will meet with"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "cafe",
+      "replacement": "case",
+      "count": 1,
+      "samples": [
+        "most any other cafe. The increasin"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "foil",
+      "replacement": "soil",
+      "count": 1,
+      "samples": [
+        "rtility of the foil, the extent of"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fort",
+      "replacement": "sort",
+      "count": 2,
+      "samples": [
+        "Y.\n\nThe second fort is of those wh",
+        "n.?\n\nThe third fort conflicts of t"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "rife",
+      "replacement": "rise",
+      "count": 1,
+      "samples": [
+        "confiantly to rife, as we have be"
+      ]
+    }
+  ],
+  "metrics": {
+    "jaccard_raw": 0.0663,
+    "jaccard_normalized": 0.0663,
+    "cosine_tfidf": 0.0789,
+    "cosine_embedding": 0.3607,
+    "distinctive_britannica": [
+      "price",
+      "land",
+      "greater",
+      "make",
+      "meet",
+      "country",
+      "proportion",
+      "hence",
+      "likely",
+      "animals",
+      "articles",
+      "thefe",
+      "labor",
+      "even",
+      "improved"
+    ],
+    "distinctive_wikipedia": [
+      "political",
+      "economy",
+      "economic",
+      "economics",
+      "international",
+      "politics",
+      "studies",
+      "science",
+      "term",
+      "state",
+      "field",
+      "social",
+      "within",
+      "modern",
+      "theory"
+    ],
+    "shared_terms": [
+      "according",
+      "activity",
+      "allowing",
+      "almost",
+      "area",
+      "become",
+      "becomes",
+      "beneficial",
+      "better",
+      "beyond",
+      "book",
+      "certain",
+      "combine",
+      "commodity",
+      "condition",
+      "contrary",
+      "depend",
+      "different",
+      "early",
+      "economy",
+      "either",
+      "field",
+      "figures",
+      "food",
+      "force",
+      "former",
+      "generally",
+      "goes",
+      "greater",
+      "however"
+    ]
+  },
+  "aligned_chunks": [
+    {
+      "britannica_chunk_index": 9,
+      "wikipedia_chunk_index": 19,
+      "similarity": 0.5131,
+      "britannica_excerpt": "creased or diminished.",
+      "wikipedia_excerpt": "tson and Robert W. Cox."
+    },
+    {
+      "britannica_chunk_index": 5,
+      "wikipedia_chunk_index": 19,
+      "similarity": 0.3975,
+      "britannica_excerpt": "ary, the land and forces become considerably inferior to value to the carerule.",
+      "wikipedia_excerpt": "tson and Robert W. Cox."
+    },
+    {
+      "britannica_chunk_index": 2,
+      "wikipedia_chunk_index": 19,
+      "similarity": 0.3618,
+      "britannica_excerpt": "from the imported modes of feeding and rearing, which in confidence of the new situation, as likely to be dif-covered and adopted.",
+      "wikipedia_excerpt": "tson and Robert W. Cox."
+    }
+  ],
+  "topic_id": 7,
+  "topic_terms": [
+    "see",
+    "upon",
+    "great"
+  ],
+  "claims": [
+    {
+      "claim_text": "The Britannica entry \"CHAPII Of the Source of Wealth\" uses 510 content tokens while the Wikipedia article \"Political economy\" uses 1766; their normalized vocabularies share a Jaccard overlap of 0.0663 (raw 0.0663) and a TF-IDF cosine similarity of 0.0789.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:383"
+      ],
+      "britannica_quote": "POLITICAL ECONOMY.\n\nThe second fort is of those which human industry can multiply in proportion to the demand. Where the commodity, a room, is flash as cannot be produced but by human industry, the price is more under than in almost any oth",
+      "wikipedia_page_id": "46044",
+      "wikipedia_revision_id": "1353267562",
+      "wikipedia_quote": "Political economy – sometimes referred to as comparative economy – is an interdisciplinary field in political science and economics that studies the relationship between political and economic systems, including how they influence each othe"
+    },
+    {
+      "claim_text": "Britannica's most distinctive term is \"price\"; Wikipedia's is \"political\", showing the era-specific vocabulary of each source.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:383"
+      ],
+      "britannica_quote": "Where the commodity, a room, is flash as cannot be produced but by human industry, the price is more under than in almost any other cafe.",
+      "wikipedia_page_id": "46044",
+      "wikipedia_revision_id": "1353267562",
+      "wikipedia_quote": "Political economy – sometimes referred to as comparative economy – is an interdisciplinary field in political science and economics that studies the relationship between political and economic systems, including how they influence each othe"
+    },
+    {
+      "claim_text": "Both sources share core vocabulary including: according, activity, allowing, almost, area.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:383"
+      ],
+      "britannica_quote": "According to the view, however, given above a Book i the price of all commodities depend entirely on the pro-ch.",
+      "wikipedia_page_id": "46044",
+      "wikipedia_revision_id": "1353267562",
+      "wikipedia_quote": "According to International Relations scholar Chris Brown, University of Warwick professor, Susan Strange, was \"almost single-handedly responsible for creating international political economy as a field of study.\" In the United States, these"
+    },
+    {
+      "claim_text": "6 normalization rules fired on the Britannica text (\"labour\" -> \"labor\"; \"labours\" -> \"labors\"; \"cafe\" -> \"case\"); residual vocabulary differences likely reflect era terminology rather than OCR noise alone.",
+      "claim_type": "inference",
+      "label": "[inference]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:383"
+      ],
+      "britannica_quote": "ved methods of labour. The opposite",
+      "wikipedia_page_id": "46044",
+      "wikipedia_revision_id": "1353267562",
+      "wikipedia_quote": "Political economy – sometimes referred to as comparative economy – is an interdisciplinary field in political science and economics that studies the relationship between political and economic systems, including how they influence each othe"
+    }
+  ]
+}

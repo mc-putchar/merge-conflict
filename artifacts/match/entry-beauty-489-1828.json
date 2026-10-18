@@ -5,7 +5,7 @@
     "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1828"
   ],
   "matched": true,
-  "status": "accepted_bm25_only",
+  "status": "accepted",
   "selected_candidate": {
     "page_id": "214502",
     "revision_id": "1349603955",
@@ -13,8 +13,8 @@
     "url": "https://en.wikipedia.org/wiki/Beautiful",
     "bm25_score": 8.088218688964844,
     "excerpt": "Beautiful, an adjective used to describe things as possessing beauty, may refer to:\n\nBeautiful (2000 film), an American film directed by Sally Field\n\nBeautiful (2008 film), a South Korean film directed by Juhn Jai-hong\n\nBeautiful (2009 film), an Australian film directed by Dean O'Flaherty\n\nBeautiful (2011 film), an Indian Malayalam-language film directed by V. K. Prakash\n\nBeautiful: The Carole King Musical, a 2014 Broadway musical\n\nThe Beautiful (band), an American rock band 1988–1993\n\nBeautiful (Candido Camero album) or the title song, 1970\n\nBeautiful!, by Charles McPherson, 1975\n\nBeautiful (David Tao album), 2006\n\nBeautiful (Fantastic Plastic Machine album), 2001\n\nBeautiful (Fish Leong album), 2003\n\nBeautiful (Jessica Mauboy album) or the title song (see below), 2013\n\nBeautiful (Meg album) or the title song, 2009\n\nBeautiful (The Reels album), 1982\n\nBeautiful (Teena Marie album) or the title song, 2013\n\nBeautiful (Vivian Green album) or the title song, 2010\n\nBeautiful: The Remix Album, by Blondie, 1995\n\nBeautiful: A Tribute to Gordon Lightfoot, a Gordon Lightfoot tribute album, 2003\n\nThe Beautiful (album), by Triptych Myth, 2005\n\nBeautiful (EP), by Amber, or the title song, 2015\n\n",
-    "stage1_score": null,
-    "multimodal_score": null,
+    "stage1_score": -4.106014728546143,
+    "multimodal_score": -1.3870151042938232,
     "is_disambiguation": false,
     "source_query": "BEAUTY"
   },
@@ -26,8 +26,8 @@
       "url": "https://en.wikipedia.org/wiki/Beautiful",
       "bm25_score": 8.088218688964844,
       "excerpt": "Beautiful, an adjective used to describe things as possessing beauty, may refer to:\n\nBeautiful (2000 film), an American film directed by Sally Field\n\nBeautiful (2008 film), a South Korean film directed by Juhn Jai-hong\n\nBeautiful (2009 film), an Australian film directed by Dean O'Flaherty\n\nBeautiful (2011 film), an Indian Malayalam-language film directed by V. K. Prakash\n\nBeautiful: The Carole King Musical, a 2014 Broadway musical\n\nThe Beautiful (band), an American rock band 1988–1993\n\nBeautiful (Candido Camero album) or the title song, 1970\n\nBeautiful!, by Charles McPherson, 1975\n\nBeautiful (David Tao album), 2006\n\nBeautiful (Fantastic Plastic Machine album), 2001\n\nBeautiful (Fish Leong album), 2003\n\nBeautiful (Jessica Mauboy album) or the title song (see below), 2013\n\nBeautiful (Meg album) or the title song, 2009\n\nBeautiful (The Reels album), 1982\n\nBeautiful (Teena Marie album) or the title song, 2013\n\nBeautiful (Vivian Green album) or the title song, 2010\n\nBeautiful: The Remix Album, by Blondie, 1995\n\nBeautiful: A Tribute to Gordon Lightfoot, a Gordon Lightfoot tribute album, 2003\n\nThe Beautiful (album), by Triptych Myth, 2005\n\nBeautiful (EP), by Amber, or the title song, 2015\n\n",
-      "stage1_score": null,
-      "multimodal_score": null,
+      "stage1_score": -4.106014728546143,
+      "multimodal_score": -1.3870151042938232,
       "is_disambiguation": false,
       "source_query": "BEAUTY"
     },
@@ -38,8 +38,8 @@
       "url": "https://en.wikipedia.org/wiki/Beauty_(disambiguation)",
       "bm25_score": 8.07142162322998,
       "excerpt": "Beauty is an aesthetic characteristic.\n\nBeauty may also refer to:\n\nBeauty (quantum number) or bottomness, a flavour quantum number\n\nMathematical beauty, a type of aesthetic value seen in mathematics\n\nBeauty (Belle), a central character in the fairy tale Beauty and the Beast and adaptations\n\nBeauty, the main character in The Sleeping Beauty Quartet, a series of novels by Anne Rice (writing as A. N. Roquelaure)\n\nBeauty, anime/manga series character from Bobobo-bo Bo-bobo, see list of characters\n\nTwo 1965 films by Andy Warhol:\n\nBeauty No. 1\n\nBeauty No. 2\n\nBeauty: In the Eyes of the Beheld, a 2008 American documentary by Liza Figueroa Kravinsky\n\nBeauty (2009 film), a Japanese film by Toshio Gotō\n\nBeauty (2011 film), a South African film by Oliver Hermanus\n\nBeauty (2022 film), an American film by Andrew Dosunmu\n\n\"Beauty\" (Once Upon a Time), a 2017 television episode\n\nThe Beauty (TV series), a 2026 American television series\n\nBeauty (Selbourne novel), a 2009 novel by Raphael Selbourne\n\nBeauty (Tepper novel), a 1991 novel by Sheri S. Tepper\n\nBeauty: A Retelling of the Story of Beauty and the Beast, a 1978 young-adult novel by Robin McKinley\n\nBeauty, a 1992 novel by Brian D'Amato\n\nBeauty, ",
-      "stage1_score": null,
-      "multimodal_score": null,
+      "stage1_score": -3.6757054328918457,
+      "multimodal_score": -1.529697299003601,
       "is_disambiguation": true,
       "source_query": "BEAUTY"
     },
@@ -50,7 +50,19 @@
       "url": "https://en.wikipedia.org/wiki/Beautiful_People",
       "bm25_score": 8.021780967712402,
       "excerpt": "Beautiful People may refer to:\n\nBeautiful People (film), a 1999 British comedy\n\nBeautiful People (1974 film) or Animals Are Beautiful People, a South African wildlife documentary\n\nBeautiful People (American TV series), a 2005 drama series\n\nBeautiful People (British TV series), a 2008 sitcom\n\nThe Beautiful People (audio play), a 2007 Doctor Who – The Companion Chronicles audio play\n\nThe Beautiful People (play), a 1941 play by William Saroyan\n\nBeautiful People, the working title for the 2014 film Dead House\n\n\" Beautiful Peoples \", a 1983 episode of Bay City Blues\n\nBeautiful People (band), a 1990s UK Jimi Hendrix tribute act\n\n120 Days, originally The Beautiful People, a 2001-2012 Norwegian band\n\nBeautiful People (album), by The New Seekers, 1971\n\nBeautiful People, or the 1967 title song, by Kenny O'Dell, 1968\n\nThe Beautiful People (album), by SiM, 2016\n\nBeautiful People: The Greatest Hits of Melanie, a compilation album by Melanie, 1999\n\n\"Beautiful People\" (Australian Crawl song), 1979\n\n\"Beautiful People\" (Barbara Tucker song), 1994\n\n\"Beautiful People\" (Big Country song), 1991\n\n\"Beautiful People\" (Chris Brown song), 2011\n\n\"Beautiful People\" (David Guetta and Sia song), 2025\n\n\"Beautifu",
-      "stage1_score": null,
+      "stage1_score": -4.524007797241211,
+      "multimodal_score": -2.3616461753845215,
+      "is_disambiguation": false,
+      "source_query": "BEAUTY"
+    },
+    {
+      "page_id": "5927337",
+      "revision_id": "1319931985",
+      "title": "Something Beautiful",
+      "url": "https://en.wikipedia.org/wiki/Something_Beautiful",
+      "bm25_score": 8.015477180480957,
+      "excerpt": "Something Beautiful may refer to:\n\nSomething Beautiful (Great Big Sea album) or the title song, 2004\n\nSomething Beautiful (Jordan Smith album), 2016\n\nSomething Beautiful (Miley Cyrus album), 2025\n\nSomething Beautiful, by Ernie Haase & Signature Sound, 2020\n\nSomething Beautiful, a video album by Gaither Homecoming, 1996\n\n\"Something Beautiful\" (song), 2003\n\n\"Something Beautiful\", by Connie Stevens, 1965\n\n\"Something Beautiful\", by Detective, 1977\n\n\"Something Beautiful\", by Duffy, 2020\n\n\"Something Beautiful\", by the Equals, 1978\n\n\"Something Beautiful\", by Jars of Clay from The Eleventh Hour, 2002\n\n\"Something Beautiful\", by Miley Cyrus, 2025\n\n\"Something Beautiful\", by Needtobreathe from The Outsiders, 2009\n\n\"Something Beautiful\", by Newsboys from Go, 2006\n\n\"Something Beautiful\", by Todd Agnew from Reflection of Something, 2005\n\n\"Something Beautiful\", by Tracy Bonham from Blink the Brightest, 2005\n\n\"Something Beautiful (To Remember)\", by Slim Whitman, 1971\n\n\"Something Beautiful\", by Tom Walker featuring Masked Wolf, 2021\n\nSomething Beautiful (film), a 2025 musical film and visual album by Miley Cyrus\n\n\"Something Beautiful\" (Better Call Saul), a television episode\n\nSomething Beautiful, a ",
+      "stage1_score": -4.5271148681640625,
       "multimodal_score": null,
       "is_disambiguation": false,
       "source_query": "BEAUTY"
@@ -62,7 +74,7 @@
       "url": "https://en.wikipedia.org/wiki/Sleeping_Beauty_(disambiguation)",
       "bm25_score": 8.019842147827148,
       "excerpt": "Sleeping Beauty is a classic fairy tale.\n\nSleeping Beauty may also refer to:\n\nThe Sleeping Beauty (1930 film), a Soviet film directed by Georgi Vasilyev and Sergei Vasilyev\n\nThe Sleeping Beauty (1935 film), an American cartoon in the Puppetoon series by George Pal, included in The Puppetoon Movie\n\nSleeping Beauty (1942 film), an Italian film\n\nSleeping Beauty (1959 film), an American animated film from Walt Disney Pictures\n\nAurora (Sleeping Beauty), the title character of the Disney film\n\nSleeping Beauty (franchise), a Disney media franchise that began in 1959 with the release of Sleeping Beauty\n\nSleeping Beauty (1955 film), a 1955 West German film directed by Fritz Genschow\n\nSleeping Beauty (1973 film) or Some Call It Loving, a drama by James B. Harris\n\nSleeping Beauty (1987 film), a film starring Tahnee Welch\n\nSleeping Beauties (film), a 1999 American comedy film\n\nSleeping Beauty (2010 film), a film by Catherine Breillat\n\nSleeping Beauty (2011 film), an Australian film starring Emily Browning\n\nSleeping Beauty (2014 film), an American film directed by Casper Van Dien\n\n\" The Day-Dream \", an 1842 poem by Alfred Tennyson, a reworking of his 1830 poem \"The Sleeping Beauty\"\n\nSleeping Be",
-      "stage1_score": null,
+      "stage1_score": -4.698612689971924,
       "multimodal_score": null,
       "is_disambiguation": true,
       "source_query": "BEAUTY"
@@ -74,19 +86,7 @@
       "url": "https://en.wikipedia.org/wiki/Beautiful_Life",
       "bm25_score": 8.017679214477539,
       "excerpt": "Beautiful Life may refer to:\n\nBeautiful Life (Bruce Guthro album), 2006\n\nBeautiful Life (Dianne Reeves album), 2014\n\nBeautiful Life (Doc Walker album), 2008\n\nBeautiful Life (Guy Sebastian album), 2004\n\nBeautiful Life (Jimmy Greene album), 2014\n\nBeautiful Life (Martha Davis album), 2008\n\nBeautiful Life (Shy Nobleman album), 2005\n\nBeautiful Life (Vallejo album), 1998\n\nBeautiful Life (Chuck Brown album), 2014\n\nBeautiful Life (Rick Astley album), 2018\n\nBeautiful Life: The Singles, a 2023 box set by Ace of Base\n\n\"Beautiful Life\" (Ace of Base song), 1995\n\n\"Beautiful Life\", a song by Måns Zelmerlöw from the album Barcelona Sessions\n\n\"Beautiful Life\" (Armin van Buuren song), 2013\n\n\"Beautiful Life\" (Nick Fradiani song), 2015\n\n\"Beautiful Life\" (Lost Frequencies song), 2016, featuring Sandro Cavazza\n\n\"Beautiful Life\" (Rick Astley song), 2018\n\n\"Beautiful Life\" (Union J song), 2013\n\nBeautiful Life, a 2021 song by Cobra Starship\n\n\"Beautiful Life\", a track from the 2007 album Chromophobia by Gui Boratto\n\n\"Beautiful Life\", a song by James Morrison from his 2011 album The Awakening\n\n\"Beautiful Life\", a song by José Galisteo\n\n\"Beautiful Life\", a song by Bebe Rexha from the Abominable soundtrack\n\nBea",
-      "stage1_score": null,
-      "multimodal_score": null,
-      "is_disambiguation": false,
-      "source_query": "BEAUTY"
-    },
-    {
-      "page_id": "5927337",
-      "revision_id": "1319931985",
-      "title": "Something Beautiful",
-      "url": "https://en.wikipedia.org/wiki/Something_Beautiful",
-      "bm25_score": 8.015477180480957,
-      "excerpt": "Something Beautiful may refer to:\n\nSomething Beautiful (Great Big Sea album) or the title song, 2004\n\nSomething Beautiful (Jordan Smith album), 2016\n\nSomething Beautiful (Miley Cyrus album), 2025\n\nSomething Beautiful, by Ernie Haase & Signature Sound, 2020\n\nSomething Beautiful, a video album by Gaither Homecoming, 1996\n\n\"Something Beautiful\" (song), 2003\n\n\"Something Beautiful\", by Connie Stevens, 1965\n\n\"Something Beautiful\", by Detective, 1977\n\n\"Something Beautiful\", by Duffy, 2020\n\n\"Something Beautiful\", by the Equals, 1978\n\n\"Something Beautiful\", by Jars of Clay from The Eleventh Hour, 2002\n\n\"Something Beautiful\", by Miley Cyrus, 2025\n\n\"Something Beautiful\", by Needtobreathe from The Outsiders, 2009\n\n\"Something Beautiful\", by Newsboys from Go, 2006\n\n\"Something Beautiful\", by Todd Agnew from Reflection of Something, 2005\n\n\"Something Beautiful\", by Tracy Bonham from Blink the Brightest, 2005\n\n\"Something Beautiful (To Remember)\", by Slim Whitman, 1971\n\n\"Something Beautiful\", by Tom Walker featuring Masked Wolf, 2021\n\nSomething Beautiful (film), a 2025 musical film and visual album by Miley Cyrus\n\n\"Something Beautiful\" (Better Call Saul), a television episode\n\nSomething Beautiful, a ",
-      "stage1_score": null,
+      "stage1_score": -4.707094669342041,
       "multimodal_score": null,
       "is_disambiguation": false,
       "source_query": "BEAUTY"
@@ -98,7 +98,7 @@
       "url": "https://en.wikipedia.org/wiki/Beauty_and_the_Beast_(disambiguation)",
       "bm25_score": 8.01478385925293,
       "excerpt": "Beauty and the Beast is a 1740 literary fairy tale by Gabrielle-Suzanne Barbot de Villeneuve.\n\nBeauty and the Beast may also refer to:\n\nBeauty and the Beast (1756), an abridged fairy tale by Jeanne-Marie Leprince de Beaumont\n\nBeauty and the Beast (ATU 425C), a subgroup of the Aarne–Thompson–Uther Index group Animal as Bridegroom\n\nBeauty and the Beast (franchise), a Disney media franchise\n\nBeauty and the Beast (1991 film), an animated film\n\nBeauty and the Beast (1991 soundtrack)\n\n\"Beauty and the Beast\" (Disney song), a song from the film\n\nBeauty and the Beast (musical), a 1994 Broadway musical based on the film\n\nBeauty and the Beast (Original Broadway Cast Recording), 1994\n\nBeauty and the Beast Live on Stage, a theme park show at Walt Disney World based on the film\n\nBeauty and the Beast (video game), several games based on the film\n\nBeauty and the Beast (2017 film), a live-action remake of the 1991 film\n\nBeauty and the Beast (2017 soundtrack)\n\nBeauty and the Beast (1934 film), a Merrie Melodies animated short film\n\nBeauty and the Beast (1946 film), a French film directed by Jean Cocteau\n\nBeauty and the Beast (1962 film), an American film directed by Edward L. Cahn, featuring Meg Wyl",
-      "stage1_score": null,
+      "stage1_score": -4.725083827972412,
       "multimodal_score": null,
       "is_disambiguation": true,
       "source_query": "BEAUTY"
@@ -110,12 +110,12 @@
       "url": "https://en.wikipedia.org/wiki/I%27m_Beautiful_Dammitt!",
       "bm25_score": 8.01362133026123,
       "excerpt": "\"I'm Beautiful Dammitt!\" (sometimes printed without punctuation, sometimes simply titled \"I'm Beautiful\") was the second single released from the Uncanny Alliance LP, The Groove Won't Bite, released as a CD single and 12\".\n\n«I’m Beautiful Dammitt!» (Club Vocal) — 7:41\n\n«I’m Beautiful Dammitt!» (Fierce Dub) — 6:09\n\n«I’m Beautiful Dammitt!» (Radio Version) — 3:41\n\n«I’m Beautiful Dammitt!» (Radio Club Mix) — 4:21\n\n«I’m Beautiful Dammitt!» (DJ EFX's San Tranzdisko Mix) — 11:35\n\n«I’m Beautiful Dammitt!» (3rd Floor's Vox Mix)\n\n«I’m Beautiful Dammitt!» (Digi Dubb Mix)\n\n«I’m Beautiful Dammitt!» (Urban Instrumental)\n\n«I’m Beautiful Dammitt!» (I Got A Job Mix)\n\n«I’m Beautiful Dammitt!» (3rd Floor Mix)\n\nIn 1998 singer Bette Midler covered the song, retitled simply \"I'm Beautiful\", for her album Bathhouse Betty. That album, the title of which references her time as a performer in gay bathhouses, was catered to the gay community. As such she revised the lyrics to the song to be more specifically directed towards the struggle of gay people to be accepted. In particular there is the new lyric: \"'Go away little boy' all the kids say! Everybody on the block says they think you're gay!\" The song was",
-      "stage1_score": null,
+      "stage1_score": -5.270048141479492,
       "multimodal_score": null,
       "is_disambiguation": false,
       "source_query": "BEAUTY"
     }
   ],
   "article_text_sha256": "13db6f499c0e090cf3e1aed572d6903a86ebdc70d51316a313bc6f627ccbf4fd",
-  "decision_rationale": "Accepted candidate 'Beautiful' using BM25 score 8.09 (retrieval scores not computed)."
+  "decision_rationale": "Accepted candidate 'Beautiful' with relevance score -1.3870 >= threshold -4.5."
 }

@@ -1,0 +1,168 @@
+{
+  "entry_id": "entry-en-g-e-141-t-e-n-g-1803",
+  "britannica_title": "EN G E 141 T E N G",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1803"
+  ],
+  "britannica_sha256": "df03a4ab00d10cea5255f98cfc4ae45c9bf4d607a6c8ca25ed9634cf36a221d4",
+  "britannica_raw_chars": 6115,
+  "britannica_tokens": 504,
+  "britannica_unique_tokens": 440,
+  "wikipedia_page_id": "29396608",
+  "wikipedia_revision_id": "1327163424",
+  "wikipedia_title": "Thumb hypoplasia",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Thumb_hypoplasia",
+  "wikipedia_text_sha256": "af9ab48f984beb2f58be284a4834bc39420907702172c1f047289be5cd067b8b",
+  "wikipedia_raw_chars": 5280,
+  "wikipedia_tokens": 449,
+  "wikipedia_unique_tokens": 261,
+  "length_ratio": 0.863,
+  "text_changes": [
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "few",
+      "replacement": "sew",
+      "count": 1,
+      "samples": [
+        "He has ficha a few delivery of th"
+      ]
+    }
+  ],
+  "metrics": {
+    "jaccard_raw": 0.0234,
+    "jaccard_normalized": 0.0234,
+    "cosine_tfidf": 0.015,
+    "cosine_embedding": 0.0242,
+    "distinctive_britannica": [
+      "print",
+      "works",
+      "nature",
+      "fine",
+      "degree",
+      "figure",
+      "art",
+      "particularly",
+      "much",
+      "figures",
+      "lines",
+      "excellent",
+      "ever",
+      "effects",
+      "influence"
+    ],
+    "distinctive_wikipedia": [
+      "thumb",
+      "type",
+      "index",
+      "hand",
+      "function",
+      "less",
+      "hypoplasia",
+      "children",
+      "always",
+      "cases",
+      "developed",
+      "finger",
+      "important",
+      "space",
+      "associated"
+    ],
+    "shared_terms": [
+      "affected",
+      "best",
+      "called",
+      "child",
+      "deficiency",
+      "described",
+      "every",
+      "group",
+      "joints",
+      "like",
+      "mentioned",
+      "never",
+      "period",
+      "seen",
+      "small",
+      "unknown"
+    ]
+  },
+  "aligned_chunks": [
+    {
+      "britannica_chunk_index": 3,
+      "wikipedia_chunk_index": 5,
+      "similarity": 0.1725,
+      "britannica_excerpt": "ut for soign for nothing.\" Dadtlash those and plots of produit greatness, were never more particularly beneficial to the eyes, thus by this allowthring artily, or better calculated to affect the making by calling forth in the mail definitio",
+      "wikipedia_excerpt": "d to anomalous tendons coming from the forearm (extrinsic muscles, like an aberrant long thumb flexor – flexor pollicis longus)."
+    },
+    {
+      "britannica_chunk_index": 10,
+      "wikipedia_chunk_index": 5,
+      "similarity": 0.1647,
+      "britannica_excerpt": "rks of their studies were able to slightly. His sleeping Cupid from Guido, and the prints of the Venus and Donate from Titlan, will ever be effected as chef Greenwich the thorax cry.",
+      "wikipedia_excerpt": "d to anomalous tendons coming from the forearm (extrinsic muscles, like an aberrant long thumb flexor – flexor pollicis longus)."
+    },
+    {
+      "britannica_chunk_index": 7,
+      "wikipedia_chunk_index": 5,
+      "similarity": 0.1538,
+      "britannica_excerpt": "is, that is a print of his organizing of a large sample group of beliefs, upon the estimated child of Perriere, he adopted this flyle in order to highlight the imbalance.",
+      "wikipedia_excerpt": "d to anomalous tendons coming from the forearm (extrinsic muscles, like an aberrant long thumb flexor – flexor pollicis longus)."
+    }
+  ],
+  "topic_id": 7,
+  "topic_terms": [
+    "see",
+    "upon",
+    "great"
+  ],
+  "claims": [
+    {
+      "claim_text": "The Britannica entry \"EN G E 141 T E N G\" uses 503 content tokens while the Wikipedia article \"Thumb hypoplasia\" uses 449; their normalized vocabularies share a Jaccard overlap of 0.0234 (raw 0.0234) and a TF-IDF cosine similarity of 0.015.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1803"
+      ],
+      "britannica_quote": "_Exgraving, the real comidifier and of pollicity. Engraving in this country fuuted a heavy his win when he died; and if the death of to excelture an still may be considered as a public lolc, his certainly the most delt reflect to Woolley wh",
+      "wikipedia_page_id": "29396608",
+      "wikipedia_revision_id": "1327163424",
+      "wikipedia_quote": "Thumb hypoplasia is a spectrum of congenital abnormalities of the thumb varying from small defects to complete absence of the thumb. It can be isolated, when only the thumb is affected, and in 60% of the cases it is associated with radial d"
+    },
+    {
+      "claim_text": "Britannica's most distinctive term is \"print\"; Wikipedia's is \"thumb\", showing the era-specific vocabulary of each source.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1803"
+      ],
+      "britannica_quote": "mith school of library, particularly last large print of the _Engraving_ taking down from the street from Ruben.",
+      "wikipedia_page_id": "29396608",
+      "wikipedia_revision_id": "1327163424",
+      "wikipedia_quote": "Thumb hypoplasia is a spectrum of congenital abnormalities of the thumb varying from small defects to complete absence of the thumb."
+    },
+    {
+      "claim_text": "Both sources share core vocabulary including: affected, best, called, child, deficiency.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1803"
+      ],
+      "britannica_quote": "There are fine artily who do not express, that exciting was unknown to Bolsters, who has done in much walk out its andis from which we may really flipped how much more hours would have affected with this charming acquisition.",
+      "wikipedia_page_id": "29396608",
+      "wikipedia_revision_id": "1327163424",
+      "wikipedia_quote": "It can be isolated, when only the thumb is affected, and in 60% of the cases it is associated with radial dysplasia (or radial club, radius dysplasia, longitudinal radial deficiency)."
+    },
+    {
+      "claim_text": "1 normalization rules fired on the Britannica text (\"few\" -> \"sew\"); residual vocabulary differences likely reflect era terminology rather than OCR noise alone.",
+      "claim_type": "inference",
+      "label": "[inference]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1803"
+      ],
+      "britannica_quote": "He has ficha a few delivery of th",
+      "wikipedia_page_id": "29396608",
+      "wikipedia_revision_id": "1327163424",
+      "wikipedia_quote": "Thumb hypoplasia is a spectrum of congenital abnormalities of the thumb varying from small defects to complete absence of the thumb. It can be isolated, when only the thumb is affected, and in 60% of the cases it is associated with radial d"
+    }
+  ]
+}

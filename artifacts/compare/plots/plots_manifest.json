@@ -1,0 +1,14 @@
+{
+  "document_accounting.svg": {
+    "plotted": 95,
+    "expected": 95
+  },
+  "length_and_vocabulary_shift.svg": {
+    "plotted": 74,
+    "expected": 74
+  },
+  "topic_distribution.svg": {
+    "plotted": 74,
+    "expected": 74
+  }
+}

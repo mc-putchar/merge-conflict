@@ -1,0 +1,366 @@
+{
+  "entry_id": "entry-part-iii-1933",
+  "britannica_title": "Part III",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1933"
+  ],
+  "britannica_sha256": "4d319014b9ad3026b9bab0ca77c8aaa33bac82fc01227ead439c9d210ab5e2bc",
+  "britannica_raw_chars": 4212,
+  "britannica_tokens": 338,
+  "britannica_unique_tokens": 278,
+  "wikipedia_page_id": "5134134",
+  "wikipedia_revision_id": "1319712171",
+  "wikipedia_title": "Part Three",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Part_Three",
+  "wikipedia_text_sha256": "8950498fafa4131ee77964f469d4461be9782e33e58a61c27bfac0ffe98dea33",
+  "wikipedia_raw_chars": 1009,
+  "wikipedia_tokens": 106,
+  "wikipedia_unique_tokens": 51,
+  "length_ratio": 0.24,
+  "text_changes": [
+    {
+      "rule": "line_break_hyphen",
+      "original": "an-\nthony",
+      "replacement": "anthony",
+      "count": 1,
+      "samples": [
+        "An-\nthony"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "arees-\ndirafs",
+      "replacement": "areesdirafs",
+      "count": 1,
+      "samples": [
+        "arees-\ndirafs"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "con-\ndemend",
+      "replacement": "condemend",
+      "count": 1,
+      "samples": [
+        "con-\ndemend"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "courvye-\ned",
+      "replacement": "courvyeed",
+      "count": 1,
+      "samples": [
+        "courvye-\ned"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "cy-\nmosphalus",
+      "replacement": "cymosphalus",
+      "count": 1,
+      "samples": [
+        "Cy-\nmosphalus"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "dif-\ncounter",
+      "replacement": "difcounter",
+      "count": 1,
+      "samples": [
+        "dif-\ncounter"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "direc-\ntive",
+      "replacement": "directive",
+      "count": 1,
+      "samples": [
+        "direc-\ntive"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "emi-\nent",
+      "replacement": "emient",
+      "count": 1,
+      "samples": [
+        "emi-\nent"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "expref-\ntion",
+      "replacement": "expreftion",
+      "count": 2,
+      "samples": [
+        "expref-\ntion",
+        "expref-\ntion"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "fa-\ngerets",
+      "replacement": "fagerets",
+      "count": 1,
+      "samples": [
+        "fa-\ngerets"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "fe-\nveral",
+      "replacement": "feveral",
+      "count": 1,
+      "samples": [
+        "fe-\nveral"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "form-\ned",
+      "replacement": "formed",
+      "count": 1,
+      "samples": [
+        "form-\ned"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "na-\ntural",
+      "replacement": "natural",
+      "count": 1,
+      "samples": [
+        "na-\ntural"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "re-\npieces",
+      "replacement": "repieces",
+      "count": 1,
+      "samples": [
+        "re-\npieces"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "repeat-\ning",
+      "replacement": "repeating",
+      "count": 1,
+      "samples": [
+        "repeat-\ning"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "sa-\nviour",
+      "replacement": "saviour",
+      "count": 1,
+      "samples": [
+        "Sa-\nviour"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fam",
+      "replacement": "sam",
+      "count": 1,
+      "samples": [
+        "egins with the fam\nword with whic"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fay",
+      "replacement": "say",
+      "count": 1,
+      "samples": [
+        "dition. \" Ida (fay fys) with Cymo"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fays",
+      "replacement": "says",
+      "count": 4,
+      "samples": [
+        "civil war, he fays\nto him: _You,",
+        "igure,\nwhen he fays, \" Do you lame",
+        "Raul, when he fays: \" Are they\nHe",
+        "Horos, when he\nfays, \" Get money i"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fears",
+      "replacement": "sears",
+      "count": 1,
+      "samples": [
+        "about what he fears and therefore"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "feen",
+      "replacement": "seen",
+      "count": 1,
+      "samples": [
+        "ce in\nthe fane feen, it is called"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "feveral",
+      "replacement": "several",
+      "count": 2,
+      "samples": [
+        "s, forrow, and feveral other affiliat",
+        "end?\" Here the feveral members both b"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "few",
+      "replacement": "sew",
+      "count": 1,
+      "samples": [
+        "far: \" We have few\nyour colony re"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "loft",
+      "replacement": "lost",
+      "count": 1,
+      "samples": [
+        ", and\nfcks her loft for, jer stren"
+      ]
+    }
+  ],
+  "metrics": {
+    "jaccard_raw": 0.006,
+    "jaccard_normalized": 0.0061,
+    "cosine_tfidf": 0.0093,
+    "cosine_embedding": 0.0776,
+    "distinctive_britannica": [
+      "figure",
+      "fame",
+      "left",
+      "word",
+      "says",
+      "find",
+      "former",
+      "following",
+      "begins",
+      "against",
+      "repeated",
+      "makes",
+      "thing",
+      "get",
+      "anthony"
+    ],
+    "distinctive_wikipedia": [
+      "part",
+      "iii",
+      "episode",
+      "album",
+      "india",
+      "true",
+      "constitution",
+      "indian",
+      "honor",
+      "bass",
+      "wars",
+      "star",
+      "peaks",
+      "galaxy",
+      "twin"
+    ],
+    "shared_terms": [
+      "detective",
+      "time"
+    ]
+  },
+  "aligned_chunks": [
+    {
+      "britannica_chunk_index": 4,
+      "wikipedia_chunk_index": 1,
+      "similarity": 0.105,
+      "britannica_excerpt": "on the fame work, as that converted figure is formed by the orbicular motion of a line to the fame\n\npoints.\n\nWhen the following fenestene begins with the sam\n\nword with which the former concluded, it is termed\n\nanadbigfix. As in the followi",
+      "wikipedia_excerpt": "Brahmāstra: Part Three, third part of the Astraverse series of Indian superhero films, to be released in 2027\n\nSangliyana Part 3, a 1997 Indian film\n\nPart III of the Albanian Constitution\n\nPart III of the Constitution of India, defining fun"
+    },
+    {
+      "britannica_chunk_index": 0,
+      "wikipedia_chunk_index": 0,
+      "similarity": 0.0991,
+      "britannica_excerpt": "O R A T O R Y.\n\nfiredy temper of the family. And fo in the pro- verbal exprion: _An ape is an ape, drift him ever_\n\n_fo fine._\n\nfloretion\n\nWhen a word is repeated again with vehemence in\n\nthe fane seen, it is called _epizensis_ This figure ",
+      "wikipedia_excerpt": "Part Three, Part 3 or Part III may refer to:\n\nPart 3 (KC and the Sunshine Band album)\n\nPart III (112 album) (2001 album), R&B album by 112\n\n\" Part Three into Paper Walls \", a song by Russell Morris\n\n\"Part 3\" (True Detective), an episode of "
+    },
+    {
+      "britannica_chunk_index": 1,
+      "wikipedia_chunk_index": 1,
+      "similarity": 0.0842,
+      "britannica_excerpt": "court issue. It was that he tells Crafting in his first directive against him : _You lives; and live, not to lay afide_,\n\n_but to paying your racked defying._ And when our Saviour would expect his great concern and former for\n\nthe wandche o",
+      "wikipedia_excerpt": "Brahmāstra: Part Three, third part of the Astraverse series of Indian superhero films, to be released in 2027\n\nSangliyana Part 3, a 1997 Indian film\n\nPart III of the Albanian Constitution\n\nPart III of the Constitution of India, defining fun"
+    }
+  ],
+  "topic_id": 5,
+  "topic_terms": [
+    "every",
+    "people",
+    "upon"
+  ],
+  "claims": [
+    {
+      "claim_text": "The Britannica entry \"Part III\" uses 345 content tokens while the Wikipedia article \"Part Three\" uses 106; their normalized vocabularies share a Jaccard overlap of 0.0061 (raw 0.006) and a TF-IDF cosine similarity of 0.0093.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1933"
+      ],
+      "britannica_quote": "O R A T O R Y.\n\nfiredy temper of the family. And fo in the pro- verbal exprion: _An ape is an ape, drift him ever_\n_fo fine._\n\nfloretion\n\nWhen a word is repeated again with vehemence in\nthe fane feen, it is called _epizensis_ This figure fl",
+      "wikipedia_page_id": "5134134",
+      "wikipedia_revision_id": "1319712171",
+      "wikipedia_quote": "Part Three, Part 3 or Part III may refer to:\n\nPart 3 (KC and the Sunshine Band album)\n\nPart III (112 album) (2001 album), R&B album by 112\n\n\" Part Three into Paper Walls \", a song by Russell Morris\n\n\"Part 3\" (True Detective), an episode of "
+    },
+    {
+      "claim_text": "Britannica's most distinctive term is \"figure\"; Wikipedia's is \"part\", showing the era-specific vocabulary of each source.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1933"
+      ],
+      "britannica_quote": "the fane feen, it is called _epizensis_ This figure flews",
+      "wikipedia_page_id": "5134134",
+      "wikipedia_revision_id": "1319712171",
+      "wikipedia_quote": "Part Three, Part 3 or Part III may refer to:"
+    },
+    {
+      "claim_text": "Both sources share core vocabulary including: detective, time.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1933"
+      ],
+      "britannica_quote": "three Roman amics\" The author of this detective",
+      "wikipedia_page_id": "5134134",
+      "wikipedia_revision_id": "1319712171",
+      "wikipedia_quote": "\"Part 3\" (True Detective), an episode of True Detective"
+    },
+    {
+      "claim_text": "24 normalization rules fired on the Britannica text (\"an-\nthony\" -> \"anthony\"; \"arees-\ndirafs\" -> \"areesdirafs\"; \"con-\ndemend\" -> \"condemend\"); residual vocabulary differences likely reflect era terminology rather than OCR noise alone.",
+      "claim_type": "inference",
+      "label": "[inference]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1933"
+      ],
+      "britannica_quote": "An-\nthony",
+      "wikipedia_page_id": "5134134",
+      "wikipedia_revision_id": "1319712171",
+      "wikipedia_quote": "Part Three, Part 3 or Part III may refer to:\n\nPart 3 (KC and the Sunshine Band album)\n\nPart III (112 album) (2001 album), R&B album by 112\n\n\" Part Three into Paper Walls \", a song by Russell Morris\n\n\"Part 3\" (True Detective), an episode of "
+    }
+  ]
+}

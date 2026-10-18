@@ -1,0 +1,153 @@
+{
+  "entry_id": "entry-t-h-o-t-h-r-604",
+  "britannica_title": "T H O T H R",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:604"
+  ],
+  "britannica_sha256": "87d5e51ab077e581c92739bbc21dbaab6bd8bf2a08fd2d8b85b15a0dbec7a932",
+  "britannica_raw_chars": 7899,
+  "britannica_tokens": 651,
+  "britannica_unique_tokens": 552,
+  "wikipedia_page_id": "23667568",
+  "wikipedia_revision_id": "1086015190",
+  "wikipedia_title": "Neomirandea",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Neomirandea",
+  "wikipedia_text_sha256": "b32854ac9b14671bbdcd7ee308c1211d9616bcfd86b7475afd82a669dc5d893c",
+  "wikipedia_raw_chars": 1479,
+  "wikipedia_tokens": 143,
+  "wikipedia_unique_tokens": 53,
+  "length_ratio": 0.187,
+  "text_changes": [
+    {
+      "rule": "archaic_spelling",
+      "original": "honour",
+      "replacement": "honor",
+      "count": 1,
+      "samples": [
+        "d his pride to honour and Lara. But"
+      ]
+    }
+  ],
+  "metrics": {
+    "jaccard_raw": 0.0017,
+    "jaccard_normalized": 0.0017,
+    "cosine_tfidf": 0.0003,
+    "cosine_embedding": -0.0296,
+    "distinctive_britannica": [
+      "henry",
+      "paris",
+      "life",
+      "death",
+      "written",
+      "author",
+      "years",
+      "history",
+      "church",
+      "public",
+      "nearly",
+      "engaged",
+      "macedonia",
+      "accepted",
+      "miles"
+    ],
+    "distinctive_wikipedia": [
+      "king",
+      "rob",
+      "neomirandea",
+      "less",
+      "american",
+      "family",
+      "species",
+      "central",
+      "south",
+      "genus",
+      "plants",
+      "tribe",
+      "britannica",
+      "edition",
+      "dillon"
+    ],
+    "shared_terms": [
+      "within"
+    ]
+  },
+  "aligned_chunks": [
+    {
+      "britannica_chunk_index": 12,
+      "wikipedia_chunk_index": 1,
+      "similarity": 0.2671,
+      "britannica_excerpt": "ee Rutuz)",
+      "wikipedia_excerpt": "Neomirandea gracilis R.M.King & H.Rob.\n\nNeomirandea grosvenorii R.M.King & H.Rob.\n\nNeomirandea guevarii R.M.King & H.Rob.\n\nNeomirandea homogama (Hieron.) H.Rob. & Brettell\n\nNeomirandea ovandensis R.M.King & H.Rob.\n\nNeomirandea panamensis R."
+    },
+    {
+      "britannica_chunk_index": 13,
+      "wikipedia_chunk_index": 0,
+      "similarity": 0.1712,
+      "britannica_excerpt": "THRARSTON, a market-own of England, in the county and 13 miles ENNE. of Northampton, on the Nen, which is here crossed by a bridge. The parish church is a cruciform building with a tower and spire; and there are",
+      "wikipedia_excerpt": "Neomirandea is a genus of Central American and South American flowering plants in the boneset tribe within the sunflower family.\n\nSpecies\n\nNeomirandea allenii R.M.King & H.Rob.\n\nNeomirandea angularis (B.L.Rob.) R.M.King & H.Rob.\n\nNeomirande"
+    },
+    {
+      "britannica_chunk_index": 1,
+      "wikipedia_chunk_index": 1,
+      "similarity": 0.1226,
+      "britannica_excerpt": "Thornflies we all always ask me walk van Cuavaa and Flacman as one of the great representatives of Sculpture. The former, his sliders were almost the first to break through the intensive routine of the world mixed Italian and French art whi",
+      "wikipedia_excerpt": "Neomirandea gracilis R.M.King & H.Rob.\n\nNeomirandea grosvenorii R.M.King & H.Rob.\n\nNeomirandea guevarii R.M.King & H.Rob.\n\nNeomirandea homogama (Hieron.) H.Rob. & Brettell\n\nNeomirandea ovandensis R.M.King & H.Rob.\n\nNeomirandea panamensis R."
+    }
+  ],
+  "topic_id": 7,
+  "topic_terms": [
+    "see",
+    "upon",
+    "great"
+  ],
+  "claims": [
+    {
+      "claim_text": "The Britannica entry \"T H O T H R\" uses 651 content tokens while the Wikipedia article \"Neomirandea\" uses 143; their normalized vocabularies share a Jaccard overlap of 0.0017 (raw 0.0017) and a TF-IDF cosine similarity of 0.0003.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:604"
+      ],
+      "britannica_quote": "Thoos. attended, walking as mourners. The queen and princesses also assisted at the ceremony of people including the public bodies, mountains and ascidental, amoured to many thousands. An interesting part of the ceremony was the performance",
+      "wikipedia_page_id": "23667568",
+      "wikipedia_revision_id": "1086015190",
+      "wikipedia_quote": "Neomirandea is a genus of Central American and South American flowering plants in the boneset tribe within the sunflower family.\n\nSpecies\n\nNeomirandea allenii R.M.King & H.Rob.\n\nNeomirandea angularis (B.L.Rob.) R.M.King & H.Rob.\n\nNeomirande"
+    },
+    {
+      "claim_text": "Britannica's most distinctive term is \"henry\"; Wikipedia's is \"king\", showing the era-specific vocabulary of each source.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:604"
+      ],
+      "britannica_quote": "De Thus returned to Paris in 1572 after a year's absence, to witness the marriage of Henry of Warwers to see the ideal body of College hanging from the gribed; and to be a spectator of the horrible massacre of St Bartholne louner.",
+      "wikipedia_page_id": "23667568",
+      "wikipedia_revision_id": "1086015190",
+      "wikipedia_quote": "Neomirandea allenii R.M.King & H.Rob."
+    },
+    {
+      "claim_text": "Both sources share core vocabulary including: within.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:604"
+      ],
+      "britannica_quote": "Three was confined within narrower and more definite limits.",
+      "wikipedia_page_id": "23667568",
+      "wikipedia_revision_id": "1086015190",
+      "wikipedia_quote": "Neomirandea is a genus of Central American and South American flowering plants in the boneset tribe within the sunflower family."
+    },
+    {
+      "claim_text": "1 normalization rules fired on the Britannica text (\"honour\" -> \"honor\"); residual vocabulary differences likely reflect era terminology rather than OCR noise alone.",
+      "claim_type": "inference",
+      "label": "[inference]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:604"
+      ],
+      "britannica_quote": "d his pride to honour and Lara. But",
+      "wikipedia_page_id": "23667568",
+      "wikipedia_revision_id": "1086015190",
+      "wikipedia_quote": "Neomirandea is a genus of Central American and South American flowering plants in the boneset tribe within the sunflower family.\n\nSpecies\n\nNeomirandea allenii R.M.King & H.Rob.\n\nNeomirandea angularis (B.L.Rob.) R.M.King & H.Rob.\n\nNeomirande"
+    }
+  ]
+}

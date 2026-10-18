@@ -1,0 +1,229 @@
+{
+  "entry_id": "entry-t-h-o-896-1614",
+  "britannica_title": "T H O  896",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1614",
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1615"
+  ],
+  "britannica_sha256": "19d283efd79b4f21b37f86783e8a2f81c87cfd0e3384c4b521c71058a5aa072f",
+  "britannica_raw_chars": 6372,
+  "britannica_tokens": 537,
+  "britannica_unique_tokens": 463,
+  "wikipedia_page_id": "24728239",
+  "wikipedia_revision_id": "1344044323",
+  "wikipedia_title": "Doron Swade",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Doron_Swade",
+  "wikipedia_text_sha256": "827e9ccebb0384ec98fd1b680c5b4477e82ca6347c9e18ba067fbbffdd79ea38",
+  "wikipedia_raw_chars": 1995,
+  "wikipedia_tokens": 174,
+  "wikipedia_unique_tokens": 114,
+  "length_ratio": 0.313,
+  "text_changes": [
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "coaft",
+      "replacement": "coast",
+      "count": 1,
+      "samples": [
+        "India, on the coaft of Comornadel,"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fay",
+      "replacement": "say",
+      "count": 1,
+      "samples": [
+        "the Romanilla fay, martyred, in"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "feeds",
+      "replacement": "seeds",
+      "count": 1,
+      "samples": [
+        "ontaining many feeds. There are ten"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fet",
+      "replacement": "set",
+      "count": 1,
+      "samples": [
+        "T HO\n\ncrois, fet entheaffors to"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "few",
+      "replacement": "sew",
+      "count": 1,
+      "samples": [
+        "s to the other few pieces, for wi"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fituated",
+      "replacement": "situated",
+      "count": 1,
+      "samples": [
+        "tlantic ocean, fituated under the equa"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "refumed",
+      "replacement": "resumed",
+      "count": 1,
+      "samples": [
+        "II: of England refumed it, by creatin"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "rife",
+      "replacement": "rise",
+      "count": 1,
+      "samples": [
+        "Scotland, the rife and infiltrati"
+      ]
+    }
+  ],
+  "metrics": {
+    "jaccard_raw": 0.0158,
+    "jaccard_normalized": 0.0158,
+    "cosine_tfidf": 0.0335,
+    "cosine_embedding": 0.0805,
+    "distinctive_britannica": [
+      "thomas",
+      "king",
+      "order",
+      "river",
+      "portuguese",
+      "city",
+      "church",
+      "andrew",
+      "scotland",
+      "kind",
+      "crois",
+      "see",
+      "miles",
+      "reign",
+      "offered"
+    ],
+    "distinctive_wikipedia": [
+      "history",
+      "science",
+      "university",
+      "swade",
+      "museum",
+      "computer",
+      "london",
+      "engine",
+      "society",
+      "difference",
+      "computing",
+      "work",
+      "charles",
+      "engineering",
+      "collections"
+    ],
+    "shared_terms": [
+      "charles",
+      "england",
+      "known",
+      "regular",
+      "south",
+      "swade",
+      "time",
+      "town",
+      "year"
+    ]
+  },
+  "aligned_chunks": [
+    {
+      "britannica_chunk_index": 0,
+      "wikipedia_chunk_index": 0,
+      "similarity": 0.1692,
+      "britannica_excerpt": "hire, situated on the river Swade, fixtures miles north- of Yor. It leads two members in parlament\n\nTHISTLE, in botany. See Carousus.",
+      "wikipedia_excerpt": "Doron Swade MBE, born 1946, is a museum curator and author, specialising in the history of computing. He is especially known for his work on the computer pioneer Charles Babbage and his Difference Engine.\n\nSwade is originally from South Afr"
+    },
+    {
+      "britannica_chunk_index": 1,
+      "wikipedia_chunk_index": 2,
+      "similarity": 0.1028,
+      "britannica_excerpt": "_Order of Life_ THISTES, or of BX Anakaw, a military order of neighborhood in Scotland, the rise and infiltration whereof is variously related by different authors. Leley, bilbp of Roofs, reports, that the girls below the battle between Chi",
+      "wikipedia_excerpt": "Swade is a visiting professor in the history of computing at the University of Portsmouth, UK. He is also an honorary research fellow in computer science at Royal Holloway, University of London.\n\nHe appeared in the In Our Time program on Ad"
+    },
+    {
+      "britannica_chunk_index": 10,
+      "wikipedia_chunk_index": 0,
+      "similarity": 0.0929,
+      "britannica_excerpt": "THOMISTS, a feet of school-driven, who maintain thom- in, and the preceding article.\n\nTHEORACIC Dc ctr. See Astronomy, p. 282.\n\nTHORAX, in anatomy. See Anatomy, p. 277.\n\nTHONN. a city of Poland, in the province of regal Praflix, illustrated",
+      "wikipedia_excerpt": "Doron Swade MBE, born 1946, is a museum curator and author, specialising in the history of computing. He is especially known for his work on the computer pioneer Charles Babbage and his Difference Engine.\n\nSwade is originally from South Afr"
+    }
+  ],
+  "topic_id": 7,
+  "topic_terms": [
+    "see",
+    "upon",
+    "great"
+  ],
+  "claims": [
+    {
+      "claim_text": "The Britannica entry \"T H O  896\" uses 536 content tokens while the Wikipedia article \"Doron Swade\" uses 174; their normalized vocabularies share a Jaccard overlap of 0.0158 (raw 0.0158) and a TF-IDF cosine similarity of 0.0335.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1614",
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1615"
+      ],
+      "britannica_quote": "hire, situated on the river Swade, fixtures miles north- of Yor. It leads two members in parlament\n\nTHISTLE, in botany. See Carousus.\n\n_Order of Life_ THISTES, or of BX Anakaw, a military order of neighborhood in Scotland, the rife and infi",
+      "wikipedia_page_id": "24728239",
+      "wikipedia_revision_id": "1344044323",
+      "wikipedia_quote": "Doron Swade MBE, born 1946, is a museum curator and author, specialising in the history of computing. He is especially known for his work on the computer pioneer Charles Babbage and his Difference Engine.\n\nSwade is originally from South Afr"
+    },
+    {
+      "claim_text": "Britannica's most distinctive term is \"thomas\"; Wikipedia's is \"history\", showing the era-specific vocabulary of each source.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1614",
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1615"
+      ],
+      "britannica_quote": "THONF.ANS, ThOMSTS, or Chiffistur of St Thomas, a people of the Ealt-Infer, who, according to the tradious received the Gorgeel for St Thomas.",
+      "wikipedia_page_id": "24728239",
+      "wikipedia_revision_id": "1344044323",
+      "wikipedia_quote": "Doron Swade MBE, born 1946, is a museum curator and author, specialising in the history of computing."
+    },
+    {
+      "claim_text": "Both sources share core vocabulary including: charles, england, known, regular, south.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1614",
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1615"
+      ],
+      "britannica_quote": "But although he still had been acknowledged as the Jhnol of the kingdom of Sozbank from the reign of Achaiu, yet fome refer the beginning of this order to Charles VII, of France.",
+      "wikipedia_page_id": "24728239",
+      "wikipedia_revision_id": "1344044323",
+      "wikipedia_quote": "He is especially known for his work on the computer pioneer Charles Babbage and his Difference Engine."
+    },
+    {
+      "claim_text": "8 normalization rules fired on the Britannica text (\"coaft\" -> \"coast\"; \"fay\" -> \"say\"; \"feeds\" -> \"seeds\"); residual vocabulary differences likely reflect era terminology rather than OCR noise alone.",
+      "claim_type": "inference",
+      "label": "[inference]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1614",
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1615"
+      ],
+      "britannica_quote": "India, on the coaft of Comornadel,",
+      "wikipedia_page_id": "24728239",
+      "wikipedia_revision_id": "1344044323",
+      "wikipedia_quote": "Doron Swade MBE, born 1946, is a museum curator and author, specialising in the history of computing. He is especially known for his work on the computer pioneer Charles Babbage and his Difference Engine.\n\nSwade is originally from South Afr"
+    }
+  ]
+}

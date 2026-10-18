@@ -1,0 +1,255 @@
+{
+  "entry_id": "entry-britannica-volume-144850368-row-713-713",
+  "britannica_title": "Britannica Volume 144850368 Row 713",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:713"
+  ],
+  "britannica_sha256": "cf898d17059b9cb296a45f458bcc7c907de4ab08ba69c8e4d08131dc096f09d9",
+  "britannica_raw_chars": 6298,
+  "britannica_tokens": 563,
+  "britannica_unique_tokens": 457,
+  "wikipedia_page_id": "9004976",
+  "wikipedia_revision_id": "1340071003",
+  "wikipedia_title": "History of the Encyclopædia Britannica",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/History_of_the_Encyclop%C3%A6dia_Britannica",
+  "wikipedia_text_sha256": "64dd89242f04b3e591115caca56a86f50c9129e1ec3650be302ee2bca6f05eb1",
+  "wikipedia_raw_chars": 71820,
+  "wikipedia_tokens": 5909,
+  "wikipedia_unique_tokens": 2368,
+  "length_ratio": 11.404,
+  "text_changes": [
+    {
+      "rule": "archaic_spelling",
+      "original": "colour",
+      "replacement": "color",
+      "count": 1,
+      "samples": [
+        "te is the belt colour for a ram. The"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "compreffed",
+      "replacement": "compressed",
+      "count": 1,
+      "samples": [
+        "half moon, and compreffed. This animal i"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "deftroys",
+      "replacement": "destroys",
+      "count": 1,
+      "samples": [
+        "es, which foot deftroys the veffels wh"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "few",
+      "replacement": "sew",
+      "count": 1,
+      "samples": [
+        "th your about, few months, and ge"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fituated",
+      "replacement": "situated",
+      "count": 1,
+      "samples": [
+        "rthamptomhire, fituated on the river N"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fleep",
+      "replacement": "sleep",
+      "count": 6,
+      "samples": [
+        "es, or ram and fleep, the horos of",
+        "In a flock of fleep, there is alwa",
+        "here thyme and fleep's fefea grafs",
+        "the patturing fleep.\n\n2. The Guine",
+        "nds, or Guinea fleep, has pendulous"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fweep",
+      "replacement": "sweep",
+      "count": 1,
+      "samples": [
+        "le profile, or fweep, in the ionic"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "lofe",
+      "replacement": "lose",
+      "count": 1,
+      "samples": [
+        "r- wards, they lofe the two forese"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "lofs",
+      "replacement": "loss",
+      "count": 1,
+      "samples": [
+        "one year old, lofs the two forese"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "veffels",
+      "replacement": "vessels",
+      "count": 1,
+      "samples": [
+        "t deftroys the veffels which nourish"
+      ]
+    }
+  ],
+  "metrics": {
+    "jaccard_raw": 0.0475,
+    "jaccard_normalized": 0.0486,
+    "cosine_tfidf": 0.0516,
+    "cosine_embedding": 0.099,
+    "distinctive_britannica": [
+      "sleep",
+      "though",
+      "whole",
+      "months",
+      "fame",
+      "river",
+      "molt",
+      "along",
+      "thick",
+      "without",
+      "animal",
+      "forth",
+      "age",
+      "part",
+      "white"
+    ],
+    "distinctive_wikipedia": [
+      "edition",
+      "britannica",
+      "articles",
+      "volumes",
+      "pages",
+      "dia",
+      "volume",
+      "published",
+      "supplement",
+      "article",
+      "encyclopedia",
+      "third",
+      "encyclop",
+      "fourth",
+      "page"
+    ],
+    "shared_terms": [
+      "additional",
+      "advantages",
+      "against",
+      "age",
+      "aged",
+      "ages",
+      "allowed",
+      "along",
+      "alternately",
+      "always",
+      "appear",
+      "appears",
+      "april",
+      "architecture",
+      "around",
+      "articles",
+      "attention",
+      "beginning",
+      "body",
+      "bringing",
+      "britain",
+      "brought",
+      "called",
+      "cannot",
+      "care",
+      "children",
+      "cold",
+      "color",
+      "come",
+      "commonly"
+    ]
+  },
+  "aligned_chunks": [
+    {
+      "britannica_chunk_index": 0,
+      "wikipedia_chunk_index": 35,
+      "similarity": 0.6191,
+      "britannica_excerpt": "**OYI ( 447)** **OUS**",
+      "wikipedia_excerpt": " the 19th century."
+    },
+    {
+      "britannica_chunk_index": 9,
+      "wikipedia_chunk_index": 14,
+      "similarity": 0.2349,
+      "britannica_excerpt": "In Spain, and the Southern passa of Europe, the flocks are kept in thudes or fiables during the night; but in Britain, where there is now no danger from wolves, they are allowed to remain without; both adult and day; which make the animals ",
+      "wikipedia_excerpt": "He chose a spot of ground on which no plants had been sown, and there he made a hole large and deep enough to admit the patient up to the chin. The interstices of the pit were then carefully filled up with the fresh mould, so that the earth"
+    },
+    {
+      "britannica_chunk_index": 3,
+      "wikipedia_chunk_index": 15,
+      "similarity": 0.2076,
+      "britannica_excerpt": "Love, the lifeliftentment in all animals, is the on- ly pathion which infiples the ram with any degree of vi- vacity; when under the influence of this pallon, he bo- come prettien, more significant and sometimes even attacks the flhepherh h",
+      "wikipedia_excerpt": "and a somewhat melancholy article on \" Love \" that persisted in the Britannica for nearly a century (until its ninth edition):\n\nAs the force of love prevails, sighs grow deeper; a tremor affects the heart and pulse; the countenance is alter"
+    }
+  ],
+  "topic_id": 5,
+  "topic_terms": [
+    "every",
+    "people",
+    "upon"
+  ],
+  "claims": [
+    {
+      "claim_text": "The Britannica entry \"Britannica Volume 144850368 Row 713\" uses 562 content tokens while the Wikipedia article \"History of the Encyclopædia Britannica\" uses 5909; their normalized vocabularies share a Jaccard overlap of 0.0486 (raw 0.0475) and a TF-IDF cosine similarity of 0.0516.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:713"
+      ],
+      "britannica_quote": "**OYI ( 447)** **OUS**\n\n1. Aries, or ram and fleep, the horos of which are flu- ped like a half moon, and compreffed. This animal is perhaps the molt gentle and notifintive, and at the fame time the molt timid and fliquid, of all quadrupeds",
+      "wikipedia_page_id": "9004976",
+      "wikipedia_revision_id": "1340071003",
+      "wikipedia_quote": "The Encyclopædia Britannica has been published continuously since 1768, appearing in fifteen official editions. Several editions were amended with multi-volume \"supplements\" (3rd, 4th/5th/6th), several consisted of previous editions with ad"
+    },
+    {
+      "claim_text": "Both sources share core vocabulary including: additional, advantages, against, age, aged.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:713"
+      ],
+      "britannica_quote": "Their horse uniformly ac- quite an additional ring every year as longer the creature lives.",
+      "wikipedia_page_id": "9004976",
+      "wikipedia_revision_id": "1340071003",
+      "wikipedia_quote": "Hall of New York, to print, bind and distribute additional sets in the United States, and provided them with stereotype plates for text and graphics, specifications on the color and tanning quality of the leather bindings, etc., so the Amer"
+    },
+    {
+      "claim_text": "10 normalization rules fired on the Britannica text (\"colour\" -> \"color\"; \"compreffed\" -> \"compressed\"; \"deftroys\" -> \"destroys\"); residual vocabulary differences likely reflect era terminology rather than OCR noise alone.",
+      "claim_type": "inference",
+      "label": "[inference]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:713"
+      ],
+      "britannica_quote": "te is the belt colour for a ram. The",
+      "wikipedia_page_id": "9004976",
+      "wikipedia_revision_id": "1340071003",
+      "wikipedia_quote": "The Encyclopædia Britannica has been published continuously since 1768, appearing in fifteen official editions. Several editions were amended with multi-volume \"supplements\" (3rd, 4th/5th/6th), several consisted of previous editions with ad"
+    }
+  ]
+}

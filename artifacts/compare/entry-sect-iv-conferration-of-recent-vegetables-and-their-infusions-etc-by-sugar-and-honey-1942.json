@@ -1,0 +1,495 @@
+{
+  "entry_id": "entry-sect-iv-conferration-of-recent-vegetables-and-their-infusions-etc-by-sugar-and-honey-1942",
+  "britannica_title": "Sect IV Conferration of recent Vegetables and\ntheir Infusions etc by Sugar and Honey",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1942"
+  ],
+  "britannica_sha256": "ef7e6360a339ea2a7a371629d04bb0562bff77730157f25b46bbd6290e1135e7",
+  "britannica_raw_chars": 5556,
+  "britannica_tokens": 458,
+  "britannica_unique_tokens": 373,
+  "wikipedia_page_id": "3594370",
+  "wikipedia_revision_id": "1333875139",
+  "wikipedia_title": "Phar-Mor",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Phar-Mor",
+  "wikipedia_text_sha256": "b477e323f7185836add84535d1071a16f7e0983e755655eb613a416a1689951b",
+  "wikipedia_raw_chars": 3964,
+  "wikipedia_tokens": 359,
+  "wikipedia_unique_tokens": 256,
+  "length_ratio": 0.713,
+  "text_changes": [
+    {
+      "rule": "archaic_spelling",
+      "original": "flavour",
+      "replacement": "flavor",
+      "count": 1,
+      "samples": [
+        "r an agreeable flavour to recommend t"
+      ]
+    },
+    {
+      "rule": "archaic_spelling",
+      "original": "labour",
+      "replacement": "labor",
+      "count": 1,
+      "samples": [
+        "idierably leis\nlabour than at frift."
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "ac-\ncount",
+      "replacement": "account",
+      "count": 1,
+      "samples": [
+        "ac-\ncount"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "blo-\nmonth",
+      "replacement": "blomonth",
+      "count": 1,
+      "samples": [
+        "blo-\nmonth"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "com-\n\npound",
+      "replacement": "compound",
+      "count": 1,
+      "samples": [
+        "com-\n\npound"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "com-\nplaints",
+      "replacement": "complaints",
+      "count": 1,
+      "samples": [
+        "com-\nplaints"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "con-\nfidered",
+      "replacement": "confidered",
+      "count": 1,
+      "samples": [
+        "con-\nfidered"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "con-\ntinned",
+      "replacement": "continned",
+      "count": 1,
+      "samples": [
+        "con-\ntinned"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "cor-\nrobranant",
+      "replacement": "corrobranant",
+      "count": 1,
+      "samples": [
+        "cor-\nrobranant"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "dry-\ning",
+      "replacement": "drying",
+      "count": 1,
+      "samples": [
+        "dry-\ning"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "dul-\ncies",
+      "replacement": "dulcies",
+      "count": 1,
+      "samples": [
+        "dul-\ncies"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "fo-\nlids",
+      "replacement": "folids",
+      "count": 2,
+      "samples": [
+        "fo-\nlids",
+        "fo-\nlids"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "folfix-\ncleine",
+      "replacement": "folfixcleine",
+      "count": 1,
+      "samples": [
+        "folfix-\ncleine"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "glu-\ntionus",
+      "replacement": "glutionus",
+      "count": 1,
+      "samples": [
+        "glu-\ntionus"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "pa-\nlate",
+      "replacement": "palate",
+      "count": 1,
+      "samples": [
+        "pa-\nlate"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "parti-\ncular",
+      "replacement": "particular",
+      "count": 1,
+      "samples": [
+        "parti-\ncular"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "pecu-\nliar",
+      "replacement": "peculiar",
+      "count": 1,
+      "samples": [
+        "pecu-\nliar"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "prepara-\ntions",
+      "replacement": "preparations",
+      "count": 1,
+      "samples": [
+        "Prepara-\ntions"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "re-\ncommend",
+      "replacement": "recommend",
+      "count": 1,
+      "samples": [
+        "re-\ncommend"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "retain-\ned",
+      "replacement": "retained",
+      "count": 1,
+      "samples": [
+        "retain-\ned"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "ta-\nken",
+      "replacement": "taken",
+      "count": 1,
+      "samples": [
+        "ta-\nken"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "uife-\nfully",
+      "replacement": "uifefully",
+      "count": 1,
+      "samples": [
+        "uife-\nfully"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "uni-\nform",
+      "replacement": "uniform",
+      "count": 1,
+      "samples": [
+        "uni-\nform"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "vi-\ntous",
+      "replacement": "vitous",
+      "count": 1,
+      "samples": [
+        "vi-\ntous"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "vic-\nture",
+      "replacement": "victure",
+      "count": 1,
+      "samples": [
+        "vic-\nture"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "cafes",
+      "replacement": "cases",
+      "count": 2,
+      "samples": [
+        "ervice in fome cafes of this kind,",
+        "in one of the cafes, zo\npounds of"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "confidered",
+      "replacement": "considered",
+      "count": 1,
+      "samples": [
+        "are at perfect confidered chiefly as aux"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "diforder",
+      "replacement": "disorder",
+      "count": 1,
+      "samples": [
+        "ine. Where the diforder indeed\nproceed"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fauces",
+      "replacement": "sauces",
+      "count": 1,
+      "samples": [
+        "the\nmouth and fauces, in hot distem"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fervice",
+      "replacement": "service",
+      "count": 1,
+      "samples": [
+        "requently deea\nfervice in fome cafes"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fet",
+      "replacement": "set",
+      "count": 1,
+      "samples": [
+        "d the compound fet by in a clole"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "few",
+      "replacement": "sew",
+      "count": 1,
+      "samples": [
+        "gnificant; the few now retained h"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "folids",
+      "replacement": "solids",
+      "count": 2,
+      "samples": [
+        "illuminate the folids, attenuates vi",
+        "agidity of the folids, the contained"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fugar",
+      "replacement": "sugar",
+      "count": 7,
+      "samples": [
+        "le matters and fugar beaten togethe",
+        "ented, and\nthe fugar preserves them",
+        "ong lying with fugar, become leis g",
+        "e admixture of fugar, only fulblian",
+        "double-refined fugar is\nadded by de"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "loft",
+      "replacement": "lost",
+      "count": 1,
+      "samples": [
+        "great incature loft their peculiar"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "mafs",
+      "replacement": "mass",
+      "count": 3,
+      "samples": [
+        "nto an uniform mafs.\n\nThis managem",
+        "into a smooth mafs after\nwhich th",
+        "the vegetable\nmafs; otherwise it"
+      ]
+    }
+  ],
+  "metrics": {
+    "jaccard_raw": 0.0288,
+    "jaccard_normalized": 0.0311,
+    "cosine_tfidf": 0.0297,
+    "cosine_embedding": 0.1123,
+    "distinctive_britannica": [
+      "taken",
+      "given",
+      "form",
+      "medicine",
+      "sugar",
+      "mixed",
+      "mass",
+      "conferve",
+      "whole",
+      "peculiar",
+      "general",
+      "fome",
+      "great",
+      "vegetables",
+      "cases"
+    ],
+    "distinctive_wikipedia": [
+      "phar-mor",
+      "power",
+      "million",
+      "bankruptcy",
+      "company",
+      "based",
+      "years",
+      "stores",
+      "later",
+      "buying",
+      "monus",
+      "business",
+      "plan",
+      "purchased",
+      "chain"
+    ],
+    "shared_terms": [
+      "against",
+      "another",
+      "common",
+      "convenient",
+      "federal",
+      "half",
+      "large",
+      "lost",
+      "many",
+      "off",
+      "place",
+      "reduced",
+      "related",
+      "several",
+      "time",
+      "total",
+      "via",
+      "without",
+      "year"
+    ]
+  },
+  "aligned_chunks": [
+    {
+      "britannica_chunk_index": 7,
+      "wikipedia_chunk_index": 6,
+      "similarity": 0.1523,
+      "britannica_excerpt": "related of very dangerous phihifies cured by the continned out of this medicine; in one of the cases, zo\n\npounds of the conferve were taken in the face of a\n\nmonth; and in another, upwards of go. Riverius\n\nmentions federal other influences ",
+      "wikipedia_excerpt": "In July 2002, a judge in Youngstown approved the sale of Phar-Mor Inc.'s $141 million (~$ 234 million in 2024) in assets and inventory. Going-out-of-business sales began at the pharmacy chain's remaining 73 stores. Liquidation of Phar-Mor's"
+    },
+    {
+      "britannica_chunk_index": 5,
+      "wikipedia_chunk_index": 0,
+      "similarity": 0.082,
+      "britannica_excerpt": "mouth and sauces, in hot distempers. It may be uifefully joined to the foregoing preparation, whole victure to fomelan promotes, at the same time that it\n\nimproves the taille.\n\nThe conferve of mini retains the safe and virtues\n\nof the herb.",
+      "wikipedia_excerpt": "Phar-Mor (stylized as PHA℞-MOR) was a United States chain of discount drug stores, based in Youngstown, Ohio, and founded by Michael \"Mickey\" Monus and David Shapira in 1982. Some of its stores used the names Pharmhouse and Rx Place (purcha"
+    },
+    {
+      "britannica_chunk_index": 2,
+      "wikipedia_chunk_index": 0,
+      "similarity": 0.08,
+      "britannica_excerpt": "efficacy, as interventions for joining them together.\n\nThey are very convenient for echoing into boubles or\n\npills the more pondrous powders, as mecurunu dulcies, the colors of iron, and other mineral preparations;\n\nwhich will liquid or lei",
+      "wikipedia_excerpt": "Phar-Mor (stylized as PHA℞-MOR) was a United States chain of discount drug stores, based in Youngstown, Ohio, and founded by Michael \"Mickey\" Monus and David Shapira in 1982. Some of its stores used the names Pharmhouse and Rx Place (purcha"
+    }
+  ],
+  "topic_id": 2,
+  "topic_terms": [
+    "water",
+    "acid",
+    "quantity"
+  ],
+  "claims": [
+    {
+      "claim_text": "The Britannica entry \"Sect IV Conferration of recent Vegetables and\ntheir Infusions etc by Sugar and Honey\" uses 473 content tokens while the Wikipedia article \"Phar-Mor\" uses 359; their normalized vocabularies share a Jaccard overlap of 0.0311 (raw 0.0288) and a TF-IDF cosine similarity of 0.0297.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1942"
+      ],
+      "britannica_quote": "PHAR MACY.\n\nPrepara-\ntions.\n\nbrought from Italy, are prepared in this manner. The\nodorous parts may be again separated from the oil,\nand transferred into water or fpirit, by distillation with\nthose liquors.\n\n454. CONSERVES are compollions o",
+      "wikipedia_page_id": "3594370",
+      "wikipedia_revision_id": "1333875139",
+      "wikipedia_quote": "Phar-Mor (stylized as PHA℞-MOR) was a United States chain of discount drug stores, based in Youngstown, Ohio, and founded by Michael \"Mickey\" Monus and David Shapira in 1982. Some of its stores used the names Pharmhouse and Rx Place (purcha"
+    },
+    {
+      "claim_text": "Britannica's most distinctive term is \"taken\"; Wikipedia's is \"phar-mor\", showing the era-specific vocabulary of each source.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1942"
+      ],
+      "britannica_quote": "of considerable activity can be taken to advantage as",
+      "wikipedia_page_id": "3594370",
+      "wikipedia_revision_id": "1333875139",
+      "wikipedia_quote": "Phar-Mor (stylized as PHA℞-MOR) was a United States chain of discount drug stores, based in Youngstown, Ohio, and founded by Michael \"Mickey\" Monus and David Shapira in 1982."
+    },
+    {
+      "claim_text": "Both sources share core vocabulary including: against, another, common, convenient, federal.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1942"
+      ],
+      "britannica_quote": "ken in a morning, as a preferative against the effects",
+      "wikipedia_page_id": "3594370",
+      "wikipedia_revision_id": "1333875139",
+      "wikipedia_quote": "Finn testified against Monus and received 33 months in prison."
+    },
+    {
+      "claim_text": "36 normalization rules fired on the Britannica text (\"flavour\" -> \"flavor\"; \"labour\" -> \"labor\"; \"ac-\ncount\" -> \"account\"); residual vocabulary differences likely reflect era terminology rather than OCR noise alone.",
+      "claim_type": "inference",
+      "label": "[inference]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1942"
+      ],
+      "britannica_quote": "r an agreeable flavour to recommend t",
+      "wikipedia_page_id": "3594370",
+      "wikipedia_revision_id": "1333875139",
+      "wikipedia_quote": "Phar-Mor (stylized as PHA℞-MOR) was a United States chain of discount drug stores, based in Youngstown, Ohio, and founded by Michael \"Mickey\" Monus and David Shapira in 1982. Some of its stores used the names Pharmhouse and Rx Place (purcha"
+    }
+  ]
+}

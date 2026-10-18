@@ -1,0 +1,205 @@
+{
+  "entry_id": "entry-n-i-l-75-j-n-i-l-318",
+  "britannica_title": "N I L 75 J N I L",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:318"
+  ],
+  "britannica_sha256": "ff7baf20064f65fa4d06ac1ddf0a6e92f8da10b788443ec4a92499c0ab3a9fa7",
+  "britannica_raw_chars": 6407,
+  "britannica_tokens": 528,
+  "britannica_unique_tokens": 420,
+  "wikipedia_page_id": "9043177",
+  "wikipedia_revision_id": "1274154570",
+  "wikipedia_title": "John V. Orth",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/John_V._Orth",
+  "wikipedia_text_sha256": "2a35b647ed5acd2849baee366f7dafeac3e52cf556ec19ec22af1b155876097f",
+  "wikipedia_raw_chars": 5216,
+  "wikipedia_tokens": 465,
+  "wikipedia_unique_tokens": 246,
+  "length_ratio": 0.814,
+  "text_changes": [
+    {
+      "rule": "line_break_hyphen",
+      "original": "be-\n\ntween",
+      "replacement": "between",
+      "count": 1,
+      "samples": [
+        "be-\n\ntween"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "caufe",
+      "replacement": "cause",
+      "count": 1,
+      "samples": [
+        "from the farm caufe, is produced o"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fan",
+      "replacement": "san",
+      "count": 1,
+      "samples": [
+        "rd. Be the rea fan what it will,"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fays",
+      "replacement": "says",
+      "count": 2,
+      "samples": [
+        "-4 The clouds (fays Mr Bruce) here",
+        "4 The reader ( fays by it will con"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "few",
+      "replacement": "sew",
+      "count": 1,
+      "samples": [
+        "Egypt into the few were it to con"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "foil",
+      "replacement": "soil",
+      "count": 1,
+      "samples": [
+        "off the whole foil of Egypt into"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fun",
+      "replacement": "sun",
+      "count": 9,
+      "samples": [
+        "re precede the fun only about 6°;",
+        "ay of May, the fun paths the vill",
+        "at, though the fun still continue",
+        "e to while the fun remains Ration",
+        "o share as the fun turns fouthwar"
+      ]
+    }
+  ],
+  "metrics": {
+    "jaccard_raw": 0.0091,
+    "jaccard_normalized": 0.0091,
+    "cosine_tfidf": 0.0091,
+    "cosine_embedding": 0.0834,
+    "distinctive_britannica": [
+      "sun",
+      "whole",
+      "egypt",
+      "mountains",
+      "continue",
+      "rain",
+      "however",
+      "towards",
+      "nile",
+      "time",
+      "river",
+      "produced",
+      "high",
+      "form",
+      "rivers"
+    ],
+    "distinctive_wikipedia": [
+      "law",
+      "lexisnexis",
+      "university",
+      "westlaw",
+      "american",
+      "press",
+      "history",
+      "hein",
+      "green",
+      "john",
+      "rev",
+      "property",
+      "oxford",
+      "process",
+      "real"
+    ],
+    "shared_terms": [
+      "author",
+      "confirmation",
+      "fact",
+      "many",
+      "north",
+      "take"
+    ]
+  },
+  "aligned_chunks": [
+    {
+      "britannica_chunk_index": 6,
+      "wikipedia_chunk_index": 7,
+      "similarity": 0.2542,
+      "britannica_excerpt": "e, in the eastern parts of the Kingdoms of Bo- nin, Congo, and Angola.",
+      "wikipedia_excerpt": "Book reviews for ALBION, THE AMERICAN HISTORICAL REVIEW, THE AMERICAN JOURNAL OF LEGAL HISTORY, THE JOURNAL OF CHURCH AND STATE, and The NEW CRIMINAL LAW REVIEW."
+    },
+    {
+      "britannica_chunk_index": 0,
+      "wikipedia_chunk_index": 7,
+      "similarity": 0.2054,
+      "britannica_excerpt": "NRls. or White River, which, according to the accounts given by the Galla, our author fuppoles to take its rise in about 9 north latitude.",
+      "wikipedia_excerpt": "Book reviews for ALBION, THE AMERICAN HISTORICAL REVIEW, THE AMERICAN JOURNAL OF LEGAL HISTORY, THE JOURNAL OF CHURCH AND STATE, and The NEW CRIMINAL LAW REVIEW."
+    },
+    {
+      "britannica_chunk_index": 10,
+      "wikipedia_chunk_index": 4,
+      "similarity": 0.1696,
+      "britannica_excerpt": "We regled to the Nile life!I, it has been fatal that the quantity of earth brought down by it from Abyfkina is to great, that the whole land of Egypt is produced from it. This question, however, is disculted under the article [2/vary, where",
+      "wikipedia_excerpt": "\"Confusion Worse Confounded\": The Residential Rental Agreement Act, 78 N.C. L. REV. 783 (2000). Hein LexisNexis Westlaw\n\nHistory and the Eleventh Amendment, 75 NOTRE DAME L. REV. 1147 (2000). Hein LexisNexis Westlaw\n\nJohn Marshall and \"Debt"
+    }
+  ],
+  "topic_id": 2,
+  "topic_terms": [
+    "water",
+    "acid",
+    "quantity"
+  ],
+  "claims": [
+    {
+      "claim_text": "The Britannica entry \"N I L 75 J N I L\" uses 528 content tokens while the Wikipedia article \"John V. Orth\" uses 465; their normalized vocabularies share a Jaccard overlap of 0.0091 (raw 0.0091) and a TF-IDF cosine similarity of 0.0091.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:318"
+      ],
+      "britannica_quote": "NRls. or White River, which, according to the accounts given by the Galla, our author fuppoles to take its rise in about 9 north latitude.\n\nThe rains therefore precede the fun only about 6°; but they continue and incredible after he has puf",
+      "wikipedia_page_id": "9043177",
+      "wikipedia_revision_id": "1274154570",
+      "wikipedia_quote": "John V. Orth is an American legal scholar and author. He is the William Rand Kenan Jr. Professor of Law Emeritus at the University of North Carolina School of Law.\n\nHe earned an A.B. (1969) at Oberlin College, and then proceeded to acquire "
+    },
+    {
+      "claim_text": "Both sources share core vocabulary including: author, confirmation, fact, many, north.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:318"
+      ],
+      "britannica_quote": "or White River, which, according to the accounts given by the Galla, our author fuppoles to take its rise in about 9 north latitude.",
+      "wikipedia_page_id": "9043177",
+      "wikipedia_revision_id": "1274154570",
+      "wikipedia_quote": "Orth is an American legal scholar and author."
+    },
+    {
+      "claim_text": "7 normalization rules fired on the Britannica text (\"be-\n\ntween\" -> \"between\"; \"caufe\" -> \"cause\"; \"fan\" -> \"san\"); residual vocabulary differences likely reflect era terminology rather than OCR noise alone.",
+      "claim_type": "inference",
+      "label": "[inference]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:318"
+      ],
+      "britannica_quote": "be-\n\ntween",
+      "wikipedia_page_id": "9043177",
+      "wikipedia_revision_id": "1274154570",
+      "wikipedia_quote": "John V. Orth is an American legal scholar and author. He is the William Rand Kenan Jr. Professor of Law Emeritus at the University of North Carolina School of Law.\n\nHe earned an A.B. (1969) at Oberlin College, and then proceeded to acquire "
+    }
+  ]
+}

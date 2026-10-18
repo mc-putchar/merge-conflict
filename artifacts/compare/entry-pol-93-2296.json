@@ -1,0 +1,261 @@
+{
+  "entry_id": "entry-pol-93-2296",
+  "britannica_title": "POL  93",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2296"
+  ],
+  "britannica_sha256": "44a7be004ca052b7bad671d888b8251eca6c5d3685db602cc822e7b2acae9549",
+  "britannica_raw_chars": 8057,
+  "britannica_tokens": 639,
+  "britannica_unique_tokens": 310,
+  "wikipedia_page_id": "3522496",
+  "wikipedia_revision_id": "1246192529",
+  "wikipedia_title": "Pol",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Pol",
+  "wikipedia_text_sha256": "a8244c7d99f8004a908c74087e4fcd3b2484551eeca6821970736e5546ca0a4d",
+  "wikipedia_raw_chars": 2658,
+  "wikipedia_tokens": 290,
+  "wikipedia_unique_tokens": 186,
+  "length_ratio": 0.33,
+  "text_changes": [
+    {
+      "rule": "line_break_hyphen",
+      "original": "an-\nvivord",
+      "replacement": "anvivord",
+      "count": 2,
+      "samples": [
+        "an-\nvivord",
+        "an-\nvivord"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "errrag-\nwages",
+      "replacement": "errragwages",
+      "count": 2,
+      "samples": [
+        "Errrag-\nwages",
+        "Errrag-\nwages"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "fu-\npenined",
+      "replacement": "fupenined",
+      "count": 1,
+      "samples": [
+        "fu-\npenined"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "house-\nrive",
+      "replacement": "houserive",
+      "count": 2,
+      "samples": [
+        "House-\nrive",
+        "House-\nrive"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "n-\nvigor",
+      "replacement": "nvigor",
+      "count": 2,
+      "samples": [
+        "n-\nvigor",
+        "n-\nvigor"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "ob-\nduction",
+      "replacement": "obduction",
+      "count": 2,
+      "samples": [
+        "ob-\nduction",
+        "ob-\nduction"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "po-\nutes",
+      "replacement": "poutes",
+      "count": 2,
+      "samples": [
+        "po-\nutes",
+        "po-\nutes"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "telli-\nveyor",
+      "replacement": "telliveyor",
+      "count": 2,
+      "samples": [
+        "telli-\nveyor",
+        "telli-\nveyor"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fea",
+      "replacement": "sea",
+      "count": 5,
+      "samples": [
+        "n 88; when the fea was not only o",
+        "gh in the open fea it is not by n",
+        "834, that the fea real open, and",
+        "n 88; when the fea was not only o",
+        "gh in the open fea it is not by,"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "feat",
+      "replacement": "seat",
+      "count": 2,
+      "samples": [
+        "ime was ufully feat to fupenined t",
+        "ime was ufully feat to fu- penined"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "few",
+      "replacement": "sew",
+      "count": 1,
+      "samples": [
+        "changes, and a few escaped to Kam"
+      ]
+    }
+  ],
+  "metrics": {
+    "jaccard_raw": 0.0143,
+    "jaccard_normalized": 0.0143,
+    "cosine_tfidf": 0.0048,
+    "cosine_embedding": -0.0053,
+    "distinctive_britannica": [
+      "captain",
+      "pole",
+      "time",
+      "following",
+      "open",
+      "sea",
+      "gave",
+      "free",
+      "account",
+      "though",
+      "four",
+      "ice",
+      "reached",
+      "lead",
+      "determined"
+    ],
+    "distinctive_wikipedia": [
+      "pol",
+      "born",
+      "language",
+      "french",
+      "country",
+      "list",
+      "code",
+      "state",
+      "poet",
+      "river",
+      "england",
+      "named",
+      "iii",
+      "city",
+      "india"
+    ],
+    "shared_terms": [
+      "board",
+      "dutch",
+      "form",
+      "found",
+      "known",
+      "name",
+      "see"
+    ]
+  },
+  "aligned_chunks": [
+    {
+      "britannica_chunk_index": 8,
+      "wikipedia_chunk_index": 1,
+      "similarity": 0.1155,
+      "britannica_excerpt": "Errragwages\n\naccess\n\nin\n\nforce\n\na pachily\n\nof\n\nthe pole.\n\nSee\n\nCook's\n\nHouserive, 93\n\nIt\n\nErrragwages\n\naccess in\n\nfor\n\na pachily\n\nof\n\nthe pole.\n\nhave reached the billions of 88.--a. From the telliveyor of Captain Choyer, who gave anders to ",
+      "wikipedia_excerpt": "Pol (given name), usually a form of Paul or Polydore, with a list of people so named\n\nPol Pot (1925–1998), Cambodian revolutionary and Communist dictator\n\nAgusti Pol (born 1977), Andorran footballer\n\nAlejandro Pol Hurtado (born 1990), Venez"
+    },
+    {
+      "britannica_chunk_index": 10,
+      "wikipedia_chunk_index": 2,
+      "similarity": 0.1042,
+      "britannica_excerpt": "pell, the combination of Harris’s voyages, informed Mr Harrington, that Dr Jitalie, anvivord Mullan, being in his work on board. In March",
+      "wikipedia_excerpt": "Nicolaus Pol (c.1467–1532), Austrian physician and book collector\n\nSandra de Pol (born 1975), Swiss footballer\n\nSantosh Pol (born 1974), Indian serial killer\n\nSebastián Pol (born 1988), Argentine footballer\n\nTalitha Pol (1940–1971), Dutch a"
+    },
+    {
+      "britannica_chunk_index": 7,
+      "wikipedia_chunk_index": 1,
+      "similarity": 0.0958,
+      "britannica_excerpt": "Ankudlnoff's veiled was wrecked, and the crew ditti burst among the other eyes. Soon after this two twoelled all night is each other, and never joined again. Dishheff was driven about by competition winds till Quizley, who was shipwrecks co",
+      "wikipedia_excerpt": "Pol (given name), usually a form of Paul or Polydore, with a list of people so named\n\nPol Pot (1925–1998), Cambodian revolutionary and Communist dictator\n\nAgusti Pol (born 1977), Andorran footballer\n\nAlejandro Pol Hurtado (born 1990), Venez"
+    }
+  ],
+  "topic_id": 4,
+  "topic_terms": [
+    "blow-pipe",
+    "captain",
+    "flame"
+  ],
+  "claims": [
+    {
+      "claim_text": "The Britannica entry \"POL  93\" uses 644 content tokens while the Wikipedia article \"Pol\" uses 290; their normalized vocabularies share a Jaccard overlap of 0.0143 (raw 0.0143) and a TF-IDF cosine similarity of 0.0048.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2296"
+      ],
+      "britannica_quote": "have reached the billions of 88.--a. From the telli-\nveyor of Captain Choyer, who gave anders to certain\nqueries drawn up by Mr Dalymple concerning the po-\nutes first appears to be lead when in the latitude of 83\". One Mr Watt informed our ",
+      "wikipedia_page_id": "3522496",
+      "wikipedia_revision_id": "1246192529",
+      "wikipedia_quote": "Pol or POL may refer to:\n\nPol State, a former princely state in Gujarat, western India; originally Vijaynagar State after its first capital\n\nPol, Iran, a city in Khamir County, Hormozgan province, Iran\n\nPol, Lugo, a municipality in Spain\n\nR"
+    },
+    {
+      "claim_text": "Britannica's most distinctive term is \"captain\"; Wikipedia's is \"pol\", showing the era-specific vocabulary of each source.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2296"
+      ],
+      "britannica_quote": "veyor of Captain Choyer, who gave anders to certain",
+      "wikipedia_page_id": "3522496",
+      "wikipedia_revision_id": "1246192529",
+      "wikipedia_quote": "Pol or POL may refer to:"
+    },
+    {
+      "claim_text": "Both sources share core vocabulary including: board, dutch, form, found, known.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2296"
+      ],
+      "britannica_quote": "vivord Mullan, being in his work on board.",
+      "wikipedia_page_id": "3522496",
+      "wikipedia_revision_id": "1246192529",
+      "wikipedia_quote": "/pol/, the \"politically incorrect\" board on 4chan"
+    },
+    {
+      "claim_text": "11 normalization rules fired on the Britannica text (\"an-\nvivord\" -> \"anvivord\"; \"errrag-\nwages\" -> \"errragwages\"; \"fu-\npenined\" -> \"fupenined\"); residual vocabulary differences likely reflect era terminology rather than OCR noise alone.",
+      "claim_type": "inference",
+      "label": "[inference]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2296"
+      ],
+      "britannica_quote": "an-\nvivord",
+      "wikipedia_page_id": "3522496",
+      "wikipedia_revision_id": "1246192529",
+      "wikipedia_quote": "Pol or POL may refer to:\n\nPol State, a former princely state in Gujarat, western India; originally Vijaynagar State after its first capital\n\nPol, Iran, a city in Khamir County, Hormozgan province, Iran\n\nPol, Lugo, a municipality in Spain\n\nR"
+    }
+  ]
+}

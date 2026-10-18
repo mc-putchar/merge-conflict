@@ -1,0 +1,248 @@
+{
+  "entry_id": "entry-l-i-g-4230-l-i-g-1910",
+  "britannica_title": "L I G  4230  L I G",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1910"
+  ],
+  "britannica_sha256": "579003ada5ad650ec67c0a0151617dc65a87dc15ef5a0dfb675a2ff1302547c6",
+  "britannica_raw_chars": 6906,
+  "britannica_tokens": 523,
+  "britannica_unique_tokens": 375,
+  "wikipedia_page_id": "43597724",
+  "wikipedia_revision_id": "1314661162",
+  "wikipedia_title": "Kingman's subadditive ergodic theorem",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Kingman%27s_subadditive_ergodic_theorem",
+  "wikipedia_text_sha256": "cb0b5b1971b512434e49a4adadbd87a6051ca66a09535ada9794465a78c6d9d8",
+  "wikipedia_raw_chars": 12644,
+  "wikipedia_tokens": 766,
+  "wikipedia_unique_tokens": 249,
+  "length_ratio": 1.831,
+  "text_changes": [
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "cafe",
+      "replacement": "case",
+      "count": 4,
+      "samples": [
+        "To render the cafe foreshable ins",
+        "tly.\n\n\" If the cafe of a man who i",
+        "uld not be the cafe, here he to be",
+        "idence, in the cafe of a person at"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "feen",
+      "replacement": "seen",
+      "count": 1,
+      "samples": [
+        "we have never feen the repollion"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "few",
+      "replacement": "sew",
+      "count": 1,
+      "samples": [
+        "tning, we have few always; it is"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "flight",
+      "replacement": "slight",
+      "count": 1,
+      "samples": [
+        ", to that of a flight and almost imp"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "foon",
+      "replacement": "soon",
+      "count": 1,
+      "samples": [
+        "g firele_, in _foon degree or othe"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fore",
+      "replacement": "sore",
+      "count": 1,
+      "samples": [
+        "ectrical prefi-fore of the electri"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fufpended",
+      "replacement": "suspended",
+      "count": 1,
+      "samples": [
+        "under-cloud is fufpended over his head;"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "perfon",
+      "replacement": "person",
+      "count": 1,
+      "samples": [
+        "ons.\n\n\" When a perfon standing on th"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "preffure",
+      "replacement": "pressure",
+      "count": 2,
+      "samples": [
+        "erefore of the preffure by which this",
+        "earth, by the preffure of an extensiv"
+      ]
+    }
+  ],
+  "metrics": {
+    "jaccard_raw": 0.0297,
+    "jaccard_normalized": 0.0331,
+    "cosine_tfidf": 0.0079,
+    "cosine_embedding": 0.1261,
+    "distinctive_britannica": [
+      "body",
+      "natural",
+      "electric",
+      "quantity",
+      "matter",
+      "author",
+      "mult",
+      "fire",
+      "man",
+      "returning",
+      "electrical",
+      "infant",
+      "electricity",
+      "case",
+      "great"
+    ],
+    "distinctive_wikipedia": [
+      "displaystyle",
+      "textstyle",
+      "frac",
+      "geq",
+      "type",
+      "leq",
+      "sum",
+      "bar",
+      "circ",
+      "set",
+      "since",
+      "lim",
+      "theorem",
+      "limit",
+      "let"
+    ],
+    "shared_terms": [
+      "almost",
+      "case",
+      "elements",
+      "equal",
+      "except",
+      "families",
+      "kind",
+      "large",
+      "matter",
+      "means",
+      "now",
+      "particular",
+      "point",
+      "prove",
+      "seen",
+      "take",
+      "therefore",
+      "together",
+      "use",
+      "way"
+    ]
+  },
+  "aligned_chunks": [
+    {
+      "britannica_chunk_index": 7,
+      "wikipedia_chunk_index": 12,
+      "similarity": 0.6852,
+      "britannica_excerpt": "when he tried the above-related experiment.",
+      "wikipedia_excerpt": "}l_{i}}."
+    },
+    {
+      "britannica_chunk_index": 2,
+      "wikipedia_chunk_index": 12,
+      "similarity": 0.5222,
+      "britannica_excerpt": "to fopate that this quantity is fo great, as that its fudden re-entrance into his body found delivery on even injury third",
+      "wikipedia_excerpt": "}l_{i}}."
+    },
+    {
+      "britannica_chunk_index": 11,
+      "wikipedia_chunk_index": 12,
+      "similarity": 0.3606,
+      "britannica_excerpt": "\" The author has been aware of this objections, which\n\n(c) \" We fuppie the perfor not to be fo fluuted, that the returning fire of other bodies mult necefarily pafa through his body.",
+      "wikipedia_excerpt": "}l_{i}}."
+    }
+  ],
+  "topic_id": 2,
+  "topic_terms": [
+    "water",
+    "acid",
+    "quantity"
+  ],
+  "claims": [
+    {
+      "claim_text": "The Britannica entry \"L I G  4230  L I G\" uses 522 content tokens while the Wikipedia article \"Kingman's subadditive ergodic theorem\" uses 766; their normalized vocabularies share a Jaccard overlap of 0.0331 (raw 0.0297) and a TF-IDF cosine similarity of 0.0079.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1910"
+      ],
+      "britannica_quote": "Lightning, we have few always; it is _mattematically couldn’t_, that, when a _returning firele_ comes to be produced by the _fuddro_ removal of the very frong elafic electrical prefi-fore of the electrical atmosphere of a thunder-cloud powe",
+      "wikipedia_page_id": "43597724",
+      "wikipedia_revision_id": "1314661162",
+      "wikipedia_quote": "In mathematics, Kingman's subadditive ergodic theorem is one of several ergodic theorems. It can be seen as a generalization of Birkhoff's ergodic theorem. Intuitively, the subadditive ergodic theorem is a kind of random variable version of"
+    },
+    {
+      "claim_text": "Britannica's most distinctive term is \"body\"; Wikipedia's is \"displaystyle\", showing the era-specific vocabulary of each source.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1910"
+      ],
+      "britannica_quote": "\" If indeed the quantity of electric field naturally contained in the body of a man, forrindance, were often mefe, or induding, the author's ultimate between the effects producible by a cloud, and those caned by a prime conductor might be a",
+      "wikipedia_page_id": "43597724",
+      "wikipedia_revision_id": "1314661162",
+      "wikipedia_quote": "Let T {\\displaystyle T} be a measure-preserving transformation on the probability space (Ω, Σ, μ) {\\displaystyle (\\Omega,\\Sigma,\\mu)}, and let { g n } n ∈ N {\\displaystyle \\{g_{n}\\}_{n\\in \\mathbb {N} }} be a sequence of L 1 {\\displaystyle L"
+    },
+    {
+      "claim_text": "Both sources share core vocabulary including: almost, case, elements, equal, except.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1910"
+      ],
+      "britannica_quote": "If, a non particular thunder-form, a man in the open fields could be killed, at the infant of a dillank explotion, merely by the returners of his new electric fire, which had before been driven out of his body; lureely numerous obferations ",
+      "wikipedia_page_id": "43597724",
+      "wikipedia_revision_id": "1314661162",
+      "wikipedia_quote": "Also, T {\\displaystyle T} is ergodic, so by Kingman's theorem, M k ∗ / k {\\displaystyle M_{k}^{*}/k} converges to a constant almost surely."
+    },
+    {
+      "claim_text": "9 normalization rules fired on the Britannica text (\"cafe\" -> \"case\"; \"feen\" -> \"seen\"; \"few\" -> \"sew\"); residual vocabulary differences likely reflect era terminology rather than OCR noise alone.",
+      "claim_type": "inference",
+      "label": "[inference]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1910"
+      ],
+      "britannica_quote": "To render the cafe foreshable ins",
+      "wikipedia_page_id": "43597724",
+      "wikipedia_revision_id": "1314661162",
+      "wikipedia_quote": "In mathematics, Kingman's subadditive ergodic theorem is one of several ergodic theorems. It can be seen as a generalization of Birkhoff's ergodic theorem. Intuitively, the subadditive ergodic theorem is a kind of random variable version of"
+    }
+  ]
+}

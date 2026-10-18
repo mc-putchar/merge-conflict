@@ -1,0 +1,103 @@
+{
+  "entry_id": "entry-helminthology-plate-ccli-651",
+  "britannica_title": "HELMINTHOLOGY Plate CCLI",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:651"
+  ],
+  "britannica_sha256": "515759c8c92ca11e934bdc25e60d15608147100edb13cda22f885e62150ac802",
+  "britannica_raw_chars": 79,
+  "britannica_tokens": 10,
+  "britannica_unique_tokens": 1,
+  "wikipedia_page_id": "2203555",
+  "wikipedia_revision_id": "1324313982",
+  "wikipedia_title": "Helminthology",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Helminthology",
+  "wikipedia_text_sha256": "6bc91a39661ab3429beb220bf900eeaea155740b5c5e5c3cb20298644135a728",
+  "wikipedia_raw_chars": 870,
+  "wikipedia_tokens": 80,
+  "wikipedia_unique_tokens": 68,
+  "length_ratio": 11.013,
+  "text_changes": [],
+  "metrics": {
+    "jaccard_raw": 0.0,
+    "jaccard_normalized": 0.0,
+    "cosine_tfidf": 0.0,
+    "cosine_embedding": -0.0005,
+    "distinctive_britannica": [
+      "fig",
+      "edition",
+      "britannica",
+      "articles",
+      "volumes",
+      "listed",
+      "published",
+      "pages",
+      "dia",
+      "volume",
+      "buildings",
+      "encyclopedia",
+      "used",
+      "time",
+      "article"
+    ],
+    "distinctive_wikipedia": [
+      "period",
+      "studies",
+      "study",
+      "meaning",
+      "johann",
+      "century",
+      "friedrich",
+      "peter",
+      "started",
+      "era",
+      "publications",
+      "wave",
+      "japanese",
+      "effects",
+      "scientific"
+    ],
+    "shared_terms": []
+  },
+  "aligned_chunks": [
+    {
+      "britannica_chunk_index": 0,
+      "wikipedia_chunk_index": 1,
+      "similarity": 0.09,
+      "britannica_excerpt": "Fig.2.\n\nFig 1\n\nFig.2.\n\nFig.1.\n\nO\n\nFig.7.\n\nFig.9.\n\nFig.9.\n\nFig.3. Fig.3.\n\nFig.8.",
+      "wikipedia_excerpt": "The Japanese parasitologist Satyu Yamaguti was one of the most active helminthologists of the 20th century; he wrote the six-volume Systema Helminthum."
+    }
+  ],
+  "topic_id": 5,
+  "topic_terms": [
+    "every",
+    "people",
+    "upon"
+  ],
+  "claims": [
+    {
+      "claim_text": "The Britannica entry \"HELMINTHOLOGY Plate CCLI\" uses 10 content tokens while the Wikipedia article \"Helminthology\" uses 80; their normalized vocabularies share a Jaccard overlap of 0.0 (raw 0.0) and a TF-IDF cosine similarity of 0.0.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:651"
+      ],
+      "britannica_quote": "Fig.2.\n\nFig 1\n\nFig.2.\n\nFig.1.\n\nO\n\nFig.7.\n\nFig.9.\n\nFig.9.\n\nFig.3. Fig.3.\n\nFig.8.",
+      "wikipedia_page_id": "2203555",
+      "wikipedia_revision_id": "1324313982",
+      "wikipedia_quote": "Helminthology, from Ancient Greek ἕλμινς (hélmins), meaning \"parasitic worm\", and λόγος (lógos), meaning \"study\", is the study of parasitic worms (helminths). The field studies the taxonomy of helminths and their effects on their hosts.\n\nIn"
+    },
+    {
+      "claim_text": "Britannica's most distinctive term is \"fig\"; Wikipedia's is \"period\", showing the era-specific vocabulary of each source.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:651"
+      ],
+      "britannica_quote": "Fig.2.",
+      "wikipedia_page_id": "2203555",
+      "wikipedia_revision_id": "1324313982",
+      "wikipedia_quote": "In the 18th and early 19th century there was wave of publications on helminthology; this period has been described as the science's \"Golden Era\"."
+    }
+  ]
+}

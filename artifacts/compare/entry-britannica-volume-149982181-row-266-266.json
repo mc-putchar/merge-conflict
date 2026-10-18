@@ -1,0 +1,209 @@
+{
+  "entry_id": "entry-britannica-volume-149982181-row-266-266",
+  "britannica_title": "Britannica Volume 149982181 Row 266",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:266"
+  ],
+  "britannica_sha256": "93f28a34203481b5cad455fdf4dd53636a58da87d42741a6d54dceef0865a720",
+  "britannica_raw_chars": 6619,
+  "britannica_tokens": 529,
+  "britannica_unique_tokens": 387,
+  "wikipedia_page_id": "9004976",
+  "wikipedia_revision_id": "1340071003",
+  "wikipedia_title": "History of the Encyclopædia Britannica",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/History_of_the_Encyclop%C3%A6dia_Britannica",
+  "wikipedia_text_sha256": "64dd89242f04b3e591115caca56a86f50c9129e1ec3650be302ee2bca6f05eb1",
+  "wikipedia_raw_chars": 71820,
+  "wikipedia_tokens": 5909,
+  "wikipedia_unique_tokens": 2368,
+  "length_ratio": 10.851,
+  "text_changes": [
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "cafe",
+      "replacement": "case",
+      "count": 1,
+      "samples": [
+        "gence in which cafe, the huf- husb"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "efter",
+      "replacement": "ester",
+      "count": 1,
+      "samples": [
+        "ods as a local efter, or bookear by"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fines",
+      "replacement": "sines",
+      "count": 1,
+      "samples": [
+        "oncerned), the fines belonging to h"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fort",
+      "replacement": "sort",
+      "count": 1,
+      "samples": [
+        "deborn in that fort of debts, whil"
+      ]
+    }
+  ],
+  "metrics": {
+    "jaccard_raw": 0.0451,
+    "jaccard_normalized": 0.0455,
+    "cosine_tfidf": 0.0292,
+    "cosine_embedding": 0.1075,
+    "distinctive_britannica": [
+      "law",
+      "therefore",
+      "common",
+      "wife",
+      "proper",
+      "right",
+      "against",
+      "life",
+      "marriage",
+      "hufland",
+      "certain",
+      "upon",
+      "case",
+      "though",
+      "blood"
+    ],
+    "distinctive_wikipedia": [
+      "edition",
+      "britannica",
+      "articles",
+      "volumes",
+      "pages",
+      "dia",
+      "volume",
+      "supplement",
+      "published",
+      "article",
+      "encyclopedia",
+      "encyclop",
+      "fourth",
+      "page",
+      "sets"
+    ],
+    "shared_terms": [
+      "afterwards",
+      "against",
+      "alone",
+      "already",
+      "become",
+      "brought",
+      "called",
+      "celebrate",
+      "charged",
+      "children",
+      "church",
+      "claims",
+      "collection",
+      "complete",
+      "considered",
+      "contain",
+      "contains",
+      "created",
+      "death",
+      "direct",
+      "due",
+      "economic",
+      "either",
+      "eliminated",
+      "entered",
+      "etc",
+      "even",
+      "excellent",
+      "execution",
+      "fact"
+    ]
+  },
+  "aligned_chunks": [
+    {
+      "britannica_chunk_index": 0,
+      "wikipedia_chunk_index": 68,
+      "similarity": 0.8378,
+      "britannica_excerpt": "art III.",
+      "wikipedia_excerpt": "the individual articles."
+    },
+    {
+      "britannica_chunk_index": 13,
+      "wikipedia_chunk_index": 68,
+      "similarity": 0.7734,
+      "britannica_excerpt": ".",
+      "wikipedia_excerpt": "the individual articles."
+    },
+    {
+      "britannica_chunk_index": 2,
+      "wikipedia_chunk_index": 68,
+      "similarity": 0.6291,
+      "britannica_excerpt": " mar- rich but a third person, i.i (fójé per null).",
+      "wikipedia_excerpt": "the individual articles."
+    }
+  ],
+  "topic_id": 7,
+  "topic_terms": [
+    "see",
+    "upon",
+    "great"
+  ],
+  "claims": [
+    {
+      "claim_text": "The Britannica entry \"Britannica Volume 149982181 Row 266\" uses 529 content tokens while the Wikipedia article \"History of the Encyclopædia Britannica\" uses 5909; their normalized vocabularies share a Jaccard overlap of 0.0455 (raw 0.0451) and a TF-IDF cosine similarity of 0.0292.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:266"
+      ],
+      "britannica_quote": "art III.\n\n4. Marriage is forbidden within certain degrees of blood. By the law of Mefo _(Lestieux_ xvii,) which, by the act 1567; c. 15. has been adopted by us, fe- comed in bloods and all remote degrees, may all lay fully marry. By recorde",
+      "wikipedia_page_id": "9004976",
+      "wikipedia_revision_id": "1340071003",
+      "wikipedia_quote": "The Encyclopædia Britannica has been published continuously since 1768, appearing in fifteen official editions. Several editions were amended with multi-volume \"supplements\" (3rd, 4th/5th/6th), several consisted of previous editions with ad"
+    },
+    {
+      "claim_text": "Britannica's most distinctive term is \"law\"; Wikipedia's is \"edition\", showing the era-specific vocabulary of each source.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:266"
+      ],
+      "britannica_quote": "By the law of Mefo _(Lestieux_ xvii,) which, by the act 1567; c.",
+      "wikipedia_page_id": "9004976",
+      "wikipedia_revision_id": "1340071003",
+      "wikipedia_quote": "The Encyclopædia Britannica has been published continuously since 1768, appearing in fifteen official editions."
+    },
+    {
+      "claim_text": "Both sources share core vocabulary including: afterwards, against, alone, already, become.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:266"
+      ],
+      "britannica_quote": "hufland's giving them to the wife, at or before mar- ringe; but they are paraphernal only in regard to that hufland, who gave them as fuch, and are eltem- em common movables, if the wife, whole _paraphrma_ as the way were, the afterwards ma",
+      "wikipedia_page_id": "9004976",
+      "wikipedia_revision_id": "1340071003",
+      "wikipedia_quote": "In this situation the patient suffered to remain till he began to shiver or felt himself uneasy...The patient was then taken out, and, after being wrapped in a linen cloth, was placed upon a mattress, and two hours afterwards his whole body"
+    },
+    {
+      "claim_text": "4 normalization rules fired on the Britannica text (\"cafe\" -> \"case\"; \"efter\" -> \"ester\"; \"fines\" -> \"sines\"); residual vocabulary differences likely reflect era terminology rather than OCR noise alone.",
+      "claim_type": "inference",
+      "label": "[inference]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:266"
+      ],
+      "britannica_quote": "gence in which cafe, the huf- husb",
+      "wikipedia_page_id": "9004976",
+      "wikipedia_revision_id": "1340071003",
+      "wikipedia_quote": "The Encyclopædia Britannica has been published continuously since 1768, appearing in fifteen official editions. Several editions were amended with multi-volume \"supplements\" (3rd, 4th/5th/6th), several consisted of previous editions with ad"
+    }
+  ]
+}

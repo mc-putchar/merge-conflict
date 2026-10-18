@@ -172,6 +172,28 @@ def retrieve_candidates(
     return sorted(candidates_by_id.values(), key=lambda c: c.bm25_score, reverse=True)
 
 
+import time
+
+
+def _rerank_with_retry(
+    retrieval_client: RetrievalClient,
+    query: str,
+    documents: list[Any],
+    max_retries: int = 4,
+) -> list[dict[str, Any]]:
+    for attempt in range(max_retries):
+        try:
+            return retrieval_client.rerank(query=query, documents=documents)
+        except ServiceError as exc:
+            if exc.status_code == 429 and attempt < max_retries - 1:
+                wait_sec = 1.0
+                if exc.retry_after and exc.retry_after.strip().isdigit():
+                    wait_sec = float(exc.retry_after.strip())
+                time.sleep(wait_sec)
+                continue
+            raise
+
+
 def rerank_candidates_text(
     entry_title: str,
     entry_text: str,
@@ -188,7 +210,7 @@ def rerank_candidates_text(
     documents = [f"{c.title}\n{c.excerpt}".strip() for c in candidates[:32]]
 
     try:
-        rerank_results = retrieval_client.rerank(query=query_text, documents=documents)
+        rerank_results = _rerank_with_retry(retrieval_client, query=query_text, documents=documents)
         for item in rerank_results:
             idx = item["index"]
             score = item["relevance_score"]
@@ -232,7 +254,7 @@ def rerank_candidates_multimodal(
         query_text = f"{candidate.title}: {candidate.excerpt[:1500]}".strip()
         doc_entry = {"text": entry_text[:30000].strip(), "image": scan_image_url}
         try:
-            res = retrieval_client.rerank(query=query_text, documents=[doc_entry])
+            res = _rerank_with_retry(retrieval_client, query=query_text, documents=[doc_entry])
             if res and isinstance(res, list):
                 candidate.multimodal_score = res[0].get("relevance_score")
         except Exception:
@@ -241,6 +263,7 @@ def rerank_candidates_multimodal(
     # Re-sort top candidates by multimodal score
     top_sorted = sorted(top_candidates, key=lambda c: c.multimodal_score if c.multimodal_score is not None else -999.0, reverse=True)
     return top_sorted + candidates[3:]
+
 
 
 def fetch_full_article_verified(
@@ -300,27 +323,32 @@ def fetch_full_article_verified(
 
 def evaluate_match_decision(
     candidates: list[MatchCandidate],
-    threshold: float = 0.0,
+    threshold: float | None = None,
 ) -> tuple[bool, MatchCandidate | None, str, str]:
-    """Evaluate whether top candidate is an accepted match or rejected.
+    """Evaluate whether top non-disambiguation candidate is an accepted match or rejected.
 
     Returns: (matched, candidate, status, rationale)
     """
     if not candidates:
         return False, None, "no_candidates", "No candidate Wikipedia articles retrieved."
 
-    top = candidates[0]
-    if top.is_disambiguation:
+    if threshold is None:
+        threshold = float(os.environ.get("MATCH_THRESHOLD", "-5.5"))
+
+    # Skip disambiguation and list pages to find valid encyclopedic article candidates
+    valid_candidates = [c for c in candidates if not c.is_disambiguation]
+    if not valid_candidates:
         return (
             False,
-            top,
+            candidates[0],
             "rejected_disambiguation",
-            f"Candidate '{top.title}' is a disambiguation page.",
+            f"All {len(candidates)} candidate articles are disambiguation or index pages.",
         )
 
+    top = valid_candidates[0]
     score = top.multimodal_score if top.multimodal_score is not None else top.stage1_score
     if score is None:
-        # No reranker scores available (e.g. retrieval service offline); accept top-1 with BM25 if non-disambiguation
+        # No reranker scores available (e.g. retrieval service offline); accept top-1 with BM25
         return (
             True,
             top,

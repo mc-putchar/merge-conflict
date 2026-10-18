@@ -1,0 +1,361 @@
+{
+  "entry_id": "entry-britannica-volume-149981670-row-1344-1344",
+  "britannica_title": "Britannica Volume 149981670 Row 1344",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1344"
+  ],
+  "britannica_sha256": "e6beb6192710ef02747d41504ba514b71f4b61784b672448e870967df43a1591",
+  "britannica_raw_chars": 6463,
+  "britannica_tokens": 566,
+  "britannica_unique_tokens": 442,
+  "wikipedia_page_id": "78413092",
+  "wikipedia_revision_id": "1351079103",
+  "wikipedia_title": "Editor-in-chief of the Encyclopædia Britannica",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Editor-in-chief_of_the_Encyclop%C3%A6dia_Britannica",
+  "wikipedia_text_sha256": "a88c8e5ba55a69a2c856854b269462f28ae43b532903d36db33baf393e93818b",
+  "wikipedia_raw_chars": 922,
+  "wikipedia_tokens": 76,
+  "wikipedia_unique_tokens": 47,
+  "length_ratio": 0.143,
+  "text_changes": [
+    {
+      "rule": "line_break_hyphen",
+      "original": "ac-\ncutout",
+      "replacement": "accutout",
+      "count": 1,
+      "samples": [
+        "ac-\ncutout"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "be-\nfore",
+      "replacement": "before",
+      "count": 1,
+      "samples": [
+        "be-\nfore"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "col-\nlection",
+      "replacement": "collection",
+      "count": 1,
+      "samples": [
+        "col-\nlection"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "compro-\nhended",
+      "replacement": "comprohended",
+      "count": 1,
+      "samples": [
+        "compro-\nhended"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "de-\nring",
+      "replacement": "dering",
+      "count": 1,
+      "samples": [
+        "de-\nring"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "dec-\nners",
+      "replacement": "decners",
+      "count": 1,
+      "samples": [
+        "dec-\nners"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "deno-\nmanism",
+      "replacement": "denomanism",
+      "count": 1,
+      "samples": [
+        "deno-\nmanism"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "ex-\ntached",
+      "replacement": "extached",
+      "count": 1,
+      "samples": [
+        "ex-\ntached"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "fiat-\nture",
+      "replacement": "fiatture",
+      "count": 1,
+      "samples": [
+        "fiat-\nture"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "fly-\nworm",
+      "replacement": "flyworm",
+      "count": 1,
+      "samples": [
+        "fly-\nworm"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "gli-\nven",
+      "replacement": "gliven",
+      "count": 1,
+      "samples": [
+        "gli-\nven"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "ha-\nred",
+      "replacement": "hared",
+      "count": 1,
+      "samples": [
+        "ha-\nred"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "ma-\nking",
+      "replacement": "making",
+      "count": 1,
+      "samples": [
+        "ma-\nking"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "manu-\nfactories",
+      "replacement": "manufactories",
+      "count": 1,
+      "samples": [
+        "manu-\nfactories"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "mas-\nagement",
+      "replacement": "masagement",
+      "count": 1,
+      "samples": [
+        "mas-\nagement"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "oc-\nrefundally",
+      "replacement": "ocrefundally",
+      "count": 1,
+      "samples": [
+        "oc-\nrefundally"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "op-\ning",
+      "replacement": "oping",
+      "count": 1,
+      "samples": [
+        "op-\ning"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "perpendli-\nline",
+      "replacement": "perpendliline",
+      "count": 1,
+      "samples": [
+        "perpendli-\nline"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "reach-\ning",
+      "replacement": "reaching",
+      "count": 1,
+      "samples": [
+        "reach-\ning"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "repu-\nted",
+      "replacement": "reputed",
+      "count": 1,
+      "samples": [
+        "repu-\nted"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "tic-\nket",
+      "replacement": "ticket",
+      "count": 1,
+      "samples": [
+        "tic-\nket"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fet",
+      "replacement": "set",
+      "count": 1,
+      "samples": [
+        "en the fail is fet, or\nwhilst it"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "few",
+      "replacement": "sew",
+      "count": 1,
+      "samples": [
+        "e\ncrystal of a few, and is accord"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fomething",
+      "replacement": "something",
+      "count": 1,
+      "samples": [
+        "factories, for fomething that helps to"
+      ]
+    }
+  ],
+  "metrics": {
+    "jaccard_raw": 0.004,
+    "jaccard_normalized": 0.0041,
+    "cosine_tfidf": 0.0045,
+    "cosine_embedding": 0.0031,
+    "distinctive_britannica": [
+      "see",
+      "horfe",
+      "four",
+      "called",
+      "upon",
+      "fall",
+      "horas",
+      "eye",
+      "fixed",
+      "value",
+      "feet",
+      "time",
+      "alo",
+      "mull",
+      "five"
+    ],
+    "distinctive_wikipedia": [
+      "encyclopedia",
+      "britannica",
+      "published",
+      "encyclop",
+      "dia",
+      "editor-in-chief",
+      "editor",
+      "smellie",
+      "reference",
+      "general",
+      "william",
+      "current",
+      "since",
+      "volumes",
+      "physical"
+    ],
+    "shared_terms": [
+      "since",
+      "years"
+    ]
+  },
+  "aligned_chunks": [
+    {
+      "britannica_chunk_index": 0,
+      "wikipedia_chunk_index": 1,
+      "similarity": 0.0736,
+      "britannica_excerpt": "H O R [ 664 ] H O R\n\nHorfs\n\nbe totally cled up, or the cranium in that part not be\n\nto hard as the rest for four years after. This is made\n\nrefs is found to be incredied upon the child’s catching\n\ncold. When the differdit continuer long, it",
+      "wikipedia_excerpt": "The Encyclopædia Britannica is an English-language general reference encyclopedia, published since 1768. The Britannica was first published in Edinburgh, Scotland, in three volumes, with printer William Smellie serving as its principal edit"
+    },
+    {
+      "britannica_chunk_index": 4,
+      "wikipedia_chunk_index": 1,
+      "similarity": 0.047,
+      "britannica_excerpt": "pets the country or the body of folders who feevo on\n\nhorfeback.\n\nThe horfe includes horfe guards, hoeře genaudlers,\n\nand troopers. Dragoons are allo frequently comprohended under this name, though they fight on foot:\n\nof these there are no",
+      "wikipedia_excerpt": "The Encyclopædia Britannica is an English-language general reference encyclopedia, published since 1768. The Britannica was first published in Edinburgh, Scotland, in three volumes, with printer William Smellie serving as its principal edit"
+    },
+    {
+      "britannica_chunk_index": 3,
+      "wikipedia_chunk_index": 1,
+      "similarity": 0.0468,
+      "britannica_excerpt": "freezing into the thlile, and tribbed down with dry\n\nwifps. When this has been done, the fiddle is to be\n\ntant and, and he is to be crbbedded down with the clothes\n\nthe houling cloth is then to be had on) and the double\n\nbeing again kid on,",
+      "wikipedia_excerpt": "The Encyclopædia Britannica is an English-language general reference encyclopedia, published since 1768. The Britannica was first published in Edinburgh, Scotland, in three volumes, with printer William Smellie serving as its principal edit"
+    }
+  ],
+  "topic_id": 7,
+  "topic_terms": [
+    "see",
+    "upon",
+    "great"
+  ],
+  "claims": [
+    {
+      "claim_text": "The Britannica entry \"Britannica Volume 149981670 Row 1344\" uses 579 content tokens while the Wikipedia article \"Editor-in-chief of the Encyclopædia Britannica\" uses 76; their normalized vocabularies share a Jaccard overlap of 0.0041 (raw 0.004) and a TF-IDF cosine similarity of 0.0045.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1344"
+      ],
+      "britannica_quote": "H O R [ 664 ] H O R\n\nHorfs\n\nbe totally cled up, or the cranium in that part not be\nto hard as the rest for four years after. This is made\nrefs is found to be incredied upon the child’s catching\ncold. When the differdit continuer long, it is",
+      "wikipedia_page_id": "78413092",
+      "wikipedia_revision_id": "1351079103",
+      "wikipedia_quote": "The editor-in-chief of the Encyclopædia Britannica serves as the editorial leader of the Encyclopædia Britannica, a general reference encyclopedia published since 1768. Since 2012, the encyclopedia is published exclusively on the internet, "
+    },
+    {
+      "claim_text": "Britannica's most distinctive term is \"see\"; Wikipedia's is \"encyclopedia\", showing the era-specific vocabulary of each source.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1344"
+      ],
+      "britannica_quote": "_Since Horse_ See StylLON.",
+      "wikipedia_page_id": "78413092",
+      "wikipedia_revision_id": "1351079103",
+      "wikipedia_quote": "The editor-in-chief of the Encyclopædia Britannica serves as the editorial leader of the Encyclopædia Britannica, a general reference encyclopedia published since 1768."
+    },
+    {
+      "claim_text": "Both sources share core vocabulary including: since, years.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1344"
+      ],
+      "britannica_quote": "_Since Horse_ See StylLON.",
+      "wikipedia_page_id": "78413092",
+      "wikipedia_revision_id": "1351079103",
+      "wikipedia_quote": "The editor-in-chief of the Encyclopædia Britannica serves as the editorial leader of the Encyclopædia Britannica, a general reference encyclopedia published since 1768."
+    },
+    {
+      "claim_text": "24 normalization rules fired on the Britannica text (\"ac-\ncutout\" -> \"accutout\"; \"be-\nfore\" -> \"before\"; \"col-\nlection\" -> \"collection\"); residual vocabulary differences likely reflect era terminology rather than OCR noise alone.",
+      "claim_type": "inference",
+      "label": "[inference]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1344"
+      ],
+      "britannica_quote": "ac-\ncutout",
+      "wikipedia_page_id": "78413092",
+      "wikipedia_revision_id": "1351079103",
+      "wikipedia_quote": "The editor-in-chief of the Encyclopædia Britannica serves as the editorial leader of the Encyclopædia Britannica, a general reference encyclopedia published since 1768. Since 2012, the encyclopedia is published exclusively on the internet, "
+    }
+  ]
+}

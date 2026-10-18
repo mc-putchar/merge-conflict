@@ -1,0 +1,264 @@
+{
+  "entry_id": "entry-trigonometry-1580",
+  "britannica_title": "TRIGONOMETRY",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1580"
+  ],
+  "britannica_sha256": "e9a8cecd540b7b67bce6962b50c8f674b2a27dac57a9708cc9206b853ed358d4",
+  "britannica_raw_chars": 5163,
+  "britannica_tokens": 352,
+  "britannica_unique_tokens": 193,
+  "wikipedia_page_id": "6600160",
+  "wikipedia_revision_id": "1318180906",
+  "wikipedia_title": "Outline of trigonometry",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Outline_of_trigonometry",
+  "wikipedia_text_sha256": "3c230aa4fc005a8e4c1692a261dbcec78333eb829ba0a772b7232e5d18bfcbe7",
+  "wikipedia_raw_chars": 4909,
+  "wikipedia_tokens": 475,
+  "wikipedia_unique_tokens": 270,
+  "length_ratio": 0.951,
+  "text_changes": [
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "bafe",
+      "replacement": "base",
+      "count": 3,
+      "samples": [
+        "ex B, upon the bafe’AC; which will",
+        "s: & \\\\\nAs the bafe AC & 185 7 & 2",
+        "B=156, and the bafe AD=130-3, to f"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "bafs",
+      "replacement": "bass",
+      "count": 3,
+      "samples": [
+        "viz. the whole bafs, and their dif",
+        "he fino of the bafs will be to eac",
+        "angles at the bafs."
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "cafe",
+      "replacement": "case",
+      "count": 1,
+      "samples": [
+        "und by the fam cafe, thus:\\\\\nAs IB"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "cafes",
+      "replacement": "cases",
+      "count": 1,
+      "samples": [
+        "f the fever et cafes in plain trigo"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fam",
+      "replacement": "sam",
+      "count": 1,
+      "samples": [
+        "s found by the fam cafe, thus:\\\\"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fides",
+      "replacement": "sides",
+      "count": 1,
+      "samples": [
+        "f the opposite fides. Hence it allo"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fines",
+      "replacement": "sines",
+      "count": 1,
+      "samples": [
+        "rs, another of fines, and one of ta"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fum",
+      "replacement": "sum",
+      "count": 9,
+      "samples": [
+        "nt of half the fum of? & 84 & 1.9",
+        "50'\\\\\nAnd the fum is the greater",
+        "from half the fum & 61o 58'\\\\\nTa",
+        "And having the fum of the fragmen",
+        "\\\\\nTo half the fum of the fragmen"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fun",
+      "replacement": "sun",
+      "count": 1,
+      "samples": [
+        "\\\\\nTo hold the fun of the angles"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "prefent",
+      "replacement": "present",
+      "count": 1,
+      "samples": [
+        "id, fig. 1) re-prefent the eighth par"
+      ]
+    }
+  ],
+  "metrics": {
+    "jaccard_raw": 0.0448,
+    "jaccard_normalized": 0.0523,
+    "cosine_tfidf": 0.3734,
+    "cosine_embedding": 0.4143,
+    "distinctive_britannica": [
+      "angles",
+      "fine",
+      "half",
+      "sum",
+      "difference",
+      "thus",
+      "spherical",
+      "opposite",
+      "found",
+      "viz",
+      "term",
+      "required",
+      "given",
+      "find",
+      "leg"
+    ],
+    "distinctive_wikipedia": [
+      "trigonometric",
+      "list",
+      "functions",
+      "law",
+      "formula",
+      "table",
+      "function",
+      "problem",
+      "sine",
+      "distance",
+      "trigonometry",
+      "theory",
+      "see",
+      "rule",
+      "identity"
+    ],
+    "shared_terms": [
+      "angle",
+      "angles",
+      "another",
+      "base",
+      "figures",
+      "find",
+      "following",
+      "list",
+      "plane",
+      "right",
+      "see",
+      "sides",
+      "sines",
+      "spherical",
+      "sum",
+      "take",
+      "tangent",
+      "tangents",
+      "theorem",
+      "triangle",
+      "triangles",
+      "trigonometry",
+      "vertex"
+    ]
+  },
+  "aligned_chunks": [
+    {
+      "britannica_chunk_index": 4,
+      "wikipedia_chunk_index": 2,
+      "similarity": 0.3958,
+      "britannica_excerpt": "And the way of working a proportion by these is this, viz., extend your compaifles from the frit term of your pro portion, found on the feale, to the second; and with that extent, flying on foot in the third term, the other will reach the f",
+      "wikipedia_excerpt": "Meteorology\n\nMusic theory\n\nNumber theory\n\nOceanography\n\nOptics\n\nPharmacy\n\nPhonetics\n\nPhysical science\n\nProbability theory\n\nSeismology\n\nStatistics\n\nSurveying\n\nAbbe sine condition\n\nGreninger chart\n\nPhasor\n\nSnell's law\n\nEquant\n\nParallax\n\nDiali"
+    },
+    {
+      "britannica_chunk_index": 5,
+      "wikipedia_chunk_index": 4,
+      "similarity": 0.3575,
+      "britannica_excerpt": "Taraxad. I. In all right-angled, spherical triangles, the fino of the hypothecial’s radius : fine of a leg - fine of its opposite angle. And the fine of a leg: radius : tan- gent of the other the tangent of its opposite angle.\n\nDemonstratio",
+      "wikipedia_excerpt": "Opposites post\n\nπ (pi)\n\nPtolemy's theorem\n\nPythagorean theorem\n\nRegiomontanus' angle maximization problem\n\nThales' theorem\n\nTrigonometric function\n\nTrigonometry of a tetrahedron\n\nTriangle (also see List of triangle topics)\n\nSine, Cosine, Ta"
+    },
+    {
+      "britannica_chunk_index": 3,
+      "wikipedia_chunk_index": 4,
+      "similarity": 0.3337,
+      "britannica_excerpt": "To the co-fise of the angle A & 26° 40° & 9.95083\\\\\n\n\\end{tabular}\n\nAlfo the angle C is found by the sam case, thus:\\\\\n\nAs IB 84 & 1.92428\\\\\n\nTo CD & 46:3 & 1.66518\\\\\n\nSo is the radius & 90° & 10.0000\\\\\n\nTo the co-fine of C & 56° 30° & 9.74",
+      "wikipedia_excerpt": "Opposites post\n\nπ (pi)\n\nPtolemy's theorem\n\nPythagorean theorem\n\nRegiomontanus' angle maximization problem\n\nThales' theorem\n\nTrigonometric function\n\nTrigonometry of a tetrahedron\n\nTriangle (also see List of triangle topics)\n\nSine, Cosine, Ta"
+    }
+  ],
+  "topic_id": 5,
+  "topic_terms": [
+    "every",
+    "people",
+    "upon"
+  ],
+  "claims": [
+    {
+      "claim_text": "The Britannica entry \"TRIGONOMETRY\" uses 352 content tokens while the Wikipedia article \"Outline of trigonometry\" uses 475; their normalized vocabularies share a Jaccard overlap of 0.0523 (raw 0.0448) and a TF-IDF cosine similarity of 0.3734.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1580"
+      ],
+      "britannica_quote": "\\begin{tabular}{cc}\nb to their difference 21 & 1:32222\\\\\nSo is the tangent of half the fum of? & 84 & 1.92428\\\\\nthe angle ID and C & 610 58' 10.27372\\\\\nTo the tangent of half their difference 79 50' & 9.13806\\\\\nSo by theorem, we have the an",
+      "wikipedia_page_id": "6600160",
+      "wikipedia_revision_id": "1318180906",
+      "wikipedia_quote": "The following outline is provided as an overview of and topical guide to trigonometry:\n\nTrigonometry – branch of mathematics that studies the relationships between the sides and the angles in triangles. Trigonometry defines the trigonometri"
+    },
+    {
+      "claim_text": "Britannica's most distinctive term is \"angles\"; Wikipedia's is \"trigonometric\", showing the era-specific vocabulary of each source.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1580"
+      ],
+      "britannica_quote": "So by theorem, we have the angles D and C thus; & \\\\",
+      "wikipedia_page_id": "6600160",
+      "wikipedia_revision_id": "1318180906",
+      "wikipedia_quote": "Trigonometry defines the trigonometric functions, which describe those relationships and have applicability to cyclical phenomena, such as waves."
+    },
+    {
+      "claim_text": "Both sources share core vocabulary including: angle, angles, another, base, figures.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1580"
+      ],
+      "britannica_quote": "the angle ID and C & 610 58' 10.27372\\\\",
+      "wikipedia_page_id": "6600160",
+      "wikipedia_revision_id": "1318180906",
+      "wikipedia_quote": "Trigonometry – branch of mathematics that studies the relationships between the sides and the angles in triangles."
+    },
+    {
+      "claim_text": "10 normalization rules fired on the Britannica text (\"bafe\" -> \"base\"; \"bafs\" -> \"bass\"; \"cafe\" -> \"case\"); residual vocabulary differences likely reflect era terminology rather than OCR noise alone.",
+      "claim_type": "inference",
+      "label": "[inference]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1580"
+      ],
+      "britannica_quote": "ex B, upon the bafe’AC; which will",
+      "wikipedia_page_id": "6600160",
+      "wikipedia_revision_id": "1318180906",
+      "wikipedia_quote": "The following outline is provided as an overview of and topical guide to trigonometry:\n\nTrigonometry – branch of mathematics that studies the relationships between the sides and the angles in triangles. Trigonometry defines the trigonometri"
+    }
+  ]
+}

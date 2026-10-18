@@ -1,0 +1,185 @@
+{
+  "entry_id": "entry-exe-375-exe-1805",
+  "britannica_title": "EXE  375  EXE",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1805"
+  ],
+  "britannica_sha256": "75eea70115b4023cc87fa9ade1af59a89ac246e4a21e58da59201e7ec06b6bc7",
+  "britannica_raw_chars": 6368,
+  "britannica_tokens": 557,
+  "britannica_unique_tokens": 468,
+  "wikipedia_page_id": "621239",
+  "wikipedia_revision_id": "1273243376",
+  "wikipedia_title": "Exe",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Exe",
+  "wikipedia_text_sha256": "13d4f7644582ea0d82ac9e5b409161b34e7977bf69a1fe321eb8d30e88f3206c",
+  "wikipedia_raw_chars": 522,
+  "wikipedia_tokens": 56,
+  "wikipedia_unique_tokens": 38,
+  "length_ratio": 0.082,
+  "text_changes": [
+    {
+      "rule": "ligature_expansion",
+      "original": "æ",
+      "replacement": "ae",
+      "count": 1,
+      "samples": [
+        "ey, Sec.\n\nExEDRÆ, in antiquity,"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "finging",
+      "replacement": "singing",
+      "count": 2,
+      "samples": [
+        "the manner of finging, or of the per",
+        "the manner of finging, called in Fra"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fold",
+      "replacement": "sold",
+      "count": 1,
+      "samples": [
+        "xercile may be fold to be either a"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "perfon",
+      "replacement": "person",
+      "count": 1,
+      "samples": [
+        "ies either the perfon entitled to fo"
+      ]
+    }
+  ],
+  "metrics": {
+    "jaccard_raw": 0.01,
+    "jaccard_normalized": 0.01,
+    "cosine_tfidf": 0.0221,
+    "cosine_embedding": 0.1792,
+    "distinctive_britannica": [
+      "body",
+      "law",
+      "exercise",
+      "weak",
+      "mind",
+      "laws",
+      "french",
+      "power",
+      "among",
+      "letters",
+      "manner",
+      "either",
+      "model",
+      "animal",
+      "effects"
+    ],
+    "distinctive_wikipedia": [
+      "exe",
+      "british",
+      "england",
+      "series",
+      "interest",
+      "edition",
+      "island",
+      "refer",
+      "electric",
+      "terms",
+      "episode",
+      "engine",
+      "extreme",
+      "file",
+      "involving"
+    ],
+    "shared_terms": [
+      "england",
+      "executive",
+      "person",
+      "river",
+      "see"
+    ]
+  },
+  "aligned_chunks": [
+    {
+      "britannica_chunk_index": 1,
+      "wikipedia_chunk_index": 0,
+      "similarity": 0.2373,
+      "britannica_excerpt": "ExECUTIVE POWER. The figures executed power of those kingdings is ruled by our laws in a finele person, the king or quest for the time being. See the article Kivo.\n\nThe executive power, in this flatre, hath a right to a negative in parliame",
+      "wikipedia_excerpt": "Exe or EXE may refer to:\n\n.exe, a file extension\n\nexe., abbreviation for executive\n\nRiver Exe, in England\n\nExe Estuary, in England\n\nExe Island, in Exeter, England\n\nExe (locomotive), a British locomotive\n\nRolls-Royce Exe, an aircraft engine\n"
+    },
+    {
+      "britannica_chunk_index": 2,
+      "wikipedia_chunk_index": 0,
+      "similarity": 0.2069,
+      "britannica_excerpt": "ExECUTON, in Laws, is where we often be free that it, made to be deceived after wards by entry, livery or wit. Leads for years, anuities, conditions, SSc. are termed interviances exec-ency.\n\nExECUTRY, in Sexe Lata, is the snowable else fall",
+      "wikipedia_excerpt": "Exe or EXE may refer to:\n\n.exe, a file extension\n\nexe., abbreviation for executive\n\nRiver Exe, in England\n\nExe Estuary, in England\n\nExe Island, in Exeter, England\n\nExe (locomotive), a British locomotive\n\nRolls-Royce Exe, an aircraft engine\n"
+    },
+    {
+      "britannica_chunk_index": 0,
+      "wikipedia_chunk_index": 0,
+      "similarity": 0.178,
+      "britannica_excerpt": "Execution a criminal, fo reviewing was not allowed to take fanc-tany and abquire the realm, but his flecing to facilitate Xemplar. was held an escape in the officer.\n\nExecutive in the two of Scotland. See Law _Index._ Exerction, in the Fren",
+      "wikipedia_excerpt": "Exe or EXE may refer to:\n\n.exe, a file extension\n\nexe., abbreviation for executive\n\nRiver Exe, in England\n\nExe Estuary, in England\n\nExe Island, in Exeter, England\n\nExe (locomotive), a British locomotive\n\nRolls-Royce Exe, an aircraft engine\n"
+    }
+  ],
+  "topic_id": 7,
+  "topic_terms": [
+    "see",
+    "upon",
+    "great"
+  ],
+  "claims": [
+    {
+      "claim_text": "The Britannica entry \"EXE  375  EXE\" uses 557 content tokens while the Wikipedia article \"Exe\" uses 56; their normalized vocabularies share a Jaccard overlap of 0.01 (raw 0.01) and a TF-IDF cosine similarity of 0.0221.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1805"
+      ],
+      "britannica_quote": "Execution a criminal, fo reviewing was not allowed to take fanc-tany and abquire the realm, but his flecing to facilitate Xemplar. was held an escape in the officer.\n\nExecutive in the two of Scotland. See Law _Index._ Exerction, in the Fren",
+      "wikipedia_page_id": "621239",
+      "wikipedia_revision_id": "1273243376",
+      "wikipedia_quote": "Exe or EXE may refer to:\n\n.exe, a file extension\n\nexe., abbreviation for executive\n\nRiver Exe, in England\n\nExe Estuary, in England\n\nExe Island, in Exeter, England\n\nExe (locomotive), a British locomotive\n\nRolls-Royce Exe, an aircraft engine\n"
+    },
+    {
+      "claim_text": "Britannica's most distinctive term is \"body\"; Wikipedia's is \"exe\", showing the era-specific vocabulary of each source.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1805"
+      ],
+      "britannica_quote": "The word occurs in excellent writers as a general name for field buildings as were difficult from the main body of the churches, and yet within the limits of the church taken in the largest fields.",
+      "wikipedia_page_id": "621239",
+      "wikipedia_revision_id": "1273243376",
+      "wikipedia_quote": "Exe or EXE may refer to:"
+    },
+    {
+      "claim_text": "Both sources share core vocabulary including: england, executive, person, river, see.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1805"
+      ],
+      "britannica_quote": "EXAMPILIFICATION of Letters Patents, denotes an example, or copy of letters patents, made from the embodies thereof, and falsely that the great fail of England.",
+      "wikipedia_page_id": "621239",
+      "wikipedia_revision_id": "1273243376",
+      "wikipedia_quote": "River Exe, in England"
+    },
+    {
+      "claim_text": "4 normalization rules fired on the Britannica text (\"æ\" -> \"ae\"; \"finging\" -> \"singing\"; \"fold\" -> \"sold\"); residual vocabulary differences likely reflect era terminology rather than OCR noise alone.",
+      "claim_type": "inference",
+      "label": "[inference]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1805"
+      ],
+      "britannica_quote": "ey, Sec.\n\nExEDRÆ, in antiquity,",
+      "wikipedia_page_id": "621239",
+      "wikipedia_revision_id": "1273243376",
+      "wikipedia_quote": "Exe or EXE may refer to:\n\n.exe, a file extension\n\nexe., abbreviation for executive\n\nRiver Exe, in England\n\nExe Estuary, in England\n\nExe Island, in Exeter, England\n\nExe (locomotive), a British locomotive\n\nRolls-Royce Exe, an aircraft engine\n"
+    }
+  ]
+}

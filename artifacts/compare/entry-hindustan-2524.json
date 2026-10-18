@@ -1,0 +1,160 @@
+{
+  "entry_id": "entry-hindustan-2524",
+  "britannica_title": "HINDUSTAN",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2524"
+  ],
+  "britannica_sha256": "1076de1839b524ad0a40323bff4345fa14a76abb45485006da0495021029d377",
+  "britannica_raw_chars": 6423,
+  "britannica_tokens": 534,
+  "britannica_unique_tokens": 444,
+  "wikipedia_page_id": "20058079",
+  "wikipedia_revision_id": "1322243714",
+  "wikipedia_title": "Hindustan (newspaper)",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Hindustan_(newspaper)",
+  "wikipedia_text_sha256": "335e1bb9646072b32ae17621299d598a89d8d682b45e0b5ba680c25d70c8d4c6",
+  "wikipedia_raw_chars": 1374,
+  "wikipedia_tokens": 127,
+  "wikipedia_unique_tokens": 103,
+  "length_ratio": 0.214,
+  "text_changes": [
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "few",
+      "replacement": "sew",
+      "count": 2,
+      "samples": [
+        "odd, that very few years spectacu",
+        "Literary, very few by European wr"
+      ]
+    }
+  ],
+  "metrics": {
+    "jaccard_raw": 0.013,
+    "jaccard_normalized": 0.013,
+    "cosine_tfidf": 0.0995,
+    "cosine_embedding": 0.1684,
+    "distinctive_britannica": [
+      "history",
+      "works",
+      "historical",
+      "taste",
+      "hindus",
+      "design",
+      "art",
+      "religious",
+      "says",
+      "architecture",
+      "beauty",
+      "many",
+      "structures",
+      "parts",
+      "learned"
+    ],
+    "distinctive_wikipedia": [
+      "hindustan",
+      "media",
+      "per",
+      "across",
+      "launched",
+      "limited",
+      "daily",
+      "available",
+      "hindi",
+      "edition",
+      "december",
+      "major",
+      "group",
+      "separate",
+      "named"
+    ],
+    "shared_terms": [
+      "according",
+      "agra",
+      "death",
+      "delhi",
+      "editions",
+      "hindustan",
+      "india"
+    ]
+  },
+  "aligned_chunks": [
+    {
+      "britannica_chunk_index": 2,
+      "wikipedia_chunk_index": 2,
+      "similarity": 0.1978,
+      "britannica_excerpt": "ofs of the wealth and magnificence of Shah Jeban, than the correctness of its taste.\" The combo and religious editions of Hinturas are, on the other hand, highly commended by Bishop Heber for delivery, beauty, and make. \" The anomalomat at ",
+      "wikipedia_excerpt": "Hindustan dominates in Bihar with a readership of about 5 million (as per the IRS 2011, Q4). It commands a massive 73% share of the Hindi readership market of Bihar. On 24 April 2018, Hindustan launched its 5th edition in Purnea. On 13 May "
+    },
+    {
+      "britannica_chunk_index": 5,
+      "wikipedia_chunk_index": 0,
+      "similarity": 0.1609,
+      "britannica_excerpt": "we refer for a further account of those ancient monuments Hindus of Hindu art?",
+      "wikipedia_excerpt": "Hindustan (IAST: Hindustāna) is an Indian Hindi -language daily newspaper. According to WAN-IFRA, it ranked 13th in the world by circulation in 2016 and per the Audit Bureau of Circulations was 6th in India in 2022. Madan Mohan Malaviya lau"
+    },
+    {
+      "britannica_chunk_index": 8,
+      "wikipedia_chunk_index": 2,
+      "similarity": 0.155,
+      "britannica_excerpt": "The essence of the Hindus has been generally rated Literary, very sew by European writers, and has been represented as consisting in long desultory poems, inflated and extrag gunt in their styly, containing under the idea of history, or tis",
+      "wikipedia_excerpt": "Hindustan dominates in Bihar with a readership of about 5 million (as per the IRS 2011, Q4). It commands a massive 73% share of the Hindi readership market of Bihar. On 24 April 2018, Hindustan launched its 5th edition in Purnea. On 13 May "
+    }
+  ],
+  "topic_id": 4,
+  "topic_terms": [
+    "blow-pipe",
+    "captain",
+    "flame"
+  ],
+  "claims": [
+    {
+      "claim_text": "The Britannica entry \"HINDUSTAN\" uses 532 content tokens while the Wikipedia article \"Hindustan (newspaper)\" uses 127; their normalized vocabularies share a Jaccard overlap of 0.013 (raw 0.013) and a TF-IDF cosine similarity of 0.0995.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2524"
+      ],
+      "britannica_quote": "_Hindustan as the most shocking of crimes, by burning on a heated plate of iron; or against the lower tubes, in whom adultery with a Brahmann woman is considered as the climax of bitumen depetty, centrally to be arranged by any punishment, ",
+      "wikipedia_page_id": "20058079",
+      "wikipedia_revision_id": "1322243714",
+      "wikipedia_quote": "Hindustan (IAST: Hindustāna) is an Indian Hindi -language daily newspaper. According to WAN-IFRA, it ranked 13th in the world by circulation in 2016 and per the Audit Bureau of Circulations was 6th in India in 2022. Madan Mohan Malaviya lau"
+    },
+    {
+      "claim_text": "Britannica's most distinctive term is \"history\"; Wikipedia's is \"hindustan\", showing the era-specific vocabulary of each source.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2524"
+      ],
+      "britannica_quote": "The history of the people who were raised these structures presents a wide field for antiquarian research, on which Council had interest with the brilliant promise of interesting results; and to his learned inquiries and cloquet and pootica",
+      "wikipedia_page_id": "20058079",
+      "wikipedia_revision_id": "1322243714",
+      "wikipedia_quote": "Hindustan (IAST: Hindustāna) is an Indian Hindi -language daily newspaper."
+    },
+    {
+      "claim_text": "Both sources share core vocabulary including: according, agra, death, delhi, editions.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2524"
+      ],
+      "britannica_quote": "The purpose, the exhibits, and other structures, the only remaining specimens of their architecture, are, according to some, you’re remarkable for the magnitude of their dimensions than for their just proposes one for tasks.",
+      "wikipedia_page_id": "20058079",
+      "wikipedia_revision_id": "1322243714",
+      "wikipedia_quote": "According to WAN-IFRA, it ranked 13th in the world by circulation in 2016 and per the Audit Bureau of Circulations was 6th in India in 2022."
+    },
+    {
+      "claim_text": "1 normalization rules fired on the Britannica text (\"few\" -> \"sew\"); residual vocabulary differences likely reflect era terminology rather than OCR noise alone.",
+      "claim_type": "inference",
+      "label": "[inference]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2524"
+      ],
+      "britannica_quote": "odd, that very few years spectacu",
+      "wikipedia_page_id": "20058079",
+      "wikipedia_revision_id": "1322243714",
+      "wikipedia_quote": "Hindustan (IAST: Hindustāna) is an Indian Hindi -language daily newspaper. According to WAN-IFRA, it ranked 13th in the world by circulation in 2016 and per the Audit Bureau of Circulations was 6th in India in 2022. Madan Mohan Malaviya lau"
+    }
+  ]
+}

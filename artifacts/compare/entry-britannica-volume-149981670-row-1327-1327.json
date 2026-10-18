@@ -1,0 +1,401 @@
+{
+  "entry_id": "entry-britannica-volume-149981670-row-1327-1327",
+  "britannica_title": "Britannica Volume 149981670 Row 1327",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1327"
+  ],
+  "britannica_sha256": "d74324bb0c7e55473d397202198d3b6ec4a11ede590577f3c2aea417f6c69760",
+  "britannica_raw_chars": 6311,
+  "britannica_tokens": 521,
+  "britannica_unique_tokens": 466,
+  "wikipedia_page_id": "9004976",
+  "wikipedia_revision_id": "1340071003",
+  "wikipedia_title": "History of the Encyclopædia Britannica",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/History_of_the_Encyclop%C3%A6dia_Britannica",
+  "wikipedia_text_sha256": "64dd89242f04b3e591115caca56a86f50c9129e1ec3650be302ee2bca6f05eb1",
+  "wikipedia_raw_chars": 71820,
+  "wikipedia_tokens": 5909,
+  "wikipedia_unique_tokens": 2368,
+  "length_ratio": 11.38,
+  "text_changes": [
+    {
+      "rule": "line_break_hyphen",
+      "original": "ama-\ningly",
+      "replacement": "amaingly",
+      "count": 1,
+      "samples": [
+        "ama-\ningly"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "antiqui-\nries",
+      "replacement": "antiquiries",
+      "count": 1,
+      "samples": [
+        "antiqui-\nries"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "attin-\ning",
+      "replacement": "attining",
+      "count": 1,
+      "samples": [
+        "attin-\ning"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "con-\nfidercable",
+      "replacement": "confidercable",
+      "count": 1,
+      "samples": [
+        "con-\nfidercable"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "dul-\ntie",
+      "replacement": "dultie",
+      "count": 1,
+      "samples": [
+        "Dul-\ntie"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "duno-\ncombo",
+      "replacement": "dunocombo",
+      "count": 1,
+      "samples": [
+        "Duno-\ncombo"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "eli-\ntion",
+      "replacement": "elition",
+      "count": 1,
+      "samples": [
+        "eli-\ntion"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "friend-\nhip",
+      "replacement": "friendhip",
+      "count": 1,
+      "samples": [
+        "friend-\nhip"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "ga-\ntivers",
+      "replacement": "gativers",
+      "count": 1,
+      "samples": [
+        "Ga-\ntivers"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "go-\nverning",
+      "replacement": "governing",
+      "count": 1,
+      "samples": [
+        "go-\nverning"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "in-\nver",
+      "replacement": "inver",
+      "count": 1,
+      "samples": [
+        "in-\nver"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "marg-\ninfeces",
+      "replacement": "marginfeces",
+      "count": 1,
+      "samples": [
+        "marg-\ninfeces"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "obr-\nvatory",
+      "replacement": "obrvatory",
+      "count": 1,
+      "samples": [
+        "obr-\nvatory"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "per-\nfetted",
+      "replacement": "perfetted",
+      "count": 1,
+      "samples": [
+        "per-\nfetted"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "phi-\nhophyly",
+      "replacement": "phihophyly",
+      "count": 1,
+      "samples": [
+        "phi-\nhophyly"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "portu-\ngal",
+      "replacement": "portugal",
+      "count": 1,
+      "samples": [
+        "Portu-\ngal"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "re-\nburry",
+      "replacement": "reburry",
+      "count": 1,
+      "samples": [
+        "Re-\nburry"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "tangica-\ntion",
+      "replacement": "tangication",
+      "count": 1,
+      "samples": [
+        "tangica-\ntion"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "ver-\nfen",
+      "replacement": "verfen",
+      "count": 1,
+      "samples": [
+        "ver-\nfen"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "wa-\nters",
+      "replacement": "waters",
+      "count": 1,
+      "samples": [
+        "wa-\nters"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "wri-\nter",
+      "replacement": "writer",
+      "count": 2,
+      "samples": [
+        "wri-\nter",
+        "wri-\nter"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fears",
+      "replacement": "sears",
+      "count": 2,
+      "samples": [
+        "e-headed Hechs fears pre-eminent. S",
+        "rs in 287. See Fears, n 38.\n\nHUGOON"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "few",
+      "replacement": "sew",
+      "count": 1,
+      "samples": [
+        "fe in the very few, and form\nfeul"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "gloffary",
+      "replacement": "glossary",
+      "count": 1,
+      "samples": [
+        "th his\nlife, a gloffary, and remarks;"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "rife",
+      "replacement": "rise",
+      "count": 2,
+      "samples": [
+        "the land, they rife in the very fe",
+        "had its first rife in 1560; but a"
+      ]
+    }
+  ],
+  "metrics": {
+    "jaccard_raw": 0.046,
+    "jaccard_normalized": 0.0465,
+    "cosine_tfidf": 0.082,
+    "cosine_embedding": 0.1678,
+    "distinctive_britannica": [
+      "life",
+      "france",
+      "land",
+      "molt",
+      "great",
+      "kingdom",
+      "gradually",
+      "ancient",
+      "made",
+      "greek",
+      "born",
+      "town",
+      "rise",
+      "father",
+      "writer"
+    ],
+    "distinctive_wikipedia": [
+      "edition",
+      "britannica",
+      "articles",
+      "volumes",
+      "pages",
+      "dia",
+      "volume",
+      "supplement",
+      "published",
+      "article",
+      "encyclopedia",
+      "encyclop",
+      "fourth",
+      "page",
+      "sets"
+    ],
+    "shared_terms": [
+      "age",
+      "aged",
+      "along",
+      "amendments",
+      "among",
+      "annually",
+      "authors",
+      "avoid",
+      "body",
+      "botany",
+      "brought",
+      "called",
+      "capital",
+      "change",
+      "changes",
+      "collected",
+      "constitutes",
+      "contained",
+      "continued",
+      "copy",
+      "count",
+      "country",
+      "day",
+      "days",
+      "death",
+      "died",
+      "drama",
+      "edition",
+      "elements",
+      "end"
+    ]
+  },
+  "aligned_chunks": [
+    {
+      "britannica_chunk_index": 6,
+      "wikipedia_chunk_index": 25,
+      "similarity": 0.3354,
+      "britannica_excerpt": "of Meschelek, and had it to the day of his death,\n\nwhich happened in 1719, the very light in which his\n\ntragedy, entitled _The large of Damar, was first ac-_\n\ning. He was then ... He realized Pontoredley\n\ndialogues of the dead, Vertact's ev",
+      "wikipedia_excerpt": "— George Gleig, in the 3rd edition of the Encyclopædia Britannica"
+    },
+    {
+      "britannica_chunk_index": 5,
+      "wikipedia_chunk_index": 44,
+      "similarity": 0.3169,
+      "britannica_excerpt": "French, 7. Albility of the comments on tangication of the ancient, which has been raindicated into\n\nEnglish. 8. _Demonstrate du rival and semi porti-_\n\n_constitutes._ 9. _Hetainas._ 10. Listin and Greek verfen, 6.\n\nHUGHES (John), an ingenio",
+      "wikipedia_excerpt": "This supplement had remarkably illustrious contributors. Constable was friends with Sir Walter Scott, who contributed the articles \"Chivalry\", \"Romance\", and \"Drama\". To edit the supplement, Constable hired Macvey Napier, who recruited othe"
+    },
+    {
+      "britannica_chunk_index": 4,
+      "wikipedia_chunk_index": 25,
+      "similarity": 0.2889,
+      "britannica_excerpt": "finis coming upon him, he retired to Paris, and lodged\n\namong the Jefuits in the _Maifon Profiffe_, whom he\n\nhad made heys to his library. A fewer dilempper\n\nweakened his body extremely, but was the vivacity of\n\nhis genius:' he wrote his ow",
+      "wikipedia_excerpt": "— George Gleig, in the 3rd edition of the Encyclopædia Britannica"
+    }
+  ],
+  "topic_id": 7,
+  "topic_terms": [
+    "see",
+    "upon",
+    "great"
+  ],
+  "claims": [
+    {
+      "claim_text": "The Britannica entry \"Britannica Volume 149981670 Row 1327\" uses 537 content tokens while the Wikipedia article \"History of the Encyclopædia Britannica\" uses 5909; their normalized vocabularies share a Jaccard overlap of 0.0465 (raw 0.046) and a TF-IDF cosine similarity of 0.082.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1327"
+      ],
+      "britannica_quote": "H U E [ 707 ] H U G\n\nder legant all fill it rises gradually to the surface,\nand gradually reverted its heights, thinking ama-\ningly, and flinging up great flows. After attin-\ning its greatest height, it gradually falls till it to\ndaily disa",
+      "wikipedia_page_id": "9004976",
+      "wikipedia_revision_id": "1340071003",
+      "wikipedia_quote": "The Encyclopædia Britannica has been published continuously since 1768, appearing in fifteen official editions. Several editions were amended with multi-volume \"supplements\" (3rd, 4th/5th/6th), several consisted of previous editions with ad"
+    },
+    {
+      "claim_text": "Britannica's most distinctive term is \"life\"; Wikipedia's is \"edition\", showing the era-specific vocabulary of each source.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1327"
+      ],
+      "britannica_quote": "Building _life drama_ and boiling",
+      "wikipedia_page_id": "9004976",
+      "wikipedia_revision_id": "1340071003",
+      "wikipedia_quote": "The Encyclopædia Britannica has been published continuously since 1768, appearing in fifteen official editions."
+    },
+    {
+      "claim_text": "Both sources share core vocabulary including: age, aged, along, amendments, among.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1327"
+      ],
+      "britannica_quote": "hophyly, mathematics, the languages, and antiqui-",
+      "wikipedia_page_id": "9004976",
+      "wikipedia_revision_id": "1340071003",
+      "wikipedia_quote": "Since the early 1930s, the Britannica has developed \"spin-off\" products to leverage its reputation as a reliable reference work and educational tool."
+    },
+    {
+      "claim_text": "25 normalization rules fired on the Britannica text (\"ama-\ningly\" -> \"amaingly\"; \"antiqui-\nries\" -> \"antiquiries\"; \"attin-\ning\" -> \"attining\"); residual vocabulary differences likely reflect era terminology rather than OCR noise alone.",
+      "claim_type": "inference",
+      "label": "[inference]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1327"
+      ],
+      "britannica_quote": "ama-\ningly",
+      "wikipedia_page_id": "9004976",
+      "wikipedia_revision_id": "1340071003",
+      "wikipedia_quote": "The Encyclopædia Britannica has been published continuously since 1768, appearing in fifteen official editions. Several editions were amended with multi-volume \"supplements\" (3rd, 4th/5th/6th), several consisted of previous editions with ad"
+    }
+  ]
+}

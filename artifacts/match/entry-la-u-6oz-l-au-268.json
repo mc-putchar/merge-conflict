@@ -5,68 +5,20 @@
     "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:268"
   ],
   "matched": true,
-  "status": "accepted_bm25_only",
+  "status": "accepted",
   "selected_candidate": {
-    "page_id": "19851615",
-    "revision_id": "1236197254",
-    "title": "La Good Life",
-    "url": "https://en.wikipedia.org/wiki/La_Good_Life",
-    "bm25_score": 23.78377342224121,
-    "excerpt": "La Good Life is the second solo album from R&B singer/ rapper K.Maro. The first official single from the album was \" Femme Like U \".\n\n\" Femme Like U \"\n\n\" Crazy \"\n\n\"V.I.P.\"\n\n\"La Good Life\"\n\n\"My Lady\"\n\n\"Walad B'ladi\"\n\n\"Au Top\"\n\n\" Sous l'Oeil de l'Ange \"\n\n\"Rolling Down\"\n\n\"Dense Dessus\"\n\n\" Qu'est Ce Que Ça Te Fout \"\n\n\"Que Dieu Me Pardonne\"\n\n\"Petits Princes\"\n\n\" Femme Like U \"\n\n\" Crazy \"\n\n\" Sous l'oeil de l'ange / Qu'est ce que ça te fout \"",
-    "stage1_score": null,
-    "multimodal_score": null,
+    "page_id": "68518728",
+    "revision_id": "1342142088",
+    "title": "Claude Javeau",
+    "url": "https://en.wikipedia.org/wiki/Claude_Javeau",
+    "bm25_score": 22.17508316040039,
+    "excerpt": "Claude Javeau (22 September 1940 – 12 August 2021) was a Belgian sociologist and professor.\n\nHe studied at the Solvay Brussels School of Economics and Management. He was a professor of sociology at the Université libre de Bruxelles from 1987 to 2005. He also succeeded Henri Janne as the university's Director of the Center for General Sociology. He was a guest professor at multiple universities.\n\nClaude Javeau died in Brussels on 12 August 2021 at the age of 80.\n\nLa société au jour le jour : écrits sur la vie quotidienne (1991)\n\nL’enquête par questionnaire. Manuel à l’usage du praticien (1992)\n\nLeçons de sociologie (1997)\n\nSix novelettes obliques (1997)\n\nPrendre le futile au sérieux (1998)\n\nDeux images et le désir (1999)\n\nDieu est-il gnangnan? (1999)\n\nLe Petit Murmure et le Bruit du monde (1999)\n\nEsquisse d'une histoire naturelle du plouc (2000)\n\nMourir (2000)\n\nLe Bricolage du social. Un traité de sociologie (2001)\n\nSe perd(u)re(r) (2001)\n\nLa Culotte de Madonna (2001)\n\nL'Éloge de l'élitisme (2002)\n\nFragments d'une philosophie de la parfaite banalité (2002)\n\nPetit manuel d'épistémologie des sciences du social (2003)\n\nDes Impostures sociologiques (2014)\n\nJe hais le football (2015)",
+    "stage1_score": -7.634153366088867,
+    "multimodal_score": -3.792741298675537,
     "is_disambiguation": false,
     "source_query": "LA U  6oz  L AU"
   },
   "all_candidates": [
-    {
-      "page_id": "19851615",
-      "revision_id": "1236197254",
-      "title": "La Good Life",
-      "url": "https://en.wikipedia.org/wiki/La_Good_Life",
-      "bm25_score": 23.78377342224121,
-      "excerpt": "La Good Life is the second solo album from R&B singer/ rapper K.Maro. The first official single from the album was \" Femme Like U \".\n\n\" Femme Like U \"\n\n\" Crazy \"\n\n\"V.I.P.\"\n\n\"La Good Life\"\n\n\"My Lady\"\n\n\"Walad B'ladi\"\n\n\"Au Top\"\n\n\" Sous l'Oeil de l'Ange \"\n\n\"Rolling Down\"\n\n\"Dense Dessus\"\n\n\" Qu'est Ce Que Ça Te Fout \"\n\n\"Que Dieu Me Pardonne\"\n\n\"Petits Princes\"\n\n\" Femme Like U \"\n\n\" Crazy \"\n\n\" Sous l'oeil de l'ange / Qu'est ce que ça te fout \"",
-      "stage1_score": null,
-      "multimodal_score": null,
-      "is_disambiguation": false,
-      "source_query": "LA U  6oz  L AU"
-    },
-    {
-      "page_id": "78254528",
-      "revision_id": "1341241506",
-      "title": "Pierre Mesnard",
-      "url": "https://en.wikipedia.org/wiki/Pierre_Mesnard",
-      "bm25_score": 23.274904251098633,
-      "excerpt": "Pierre Mesnard (November 3, 1900 – March 12, 1969) was a French academic, historian of philosophy, and philosopher (characterologist).\n\nPierre Mesnard studied at the lycée in Poitiers. After voluntarily enlisting in 1918, he became a student in 1920 at the École Normale Supérieure, where he studied under the guidance of Lalande, Brunschvicg, Bréhier, and Bouglé. He obtained his philosophy degree in 1922, the agrégation in 1924, and his doctorate in 1936. He made several study trips and missions to Eastern and Central European countries.\n\nHe was a lecturer at the University of Iaşi in Romania, a teacher at the lycées of Rochefort, Poitiers, and Bône from 1930 to 1937, then a professor at the Faculty of Letters in Algiers, which he left for the army, serving as a reserve officer for the four years of the war, before returning to teach in Algiers in 1946.\n\nIn 1956, he founded the Center for Advanced Renaissance Studies in Tours. As a professor at the University of Poitiers, he participated in the creation of the Institute of Political Science, where he also taught. He was the director of the journal La Caractérologie at the Presses Universitaires de France. His notable work and contri",
-      "stage1_score": null,
-      "multimodal_score": null,
-      "is_disambiguation": false,
-      "source_query": "LA U  6oz  L AU"
-    },
-    {
-      "page_id": "3271398",
-      "revision_id": "1351087924",
-      "title": "Clémentine",
-      "url": "https://en.wikipedia.org/wiki/Cl%C3%A9mentine",
-      "bm25_score": 22.73609161376953,
-      "excerpt": "Clémentine (pronounced French pronunciation:) is a 1985 French animated television series (in co-production with Japan). The series consists of 39 episodes which feature the fantastic adventures of a young girl (Clémentine Dumat) who uses a wheelchair. The show was produced by \"IDDH\", a company that originally started out producing French-dubbed versions of Japanese anime. It originally aired on Antenne 2 (now France 2). was The program was first broadcast in France by Antenne 2 in September 1985. Clémentine was one of three children's animated programs that Antenne 2 had commissioned for their autumn schedule (the other two programs were Bibifoc and Les Mondes engloutis). The series was released on VHS in 1990 and on DVD in 2006.\n\nClémentine is the daughter of a famous French pilot and war hero Alex Dumat, who raised her alone with her brother Petit Boy. After she loses the use of her legs in an airplane accident, she travels the world with her family to find a cure that will allow her to walk again. Meanwhile, in her nightly dreams, she can walk and her cat Hélice (French for \"propeller\") can talk and fly with the help of a helicopter-like apparatus on its head. Clementine leads ",
-      "stage1_score": null,
-      "multimodal_score": null,
-      "is_disambiguation": false,
-      "source_query": "LA U  6oz  L AU"
-    },
-    {
-      "page_id": "5959362",
-      "revision_id": "1326565654",
-      "title": "Neacșu's letter",
-      "url": "https://en.wikipedia.org/wiki/Neac%C8%99u%27s_letter",
-      "bm25_score": 22.422107696533203,
-      "excerpt": "Neacșu's letter (Romanian: Scrisoarea lui Neacșu), written in 1521, is the oldest surviving document available in Old Romanian that can be precisely dated. Written using Cyrillic, it was sent by Lupu Neacșu, a merchant from Câmpulung, Wallachia (now Romania) to Johannes Benkner, the mayor of Brassó, Kingdom of Hungary (now Brașov, Romania), warning him about the imminent attack of the Ottoman Empire on the city of Belgrad and its implications to regional politics.\n\nLupu Neacșu was the son of Mircea Neacșu, mentioned for the first time during Vlad cel Tânăr 's reign (1510–1512), in documents related to a trial regarding debts between himself and merchants of Brașov. It is possible that he was himself a merchant involved in the trade of Turkish goods that he was buying south of the Danube and selling in Transylvania, which may explain his relationship with the mayor of Brașov. The letter is kept in the collections of the National Archives in Brașov.\n\nFor a long time this document was considered the oldest text written in Romanian. In recent decades it has been proven, on the basis of watermarks, that the Hurmuzaki Psalter is the oldest Romanian text, being written sometime between 14",
-      "stage1_score": null,
-      "multimodal_score": null,
-      "is_disambiguation": false,
-      "source_query": "LA U  6oz  L AU"
-    },
     {
       "page_id": "68518728",
       "revision_id": "1342142088",
@@ -74,8 +26,8 @@
       "url": "https://en.wikipedia.org/wiki/Claude_Javeau",
       "bm25_score": 22.17508316040039,
       "excerpt": "Claude Javeau (22 September 1940 – 12 August 2021) was a Belgian sociologist and professor.\n\nHe studied at the Solvay Brussels School of Economics and Management. He was a professor of sociology at the Université libre de Bruxelles from 1987 to 2005. He also succeeded Henri Janne as the university's Director of the Center for General Sociology. He was a guest professor at multiple universities.\n\nClaude Javeau died in Brussels on 12 August 2021 at the age of 80.\n\nLa société au jour le jour : écrits sur la vie quotidienne (1991)\n\nL’enquête par questionnaire. Manuel à l’usage du praticien (1992)\n\nLeçons de sociologie (1997)\n\nSix novelettes obliques (1997)\n\nPrendre le futile au sérieux (1998)\n\nDeux images et le désir (1999)\n\nDieu est-il gnangnan? (1999)\n\nLe Petit Murmure et le Bruit du monde (1999)\n\nEsquisse d'une histoire naturelle du plouc (2000)\n\nMourir (2000)\n\nLe Bricolage du social. Un traité de sociologie (2001)\n\nSe perd(u)re(r) (2001)\n\nLa Culotte de Madonna (2001)\n\nL'Éloge de l'élitisme (2002)\n\nFragments d'une philosophie de la parfaite banalité (2002)\n\nPetit manuel d'épistémologie des sciences du social (2003)\n\nDes Impostures sociologiques (2014)\n\nJe hais le football (2015)",
-      "stage1_score": null,
-      "multimodal_score": null,
+      "stage1_score": -7.634153366088867,
+      "multimodal_score": -3.792741298675537,
       "is_disambiguation": false,
       "source_query": "LA U  6oz  L AU"
     },
@@ -86,7 +38,31 @@
       "url": "https://en.wikipedia.org/wiki/Pierre-Jean_Souriac",
       "bm25_score": 22.014270782470703,
       "excerpt": "Pierre-Jean Souriac is a contemporary French historian, a Lecturer in Modern History at Jean Moulin University Lyon 3.\n\nSouriac is a specialist of history of religions, and more precisely religious conflicts in the 16th century and their extension in local political contexts, of military history, public finances and political power under the Ancien Régime and the provincial and municipal institutions in Ancien Régime France.\n\nSource:\n\nLa double fidélité des places protestantes sous Louis XIII : au roi et au parti, in Astoul, Guy, Chareyre, Philippe (dir.), Le protestantisme et la cité, Montauban, SMERP, 2013, p. 89-107.\n\nLes fantasmes d’une menace. La peur d’une frontière intérieure à Toulouse au temps des guerres de Religion, in Bethancourt, Francisco, Crouzet, Denis (dir.), Les frontières religieuses dans le monde moderne, Paris, PUPS, 2013, p. 31-52.\n\nPouvoir pontifical et pouvoir monarchique dans les écrits historique d’Étienne Pasquier, in Sylvio de Franceschi (dir.), Histoires antiromaines, Lyon, Chrétiens et Sociétés, col. « Documents et Mémoires », 2011, p. 11-34.\n\nRéparer les dommages de guerre en Haut Languedoc au temps des troubles de religion, Liame, 2001, n°21, p. 10-3",
-      "stage1_score": null,
+      "stage1_score": -7.430473804473877,
+      "multimodal_score": -4.3776631355285645,
+      "is_disambiguation": false,
+      "source_query": "LA U  6oz  L AU"
+    },
+    {
+      "page_id": "19851615",
+      "revision_id": "1236197254",
+      "title": "La Good Life",
+      "url": "https://en.wikipedia.org/wiki/La_Good_Life",
+      "bm25_score": 23.78377342224121,
+      "excerpt": "La Good Life is the second solo album from R&B singer/ rapper K.Maro. The first official single from the album was \" Femme Like U \".\n\n\" Femme Like U \"\n\n\" Crazy \"\n\n\"V.I.P.\"\n\n\"La Good Life\"\n\n\"My Lady\"\n\n\"Walad B'ladi\"\n\n\"Au Top\"\n\n\" Sous l'Oeil de l'Ange \"\n\n\"Rolling Down\"\n\n\"Dense Dessus\"\n\n\" Qu'est Ce Que Ça Te Fout \"\n\n\"Que Dieu Me Pardonne\"\n\n\"Petits Princes\"\n\n\" Femme Like U \"\n\n\" Crazy \"\n\n\" Sous l'oeil de l'ange / Qu'est ce que ça te fout \"",
+      "stage1_score": -7.456153869628906,
+      "multimodal_score": -4.735959053039551,
+      "is_disambiguation": false,
+      "source_query": "LA U  6oz  L AU"
+    },
+    {
+      "page_id": "78254528",
+      "revision_id": "1341241506",
+      "title": "Pierre Mesnard",
+      "url": "https://en.wikipedia.org/wiki/Pierre_Mesnard",
+      "bm25_score": 23.274904251098633,
+      "excerpt": "Pierre Mesnard (November 3, 1900 – March 12, 1969) was a French academic, historian of philosophy, and philosopher (characterologist).\n\nPierre Mesnard studied at the lycée in Poitiers. After voluntarily enlisting in 1918, he became a student in 1920 at the École Normale Supérieure, where he studied under the guidance of Lalande, Brunschvicg, Bréhier, and Bouglé. He obtained his philosophy degree in 1922, the agrégation in 1924, and his doctorate in 1936. He made several study trips and missions to Eastern and Central European countries.\n\nHe was a lecturer at the University of Iaşi in Romania, a teacher at the lycées of Rochefort, Poitiers, and Bône from 1930 to 1937, then a professor at the Faculty of Letters in Algiers, which he left for the army, serving as a reserve officer for the four years of the war, before returning to teach in Algiers in 1946.\n\nIn 1956, he founded the Center for Advanced Renaissance Studies in Tours. As a professor at the University of Poitiers, he participated in the creation of the Institute of Political Science, where he also taught. He was the director of the journal La Caractérologie at the Presses Universitaires de France. His notable work and contri",
+      "stage1_score": -7.659791469573975,
       "multimodal_score": null,
       "is_disambiguation": false,
       "source_query": "LA U  6oz  L AU"
@@ -98,7 +74,7 @@
       "url": "https://en.wikipedia.org/wiki/L%C3%A9on_de_Laborde",
       "bm25_score": 21.830127716064453,
       "excerpt": "Léon, Marquis de Laborde (French pronunciation:; 1807–1869) was a French archaeologist and traveler.\n\nHe was born in Paris, the son of Alexandre de Laborde. Educated in Germany, he traveled extensively in Asia Minor, Syria, and Egypt, and then entered the French diplomatic service. In 1847 he was made conservator of the Louvre Museum of Antiques, and in 1857 director-general of the archives of the Empire.\n\nHis numerous works include:\n\nVoyage de l’Arabie pétrée. Giard, Paris 1830\n\nJourney through Arabia Petraea, to Mount Sinai. and the excavated city of Petra, the Edom of the prophecies English translation by Michael Joseph Quin, publ. John Murray, London, 1836\n\nVoyage en Orient, Asie Mineure et Syrie (1837–62)\n\nVoyage de la Syrie par MM Alexandre de Laborde, Becker, Hall et Léon de Laborde. Firmin Didot, Paris 1837 (Digitalisat, U. of Heidelberg).\n\nVoyage de l’Asie mineure. Didot, Paris 1838 (Digitalisat, U. of Heidelberg).\n\nHistoire de la gravure en manière noire et son application à l’imprimerie. Jules Didot l'aîné, Paris 1839.\n\nDébuts de l’imprimerie à Mayence et à Bamberg, ou Description des lettres d’indulgence du pape Nicolas V, pro regno Cypri, imprimées en 1454. Techener, P",
-      "stage1_score": null,
+      "stage1_score": -7.726073265075684,
       "multimodal_score": null,
       "is_disambiguation": false,
       "source_query": "LA U  6oz  L AU"
@@ -110,12 +86,36 @@
       "url": "https://en.wikipedia.org/wiki/Yvan_Lamonde",
       "bm25_score": 21.730831146240234,
       "excerpt": "Yvan Lamonde (30 March 1944 – 26 August 2025) was a Canadian academic and historian. He was a professor at McGill University specializing in Quebec literature.\n\nBorn in Saint-Tite on 30 March 1944, Lamonde graduated from the Université de Montréal and the Université Laval. He extensively studied the sociography of Quebec, believing that the Quebec identity was based more on the liberal tradition of North America than on French culture and Roman Catholicism, as evidenced in his books Histoire sociale des idées au Québec and Brève histoire des idées au Québec. In 2008, he published an autobiography titled Historien et citoyen: navigations au long cours in collaboration with Claude Corbo. He was a member of the Académie des lettres du Québec, the Royal Society of Canada, and the Société des Dix. His works can be found at the McGill University Archives.\n\nLamonde died on 26 August 2025, at the age of 81.\n\nHistoriographie de la philosophie au Québec (1853-1970) (1972)\n\nLa philosophie et son enseignement au Québec (1665-1920) (1980)\n\nLa librairie et l’édition à Montréal, 1776-1920 (1991)\n\nHistoire sociale des idées au Québec (2000)\n\nAllégeances et dépendances : l'histoire d'une ambivalenc",
-      "stage1_score": null,
+      "stage1_score": -7.735049724578857,
+      "multimodal_score": null,
+      "is_disambiguation": false,
+      "source_query": "LA U  6oz  L AU"
+    },
+    {
+      "page_id": "5959362",
+      "revision_id": "1326565654",
+      "title": "Neacșu's letter",
+      "url": "https://en.wikipedia.org/wiki/Neac%C8%99u%27s_letter",
+      "bm25_score": 22.422107696533203,
+      "excerpt": "Neacșu's letter (Romanian: Scrisoarea lui Neacșu), written in 1521, is the oldest surviving document available in Old Romanian that can be precisely dated. Written using Cyrillic, it was sent by Lupu Neacșu, a merchant from Câmpulung, Wallachia (now Romania) to Johannes Benkner, the mayor of Brassó, Kingdom of Hungary (now Brașov, Romania), warning him about the imminent attack of the Ottoman Empire on the city of Belgrad and its implications to regional politics.\n\nLupu Neacșu was the son of Mircea Neacșu, mentioned for the first time during Vlad cel Tânăr 's reign (1510–1512), in documents related to a trial regarding debts between himself and merchants of Brașov. It is possible that he was himself a merchant involved in the trade of Turkish goods that he was buying south of the Danube and selling in Transylvania, which may explain his relationship with the mayor of Brașov. The letter is kept in the collections of the National Archives in Brașov.\n\nFor a long time this document was considered the oldest text written in Romanian. In recent decades it has been proven, on the basis of watermarks, that the Hurmuzaki Psalter is the oldest Romanian text, being written sometime between 14",
+      "stage1_score": -7.964107513427734,
+      "multimodal_score": null,
+      "is_disambiguation": false,
+      "source_query": "LA U  6oz  L AU"
+    },
+    {
+      "page_id": "3271398",
+      "revision_id": "1351087924",
+      "title": "Clémentine",
+      "url": "https://en.wikipedia.org/wiki/Cl%C3%A9mentine",
+      "bm25_score": 22.73609161376953,
+      "excerpt": "Clémentine (pronounced French pronunciation:) is a 1985 French animated television series (in co-production with Japan). The series consists of 39 episodes which feature the fantastic adventures of a young girl (Clémentine Dumat) who uses a wheelchair. The show was produced by \"IDDH\", a company that originally started out producing French-dubbed versions of Japanese anime. It originally aired on Antenne 2 (now France 2). was The program was first broadcast in France by Antenne 2 in September 1985. Clémentine was one of three children's animated programs that Antenne 2 had commissioned for their autumn schedule (the other two programs were Bibifoc and Les Mondes engloutis). The series was released on VHS in 1990 and on DVD in 2006.\n\nClémentine is the daughter of a famous French pilot and war hero Alex Dumat, who raised her alone with her brother Petit Boy. After she loses the use of her legs in an airplane accident, she travels the world with her family to find a cure that will allow her to walk again. Meanwhile, in her nightly dreams, she can walk and her cat Hélice (French for \"propeller\") can talk and fly with the help of a helicopter-like apparatus on its head. Clementine leads ",
+      "stage1_score": -8.180898666381836,
       "multimodal_score": null,
       "is_disambiguation": false,
       "source_query": "LA U  6oz  L AU"
     }
   ],
-  "article_text_sha256": "30daccb97b12433dd10143e7a986909b1b16b15809ccca90a9460d9b9299aecf",
-  "decision_rationale": "Accepted candidate 'La Good Life' using BM25 score 23.78 (retrieval scores not computed)."
+  "article_text_sha256": "a434b4d06f63f31ef4ffc077ce850a9749e79940cff70d5e2966156c5c852102",
+  "decision_rationale": "Accepted candidate 'Claude Javeau' with relevance score -3.7927 >= threshold -4.5."
 }

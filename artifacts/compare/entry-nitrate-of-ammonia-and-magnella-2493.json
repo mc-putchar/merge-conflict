@@ -1,0 +1,216 @@
+{
+  "entry_id": "entry-nitrate-of-ammonia-and-magnella-2493",
+  "britannica_title": "Nitrate of Ammonia and Magnella",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2493"
+  ],
+  "britannica_sha256": "999b5ffd7c678e7ac295f0affa866cb778e86a4723d586d3a454a9c34a505a8d",
+  "britannica_raw_chars": 5773,
+  "britannica_tokens": 491,
+  "britannica_unique_tokens": 233,
+  "wikipedia_page_id": "361028",
+  "wikipedia_revision_id": "1341832987",
+  "wikipedia_title": "Nitrification",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Nitrification",
+  "wikipedia_text_sha256": "39d176b977a73b587dda6694639fd9679d43ff18e24b6044e86455be61a26a16",
+  "wikipedia_raw_chars": 19321,
+  "wikipedia_tokens": 1536,
+  "wikipedia_unique_tokens": 760,
+  "length_ratio": 3.347,
+  "text_changes": [
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "foluble",
+      "replacement": "soluble",
+      "count": 3,
+      "samples": [
+        "magenae. It is foluble in 20 parts of",
+        "er. It is more foluble in boiling wat",
+        "fats, and lefs foluble in water. It r"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "folutions",
+      "replacement": "solutions",
+      "count": 2,
+      "samples": [
+        "g together the folutions of the two fal",
+        "ination of the folutions of nitrate of"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "lefs",
+      "replacement": "less",
+      "count": 3,
+      "samples": [
+        "d tafte. It is lefs deliquent in t",
+        "uent fats, and lefs foluble in wat",
+        "iffers it, but lefs of boiling wat"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "tafte",
+      "replacement": "taste",
+      "count": 3,
+      "samples": [
+        "in groups. The tafte is penetrating",
+        "and ammonated tafte. It is lefs de",
+        "nceable bitter tafte. The specific"
+      ]
+    }
+  ],
+  "metrics": {
+    "jaccard_raw": 0.0387,
+    "jaccard_normalized": 0.0409,
+    "cosine_tfidf": 0.2869,
+    "cosine_embedding": 0.1669,
+    "distinctive_britannica": [
+      "acid",
+      "water",
+      "parts",
+      "heat",
+      "formed",
+      "air",
+      "magnella",
+      "fall",
+      "earth",
+      "cold",
+      "gas",
+      "form",
+      "off",
+      "remains",
+      "either"
+    ],
+    "distinctive_wikipedia": [
+      "nitrification",
+      "process",
+      "ammonia",
+      "oxidation",
+      "nitrite",
+      "bacteria",
+      "amo",
+      "step",
+      "nitrate",
+      "soil",
+      "compounds",
+      "nitrogen",
+      "production",
+      "inhibitors",
+      "aob"
+    ],
+    "shared_terms": [
+      "acid",
+      "action",
+      "ammonia",
+      "ammonium",
+      "becomes",
+      "called",
+      "compound",
+      "converted",
+      "direct",
+      "final",
+      "form",
+      "formed",
+      "formerly",
+      "forms",
+      "found",
+      "free",
+      "gas",
+      "given",
+      "greater",
+      "groups",
+      "known",
+      "less",
+      "nature",
+      "nitrate",
+      "nitric",
+      "nitrous",
+      "obtained",
+      "ocean",
+      "often",
+      "oxygen"
+    ]
+  },
+  "aligned_chunks": [
+    {
+      "britannica_chunk_index": 2,
+      "wikipedia_chunk_index": 12,
+      "similarity": 0.1989,
+      "britannica_excerpt": "The component parts of this fall are,\n\nThe component parts of this fall are,\n\nSulphurous acid 39\n\nMagnella 16\n\nWater 45\n\n1. This triple falls is formed by decomposing the fulphite of ammonia by magnella or the fulphite of magenae by ammoniu",
+      "wikipedia_excerpt": "Nitrification can also occur in drinking water. In distribution systems where chloramines are used as the secondary disinfectant, the presence of free ammonia can act as a substrate for ammonia-oxidizing microorganisms. The associated react"
+    },
+    {
+      "britannica_chunk_index": 5,
+      "wikipedia_chunk_index": 11,
+      "similarity": 0.1947,
+      "britannica_excerpt": "1. This triple falls is formed, either by the dirediorgan combination of the solutions of nitrate of ammonia, and nitrate of magnella, by which the falls is obtained pure and crytallized , or, by partially decomposing the nitrate of ammonia",
+      "wikipedia_excerpt": "In most environments, organisms are present that will complete both steps of the process, yielding nitrate as the final product. However, it is possible to design systems in which nitrite is formed (the Sharon process).\n\nNitrification is im"
+    },
+    {
+      "britannica_chunk_index": 7,
+      "wikipedia_chunk_index": 6,
+      "similarity": 0.1858,
+      "britannica_excerpt": "1. This compound of miruric acid and magnella found was formerly called _mirice, left of magnella_, and was not confounded with the muriate of lime, with which it is frequently recommended. The difference between thefe two falls was flat pr",
+      "wikipedia_excerpt": "The idea that oxidation of ammonia to nitrate is in fact a biological process was first given by Louis Pasteur in 1862. Later in 1875, Alexander Müller, while conducting a quality assessment of water from wells in Berlin, noted that ammoniu"
+    }
+  ],
+  "topic_id": 2,
+  "topic_terms": [
+    "water",
+    "acid",
+    "quantity"
+  ],
+  "claims": [
+    {
+      "claim_text": "The Britannica entry \"Nitrate of Ammonia and Magnella\" uses 491 content tokens while the Wikipedia article \"Nitrification\" uses 1536; their normalized vocabularies share a Jaccard overlap of 0.0409 (raw 0.0387) and a TF-IDF cosine similarity of 0.2869.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2493"
+      ],
+      "britannica_quote": "Magnella,\nSc.\n\n334\nPrepris-tion.\n\n1. The compound of fulphurous acid and magnella is formed by pataling fulphurous acid gas into two parts of water, with one of carbonate of magnella. A violent effervescent takes place, with the evolution o",
+      "wikipedia_page_id": "361028",
+      "wikipedia_revision_id": "1341832987",
+      "wikipedia_quote": "Nitrification is the biological oxidation of ammonia to nitrate via the intermediary nitrite. Nitrification is an important step in the nitrogen cycle in soil. The process of complete nitrification may occur through separate organisms or en"
+    },
+    {
+      "claim_text": "Britannica's most distinctive term is \"acid\"; Wikipedia's is \"nitrification\", showing the era-specific vocabulary of each source.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2493"
+      ],
+      "britannica_quote": "The compound of fulphurous acid and magnella is formed by pataling fulphurous acid gas into two parts of water, with one of carbonate of magnella.",
+      "wikipedia_page_id": "361028",
+      "wikipedia_revision_id": "1341832987",
+      "wikipedia_quote": "Nitrification is the biological oxidation of ammonia to nitrate via the intermediary nitrite."
+    },
+    {
+      "claim_text": "Both sources share core vocabulary including: acid, action, ammonia, ammonium, becomes.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2493"
+      ],
+      "britannica_quote": "The compound of fulphurous acid and magnella is formed by pataling fulphurous acid gas into two parts of water, with one of carbonate of magnella.",
+      "wikipedia_page_id": "361028",
+      "wikipedia_revision_id": "1341832987",
+      "wikipedia_quote": "This feature may explain enhanced growth of AOB in the presence of urea in acidic environments."
+    },
+    {
+      "claim_text": "4 normalization rules fired on the Britannica text (\"foluble\" -> \"soluble\"; \"folutions\" -> \"solutions\"; \"lefs\" -> \"less\"); residual vocabulary differences likely reflect era terminology rather than OCR noise alone.",
+      "claim_type": "inference",
+      "label": "[inference]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2493"
+      ],
+      "britannica_quote": "magenae. It is foluble in 20 parts of",
+      "wikipedia_page_id": "361028",
+      "wikipedia_revision_id": "1341832987",
+      "wikipedia_quote": "Nitrification is the biological oxidation of ammonia to nitrate via the intermediary nitrite. Nitrification is an important step in the nitrogen cycle in soil. The process of complete nitrification may occur through separate organisms or en"
+    }
+  ]
+}

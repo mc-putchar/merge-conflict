@@ -1,0 +1,217 @@
+{
+  "entry_id": "entry-kal-421-1765",
+  "britannica_title": "KAL  421",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1765"
+  ],
+  "britannica_sha256": "e8dccdb50117ab4dfc61b5058c5f7579dd97232d8316e4056de63563fb92d0c2",
+  "britannica_raw_chars": 6653,
+  "britannica_tokens": 543,
+  "britannica_unique_tokens": 457,
+  "wikipedia_page_id": "3210346",
+  "wikipedia_revision_id": "1319455052",
+  "wikipedia_title": "Kal",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Kal",
+  "wikipedia_text_sha256": "36700c02e088fe4601089bc7b02225693d8088a3acc4a3c3061deaa34941ee95",
+  "wikipedia_raw_chars": 1182,
+  "wikipedia_tokens": 133,
+  "wikipedia_unique_tokens": 85,
+  "length_ratio": 0.178,
+  "text_changes": [
+    {
+      "rule": "archaic_spelling",
+      "original": "honour",
+      "replacement": "honor",
+      "count": 1,
+      "samples": [
+        "ly rebel. They honour old age. When"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "in-\n\ndeed",
+      "replacement": "indeed",
+      "count": 1,
+      "samples": [
+        "in-\n\ndeed"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "feem",
+      "replacement": "seem",
+      "count": 1,
+      "samples": [
+        "rces. It would feem that the moral"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "ferve",
+      "replacement": "serve",
+      "count": 1,
+      "samples": [
+        "hed, make them ferve a good deal lo"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "few",
+      "replacement": "sew",
+      "count": 1,
+      "samples": [
+        "la-bour. Very few of the rich va"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fin",
+      "replacement": "sin",
+      "count": 1,
+      "samples": [
+        "ought a deadly fin.\n\nThe Kalmus a"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fort",
+      "replacement": "sort",
+      "count": 1,
+      "samples": [
+        "y endure every fort of opreffion,"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "perfon",
+      "replacement": "person",
+      "count": 1,
+      "samples": [
+        "ot obeyed, the perfon is considered"
+      ]
+    }
+  ],
+  "metrics": {
+    "jaccard_raw": 0.0037,
+    "jaccard_normalized": 0.0037,
+    "cosine_tfidf": 0.0049,
+    "cosine_embedding": 0.0888,
+    "distinctive_britannica": [
+      "though",
+      "never",
+      "molt",
+      "either",
+      "upon",
+      "felt",
+      "greatest",
+      "kalmus",
+      "life",
+      "rich",
+      "even",
+      "himself",
+      "another",
+      "among",
+      "people"
+    ],
+    "distinctive_wikipedia": [
+      "kal",
+      "village",
+      "code",
+      "language",
+      "station",
+      "province",
+      "region",
+      "limited",
+      "abbreviation",
+      "doctor",
+      "band",
+      "airport",
+      "roman",
+      "refer",
+      "editorial"
+    ],
+    "shared_terms": [
+      "company",
+      "part"
+    ]
+  },
+  "aligned_chunks": [
+    {
+      "britannica_chunk_index": 1,
+      "wikipedia_chunk_index": 1,
+      "similarity": 0.1181,
+      "britannica_excerpt": "The Kalmus are exceedingly affable; and of fo-cali a algorithm, that its rare face a traveller or pe-ceive another, even at the difference of federal rules, without going to falute him, and to injure into the object of his memory. When I tr",
+      "wikipedia_excerpt": "Korala Associates Limited, a software company\n\nKurdish Academy of Language\n\nISO 639-2 and 639-3 codes for the Greenlandic language\n\nKalamazoo Transportation Center, station code\n\nKallang MRT station, MRT station abbreviation\n\nKaltag Airport"
+    },
+    {
+      "britannica_chunk_index": 9,
+      "wikipedia_chunk_index": 0,
+      "similarity": 0.0875,
+      "britannica_excerpt": "The moveable habitations of the Kalmus are thoef felt huts with a conical roof in the among all the roaming Alates. The trend ingousin attention of thefe tents was undoubtedly conceived in the eastern parts of Afis, and molt probably by the",
+      "wikipedia_excerpt": "Kal may refer to:\n\nKal (name)\n\nKal or KAL, Kevin Kallaugher (born 1955), editorial cartoonist\n\nKal, Fars, a village\n\nKal Rural District, in Fars Province\n\nKal, Kurdistan, a village\n\nKal, Susan, a village in Khuzestan Province\n\nKäl, a town\n\n"
+    },
+    {
+      "britannica_chunk_index": 4,
+      "wikipedia_chunk_index": 1,
+      "similarity": 0.0805,
+      "britannica_excerpt": "molt affectionate cordiality. Every frunger, of whichever nature, never fails to be well received by a Kalmus; and he may depend upon ha-ving his effects in the greatest faculty the moment he has put himself under the protection of his holl",
+      "wikipedia_excerpt": "Korala Associates Limited, a software company\n\nKurdish Academy of Language\n\nISO 639-2 and 639-3 codes for the Greenlandic language\n\nKalamazoo Transportation Center, station code\n\nKallang MRT station, MRT station abbreviation\n\nKaltag Airport"
+    }
+  ],
+  "topic_id": 5,
+  "topic_terms": [
+    "every",
+    "people",
+    "upon"
+  ],
+  "claims": [
+    {
+      "claim_text": "The Britannica entry \"KAL  421\" uses 542 content tokens while the Wikipedia article \"Kal\" uses 133; their normalized vocabularies share a Jaccard overlap of 0.0037 (raw 0.0037) and a TF-IDF cosine similarity of 0.0049.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1765"
+      ],
+      "britannica_quote": "Kalmcs, and cholerie temperament, they live more amicably to-gether than one could expect in a people that led to independent life. They felaina come to blows even over their cups, and their quarrels are hardly ever bloody. A murder very ra",
+      "wikipedia_page_id": "3210346",
+      "wikipedia_revision_id": "1319455052",
+      "wikipedia_quote": "Kal may refer to:\n\nKal (name)\n\nKal or KAL, Kevin Kallaugher (born 1955), editorial cartoonist\n\nKal, Fars, a village\n\nKal Rural District, in Fars Province\n\nKal, Kurdistan, a village\n\nKal, Susan, a village in Khuzestan Province\n\nKäl, a town\n\n"
+    },
+    {
+      "claim_text": "Britannica's most distinctive term is \"though\"; Wikipedia's is \"kal\", showing the era-specific vocabulary of each source.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1765"
+      ],
+      "britannica_quote": "A murder very rarely happens, though their anger has finding in it exceeding forces.",
+      "wikipedia_page_id": "3210346",
+      "wikipedia_revision_id": "1319455052",
+      "wikipedia_quote": "Kal may refer to:"
+    },
+    {
+      "claim_text": "Both sources share core vocabulary including: company, part.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1765"
+      ],
+      "britannica_quote": "When the matter of the hoofe fits down to meat in company with others of inferior rank, he begins in-",
+      "wikipedia_page_id": "3210346",
+      "wikipedia_revision_id": "1319455052",
+      "wikipedia_quote": "Kal Tire, a Canadian company"
+    },
+    {
+      "claim_text": "8 normalization rules fired on the Britannica text (\"honour\" -> \"honor\"; \"in-\n\ndeed\" -> \"indeed\"; \"feem\" -> \"seem\"); residual vocabulary differences likely reflect era terminology rather than OCR noise alone.",
+      "claim_type": "inference",
+      "label": "[inference]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1765"
+      ],
+      "britannica_quote": "ly rebel. They honour old age. When",
+      "wikipedia_page_id": "3210346",
+      "wikipedia_revision_id": "1319455052",
+      "wikipedia_quote": "Kal may refer to:\n\nKal (name)\n\nKal or KAL, Kevin Kallaugher (born 1955), editorial cartoonist\n\nKal, Fars, a village\n\nKal Rural District, in Fars Province\n\nKal, Kurdistan, a village\n\nKal, Susan, a village in Khuzestan Province\n\nKäl, a town\n\n"
+    }
+  ]
+}

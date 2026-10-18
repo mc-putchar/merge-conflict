@@ -5,7 +5,7 @@
     "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:403"
   ],
   "matched": true,
-  "status": "accepted_bm25_only",
+  "status": "accepted",
   "selected_candidate": {
     "page_id": "4457",
     "revision_id": "1289215329",
@@ -13,8 +13,8 @@
     "url": "https://en.wikipedia.org/wiki/Book_of_Zephaniah",
     "bm25_score": 11.616588592529297,
     "excerpt": "Cushi son of Gedaliah son of Amariah son of Hezekiah, in the days of King Josiah son of Amon of Judah \". All that is known of Zephaniah comes from within the text.\n\nThe name \" Cushi,\" Zephaniah's father, means \"Cushite\" or \" Ethiopian \", and the text of Zephaniah mentions the sin and restoration of Cushim. While some have concluded from this that Zephaniah was dark-skinned or African, Ehud Ben Zvi maintains that, based on the context, \"Cushi\" must be understood as a personal name rather than an indicator of nationality. Abraham ibn Ezra interpreted the name Hezekiah in the superscription as King Hezekiah of Judah, though that is not a claim advanced in the text of Zephaniah.\n\nAs with many of the other prophets, there is no external evidence to directly associate composition of the book with a prophet by the name of Zephaniah. Some scholars, such as Kent Harold Richards and Jason DeRouchie, consider the words in Zephaniah to reflect a time early in the reign of King Josiah (640–609 BC) before his reforms of 622 BC took full effect, in which case the prophet may have been born during the reign of Manasseh (698/687–642 BC). Others argue that some portion of the book is postmonarchic, ",
-    "stage1_score": null,
-    "multimodal_score": null,
+    "stage1_score": -6.158620834350586,
+    "multimodal_score": -3.9588112831115723,
     "is_disambiguation": false,
     "source_query": "Cushim same"
   },
@@ -26,12 +26,12 @@
       "url": "https://en.wikipedia.org/wiki/Book_of_Zephaniah",
       "bm25_score": 11.616588592529297,
       "excerpt": "Cushi son of Gedaliah son of Amariah son of Hezekiah, in the days of King Josiah son of Amon of Judah \". All that is known of Zephaniah comes from within the text.\n\nThe name \" Cushi,\" Zephaniah's father, means \"Cushite\" or \" Ethiopian \", and the text of Zephaniah mentions the sin and restoration of Cushim. While some have concluded from this that Zephaniah was dark-skinned or African, Ehud Ben Zvi maintains that, based on the context, \"Cushi\" must be understood as a personal name rather than an indicator of nationality. Abraham ibn Ezra interpreted the name Hezekiah in the superscription as King Hezekiah of Judah, though that is not a claim advanced in the text of Zephaniah.\n\nAs with many of the other prophets, there is no external evidence to directly associate composition of the book with a prophet by the name of Zephaniah. Some scholars, such as Kent Harold Richards and Jason DeRouchie, consider the words in Zephaniah to reflect a time early in the reign of King Josiah (640–609 BC) before his reforms of 622 BC took full effect, in which case the prophet may have been born during the reign of Manasseh (698/687–642 BC). Others argue that some portion of the book is postmonarchic, ",
-      "stage1_score": null,
-      "multimodal_score": null,
+      "stage1_score": -6.158620834350586,
+      "multimodal_score": -3.9588112831115723,
       "is_disambiguation": false,
       "source_query": "Cushim same"
     }
   ],
   "article_text_sha256": "0f2e613e73370182a8f5c9659d5168839dd7d6f6284ffe92477000f0407ffe42",
-  "decision_rationale": "Accepted candidate 'Book of Zephaniah' using BM25 score 11.62 (retrieval scores not computed)."
+  "decision_rationale": "Accepted candidate 'Book of Zephaniah' with relevance score -3.9588 >= threshold -4.5."
 }

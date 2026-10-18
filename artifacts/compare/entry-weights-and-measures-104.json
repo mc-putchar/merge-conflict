@@ -1,0 +1,182 @@
+{
+  "entry_id": "entry-weights-and-measures-104",
+  "britannica_title": "WEIGHTS AND MEASURES",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:104"
+  ],
+  "britannica_sha256": "afa9730b4d5a35facb36d829d8da7892ee85683ec787e467c8fb35dd21157ce1",
+  "britannica_raw_chars": 8780,
+  "britannica_tokens": 731,
+  "britannica_unique_tokens": 532,
+  "wikipedia_page_id": "18094",
+  "wikipedia_revision_id": "1341552788",
+  "wikipedia_title": "Litre",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Litre",
+  "wikipedia_text_sha256": "df0bdfb1592b80d73a6682ea11855af012ce85f537890b7bdc9b24d9b60bb609",
+  "wikipedia_raw_chars": 11634,
+  "wikipedia_tokens": 919,
+  "wikipedia_unique_tokens": 473,
+  "length_ratio": 1.325,
+  "text_changes": [
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "few",
+      "replacement": "sew",
+      "count": 1,
+      "samples": [
+        "tly. But now a few of their stude"
+      ]
+    }
+  ],
+  "metrics": {
+    "jaccard_raw": 0.0726,
+    "jaccard_normalized": 0.0726,
+    "cosine_tfidf": 0.1373,
+    "cosine_embedding": 0.4205,
+    "distinctive_britannica": [
+      "brit",
+      "inches",
+      "dutch",
+      "weights",
+      "british",
+      "weight",
+      "measures",
+      "nearly",
+      "contains",
+      "explained",
+      "feet",
+      "latter",
+      "make",
+      "commercial",
+      "gold"
+    ],
+    "distinctive_wikipedia": [
+      "litre",
+      "water",
+      "cubic",
+      "unit",
+      "volume",
+      "used",
+      "density",
+      "mass",
+      "decimetre",
+      "often",
+      "letter",
+      "symbol",
+      "countries",
+      "defined",
+      "exactly"
+    ],
+    "shared_terms": [
+      "allow",
+      "allowing",
+      "almost",
+      "around",
+      "barely",
+      "capacity",
+      "centimetre",
+      "common",
+      "cubic",
+      "decimetre",
+      "density",
+      "dutch",
+      "equal",
+      "especially",
+      "exactly",
+      "expressed",
+      "foot",
+      "former",
+      "found",
+      "four",
+      "france",
+      "french",
+      "generally",
+      "gram",
+      "half",
+      "ice",
+      "includes",
+      "instead",
+      "introduced",
+      "later"
+    ]
+  },
+  "aligned_chunks": [
+    {
+      "britannica_chunk_index": 0,
+      "wikipedia_chunk_index": 2,
+      "similarity": 0.4987,
+      "britannica_excerpt": "is litre or cubic decimetre = 10 diclitres = 100 centiltes = 27/430 Brit. cubic inches, and so liere was nearly I Brit. Als. Also lo litre as 10 dec metres a 1 becollires ≈ 27/10/7 lb. bubels s and 22 becollires are nearly equal to 11 Brit;",
+      "wikipedia_excerpt": "One litre of liquid water has a mass of almost exactly one kilogram, because the kilogram was originally defined in 1795 as the mass of one cubic decimetre of water at the temperature of melting ice (0 °C). Subsequent redefinitions of the m"
+    },
+    {
+      "britannica_chunk_index": 11,
+      "wikipedia_chunk_index": 17,
+      "similarity": 0.3318,
+      "britannica_excerpt": "Holland...In 129, the decimal system of France was introu- fed, but with the old Dutch manufacture, be explained under the Kingdom. Of the old weights still used in any place, 10240 as a 320 engels = 16 oz. = 2 marks a Dutch lie; try to 114",
+      "wikipedia_excerpt": "In the SI system, apart from prefixes for powers of 1000, use of the \"centi\" (10 −2), \"deci\" (10 −1), \"deca\" (10 +1) and \"hecto\" (10 +2) prefixes with litres is common. For example, in many European countries, the hectolitre is the typical "
+    },
+    {
+      "britannica_chunk_index": 10,
+      "wikipedia_chunk_index": 13,
+      "similarity": 0.2647,
+      "britannica_excerpt": "Hanewer... The Is = 1073 lb. avord. i 112 lbs = 1 centrer; and 20 lbs, a 1 at none of her or 4 stones of wood. Also 600 los. 14 stupings a 27 comes a funny / and 320 lb. a 40 legends a 134 hands a 1last. The Colgorne mark is used for gold s",
+      "wikipedia_excerpt": "The CJK Compatibility block also includes U+3351 ㍑ SQUARE RITTORU corresponding to リットル rittoru, Japanese for 'litre'.\n\nThe first name of the litre was \"Cadil\"; standards are shown at the Musée des Arts et Métiers in Paris.\n\nThe litre was i"
+    }
+  ],
+  "topic_id": 7,
+  "topic_terms": [
+    "see",
+    "upon",
+    "great"
+  ],
+  "claims": [
+    {
+      "claim_text": "The Britannica entry \"WEIGHTS AND MEASURES\" uses 730 content tokens while the Wikipedia article \"Litre\" uses 919; their normalized vocabularies share a Jaccard overlap of 0.0726 (raw 0.0726) and a TF-IDF cosine similarity of 0.1373.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:104"
+      ],
+      "britannica_quote": "is litre or cubic decimetre = 10 diclitres = 100 centiltes = 27/430 Brit. cubic inches, and so liere was nearly I Brit. Als. Also lo litre as 10 dec metres a 1 becollires ≈ 27/10/7 lb. bubels s and 22 becollires are nearly equal to 11 Brit;",
+      "wikipedia_page_id": "18094",
+      "wikipedia_revision_id": "1341552788",
+      "wikipedia_quote": "The litre (Commonwealth spelling) or liter (American spelling) (SI symbols L and l, other symbol used: ℓ) is a metric unit of volume. It is equal to 1 cubic decimetre (dm 3), 1000 cubic centimetres (cm 3) or 0.001 cubic metres (m 3). A cubi"
+    },
+    {
+      "claim_text": "Britannica's most distinctive term is \"brit\"; Wikipedia's is \"litre\", showing the era-specific vocabulary of each source.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:104"
+      ],
+      "britannica_quote": "is litre or cubic decimetre = 10 diclitres = 100 centiltes = 27/430 Brit.",
+      "wikipedia_page_id": "18094",
+      "wikipedia_revision_id": "1341552788",
+      "wikipedia_quote": "The litre (Commonwealth spelling) or liter (American spelling) (SI symbols L and l, other symbol used: ℓ) is a metric unit of volume."
+    },
+    {
+      "claim_text": "Both sources share core vocabulary including: allow, allowing, almost, around, barely.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:104"
+      ],
+      "britannica_quote": "By this do and allow we needed, and the distance of the last expressed 3d parts are carried as in British, but the finances of silver by the keys.",
+      "wikipedia_page_id": "18094",
+      "wikipedia_revision_id": "1341552788",
+      "wikipedia_quote": "The litre is often also used in some calculated measurements, such as density (kg/L), allowing an easy comparison with the density of water."
+    },
+    {
+      "claim_text": "1 normalization rules fired on the Britannica text (\"few\" -> \"sew\"); residual vocabulary differences likely reflect era terminology rather than OCR noise alone.",
+      "claim_type": "inference",
+      "label": "[inference]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:104"
+      ],
+      "britannica_quote": "tly. But now a few of their stude",
+      "wikipedia_page_id": "18094",
+      "wikipedia_revision_id": "1341552788",
+      "wikipedia_quote": "The litre (Commonwealth spelling) or liter (American spelling) (SI symbols L and l, other symbol used: ℓ) is a metric unit of volume. It is equal to 1 cubic decimetre (dm 3), 1000 cubic centimetres (cm 3) or 0.001 cubic metres (m 3). A cubi"
+    }
+  ]
+}

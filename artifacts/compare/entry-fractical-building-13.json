@@ -1,0 +1,158 @@
+{
+  "entry_id": "entry-fractical-building-13",
+  "britannica_title": "Fractical Building",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:13"
+  ],
+  "britannica_sha256": "4940b6e1376dadda30f6d127a0da87ded078d4cdc5da5faf1c749dcc4702056f",
+  "britannica_raw_chars": 7961,
+  "britannica_tokens": 621,
+  "britannica_unique_tokens": 444,
+  "wikipedia_page_id": "72920408",
+  "wikipedia_revision_id": "1330691135",
+  "wikipedia_title": "Listed buildings in Nottinghamshire",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Listed_buildings_in_Nottinghamshire",
+  "wikipedia_text_sha256": "43eefa32326752e4ab48efd338f6a140c614a70fddd13be50b4c0da1f04fa7f5",
+  "wikipedia_raw_chars": 10478,
+  "wikipedia_tokens": 1002,
+  "wikipedia_unique_tokens": 330,
+  "length_ratio": 1.316,
+  "text_changes": [
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fun",
+      "replacement": "sun",
+      "count": 1,
+      "samples": [
+        "ite direction, fun forward, and i"
+      ]
+    }
+  ],
+  "metrics": {
+    "jaccard_raw": 0.0078,
+    "jaccard_normalized": 0.0078,
+    "cosine_tfidf": 0.0258,
+    "cosine_embedding": 0.0444,
+    "distinctive_britannica": [
+      "system",
+      "upper",
+      "part",
+      "manner",
+      "ship",
+      "several",
+      "direction",
+      "lower",
+      "frame",
+      "side",
+      "edge",
+      "various",
+      "form",
+      "point",
+      "base"
+    ],
+    "distinctive_wikipedia": [
+      "buildings",
+      "listed",
+      "nottinghamshire",
+      "ward",
+      "nottingham",
+      "south",
+      "east",
+      "west",
+      "north",
+      "historical",
+      "interest",
+      "grade",
+      "cum",
+      "national",
+      "consists"
+    ],
+    "shared_terms": [
+      "building",
+      "buildings",
+      "local",
+      "state",
+      "structure",
+      "upper"
+    ]
+  },
+  "aligned_chunks": [
+    {
+      "britannica_chunk_index": 2,
+      "wikipedia_chunk_index": 4,
+      "similarity": 0.126,
+      "britannica_excerpt": "1 Lc by And of pieces internal hoops, distinguished by the letter 2. These shelf-pieces are composed of several lengths of timber, scarded or joined together by coaks or circular downs, so as to form a full of internal hoop, extending from ",
+      "wikipedia_excerpt": "Listed buildings in Shireoaks\n\nListed buildings in South Leverton\n\nListed buildings in Stokeham\n\nListed buildings in Sturton le Steeple\n\nListed buildings in Styrrup with Oldcotes\n\nListed buildings in Sutton cum Lound\n\nListed buildings in To"
+    },
+    {
+      "britannica_chunk_index": 4,
+      "wikipedia_chunk_index": 4,
+      "similarity": 0.1036,
+      "britannica_excerpt": "2 Idly. By chocks, represented in Plate CCCCLV. (m.,) which are placed under all the shelf-pieces in walls of the beams, except the drop in such a manner as to receive the up and down arm of the iron knes. The lower ends of those under the ",
+      "wikipedia_excerpt": "Listed buildings in Shireoaks\n\nListed buildings in South Leverton\n\nListed buildings in Stokeham\n\nListed buildings in Sturton le Steeple\n\nListed buildings in Styrrup with Oldcotes\n\nListed buildings in Sutton cum Lound\n\nListed buildings in To"
+    },
+    {
+      "britannica_chunk_index": 6,
+      "wikipedia_chunk_index": 4,
+      "similarity": 0.089,
+      "britannica_excerpt": "These various alterations from the old system of building had the effect of very greatly increasing the strength of the ship of the boys'l away. Among us many changes, it is not impossible that continuous conclusions may have been drawn as ",
+      "wikipedia_excerpt": "Listed buildings in Shireoaks\n\nListed buildings in South Leverton\n\nListed buildings in Stokeham\n\nListed buildings in Sturton le Steeple\n\nListed buildings in Styrrup with Oldcotes\n\nListed buildings in Sutton cum Lound\n\nListed buildings in To"
+    }
+  ],
+  "topic_id": 5,
+  "topic_terms": [
+    "every",
+    "people",
+    "upon"
+  ],
+  "claims": [
+    {
+      "claim_text": "The Britannica entry \"Fractical Building\" uses 621 content tokens while the Wikipedia article \"Listed buildings in Nottinghamshire\" uses 1002; their normalized vocabularies share a Jaccard overlap of 0.0078 (raw 0.0078) and a TF-IDF cosine similarity of 0.0258.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:13"
+      ],
+      "britannica_quote": "ends in close contact with, and cooked or dowelled to, the sides of the diagonal timbers. In this state the frame--on in the hold presents various compartments, each representing the figure of a method.\n\nA T reads—timber is then introduced ",
+      "wikipedia_page_id": "72920408",
+      "wikipedia_revision_id": "1330691135",
+      "wikipedia_quote": "There are a number of listed buildings in Nottinghamshire. The term \"listed building\", in the United Kingdom, refers to a building or structure designated as being of special architectural, historical, or cultural significance. Details of a"
+    },
+    {
+      "claim_text": "Britannica's most distinctive term is \"system\"; Wikipedia's is \"buildings\", showing the era-specific vocabulary of each source.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:13"
+      ],
+      "britannica_quote": "The beams are discussed in the system nearly as we usual, except that in buildings, where a ship necessarily re-quires the greatest security, two additional beams have been introduced.",
+      "wikipedia_page_id": "72920408",
+      "wikipedia_revision_id": "1330691135",
+      "wikipedia_quote": "There are a number of listed buildings in Nottinghamshire."
+    },
+    {
+      "claim_text": "Both sources share core vocabulary including: building, buildings, local, state, structure.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:13"
+      ],
+      "britannica_quote": "The beams are discussed in the system nearly as we usual, except that in buildings, where a ship necessarily re-quires the greatest security, two additional beams have been introduced.",
+      "wikipedia_page_id": "72920408",
+      "wikipedia_revision_id": "1330691135",
+      "wikipedia_quote": "There are a number of listed buildings in Nottinghamshire."
+    },
+    {
+      "claim_text": "1 normalization rules fired on the Britannica text (\"fun\" -> \"sun\"); residual vocabulary differences likely reflect era terminology rather than OCR noise alone.",
+      "claim_type": "inference",
+      "label": "[inference]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:13"
+      ],
+      "britannica_quote": "ite direction, fun forward, and i",
+      "wikipedia_page_id": "72920408",
+      "wikipedia_revision_id": "1330691135",
+      "wikipedia_quote": "There are a number of listed buildings in Nottinghamshire. The term \"listed building\", in the United Kingdom, refers to a building or structure designated as being of special architectural, historical, or cultural significance. Details of a"
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "entry_id": "entry-s-c-o-865-1284",
+  "britannica_title": "S C O  865",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1284"
+  ],
+  "britannica_sha256": "668e6b466d790528ddc59436d5d61cdf0042656fa4a5f7fa87a6dafaef852e31",
+  "britannica_raw_chars": 6698,
+  "britannica_tokens": 514,
+  "britannica_unique_tokens": 445,
+  "wikipedia_page_id": "3007061",
+  "wikipedia_revision_id": "1305540824",
+  "wikipedia_title": "Human Race",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Human_Race",
+  "wikipedia_text_sha256": "7ff95f2e3a6d36ec1a24da55082315ceb584fb9531e2684f841d2831d1ee8785",
+  "wikipedia_raw_chars": 582,
+  "wikipedia_tokens": 63,
+  "wikipedia_unique_tokens": 35,
+  "length_ratio": 0.087,
+  "text_changes": [
+    {
+      "rule": "archaic_spelling",
+      "original": "honour",
+      "replacement": "honor",
+      "count": 1,
+      "samples": [
+        "the titles and honour of the King of"
+      ]
+    },
+    {
+      "rule": "ligature_expansion",
+      "original": "æ",
+      "replacement": "ae",
+      "count": 1,
+      "samples": [
+        "etland, the menætft of the huma"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "caufed",
+      "replacement": "caused",
+      "count": 1,
+      "samples": [
+        "986, Elizabeth caufed the femeence o"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "efter",
+      "replacement": "ester",
+      "count": 1,
+      "samples": [
+        "direction and Efter, and not the f"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "foon",
+      "replacement": "soon",
+      "count": 1,
+      "samples": [
+        "Mary was very foon afterwards rat"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fore",
+      "replacement": "sore",
+      "count": 1,
+      "samples": [
+        "s to preach be-fore him. The recie"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fource",
+      "replacement": "source",
+      "count": 1,
+      "samples": [
+        "she tried in a fource to me of fuch"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "lifted",
+      "replacement": "listed",
+      "count": 1,
+      "samples": [
+        "ges of England lifted a decla- ratio"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "pofed",
+      "replacement": "posed",
+      "count": 1,
+      "samples": [
+        "ish quen dicom-pofed in no common d"
+      ]
+    }
+  ],
+  "metrics": {
+    "jaccard_raw": 0.0084,
+    "jaccard_normalized": 0.0084,
+    "cosine_tfidf": 0.0529,
+    "cosine_embedding": 0.035,
+    "distinctive_britannica": [
+      "england",
+      "parliament",
+      "mary",
+      "queen",
+      "elizabeth",
+      "com",
+      "day",
+      "against",
+      "king",
+      "titles",
+      "judgment",
+      "fail",
+      "letter",
+      "thing",
+      "friends"
+    ],
+    "distinctive_wikipedia": [
+      "human",
+      "race",
+      "song",
+      "album",
+      "film",
+      "refer",
+      "species",
+      "red",
+      "system",
+      "robert",
+      "distinct",
+      "brothers",
+      "large",
+      "edition",
+      "used"
+    ],
+    "shared_terms": [
+      "book",
+      "days",
+      "human",
+      "race"
+    ]
+  },
+  "aligned_chunks": [
+    {
+      "britannica_chunk_index": 0,
+      "wikipedia_chunk_index": 0,
+      "similarity": 0.0798,
+      "britannica_excerpt": "seetland, the menaetft of the human race. To acute me of following the death of the queen my filter, is to brand me with he infany which I sabro molt. It is my nature to employ the direction and Ester, and not the fwof of Judith. Elizabeth ",
+      "wikipedia_excerpt": "Human Race or The Human Race may refer to:\n\nHuman species\n\nRace (human categorization), a classification system used to categorize humans into large and distinct populations\n\nThe Human Race (film), 2013 film\n\nL'Espèce humaine (The Human Rac"
+    },
+    {
+      "britannica_chunk_index": 3,
+      "wikipedia_chunk_index": 0,
+      "similarity": 0.068,
+      "britannica_excerpt": " to her. She declared, however, thus the had incorrect the displacement of many by disapproving of this book, and that no conveyance of her titles to the Spanish had been ever executed.",
+      "wikipedia_excerpt": "Human Race or The Human Race may refer to:\n\nHuman species\n\nRace (human categorization), a classification system used to categorize humans into large and distinct populations\n\nThe Human Race (film), 2013 film\n\nL'Espèce humaine (The Human Rac"
+    },
+    {
+      "britannica_chunk_index": 2,
+      "wikipedia_chunk_index": 0,
+      "similarity": 0.0101,
+      "britannica_excerpt": "To the defense of Mary, a returns were made befe flace and indisporaffitions of the field of the evidence produced to her prejudice. In the course of the trial, however, there occurred some incidents which defence to be rotated. By Lord Erl",
+      "wikipedia_excerpt": "Human Race or The Human Race may refer to:\n\nHuman species\n\nRace (human categorization), a classification system used to categorize humans into large and distinct populations\n\nThe Human Race (film), 2013 film\n\nL'Espèce humaine (The Human Rac"
+    }
+  ],
+  "topic_id": 7,
+  "topic_terms": [
+    "see",
+    "upon",
+    "great"
+  ],
+  "claims": [
+    {
+      "claim_text": "The Britannica entry \"S C O  865\" uses 515 content tokens while the Wikipedia article \"Human Race\" uses 63; their normalized vocabularies share a Jaccard overlap of 0.0084 (raw 0.0084) and a TF-IDF cosine similarity of 0.0529.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1284"
+      ],
+      "britannica_quote": "seetland, the menætft of the human race. To acute me of following the death of the queen my filter, is to brand me with he infany which I sabro molt. It is my nature to employ the direction and Efter, and not the fwof of Judith. Elizabeth h",
+      "wikipedia_page_id": "3007061",
+      "wikipedia_revision_id": "1305540824",
+      "wikipedia_quote": "Human Race or The Human Race may refer to:\n\nHuman species\n\nRace (human categorization), a classification system used to categorize humans into large and distinct populations\n\nThe Human Race (film), 2013 film\n\nL'Espèce humaine (The Human Rac"
+    },
+    {
+      "claim_text": "Britannica's most distinctive term is \"england\"; Wikipedia's is \"human\", showing the era-specific vocabulary of each source.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1284"
+      ],
+      "britannica_quote": "By Lord Erleigh, who was willing to disconnect her, charged her with a fixed relation of conveying her claims and titles to England to the king of Spain.",
+      "wikipedia_page_id": "3007061",
+      "wikipedia_revision_id": "1305540824",
+      "wikipedia_quote": "Human Race or The Human Race may refer to:"
+    },
+    {
+      "claim_text": "Both sources share core vocabulary including: book, days, human, race.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1284"
+      ],
+      "britannica_quote": "She indeed acknowledged, that the Spaniard profited to have pretensions to the kingdom of England, and that a book in justification of them had been communicated to her.",
+      "wikipedia_page_id": "3007061",
+      "wikipedia_revision_id": "1305540824",
+      "wikipedia_quote": "L'Espèce humaine (The Human Race), a 1947 book by Robert Antelme"
+    },
+    {
+      "claim_text": "9 normalization rules fired on the Britannica text (\"honour\" -> \"honor\"; \"æ\" -> \"ae\"; \"caufed\" -> \"caused\"); residual vocabulary differences likely reflect era terminology rather than OCR noise alone.",
+      "claim_type": "inference",
+      "label": "[inference]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1284"
+      ],
+      "britannica_quote": "the titles and honour of the King of",
+      "wikipedia_page_id": "3007061",
+      "wikipedia_revision_id": "1305540824",
+      "wikipedia_quote": "Human Race or The Human Race may refer to:\n\nHuman species\n\nRace (human categorization), a classification system used to categorize humans into large and distinct populations\n\nThe Human Race (film), 2013 film\n\nL'Espèce humaine (The Human Rac"
+    }
+  ]
+}

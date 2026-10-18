@@ -1,0 +1,278 @@
+{
+  "entry_id": "entry-536-efential-oil-of-fuerin-leaves-l-e-1939",
+  "britannica_title": "536 Efential oil of fuerin leaves L E",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1939"
+  ],
+  "britannica_sha256": "4a261c172afbdf47beda89a5f2863c1e108f92686473f898f0367207ab4a92a5",
+  "britannica_raw_chars": 6140,
+  "britannica_tokens": 519,
+  "britannica_unique_tokens": 421,
+  "wikipedia_page_id": "26118043",
+  "wikipedia_revision_id": "1064267287",
+  "wikipedia_title": "Etlingera fulgens",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Etlingera_fulgens",
+  "wikipedia_text_sha256": "3bf644e6b16bc3142a58e906395d26d905cc3dfd6963e9e334ddbe086af73b5e",
+  "wikipedia_raw_chars": 1493,
+  "wikipedia_tokens": 129,
+  "wikipedia_unique_tokens": 100,
+  "length_ratio": 0.243,
+  "text_changes": [
+    {
+      "rule": "archaic_spelling",
+      "original": "colour",
+      "replacement": "color",
+      "count": 1,
+      "samples": [
+        "e, of a yellow colour, called _yello"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "cafe",
+      "replacement": "case",
+      "count": 1,
+      "samples": [
+        "with efficient cafe: it appears li"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "cafes",
+      "replacement": "cases",
+      "count": 1,
+      "samples": [
+        "nt in cachethe cafes, in the declin"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "diforder",
+      "replacement": "disorder",
+      "count": 1,
+      "samples": [
+        "-gravating the diforder. Externally it"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fays",
+      "replacement": "says",
+      "count": 1,
+      "samples": [
+        "tafte. Hufman fays, he has given"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "feeds",
+      "replacement": "seeds",
+      "count": 1,
+      "samples": [
+        "l off, and the feeds begin to flow"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "few",
+      "replacement": "sew",
+      "count": 1,
+      "samples": [
+        "the dole of a few drops, in nerv"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "flowly",
+      "replacement": "slowly",
+      "count": 1,
+      "samples": [
+        "ter, yield, if flowly and vastly di-"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fometimes",
+      "replacement": "sometimes",
+      "count": 1,
+      "samples": [
+        "leasant. It is fometimes made uie of in"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fuitable",
+      "replacement": "suitable",
+      "count": 1,
+      "samples": [
+        "w them!veres : fuitable maceration, pr"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "refin",
+      "replacement": "resin",
+      "count": 1,
+      "samples": [
+        "called _yellow refin [L.]_.\n\nThe on"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "refinous",
+      "replacement": "resinous",
+      "count": 1,
+      "samples": [
+        "fill a brittle refinous folblance, of"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "tafte",
+      "replacement": "taste",
+      "count": 3,
+      "samples": [
+        ", albalkringed tafte. Hufman fays,",
+        "h in fuell and tafte than the commo",
+        "The fuell and tafte form to be the"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "ufually",
+      "replacement": "usually",
+      "count": 2,
+      "samples": [
+        "ne, though not ufually ranked in this",
+        "es, whole oils ufually link to water,"
+      ]
+    }
+  ],
+  "metrics": {
+    "jaccard_raw": 0.0116,
+    "jaccard_normalized": 0.0117,
+    "cosine_tfidf": 0.1476,
+    "cosine_embedding": 0.2312,
+    "distinctive_britannica": [
+      "oil",
+      "oils",
+      "water",
+      "usually",
+      "distillation",
+      "taste",
+      "much",
+      "employed",
+      "certain",
+      "cinnamon",
+      "great",
+      "good",
+      "against",
+      "though",
+      "dole"
+    ],
+    "distinctive_wikipedia": [
+      "leaves",
+      "red",
+      "young",
+      "fulgens",
+      "plant",
+      "similar",
+      "ground",
+      "species",
+      "mainly",
+      "bright",
+      "green",
+      "despite",
+      "commercial",
+      "shape",
+      "ability"
+    ],
+    "shared_terms": [
+      "acid",
+      "color",
+      "different",
+      "flowers",
+      "fragrance",
+      "oils"
+    ]
+  },
+  "aligned_chunks": [
+    {
+      "britannica_chunk_index": 7,
+      "wikipedia_chunk_index": 1,
+      "similarity": 0.2559,
+      "britannica_excerpt": "Some have looked upon the specific gravity of oils, as a certain criterion of their genunements. This, however, is not to be ablotely depended on ; for the genuine oils, obtained from the fabelj, often- times differ in gravity as much as th",
+      "wikipedia_excerpt": "Leaves of E. fulgens displayed stronger ferrous ion- chelating ability than young leaves of Camellia sinensis. Chlorogenic acid found in leaves of E. fulgens was higher in content than Lonicera japonica (Japanese honeysuckle), the commercia"
+    },
+    {
+      "britannica_chunk_index": 0,
+      "wikipedia_chunk_index": 0,
+      "similarity": 0.2317,
+      "britannica_excerpt": "flower. When in perfection, it is very light and thin; pale, and almost colorules ; of great fragrance, the’ not quite for a belemary idelf. It is recomended, in the dole of a sew drops, in nervous and hyfleric complaints. Borchave holds it",
+      "wikipedia_excerpt": "Etlingera fulgens is a species of herbaceous perennial plant of the family Zingiberaceae. This species occurs in southern Thailand and peninsular Malaysia. E. fulgens is used as an ornamental plant in landscape gardens for its bright red fl"
+    },
+    {
+      "britannica_chunk_index": 9,
+      "wikipedia_chunk_index": 1,
+      "similarity": 0.2198,
+      "britannica_excerpt": "The fuell and taste form to be the only certain tells that the nature of the thing will admit of. If a bark flould have in every refined the appearance of good cinnamon, and flould be proved indispensable to be the genuine bark of the cinna",
+      "wikipedia_excerpt": "Leaves of E. fulgens displayed stronger ferrous ion- chelating ability than young leaves of Camellia sinensis. Chlorogenic acid found in leaves of E. fulgens was higher in content than Lonicera japonica (Japanese honeysuckle), the commercia"
+    }
+  ],
+  "topic_id": 2,
+  "topic_terms": [
+    "water",
+    "acid",
+    "quantity"
+  ],
+  "claims": [
+    {
+      "claim_text": "The Britannica entry \"536 Efential oil of fuerin leaves L E\" uses 518 content tokens while the Wikipedia article \"Etlingera fulgens\" uses 129; their normalized vocabularies share a Jaccard overlap of 0.0117 (raw 0.0116) and a TF-IDF cosine similarity of 0.1476.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1939"
+      ],
+      "britannica_quote": "flower. When in perfection, it is very light and thin; pale, and almost colorules ; of great fragrance, the’ not quite for a belemary idelf. It is recomended, in the dole of a few drops, in nervous and hyfleric complaints. Borchave holds it",
+      "wikipedia_page_id": "26118043",
+      "wikipedia_revision_id": "1064267287",
+      "wikipedia_quote": "Etlingera fulgens is a species of herbaceous perennial plant of the family Zingiberaceae. This species occurs in southern Thailand and peninsular Malaysia. E. fulgens is used as an ornamental plant in landscape gardens for its bright red fl"
+    },
+    {
+      "claim_text": "Britannica's most distinctive term is \"oil\"; Wikipedia's is \"leaves\", showing the era-specific vocabulary of each source.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1939"
+      ],
+      "britannica_quote": "The oil of rue has a very acid tafes, and a gene- trating (well, refreshing the one of the herb, but rather more unpleasant.",
+      "wikipedia_page_id": "26118043",
+      "wikipedia_revision_id": "1064267287",
+      "wikipedia_quote": "fulgens is used as an ornamental plant in landscape gardens for its bright red flowers and young leaves."
+    },
+    {
+      "claim_text": "Both sources share core vocabulary including: acid, color, different, flowers, fragrance.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1939"
+      ],
+      "britannica_quote": "The oil of rue has a very acid tafes, and a gene- trating (well, refreshing the one of the herb, but rather more unpleasant.",
+      "wikipedia_page_id": "26118043",
+      "wikipedia_revision_id": "1064267287",
+      "wikipedia_quote": "Chlorogenic acid found in leaves of E."
+    },
+    {
+      "claim_text": "14 normalization rules fired on the Britannica text (\"colour\" -> \"color\"; \"cafe\" -> \"case\"; \"cafes\" -> \"cases\"); residual vocabulary differences likely reflect era terminology rather than OCR noise alone.",
+      "claim_type": "inference",
+      "label": "[inference]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1939"
+      ],
+      "britannica_quote": "e, of a yellow colour, called _yello",
+      "wikipedia_page_id": "26118043",
+      "wikipedia_revision_id": "1064267287",
+      "wikipedia_quote": "Etlingera fulgens is a species of herbaceous perennial plant of the family Zingiberaceae. This species occurs in southern Thailand and peninsular Malaysia. E. fulgens is used as an ornamental plant in landscape gardens for its bright red fl"
+    }
+  ]
+}

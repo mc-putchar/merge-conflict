@@ -1,0 +1,190 @@
+{
+  "entry_id": "entry-ch-i-671-chi-1649",
+  "britannica_title": "CH I 671 CHI",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1649"
+  ],
+  "britannica_sha256": "0976ecf07bbb634be557361a3c0c4badb1e122861aa35784bda30815e6fd393d",
+  "britannica_raw_chars": 5521,
+  "britannica_tokens": 447,
+  "britannica_unique_tokens": 362,
+  "wikipedia_page_id": "37627410",
+  "wikipedia_revision_id": "1312034258",
+  "wikipedia_title": "Chi-won",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Chi-won",
+  "wikipedia_text_sha256": "7ee1474d61d6c7941dcc7d888804cd590f54ed18cb93a1e20b1505b51d35fc61",
+  "wikipedia_raw_chars": 199,
+  "wikipedia_tokens": 21,
+  "wikipedia_unique_tokens": 17,
+  "length_ratio": 0.036,
+  "text_changes": [
+    {
+      "rule": "archaic_spelling",
+      "original": "honours",
+      "replacement": "honors",
+      "count": 1,
+      "samples": [
+        "with peculiar honours. The manners o"
+      ]
+    },
+    {
+      "rule": "archaic_spelling",
+      "original": "vigour",
+      "replacement": "vigor",
+      "count": 1,
+      "samples": [
+        "dexterity and vigour, are circumsta"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "few",
+      "replacement": "sew",
+      "count": 2,
+      "samples": [
+        "pine and con-a few of war on an c",
+        "th century, we few"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "foon",
+      "replacement": "soon",
+      "count": 1,
+      "samples": [
+        "d them. But as foon as the light o"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "likewife",
+      "replacement": "likewise",
+      "count": 1,
+      "samples": [
+        "he warrior was likewife highly honoura"
+      ]
+    }
+  ],
+  "metrics": {
+    "jaccard_raw": 0.0027,
+    "jaccard_normalized": 0.0026,
+    "cosine_tfidf": 0.0058,
+    "cosine_embedding": -0.0011,
+    "distinctive_britannica": [
+      "among",
+      "influence",
+      "military",
+      "though",
+      "character",
+      "roman",
+      "produce",
+      "particular",
+      "women",
+      "remarkable",
+      "nation",
+      "germany",
+      "war",
+      "manners",
+      "different"
+    ],
+    "distinctive_wikipedia": [
+      "name",
+      "korean",
+      "born",
+      "south",
+      "include",
+      "poet",
+      "executive",
+      "given",
+      "edition",
+      "philosopher",
+      "financier",
+      "chi-won",
+      "britannica",
+      "dynasty",
+      "yoon"
+    ],
+    "shared_terms": [
+      "people"
+    ]
+  },
+  "aligned_chunks": [
+    {
+      "britannica_chunk_index": 6,
+      "wikipedia_chunk_index": 0,
+      "similarity": 0.0791,
+      "britannica_excerpt": "When those actions failed from their defects and the names of the theories in the provinces, the change which took habenam place on their circumstances was remarkably and by either they a natural influence, could not but produce an equally ",
+      "wikipedia_excerpt": "Chi-won is a Korean given name.\n\nPeople with this name include:\n\nCh'oe Ch'iwŏn (fl. 857–924), Korean Silla Dynasty philosopher and poet\n\nChi-Won Yoon (born 1959), South Korean financier and executive"
+    },
+    {
+      "britannica_chunk_index": 0,
+      "wikipedia_chunk_index": 0,
+      "similarity": 0.0495,
+      "britannica_excerpt": "billified themselves in the cultivated provinces of the Chirary, Roman empire is, that their women, contrary to what we and among many other rule nations, were treated with a high degree of refuted. They did not guess 8 rally rise via the m",
+      "wikipedia_excerpt": "Chi-won is a Korean given name.\n\nPeople with this name include:\n\nCh'oe Ch'iwŏn (fl. 857–924), Korean Silla Dynasty philosopher and poet\n\nChi-Won Yoon (born 1959), South Korean financier and executive"
+    },
+    {
+      "britannica_chunk_index": 1,
+      "wikipedia_chunk_index": 0,
+      "similarity": 0.0477,
+      "britannica_excerpt": "s of Spain and the rank which, they occupied among the warkite cantons of Germany. Perhaps indyed, the Germans were fill more honorable than the Spartan woman, as they were taught to weld the magic weapons of imperfection, which life Greece",
+      "wikipedia_excerpt": "Chi-won is a Korean given name.\n\nPeople with this name include:\n\nCh'oe Ch'iwŏn (fl. 857–924), Korean Silla Dynasty philosopher and poet\n\nChi-Won Yoon (born 1959), South Korean financier and executive"
+    }
+  ],
+  "topic_id": 5,
+  "topic_terms": [
+    "every",
+    "people",
+    "upon"
+  ],
+  "claims": [
+    {
+      "claim_text": "The Britannica entry \"CH I 671 CHI\" uses 445 content tokens while the Wikipedia article \"Chi-won\" uses 21; their normalized vocabularies share a Jaccard overlap of 0.0026 (raw 0.0027) and a TF-IDF cosine similarity of 0.0058.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1649"
+      ],
+      "britannica_quote": "billified themselves in the cultivated provinces of the Chirary, Roman empire is, that their women, contrary to what we and among many other rule nations, were treated with a high degree of refuted. They did not guess 8 rally rise via the m",
+      "wikipedia_page_id": "37627410",
+      "wikipedia_revision_id": "1312034258",
+      "wikipedia_quote": "Chi-won is a Korean given name.\n\nPeople with this name include:\n\nCh'oe Ch'iwŏn (fl. 857–924), Korean Silla Dynasty philosopher and poet\n\nChi-Won Yoon (born 1959), South Korean financier and executive"
+    },
+    {
+      "claim_text": "Britannica's most distinctive term is \"among\"; Wikipedia's is \"name\", showing the era-specific vocabulary of each source.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1649"
+      ],
+      "britannica_quote": "billified themselves in the cultivated provinces of the Chirary, Roman empire is, that their women, contrary to what we and among many other rule nations, were treated with a high degree of refuted.",
+      "wikipedia_page_id": "37627410",
+      "wikipedia_revision_id": "1312034258",
+      "wikipedia_quote": "Chi-won is a Korean given name."
+    },
+    {
+      "claim_text": "Both sources share core vocabulary including: people.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1649"
+      ],
+      "britannica_quote": "But as foon as the light of bilbery begins again to dawn, we find that the leading courses of the bahacion character were not affected, but only modified in a particular manner, in consequence of their missing among a more pollid people, be",
+      "wikipedia_page_id": "37627410",
+      "wikipedia_revision_id": "1312034258",
+      "wikipedia_quote": "People with this name include:"
+    },
+    {
+      "claim_text": "5 normalization rules fired on the Britannica text (\"honours\" -> \"honors\"; \"vigour\" -> \"vigor\"; \"few\" -> \"sew\"); residual vocabulary differences likely reflect era terminology rather than OCR noise alone.",
+      "claim_type": "inference",
+      "label": "[inference]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1649"
+      ],
+      "britannica_quote": "with peculiar honours. The manners o",
+      "wikipedia_page_id": "37627410",
+      "wikipedia_revision_id": "1312034258",
+      "wikipedia_quote": "Chi-won is a Korean given name.\n\nPeople with this name include:\n\nCh'oe Ch'iwŏn (fl. 857–924), Korean Silla Dynasty philosopher and poet\n\nChi-Won Yoon (born 1959), South Korean financier and executive"
+    }
+  ]
+}

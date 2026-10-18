@@ -1,0 +1,232 @@
+{
+  "entry_id": "entry-britannica-volume-149981189-row-247-247",
+  "britannica_title": "Britannica Volume 149981189 Row 247",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:247"
+  ],
+  "britannica_sha256": "bc2127c6e3cd18d2533192e6c23fd0c5387de5a341a01f619826f9a7b942004f",
+  "britannica_raw_chars": 7030,
+  "britannica_tokens": 573,
+  "britannica_unique_tokens": 480,
+  "wikipedia_page_id": "78413092",
+  "wikipedia_revision_id": "1351079103",
+  "wikipedia_title": "Editor-in-chief of the Encyclopædia Britannica",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Editor-in-chief_of_the_Encyclop%C3%A6dia_Britannica",
+  "wikipedia_text_sha256": "a88c8e5ba55a69a2c856854b269462f28ae43b532903d36db33baf393e93818b",
+  "wikipedia_raw_chars": 922,
+  "wikipedia_tokens": 76,
+  "wikipedia_unique_tokens": 47,
+  "length_ratio": 0.131,
+  "text_changes": [
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fays",
+      "replacement": "says",
+      "count": 1,
+      "samples": [
+        "(our author fays) it would be d"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fears",
+      "replacement": "sears",
+      "count": 1,
+      "samples": [
+        "as- the burned fears of the mountai"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "few",
+      "replacement": "sew",
+      "count": 2,
+      "samples": [
+        "common in the few days, is no ro",
+        "are ever for a few moments.\n\nThe"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "flight",
+      "replacement": "slight",
+      "count": 1,
+      "samples": [
+        "ould be only a flight explulsion in"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fold",
+      "replacement": "sold",
+      "count": 1,
+      "samples": [
+        "mpelled into a fold body. The thre"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fons",
+      "replacement": "sons",
+      "count": 1,
+      "samples": [
+        "by the esplo- fons of the interna"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "ifles",
+      "replacement": "isles",
+      "count": 2,
+      "samples": [
+        "ound, however, ifles from the brews",
+        "in the figure, ifles from all quart"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "lifted",
+      "replacement": "listed",
+      "count": 1,
+      "samples": [
+        "f smoke, which lifted from a number"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "mafs",
+      "replacement": "mass",
+      "count": 1,
+      "samples": [
+        "to one uniform mafs. This is fonct"
+      ]
+    }
+  ],
+  "metrics": {
+    "jaccard_raw": 0.0115,
+    "jaccard_normalized": 0.0115,
+    "cosine_tfidf": 0.0163,
+    "cosine_embedding": 0.0073,
+    "distinctive_britannica": [
+      "author",
+      "water",
+      "found",
+      "always",
+      "mountain",
+      "north",
+      "crater",
+      "figure",
+      "around",
+      "form",
+      "body",
+      "view",
+      "top",
+      "mountains",
+      "foot"
+    ],
+    "distinctive_wikipedia": [
+      "encyclopedia",
+      "britannica",
+      "published",
+      "since",
+      "encyclop",
+      "dia",
+      "editor-in-chief",
+      "editor",
+      "smellie",
+      "reference",
+      "general",
+      "volumes",
+      "physical",
+      "edition",
+      "jason"
+    ],
+    "shared_terms": [
+      "current",
+      "focus",
+      "later",
+      "principal",
+      "william",
+      "years"
+    ]
+  },
+  "aligned_chunks": [
+    {
+      "britannica_chunk_index": 10,
+      "wikipedia_chunk_index": 1,
+      "similarity": 0.1014,
+      "britannica_excerpt": "The finde which differ from the current of Eta is generally carried in a direction from forth to northy and, as it bring along with it a comfortable quantity of water, the latter, conducted by the cold winds, runs down the tide of the mount",
+      "wikipedia_excerpt": "The Encyclopædia Britannica is an English-language general reference encyclopedia, published since 1768. The Britannica was first published in Edinburgh, Scotland, in three volumes, with printer William Smellie serving as its principal edit"
+    },
+    {
+      "britannica_chunk_index": 2,
+      "wikipedia_chunk_index": 1,
+      "similarity": 0.1,
+      "britannica_excerpt": "the mountain.",
+      "wikipedia_excerpt": "The Encyclopædia Britannica is an English-language general reference encyclopedia, published since 1768. The Britannica was first published in Edinburgh, Scotland, in three volumes, with printer William Smellie serving as its principal edit"
+    },
+    {
+      "britannica_chunk_index": 6,
+      "wikipedia_chunk_index": 1,
+      "similarity": 0.086,
+      "britannica_excerpt": "Hinry for four time time completed the avulla fpec- tudo, our author whiled to matches the water by walk- ing sound it’s hot found this impulble. On the north flee, the farber is hard and, though, she also having been to for diffused by the",
+      "wikipedia_excerpt": "The Encyclopædia Britannica is an English-language general reference encyclopedia, published since 1768. The Britannica was first published in Edinburgh, Scotland, in three volumes, with printer William Smellie serving as its principal edit"
+    }
+  ],
+  "topic_id": 2,
+  "topic_terms": [
+    "water",
+    "acid",
+    "quantity"
+  ],
+  "claims": [
+    {
+      "claim_text": "The Britannica entry \"Britannica Volume 149981189 Row 247\" uses 571 content tokens while the Wikipedia article \"Editor-in-chief of the Encyclopædia Britannica\" uses 76; their normalized vocabularies share a Jaccard overlap of 0.0115 (raw 0.0115) and a TF-IDF cosine similarity of 0.0163.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:247"
+      ],
+      "britannica_quote": "(our author fays) it would be difficult to make people, who have never engaged in this enterprise, company hend all the oblidies they had to encounter. This cone (the little mountain mentioned by Sir William Flamman) is composed of the very",
+      "wikipedia_page_id": "78413092",
+      "wikipedia_revision_id": "1351079103",
+      "wikipedia_quote": "The editor-in-chief of the Encyclopædia Britannica serves as the editorial leader of the Encyclopædia Britannica, a general reference encyclopedia published since 1768. Since 2012, the encyclopedia is published exclusively on the internet, "
+    },
+    {
+      "claim_text": "Britannica's most distinctive term is \"author\"; Wikipedia's is \"encyclopedia\", showing the era-specific vocabulary of each source.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:247"
+      ],
+      "britannica_quote": "(our author fays) it would be difficult to make people, who have never engaged in this enterprise, company hend all the oblidies they had to encounter.",
+      "wikipedia_page_id": "78413092",
+      "wikipedia_revision_id": "1351079103",
+      "wikipedia_quote": "The editor-in-chief of the Encyclopædia Britannica serves as the editorial leader of the Encyclopædia Britannica, a general reference encyclopedia published since 1768."
+    },
+    {
+      "claim_text": "Both sources share core vocabulary including: current, focus, later, principal, william.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:247"
+      ],
+      "britannica_quote": "The finde which differ from the current of Eta is generally carried in a direction from forth to northy and, as it bring along with it a comfortable quantity of water, the latter, conducted by the cold winds, runs down the tide of the mount",
+      "wikipedia_page_id": "78413092",
+      "wikipedia_revision_id": "1351079103",
+      "wikipedia_quote": "The first editor-in-chief of the Britannica was Scotsman William Smellie, and the current holder of the office is Jason Tuohey."
+    },
+    {
+      "claim_text": "9 normalization rules fired on the Britannica text (\"fays\" -> \"says\"; \"fears\" -> \"sears\"; \"few\" -> \"sew\"); residual vocabulary differences likely reflect era terminology rather than OCR noise alone.",
+      "claim_type": "inference",
+      "label": "[inference]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:247"
+      ],
+      "britannica_quote": "(our author fays) it would be d",
+      "wikipedia_page_id": "78413092",
+      "wikipedia_revision_id": "1351079103",
+      "wikipedia_quote": "The editor-in-chief of the Encyclopædia Britannica serves as the editorial leader of the Encyclopædia Britannica, a general reference encyclopedia published since 1768. Since 2012, the encyclopedia is published exclusively on the internet, "
+    }
+  ]
+}

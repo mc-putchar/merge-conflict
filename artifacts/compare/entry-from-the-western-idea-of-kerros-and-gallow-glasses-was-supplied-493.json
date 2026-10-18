@@ -1,0 +1,164 @@
+{
+  "entry_id": "entry-from-the-western-idea-of-kerros-and-gallow-glasses-was-supplied-493",
+  "britannica_title": "From the Western idea Of Kerros and Gallow glasses was supplied",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:493"
+  ],
+  "britannica_sha256": "b84f1f65a31262abce69bae24d00ae7a28503e8d1cd41310ae159f4a2b78f531",
+  "britannica_raw_chars": 5886,
+  "britannica_tokens": 489,
+  "britannica_unique_tokens": 411,
+  "wikipedia_page_id": "42636280",
+  "wikipedia_revision_id": "1344398056",
+  "wikipedia_title": "Will Gallows and the Snake-Bellied Troll",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Will_Gallows_and_the_Snake-Bellied_Troll",
+  "wikipedia_text_sha256": "28afa93b1480c93d27612ec4c06513efaf339a2e29cef5f30c51c5bd01fdc982",
+  "wikipedia_raw_chars": 2159,
+  "wikipedia_tokens": 193,
+  "wikipedia_unique_tokens": 143,
+  "length_ratio": 0.367,
+  "text_changes": [
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fold",
+      "replacement": "sold",
+      "count": 1,
+      "samples": [
+        "ds and non-sig fold. Much flag is"
+      ]
+    }
+  ],
+  "metrics": {
+    "jaccard_raw": 0.0221,
+    "jaccard_normalized": 0.0221,
+    "cosine_tfidf": 0.0413,
+    "cosine_embedding": 0.14,
+    "distinctive_britannica": [
+      "island",
+      "east",
+      "side",
+      "river",
+      "great",
+      "south",
+      "children",
+      "man",
+      "small",
+      "country",
+      "made",
+      "several",
+      "chief",
+      "trade",
+      "miles"
+    ],
+    "distinctive_wikipedia": [
+      "book",
+      "gallows",
+      "troll",
+      "series",
+      "richard",
+      "film",
+      "snake",
+      "illustrated",
+      "praised",
+      "bellied",
+      "sky",
+      "fantasy",
+      "particularly",
+      "blood",
+      "followed"
+    ],
+    "shared_terms": [
+      "bring",
+      "northern",
+      "part",
+      "rock",
+      "secret",
+      "set",
+      "takes",
+      "west",
+      "western",
+      "whole",
+      "year",
+      "young"
+    ]
+  },
+  "aligned_chunks": [
+    {
+      "britannica_chunk_index": 3,
+      "wikipedia_chunk_index": 1,
+      "similarity": 0.1354,
+      "britannica_excerpt": "HEL, Levy _For Eddy_, one of the chief of the Hebrides or Western sides of Scotland, lying to the west of Junu, from which it is separated by a narrow channel. Textbooks a miles in length from north to south, and at 18 in breadth from east ",
+      "wikipedia_excerpt": "Will Gallows, a young elfling sky cowboy, rides out on a perilous quest to bring the evil snake-bellied troll bandit, Noose Wormworx, to justice. Noose is wanted for the murder of Will's pa - the former deputy sheriff of Oretown.Will's jour"
+    },
+    {
+      "britannica_chunk_index": 10,
+      "wikipedia_chunk_index": 1,
+      "similarity": 0.1332,
+      "britannica_excerpt": ". Numbers of cattle are bred here, and about 1700 are annually exported as the",
+      "wikipedia_excerpt": "Will Gallows, a young elfling sky cowboy, rides out on a perilous quest to bring the evil snake-bellied troll bandit, Noose Wormworx, to justice. Noose is wanted for the murder of Will's pa - the former deputy sheriff of Oretown.Will's jour"
+    },
+    {
+      "britannica_chunk_index": 7,
+      "wikipedia_chunk_index": 1,
+      "similarity": 0.1193,
+      "britannica_excerpt": "ed ground of base. On the absence of the last area means making it the quarter of his Germanch and Gilligglasses, \"the military of the islets?\" the first signifying a strong man, the last a primeholding fellow the first were lightarmed, and",
+      "wikipedia_excerpt": "Will Gallows, a young elfling sky cowboy, rides out on a perilous quest to bring the evil snake-bellied troll bandit, Noose Wormworx, to justice. Noose is wanted for the murder of Will's pa - the former deputy sheriff of Oretown.Will's jour"
+    }
+  ],
+  "topic_id": 7,
+  "topic_terms": [
+    "see",
+    "upon",
+    "great"
+  ],
+  "claims": [
+    {
+      "claim_text": "The Britannica entry \"From the Western idea Of Kerros and Gallow glasses was supplied\" uses 489 content tokens while the Wikipedia article \"Will Gallows and the Snake-Bellied Troll\" uses 193; their normalized vocabularies share a Jaccard overlap of 0.0221 (raw 0.0221) and a TF-IDF cosine similarity of 0.0413.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:493"
+      ],
+      "britannica_quote": "JILLIEFREE, a town on the northern bank of the river Cambia, opposite to James’s island, where the English had formerly a small part. The kingdom of Barrs, in which it is situated, produces abundance of the necessities of life; but the chie",
+      "wikipedia_page_id": "42636280",
+      "wikipedia_revision_id": "1344398056",
+      "wikipedia_quote": "Will Gallows and the Snake-Bellied Troll is a 2011 fantasy/western children's book by Northern Irish author Derek Keilty and the first book in the ongoing Will Gallows series. The book is illustrated by Jonny Duddle, who also illustrated th"
+    },
+    {
+      "claim_text": "Britannica's most distinctive term is \"island\"; Wikipedia's is \"book\", showing the era-specific vocabulary of each source.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:493"
+      ],
+      "britannica_quote": "JILLIEFREE, a town on the northern bank of the river Cambia, opposite to James’s island, where the English had formerly a small part.",
+      "wikipedia_page_id": "42636280",
+      "wikipedia_revision_id": "1344398056",
+      "wikipedia_quote": "Will Gallows and the Snake-Bellied Troll is a 2011 fantasy/western children's book by Northern Irish author Derek Keilty and the first book in the ongoing Will Gallows series."
+    },
+    {
+      "claim_text": "Both sources share core vocabulary including: bring, northern, part, rock, secret.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:493"
+      ],
+      "britannica_quote": "The kingdom of Barrs, in which it is situated, produces abundance of the necessities of life; but the chief trade of the inhabitants in salt, which they carry up the river in mossy and, in recent bring them Italian corn, cotton-colby, eleph",
+      "wikipedia_page_id": "42636280",
+      "wikipedia_revision_id": "1344398056",
+      "wikipedia_quote": "Will Gallows, a young elfling sky cowboy, rides out on a perilous quest to bring the evil snake-bellied troll bandit, Noose Wormworx, to justice."
+    },
+    {
+      "claim_text": "1 normalization rules fired on the Britannica text (\"fold\" -> \"sold\"); residual vocabulary differences likely reflect era terminology rather than OCR noise alone.",
+      "claim_type": "inference",
+      "label": "[inference]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:493"
+      ],
+      "britannica_quote": "ds and non-sig fold. Much flag is",
+      "wikipedia_page_id": "42636280",
+      "wikipedia_revision_id": "1344398056",
+      "wikipedia_quote": "Will Gallows and the Snake-Bellied Troll is a 2011 fantasy/western children's book by Northern Irish author Derek Keilty and the first book in the ongoing Will Gallows series. The book is illustrated by Jonny Duddle, who also illustrated th"
+    }
+  ]
+}

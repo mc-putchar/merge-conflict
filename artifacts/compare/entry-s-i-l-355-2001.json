@@ -1,0 +1,200 @@
+{
+  "entry_id": "entry-s-i-l-355-2001",
+  "britannica_title": "S I L  355",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2001"
+  ],
+  "britannica_sha256": "6bf3d80ff7f3ad5f3eeb0f0b1c141fa2c146d369ace593b62f32fb15d1c15ffd",
+  "britannica_raw_chars": 6745,
+  "britannica_tokens": 566,
+  "britannica_unique_tokens": 494,
+  "wikipedia_page_id": "69404141",
+  "wikipedia_revision_id": "1271355581",
+  "wikipedia_title": "Krautinsel",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Krautinsel",
+  "wikipedia_text_sha256": "9ca738f7d21771d9361b9ab74ee436de9d4157c5d9852b6150353fa59bee98ef",
+  "wikipedia_raw_chars": 1480,
+  "wikipedia_tokens": 129,
+  "wikipedia_unique_tokens": 94,
+  "length_ratio": 0.219,
+  "text_changes": [
+    {
+      "rule": "archaic_spelling",
+      "original": "favour",
+      "replacement": "favor",
+      "count": 1,
+      "samples": [
+        "f the world in favour of the Romanes"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fale",
+      "replacement": "sale",
+      "count": 1,
+      "samples": [
+        "nd Hungary for fale, thofe bred in"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fam",
+      "replacement": "sam",
+      "count": 1,
+      "samples": [
+        "hich, when the fam exceeds 200 ri"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "feat",
+      "replacement": "seat",
+      "count": 1,
+      "samples": [
+        "ments from the feat of the living."
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "few",
+      "replacement": "sew",
+      "count": 1,
+      "samples": [
+        "fine case, and few which, when th"
+      ]
+    }
+  ],
+  "metrics": {
+    "jaccard_raw": 0.0209,
+    "jaccard_normalized": 0.0208,
+    "cosine_tfidf": 0.0435,
+    "cosine_embedding": 0.1226,
+    "distinctive_britannica": [
+      "country",
+      "king",
+      "part",
+      "lies",
+      "generally",
+      "poland",
+      "see",
+      "inhabitants",
+      "upper",
+      "derived",
+      "several",
+      "provided",
+      "regard",
+      "dead",
+      "immediately"
+    ],
+    "distinctive_wikipedia": [
+      "island",
+      "middle",
+      "area",
+      "chiemsee",
+      "space",
+      "islands",
+      "herb",
+      "made",
+      "stone",
+      "ages",
+      "district",
+      "vegetables",
+      "meters",
+      "received",
+      "west"
+    ],
+    "shared_terms": [
+      "among",
+      "belong",
+      "brought",
+      "cattle",
+      "flat",
+      "found",
+      "herbs",
+      "like",
+      "made",
+      "name",
+      "small",
+      "time"
+    ]
+  },
+  "aligned_chunks": [
+    {
+      "britannica_chunk_index": 0,
+      "wikipedia_chunk_index": 1,
+      "similarity": 0.1823,
+      "britannica_excerpt": "bers of black cattle and herbs are brought bitter from Poland and Hungary for sale, thofe bred in the country not being sufficient; but of theory, goats, arms, and vention, they have great plenty. As in wild deaths, here are lyxes, foxes, w",
+      "wikipedia_excerpt": "Two nameless small islands 54 and 80 meters south of the herb island form its southern foothills. They are connected to one another by a gravel bank. They each have only a few square meters of space and only offer space for one tree or shru"
+    },
+    {
+      "britannica_chunk_index": 7,
+      "wikipedia_chunk_index": 2,
+      "similarity": 0.1348,
+      "britannica_excerpt": "SILLESIAN EARTH, in the _Materia Medice_, a fine affungent bole. It is very heavy, of a firm compel tantras, and in colors of the brownie yellow. It breaks early between the fingers, and does not flash the hands; is naturally a smooth befor",
+      "wikipedia_excerpt": "Traces of Neolithic settlement were found on the herb island for the first time in 1930. Follow-up examinations from 1993 onwards also brought stone tools from the Paleolithic to light. Among the finds are knives, blades and arrowheads made"
+    },
+    {
+      "britannica_chunk_index": 3,
+      "wikipedia_chunk_index": 1,
+      "similarity": 0.1269,
+      "britannica_excerpt": "nd thus it continued in the payoffline of the house of Austria, until bloody of Praffin in 742, taking advantage of the troubles that refined upon the death of the emperor Charlie VI, and precluding a kind of chains, worked is great part of",
+      "wikipedia_excerpt": "Two nameless small islands 54 and 80 meters south of the herb island form its southern foothills. They are connected to one another by a gravel bank. They each have only a few square meters of space and only offer space for one tree or shru"
+    }
+  ],
+  "topic_id": 7,
+  "topic_terms": [
+    "see",
+    "upon",
+    "great"
+  ],
+  "claims": [
+    {
+      "claim_text": "The Britannica entry \"S I L  355\" uses 565 content tokens while the Wikipedia article \"Krautinsel\" uses 129; their normalized vocabularies share a Jaccard overlap of 0.0208 (raw 0.0209) and a TF-IDF cosine similarity of 0.0435.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2001"
+      ],
+      "britannica_quote": "bers of black cattle and herbs are brought bitter from Poland and Hungary for fale, thofe bred in the country not being sufficient; but of theory, goats, arms, and vention, they have great plenty. As in wild deaths, here are lyxes, foxes, w",
+      "wikipedia_page_id": "69404141",
+      "wikipedia_revision_id": "1271355581",
+      "wikipedia_quote": "Krautinsel is an island located in Chiemsee lake. With an area of 3.5 hectares, it is the smallest of the three islands in the Chiemsee (apart from the tiny artificial island of Schalch west of Frauenchiemsee, aka Fraueninsel). The island r"
+    },
+    {
+      "claim_text": "Britannica's most distinctive term is \"country\"; Wikipedia's is \"island\", showing the era-specific vocabulary of each source.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2001"
+      ],
+      "britannica_quote": "bers of black cattle and herbs are brought bitter from Poland and Hungary for fale, thofe bred in the country not being sufficient; but of theory, goats, arms, and vention, they have great plenty.",
+      "wikipedia_page_id": "69404141",
+      "wikipedia_revision_id": "1271355581",
+      "wikipedia_quote": "Krautinsel is an island located in Chiemsee lake."
+    },
+    {
+      "claim_text": "Both sources share core vocabulary including: among, belong, brought, cattle, flat.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2001"
+      ],
+      "britannica_quote": "SILICERNIUM, among the Romanus was a fault of a private nature, provided for the Great line time after the funeral.",
+      "wikipedia_page_id": "69404141",
+      "wikipedia_revision_id": "1271355581",
+      "wikipedia_quote": "Among the finds are knives, blades and arrowheads made of flint, flat hatchets made of stone and a flat hatchet made of copper."
+    },
+    {
+      "claim_text": "5 normalization rules fired on the Britannica text (\"favour\" -> \"favor\"; \"fale\" -> \"sale\"; \"fam\" -> \"sam\"); residual vocabulary differences likely reflect era terminology rather than OCR noise alone.",
+      "claim_type": "inference",
+      "label": "[inference]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2001"
+      ],
+      "britannica_quote": "f the world in favour of the Romanes",
+      "wikipedia_page_id": "69404141",
+      "wikipedia_revision_id": "1271355581",
+      "wikipedia_quote": "Krautinsel is an island located in Chiemsee lake. With an area of 3.5 hectares, it is the smallest of the three islands in the Chiemsee (apart from the tiny artificial island of Schalch west of Frauenchiemsee, aka Fraueninsel). The island r"
+    }
+  ]
+}

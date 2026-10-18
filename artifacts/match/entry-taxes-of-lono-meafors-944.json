@@ -4,21 +4,69 @@
   "source_pages": [
     "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:944"
   ],
-  "matched": true,
-  "status": "accepted_bm25_only",
+  "matched": false,
+  "status": "rejected_threshold",
   "selected_candidate": {
-    "page_id": "96310",
-    "revision_id": "1334647387",
-    "title": "Lono",
-    "url": "https://en.wikipedia.org/wiki/Lono",
-    "bm25_score": 26.02193832397461,
-    "excerpt": "In Hawaiian religion, the god Lono is associated with fertility, agriculture, rainfall, music and peace. In one of the many Hawaiian stories of Lono, he is a fertility and music god who descended to Earth on a rainbow to marry Laka. In agricultural and planting traditions, Lono was identified with rain and food plants. He was one of the four gods (with Kū, Kāne, and Kāne's twin brother Kanaloa) who existed before the world was created. Lono was also the god of peace. In his honor, the great annual festival of the Makahiki was held. During this period (from October through February), war and unnecessary work was kapu (taboo).\n\nIn Hawaiian weather terminology, the winter Kona storms that bring rain to leeward areas are associated with Lono. Lono brings on the rains and dispenses fertility, and as such was sometimes referred to as Lono-makua (Lono the Provider). Ceremonies went through a monthly and yearly cycle. For 8 months of the year, the luakini (temple) was dedicated to Ku-with strict kapus. Four periods (kapu pule) each month required strict ceremonies. Violators could have their property seized by priests or overlord chiefs, or be sentenced to death for serious breaches.\n\nTher",
-    "stage1_score": null,
-    "multimodal_score": null,
+    "page_id": "37520159",
+    "revision_id": "1306750298",
+    "title": "Lewat Tengah Malam",
+    "url": "https://en.wikipedia.org/wiki/Lewat_Tengah_Malam",
+    "bm25_score": 21.37531089782715,
+    "excerpt": "Lewat Tengah Malam (literally Past Midnight) is a 1971 Indonesian film and the first feature-length production by director Sjumandjaja. Starring Rachmat Hidayat, Rima Melati, and Soekarno M. Noer, it follows a thief named Lono who steals from the corrupt to give to the poor. The film, which may have been influenced by The Thomas Crown Affair (1968), was reportedly very tiring for the director, who briefly considered never directing again. The social realist elements led to Suharto 's New Order government keeping Sjumandjaja under surveillance.\n\nLono (Rachmat Hidayat) is a former revolutionary soldier who has become a criminal, recognised by the Alfa Romeo -produced car he drives. He robs the rich, corrupt government officials and gives the money to the poor, leaving a black glove at the scene of his crimes as a calling card. His elder brother Djoko (Soekarno M. Noer), however, is a police officer tasked with stopping Lono.\n\nIn his crimes Lono is supported by Sukma (Rima Melati), a law student whose father has been crippled in a staged hit-and-run accident for his work as an anti-corruption activist. As she falls in love with Lono, Sukma discovers his background and becomes increasi",
+    "stage1_score": -5.132809162139893,
+    "multimodal_score": -4.716973781585693,
     "is_disambiguation": false,
     "source_query": "Taxes of Lono Meafors"
   },
   "all_candidates": [
+    {
+      "page_id": "37520159",
+      "revision_id": "1306750298",
+      "title": "Lewat Tengah Malam",
+      "url": "https://en.wikipedia.org/wiki/Lewat_Tengah_Malam",
+      "bm25_score": 21.37531089782715,
+      "excerpt": "Lewat Tengah Malam (literally Past Midnight) is a 1971 Indonesian film and the first feature-length production by director Sjumandjaja. Starring Rachmat Hidayat, Rima Melati, and Soekarno M. Noer, it follows a thief named Lono who steals from the corrupt to give to the poor. The film, which may have been influenced by The Thomas Crown Affair (1968), was reportedly very tiring for the director, who briefly considered never directing again. The social realist elements led to Suharto 's New Order government keeping Sjumandjaja under surveillance.\n\nLono (Rachmat Hidayat) is a former revolutionary soldier who has become a criminal, recognised by the Alfa Romeo -produced car he drives. He robs the rich, corrupt government officials and gives the money to the poor, leaving a black glove at the scene of his crimes as a calling card. His elder brother Djoko (Soekarno M. Noer), however, is a police officer tasked with stopping Lono.\n\nIn his crimes Lono is supported by Sukma (Rima Melati), a law student whose father has been crippled in a staged hit-and-run accident for his work as an anti-corruption activist. As she falls in love with Lono, Sukma discovers his background and becomes increasi",
+      "stage1_score": -5.132809162139893,
+      "multimodal_score": -4.716973781585693,
+      "is_disambiguation": false,
+      "source_query": "Taxes of Lono Meafors"
+    },
+    {
+      "page_id": "61021285",
+      "revision_id": "1351982889",
+      "title": "Curse of Lono",
+      "url": "https://en.wikipedia.org/wiki/Curse_of_Lono",
+      "bm25_score": 20.82654571533203,
+      "excerpt": "Curse of Lono is an English alternative rock band based in London and signed to Submarine Cat Records. They have released one EP and two studio albums. Their most recent album, As I Fell, peaked at number 10 on the Official Americana Albums Chart and at number 15 on the Official Independent Album Breakers Chart in the U.K. The band has also been the subject of two short films, Saturday Night: A Film Of Four Songs and Somewhere In Their Heads, both of which have won awards and appeared at numerous film festivals.\n\nAfter the dissolution of their band, Hey Negrita, Felix Bechtolsheimer (lead vocals and guitar) and Neil Findlay (drums) formed Curse of Lono in 2015. The band's name comes from the title of Hunter S. Thompson 's 1983 book, The Curse of Lono. Bechtolsheimer and Findlay soon added Joe Hazell (lead guitar), Dani Ruiz Hernandez (keyboards), and Charis Anderson (bass - ex Poussez Posse) to round out the group. They released their debut eponymous EP in October 2016 through Submarine Cat Records. The collection was produced by Oli Bayston. In support of the EP, the band went on a European tour with Uncle Lucius. Interconnected music videos for the EP's four songs were compiled i",
+      "stage1_score": -4.6237335205078125,
+      "multimodal_score": -4.741605758666992,
+      "is_disambiguation": false,
+      "source_query": "Taxes of Lono Meafors"
+    },
+    {
+      "page_id": "4499472",
+      "revision_id": "1303369992",
+      "title": "The Curse of Lono",
+      "url": "https://en.wikipedia.org/wiki/The_Curse_of_Lono",
+      "bm25_score": 21.532764434814453,
+      "excerpt": "The Curse of Lono is a book by Hunter S. Thompson describing his experiences in Hawaii in 1980. Originally published in 1983, the book was only in print for a short while. In 2005 it was re-released as a limited edition. Only 1000 copies were produced, each one being signed by the author and artist Ralph Steadman. The book is now available as a smaller hardcover edition.\n\nHunter S. Thompson receives a letter from the editor of Running magazine, asking him to cover the 1980 Honolulu Marathon, which the editor says should be \"a good chance for a vacation\". Thompson asks the illustrator Ralph Steadman to accompany him. On the flight over, he meets a man named Ackerman, who seems to have connections to the drug trade in Hawaii. Thompson covers the marathon with his characteristic gonzo style, weaving his own experiences into the coverage of the story. After the marathon, Thompson along with Steadman and his family move to a rented beach side compound on Hawaii's Kona coast. The weather is miserable and they are trapped indoors, besieged by huge waves. Steadman and his family, upset about the terrible conditions of their vacation, return to England. Later, Thompson reunites with Ackerma",
+      "stage1_score": -4.853180885314941,
+      "multimodal_score": -5.290829181671143,
+      "is_disambiguation": false,
+      "source_query": "Taxes of Lono Meafors"
+    },
+    {
+      "page_id": "34707106",
+      "revision_id": "1184388864",
+      "title": "Lono-a-Piʻilani",
+      "url": "https://en.wikipedia.org/wiki/Lono-a-Pi%CA%BBilani",
+      "bm25_score": 22.205717086791992,
+      "excerpt": "Lono-a-Piʻilani was Aliʻi of Maui. He was a chief of that Hawaiian island and was named after god Lono.\n\nLono was a son of the King Piʻilani and grandson of Kawaokaohele.\n\nHe was a brother of Kiha-a-Pi ʻ ilani and Piʻikea and uncle of the chief Kumalae, ruler of Hilo.\n\nShortly after Piʻilani died, Lono succeeded him. When Kiha had to flee from Maui, he sought refuge with his sister Pi ʻ ikea, wife of ʻUmi-a-Liloa, king of Hawaiʻi, at the court of ʻUmi. Here his sister advocated his cause so warmly, and insisted with ʻUmi so urgently, that the latter was induced to espouse the cause of the younger brother against the older, and prepared an expedition to invade Maui, depose Lono, and raise Kiha-a-Pi ʻ ilani to the throne of his father. ʻUmi summoned the chiefs of the various districts of Hawaii to prepare for the invasion of Maui. When all the preparations were ready, ʻUmi headed the expedition in person, accompanied by his wife, Piikea, and her brother and by his bravest warriors. Crossing the waters of ʻAlenuihāhā Channel between Maui and Hawai ʻ i island, the fleet of ʻUmi effected a landing at Kapueokahi, the harbour of Hāna, Maui, where Lono have continued to reside after Piilan",
+      "stage1_score": -5.173036098480225,
+      "multimodal_score": null,
+      "is_disambiguation": false,
+      "source_query": "Taxes of Lono Meafors"
+    },
     {
       "page_id": "96310",
       "revision_id": "1334647387",
@@ -26,7 +74,7 @@
       "url": "https://en.wikipedia.org/wiki/Lono",
       "bm25_score": 26.02193832397461,
       "excerpt": "In Hawaiian religion, the god Lono is associated with fertility, agriculture, rainfall, music and peace. In one of the many Hawaiian stories of Lono, he is a fertility and music god who descended to Earth on a rainbow to marry Laka. In agricultural and planting traditions, Lono was identified with rain and food plants. He was one of the four gods (with Kū, Kāne, and Kāne's twin brother Kanaloa) who existed before the world was created. Lono was also the god of peace. In his honor, the great annual festival of the Makahiki was held. During this period (from October through February), war and unnecessary work was kapu (taboo).\n\nIn Hawaiian weather terminology, the winter Kona storms that bring rain to leeward areas are associated with Lono. Lono brings on the rains and dispenses fertility, and as such was sometimes referred to as Lono-makua (Lono the Provider). Ceremonies went through a monthly and yearly cycle. For 8 months of the year, the luakini (temple) was dedicated to Ku-with strict kapus. Four periods (kapu pule) each month required strict ceremonies. Violators could have their property seized by priests or overlord chiefs, or be sentenced to death for serious breaches.\n\nTher",
-      "stage1_score": null,
+      "stage1_score": -5.231684684753418,
       "multimodal_score": null,
       "is_disambiguation": false,
       "source_query": "Taxes of Lono Meafors"
@@ -38,67 +86,7 @@
       "url": "https://en.wikipedia.org/wiki/Makahiki",
       "bm25_score": 25.345218658447266,
       "excerpt": "The Makahiki season is the ancient Hawaiian New Year festival, in honor of the god Lono of the Hawaiian religion.\n\nIt lasts four consecutive lunar months, approximately from October/November through February/March. It is a time for men, women and chiefs to rest, strengthen the body, and have feasts of commemoration (ʻahaʻaina hoʻomanaʻo). During Makahiki labor was prohibited and days were marked for resting and feasting. The Hawaiians gave thanks to the god Lono-ika-makahiki for his care. He brought life, blessings, peace and victory to the land. They also prayed for the death of their enemies. Makaʻainana (commoners) prayed that lands of their aliʻi (chief) may be increased, and that their own physical health along with the health of their chiefs be at their fullest.\n\nIn antiquity, many religious ceremonies occurred during this festival period. Commoners stopped work, made offerings to the chief or ali ʻ i, and then spent their time practicing sports, feasting, dancing, and renewing communal bonds. During the Makahiki season warfare was forbidden which was used as \"a ritually inscribed means to assure that nothing would adversely affect the new crops\".\n\nToday, the Aloha Festivals ",
-      "stage1_score": null,
-      "multimodal_score": null,
-      "is_disambiguation": false,
-      "source_query": "Taxes of Lono Meafors"
-    },
-    {
-      "page_id": "34707106",
-      "revision_id": "1184388864",
-      "title": "Lono-a-Piʻilani",
-      "url": "https://en.wikipedia.org/wiki/Lono-a-Pi%CA%BBilani",
-      "bm25_score": 22.205717086791992,
-      "excerpt": "Lono-a-Piʻilani was Aliʻi of Maui. He was a chief of that Hawaiian island and was named after god Lono.\n\nLono was a son of the King Piʻilani and grandson of Kawaokaohele.\n\nHe was a brother of Kiha-a-Pi ʻ ilani and Piʻikea and uncle of the chief Kumalae, ruler of Hilo.\n\nShortly after Piʻilani died, Lono succeeded him. When Kiha had to flee from Maui, he sought refuge with his sister Pi ʻ ikea, wife of ʻUmi-a-Liloa, king of Hawaiʻi, at the court of ʻUmi. Here his sister advocated his cause so warmly, and insisted with ʻUmi so urgently, that the latter was induced to espouse the cause of the younger brother against the older, and prepared an expedition to invade Maui, depose Lono, and raise Kiha-a-Pi ʻ ilani to the throne of his father. ʻUmi summoned the chiefs of the various districts of Hawaii to prepare for the invasion of Maui. When all the preparations were ready, ʻUmi headed the expedition in person, accompanied by his wife, Piikea, and her brother and by his bravest warriors. Crossing the waters of ʻAlenuihāhā Channel between Maui and Hawai ʻ i island, the fleet of ʻUmi effected a landing at Kapueokahi, the harbour of Hāna, Maui, where Lono have continued to reside after Piilan",
-      "stage1_score": null,
-      "multimodal_score": null,
-      "is_disambiguation": false,
-      "source_query": "Taxes of Lono Meafors"
-    },
-    {
-      "page_id": "4499472",
-      "revision_id": "1303369992",
-      "title": "The Curse of Lono",
-      "url": "https://en.wikipedia.org/wiki/The_Curse_of_Lono",
-      "bm25_score": 21.532764434814453,
-      "excerpt": "The Curse of Lono is a book by Hunter S. Thompson describing his experiences in Hawaii in 1980. Originally published in 1983, the book was only in print for a short while. In 2005 it was re-released as a limited edition. Only 1000 copies were produced, each one being signed by the author and artist Ralph Steadman. The book is now available as a smaller hardcover edition.\n\nHunter S. Thompson receives a letter from the editor of Running magazine, asking him to cover the 1980 Honolulu Marathon, which the editor says should be \"a good chance for a vacation\". Thompson asks the illustrator Ralph Steadman to accompany him. On the flight over, he meets a man named Ackerman, who seems to have connections to the drug trade in Hawaii. Thompson covers the marathon with his characteristic gonzo style, weaving his own experiences into the coverage of the story. After the marathon, Thompson along with Steadman and his family move to a rented beach side compound on Hawaii's Kona coast. The weather is miserable and they are trapped indoors, besieged by huge waves. Steadman and his family, upset about the terrible conditions of their vacation, return to England. Later, Thompson reunites with Ackerma",
-      "stage1_score": null,
-      "multimodal_score": null,
-      "is_disambiguation": false,
-      "source_query": "Taxes of Lono Meafors"
-    },
-    {
-      "page_id": "37520159",
-      "revision_id": "1306750298",
-      "title": "Lewat Tengah Malam",
-      "url": "https://en.wikipedia.org/wiki/Lewat_Tengah_Malam",
-      "bm25_score": 21.37531089782715,
-      "excerpt": "Lewat Tengah Malam (literally Past Midnight) is a 1971 Indonesian film and the first feature-length production by director Sjumandjaja. Starring Rachmat Hidayat, Rima Melati, and Soekarno M. Noer, it follows a thief named Lono who steals from the corrupt to give to the poor. The film, which may have been influenced by The Thomas Crown Affair (1968), was reportedly very tiring for the director, who briefly considered never directing again. The social realist elements led to Suharto 's New Order government keeping Sjumandjaja under surveillance.\n\nLono (Rachmat Hidayat) is a former revolutionary soldier who has become a criminal, recognised by the Alfa Romeo -produced car he drives. He robs the rich, corrupt government officials and gives the money to the poor, leaving a black glove at the scene of his crimes as a calling card. His elder brother Djoko (Soekarno M. Noer), however, is a police officer tasked with stopping Lono.\n\nIn his crimes Lono is supported by Sukma (Rima Melati), a law student whose father has been crippled in a staged hit-and-run accident for his work as an anti-corruption activist. As she falls in love with Lono, Sukma discovers his background and becomes increasi",
-      "stage1_score": null,
-      "multimodal_score": null,
-      "is_disambiguation": false,
-      "source_query": "Taxes of Lono Meafors"
-    },
-    {
-      "page_id": "61021285",
-      "revision_id": "1351982889",
-      "title": "Curse of Lono",
-      "url": "https://en.wikipedia.org/wiki/Curse_of_Lono",
-      "bm25_score": 20.82654571533203,
-      "excerpt": "Curse of Lono is an English alternative rock band based in London and signed to Submarine Cat Records. They have released one EP and two studio albums. Their most recent album, As I Fell, peaked at number 10 on the Official Americana Albums Chart and at number 15 on the Official Independent Album Breakers Chart in the U.K. The band has also been the subject of two short films, Saturday Night: A Film Of Four Songs and Somewhere In Their Heads, both of which have won awards and appeared at numerous film festivals.\n\nAfter the dissolution of their band, Hey Negrita, Felix Bechtolsheimer (lead vocals and guitar) and Neil Findlay (drums) formed Curse of Lono in 2015. The band's name comes from the title of Hunter S. Thompson 's 1983 book, The Curse of Lono. Bechtolsheimer and Findlay soon added Joe Hazell (lead guitar), Dani Ruiz Hernandez (keyboards), and Charis Anderson (bass - ex Poussez Posse) to round out the group. They released their debut eponymous EP in October 2016 through Submarine Cat Records. The collection was produced by Oli Bayston. In support of the EP, the band went on a European tour with Uncle Lucius. Interconnected music videos for the EP's four songs were compiled i",
-      "stage1_score": null,
-      "multimodal_score": null,
-      "is_disambiguation": false,
-      "source_query": "Taxes of Lono Meafors"
-    },
-    {
-      "page_id": "47251798",
-      "revision_id": "1185290104",
-      "title": "Piʻikea",
-      "url": "https://en.wikipedia.org/wiki/Pi%CA%BBikea",
-      "bm25_score": 20.74541664123535,
-      "excerpt": "Piʻikea (Hawaiian: piʻi = \"to ascend\", ke = \"the\", ea = \"life\"; \"the life ascends\") was a High Chiefess. She was a daughter of Piʻilani and Chiefess La’ieloheloheikawai and sister of Lono-a-Piʻilani and Kiha-a-Piʻilani. Piʻilani built a great temple; according to the myth, Piʻilani was a son of Kū.\n\nPiʻikea went to Hawaiʻi and married ʻ Umi-a-Liloa. Their son was Kumalae. They also had a daughter, Aihākōkō.\n\nWhen Kiha had to flee from Maui, he sought refuge with Piʻikea, at the court of ʻUmi. Here his sister advocated his cause so warmly, and insisted with ʻUmi so urgently, that the latter was induced to espouse the cause of the younger brother against the older, and prepared an expedition to invade Maui, depose Lono, and raise Kiha-a-Piʻilani to the throne of his father. ʻUmi summoned the chiefs of the various districts of Hawaii to prepare for the invasion of Maui. When all the preparations were ready, ʻUmi headed the expedition in person, accompanied by his wife and her brother and by his bravest warriors. Crossing the waters of ʻAlenuihāhā Channel between Maui and Hawaiʻi, the fleet of ʻUmi effected a landing at Kapueokahi, the harbour of Hāna, Maui, where Lono had continued to",
-      "stage1_score": null,
+      "stage1_score": -5.794519424438477,
       "multimodal_score": null,
       "is_disambiguation": false,
       "source_query": "Taxes of Lono Meafors"
@@ -110,12 +98,24 @@
       "url": "https://en.wikipedia.org/wiki/Kiha-a-Pi%CA%BBilani",
       "bm25_score": 20.674657821655273,
       "excerpt": "Kiha-a-Piilani was an Aliʻi nui of Maui (tribal chief of Maui). He was born ca. 1510.\n\nKiha was a son of Piʻilani, who built great heiau (temple). Kihaʻs mother was named La’ieloheloheikawai.\n\nShortly after Piʻilani died, Kihaʻs brother Lono-a-Piʻilani succeeded him. When Kiha had to flee from Maui, he sought refuge with his sister Piʻikea, wife of ʻ Umi-a-Liloa, king of Hawaiʻi, at the court of ʻUmi. Here his sister advocated his cause so warmly, and insisted with ʻUmi so urgently, that the latter was induced to espouse the cause of the younger brother against the older, and prepared an expedition to invade Maui, depose Lono, and raise Kiha-a-Piʻilani to the throne of his father. ʻUmi summoned the chiefs of the various districts of Hawaii to prepare for the invasion of Maui. When all the preparations were ready, ʻUmi headed the expedition in person, accompanied by his wife and her brother and by his bravest warriors. Crossing the waters of ʻAlenuihāhā Channel between Maui and Hawaiʻi, the fleet of ʻUmi effected a landing at Kapueokahi, the harbour of Hāna, Maui, where Lono had continued to reside after Piilani's death.\n\nHaving failed to prevent the landing of ʻUmi's forces, Lono r",
-      "stage1_score": null,
+      "stage1_score": -5.9783525466918945,
+      "multimodal_score": null,
+      "is_disambiguation": false,
+      "source_query": "Taxes of Lono Meafors"
+    },
+    {
+      "page_id": "47251798",
+      "revision_id": "1185290104",
+      "title": "Piʻikea",
+      "url": "https://en.wikipedia.org/wiki/Pi%CA%BBikea",
+      "bm25_score": 20.74541664123535,
+      "excerpt": "Piʻikea (Hawaiian: piʻi = \"to ascend\", ke = \"the\", ea = \"life\"; \"the life ascends\") was a High Chiefess. She was a daughter of Piʻilani and Chiefess La’ieloheloheikawai and sister of Lono-a-Piʻilani and Kiha-a-Piʻilani. Piʻilani built a great temple; according to the myth, Piʻilani was a son of Kū.\n\nPiʻikea went to Hawaiʻi and married ʻ Umi-a-Liloa. Their son was Kumalae. They also had a daughter, Aihākōkō.\n\nWhen Kiha had to flee from Maui, he sought refuge with Piʻikea, at the court of ʻUmi. Here his sister advocated his cause so warmly, and insisted with ʻUmi so urgently, that the latter was induced to espouse the cause of the younger brother against the older, and prepared an expedition to invade Maui, depose Lono, and raise Kiha-a-Piʻilani to the throne of his father. ʻUmi summoned the chiefs of the various districts of Hawaii to prepare for the invasion of Maui. When all the preparations were ready, ʻUmi headed the expedition in person, accompanied by his wife and her brother and by his bravest warriors. Crossing the waters of ʻAlenuihāhā Channel between Maui and Hawaiʻi, the fleet of ʻUmi effected a landing at Kapueokahi, the harbour of Hāna, Maui, where Lono had continued to",
+      "stage1_score": -6.186441421508789,
       "multimodal_score": null,
       "is_disambiguation": false,
       "source_query": "Taxes of Lono Meafors"
     }
   ],
-  "article_text_sha256": "5478441d7c65b8ef707e6d702511dd98a65e23faf7cf3ec6269b05dd99ab24a1",
-  "decision_rationale": "Accepted candidate 'Lono' using BM25 score 26.02 (retrieval scores not computed)."
+  "article_text_sha256": null,
+  "decision_rationale": "Rejected candidate 'Lewat Tengah Malam'; relevance score -4.7170 < threshold -4.5."
 }

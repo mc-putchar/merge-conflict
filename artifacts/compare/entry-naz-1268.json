@@ -1,0 +1,157 @@
+{
+  "entry_id": "entry-naz-1268",
+  "britannica_title": "NAZ",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1268"
+  ],
+  "britannica_sha256": "d7f2a904005aa972d2a81bd56ebdde1e6fe28efe7dba42e9c5dbae983b70c3fa",
+  "britannica_raw_chars": 7466,
+  "britannica_tokens": 591,
+  "britannica_unique_tokens": 487,
+  "wikipedia_page_id": "29099006",
+  "wikipedia_revision_id": "1351683043",
+  "wikipedia_title": "Naz",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Naz",
+  "wikipedia_text_sha256": "6c59601ffdff21eb9653d75449de46a7a852f11a16e5597153e29211cb15a87b",
+  "wikipedia_raw_chars": 458,
+  "wikipedia_tokens": 50,
+  "wikipedia_unique_tokens": 38,
+  "length_ratio": 0.061,
+  "text_changes": [
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "few",
+      "replacement": "sew",
+      "count": 1,
+      "samples": [
+        "n there were a few one altogether"
+      ]
+    }
+  ],
+  "metrics": {
+    "jaccard_raw": 0.0096,
+    "jaccard_normalized": 0.0096,
+    "cosine_tfidf": 0.0358,
+    "cosine_embedding": 0.1356,
+    "distinctive_britannica": [
+      "nazareth",
+      "called",
+      "church",
+      "city",
+      "north",
+      "large",
+      "island",
+      "miles",
+      "several",
+      "wall",
+      "shown",
+      "life",
+      "prophets",
+      "buckingham",
+      "service"
+    ],
+    "distinctive_wikipedia": [
+      "iran",
+      "naz",
+      "edition",
+      "refer",
+      "former",
+      "dutch",
+      "province",
+      "range",
+      "plant",
+      "mountain",
+      "japanese",
+      "switzerland",
+      "persian",
+      "britannica",
+      "automobile"
+    ],
+    "shared_terms": [
+      "islands",
+      "name",
+      "set",
+      "south",
+      "village"
+    ]
+  },
+  "aligned_chunks": [
+    {
+      "britannica_chunk_index": 12,
+      "wikipedia_chunk_index": 0,
+      "similarity": 0.2285,
+      "britannica_excerpt": "The name of Nazarene belongs to Jesus Christ, not only because of his having lived the greater part of his life at Nazareth, and became this city has always been smaller, and as his country, but also because the prophets had foretold that h",
+      "wikipedia_excerpt": "Naz or NAZ may refer to:\n\nNaz (name)\n\nNAZ (studio), Japanese animation studio\n\nNaz, Iran, a village in Hormozgan Province, Iran\n\nNaz, Vaud, a former municipality in the canton of Vaud, Switzerland\n\nNaaz islands, a set of tidal islands in th"
+    },
+    {
+      "britannica_chunk_index": 2,
+      "wikipedia_chunk_index": 0,
+      "similarity": 0.2276,
+      "britannica_excerpt": "NAXOS, or NAXIA, a considerable town, and capital of the lake of Naoxe, opposite the lake of Peru, with a cudal and two ambishaby’s seen, the one check out the other Latin. The greater part of the inhabitants are Greek, Lilly, 25.13. E., La",
+      "wikipedia_excerpt": "Naz or NAZ may refer to:\n\nNaz (name)\n\nNAZ (studio), Japanese animation studio\n\nNaz, Iran, a village in Hormozgan Province, Iran\n\nNaz, Vaud, a former municipality in the canton of Vaud, Switzerland\n\nNaaz islands, a set of tidal islands in th"
+    },
+    {
+      "britannica_chunk_index": 1,
+      "wikipedia_chunk_index": 0,
+      "similarity": 0.209,
+      "britannica_excerpt": "NAXIA, the ancient Nazos, is one of the largest and most fertile of the islands in the Archeology, known as the Cyclades. Its greatest length from north to south is several miles, and its greatest breadth about twelve miles. The north point",
+      "wikipedia_excerpt": "Naz or NAZ may refer to:\n\nNaz (name)\n\nNAZ (studio), Japanese animation studio\n\nNaz, Iran, a village in Hormozgan Province, Iran\n\nNaz, Vaud, a former municipality in the canton of Vaud, Switzerland\n\nNaaz islands, a set of tidal islands in th"
+    }
+  ],
+  "topic_id": 5,
+  "topic_terms": [
+    "every",
+    "people",
+    "upon"
+  ],
+  "claims": [
+    {
+      "claim_text": "The Britannica entry \"NAZ\" uses 590 content tokens while the Wikipedia article \"Naz\" uses 50; their normalized vocabularies share a Jaccard overlap of 0.0096 (raw 0.0096) and a TF-IDF cosine similarity of 0.0358.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1268"
+      ],
+      "britannica_quote": "Thus all the classes of officers, semen, and marines, who have faithfully served in the many, are provided for by the state; and the children of such as may be in indigent circumstances receive an education at the public expense, suited to ",
+      "wikipedia_page_id": "29099006",
+      "wikipedia_revision_id": "1351683043",
+      "wikipedia_quote": "Naz or NAZ may refer to:\n\nNaz (name)\n\nNAZ (studio), Japanese animation studio\n\nNaz, Iran, a village in Hormozgan Province, Iran\n\nNaz, Vaud, a former municipality in the canton of Vaud, Switzerland\n\nNaaz islands, a set of tidal islands in th"
+    },
+    {
+      "claim_text": "Britannica's most distinctive term is \"nazareth\"; Wikipedia's is \"iran\", showing the era-specific vocabulary of each source.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1268"
+      ],
+      "britannica_quote": "Nazareth.",
+      "wikipedia_page_id": "29099006",
+      "wikipedia_revision_id": "1351683043",
+      "wikipedia_quote": "Naz, Iran, a village in Hormozgan Province, Iran"
+    },
+    {
+      "claim_text": "Both sources share core vocabulary including: islands, name, set, south, village.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1268"
+      ],
+      "britannica_quote": "NAXIA, the ancient Nazos, is one of the largest and most fertile of the islands in the Archeology, known as the Cyclades.",
+      "wikipedia_page_id": "29099006",
+      "wikipedia_revision_id": "1351683043",
+      "wikipedia_quote": "Naaz islands, a set of tidal islands in the Persian Gulf, south of Iran"
+    },
+    {
+      "claim_text": "1 normalization rules fired on the Britannica text (\"few\" -> \"sew\"); residual vocabulary differences likely reflect era terminology rather than OCR noise alone.",
+      "claim_type": "inference",
+      "label": "[inference]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1268"
+      ],
+      "britannica_quote": "n there were a few one altogether",
+      "wikipedia_page_id": "29099006",
+      "wikipedia_revision_id": "1351683043",
+      "wikipedia_quote": "Naz or NAZ may refer to:\n\nNaz (name)\n\nNAZ (studio), Japanese animation studio\n\nNaz, Iran, a village in Hormozgan Province, Iran\n\nNaz, Vaud, a former municipality in the canton of Vaud, Switzerland\n\nNaaz islands, a set of tidal islands in th"
+    }
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "entry_id": "entry-c-h-e-m-i-s-si-t-r-y-17-2446",
+  "britannica_title": "C H E M I S SI T R Y 17",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2446"
+  ],
+  "britannica_sha256": "c78aade5370e58b5f682efa8f0fbe52f43def012317e5018ec5c69ec8bfadb66",
+  "britannica_raw_chars": 6369,
+  "britannica_tokens": 525,
+  "britannica_unique_tokens": 408,
+  "wikipedia_page_id": "21062422",
+  "wikipedia_revision_id": "1303257096",
+  "wikipedia_title": "Carbethopendecinium bromide",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Carbethopendecinium_bromide",
+  "wikipedia_text_sha256": "b486d288acc0d4f42a4423ec6a9edf52dac5610f96f96e2b49e7138535a7b738",
+  "wikipedia_raw_chars": 534,
+  "wikipedia_tokens": 44,
+  "wikipedia_unique_tokens": 38,
+  "length_ratio": 0.084,
+  "text_changes": [
+    {
+      "rule": "archaic_spelling",
+      "original": "colour",
+      "replacement": "color",
+      "count": 1,
+      "samples": [
+        "ak.. The block colour of the unikali"
+      ]
+    },
+    {
+      "rule": "archaic_spelling",
+      "original": "lipstick",
+      "replacement": "lipstic",
+      "count": 1,
+      "samples": [
+        "s, and the red lipstick is emits white"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "cafes",
+      "replacement": "cases",
+      "count": 1,
+      "samples": [
+        "you in certain cafes, will succeed"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fays",
+      "replacement": "says",
+      "count": 1,
+      "samples": [
+        ", which thews, fays Mr Lemeri, tha"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fet",
+      "replacement": "set",
+      "count": 1,
+      "samples": [
+        "glats lethic j fet it in a water"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "few",
+      "replacement": "sew",
+      "count": 1,
+      "samples": [
+        "fails, or very few, if any, that"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fides",
+      "replacement": "sides",
+      "count": 1,
+      "samples": [
+        "likely to the fides of the receive"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fon",
+      "replacement": "son",
+      "count": 1,
+      "samples": [
+        "to the accen- fon of the phofhor"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fucceeded",
+      "replacement": "succeeded",
+      "count": 1,
+      "samples": [
+        "operation bath fucceeded i but if it be"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "meff",
+      "replacement": "mess",
+      "count": 1,
+      "samples": [
+        "d for hexane.\n\nMeff: Homberg and L"
+      ]
+    }
+  ],
+  "metrics": {
+    "jaccard_raw": 0.0183,
+    "jaccard_normalized": 0.0183,
+    "cosine_tfidf": 0.0632,
+    "cosine_embedding": 0.085,
+    "distinctive_britannica": [
+      "matter",
+      "fulphur",
+      "fire",
+      "operation",
+      "alum",
+      "acid",
+      "air",
+      "matters",
+      "phofhorus",
+      "nothing",
+      "come",
+      "remain",
+      "degree",
+      "converted",
+      "bath"
+    ],
+    "distinctive_wikipedia": [
+      "products",
+      "etc",
+      "edition",
+      "prepared",
+      "strongly",
+      "compound",
+      "well",
+      "ammonium",
+      "active",
+      "solutions",
+      "soluble",
+      "republic",
+      "britannica",
+      "foam",
+      "substance"
+    ],
+    "shared_terms": [
+      "contained",
+      "powder",
+      "quantities",
+      "shaken",
+      "small",
+      "used",
+      "water",
+      "white"
+    ]
+  },
+  "aligned_chunks": [
+    {
+      "britannica_chunk_index": 0,
+      "wikipedia_chunk_index": 0,
+      "similarity": 0.1365,
+      "britannica_excerpt": "be in powder when shaken, it is a lign the operation bath succeeded i but if it be in a cake, and duth not fall into powder on thinking the matras, it thews that your matter was not definitely youtted and dried in the iron pan du- ring the ",
+      "wikipedia_excerpt": "Carbethopendecinium bromide is a quaternary ammonium compound used as antiseptic and disinfectant. It is white to yellowish crystalline powder. It is well soluble in water, ethanol and chloroform; its water solutions foam strongly if shaken"
+    },
+    {
+      "britannica_chunk_index": 8,
+      "wikipedia_chunk_index": 0,
+      "similarity": 0.1354,
+      "britannica_excerpt": "fulphur. Some parts thereof may be, only half-disfangged from its lands, and in that condition be capable of attracting flowingly the humidity of the air, of growing very hot likemically by up- bibing the moilture, and fo of contributing to",
+      "wikipedia_excerpt": "Carbethopendecinium bromide is a quaternary ammonium compound used as antiseptic and disinfectant. It is white to yellowish crystalline powder. It is well soluble in water, ethanol and chloroform; its water solutions foam strongly if shaken"
+    },
+    {
+      "britannica_chunk_index": 10,
+      "wikipedia_chunk_index": 0,
+      "similarity": 0.1258,
+      "britannica_excerpt": "Purs fome human urine into a glats lethic j set it in a water bath, and difllr till there remain only about a function path of how you want, or able separate the urine in a pan feet in the _bal neam maria_ differ to reduced to the fame quan",
+      "wikipedia_excerpt": "Carbethopendecinium bromide is a quaternary ammonium compound used as antiseptic and disinfectant. It is white to yellowish crystalline powder. It is well soluble in water, ethanol and chloroform; its water solutions foam strongly if shaken"
+    }
+  ],
+  "topic_id": 2,
+  "topic_terms": [
+    "water",
+    "acid",
+    "quantity"
+  ],
+  "claims": [
+    {
+      "claim_text": "The Britannica entry \"C H E M I S SI T R Y 17\" uses 524 content tokens while the Wikipedia article \"Carbethopendecinium bromide\" uses 44; their normalized vocabularies share a Jaccard overlap of 0.0183 (raw 0.0183) and a TF-IDF cosine similarity of 0.0632.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2446"
+      ],
+      "britannica_quote": "be in powder when shaken, it is a lign the operation bath fucceeded i but if it be in a cake, and duth not fall into powder on thinking the matras, it thews that your matter was not definitely youtted and dried in the iron pan du- ring the ",
+      "wikipedia_page_id": "21062422",
+      "wikipedia_revision_id": "1303257096",
+      "wikipedia_quote": "Carbethopendecinium bromide is a quaternary ammonium compound used as antiseptic and disinfectant. It is white to yellowish crystalline powder. It is well soluble in water, ethanol and chloroform; its water solutions foam strongly if shaken"
+    },
+    {
+      "claim_text": "Britannica's most distinctive term is \"matter\"; Wikipedia's is \"products\", showing the era-specific vocabulary of each source.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2446"
+      ],
+      "britannica_quote": "be in powder when shaken, it is a lign the operation bath fucceeded i but if it be in a cake, and duth not fall into powder on thinking the matras, it thews that your matter was not definitely youtted and dried in the iron pan du- ring the ",
+      "wikipedia_page_id": "21062422",
+      "wikipedia_revision_id": "1303257096",
+      "wikipedia_quote": "Carbethopendecinium bromide is the active substance in antiseptic and disinfecting products prepared in the Czech Republic under the trademarks Septonex (also Ophtalmo-Septonex, Mukoseptonex etc.) and Otipur."
+    },
+    {
+      "claim_text": "Both sources share core vocabulary including: contained, powder, quantities, shaken, small.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2446"
+      ],
+      "britannica_quote": "Now when this phofhorus, which is partly continued of the basis of the alarm contained into quick-lines, is stopped to the salt, the time infanulty athetis the moilture of which the air is always full, and by this means, probably, grows to ",
+      "wikipedia_page_id": "21062422",
+      "wikipedia_revision_id": "1303257096",
+      "wikipedia_quote": "In small quantities, it is contained in other products as auxiliary substance too."
+    },
+    {
+      "claim_text": "10 normalization rules fired on the Britannica text (\"colour\" -> \"color\"; \"lipstick\" -> \"lipstic\"; \"cafes\" -> \"cases\"); residual vocabulary differences likely reflect era terminology rather than OCR noise alone.",
+      "claim_type": "inference",
+      "label": "[inference]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2446"
+      ],
+      "britannica_quote": "ak.. The block colour of the unikali",
+      "wikipedia_page_id": "21062422",
+      "wikipedia_revision_id": "1303257096",
+      "wikipedia_quote": "Carbethopendecinium bromide is a quaternary ammonium compound used as antiseptic and disinfectant. It is white to yellowish crystalline powder. It is well soluble in water, ethanol and chloroform; its water solutions foam strongly if shaken"
+    }
+  ]
+}

@@ -5,7 +5,7 @@
     "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1678"
   ],
   "matched": true,
-  "status": "accepted_bm25_only",
+  "status": "accepted",
   "selected_candidate": {
     "page_id": "57356837",
     "revision_id": "1139836272",
@@ -13,8 +13,8 @@
     "url": "https://en.wikipedia.org/wiki/Agalmyla",
     "bm25_score": 11.607185363769531,
     "excerpt": "Agalmyla is a genus of plants in the family Gesneriaceae.\n\nAs of April 2021, Plants of the World Online accepted the following species:\n\nAgalmyla affinis Hilliard & B.L.Burtt\n\nAgalmyla aitinyuensis Hilliard & B.L.Burtt\n\nAgalmyla ambonica Hilliard & B.L.Burtt\n\nAgalmyla angiensis (Kaneh. & Hatus.) Hilliard & B.L.Burtt\n\nAgalmyla angustifolia Miq.\n\nAgalmyla aurantiaca Hilliard & B.L.Burtt\n\nAgalmyla beccarii C.B.Clarke\n\nAgalmyla bicolor Hilliard & B.L.Burtt\n\nAgalmyla biflora (Elmer) Hilliard & B.L.Burtt\n\nAgalmyla bilirana Hilliard & B.L.Burtt\n\nAgalmyla borneensis (Schltr.) B.L.Burtt\n\nAgalmyla bracteata (Stapf) B.L.Burtt\n\nAgalmyla brevifolia S.Moore\n\nAgalmyla brevipes (C.B.Clarke) B.L.Burtt\n\nAgalmyla brownii (Koord.) B.L.Burtt\n\nAgalmyla calelanensis (Elmer) Hilliard & B.L.Burtt\n\nAgalmyla centralis Hilliard & B.L.Burtt\n\nAgalmyla chalmersii (F.Muell.) B.L.Burtt\n\nAgalmyla chorisepala (C.B.Clarke) Hilliard & B.L.Burtt\n\nAgalmyla chrysostyla (Schltr.) Hilliard & B.L.Burtt\n\nAgalmyla clarkei (Elmer) B.L.Burtt\n\nAgalmyla columneoides Hilliard & B.L.Burtt\n\nAgalmyla decipiens Hilliard & B.L.Burtt\n\nAgalmyla dentatisepala Hilliard & B.L.Burtt\n\nAgalmyla diandra Hilliard & B.L.Burtt\n\nAgalmyla elegans (K",
-    "stage1_score": null,
-    "multimodal_score": null,
+    "stage1_score": -5.948874473571777,
+    "multimodal_score": -3.0657365322113037,
     "is_disambiguation": false,
     "source_query": "B I L"
   },
@@ -26,20 +26,8 @@
       "url": "https://en.wikipedia.org/wiki/Agalmyla",
       "bm25_score": 11.607185363769531,
       "excerpt": "Agalmyla is a genus of plants in the family Gesneriaceae.\n\nAs of April 2021, Plants of the World Online accepted the following species:\n\nAgalmyla affinis Hilliard & B.L.Burtt\n\nAgalmyla aitinyuensis Hilliard & B.L.Burtt\n\nAgalmyla ambonica Hilliard & B.L.Burtt\n\nAgalmyla angiensis (Kaneh. & Hatus.) Hilliard & B.L.Burtt\n\nAgalmyla angustifolia Miq.\n\nAgalmyla aurantiaca Hilliard & B.L.Burtt\n\nAgalmyla beccarii C.B.Clarke\n\nAgalmyla bicolor Hilliard & B.L.Burtt\n\nAgalmyla biflora (Elmer) Hilliard & B.L.Burtt\n\nAgalmyla bilirana Hilliard & B.L.Burtt\n\nAgalmyla borneensis (Schltr.) B.L.Burtt\n\nAgalmyla bracteata (Stapf) B.L.Burtt\n\nAgalmyla brevifolia S.Moore\n\nAgalmyla brevipes (C.B.Clarke) B.L.Burtt\n\nAgalmyla brownii (Koord.) B.L.Burtt\n\nAgalmyla calelanensis (Elmer) Hilliard & B.L.Burtt\n\nAgalmyla centralis Hilliard & B.L.Burtt\n\nAgalmyla chalmersii (F.Muell.) B.L.Burtt\n\nAgalmyla chorisepala (C.B.Clarke) Hilliard & B.L.Burtt\n\nAgalmyla chrysostyla (Schltr.) Hilliard & B.L.Burtt\n\nAgalmyla clarkei (Elmer) B.L.Burtt\n\nAgalmyla columneoides Hilliard & B.L.Burtt\n\nAgalmyla decipiens Hilliard & B.L.Burtt\n\nAgalmyla dentatisepala Hilliard & B.L.Burtt\n\nAgalmyla diandra Hilliard & B.L.Burtt\n\nAgalmyla elegans (K",
-      "stage1_score": null,
-      "multimodal_score": null,
-      "is_disambiguation": false,
-      "source_query": "B I L"
-    },
-    {
-      "page_id": "39323582",
-      "revision_id": "1319409349",
-      "title": "Quadratic Jordan algebra",
-      "url": "https://en.wikipedia.org/wiki/Quadratic_Jordan_algebra",
-      "bm25_score": 11.555611610412598,
-      "excerpt": "In mathematics, quadratic Jordan algebras are a generalization of Jordan algebras introduced by Kevin McCrimmon (1966). The fundamental identities of the quadratic representation of a linear Jordan algebra are used as axioms to define a quadratic Jordan algebra over a field of arbitrary characteristic. There is a uniform description of finite-dimensional simple quadratic Jordan algebras, independent of characteristic. If 2 is invertible in the field of coefficients, the theory of quadratic Jordan algebras reduces to that of linear Jordan algebras.\n\nA quadratic Jordan algebra consists of a vector space A over a field K with a distinguished element 1 and a quadratic map of A into the K -endomorphisms of A, a ↦ Q (a), satisfying the conditions:\n\nQ (1) = id;\n\nQ (Q (a) b) = Q (a) Q (b) Q (a) (\"fundamental identity\");\n\nQ (a) R (b, a) = R (a, b) Q (a) (\"commutation identity\"), where R (a, b) c = (Q (a + c) − Q (a) − Q (c)) b.\n\nFurther, these properties are required to hold under any extension of scalars.\n\nAn element a is invertible if Q (a) is invertible and there exists b such that Q (b) is the inverse of Q (a) and Q (a) b = a: such b is unique and we say that b is the inverse of a. A Jo",
-      "stage1_score": null,
-      "multimodal_score": null,
+      "stage1_score": -5.948874473571777,
+      "multimodal_score": -3.0657365322113037,
       "is_disambiguation": false,
       "source_query": "B I L"
     },
@@ -50,32 +38,8 @@
       "url": "https://en.wikipedia.org/wiki/Lindmania",
       "bm25_score": 11.529390335083008,
       "excerpt": "Lindmania is a genus of plants in the family Bromeliaceae. It is one of two genera in the subfamily Lindmanioideae, and contains 39 species. All but one of the known species are native to Venezuela, a few occurring in neighboring Guyana and northern Brazil.\n\nThe genus name is for Carl Axel Magnus Lindman, Swedish botanist (1856–1928).\n\nLindmania arachnoidea (L.B. Smith, Steyermark & Robinson) L.B. Smith - Venezuelan State of Amazonas\n\nLindmania argentea L.B. Smith - Bolívar\n\nLindmania atrorosea (L.B. Smith, Steyermark & Robinson) L.B. Smith - Bolívar\n\nLindmania aurea L.B. Smith, Steyermark & Robinson - Bolívar\n\nLindmania brachyphylla L.B. Smith - Bolívar\n\nLindmania candelabriformis B. Holst - Venezuelan State of Amazonas\n\nLindmania cylindrostachya L.B. Smith - Venezuelan State of Amazonas\n\nLindmania dendritica (L.B. Smith) L.B. Smith - Cerro de la Neblina (Venezuelan State of Amazonas and Brazilian State of Amazonas)\n\nLindmania dyckioides (L.B. Smith) L.B. Smith - Bolívar\n\nLindmania geniculata L.B. Smith - Venezuelan States of Amazonas and Bolívar\n\nLindmania gracillima (L.B. Smith) L.B. Smith - Bolívar\n\nLindmania guianensis (Beer) Mez - Guyana, Bolívar\n\nLindmania holstii Steyermark",
-      "stage1_score": null,
-      "multimodal_score": null,
-      "is_disambiguation": false,
-      "source_query": "B I L"
-    },
-    {
-      "page_id": "9477973",
-      "revision_id": "1186225811",
-      "title": "Navia (plant)",
-      "url": "https://en.wikipedia.org/wiki/Navia_(plant)",
-      "bm25_score": 11.522525787353516,
-      "excerpt": "Navia is a genus of plants in the family Bromeliaceae, containing 95 species. Described as early as 1830 in Guyana, they are commonly cultivated for their colorful foliage and inflorescences. All the species are native to northern South America (Guyana, Suriname, Venezuela, Colombia, northern Brazil).\n\nNavia abysmophila L.B. Smith - Amazonas State in Venezuela\n\nNavia acaulis Martius ex Schult. & Schult.f. - Colombia\n\nNavia affinis L.B. Smith - Amazonas State in Venezuela\n\nNavia aliciae L.B. Smith, Steyermark & Robinson - Amazonas State in Venezuela\n\nNavia aloifolia L.B. Smith - Amazonas State in Venezuela\n\nNavia angustifolia (Baker) Mez - Guyana\n\nNavia arida L.B. Smith & Steyermark - Venezuela, Guyana\n\nNavia aurea L.B. Smith - Amazonas State in Venezuela\n\nNavia axillaris Betancur - Colombia\n\nNavia barbellata L.B. Smith - Guyana\n\nNavia berryana L.B. Smith, Steyermark & Robinson - Amazonas State in Venezuela\n\nNavia bicolor L.B. Smith - Colombia\n\nNavia brachyphylla L.B. Smith - Amazonas State in Venezuela\n\nNavia breweri L.B. Smith & Steyermark - Bolívar State in Venezuela\n\nNavia cardonae L.B. Smith - Bolívar State in Venezuela\n\nNavia caricifolia L.B. Smith - Amazonas State in Venezuel",
-      "stage1_score": null,
-      "multimodal_score": null,
-      "is_disambiguation": false,
-      "source_query": "B I L"
-    },
-    {
-      "page_id": "9584594",
-      "revision_id": "1301673032",
-      "title": "Racinaea",
-      "url": "https://en.wikipedia.org/wiki/Racinaea",
-      "bm25_score": 11.496524810791016,
-      "excerpt": "Racinaea is a genus of the flowering plants in the family Bromeliaceae, subfamily Tillandsioideae. The genus is named for Racine Foster, wife of Mulford B. Foster and co-founder of the BSI. It is found in tropical regions of the Americas.\n\nSpecies accepted by the Plants of the World Online as of October 2022:\n\nRacinaea adpressa (André) J.R.Grant\n\nRacinaea aeris-incola (Mez) M.A.Spencer & L.B.Sm.\n\nRacinaea almeriae (Rauh) J.R.Grant\n\nRacinaea blassii (L.B.Sm.) M.A.Spencer & L.B.Sm.\n\nRacinaea commixa (Mez) M.A.Spencer & L.B.Sm.\n\nRacinaea condorensis Manzan. & Gouda\n\nRacinaea contorta (Mez & Pittier) M.A.Spencer & L.B.Sm.\n\nRacinaea cresporum Manzan.\n\nRacinaea crispa (Baker) M.A.Spencer & L.B.Sm.\n\nRacinaea cuspidata (L.B.Sm.) M.A.Spencer & L.B.Sm.\n\nRacinaea dielsii (Harms) H.Luther\n\nRacinaea diffusa (L.B.Sm.) M.A.Spencer & L.B.Sm.\n\nRacinaea domingosmartinis (Rauh) J.R.Grant\n\nRacinaea dyeriana (André) Barfuss & W.Till\n\nRacinaea elegans (L.B.Sm.) M.A.Spencer & L.B.Sm.\n\nRacinaea euryelytra J.R.Grant\n\nRacinaea fawcettii (Mez) M.A.Spencer & L.B.Sm.\n\nRacinaea filifolia Gouda\n\nRacinaea flexuosa (Baker) M.A.Spencer & L.B.Sm.\n\nRacinaea fraseri (Baker) M.A.Spencer & L.B.Sm.\n\nRacinaea gentryana Ma",
-      "stage1_score": null,
-      "multimodal_score": null,
+      "stage1_score": -6.336755752563477,
+      "multimodal_score": -3.31709361076355,
       "is_disambiguation": false,
       "source_query": "B I L"
     },
@@ -86,7 +50,19 @@
       "url": "https://en.wikipedia.org/wiki/Monophyllaea",
       "bm25_score": 11.46583366394043,
       "excerpt": "Monophyllaea is a genus of plants in the family Gesneriaceae. All the species only have one leaf.\n\n38 species are accepted.\n\nMonophyllaea albicalyx A. Weber\n\nMonophyllaea andersonii B.L.Burtt\n\nMonophyllaea anthocrena B.L.Burtt\n\nMonophyllaea brevipes S.Moore\n\nMonophyllaea burttiana R. Kiew\n\nMonophyllaea caulescens B.L. Burtt\n\nMonophyllaea chinii B.L.Burtt\n\nMonophyllaea cupiflora B.L. Burtt\n\nMonophyllaea elongata B.L.Burtt\n\nMonophyllaea eymae B.L.Burtt\n\nMonophyllaea fissilis B.L.Burtt\n\nMonophyllaea furcipila Ohwi\n\nMonophyllaea glabra Ridl.\n\nMonophyllaea glandulosa B.L.Burtt\n\nMonophyllaea glauca C.B. Clarke\n\nMonophyllaea hendersonii (B.L.Burtt) A.Weber\n\nMonophyllaea hirtella Miq.\n\nMonophyllaea hirticalyx Franch.\n\nMonophyllaea horsfieldii R.Br.\n\nMonophyllaea hottae B.L.Burtt\n\nMonophyllaea insignis B.L. Burtt\n\nMonophyllaea kostermansii B.L.Burtt\n\nMonophyllaea leuserensis B.L.Burtt\n\nMonophyllaea longipes Kraenzl.\n\nMonophyllaea meriraiensis Kiew & S.Julia\n\nMonophyllaea merrilliana Kraenzl.\n\nMonophyllaea musangensis A.Weber\n\nMonophyllaea papuana Lauterb.\n\nMonophyllaea pendula B.L.Burtt\n\nMonophyllaea ramosa B.L.Burtt\n\nMonophyllaea sarangica B.L.Burtt\n\nMonophyllaea selaborensis B.L.Burtt\n\nMo",
-      "stage1_score": null,
+      "stage1_score": -6.174506187438965,
+      "multimodal_score": -3.7435946464538574,
+      "is_disambiguation": false,
+      "source_query": "B I L"
+    },
+    {
+      "page_id": "9477973",
+      "revision_id": "1186225811",
+      "title": "Navia (plant)",
+      "url": "https://en.wikipedia.org/wiki/Navia_(plant)",
+      "bm25_score": 11.522525787353516,
+      "excerpt": "Navia is a genus of plants in the family Bromeliaceae, containing 95 species. Described as early as 1830 in Guyana, they are commonly cultivated for their colorful foliage and inflorescences. All the species are native to northern South America (Guyana, Suriname, Venezuela, Colombia, northern Brazil).\n\nNavia abysmophila L.B. Smith - Amazonas State in Venezuela\n\nNavia acaulis Martius ex Schult. & Schult.f. - Colombia\n\nNavia affinis L.B. Smith - Amazonas State in Venezuela\n\nNavia aliciae L.B. Smith, Steyermark & Robinson - Amazonas State in Venezuela\n\nNavia aloifolia L.B. Smith - Amazonas State in Venezuela\n\nNavia angustifolia (Baker) Mez - Guyana\n\nNavia arida L.B. Smith & Steyermark - Venezuela, Guyana\n\nNavia aurea L.B. Smith - Amazonas State in Venezuela\n\nNavia axillaris Betancur - Colombia\n\nNavia barbellata L.B. Smith - Guyana\n\nNavia berryana L.B. Smith, Steyermark & Robinson - Amazonas State in Venezuela\n\nNavia bicolor L.B. Smith - Colombia\n\nNavia brachyphylla L.B. Smith - Amazonas State in Venezuela\n\nNavia breweri L.B. Smith & Steyermark - Bolívar State in Venezuela\n\nNavia cardonae L.B. Smith - Bolívar State in Venezuela\n\nNavia caricifolia L.B. Smith - Amazonas State in Venezuel",
+      "stage1_score": -6.346047401428223,
       "multimodal_score": null,
       "is_disambiguation": false,
       "source_query": "B I L"
@@ -98,7 +74,31 @@
       "url": "https://en.wikipedia.org/wiki/Paraboea",
       "bm25_score": 11.463951110839844,
       "excerpt": "Paraboea are a genus of flowering plants in the African violet family Gesneriaceae, native to southern China (including Taiwan and Hainan), Assam, Indochina, and Malesia. They were recircumscribed from Boea in 2016.\n\nCurrently accepted species include:\n\nParaboea acaulis (Barnett) C.Puglisi\n\nParaboea acuta (C.B.Clarke) C.Puglisi\n\nParaboea acutifolia (Ridl.) B.L.Burtt\n\nParaboea albida (Barnett) C.Puglisi\n\nParaboea amplexicaulis (C.S.P.Parish ex C.B.Clarke) C.Puglisi\n\nParaboea amplifolia Z.R.Xu & B.L.Burtt\n\nParaboea angustifolia Yan Liu & W.B.Xu\n\nParaboea apiensis Z.R.Xu\n\nParaboea arachnoidea Triboun\n\nParaboea argentea Z.R.Xu\n\nParaboea axillaris Triboun\n\nParaboea babae D.J.Middleton\n\nParaboea bakeri M.R.Hend.\n\nParaboea banyengiana B.L.Burtt\n\nParaboea barnettiae C.Puglisi\n\nParaboea berouwensis Z.R.Xu & B.L.Burtt\n\nParaboea bhumiboliana Triboun & Chuchan\n\nParaboea bintangensis B.L.Burtt\n\nParaboea birmanica (Craib) C.Puglisi\n\nParaboea brachycarpa (Ridl.) B.L.Burtt\n\nParaboea brunnescens B.L.Burtt\n\nParaboea burttii Z.R.Xu\n\nParaboea caerulescens (Ridl.) B.L.Burtt\n\nParaboea candidissima B.L.Burtt\n\nParaboea capitata Ridl.\n\nParaboea changjiangensis F.W.Xing & Z.X.Li\n\nParaboea chiangdaoensis Z.R",
-      "stage1_score": null,
+      "stage1_score": -6.409226894378662,
+      "multimodal_score": null,
+      "is_disambiguation": false,
+      "source_query": "B I L"
+    },
+    {
+      "page_id": "39323582",
+      "revision_id": "1319409349",
+      "title": "Quadratic Jordan algebra",
+      "url": "https://en.wikipedia.org/wiki/Quadratic_Jordan_algebra",
+      "bm25_score": 11.555611610412598,
+      "excerpt": "In mathematics, quadratic Jordan algebras are a generalization of Jordan algebras introduced by Kevin McCrimmon (1966). The fundamental identities of the quadratic representation of a linear Jordan algebra are used as axioms to define a quadratic Jordan algebra over a field of arbitrary characteristic. There is a uniform description of finite-dimensional simple quadratic Jordan algebras, independent of characteristic. If 2 is invertible in the field of coefficients, the theory of quadratic Jordan algebras reduces to that of linear Jordan algebras.\n\nA quadratic Jordan algebra consists of a vector space A over a field K with a distinguished element 1 and a quadratic map of A into the K -endomorphisms of A, a ↦ Q (a), satisfying the conditions:\n\nQ (1) = id;\n\nQ (Q (a) b) = Q (a) Q (b) Q (a) (\"fundamental identity\");\n\nQ (a) R (b, a) = R (a, b) Q (a) (\"commutation identity\"), where R (a, b) c = (Q (a + c) − Q (a) − Q (c)) b.\n\nFurther, these properties are required to hold under any extension of scalars.\n\nAn element a is invertible if Q (a) is invertible and there exists b such that Q (b) is the inverse of Q (a) and Q (a) b = a: such b is unique and we say that b is the inverse of a. A Jo",
+      "stage1_score": -6.441997528076172,
+      "multimodal_score": null,
+      "is_disambiguation": false,
+      "source_query": "B I L"
+    },
+    {
+      "page_id": "9584594",
+      "revision_id": "1301673032",
+      "title": "Racinaea",
+      "url": "https://en.wikipedia.org/wiki/Racinaea",
+      "bm25_score": 11.496524810791016,
+      "excerpt": "Racinaea is a genus of the flowering plants in the family Bromeliaceae, subfamily Tillandsioideae. The genus is named for Racine Foster, wife of Mulford B. Foster and co-founder of the BSI. It is found in tropical regions of the Americas.\n\nSpecies accepted by the Plants of the World Online as of October 2022:\n\nRacinaea adpressa (André) J.R.Grant\n\nRacinaea aeris-incola (Mez) M.A.Spencer & L.B.Sm.\n\nRacinaea almeriae (Rauh) J.R.Grant\n\nRacinaea blassii (L.B.Sm.) M.A.Spencer & L.B.Sm.\n\nRacinaea commixa (Mez) M.A.Spencer & L.B.Sm.\n\nRacinaea condorensis Manzan. & Gouda\n\nRacinaea contorta (Mez & Pittier) M.A.Spencer & L.B.Sm.\n\nRacinaea cresporum Manzan.\n\nRacinaea crispa (Baker) M.A.Spencer & L.B.Sm.\n\nRacinaea cuspidata (L.B.Sm.) M.A.Spencer & L.B.Sm.\n\nRacinaea dielsii (Harms) H.Luther\n\nRacinaea diffusa (L.B.Sm.) M.A.Spencer & L.B.Sm.\n\nRacinaea domingosmartinis (Rauh) J.R.Grant\n\nRacinaea dyeriana (André) Barfuss & W.Till\n\nRacinaea elegans (L.B.Sm.) M.A.Spencer & L.B.Sm.\n\nRacinaea euryelytra J.R.Grant\n\nRacinaea fawcettii (Mez) M.A.Spencer & L.B.Sm.\n\nRacinaea filifolia Gouda\n\nRacinaea flexuosa (Baker) M.A.Spencer & L.B.Sm.\n\nRacinaea fraseri (Baker) M.A.Spencer & L.B.Sm.\n\nRacinaea gentryana Ma",
+      "stage1_score": -6.573835372924805,
       "multimodal_score": null,
       "is_disambiguation": false,
       "source_query": "B I L"
@@ -110,12 +110,12 @@
       "url": "https://en.wikipedia.org/wiki/Neoregelia_subg._Neoregelia",
       "bm25_score": 11.460189819335938,
       "excerpt": "Neoregelia subg. Neoregelia is a subgenus of the genus Neoregelia.\n\nSpecies accepted by Encyclopedia of Bromeliads as of October 2022:\n\nNeoregelia abendrothae L.B.Sm.\n\nNeoregelia amandae W.Weber\n\nNeoregelia ampullacea (E.Morren) L.B.Sm.\n\nNeoregelia angustibracteolata Pereira & Leme\n\nNeoregelia angustifolia E.Pereira\n\nNeoregelia atroviridifolia Weber & Röll\n\nNeoregelia binotii (Antoine) L.B.Sm.\n\nNeoregelia brevifolia L.B.Sm. & Reitz\n\nNeoregelia burle-marxii Read\n\nNeoregelia camorimiana Pereira & I.A.Penna\n\nNeoregelia capixaba Pereira & Leme\n\nNeoregelia carcharodon (Baker) L.B.Sm.\n\nNeoregelia carinata Leme\n\nNeoregelia carolinae (Beer) L.B.Sm.\n\nNeoregelia cathcartii C.F.Reed & Read\n\nNeoregelia chlorosticta (hort. Saunders ex W.Marshall) L.B.Sm.\n\nNeoregelia coimbrae Pereira & Leme\n\nNeoregelia compacta (Mez) L.B.Sm.\n\nNeoregelia concentrica (Vell.) L.B.Sm.\n\nNeoregelia coriacea (Antoine) L.B.Sm.\n\nNeoregelia correia-araujoi Pereira & I.A.Penna\n\nNeoregelia crispata Leme\n\nNeoregelia cruenta (Graham) L.B.Sm.\n\nNeoregelia cyanea (Beer) L.B.Sm.\n\nNeoregelia dactyloflammans Leme & L.Kollmann\n\nNeoregelia desenganensis Leme\n\nNeoregelia doeringiana L.B.Sm.\n\nNeoregelia dungsiana E.Pereira\n\nNeoregelia ",
-      "stage1_score": null,
+      "stage1_score": -6.618801116943359,
       "multimodal_score": null,
       "is_disambiguation": false,
       "source_query": "B I L"
     }
   ],
   "article_text_sha256": "33d0afcf823f829326e11038a92806e23f640dce2bcc1fb34680199ea0c40b33",
-  "decision_rationale": "Accepted candidate 'Agalmyla' using BM25 score 11.61 (retrieval scores not computed)."
+  "decision_rationale": "Accepted candidate 'Agalmyla' with relevance score -3.0657 >= threshold -4.5."
 }

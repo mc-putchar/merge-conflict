@@ -1,0 +1,158 @@
+[
+  {
+    "topic_id": 0,
+    "document_count": 31,
+    "britannica_entries": 0,
+    "wikipedia_articles": 31,
+    "top_terms_britannica": [],
+    "top_terms_wikipedia": [
+      "buildings",
+      "listed",
+      "agalmyla",
+      "beautiful",
+      "burtt",
+      "frac"
+    ],
+    "label": "buildings, listed"
+  },
+  {
+    "topic_id": 1,
+    "document_count": 5,
+    "britannica_entries": 1,
+    "wikipedia_articles": 4,
+    "top_terms_britannica": [
+      "users",
+      "number",
+      "able",
+      "compute",
+      "use",
+      "used"
+    ],
+    "top_terms_wikipedia": [
+      "com",
+      "investment",
+      "net",
+      "inward",
+      "summons",
+      "judgment"
+    ],
+    "label": "users, number, com"
+  },
+  {
+    "topic_id": 2,
+    "document_count": 18,
+    "britannica_entries": 18,
+    "wikipedia_articles": 0,
+    "top_terms_britannica": [
+      "water",
+      "acid",
+      "quantity",
+      "time",
+      "matter",
+      "form"
+    ],
+    "top_terms_wikipedia": [],
+    "label": "water, acid"
+  },
+  {
+    "topic_id": 3,
+    "document_count": 19,
+    "britannica_entries": 0,
+    "wikipedia_articles": 19,
+    "top_terms_britannica": [],
+    "top_terms_wikipedia": [
+      "edition",
+      "britannica",
+      "articles",
+      "volumes",
+      "dia",
+      "pages"
+    ],
+    "label": "edition, britannica"
+  },
+  {
+    "topic_id": 4,
+    "document_count": 12,
+    "britannica_entries": 6,
+    "wikipedia_articles": 6,
+    "top_terms_britannica": [
+      "blow-pipe",
+      "captain",
+      "flame",
+      "time",
+      "platina",
+      "many"
+    ],
+    "top_terms_wikipedia": [
+      "magnetic",
+      "magnet",
+      "magnets",
+      "field",
+      "fur",
+      "nitrification"
+    ],
+    "label": "blow-pipe, captain, magnetic"
+  },
+  {
+    "topic_id": 5,
+    "document_count": 28,
+    "britannica_entries": 24,
+    "wikipedia_articles": 4,
+    "top_terms_britannica": [
+      "every",
+      "people",
+      "upon",
+      "rays",
+      "great",
+      "part"
+    ],
+    "top_terms_wikipedia": [
+      "mean",
+      "arithmetic",
+      "trigonometric",
+      "displaystyle",
+      "zephaniah",
+      "phar-mor"
+    ],
+    "label": "every, people, mean"
+  },
+  {
+    "topic_id": 6,
+    "document_count": 5,
+    "britannica_entries": 0,
+    "wikipedia_articles": 5,
+    "top_terms_britannica": [],
+    "top_terms_wikipedia": [
+      "music",
+      "erzincan",
+      "folk",
+      "race",
+      "turkish",
+      "human"
+    ],
+    "label": "music, erzincan"
+  },
+  {
+    "topic_id": 7,
+    "document_count": 30,
+    "britannica_entries": 25,
+    "wikipedia_articles": 5,
+    "top_terms_britannica": [
+      "see",
+      "upon",
+      "great",
+      "king",
+      "brit",
+      "made"
+    ],
+    "top_terms_wikipedia": [
+      "textstyle",
+      "lyre",
+      "lyres",
+      "displaystyle",
+      "lexisnexis",
+      "leq"
+    ],
+    "label": "see, upon, textstyle"
+  }
+]

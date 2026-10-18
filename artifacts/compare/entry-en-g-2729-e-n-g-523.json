@@ -1,0 +1,243 @@
+{
+  "entry_id": "entry-en-g-2729-e-n-g-523",
+  "britannica_title": "EN G  2729 E N G",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:523"
+  ],
+  "britannica_sha256": "9f80db1e2496c3fc64fb1cacd73923c1079321826f20ed38d45ffdc29bbe8790",
+  "britannica_raw_chars": 6393,
+  "britannica_tokens": 555,
+  "britannica_unique_tokens": 461,
+  "wikipedia_page_id": "25608236",
+  "wikipedia_revision_id": "1244088725",
+  "wikipedia_title": "Sonderend River",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Sonderend_River",
+  "wikipedia_text_sha256": "288a4143e4e9a4dcd3192fd11af52bca493a3771feaf95676c721e58c2860ab9",
+  "wikipedia_raw_chars": 647,
+  "wikipedia_tokens": 63,
+  "wikipedia_unique_tokens": 50,
+  "length_ratio": 0.101,
+  "text_changes": [
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "endlefs",
+      "replacement": "endless",
+      "count": 2,
+      "samples": [
+        "thors mention endlefs rolls, the end",
+        "efs rolls, the endlefs frewy &.\n\nEngl"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "faid",
+      "replacement": "said",
+      "count": 1,
+      "samples": [
+        "n heraldry, is faid of things born"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fetting",
+      "replacement": "setting",
+      "count": 2,
+      "samples": [
+        "w, denotes the fetting a dower on a w",
+        "uratively, for fetting a provilion up"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fomething",
+      "replacement": "something",
+      "count": 1,
+      "samples": [
+        "ENDLESS, fomething without an end"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fometime",
+      "replacement": "sometime",
+      "count": 1,
+      "samples": [
+        "DERING, a term fometime ufed for the a"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fupplied",
+      "replacement": "supplied",
+      "count": 1,
+      "samples": [
+        "uld not fpeks, fupplied the defect by"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "perfons",
+      "replacement": "persons",
+      "count": 1,
+      "samples": [
+        "church-hitory, perfons lip- pdfet to"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "raife",
+      "replacement": "raise",
+      "count": 1,
+      "samples": [
+        ", a machine to raife water by fire,"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "reafon",
+      "replacement": "reason",
+      "count": 1,
+      "samples": [
+        "tst by England reafon of the ingenui"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "ufed",
+      "replacement": "used",
+      "count": 4,
+      "samples": [
+        "emetimes it is ufed, fi- gurativel",
+        "ng. It is alfo ufed, figarratively",
+        "art of war, is ufed in freak- ing",
+        "term fometime ufed for the act of"
+      ]
+    }
+  ],
+  "metrics": {
+    "jaccard_raw": 0.0098,
+    "jaccard_normalized": 0.0099,
+    "cosine_tfidf": 0.0856,
+    "cosine_embedding": 0.1702,
+    "distinctive_britannica": [
+      "place",
+      "upon",
+      "see",
+      "engine",
+      "care",
+      "england",
+      "others",
+      "law",
+      "north",
+      "inhabited",
+      "people",
+      "sufficient",
+      "miles",
+      "northern",
+      "taking"
+    ],
+    "distinctive_wikipedia": [
+      "river",
+      "referred",
+      "india",
+      "east",
+      "main",
+      "likely",
+      "ten",
+      "edition",
+      "dutch",
+      "derived",
+      "south",
+      "province",
+      "western",
+      "fine",
+      "village"
+    ],
+    "shared_terms": [
+      "end",
+      "endless",
+      "latin",
+      "water",
+      "without"
+    ]
+  },
+  "aligned_chunks": [
+    {
+      "britannica_chunk_index": 0,
+      "wikipedia_chunk_index": 0,
+      "similarity": 0.199,
+      "britannica_excerpt": "ENDLESS, something without an end: thus au- thors mention endless rolls, the endless frewy &.\n\nEnglos\n\nENDORSE, in heraldry, or ordinary, containing the eighth of a pale, which Legie faya is only ufel when a pale at between two of them.\n\nEN",
+      "wikipedia_excerpt": "The Sonderend River, also known as the Riviersonderend (Afrikaans for River without an end), is a main tributary of the Breede River, located in Western Cape Province, South Africa. The village of Riviersonderend is believed to have taken i"
+    },
+    {
+      "britannica_chunk_index": 1,
+      "wikipedia_chunk_index": 0,
+      "similarity": 0.1539,
+      "britannica_excerpt": "ENDYMON, the 1zth king of Elia. Being ex- pelled his kingdom, he retired into Caria to mount Lat-mos, where he fluded the bewenly bodies, but chiefly the moo's which gave rise to the false of the poets, that he was beloved by the moo, who v",
+      "wikipedia_excerpt": "The Sonderend River, also known as the Riviersonderend (Afrikaans for River without an end), is a main tributary of the Breede River, located in Western Cape Province, South Africa. The village of Riviersonderend is believed to have taken i"
+    },
+    {
+      "britannica_chunk_index": 10,
+      "wikipedia_chunk_index": 0,
+      "similarity": 0.1318,
+      "britannica_excerpt": "England, including the principality of Wales, when inhabited it invaded by the Romans, was divided into a petty by six dir flatter. 1. The Damonnic, called allo Duronomi and green ins- domonic, Danoniis, inhabiting the counties of Cornwall ",
+      "wikipedia_excerpt": "The Sonderend River, also known as the Riviersonderend (Afrikaans for River without an end), is a main tributary of the Breede River, located in Western Cape Province, South Africa. The village of Riviersonderend is believed to have taken i"
+    }
+  ],
+  "topic_id": 7,
+  "topic_terms": [
+    "see",
+    "upon",
+    "great"
+  ],
+  "claims": [
+    {
+      "claim_text": "The Britannica entry \"EN G  2729 E N G\" uses 555 content tokens while the Wikipedia article \"Sonderend River\" uses 63; their normalized vocabularies share a Jaccard overlap of 0.0099 (raw 0.0098) and a TF-IDF cosine similarity of 0.0856.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:523"
+      ],
+      "britannica_quote": "ENDLESS, fomething without an end: thus au- thors mention endlefs rolls, the endlefs frewy &.\n\nEnglos\n\nENDORSE, in heraldry, or ordinary, containing the eighth of a pale, which Legie faya is only ufel when a pale at between two of them.\n\nEN",
+      "wikipedia_page_id": "25608236",
+      "wikipedia_revision_id": "1244088725",
+      "wikipedia_quote": "The Sonderend River, also known as the Riviersonderend (Afrikaans for River without an end), is a main tributary of the Breede River, located in Western Cape Province, South Africa. The village of Riviersonderend is believed to have taken i"
+    },
+    {
+      "claim_text": "Britannica's most distinctive term is \"place\"; Wikipedia's is \"river\", showing the era-specific vocabulary of each source.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:523"
+      ],
+      "britannica_quote": "ENTILADE, in the art of war, is ufed in freak- ing of treencies, or other places, which may be four- ed by the enemy’s first along their whole length.",
+      "wikipedia_page_id": "25608236",
+      "wikipedia_revision_id": "1244088725",
+      "wikipedia_quote": "The Sonderend River, also known as the Riviersonderend (Afrikaans for River without an end), is a main tributary of the Breede River, located in Western Cape Province, South Africa."
+    },
+    {
+      "claim_text": "Both sources share core vocabulary including: end, endless, latin, water, without.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:523"
+      ],
+      "britannica_quote": "ENDLESS, fomething without an end: thus au- thors mention endlefs rolls, the endlefs frewy &.",
+      "wikipedia_page_id": "25608236",
+      "wikipedia_revision_id": "1244088725",
+      "wikipedia_quote": "The Sonderend River, also known as the Riviersonderend (Afrikaans for River without an end), is a main tributary of the Breede River, located in Western Cape Province, South Africa."
+    },
+    {
+      "claim_text": "10 normalization rules fired on the Britannica text (\"endlefs\" -> \"endless\"; \"faid\" -> \"said\"; \"fetting\" -> \"setting\"); residual vocabulary differences likely reflect era terminology rather than OCR noise alone.",
+      "claim_type": "inference",
+      "label": "[inference]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:523"
+      ],
+      "britannica_quote": "thors mention endlefs rolls, the end",
+      "wikipedia_page_id": "25608236",
+      "wikipedia_revision_id": "1244088725",
+      "wikipedia_quote": "The Sonderend River, also known as the Riviersonderend (Afrikaans for River without an end), is a main tributary of the Breede River, located in Western Cape Province, South Africa. The village of Riviersonderend is believed to have taken i"
+    }
+  ]
+}

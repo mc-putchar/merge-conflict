@@ -1,0 +1,184 @@
+{
+  "entry_id": "entry-chap-vi-of-the-senses-and-their-organs-2277",
+  "britannica_title": "CHAP VI OF THE SENSES AND THEIR ORGANS",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2277"
+  ],
+  "britannica_sha256": "57ae199275cb96896a6e39aa0c11df11c11e6db2afb1e74d0c22be3f4d13256d",
+  "britannica_raw_chars": 4024,
+  "britannica_tokens": 327,
+  "britannica_unique_tokens": 238,
+  "wikipedia_page_id": "80006684",
+  "wikipedia_revision_id": "1350738767",
+  "wikipedia_title": "\"Good chap\" theory",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/%22Good_chap%22_theory",
+  "wikipedia_text_sha256": "112697d87f1e89b019ca74b9f1b7a596fe9860a33f14a2900107255d4b1b4606",
+  "wikipedia_raw_chars": 4600,
+  "wikipedia_tokens": 403,
+  "wikipedia_unique_tokens": 278,
+  "length_ratio": 1.143,
+  "text_changes": [
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fears",
+      "replacement": "sears",
+      "count": 1,
+      "samples": [
+        "o their lives, fears us imply not o"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "feeds",
+      "replacement": "seeds",
+      "count": 1,
+      "samples": [
+        "nerves.\n\nThis feeds of safe is fac"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fide",
+      "replacement": "side",
+      "count": 2,
+      "samples": [
+        "hat lie on the fide of the neck an",
+        "livare, in the fide of the medulla"
+      ]
+    }
+  ],
+  "metrics": {
+    "jaccard_raw": 0.0258,
+    "jaccard_normalized": 0.0258,
+    "cosine_tfidf": 0.0241,
+    "cosine_embedding": -0.0039,
+    "distinctive_britannica": [
+      "part",
+      "formed",
+      "nerves",
+      "eighth",
+      "inferior",
+      "body",
+      "large",
+      "neck",
+      "upon",
+      "tongue",
+      "commonly",
+      "middle",
+      "figure",
+      "side",
+      "certain"
+    ],
+    "distinctive_wikipedia": [
+      "good",
+      "british",
+      "power",
+      "principle",
+      "political",
+      "former",
+      "constitution",
+      "hennessy",
+      "even",
+      "idea",
+      "andrew",
+      "information",
+      "chaps",
+      "written",
+      "civil"
+    ],
+    "shared_terms": [
+      "accepted",
+      "different",
+      "every",
+      "general",
+      "great",
+      "lie",
+      "matter",
+      "political",
+      "proper",
+      "properly",
+      "show",
+      "trusted",
+      "within"
+    ]
+  },
+  "aligned_chunks": [
+    {
+      "britannica_chunk_index": 0,
+      "wikipedia_chunk_index": 4,
+      "similarity": 0.1857,
+      "britannica_excerpt": "A N A T O M Y.",
+      "wikipedia_excerpt": "ritten rules are and wanting to adhere to them, even if doing so might frustrate the attainment of their policy objectives, party political goals, or personal ambitions – the argument being that ‘good chaps’ (of different sexes) know where "
+    },
+    {
+      "britannica_chunk_index": 4,
+      "wikipedia_chunk_index": 4,
+      "similarity": 0.158,
+      "britannica_excerpt": "141 In this feature of touch may be defined to be the faculty of diltinguling certain properties of bodies by the feel. In a general accepted, this definition might perhaps not properly be extended to every part of the body political of ide",
+      "wikipedia_excerpt": "ritten rules are and wanting to adhere to them, even if doing so might frustrate the attainment of their policy objectives, party political goals, or personal ambitions – the argument being that ‘good chaps’ (of different sexes) know where "
+    },
+    {
+      "britannica_chunk_index": 3,
+      "wikipedia_chunk_index": 4,
+      "similarity": 0.093,
+      "britannica_excerpt": "140 IN treating of the feeling, we mean to confine ourselves to the external ones of touch, triple, fineing, hearing, and vision. The word [only], when applied to their lives, sears us imply not only the forlation occurred in the limited by",
+      "wikipedia_excerpt": "ritten rules are and wanting to adhere to them, even if doing so might frustrate the attainment of their policy objectives, party political goals, or personal ambitions – the argument being that ‘good chaps’ (of different sexes) know where "
+    }
+  ],
+  "topic_id": 5,
+  "topic_terms": [
+    "every",
+    "people",
+    "upon"
+  ],
+  "claims": [
+    {
+      "claim_text": "The Britannica entry \"CHAP VI OF THE SENSES AND THEIR ORGANS\" uses 327 content tokens while the Wikipedia article \"\"Good chap\" theory\" uses 403; their normalized vocabularies share a Jaccard overlap of 0.0258 (raw 0.0258) and a TF-IDF cosine similarity of 0.0241.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2277"
+      ],
+      "britannica_quote": "A N A T O M Y.\n\nOf the muticles 12 12, The first cervical nerves; 13 13, The Brain and femoral cervical nerves both front upon in muticles that lie on the neck, and teguration of the neck and head. 14 14. The third cervical nerves, which af",
+      "wikipedia_page_id": "80006684",
+      "wikipedia_revision_id": "1350738767",
+      "wikipedia_quote": "The \"good chap\" theory is a fundamental principle in British political culture, identified by the political historian Peter Hennessy. The \"good chap\" principle is expressed in the idea that ministers and civil servants recognize unwritten r"
+    },
+    {
+      "claim_text": "Britannica's most distinctive term is \"part\"; Wikipedia's is \"good\", showing the era-specific vocabulary of each source.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2277"
+      ],
+      "britannica_quote": "18 18, The five lumbar part of the nerves, which puppy the lumbar and abdominal muscles, and forms of the tegurism and mufles of the inferior extremity.",
+      "wikipedia_page_id": "80006684",
+      "wikipedia_revision_id": "1350738767",
+      "wikipedia_quote": "The \"good chap\" theory is a fundamental principle in British political culture, identified by the political historian Peter Hennessy."
+    },
+    {
+      "claim_text": "Both sources share core vocabulary including: accepted, different, every, general, great.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2277"
+      ],
+      "britannica_quote": "In a general accepted, this definition might perhaps not properly be extended to every part of the body political of identifying (又), it is commonly combined to the nervous pupils, and consequently of exciting differences in the fenision co",
+      "wikipedia_page_id": "80006684",
+      "wikipedia_revision_id": "1350738767",
+      "wikipedia_quote": "Former British prime minister Boris Johnson became a symbol of an outlier to the \"good chap\", both in the broad sense – using his political power beyond accepted norms – and specifically regarding the publication of sensitive information, a"
+    },
+    {
+      "claim_text": "3 normalization rules fired on the Britannica text (\"fears\" -> \"sears\"; \"feeds\" -> \"seeds\"; \"fide\" -> \"side\"); residual vocabulary differences likely reflect era terminology rather than OCR noise alone.",
+      "claim_type": "inference",
+      "label": "[inference]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2277"
+      ],
+      "britannica_quote": "o their lives, fears us imply not o",
+      "wikipedia_page_id": "80006684",
+      "wikipedia_revision_id": "1350738767",
+      "wikipedia_quote": "The \"good chap\" theory is a fundamental principle in British political culture, identified by the political historian Peter Hennessy. The \"good chap\" principle is expressed in the idea that ministers and civil servants recognize unwritten r"
+    }
+  ]
+}

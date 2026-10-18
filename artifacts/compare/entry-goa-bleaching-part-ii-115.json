@@ -1,0 +1,384 @@
+{
+  "entry_id": "entry-goa-bleaching-part-ii-115",
+  "britannica_title": "goa BLEACHING Part II",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:115"
+  ],
+  "britannica_sha256": "6a9228cc8a2e34a21a8ed4fcfcc73426488eda357a50213c0290c8e2e4a01fc5",
+  "britannica_raw_chars": 6765,
+  "britannica_tokens": 561,
+  "britannica_unique_tokens": 436,
+  "wikipedia_page_id": "9461242",
+  "wikipedia_revision_id": "1305826570",
+  "wikipedia_title": "Wallsuches",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Wallsuches",
+  "wikipedia_text_sha256": "1c1e6e14d7ca588ff526e5f9c9ef624729d2d7171c312f273e51a2709a2f3b7a",
+  "wikipedia_raw_chars": 1979,
+  "wikipedia_tokens": 177,
+  "wikipedia_unique_tokens": 135,
+  "length_ratio": 0.293,
+  "text_changes": [
+    {
+      "rule": "archaic_spelling",
+      "original": "colour",
+      "replacement": "color",
+      "count": 2,
+      "samples": [
+        "at perfiles an colour\nfoilingcasting",
+        "he control its colour without defray"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "breath-\ntion",
+      "replacement": "breathtion",
+      "count": 1,
+      "samples": [
+        "breath-\ntion"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "con-\nference",
+      "replacement": "conference",
+      "count": 1,
+      "samples": [
+        "con-\nference"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "ex-\npetience",
+      "replacement": "expetience",
+      "count": 1,
+      "samples": [
+        "ex-\npetience"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "excl-\nend",
+      "replacement": "exclend",
+      "count": 1,
+      "samples": [
+        "excl-\nend"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "inconven-\nmence",
+      "replacement": "inconvenmence",
+      "count": 1,
+      "samples": [
+        "inconven-\nmence"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "like-\nwite",
+      "replacement": "likewite",
+      "count": 1,
+      "samples": [
+        "like-\nwite"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "man-\ntion",
+      "replacement": "mantion",
+      "count": 1,
+      "samples": [
+        "man-\ntion"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "po-\nper",
+      "replacement": "poper",
+      "count": 1,
+      "samples": [
+        "po-\nper"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "po-\nttery",
+      "replacement": "pottery",
+      "count": 1,
+      "samples": [
+        "po-\nttery"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "pre-\nvent",
+      "replacement": "prevent",
+      "count": 1,
+      "samples": [
+        "pre-\nvent"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "precut-\nly",
+      "replacement": "precutly",
+      "count": 1,
+      "samples": [
+        "Precut-\nly"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "re-\ntort",
+      "replacement": "retort",
+      "count": 1,
+      "samples": [
+        "re-\ntort"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "re-\nviser",
+      "replacement": "reviser",
+      "count": 1,
+      "samples": [
+        "re-\nviser"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "roll-\ning",
+      "replacement": "rolling",
+      "count": 1,
+      "samples": [
+        "roll-\ning"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "sec-\ncillary",
+      "replacement": "seccillary",
+      "count": 1,
+      "samples": [
+        "sec-\ncillary"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "un-\nleft",
+      "replacement": "unleft",
+      "count": 1,
+      "samples": [
+        "un-\nleft"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "un-\nthe",
+      "replacement": "unthe",
+      "count": 1,
+      "samples": [
+        "un-\nthe"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "cafe",
+      "replacement": "case",
+      "count": 1,
+      "samples": [
+        "able, in which cafe the rifk is\nle"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "effential",
+      "replacement": "essential",
+      "count": 1,
+      "samples": [
+        "better. It is effential, however, that"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fet",
+      "replacement": "set",
+      "count": 1,
+      "samples": [
+        "uires a double\nfet of veffels.\n\n2"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "flowly",
+      "replacement": "slowly",
+      "count": 1,
+      "samples": [
+        "fill\ncontinue flowly to escape, fro"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "loft",
+      "replacement": "lost",
+      "count": 1,
+      "samples": [
+        "is not only a loft of power, but"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "rifk",
+      "replacement": "risk",
+      "count": 1,
+      "samples": [
+        "which cafe the rifk is\nleft. But i"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "veffels",
+      "replacement": "vessels",
+      "count": 2,
+      "samples": [
+        "double\nfet of veffels.\n\n211. When th",
+        "rendering the veffels for immersion"
+      ]
+    }
+  ],
+  "metrics": {
+    "jaccard_raw": 0.0249,
+    "jaccard_normalized": 0.0251,
+    "cosine_tfidf": 0.0467,
+    "cosine_embedding": 0.0643,
+    "distinctive_britannica": [
+      "place",
+      "acid",
+      "left",
+      "water",
+      "neck",
+      "hand",
+      "matter",
+      "immediately",
+      "hours",
+      "quantity",
+      "quality",
+      "entirely",
+      "taken",
+      "prevent",
+      "gas"
+    ],
+    "distinctive_wikipedia": [
+      "works",
+      "thomas",
+      "main",
+      "became",
+      "wallsuches",
+      "horwich",
+      "area",
+      "english",
+      "house",
+      "using",
+      "bleach",
+      "access",
+      "site",
+      "highly",
+      "provide"
+    ],
+    "shared_terms": [
+      "bleaching",
+      "due",
+      "fire",
+      "former",
+      "good",
+      "greater",
+      "manchester",
+      "power",
+      "several",
+      "six",
+      "small",
+      "still",
+      "time",
+      "water"
+    ]
+  },
+  "aligned_chunks": [
+    {
+      "britannica_chunk_index": 5,
+      "wikipedia_chunk_index": 2,
+      "similarity": 0.1904,
+      "britannica_excerpt": "left. But if the average of building should then reviser that the fans veffle be uful without entirely\n\nclearing them, it will be exceedingly to range this exclend matter on one side, where it will be led exposed\n\nto the heat, and will affo",
+      "wikipedia_excerpt": "ccessful, and by 1780 the former shippon and hut had been converted into a bleach works powered by six water wheels."
+    },
+    {
+      "britannica_chunk_index": 0,
+      "wikipedia_chunk_index": 2,
+      "similarity": 0.189,
+      "britannica_excerpt": "Vegetable time, and repasted proofs of the good quality of the\n\nfluid. At the end of eight more difficult I drew\n\n250. \"The fire muff be taken from beneath the retort as soon as the definition a fabulist, not only to\n\nprevent the effect of ",
+      "wikipedia_excerpt": "ccessful, and by 1780 the former shippon and hut had been converted into a bleach works powered by six water wheels."
+    },
+    {
+      "britannica_chunk_index": 8,
+      "wikipedia_chunk_index": 3,
+      "similarity": 0.1792,
+      "britannica_excerpt": "49. By dividing in the water dome fadition\n\nwhich has the property to fit penetrating the acid\n\nto the control its color without defraying its bleaching\n\nquality to any considerable degrees.\n\n57. Mr Marup of Manchester contributed a tuɓ for",
+      "wikipedia_excerpt": "The Ridgways lived across the main access road from the works in a house called \"Whitehouse\", which they renamed \"Ridgmont House\", which still stands. Thomas Ridgmont sponsored French chemists Matthew Vallet and Anthony Bourboulon de Boneui"
+    }
+  ],
+  "topic_id": 2,
+  "topic_terms": [
+    "water",
+    "acid",
+    "quantity"
+  ],
+  "claims": [
+    {
+      "claim_text": "The Britannica entry \"goa BLEACHING Part II\" uses 569 content tokens while the Wikipedia article \"Wallsuches\" uses 177; their normalized vocabularies share a Jaccard overlap of 0.0251 (raw 0.0249) and a TF-IDF cosine similarity of 0.0467.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:115"
+      ],
+      "britannica_quote": "Vegetable time, and repasted proofs of the good quality of the \nfluid. At the end of eight more difficult I drew\n\n250. \"The fire muff be taken from beneath the re-\ntort as soon as the definition a fabulist, not only to\nprevent the effect of",
+      "wikipedia_page_id": "9461242",
+      "wikipedia_revision_id": "1305826570",
+      "wikipedia_quote": "Wallsuches is a small district of Horwich, Greater Manchester, England.\n\nThe origin of the place-name itself is unclear, although it is believed the name may be from Old English wella (or the regional dialect variant wella) \"stream\" and soc"
+    },
+    {
+      "claim_text": "Britannica's most distinctive term is \"place\"; Wikipedia's is \"works\", showing the era-specific vocabulary of each source.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:115"
+      ],
+      "britannica_quote": "again to its place as well as the application of the lins",
+      "wikipedia_page_id": "9461242",
+      "wikipedia_revision_id": "1305826570",
+      "wikipedia_quote": "owned a bleach works in Bolton until 1770 when a fire destroyed most of the stock and equipment."
+    },
+    {
+      "claim_text": "Both sources share core vocabulary including: bleaching, due, fire, former, good.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:115"
+      ],
+      "britannica_quote": "to the control its colour without defraying its bleaching",
+      "wikipedia_page_id": "9461242",
+      "wikipedia_revision_id": "1305826570",
+      "wikipedia_quote": "Thomas Ridgmont sponsored French chemists Matthew Vallet and Anthony Bourboulon de Boneuil who pioneered the development of chemical bleaching, using chlorine and Wallsuches became one of the first to use the technology."
+    },
+    {
+      "claim_text": "25 normalization rules fired on the Britannica text (\"colour\" -> \"color\"; \"breath-\ntion\" -> \"breathtion\"; \"con-\nference\" -> \"conference\"); residual vocabulary differences likely reflect era terminology rather than OCR noise alone.",
+      "claim_type": "inference",
+      "label": "[inference]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:115"
+      ],
+      "britannica_quote": "at perfiles an colour\nfoilingcasting",
+      "wikipedia_page_id": "9461242",
+      "wikipedia_revision_id": "1305826570",
+      "wikipedia_quote": "Wallsuches is a small district of Horwich, Greater Manchester, England.\n\nThe origin of the place-name itself is unclear, although it is believed the name may be from Old English wella (or the regional dialect variant wella) \"stream\" and soc"
+    }
+  ]
+}

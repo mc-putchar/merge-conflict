@@ -1,0 +1,273 @@
+{
+  "entry_id": "entry-britannica-volume-193108316-row-2093-2093",
+  "britannica_title": "Britannica Volume 193108316 Row 2093",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2093"
+  ],
+  "britannica_sha256": "1a6454bae4fa5af85d5fd70033c3538f9ab7757240783acdb3f9c2e72d075a4a",
+  "britannica_raw_chars": 6919,
+  "britannica_tokens": 579,
+  "britannica_unique_tokens": 482,
+  "wikipedia_page_id": "9004976",
+  "wikipedia_revision_id": "1340071003",
+  "wikipedia_title": "History of the Encyclopædia Britannica",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/History_of_the_Encyclop%C3%A6dia_Britannica",
+  "wikipedia_text_sha256": "64dd89242f04b3e591115caca56a86f50c9129e1ec3650be302ee2bca6f05eb1",
+  "wikipedia_raw_chars": 71820,
+  "wikipedia_tokens": 5909,
+  "wikipedia_unique_tokens": 2368,
+  "length_ratio": 10.38,
+  "text_changes": [
+    {
+      "rule": "archaic_spelling",
+      "original": "labour",
+      "replacement": "labor",
+      "count": 1,
+      "samples": [
+        "and couctifine labour and fatigue up"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "acuin-\n\ntur",
+      "replacement": "acuintur",
+      "count": 1,
+      "samples": [
+        "acuin-\n\ntur"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "cru-\nfes",
+      "replacement": "crufes",
+      "count": 1,
+      "samples": [
+        "cru-\nfes"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "do-\njed",
+      "replacement": "dojed",
+      "count": 1,
+      "samples": [
+        "do-\njed"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "ex-\nerdles",
+      "replacement": "exerdles",
+      "count": 1,
+      "samples": [
+        "ex-\nerdles"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "fac-\nplus",
+      "replacement": "facplus",
+      "count": 1,
+      "samples": [
+        "fac-\nplus"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "fun-\ntive",
+      "replacement": "funtive",
+      "count": 1,
+      "samples": [
+        "fun-\ntive"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "me-\nble",
+      "replacement": "meble",
+      "count": 1,
+      "samples": [
+        "me-\nble"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "vary-\ning",
+      "replacement": "varying",
+      "count": 1,
+      "samples": [
+        "vary-\ning"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "few",
+      "replacement": "sew",
+      "count": 1,
+      "samples": [
+        "he good of the few themes, which"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fines",
+      "replacement": "sines",
+      "count": 2,
+      "samples": [
+        "r probability, fines we meet every",
+        "ci Herme estos fines polulis :its u"
+      ]
+    }
+  ],
+  "metrics": {
+    "jaccard_raw": 0.0508,
+    "jaccard_normalized": 0.0505,
+    "cosine_tfidf": 0.0338,
+    "cosine_embedding": 0.1191,
+    "distinctive_britannica": [
+      "kind",
+      "agreeable",
+      "common",
+      "certain",
+      "feeling",
+      "variety",
+      "nature",
+      "great",
+      "means",
+      "mind",
+      "call",
+      "degree",
+      "every",
+      "family",
+      "fields"
+    ],
+    "distinctive_wikipedia": [
+      "edition",
+      "britannica",
+      "articles",
+      "volumes",
+      "pages",
+      "dia",
+      "volume",
+      "published",
+      "supplement",
+      "article",
+      "encyclopedia",
+      "third",
+      "encyclop",
+      "fourth",
+      "page"
+    ],
+    "shared_terms": [
+      "able",
+      "according",
+      "agree",
+      "almost",
+      "already",
+      "although",
+      "always",
+      "another",
+      "attention",
+      "authorized",
+      "avoid",
+      "better",
+      "business",
+      "called",
+      "cannot",
+      "cold",
+      "come",
+      "conditions",
+      "continued",
+      "country",
+      "cure",
+      "day",
+      "decided",
+      "degree",
+      "devoted",
+      "different",
+      "difficulties",
+      "distribution",
+      "even",
+      "every"
+    ]
+  },
+  "aligned_chunks": [
+    {
+      "britannica_chunk_index": 3,
+      "wikipedia_chunk_index": 68,
+      "similarity": 0.4358,
+      "britannica_excerpt": "ing agreeable, that they are often diguling. The most decided plutton canus always fulfill a language fails.",
+      "wikipedia_excerpt": "the individual articles."
+    },
+    {
+      "britannica_chunk_index": 5,
+      "wikipedia_chunk_index": 68,
+      "similarity": 0.2873,
+      "britannica_excerpt": "mas, cercifin, vi de es fehlt, et annon et corporti — D'Addin, five asimií five corporais antirigue vies languefuct) ni mini sarecrisions hind minu benefutur. Statute provadi term paresv, ut fingularme porttima, et uni- verdi corpus anisimi",
+      "wikipedia_excerpt": "the individual articles."
+    },
+    {
+      "britannica_chunk_index": 1,
+      "wikipedia_chunk_index": 68,
+      "similarity": 0.2776,
+      "britannica_excerpt": "Seules.\n\nThere’s _de terit-_\n\n_meregé ahle._\n\nFrom time of the foregoing remarks we alle for that \"natural power and does to use the frequency and excellence of our mental facilities into forgetting so that ites ought to cultivate them well",
+      "wikipedia_excerpt": "the individual articles."
+    }
+  ],
+  "topic_id": 5,
+  "topic_terms": [
+    "every",
+    "people",
+    "upon"
+  ],
+  "claims": [
+    {
+      "claim_text": "The Britannica entry \"Britannica Volume 193108316 Row 2093\" uses 583 content tokens while the Wikipedia article \"History of the Encyclopædia Britannica\" uses 5909; their normalized vocabularies share a Jaccard overlap of 0.0505 (raw 0.0508) and a TF-IDF cosine similarity of 0.0338.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2093"
+      ],
+      "britannica_quote": "S E N T I ST J SEN\n\nwe houls the truth of fish felt, we must all tell an -\nknowledge their probability, fines we meet every day with a number of similar examples. When we fee a\nchodply to develop numerical in thoughts to be in a\nmoment let ",
+      "wikipedia_page_id": "9004976",
+      "wikipedia_revision_id": "1340071003",
+      "wikipedia_quote": "The Encyclopædia Britannica has been published continuously since 1768, appearing in fifteen official editions. Several editions were amended with multi-volume \"supplements\" (3rd, 4th/5th/6th), several consisted of previous editions with ad"
+    },
+    {
+      "claim_text": "Britannica's most distinctive term is \"kind\"; Wikipedia's is \"edition\", showing the era-specific vocabulary of each source.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2093"
+      ],
+      "britannica_quote": "Helden the circumstances already noticed, there are other all ways different kind, who have the conferderable influence on the pleasures of the fruits ; such as different conditions of the whole he's, particularly of the nerves, or certain ",
+      "wikipedia_page_id": "9004976",
+      "wikipedia_revision_id": "1340071003",
+      "wikipedia_quote": "The Encyclopædia Britannica has been published continuously since 1768, appearing in fifteen official editions."
+    },
+    {
+      "claim_text": "Both sources share core vocabulary including: able, according, agree, almost, already.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2093"
+      ],
+      "britannica_quote": "But, although the pleasure are has nature rendered is a great degree independent of surfaces, fill you have a in our power to make more all more durable by vary-",
+      "wikipedia_page_id": "9004976",
+      "wikipedia_revision_id": "1340071003",
+      "wikipedia_quote": "Since the early 1930s, the Britannica has developed \"spin-off\" products to leverage its reputation as a reliable reference work and educational tool."
+    },
+    {
+      "claim_text": "11 normalization rules fired on the Britannica text (\"labour\" -> \"labor\"; \"acuin-\n\ntur\" -> \"acuintur\"; \"cru-\nfes\" -> \"crufes\"); residual vocabulary differences likely reflect era terminology rather than OCR noise alone.",
+      "claim_type": "inference",
+      "label": "[inference]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2093"
+      ],
+      "britannica_quote": "and couctifine labour and fatigue up",
+      "wikipedia_page_id": "9004976",
+      "wikipedia_revision_id": "1340071003",
+      "wikipedia_quote": "The Encyclopædia Britannica has been published continuously since 1768, appearing in fifteen official editions. Several editions were amended with multi-volume \"supplements\" (3rd, 4th/5th/6th), several consisted of previous editions with ad"
+    }
+  ]
+}

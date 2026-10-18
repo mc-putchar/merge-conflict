@@ -1,0 +1,468 @@
+{
+  "entry_id": "entry-swi-248-syd-251",
+  "britannica_title": "SWI  248 SYD",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:251"
+  ],
+  "britannica_sha256": "fc8f7d3b01554ac757ffa338ce00e633476267f77164f008497e7ac5d1cbabfc",
+  "britannica_raw_chars": 7581,
+  "britannica_tokens": 644,
+  "britannica_unique_tokens": 570,
+  "wikipedia_page_id": "1287439",
+  "wikipedia_revision_id": "1320812045",
+  "wikipedia_title": "SWI",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/SWI",
+  "wikipedia_text_sha256": "319f5540a5277f4efaa5c7a33275c8f4c73f1deef9ce2422cb44371176917f28",
+  "wikipedia_raw_chars": 874,
+  "wikipedia_tokens": 85,
+  "wikipedia_unique_tokens": 73,
+  "length_ratio": 0.115,
+  "text_changes": [
+    {
+      "rule": "archaic_spelling",
+      "original": "favour",
+      "replacement": "favor",
+      "count": 1,
+      "samples": [
+        "lance in their favour. In fome\nparts"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "a-\nmong",
+      "replacement": "among",
+      "count": 1,
+      "samples": [
+        "a-\nmong"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "a-\ntheman",
+      "replacement": "atheman",
+      "count": 1,
+      "samples": [
+        "A-\ntheman"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "according-\nly",
+      "replacement": "accordingly",
+      "count": 1,
+      "samples": [
+        "according-\nly"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "ali-\nance",
+      "replacement": "aliance",
+      "count": 1,
+      "samples": [
+        "ali-\nance"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "atce-\nbridge",
+      "replacement": "atcebridge",
+      "count": 1,
+      "samples": [
+        "atce-\nbridge"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "ba-\nros",
+      "replacement": "baros",
+      "count": 1,
+      "samples": [
+        "ba-\nros"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "caf-\nsible",
+      "replacement": "cafsible",
+      "count": 1,
+      "samples": [
+        "caf-\nsible"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "con-\ntained",
+      "replacement": "contained",
+      "count": 1,
+      "samples": [
+        "con-\ntained"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "cor-\ntune",
+      "replacement": "cortune",
+      "count": 1,
+      "samples": [
+        "cor-\ntune"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "corti-\nnued",
+      "replacement": "cortinued",
+      "count": 1,
+      "samples": [
+        "corti-\nnued"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "dur-\ngans",
+      "replacement": "durgans",
+      "count": 1,
+      "samples": [
+        "Dur-\ngans"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "efpec-\nically",
+      "replacement": "efpecically",
+      "count": 1,
+      "samples": [
+        "efpec-\nically"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "fer-\nating",
+      "replacement": "ferating",
+      "count": 1,
+      "samples": [
+        "fer-\nating"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "fever-\nalters",
+      "replacement": "feveralters",
+      "count": 1,
+      "samples": [
+        "fever-\nalters"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "final-\npx",
+      "replacement": "finalpx",
+      "count": 1,
+      "samples": [
+        "final-\npx"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "for-\nmetly",
+      "replacement": "formetly",
+      "count": 1,
+      "samples": [
+        "For-\nmetly"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "manu-\nfactures",
+      "replacement": "manufactures",
+      "count": 1,
+      "samples": [
+        "manu-\nfactures"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "na-\nvigable",
+      "replacement": "navigable",
+      "count": 1,
+      "samples": [
+        "na-\nvigable"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "partic-\nular",
+      "replacement": "particular",
+      "count": 1,
+      "samples": [
+        "partic-\nular"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "perfua-\neded",
+      "replacement": "perfuaeded",
+      "count": 1,
+      "samples": [
+        "perfua-\neded"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "phys-\nfusion",
+      "replacement": "physfusion",
+      "count": 1,
+      "samples": [
+        "phys-\nfusion"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "por-\nedain",
+      "replacement": "poredain",
+      "count": 1,
+      "samples": [
+        "por-\nedain"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "pre-\nvous",
+      "replacement": "prevous",
+      "count": 1,
+      "samples": [
+        "pre-\nvous"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "pum-\nmal",
+      "replacement": "pummal",
+      "count": 1,
+      "samples": [
+        "pum-\nmal"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "tre-\nminutes",
+      "replacement": "treminutes",
+      "count": 1,
+      "samples": [
+        "tre-\nminutes"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "univer-\nfly",
+      "replacement": "univerfly",
+      "count": 1,
+      "samples": [
+        "univer-\nfly"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "univi-\nrly",
+      "replacement": "univirly",
+      "count": 1,
+      "samples": [
+        "univi-\nrly"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fan",
+      "replacement": "san",
+      "count": 1,
+      "samples": [
+        "usion, was the fan of William Syc"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "few",
+      "replacement": "sew",
+      "count": 2,
+      "samples": [
+        ", except for a\nfew garrimsy but t",
+        "conversation. Few of the\npeelant"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fleep",
+      "replacement": "sleep",
+      "count": 1,
+      "samples": [
+        "ieels, butter, fleep, horfes, black"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "foc",
+      "replacement": "soc",
+      "count": 1,
+      "samples": [
+        "There are also focéeste among the"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fupport",
+      "replacement": "support",
+      "count": 1,
+      "samples": [
+        "cket, fo as to\nfupport the weight of"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "swifs",
+      "replacement": "swiss",
+      "count": 1,
+      "samples": [
+        "he refl of the Swifs cantons, allie"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "ufed",
+      "replacement": "used",
+      "count": 1,
+      "samples": [
+        "ng. Theirs are ufed when a ship li"
+      ]
+    }
+  ],
+  "metrics": {
+    "jaccard_raw": 0.0107,
+    "jaccard_normalized": 0.0142,
+    "cosine_tfidf": 0.0545,
+    "cosine_embedding": 0.1764,
+    "distinctive_britannica": [
+      "cantons",
+      "see",
+      "head",
+      "home",
+      "blade",
+      "king",
+      "people",
+      "round",
+      "arms",
+      "oxford",
+      "famous",
+      "trade",
+      "except",
+      "turn",
+      "practice"
+    ],
+    "distinctive_wikipedia": [
+      "code",
+      "work",
+      "standard",
+      "software",
+      "imaging",
+      "edition",
+      "interrupt",
+      "family",
+      "kingdom",
+      "system",
+      "scotland",
+      "refer",
+      "scientific",
+      "free",
+      "national"
+    ],
+    "shared_terms": [
+      "arm",
+      "che",
+      "country",
+      "language",
+      "swiss",
+      "switzerland",
+      "used",
+      "word",
+      "words"
+    ]
+  },
+  "aligned_chunks": [
+    {
+      "britannica_chunk_index": 1,
+      "wikipedia_chunk_index": 0,
+      "similarity": 0.1587,
+      "britannica_excerpt": "Ripih and Decerbat cantons. There are also socéeste among them for the improvement of the German language\n\nand the fiecences.\n\nThe principal manufactures are fluff and toboyen, lines\n\nof several forks, here, threads, folk, and worried fleid",
+      "wikipedia_excerpt": "SWI may refer to:\n\nSwitzerland (this is not the ISO 3166-1 code, which is CHE)\n\nSwindon railway station (National Rail code SWI), serving Swindon, Wiltshire, United Kingdom\n\nSWI-Prolog, a free implementation of the programming language Prol"
+    },
+    {
+      "britannica_chunk_index": 5,
+      "wikipedia_chunk_index": 0,
+      "similarity": 0.1402,
+      "britannica_excerpt": "peelants are miribably poor; many of them are rich, efpecically in the Protifiant cantons, and that of Berne in particular.\n\nSWIVELS, a kind of ring made to turn round in a\n\nfluids, or other ring. Theirs are used when a ship lies st\n\nhe mon",
+      "wikipedia_excerpt": "SWI may refer to:\n\nSwitzerland (this is not the ISO 3166-1 code, which is CHE)\n\nSwindon railway station (National Rail code SWI), serving Swindon, Wiltshire, United Kingdom\n\nSWI-Prolog, a free implementation of the programming language Prol"
+    },
+    {
+      "britannica_chunk_index": 0,
+      "wikipedia_chunk_index": 0,
+      "similarity": 0.1396,
+      "britannica_excerpt": "parts of the country that border on Italy or France, a cortune French in Italian prevails. The two predominant se\n\nregions are Calvinia and Sprayer. Of the former we are the\n\ncentons of Zurich and Berne, the town of St Galli, Geneva, Malhla",
+      "wikipedia_excerpt": "SWI may refer to:\n\nSwitzerland (this is not the ISO 3166-1 code, which is CHE)\n\nSwindon railway station (National Rail code SWI), serving Swindon, Wiltshire, United Kingdom\n\nSWI-Prolog, a free implementation of the programming language Prol"
+    }
+  ],
+  "topic_id": 7,
+  "topic_terms": [
+    "see",
+    "upon",
+    "great"
+  ],
+  "claims": [
+    {
+      "claim_text": "The Britannica entry \"SWI  248 SYD\" uses 662 content tokens while the Wikipedia article \"SWI\" uses 85; their normalized vocabularies share a Jaccard overlap of 0.0142 (raw 0.0107) and a TF-IDF cosine similarity of 0.0545.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:251"
+      ],
+      "britannica_quote": "parts of the country that border on Italy or France, a cor-\ntune French in Italian prevails. The two predominant se\nregions are Calvinia and Sprayer. Of the former we are the\ncentons of Zurich and Berne, the town of St Galli, Geneva, Malhla",
+      "wikipedia_page_id": "1287439",
+      "wikipedia_revision_id": "1320812045",
+      "wikipedia_quote": "SWI may refer to:\n\nSwitzerland (this is not the ISO 3166-1 code, which is CHE)\n\nSwindon railway station (National Rail code SWI), serving Swindon, Wiltshire, United Kingdom\n\nSWI-Prolog, a free implementation of the programming language Prol"
+    },
+    {
+      "claim_text": "Britannica's most distinctive term is \"cantons\"; Wikipedia's is \"code\", showing the era-specific vocabulary of each source.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:251"
+      ],
+      "britannica_quote": "The refl of the Swifs cantons, allies and dependents",
+      "wikipedia_page_id": "1287439",
+      "wikipedia_revision_id": "1320812045",
+      "wikipedia_quote": "Switzerland (this is not the ISO 3166-1 code, which is CHE)"
+    },
+    {
+      "claim_text": "Both sources share core vocabulary including: arm, che, country, language, swiss.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:251"
+      ],
+      "britannica_quote": "mult all provide therefore with arms, clothing, and word",
+      "wikipedia_page_id": "1287439",
+      "wikipedia_revision_id": "1320812045",
+      "wikipedia_quote": "SWI, an assembler mnemonic to perform a software interrupt on the ARM microprocessor family"
+    },
+    {
+      "claim_text": "35 normalization rules fired on the Britannica text (\"favour\" -> \"favor\"; \"a-\nmong\" -> \"among\"; \"a-\ntheman\" -> \"atheman\"); residual vocabulary differences likely reflect era terminology rather than OCR noise alone.",
+      "claim_type": "inference",
+      "label": "[inference]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:251"
+      ],
+      "britannica_quote": "lance in their favour. In fome\nparts",
+      "wikipedia_page_id": "1287439",
+      "wikipedia_revision_id": "1320812045",
+      "wikipedia_quote": "SWI may refer to:\n\nSwitzerland (this is not the ISO 3166-1 code, which is CHE)\n\nSwindon railway station (National Rail code SWI), serving Swindon, Wiltshire, United Kingdom\n\nSWI-Prolog, a free implementation of the programming language Prol"
+    }
+  ]
+}

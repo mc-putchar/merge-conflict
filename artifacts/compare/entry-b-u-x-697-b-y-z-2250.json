@@ -1,0 +1,218 @@
+{
+  "entry_id": "entry-b-u-x-697-b-y-z-2250",
+  "britannica_title": "B U X  697  B Y Z",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2250"
+  ],
+  "britannica_sha256": "81c2e4d769f01a52b450dbf1b6c17a3da8874bf582729ad1c34766aa9cbf586e",
+  "britannica_raw_chars": 4663,
+  "britannica_tokens": 414,
+  "britannica_unique_tokens": 357,
+  "wikipedia_page_id": "4982245",
+  "wikipedia_revision_id": "1250404890",
+  "wikipedia_title": "Degen's eight-square identity",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Degen%27s_eight-square_identity",
+  "wikipedia_text_sha256": "a72b6e6f888668b447b24b603efa610f0e529443afc8986f12b78c50004b6ca5",
+  "wikipedia_raw_chars": 7704,
+  "wikipedia_tokens": 220,
+  "wikipedia_unique_tokens": 102,
+  "length_ratio": 1.652,
+  "text_changes": [
+    {
+      "rule": "archaic_spelling",
+      "original": "colour",
+      "replacement": "color",
+      "count": 1,
+      "samples": [
+        "h other by the colour and figure of"
+      ]
+    },
+    {
+      "rule": "archaic_spelling",
+      "original": "neighbours",
+      "replacement": "neighbors",
+      "count": 1,
+      "samples": [
+        "determined by neighbours, elected by co"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "againft",
+      "replacement": "against",
+      "count": 1,
+      "samples": [
+        "es were placed againft them. They are"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "feeds",
+      "replacement": "seeds",
+      "count": 1,
+      "samples": [
+        "containing two feeds. There is but"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "ferving",
+      "replacement": "serving",
+      "count": 1,
+      "samples": [
+        "ouse or birds, ferving to prop of fla"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fide",
+      "replacement": "side",
+      "count": 1,
+      "samples": [
+        "n on the other fide, as a bank of"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fides",
+      "replacement": "sides",
+      "count": 1,
+      "samples": [
+        "of flapper the fides of a building,"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fore",
+      "replacement": "sore",
+      "count": 1,
+      "samples": [
+        "nd molt glolly fore of linesy that"
+      ]
+    }
+  ],
+  "metrics": {
+    "jaccard_raw": 0.0066,
+    "jaccard_normalized": 0.0066,
+    "cosine_tfidf": 0.012,
+    "cosine_embedding": 0.0629,
+    "distinctive_britannica": [
+      "laws",
+      "species",
+      "earth",
+      "leaves",
+      "town",
+      "waters",
+      "long",
+      "kind",
+      "made",
+      "against",
+      "lat",
+      "see",
+      "greatly",
+      "city",
+      "genus"
+    ],
+    "distinctive_wikipedia": [
+      "left",
+      "right",
+      "displaystyle",
+      "identity",
+      "quad",
+      "product",
+      "aligned",
+      "end",
+      "frac",
+      "begin",
+      "numbers",
+      "similar",
+      "sum",
+      "eight",
+      "squares"
+    ],
+    "shared_terms": [
+      "around",
+      "called",
+      "left"
+    ]
+  },
+  "aligned_chunks": [
+    {
+      "britannica_chunk_index": 7,
+      "wikipedia_chunk_index": 10,
+      "similarity": 0.2708,
+      "britannica_excerpt": "BZO, a town of Africa, in the kingdom of Morocco.",
+      "wikipedia_excerpt": "and,"
+    },
+    {
+      "britannica_chunk_index": 3,
+      "wikipedia_chunk_index": 13,
+      "similarity": 0.1265,
+      "britannica_excerpt": "They advirle both drinking and bathing in the ule of thute waters is only the left is of bad consequence in the gout, inward inflammations, fevers, dyfentery, large inward tumours, or in an outward preflure of the body.\n\nBUXUS, in botany, a",
+      "wikipedia_excerpt": "with, a = − 1, b = 0, c = x 1 2 + x 2 2 + x 3 2 + x 4 2 {\\displaystyle a=-1,\\;\\;b=0,\\;\\;c=x_{1}^{2}+x_{2}^{2}+x_{3}^{2}+x_{4}^{2}}\n\nIncidentally, the u i {\\displaystyle u_{i}} obey the identity, u 1 2 + u 2 2 + u 3 2 + u 4 2 = x 5 2 + x 6 2"
+    },
+    {
+      "britannica_chunk_index": 0,
+      "wikipedia_chunk_index": 10,
+      "similarity": 0.1202,
+      "britannica_excerpt": "Button attempted to find out a north-well pallage to the Call Indies. It lies between 80° and 100° W, long, and between 60° and 60° N. lat.\n\nBUTTRESS, a kind of batment built archwife, or a mals of flouse or birds, serving to prop of flappe",
+      "wikipedia_excerpt": "and,"
+    }
+  ],
+  "topic_id": 7,
+  "topic_terms": [
+    "see",
+    "upon",
+    "great"
+  ],
+  "claims": [
+    {
+      "claim_text": "The Britannica entry \"B U X  697  B Y Z\" uses 414 content tokens while the Wikipedia article \"Degen's eight-square identity\" uses 220; their normalized vocabularies share a Jaccard overlap of 0.0066 (raw 0.0066) and a TF-IDF cosine similarity of 0.012.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2250"
+      ],
+      "britannica_quote": "Button attempted to find out a north-well pallage to the Call Indies. It lies between 80° and 100° W, long, and between 60° and 60° N. lat.\n\nBUTTRESS, a kind of batment built archwife, or a mals of flouse or birds, ferving to prop of flappe",
+      "wikipedia_page_id": "4982245",
+      "wikipedia_revision_id": "1250404890",
+      "wikipedia_quote": "In mathematics, Degen's eight-square identity establishes that the product of two numbers, each of which is a sum of eight squares, is itself the sum of eight squares.Namely: (a 1 2 + a 2 2 + a 3 2 + a 4 2 + a 5 2 + a 6 2 + a 7 2 + a 8 2) ("
+    },
+    {
+      "claim_text": "Britannica's most distinctive term is \"laws\"; Wikipedia's is \"left\", showing the era-specific vocabulary of each source.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2250"
+      ],
+      "britannica_quote": "BYLAWS, or ByrŁLAWS, private and peculiar laws for the good government of a city, court, or other community, made by the general content of the mem-bers.",
+      "wikipedia_page_id": "4982245",
+      "wikipedia_revision_id": "1250404890",
+      "wikipedia_quote": "In mathematics, Degen's eight-square identity establishes that the product of two numbers, each of which is a sum of eight squares, is itself the sum of eight squares.Namely: (a 1 2 + a 2 2 + a 3 2 + a 4 2 + a 5 2 + a 6 2 + a 7 2 + a 8 2) ("
+    },
+    {
+      "claim_text": "Both sources share core vocabulary including: around, called, left.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2250"
+      ],
+      "britannica_quote": "They are also placed for a lupport and bammer against the feet of fine arches, that are turned around great halls in old palaces, abbys, cz.",
+      "wikipedia_page_id": "4982245",
+      "wikipedia_revision_id": "1250404890",
+      "wikipedia_quote": "First discovered by Carl Ferdinand Degen around 1818, the identity was independently rediscovered by John Thomas Graves (1843) and Arthur Cayley (1845)."
+    },
+    {
+      "claim_text": "8 normalization rules fired on the Britannica text (\"colour\" -> \"color\"; \"neighbours\" -> \"neighbors\"; \"againft\" -> \"against\"); residual vocabulary differences likely reflect era terminology rather than OCR noise alone.",
+      "claim_type": "inference",
+      "label": "[inference]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2250"
+      ],
+      "britannica_quote": "h other by the colour and figure of",
+      "wikipedia_page_id": "4982245",
+      "wikipedia_revision_id": "1250404890",
+      "wikipedia_quote": "In mathematics, Degen's eight-square identity establishes that the product of two numbers, each of which is a sum of eight squares, is itself the sum of eight squares.Namely: (a 1 2 + a 2 2 + a 3 2 + a 4 2 + a 5 2 + a 6 2 + a 7 2 + a 8 2) ("
+    }
+  ]
+}

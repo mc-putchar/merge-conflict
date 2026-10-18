@@ -1,0 +1,218 @@
+{
+  "entry_id": "entry-fur-tst-fur-220",
+  "britannica_title": "FUR TST FUR",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:220"
+  ],
+  "britannica_sha256": "5dfbe084c0b3e443be225bee134df49609734c787b09100baeb9c0193babd9e8",
+  "britannica_raw_chars": 6491,
+  "britannica_tokens": 568,
+  "britannica_unique_tokens": 432,
+  "wikipedia_page_id": "1576566",
+  "wikipedia_revision_id": "1345540778",
+  "wikipedia_title": "Fake fur",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Fake_fur",
+  "wikipedia_text_sha256": "792523f4b13b61d71659d0c75192511907e18a875247b1e04deb7d8a27c8a10a",
+  "wikipedia_raw_chars": 6669,
+  "wikipedia_tokens": 661,
+  "wikipedia_unique_tokens": 433,
+  "length_ratio": 1.027,
+  "text_changes": [
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fan",
+      "replacement": "san",
+      "count": 1,
+      "samples": [
+        "witner for the fan and 1 red line"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fel",
+      "replacement": "sel",
+      "count": 1,
+      "samples": [
+        "nguage and col-fel kina against t"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "few",
+      "replacement": "sew",
+      "count": 1,
+      "samples": [
+        "e and 50 long; few fine fluffin f"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fide",
+      "replacement": "side",
+      "count": 1,
+      "samples": [
+        "from the east fide of their islan"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "veffels",
+      "replacement": "vessels",
+      "count": 1,
+      "samples": [
+        "s.\n\nTwo copped veffels were alfo fitt"
+      ]
+    }
+  ],
+  "metrics": {
+    "jaccard_raw": 0.0397,
+    "jaccard_normalized": 0.0409,
+    "cosine_tfidf": 0.0154,
+    "cosine_embedding": 0.0492,
+    "distinctive_britannica": [
+      "end",
+      "captain",
+      "sound",
+      "off",
+      "prince",
+      "september",
+      "arrived",
+      "river",
+      "cook",
+      "beginning",
+      "four",
+      "left",
+      "trade",
+      "illands",
+      "well"
+    ],
+    "distinctive_wikipedia": [
+      "fur",
+      "fake",
+      "real",
+      "used",
+      "less",
+      "use",
+      "faux",
+      "production",
+      "animals",
+      "animal",
+      "collections",
+      "fashion",
+      "fall",
+      "materials",
+      "addition"
+    ],
+    "shared_terms": [
+      "against",
+      "away",
+      "bear",
+      "called",
+      "coat",
+      "cold",
+      "company",
+      "compared",
+      "eagle",
+      "effect",
+      "fine",
+      "five",
+      "former",
+      "forms",
+      "found",
+      "giving",
+      "good",
+      "however",
+      "including",
+      "items",
+      "made",
+      "many",
+      "now",
+      "part",
+      "people",
+      "red",
+      "sew",
+      "since",
+      "south",
+      "variety"
+    ]
+  },
+  "aligned_chunks": [
+    {
+      "britannica_chunk_index": 9,
+      "wikipedia_chunk_index": 6,
+      "similarity": 0.0983,
+      "britannica_excerpt": "ouston, HoHoia Hot, 59 long, 60’s ‘very well, not be more than 800 million than that part of this era in the time parallel. It is therefore not improbable, that the enterprising fiirf of our Canadina durante my penetrate to the coat (the co",
+      "wikipedia_excerpt": "Some coats labeled as having faux-fur trim were found to use actual fur in a test conducted by the Humane Society of the United States. In the United States, up until 2012, a labeling loophole allowed any piece of clothing that contains les"
+    },
+    {
+      "britannica_chunk_index": 3,
+      "wikipedia_chunk_index": 6,
+      "similarity": 0.0864,
+      "britannica_excerpt": "Two copped vessels were alfo fitted out by fe-ery of gentleman in Brugal for the four Noxeka of 2oz ton, and the flow Sea Otter of 1oz tons, commanded by John Maxwell and William Tipping, historicness in the royal many. The Noxeka field in ",
+      "wikipedia_excerpt": "Some coats labeled as having faux-fur trim were found to use actual fur in a test conducted by the Humane Society of the United States. In the United States, up until 2012, a labeling loophole allowed any piece of clothing that contains les"
+    },
+    {
+      "britannica_chunk_index": 5,
+      "wikipedia_chunk_index": 6,
+      "similarity": 0.0657,
+      "britannica_excerpt": "fid to the Sandwich Illands, where, giving over all further thoughts of trade, they determined (after getting a fees-flock of fifth off Cape Edgecumbe) immediately to proceed. The Noxetka arrivedat Macno the end of October 1787.\n\nThe Imperi",
+      "wikipedia_excerpt": "Some coats labeled as having faux-fur trim were found to use actual fur in a test conducted by the Humane Society of the United States. In the United States, up until 2012, a labeling loophole allowed any piece of clothing that contains les"
+    }
+  ],
+  "topic_id": 2,
+  "topic_terms": [
+    "water",
+    "acid",
+    "quantity"
+  ],
+  "claims": [
+    {
+      "claim_text": "The Britannica entry \"FUR TST FUR\" uses 567 content tokens while the Wikipedia article \"Fake fur\" uses 661; their normalized vocabularies share a Jaccard overlap of 0.0409 (raw 0.0397) and a TF-IDF cosine similarity of 0.0154.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:220"
+      ],
+      "britannica_quote": "and called by him Queen Charlotte’s Sound; the latitude of which is 51 degrees north, longitude 128 well.\n\nThe flower bark, Captain Peterty of 2oz ton and 40 men, failed from Macao in July 1786. Her left- nation was KamelChalke (for which d",
+      "wikipedia_page_id": "1576566",
+      "wikipedia_revision_id": "1345540778",
+      "wikipedia_quote": "Fake fur, also called faux fur, is a pile fabric engineered to have the appearance and warmth of fur. Fake fur can be made from a variety of materials, including polyester, nylon, or acrylic.\n\nFirst introduced in 1929, fake furs were initia"
+    },
+    {
+      "claim_text": "Britannica's most distinctive term is \"end\"; Wikipedia's is \"fur\", showing the era-specific vocabulary of each source.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:220"
+      ],
+      "britannica_quote": "to the callward of the Palma Ilands; made sul-phur Ilands) and arrived at Noxeka the end of June following.",
+      "wikipedia_page_id": "1576566",
+      "wikipedia_revision_id": "1345540778",
+      "wikipedia_quote": "Fake fur, also called faux fur, is a pile fabric engineered to have the appearance and warmth of fur."
+    },
+    {
+      "claim_text": "Both sources share core vocabulary including: against, away, bear, called, coat.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:220"
+      ],
+      "britannica_quote": "From Noxeka, where they tell their first genen's mate (Mackay) to learn the language and col-fel kina against their intended return (but who was brought away in the Imperial Eagle, the following year), they proceeded along the coalt to Quee",
+      "wikipedia_page_id": "1576566",
+      "wikipedia_revision_id": "1345540778",
+      "wikipedia_quote": "Faux fur is perceived as less durable than real fur, and this attribute coupled with its lesser insulating properties forms part of the critique against its use."
+    },
+    {
+      "claim_text": "5 normalization rules fired on the Britannica text (\"fan\" -> \"san\"; \"fel\" -> \"sel\"; \"few\" -> \"sew\"); residual vocabulary differences likely reflect era terminology rather than OCR noise alone.",
+      "claim_type": "inference",
+      "label": "[inference]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:220"
+      ],
+      "britannica_quote": "witner for the fan and 1 red line",
+      "wikipedia_page_id": "1576566",
+      "wikipedia_revision_id": "1345540778",
+      "wikipedia_quote": "Fake fur, also called faux fur, is a pile fabric engineered to have the appearance and warmth of fur. Fake fur can be made from a variety of materials, including polyester, nylon, or acrylic.\n\nFirst introduced in 1929, fake furs were initia"
+    }
+  ]
+}

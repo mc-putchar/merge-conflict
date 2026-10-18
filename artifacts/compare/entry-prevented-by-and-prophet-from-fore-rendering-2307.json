@@ -1,0 +1,263 @@
+{
+  "entry_id": "entry-prevented-by-and-prophet-from-fore-rendering-2307",
+  "britannica_title": "Prevented by and prophet from fore- rendering",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2307"
+  ],
+  "britannica_sha256": "36e0984e91c4e2a429a83eb0bf702a0f753490ed10d66c34f91c2a629284cf34",
+  "britannica_raw_chars": 5687,
+  "britannica_tokens": 475,
+  "britannica_unique_tokens": 415,
+  "wikipedia_page_id": "1815269",
+  "wikipedia_revision_id": "1329355832",
+  "wikipedia_title": "Vates",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Vates",
+  "wikipedia_text_sha256": "58361a1bc9fedb10c1ad333b8a705a101b4e93a161f27c26bbf1576a15774490",
+  "wikipedia_raw_chars": 4322,
+  "wikipedia_tokens": 377,
+  "wikipedia_unique_tokens": 230,
+  "length_ratio": 0.76,
+  "text_changes": [
+    {
+      "rule": "archaic_spelling",
+      "original": "colours",
+      "replacement": "colors",
+      "count": 1,
+      "samples": [
+        "ng the Spanish colours on the stern,"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "affault",
+      "replacement": "assault",
+      "count": 1,
+      "samples": [
+        "upon a general affault, kept a consta"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "affembly",
+      "replacement": "assembly",
+      "count": 1,
+      "samples": [
+        "e, entered the affembly, and fore told"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "faint",
+      "replacement": "saint",
+      "count": 1,
+      "samples": [
+        "of an comment faint of their own p"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fent",
+      "replacement": "sent",
+      "count": 1,
+      "samples": [
+        "referred to de fent to the utmost."
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "few",
+      "replacement": "sew",
+      "count": 1,
+      "samples": [
+        "mbark in those few vehicles which"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "foon",
+      "replacement": "soon",
+      "count": 1,
+      "samples": [
+        "prediction was foon accomplished i"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fore",
+      "replacement": "sore",
+      "count": 1,
+      "samples": [
+        "affembly, and fore told the flyin"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fort",
+      "replacement": "sort",
+      "count": 2,
+      "samples": [
+        "iately built a fort, under the uni",
+        "lain under the fort, was laid quit"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fum",
+      "replacement": "sum",
+      "count": 1,
+      "samples": [
+        "paying a vail fum of money, and"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fun",
+      "replacement": "sun",
+      "count": 1,
+      "samples": [
+        "d; so that the fun, moon, and ele"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fupplied",
+      "replacement": "supplied",
+      "count": 1,
+      "samples": [
+        "a spring which fupplied the city with"
+      ]
+    }
+  ],
+  "metrics": {
+    "jaccard_raw": 0.0174,
+    "jaccard_normalized": 0.0174,
+    "cosine_tfidf": 0.0228,
+    "cosine_embedding": 0.0559,
+    "distinctive_britannica": [
+      "upon",
+      "force",
+      "spaniards",
+      "soon",
+      "city",
+      "full",
+      "charles",
+      "towards",
+      "great",
+      "people",
+      "haffan",
+      "get",
+      "things",
+      "immediately",
+      "head"
+    ],
+    "distinctive_wikipedia": [
+      "word",
+      "latin",
+      "english",
+      "greek",
+      "vates",
+      "celtic",
+      "ancient",
+      "roman",
+      "modern",
+      "term",
+      "based",
+      "used",
+      "tis",
+      "prophet",
+      "terms"
+    ],
+    "shared_terms": [
+      "christian",
+      "common",
+      "fact",
+      "general",
+      "however",
+      "name",
+      "order",
+      "prophet",
+      "residence",
+      "though",
+      "used"
+    ]
+  },
+  "aligned_chunks": [
+    {
+      "britannica_chunk_index": 7,
+      "wikipedia_chunk_index": 3,
+      "similarity": 0.1367,
+      "britannica_excerpt": "Soon after this, the prophet _Tuf/f/j_ who had fortotold the deflection of the Spaniards, was not only declared the delivery of his country, but had a considerable activity decreed him, with the liberty of exercising a projectile motion unm",
+      "wikipedia_excerpt": "Virgil uses the Latin vannus \" winnowing basket\" (conceivably from * wat-nos, compare Old High German wadal, modern German Wedel, with the same meaning, from * wat-lo-) for something carried about in the Bacchic festival, suggesting that th"
+    },
+    {
+      "britannica_chunk_index": 2,
+      "wikipedia_chunk_index": 4,
+      "similarity": 0.1143,
+      "britannica_excerpt": "and land, and to cahar him to return to the Christian religion. But to this Haffan only rreified, that he must be animals who would pee tand to advise an enemy, and that the dividend mill fill act more madly who would take counsel of such a",
+      "wikipedia_excerpt": "In pagan Rome the vates resided on the Vatican Hill, the Hill of the Vates. The Vatican Hill takes its name from the Latin word Vaticanus, a vaticiniis ferendis, in allusion to the oracles, or vaticinia, which were anciently delivered on th"
+    },
+    {
+      "britannica_chunk_index": 6,
+      "wikipedia_chunk_index": 4,
+      "similarity": 0.1129,
+      "britannica_excerpt": "a a signed Al-ders railed.\n\nAges of Al-ders railed.",
+      "wikipedia_excerpt": "In pagan Rome the vates resided on the Vatican Hill, the Hill of the Vates. The Vatican Hill takes its name from the Latin word Vaticanus, a vaticiniis ferendis, in allusion to the oracles, or vaticinia, which were anciently delivered on th"
+    }
+  ],
+  "topic_id": 2,
+  "topic_terms": [
+    "water",
+    "acid",
+    "quantity"
+  ],
+  "claims": [
+    {
+      "claim_text": "The Britannica entry \"Prevented by and prophet from fore- rendering\" uses 474 content tokens while the Wikipedia article \"Vates\" uses 377; their normalized vocabularies share a Jaccard overlap of 0.0174 (raw 0.0174) and a TF-IDF cosine similarity of 0.0228.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2307"
+      ],
+      "britannica_quote": "for their valoragainl the enemies of Christianity. Even ladies of birth and character attended Charles in his expedition, and the views and daughters of the officers and folders followed them with a delger to fertile in Barbary after the co",
+      "wikipedia_page_id": "1815269",
+      "wikipedia_revision_id": "1329355832",
+      "wikipedia_quote": "In modern English, the nouns vates (/ ˈ v eɪ t iː z /) and ovate (UK: / ˈ ɒ v ə t, ˈ oʊ v eɪ t /, US: / ˈ oʊ v eɪ t /) are used as technical terms for ancient Celtic bards, prophets and philosophers. The terms correspond to a Proto-Celtic w"
+    },
+    {
+      "claim_text": "Britannica's most distinctive term is \"upon\"; Wikipedia's is \"word\", showing the era-specific vocabulary of each source.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2307"
+      ],
+      "britannica_quote": "He was, however, on the point of farredering the city, upon an witness towards him that the forces belonging to the wellern government were in full marach towards the places, upon which it was referred to de fent to the utmost.",
+      "wikipedia_page_id": "1815269",
+      "wikipedia_revision_id": "1329355832",
+      "wikipedia_quote": "The terms correspond to a Proto-Celtic word which can be reconstructed as * wātis."
+    },
+    {
+      "claim_text": "Both sources share core vocabulary including: christian, common, fact, general, however.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2307"
+      ],
+      "britannica_quote": "for their valoragainl the enemies of Christianity.",
+      "wikipedia_page_id": "1815269",
+      "wikipedia_revision_id": "1329355832",
+      "wikipedia_quote": "The Vates had the role of seers and performed sacrifices (in particular administering human sacrifice) under the authority of a druid according to Roman and Christian interpretation."
+    },
+    {
+      "claim_text": "12 normalization rules fired on the Britannica text (\"colours\" -> \"colors\"; \"affault\" -> \"assault\"; \"affembly\" -> \"assembly\"); residual vocabulary differences likely reflect era terminology rather than OCR noise alone.",
+      "claim_type": "inference",
+      "label": "[inference]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2307"
+      ],
+      "britannica_quote": "ng the Spanish colours on the stern,",
+      "wikipedia_page_id": "1815269",
+      "wikipedia_revision_id": "1329355832",
+      "wikipedia_quote": "In modern English, the nouns vates (/ ˈ v eɪ t iː z /) and ovate (UK: / ˈ ɒ v ə t, ˈ oʊ v eɪ t /, US: / ˈ oʊ v eɪ t /) are used as technical terms for ancient Celtic bards, prophets and philosophers. The terms correspond to a Proto-Celtic w"
+    }
+  ]
+}

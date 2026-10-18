@@ -1,0 +1,240 @@
+{
+  "entry_id": "entry-e-r-a-sit-2473",
+  "britannica_title": "E R A  sit",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2473"
+  ],
+  "britannica_sha256": "d69b86ccd947a0c0483635e37b400720470f6712900f8d62aaff591156aee431",
+  "britannica_raw_chars": 6068,
+  "britannica_tokens": 521,
+  "britannica_unique_tokens": 446,
+  "wikipedia_page_id": "6219080",
+  "wikipedia_revision_id": "1344702380",
+  "wikipedia_title": "Asinus",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Asinus",
+  "wikipedia_text_sha256": "d9bc2e9e24032f710cc2ddc528a17c9de8e776d38547155e6fb4082233254e8a",
+  "wikipedia_raw_chars": 1473,
+  "wikipedia_tokens": 168,
+  "wikipedia_unique_tokens": 87,
+  "length_ratio": 0.243,
+  "text_changes": [
+    {
+      "rule": "archaic_spelling",
+      "original": "colour",
+      "replacement": "color",
+      "count": 1,
+      "samples": [
+        "of a brighter colour, and there run"
+      ]
+    },
+    {
+      "rule": "archaic_spelling",
+      "original": "neighbours",
+      "replacement": "neighbors",
+      "count": 1,
+      "samples": [
+        "of friends and neighbours, and tax- ed e"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "affes",
+      "replacement": "asses",
+      "count": 1,
+      "samples": [
+        "hese as common affes; but they are"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "afs",
+      "replacement": "ass",
+      "count": 2,
+      "samples": [
+        "nager, or wild afs, has, by fome",
+        "of the common afs is never eaten"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "crofs",
+      "replacement": "cross",
+      "count": 1,
+      "samples": [
+        "he retraix, or crofs-leaved heads;"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fir",
+      "replacement": "sir",
+      "count": 1,
+      "samples": [
+        "multidots, or fir- leaved heart."
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fore",
+      "replacement": "sore",
+      "count": 1,
+      "samples": [
+        "minated on the fore-part by a very"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "loft",
+      "replacement": "lost",
+      "count": 1,
+      "samples": [
+        "ike a piece of loft horn, about th"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "ufes",
+      "replacement": "uses",
+      "count": 1,
+      "samples": [
+        "ot put to more ufes than they gene"
+      ]
+    }
+  ],
+  "metrics": {
+    "jaccard_raw": 0.025,
+    "jaccard_normalized": 0.029,
+    "cosine_tfidf": 0.259,
+    "cosine_embedding": 0.3786,
+    "distinctive_britannica": [
+      "see",
+      "four",
+      "feet",
+      "native",
+      "viz",
+      "body",
+      "little",
+      "genus",
+      "etc",
+      "friends",
+      "covered",
+      "call",
+      "round",
+      "fig",
+      "nine"
+    ],
+    "distinctive_wikipedia": [
+      "ass",
+      "wild",
+      "equus",
+      "kiang",
+      "hemionus",
+      "africanus",
+      "several",
+      "european",
+      "extinct",
+      "subgenus",
+      "asinus",
+      "eastern",
+      "true",
+      "western",
+      "formerly"
+    ],
+    "shared_terms": [
+      "africa",
+      "among",
+      "ass",
+      "asses",
+      "common",
+      "commonly",
+      "considerable",
+      "ears",
+      "genus",
+      "long",
+      "onager",
+      "species",
+      "tail",
+      "whole",
+      "wild"
+    ]
+  },
+  "aligned_chunks": [
+    {
+      "britannica_chunk_index": 0,
+      "wikipedia_chunk_index": 0,
+      "similarity": 0.3904,
+      "britannica_excerpt": "The onager, or wild ass, has, by fome authors, been confounded with the zebra; but very improperly, for this latit is a distinct species. for the onager is not freeskall for this, now is his shape of favourite. \"Wild also are fail to be ver",
+      "wikipedia_excerpt": "Asinus is a subgenus of Equus that encompasses several subspecies of the Equidae commonly known as wild asses or wild donkeys, characterized by long ears, a lean, straight-backed build, lack of a true withers, a coarse mane and tail, and a "
+    },
+    {
+      "britannica_chunk_index": 1,
+      "wikipedia_chunk_index": 0,
+      "similarity": 0.3275,
+      "britannica_excerpt": "In America they have nooffs at all, nor yet horles; but they have been carried thither long ago, atift by the Spaniards, and afterwards byother nations, where they have multiple greatly; ionomisch, that, in fome places, there are whole drow",
+      "wikipedia_excerpt": "Asinus is a subgenus of Equus that encompasses several subspecies of the Equidae commonly known as wild asses or wild donkeys, characterized by long ears, a lean, straight-backed build, lack of a true withers, a coarse mane and tail, and a "
+    },
+    {
+      "britannica_chunk_index": 3,
+      "wikipedia_chunk_index": 0,
+      "similarity": 0.2536,
+      "britannica_excerpt": "‘the Zebra is found no where but in the others and fourteen provinces of Africa, New Ethiopia to the Cape of Good Hope, and from the Cape of Good Hope to Congo. The Dutch have been at great pains to tame and die them for domestic purposes, ",
+      "wikipedia_excerpt": "Asinus is a subgenus of Equus that encompasses several subspecies of the Equidae commonly known as wild asses or wild donkeys, characterized by long ears, a lean, straight-backed build, lack of a true withers, a coarse mane and tail, and a "
+    }
+  ],
+  "topic_id": 7,
+  "topic_terms": [
+    "see",
+    "upon",
+    "great"
+  ],
+  "claims": [
+    {
+      "claim_text": "The Britannica entry \"E R A  sit\" uses 521 content tokens while the Wikipedia article \"Asinus\" uses 168; their normalized vocabularies share a Jaccard overlap of 0.029 (raw 0.025) and a TF-IDF cosine similarity of 0.259.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2473"
+      ],
+      "britannica_quote": "The onager, or wild afs, has, by fome authors, been confounded with the zebra; but very improperly, for this latit is a distinct species. for the onager is not freeskall for this, now is his shape of favourite. \"Wild also are fail to be ver",
+      "wikipedia_page_id": "6219080",
+      "wikipedia_revision_id": "1344702380",
+      "wikipedia_quote": "Asinus is a subgenus of Equus that encompasses several subspecies of the Equidae commonly known as wild asses or wild donkeys, characterized by long ears, a lean, straight-backed build, lack of a true withers, a coarse mane and tail, and a "
+    },
+    {
+      "claim_text": "Britannica's most distinctive term is \"see\"; Wikipedia's is \"ass\", showing the era-specific vocabulary of each source.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2473"
+      ],
+      "britannica_quote": "See ARRACHE.",
+      "wikipedia_page_id": "6219080",
+      "wikipedia_revision_id": "1344702380",
+      "wikipedia_quote": "Asinus is a subgenus of Equus that encompasses several subspecies of the Equidae commonly known as wild asses or wild donkeys, characterized by long ears, a lean, straight-backed build, lack of a true withers, a coarse mane and tail, and a "
+    },
+    {
+      "claim_text": "Both sources share core vocabulary including: africa, among, ass, asses, common.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2473"
+      ],
+      "britannica_quote": "‘the Zebra is found no where but in the others and fourteen provinces of Africa, New Ethiopia to the Cape of Good Hope, and from the Cape of Good Hope to Congo.",
+      "wikipedia_page_id": "6219080",
+      "wikipedia_revision_id": "1344702380",
+      "wikipedia_quote": "Among the wild ass species, several never-domesticated species live in Asia and Africa, with the extinct European wild ass species formerly inhabiting Europe."
+    },
+    {
+      "claim_text": "9 normalization rules fired on the Britannica text (\"colour\" -> \"color\"; \"neighbours\" -> \"neighbors\"; \"affes\" -> \"asses\"); residual vocabulary differences likely reflect era terminology rather than OCR noise alone.",
+      "claim_type": "inference",
+      "label": "[inference]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2473"
+      ],
+      "britannica_quote": "of a brighter colour, and there run",
+      "wikipedia_page_id": "6219080",
+      "wikipedia_revision_id": "1344702380",
+      "wikipedia_quote": "Asinus is a subgenus of Equus that encompasses several subspecies of the Equidae commonly known as wild asses or wild donkeys, characterized by long ears, a lean, straight-backed build, lack of a true withers, a coarse mane and tail, and a "
+    }
+  ]
+}

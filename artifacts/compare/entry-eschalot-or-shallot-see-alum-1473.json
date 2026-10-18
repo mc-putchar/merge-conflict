@@ -1,0 +1,360 @@
+{
+  "entry_id": "entry-eschalot-or-shallot-see-alum-1473",
+  "britannica_title": "ESCHALOT or Shallot See ALUM",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1473"
+  ],
+  "britannica_sha256": "d231d4cba89fa7e9fbf62df5168219480aa9c8e9716823d296dcf5ecd803c847",
+  "britannica_raw_chars": 6238,
+  "britannica_tokens": 527,
+  "britannica_unique_tokens": 452,
+  "wikipedia_page_id": "44346",
+  "wikipedia_revision_id": "1339451965",
+  "wikipedia_title": "Shallot",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Shallot",
+  "wikipedia_text_sha256": "86dc9ed2dc66c0277903105ff24e46a350864e77d9ca6edd127e77b501345a41",
+  "wikipedia_raw_chars": 6336,
+  "wikipedia_tokens": 590,
+  "wikipedia_unique_tokens": 380,
+  "length_ratio": 1.016,
+  "text_changes": [
+    {
+      "rule": "archaic_spelling",
+      "original": "colours",
+      "replacement": "colors",
+      "count": 1,
+      "samples": [
+        "fiparent anber colours, do clear that"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "ana-\nural",
+      "replacement": "anaural",
+      "count": 1,
+      "samples": [
+        "ana-\nural"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "baby-\nton",
+      "replacement": "babyton",
+      "count": 1,
+      "samples": [
+        "Baby-\nton"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "block-\nfpot",
+      "replacement": "blockfpot",
+      "count": 1,
+      "samples": [
+        "block-\nfpot"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "con-\ntrany",
+      "replacement": "contrany",
+      "count": 1,
+      "samples": [
+        "con-\ntrany"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "elar-\nhaddon",
+      "replacement": "elarhaddon",
+      "count": 1,
+      "samples": [
+        "Elar-\nhaddon"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "fpec-\nence",
+      "replacement": "fpecence",
+      "count": 1,
+      "samples": [
+        "fpec-\nence"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "hori-\nbritable",
+      "replacement": "horibritable",
+      "count": 1,
+      "samples": [
+        "hori-\nbritable"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "ins-\nforms",
+      "replacement": "insforms",
+      "count": 1,
+      "samples": [
+        "ins-\nforms"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "par-\nticulus",
+      "replacement": "particulus",
+      "count": 1,
+      "samples": [
+        "par-\nticulus"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "perpe-\ntrating",
+      "replacement": "perpetrating",
+      "count": 1,
+      "samples": [
+        "perpe-\ntrating"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "ten-\nparts",
+      "replacement": "tenparts",
+      "count": 1,
+      "samples": [
+        "ten-\nparts"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "tranfi-\nparent",
+      "replacement": "tranfiparent",
+      "count": 1,
+      "samples": [
+        "tranfi-\nparent"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "triflu-\ncus",
+      "replacement": "triflucus",
+      "count": 1,
+      "samples": [
+        "triflu-\ncus"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "cafe",
+      "replacement": "case",
+      "count": 1,
+      "samples": [
+        "ting, in which cafe, the party\ntha"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "clafs",
+      "replacement": "class",
+      "count": 1,
+      "samples": [
+        "lepora, in the clafs\noil hobphory."
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "faid",
+      "replacement": "said",
+      "count": 1,
+      "samples": [
+        "Alfryen. He is faid\nhave reigned t"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "feems",
+      "replacement": "seems",
+      "count": 1,
+      "samples": [
+        "Ilane Newton, feems to\nbe the Shan"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fort",
+      "replacement": "sort",
+      "count": 1,
+      "samples": [
+        "ey, like forms fort\nof nutrients b"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fun",
+      "replacement": "sun",
+      "count": 1,
+      "samples": [
+        "ut when it has fun for time time"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "lifted",
+      "replacement": "listed",
+      "count": 1,
+      "samples": [
+        "the party. If lifted this is wet, t"
+      ]
+    }
+  ],
+  "metrics": {
+    "jaccard_raw": 0.0356,
+    "jaccard_normalized": 0.0348,
+    "cosine_tfidf": 0.0617,
+    "cosine_embedding": 0.2322,
+    "distinctive_britannica": [
+      "cells",
+      "blood",
+      "natural",
+      "form",
+      "without",
+      "fig",
+      "condition",
+      "party",
+      "years",
+      "rampart",
+      "placed",
+      "figures",
+      "afterwards",
+      "covered",
+      "lower"
+    ],
+    "distinctive_wikipedia": [
+      "used",
+      "shallots",
+      "shallot",
+      "common",
+      "french",
+      "red",
+      "often",
+      "served",
+      "called",
+      "term",
+      "usually",
+      "types",
+      "onion",
+      "raw",
+      "plant"
+    ],
+    "shared_terms": [
+      "along",
+      "derived",
+      "difference",
+      "different",
+      "dry",
+      "every",
+      "fish",
+      "fresh",
+      "ground",
+      "hold",
+      "home",
+      "leaves",
+      "like",
+      "little",
+      "made",
+      "make",
+      "many",
+      "much",
+      "name",
+      "often",
+      "part",
+      "small",
+      "species",
+      "taken",
+      "time",
+      "use",
+      "water",
+      "way"
+    ]
+  },
+  "aligned_chunks": [
+    {
+      "britannica_chunk_index": 4,
+      "wikipedia_chunk_index": 11,
+      "similarity": 0.2951,
+      "britannica_excerpt": "a woven cloth in their texture; and the microtype insforms us, that they confidif arrangements of very\n\nsmall cells, whose furfaces appear much in this form,\n\nLinnmus makes it a species of millepora, in the class\n\noil hobphory. See Place CL",
+      "wikipedia_excerpt": "The tubular green leaves of the plant can also be eaten and are very similar to the leaves of spring onions and chives."
+    },
+    {
+      "britannica_chunk_index": 5,
+      "wikipedia_chunk_index": 11,
+      "similarity": 0.2754,
+      "britannica_excerpt": "two leaves with their shall and cells magnified. E. t\n\nis a covid fiction of one of the leaves at E, flowing the\n\npartition and inner form of their cells.\n\nThe broad-leaved brownwork, fig. to, when fresh\n\ntaken out of the tea, it of a spong",
+      "wikipedia_excerpt": "The tubular green leaves of the plant can also be eaten and are very similar to the leaves of spring onions and chives."
+    },
+    {
+      "britannica_chunk_index": 8,
+      "wikipedia_chunk_index": 7,
+      "similarity": 0.2334,
+      "britannica_excerpt": "no here inhibiting of the blood of the fork tettatory\n\nor puchader, to which hers alone the grant of the\n\nfeed extended: in the other, the tenant, by perpetrating an atrocious crime, showed that he was no",
+      "wikipedia_excerpt": "are used as one of the ingredients for making momo."
+    }
+  ],
+  "topic_id": 7,
+  "topic_terms": [
+    "see",
+    "upon",
+    "great"
+  ],
+  "claims": [
+    {
+      "claim_text": "The Britannica entry \"ESCHALOT or Shallot See ALUM\" uses 540 content tokens while the Wikipedia article \"Shallot\" uses 590; their normalized vocabularies share a Jaccard overlap of 0.0348 (raw 0.0356) and a TF-IDF cosine similarity of 0.0617.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1473"
+      ],
+      "britannica_quote": "ESARHADDON, the fen of Sennacherib, and his\nfavorite in the Baylorion of Alfryen. He is faid\nhave reigned to 9 years at Church, from the year 1904\nto 3322; believe which he reigned 13 years at Baby-\nton, in all 8 years. He died in the year ",
+      "wikipedia_page_id": "44346",
+      "wikipedia_revision_id": "1339451965",
+      "wikipedia_quote": "The shallot / ʃ ə ˈ l ɒ t / is a cultivar group of the onion. Until 2010, the (French red) shallot was classified as a separate species, Allium ascalonicum. The taxon was synonymized with Allium cepa (the common onion) in 2010, as the diffe"
+    },
+    {
+      "claim_text": "Britannica's most distinctive term is \"cells\"; Wikipedia's is \"used\", showing the era-specific vocabulary of each source.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1473"
+      ],
+      "britannica_quote": "small cells, whose furfaces appear much in this form,",
+      "wikipedia_page_id": "44346",
+      "wikipedia_revision_id": "1339451965",
+      "wikipedia_quote": "It is also used for the Persian shallot or musir (A."
+    },
+    {
+      "claim_text": "Both sources share core vocabulary including: along, derived, difference, different, dry.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1473"
+      ],
+      "britannica_quote": "along the outside of the rampart till all are over.",
+      "wikipedia_page_id": "44346",
+      "wikipedia_revision_id": "1339451965",
+      "wikipedia_quote": "Shallots pickled in red vinegar are common in many Indian restaurants, served along with sauces and papad on the condiments tray."
+    },
+    {
+      "claim_text": "21 normalization rules fired on the Britannica text (\"colours\" -> \"colors\"; \"ana-\nural\" -> \"anaural\"; \"baby-\nton\" -> \"babyton\"); residual vocabulary differences likely reflect era terminology rather than OCR noise alone.",
+      "claim_type": "inference",
+      "label": "[inference]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1473"
+      ],
+      "britannica_quote": "fiparent anber colours, do clear that",
+      "wikipedia_page_id": "44346",
+      "wikipedia_revision_id": "1339451965",
+      "wikipedia_quote": "The shallot / ʃ ə ˈ l ɒ t / is a cultivar group of the onion. Until 2010, the (French red) shallot was classified as a separate species, Allium ascalonicum. The taxon was synonymized with Allium cepa (the common onion) in 2010, as the diffe"
+    }
+  ]
+}

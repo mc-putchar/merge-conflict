@@ -102,7 +102,7 @@ def test_evaluate_match_decision_threshold():
     assert matched is True
     assert status == "accepted"
 
-    # Disambiguation candidate
+    # Disambiguation candidate alone
     cand_disam = MatchCandidate(
         page_id="3", revision_id="1", title="High (disambiguation)", url="https://example.com/3",
         bm25_score=20.0, excerpt="Disam", stage1_score=5.0, multimodal_score=5.0, is_disambiguation=True
@@ -110,6 +110,12 @@ def test_evaluate_match_decision_threshold():
     matched, cand, status, rationale = evaluate_match_decision([cand_disam], threshold=0.0)
     assert matched is False
     assert status == "rejected_disambiguation"
+
+    # Disambiguation first followed by valid candidate
+    matched, cand, status, rationale = evaluate_match_decision([cand_disam, cand_high], threshold=0.0)
+    assert matched is True
+    assert cand.page_id == "2"
+    assert status == "accepted"
 
 
 def test_fetch_full_article_verified(tmp_path):

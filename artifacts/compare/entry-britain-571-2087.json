@@ -1,0 +1,161 @@
+{
+  "entry_id": "entry-britain-571-2087",
+  "britannica_title": "BRITAIN 571",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2087"
+  ],
+  "britannica_sha256": "af2fec3cca39b7f54a48f7d5938530b691111c8caf121f81b7ffefb6dcd8fde5",
+  "britannica_raw_chars": 7831,
+  "britannica_tokens": 591,
+  "britannica_unique_tokens": 486,
+  "wikipedia_page_id": "48613670",
+  "wikipedia_revision_id": "1173959993",
+  "wikipedia_title": "Lists of ambassadors of France",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Lists_of_ambassadors_of_France",
+  "wikipedia_text_sha256": "970d80fdffc995a23704388edb71efafffc4fc0f89e8805aedd4c7e59b38b370",
+  "wikipedia_raw_chars": 966,
+  "wikipedia_tokens": 93,
+  "wikipedia_unique_tokens": 29,
+  "length_ratio": 0.123,
+  "text_changes": [
+    {
+      "rule": "archaic_spelling",
+      "original": "neighbours",
+      "replacement": "neighbors",
+      "count": 1,
+      "samples": [
+        "troubling her neighbours; but they caus"
+      ]
+    }
+  ],
+  "metrics": {
+    "jaccard_raw": 0.0178,
+    "jaccard_normalized": 0.0178,
+    "cosine_tfidf": 0.2361,
+    "cosine_embedding": 0.1312,
+    "distinctive_britannica": [
+      "government",
+      "french",
+      "character",
+      "conduct",
+      "house",
+      "egypt",
+      "principle",
+      "circumstances",
+      "boaparate",
+      "restoration",
+      "country",
+      "war",
+      "ministers",
+      "support",
+      "treat"
+    ],
+    "distinctive_wikipedia": [
+      "list",
+      "france",
+      "ambassadors",
+      "united",
+      "kingdom",
+      "refer",
+      "south",
+      "england",
+      "edition",
+      "japan",
+      "greece",
+      "germany",
+      "canada",
+      "italy",
+      "lists"
+    ],
+    "shared_terms": [
+      "austria",
+      "britain",
+      "france",
+      "great",
+      "list",
+      "poland",
+      "russia",
+      "states",
+      "sweden"
+    ]
+  },
+  "aligned_chunks": [
+    {
+      "britannica_chunk_index": 0,
+      "wikipedia_chunk_index": 1,
+      "similarity": 0.2171,
+      "britannica_excerpt": "Beign of France? This was a point which ought not to have been discussed. The object was to treat upon actual circumstances and the real grounds of dispute. Suppose that there were, despite its status over by any means, should its down to c",
+      "wikipedia_excerpt": "List of ambassadors of France to the Kingdom of Great Britain\n\nList of ambassadors of France to the United Kingdom\n\nList of ambassadors of France to the United States"
+    },
+    {
+      "britannica_chunk_index": 4,
+      "wikipedia_chunk_index": 1,
+      "similarity": 0.1595,
+      "britannica_excerpt": " had it too been for the interference and mention of the other power of Europe, the French revolution would have a sumed a very different character from that which it now exhibited. His results and then offered the general state in less unl",
+      "wikipedia_excerpt": "List of ambassadors of France to the Kingdom of Great Britain\n\nList of ambassadors of France to the United Kingdom\n\nList of ambassadors of France to the United States"
+    },
+    {
+      "britannica_chunk_index": 9,
+      "wikipedia_chunk_index": 1,
+      "similarity": 0.1212,
+      "britannica_excerpt": "that its result would permanent security, but from the preservation that the danger arising from peace in these circumstances would be less than the continuous of work with inadequate. Mr You was decided of opinion that France, at the comme",
+      "wikipedia_excerpt": "List of ambassadors of France to the Kingdom of Great Britain\n\nList of ambassadors of France to the United Kingdom\n\nList of ambassadors of France to the United States"
+    }
+  ],
+  "topic_id": 7,
+  "topic_terms": [
+    "see",
+    "upon",
+    "great"
+  ],
+  "claims": [
+    {
+      "claim_text": "The Britannica entry \"BRITAIN 571\" uses 591 content tokens while the Wikipedia article \"Lists of ambassadors of France\" uses 93; their normalized vocabularies share a Jaccard overlap of 0.0178 (raw 0.0178) and a TF-IDF cosine similarity of 0.2361.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2087"
+      ],
+      "britannica_quote": "Beign of France? This was a point which ought not to have been discussed. The object was to treat upon actual circumstances and the real grounds of dispute. Suppose that there were, despite its status over by any means, should its down to c",
+      "wikipedia_page_id": "48613670",
+      "wikipedia_revision_id": "1173959993",
+      "wikipedia_quote": "Lists of ambassadors of France may refer to:\n\nList of ambassadors of France to Algeria\n\nList of ambassadors of France to Australia\n\nList of ambassadors of France to Austria\n\nList of ambassadors of France to Belgium\n\nList of ambassadors of F"
+    },
+    {
+      "claim_text": "Britannica's most distinctive term is \"government\"; Wikipedia's is \"list\", showing the era-specific vocabulary of each source.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2087"
+      ],
+      "britannica_quote": "We had here taken up to the principle, so much objective to Josephus, of distinguishing between the people and their government.",
+      "wikipedia_page_id": "48613670",
+      "wikipedia_revision_id": "1173959993",
+      "wikipedia_quote": "Lists of ambassadors of France may refer to:"
+    },
+    {
+      "claim_text": "Both sources share core vocabulary including: austria, britain, france, great, list.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2087"
+      ],
+      "britannica_quote": "Mr Dundia said, that the leading fictional of the French revolves was a disregard of all treates, and a contenity for the rights of other paper, and in proof of the sacrifice, he considered it as necessary merely to recite the names of Spai",
+      "wikipedia_page_id": "48613670",
+      "wikipedia_revision_id": "1173959993",
+      "wikipedia_quote": "List of ambassadors of France to Austria"
+    },
+    {
+      "claim_text": "1 normalization rules fired on the Britannica text (\"neighbours\" -> \"neighbors\"); residual vocabulary differences likely reflect era terminology rather than OCR noise alone.",
+      "claim_type": "inference",
+      "label": "[inference]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2087"
+      ],
+      "britannica_quote": "troubling her neighbours; but they caus",
+      "wikipedia_page_id": "48613670",
+      "wikipedia_revision_id": "1173959993",
+      "wikipedia_quote": "Lists of ambassadors of France may refer to:\n\nList of ambassadors of France to Algeria\n\nList of ambassadors of France to Australia\n\nList of ambassadors of France to Austria\n\nList of ambassadors of France to Belgium\n\nList of ambassadors of F"
+    }
+  ]
+}

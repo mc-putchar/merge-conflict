@@ -1,0 +1,189 @@
+{
+  "entry_id": "entry-egy-368-e-g-y-1430",
+  "britannica_title": "EGY  368  E G Y",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1430"
+  ],
+  "britannica_sha256": "bdd70d13d3024a3d69424db987c311daea41d1d60f950983dc4427c575950990",
+  "britannica_raw_chars": 6687,
+  "britannica_tokens": 541,
+  "britannica_unique_tokens": 445,
+  "wikipedia_page_id": "26193566",
+  "wikipedia_revision_id": "1083528957",
+  "wikipedia_title": "Violin sonata in G minor (HWV 368)",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Violin_sonata_in_G_minor_(HWV_368)",
+  "wikipedia_text_sha256": "2f7f52a531c951e269771cdb52b65806cd0e37f08977147e9bb3c94b63798bad",
+  "wikipedia_raw_chars": 904,
+  "wikipedia_tokens": 74,
+  "wikipedia_unique_tokens": 53,
+  "length_ratio": 0.135,
+  "text_changes": [
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fan",
+      "replacement": "san",
+      "count": 1,
+      "samples": [
+        "kaan, that his fan, who was then"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fay",
+      "replacement": "say",
+      "count": 1,
+      "samples": [
+        "arch, does not fay whether the co"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "feem",
+      "replacement": "seem",
+      "count": 1,
+      "samples": [
+        "ever, it would feem that the kingd"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fet",
+      "replacement": "set",
+      "count": 1,
+      "samples": [
+        "in like manner fet y pilnas, what"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fun",
+      "replacement": "sun",
+      "count": 1,
+      "samples": [
+        "Re-holone the fun of Solomon. Ot"
+      ]
+    }
+  ],
+  "metrics": {
+    "jaccard_raw": 0.002,
+    "jaccard_normalized": 0.002,
+    "cosine_tfidf": 0.0026,
+    "cosine_embedding": 0.0429,
+    "distinctive_britannica": [
+      "part",
+      "whole",
+      "people",
+      "egypt",
+      "whether",
+      "great",
+      "land",
+      "sea",
+      "continent",
+      "against",
+      "expedition",
+      "country",
+      "egyptians",
+      "way",
+      "father"
+    ],
+    "distinctive_wikipedia": [
+      "work",
+      "edition",
+      "four",
+      "number",
+      "composed",
+      "published",
+      "referred",
+      "violin",
+      "minor",
+      "thought",
+      "music",
+      "scholars",
+      "contain",
+      "appears",
+      "similar"
+    ],
+    "shared_terms": [
+      "however"
+    ]
+  },
+  "aligned_chunks": [
+    {
+      "britannica_chunk_index": 8,
+      "wikipedia_chunk_index": 1,
+      "similarity": 0.271,
+      "britannica_excerpt": "feels not to have made many company due for.",
+      "wikipedia_excerpt": "(Movements do not contain repeat markings unless indicated. The number of bars is taken from the Chrysander edition, and is the raw number in the manuscript—not including repeat markings.)"
+    },
+    {
+      "britannica_chunk_index": 11,
+      "wikipedia_chunk_index": 1,
+      "similarity": 0.2145,
+      "britannica_excerpt": "defects. This was evident from the personal referendure they bore to the Egypu",
+      "wikipedia_excerpt": "(Movements do not contain repeat markings unless indicated. The number of bars is taken from the Chrysander edition, and is the raw number in the manuscript—not including repeat markings.)"
+    },
+    {
+      "britannica_chunk_index": 5,
+      "wikipedia_chunk_index": 1,
+      "similarity": 0.1393,
+      "britannica_excerpt": "n particular, were never permitted to talked my food till they had preferred a courte of 150 forlongs, upwards of 22 of our miles. When the old king imagined they were sufficiently educated in the martial way he deliged them to follow, they",
+      "wikipedia_excerpt": "(Movements do not contain repeat markings unless indicated. The number of bars is taken from the Chrysander edition, and is the raw number in the manuscript—not including repeat markings.)"
+    }
+  ],
+  "topic_id": 5,
+  "topic_terms": [
+    "every",
+    "people",
+    "upon"
+  ],
+  "claims": [
+    {
+      "claim_text": "The Britannica entry \"EGY  368  E G Y\" uses 541 content tokens while the Wikipedia article \"Violin sonata in G minor (HWV 368)\" uses 74; their normalized vocabularies share a Jaccard overlap of 0.002 (raw 0.002) and a TF-IDF cosine similarity of 0.0026.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1430"
+      ],
+      "britannica_quote": "Egypt. over the continent, they had become a great and powerful people and from their opposite dispositions and manners, became very frequently enemies to the Egyptians. \"To me Salaris our author whether the definition of Thebes in Upper Eg",
+      "wikipedia_page_id": "26193566",
+      "wikipedia_revision_id": "1083528957",
+      "wikipedia_quote": "The Violin sonata in G minor (HWV 368) is a work for violin and basso continuo that was originally thought to have been composed by George Frideric Handel. Modern scholars however believe it doubtful that the work was composed by Handel, an"
+    },
+    {
+      "claim_text": "Britannica's most distinctive term is \"part\"; Wikipedia's is \"work\", showing the era-specific vocabulary of each source.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1430"
+      ],
+      "britannica_quote": "Others, however, phen him much earlier) and Mr Whition will have him to be the Pharash who refuted to part with the IF realches, and was at fall drowned in the Kč Sea.",
+      "wikipedia_page_id": "26193566",
+      "wikipedia_revision_id": "1083528957",
+      "wikipedia_quote": "The Violin sonata in G minor (HWV 368) is a work for violin and basso continuo that was originally thought to have been composed by George Frideric Handel."
+    },
+    {
+      "claim_text": "Both sources share core vocabulary including: however.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1430"
+      ],
+      "britannica_quote": "In their early ages, however, it would feem that the kingdom of Egypt had been very powerful and its do anunion very well extraction, since we had it fady, that the _Batiriana_ resulted from Olymandysan, another Egyptians king of every high",
+      "wikipedia_page_id": "26193566",
+      "wikipedia_revision_id": "1083528957",
+      "wikipedia_quote": "Modern scholars however believe it doubtful that the work was composed by Handel, and have labelled it as \"spurious\"."
+    },
+    {
+      "claim_text": "5 normalization rules fired on the Britannica text (\"fan\" -> \"san\"; \"fay\" -> \"say\"; \"feem\" -> \"seem\"); residual vocabulary differences likely reflect era terminology rather than OCR noise alone.",
+      "claim_type": "inference",
+      "label": "[inference]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1430"
+      ],
+      "britannica_quote": "kaan, that his fan, who was then",
+      "wikipedia_page_id": "26193566",
+      "wikipedia_revision_id": "1083528957",
+      "wikipedia_quote": "The Violin sonata in G minor (HWV 368) is a work for violin and basso continuo that was originally thought to have been composed by George Frideric Handel. Modern scholars however believe it doubtful that the work was composed by Handel, an"
+    }
+  ]
+}

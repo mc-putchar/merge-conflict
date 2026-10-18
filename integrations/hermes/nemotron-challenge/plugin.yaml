@@ -1,6 +1,8 @@
 name: nemotron-challenge
 version: "0.1.0"
-description: Participant comparison tool scaffold. Team implementation required.
+description: Evidence tools over the team's saved extract, match, and compare artifacts.
 provides_tools:
+  - challenge_find_entry
   - challenge_compare
+  - challenge_check_coverage
 capabilities: []

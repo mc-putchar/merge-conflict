@@ -2,6 +2,7 @@
 from dataclasses import replace
 import json
 from pathlib import Path
+import subprocess
 
 import httpx
 import pytest
@@ -32,7 +33,7 @@ def test_live_doctor_reports_missing_resources(monkeypatch):
     assert report["inference"] == "not tested"
 
 
-@pytest.mark.parametrize("stage", ["compare", "agent", "site", "evaluate"])
+@pytest.mark.parametrize("stage", ["site", "evaluate"])
 def test_unfinished_stage_fails_with_guide_and_creates_no_result(stage, tmp_path, capsys):
     path = tmp_path / "team-artifacts"
     assert main(["run", stage, "--work-dir", str(path)]) == 2
@@ -117,6 +118,188 @@ def test_match_stage_execution(monkeypatch, tmp_path):
     assert (artifacts_path / "match" / "matches.json").is_file()
     assert (artifacts_path / "match" / "unmatched.json").is_file()
 
+
+def test_compare_stage_execution(monkeypatch, tmp_path):
+    artifacts_path = tmp_path / "artifacts"
+    extract_dir = artifacts_path / "extract"
+    match_dir = artifacts_path / "match"
+    extract_dir.mkdir(parents=True, exist_ok=True)
+    match_dir.mkdir(parents=True, exist_ok=True)
+
+    sample_entries = [
+        {
+            "entry_id": "test-entry-1",
+            "title": "ABYSSINIA",
+            "text": "Abyssinia is an ancient country in eastern Africa. " * 10,
+            "source_pages": ["britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:13"],
+            "source_row_indices": [13],
+            "volume_id": "193913444",
+            "is_continuation": False,
+            "block_count": 1,
+            "character_count": 510,
+        },
+        {
+            "entry_id": "test-entry-short",
+            "title": "BLANK",
+            "text": "",
+            "source_pages": ["britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:14"],
+            "source_row_indices": [14],
+            "volume_id": "193913444",
+            "is_continuation": False,
+            "block_count": 0,
+            "character_count": 0,
+        },
+    ]
+    (extract_dir / "entries.json").write_text(json.dumps(sample_entries), encoding="utf-8")
+
+    sample_matches = [
+        {
+            "entry_id": "test-entry-1",
+            "britannica_title": "ABYSSINIA",
+            "source_pages": ["britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:13"],
+            "matched": True,
+            "status": "accepted",
+            "selected_candidate": {
+                "page_id": "100", "revision_id": "1", "title": "Ethiopia",
+                "url": "https://en.wikipedia.org/wiki/Ethiopia", "bm25_score": 15.0,
+                "excerpt": "Ethiopia is a country in the Horn of Africa.",
+                "stage1_score": 2.0, "multimodal_score": 2.5,
+                "is_disambiguation": False, "source_query": "Ethiopia",
+            },
+            "all_candidates": [],
+            "article_text_sha256": "d" * 64,
+            "decision_rationale": "test",
+        },
+        {
+            "entry_id": "test-entry-short",
+            "britannica_title": "BLANK",
+            "source_pages": ["britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:14"],
+            "matched": True,
+            "status": "accepted",
+            "selected_candidate": {
+                "page_id": "101", "revision_id": "1", "title": "Blank",
+                "url": "https://en.wikipedia.org/wiki/Blank", "bm25_score": 5.0,
+                "excerpt": "Blank.", "stage1_score": 1.0, "multimodal_score": 1.0,
+                "is_disambiguation": False, "source_query": "Blank",
+            },
+            "all_candidates": [],
+            "article_text_sha256": "e" * 64,
+            "decision_rationale": "test",
+        },
+    ]
+    (match_dir / "matches.json").write_text(json.dumps(sample_matches), encoding="utf-8")
+    (match_dir / "unmatched.json").write_text("[]", encoding="utf-8")
+
+    monkeypatch.setenv("CHALLENGE_DB_PATH", str(tmp_path / "test.lancedb"))
+    monkeypatch.setenv("WIKI_CACHE_DIR", str(tmp_path / "wiki"))
+    monkeypatch.setenv("COMPARE_CACHE_DIR", str(tmp_path / "comparisons"))
+    monkeypatch.setenv("SUPER_API_KEY", "")
+    monkeypatch.setenv("RETRIEVAL_BASE_URL", "")
+
+    import nemotron_challenge.tasks as t
+
+    class MockArticle:
+        page_id = "100"
+        revision_id = "1"
+        title = "Ethiopia"
+        url = "https://en.wikipedia.org/wiki/Ethiopia"
+        text = "Ethiopia, officially the Federal Democratic Republic of Ethiopia, is a country in the Horn of Africa. " * 8
+
+        class Provenance:
+            text_sha256 = "d" * 64
+        provenance = Provenance()
+
+    monkeypatch.setattr(t, "fetch_full_article_verified", lambda *args, **kwargs: MockArticle())
+
+    assert main(["run", "compare", "--work-dir", str(artifacts_path)]) == 0
+    compare_dir = artifacts_path / "compare"
+    assert (compare_dir / "summary.json").is_file()
+    assert (compare_dir / "comparisons.json").is_file()
+    assert (compare_dir / "exclusions.json").is_file()
+    assert (compare_dir / "plots" / "document_accounting.svg").is_file()
+
+    summary = json.loads((compare_dir / "summary.json").read_text(encoding="utf-8"))
+    assert summary["compared_count"] == 1
+    assert summary["excluded_count"] == 1
+    assert summary["entries_total"] == 2
+    assert summary["document_accounting_verified"] is True
+
+    exclusions = json.loads((compare_dir / "exclusions.json").read_text(encoding="utf-8"))
+    assert exclusions[0]["reason"] == "short_or_blank_text"
+
+
+
+def test_agent_stage_execution(monkeypatch, tmp_path):
+    artifacts_path = tmp_path / "artifacts"
+    compare_dir = artifacts_path / "compare"
+    compare_dir.mkdir(parents=True, exist_ok=True)
+
+    (compare_dir / "summary.json").write_text(json.dumps({
+        "entries_total": 2, "compared_count": 1, "excluded_count": 1,
+        "exclusions_by_reason": {"unmatched": 1},
+        "document_accounting_verified": True,
+    }), encoding="utf-8")
+    (compare_dir / "comparisons.json").write_text(json.dumps([
+        {"entry_id": "entry-optics-1"},
+    ]), encoding="utf-8")
+    (compare_dir / "exclusions.json").write_text(json.dumps([
+        {"entry_id": "entry-unmatched-2", "britannica_title": "NO MATCH",
+         "source_pages": ["p2"], "reason": "unmatched", "match_status": "no_candidates"},
+    ]), encoding="utf-8")
+
+    monkeypatch.setenv("CHALLENGE_DB_PATH", str(tmp_path / "test.lancedb"))
+    monkeypatch.setenv("HERMES_HOME", str(tmp_path / "hermes"))
+    monkeypatch.setenv("SUPER_API_KEY", "test-key")
+
+    def stream(query: str) -> str:
+        events = [
+            {"type": "system", "subtype": "init",
+             "model": "nvidia/Nemotron-3.5-Super-VL", "session_id": "s1"},
+            {"type": "tool_use", "name": "challenge_compare",
+             "input": {"entry_id": "entry-optics-1"}, "tool_call_id": "t1"},
+            {"type": "tool_result", "name": "challenge_compare",
+             "output": '{"status": "ok"}', "duration_ms": 5, "is_error": False,
+             "tool_call_id": "t1"},
+        ]
+        if "entry-unmatched-2" in query:
+            events.append({"type": "result", "exit_code": 0,
+                           "text": "No comparison evidence exists for this entry; it was excluded.",
+                           "usage": {}})
+        else:
+            events.append({"type": "result", "exit_code": 0,
+                           "text": "Compared with citations to page 42 revision 100.",
+                           "usage": {"total": 10}})
+        return "\n".join(json.dumps(e) for e in events)
+
+    def fake_run(command, **kwargs):
+        class Proc:
+            pass
+        proc = Proc()
+        proc.stderr = ""
+        if "chat" in command:
+            query = command[command.index("-q") + 1]
+            proc.stdout = stream(query)
+            proc.returncode = 0
+        else:  # plugins doctor
+            proc.stdout = "ok"
+            proc.returncode = 0
+        return proc
+
+    monkeypatch.setattr(subprocess, "run", fake_run)
+
+    assert main(["run", "agent", "--work-dir", str(artifacts_path)]) == 0
+    agent_dir = artifacts_path / "agent"
+    assert (agent_dir / "records.json").is_file()
+    run_files = sorted((agent_dir / "runs").glob("*.json"))
+    assert len(run_files) == 3
+
+    records = json.loads((agent_dir / "records.json").read_text(encoding="utf-8"))
+    assert all(r["status"] == "success" for r in records)
+
+    probe = [f for f in run_files if f.name.startswith("02-")][0]
+    detail = json.loads(probe.read_text(encoding="utf-8"))
+    assert detail["verification"]["status"] == "success"
+    assert detail["tool_uses"][0]["name"] == "challenge_compare"
 
 
 def test_stages_list_has_todos(capsys):

@@ -1,0 +1,270 @@
+{
+  "entry_id": "entry-britannica-volume-191679021-row-257-257",
+  "britannica_title": "Britannica Volume 191679021 Row 257",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:257",
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:258"
+  ],
+  "britannica_sha256": "4c366b11c88e51b86ffc4b5478be631335a3b92f7d03078f982739feeb201dc3",
+  "britannica_raw_chars": 14897,
+  "britannica_tokens": 1214,
+  "britannica_unique_tokens": 923,
+  "wikipedia_page_id": "1204744",
+  "wikipedia_revision_id": "1350080560",
+  "wikipedia_title": "Encyclopædia Britannica, Inc.",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Encyclop%C3%A6dia_Britannica,_Inc.",
+  "wikipedia_text_sha256": "98a5401c644e8f5a3e6dd971d51d6ab698932172cd42724bd1114fa483e8e086",
+  "wikipedia_raw_chars": 6035,
+  "wikipedia_tokens": 517,
+  "wikipedia_unique_tokens": 335,
+  "length_ratio": 0.405,
+  "text_changes": [
+    {
+      "rule": "archaic_spelling",
+      "original": "favour",
+      "replacement": "favor",
+      "count": 1,
+      "samples": [
+        "he required in favour of a clergyman"
+      ]
+    },
+    {
+      "rule": "archaic_spelling",
+      "original": "honour",
+      "replacement": "honor",
+      "count": 2,
+      "samples": [
+        "Maryburg6_, in honour of his queen.",
+        "d refrufed the honour of knightthood"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "fur-\n\npulled",
+      "replacement": "furpulled",
+      "count": 1,
+      "samples": [
+        "fur-\n\npulled"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "feems",
+      "replacement": "seems",
+      "count": 1,
+      "samples": [
+        "year 1705, he feems to have employ"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fet",
+      "replacement": "set",
+      "count": 2,
+      "samples": [
+        "he clergy, and fet every engine a",
+        "d, and another fet up in his room"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "feveral",
+      "replacement": "several",
+      "count": 1,
+      "samples": [
+        "at the head of feveral lands, having"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "few",
+      "replacement": "sew",
+      "count": 1,
+      "samples": [
+        "fricks, though few come out of it"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fomething",
+      "replacement": "something",
+      "count": 1,
+      "samples": [
+        "ed Burnet with fomething more than poli"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fort",
+      "replacement": "sort",
+      "count": 1,
+      "samples": [
+        "is within the fort, and is the le"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fupport",
+      "replacement": "support",
+      "count": 1,
+      "samples": [
+        "rnament than a fupport to the efficac"
+      ]
+    }
+  ],
+  "metrics": {
+    "jaccard_raw": 0.0439,
+    "jaccard_normalized": 0.044,
+    "cosine_tfidf": 0.0535,
+    "cosine_embedding": 0.1852,
+    "distinctive_britannica": [
+      "london",
+      "church",
+      "great",
+      "himself",
+      "town",
+      "oxford",
+      "fame",
+      "sir",
+      "house",
+      "built",
+      "king",
+      "whole",
+      "upon",
+      "name",
+      "afterwards"
+    ],
+    "distinctive_wikipedia": [
+      "britannica",
+      "dia",
+      "edition",
+      "company",
+      "encyclop",
+      "sales",
+      "editions",
+      "published",
+      "sears",
+      "sold",
+      "university",
+      "benton",
+      "bought",
+      "released",
+      "hooper"
+    ],
+    "shared_terms": [
+      "acknowledged",
+      "against",
+      "american",
+      "announced",
+      "back",
+      "became",
+      "began",
+      "brother",
+      "called",
+      "capital",
+      "company",
+      "company's",
+      "death",
+      "died",
+      "early",
+      "editor",
+      "education",
+      "england",
+      "ever",
+      "field",
+      "force",
+      "formed",
+      "founded",
+      "fourth",
+      "group",
+      "however",
+      "july",
+      "know",
+      "known",
+      "laid"
+    ]
+  },
+  "aligned_chunks": [
+    {
+      "britannica_chunk_index": 14,
+      "wikipedia_chunk_index": 2,
+      "similarity": 0.1996,
+      "britannica_excerpt": " of all the temposities of his lithopio, he advised Edward to banith him; but this price rejected the propial, and attraward refused to Wyckham all that the had been dividend of. Richard II was but eleven years old when Edward died, whereby",
+      "wikipedia_excerpt": "Beginning with the ninth edition in 1875, the range of topics were expanded by bringing in contributors from the literary field, social sciences and the scientific community. The ninth edition has since been acknowledged as one of the most "
+    },
+    {
+      "britannica_chunk_index": 22,
+      "wikipedia_chunk_index": 1,
+      "similarity": 0.1902,
+      "britannica_excerpt": ". He was one of the first members of the Royal Society, and from made his name illustrious by his excellent writings. In 1605 after the first of London, he traveled to Wilminker; and his practice became greater than that of any of the physi",
+      "wikipedia_excerpt": "The company was founded in Edinburgh, Scotland, in the 18th century, during the historical period termed the Scottish Enlightenment. Colin Macfarquhar and Andrew Bell began the first edition in 1768. The pair engaged William Smellie, who co"
+    },
+    {
+      "britannica_chunk_index": 23,
+      "wikipedia_chunk_index": 1,
+      "similarity": 0.1802,
+      "britannica_excerpt": "ointed across foreign forces, which conclually frequested before he vifited his patients, he procured prayers to be read beyond the secundance times while he lives and at his death settled a ifgood of such pernum to continue them. He was a ",
+      "wikipedia_excerpt": "The company was founded in Edinburgh, Scotland, in the 18th century, during the historical period termed the Scottish Enlightenment. Colin Macfarquhar and Andrew Bell began the first edition in 1768. The pair engaged William Smellie, who co"
+    }
+  ],
+  "topic_id": 7,
+  "topic_terms": [
+    "see",
+    "upon",
+    "great"
+  ],
+  "claims": [
+    {
+      "claim_text": "The Britannica entry \"Britannica Volume 191679021 Row 257\" uses 1214 content tokens while the Wikipedia article \"Encyclopædia Britannica, Inc.\" uses 517; their normalized vocabularies share a Jaccard overlap of 0.044 (raw 0.0439) and a TF-IDF cosine similarity of 0.0535.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:257",
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:258"
+      ],
+      "britannica_quote": "_Swift_ in his power to provide him indarwify. Swift that person (10/3) in different, having previously taken his matter’s degree at Oxford, by means of a tellimonal from Dublin, in which the world of debates were omitted. He was referred t",
+      "wikipedia_page_id": "1204744",
+      "wikipedia_revision_id": "1350080560",
+      "wikipedia_quote": "Encyclopædia Britannica, Inc., is the company known for publishing the Encyclopædia Britannica, the world's oldest continuously published encyclopaedia. The company also owns the American dictionary publisher Merriam-Webster. Originally fou"
+    },
+    {
+      "claim_text": "Britannica's most distinctive term is \"london\"; Wikipedia's is \"britannica\", showing the era-specific vocabulary of each source.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:257",
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:258"
+      ],
+      "britannica_quote": "According to his constant practice he had concealed his name, but after its appearance is perhaps a visit to some Irish bishop, to was asked by him if he had read that pamphlet, and what its reputation was in London.",
+      "wikipedia_page_id": "1204744",
+      "wikipedia_revision_id": "1350080560",
+      "wikipedia_quote": "Encyclopædia Britannica, Inc., is the company known for publishing the Encyclopædia Britannica, the world's oldest continuously published encyclopaedia."
+    },
+    {
+      "claim_text": "Both sources share core vocabulary including: acknowledged, against, american, announced, back.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:257",
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:258"
+      ],
+      "britannica_quote": "In 1701 Swift published _A观察 of the temple and difficultification about Glasses._ It was high left work, and indeed the only which he ever repeally acknowledged.",
+      "wikipedia_page_id": "1204744",
+      "wikipedia_revision_id": "1350080560",
+      "wikipedia_quote": "The ninth edition has since been acknowledged as one of the most impressive collections of scholarship ever produced."
+    },
+    {
+      "claim_text": "10 normalization rules fired on the Britannica text (\"favour\" -> \"favor\"; \"honour\" -> \"honor\"; \"fur-\n\npulled\" -> \"furpulled\"); residual vocabulary differences likely reflect era terminology rather than OCR noise alone.",
+      "claim_type": "inference",
+      "label": "[inference]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:257",
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:258"
+      ],
+      "britannica_quote": "he required in favour of a clergyman",
+      "wikipedia_page_id": "1204744",
+      "wikipedia_revision_id": "1350080560",
+      "wikipedia_quote": "Encyclopædia Britannica, Inc., is the company known for publishing the Encyclopædia Britannica, the world's oldest continuously published encyclopaedia. The company also owns the American dictionary publisher Merriam-Webster. Originally fou"
+    }
+  ]
+}

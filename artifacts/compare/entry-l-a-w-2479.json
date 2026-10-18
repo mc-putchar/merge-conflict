@@ -1,0 +1,247 @@
+{
+  "entry_id": "entry-l-a-w-2479",
+  "britannica_title": "L A W",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2479"
+  ],
+  "britannica_sha256": "d191e74c65133593b06db06f155bc638d73973dc381b43a6b5bfdc5f5c3df81e",
+  "britannica_raw_chars": 6607,
+  "britannica_tokens": 519,
+  "britannica_unique_tokens": 401,
+  "wikipedia_page_id": "3920403",
+  "wikipedia_revision_id": "1227137888",
+  "wikipedia_title": "Judgment summons",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Judgment_summons",
+  "wikipedia_text_sha256": "4fd3eb378ee48bc2d155f36cece160d43901a2db016fd33b7ff8bb85d67f23f7",
+  "wikipedia_raw_chars": 2142,
+  "wikipedia_tokens": 172,
+  "wikipedia_unique_tokens": 109,
+  "length_ratio": 0.324,
+  "text_changes": [
+    {
+      "rule": "line_break_hyphen",
+      "original": "ac-\n\ncording",
+      "replacement": "according",
+      "count": 1,
+      "samples": [
+        "ac-\n\ncording"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "cafe",
+      "replacement": "case",
+      "count": 3,
+      "samples": [
+        "erfree, in the cafe of feveral arr",
+        "y means in the cafe of Several adj",
+        "year, in which cafe its effect is"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "feveral",
+      "replacement": "several",
+      "count": 2,
+      "samples": [
+        "fore bring the feveral claimants into",
+        "in the cafe of feveral arreffments us"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fleep",
+      "replacement": "sleep",
+      "count": 1,
+      "samples": [
+        "e rolls cannot fleep ; nor an actio"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fore",
+      "replacement": "sore",
+      "count": 1,
+      "samples": [
+        "ath ; which be fore was non admitt"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fort",
+      "replacement": "sort",
+      "count": 2,
+      "samples": [
+        "they were pre-fort at fighting th",
+        "s allo of this fort, whereby an ac"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fummons",
+      "replacement": "summons",
+      "count": 1,
+      "samples": [
+        "e of brives. A fummons, when applied"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "loft",
+      "replacement": "lost",
+      "count": 1,
+      "samples": [
+        "that which is loft, the tenor is"
+      ]
+    }
+  ],
+  "metrics": {
+    "jaccard_raw": 0.0558,
+    "jaccard_normalized": 0.0581,
+    "cosine_tfidf": 0.1167,
+    "cosine_embedding": 0.3182,
+    "distinctive_britannica": [
+      "action",
+      "upon",
+      "mult",
+      "without",
+      "writing",
+      "fame",
+      "days",
+      "actions",
+      "several",
+      "defender",
+      "writings",
+      "process",
+      "certain",
+      "case",
+      "pronounced"
+    ],
+    "distinctive_wikipedia": [
+      "judgment",
+      "order",
+      "summons",
+      "payment",
+      "obtained",
+      "rules",
+      "made",
+      "civil",
+      "procedure",
+      "six",
+      "issue",
+      "commitment",
+      "extreme",
+      "act",
+      "weeks"
+    ],
+    "shared_terms": [
+      "actions",
+      "against",
+      "appear",
+      "cannot",
+      "cause",
+      "court",
+      "courts",
+      "current",
+      "debt",
+      "debtor",
+      "debtors",
+      "form",
+      "judgment",
+      "law",
+      "made",
+      "means",
+      "now",
+      "order",
+      "otherwise",
+      "pay",
+      "payment",
+      "person",
+      "right",
+      "served",
+      "summons",
+      "time",
+      "used",
+      "year"
+    ]
+  },
+  "aligned_chunks": [
+    {
+      "britannica_chunk_index": 11,
+      "wikipedia_chunk_index": 0,
+      "similarity": 0.2971,
+      "britannica_excerpt": "29. The days indulged by law to a defender, between his citation and appearance, to prepare for his defense, are called _inducie legator._ I like to within the kingdom, seventy one and life days, for the lift and second diets of appearances",
+      "wikipedia_excerpt": "Judgment summons, in English law, a summons issued under the Debtors' Act 1869 (32 & 33 Vict. c. 62) on the application of a creditor who has obtained a judgment for the payment of a sum of money by instalments or otherwise, where the order"
+    },
+    {
+      "britannica_chunk_index": 9,
+      "wikipedia_chunk_index": 3,
+      "similarity": 0.2743,
+      "britannica_excerpt": "28. Actions proceeded anciently upon brives lifting from the chancery, directed to the judiciary or judge-ordinary, who tried the matter by a jury, upon whole verdić judgment was pronounced. And to the day, we re- certain brievers, as of _I",
+      "wikipedia_excerpt": "Applications for these are now made under County Court Rules Order 28. There is a standard Civil Procedure Rules practice form which may be used to apply for the issue of the summons. As of 2024, the current fee for issue is £131."
+    },
+    {
+      "britannica_chunk_index": 1,
+      "wikipedia_chunk_index": 2,
+      "similarity": 0.2565,
+      "britannica_excerpt": "23. Regularly, no deed can be served by this action, without other animals in writing, referring to that which is libelled ; for no written obligation ought to be raided up barely on the settlement of \"utterls\". If the admined allowful suff",
+      "wikipedia_excerpt": "Imprisonment does not operate as a satisfaction or extinguishment of a debt, or deprive a person of a right of execution against the land or goods of the person imprisoned in the same manner as there had been no imprisonment. In this regard"
+    }
+  ],
+  "topic_id": 7,
+  "topic_terms": [
+    "see",
+    "upon",
+    "great"
+  ],
+  "claims": [
+    {
+      "claim_text": "The Britannica entry \"L A W\" uses 519 content tokens while the Wikipedia article \"Judgment summons\" uses 172; their normalized vocabularies share a Jaccard overlap of 0.0581 (raw 0.0558) and a TF-IDF cosine similarity of 0.1167.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2479"
+      ],
+      "britannica_quote": "extinguishable barely by the debtor’s retiring or cancel-ling them, the purifier, before a proof of the tenor is admitted, mult condescend on fuch a _cafus amifinosis_, or accident by which the writing was delivery as there it was full here",
+      "wikipedia_page_id": "3920403",
+      "wikipedia_revision_id": "1227137888",
+      "wikipedia_quote": "Judgment summons, in English law, a summons issued under the Debtors' Act 1869 (32 & 33 Vict. c. 62) on the application of a creditor who has obtained a judgment for the payment of a sum of money by instalments or otherwise, where the order"
+    },
+    {
+      "claim_text": "Britannica's most distinctive term is \"action\"; Wikipedia's is \"judgment\", showing the era-specific vocabulary of each source.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2479"
+      ],
+      "britannica_quote": "Regularly, no deed can be served by this action, without other animals in writing, referring to that which is libelled ; for no written obligation ought to be raided up barely on the settlement of \"utterls\".",
+      "wikipedia_page_id": "3920403",
+      "wikipedia_revision_id": "1227137888",
+      "wikipedia_quote": "Judgment summons, in English law, a summons issued under the Debtors' Act 1869 (32 & 33 Vict."
+    },
+    {
+      "claim_text": "Both sources share core vocabulary including: actions, against, appear, cannot, cause.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2479"
+      ],
+      "britannica_quote": "Actions of proving the tenor are, on account of their importance, appropriate to the court of Sellon, and, by the old form, the tells many of the wineifts could not be received, but in pre- fence of all thejudges.",
+      "wikipedia_page_id": "3920403",
+      "wikipedia_revision_id": "1227137888",
+      "wikipedia_quote": "A judgment summons may now be served by post in keeping with other Civil Procedure Rules actions but, if this option is chosen, then a commitment order cannot be obtained unless: (a) he appears at the hearing; or (b) it is made under sectio"
+    },
+    {
+      "claim_text": "8 normalization rules fired on the Britannica text (\"ac-\n\ncording\" -> \"according\"; \"cafe\" -> \"case\"; \"feveral\" -> \"several\"); residual vocabulary differences likely reflect era terminology rather than OCR noise alone.",
+      "claim_type": "inference",
+      "label": "[inference]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2479"
+      ],
+      "britannica_quote": "ac-\n\ncording",
+      "wikipedia_page_id": "3920403",
+      "wikipedia_revision_id": "1227137888",
+      "wikipedia_quote": "Judgment summons, in English law, a summons issued under the Debtors' Act 1869 (32 & 33 Vict. c. 62) on the application of a creditor who has obtained a judgment for the payment of a sum of money by instalments or otherwise, where the order"
+    }
+  ]
+}

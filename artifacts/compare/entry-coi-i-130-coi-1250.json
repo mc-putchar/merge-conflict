@@ -1,0 +1,210 @@
+{
+  "entry_id": "entry-coi-i-130-coi-1250",
+  "britannica_title": "COI I 130  COI",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1250"
+  ],
+  "britannica_sha256": "fa84b1763f0d765b8af12963ac454d9d0fa0b54c2d2dd2351511aabe82f9e48b",
+  "britannica_raw_chars": 6309,
+  "britannica_tokens": 539,
+  "britannica_unique_tokens": 435,
+  "wikipedia_page_id": "629195",
+  "wikipedia_revision_id": "1160908771",
+  "wikipedia_title": "COI",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/COI",
+  "wikipedia_text_sha256": "8c4a11c7da17e15503cfaf62003c4f41c3ce7668ddd44dfb6890f33a5ebf2b72",
+  "wikipedia_raw_chars": 1442,
+  "wikipedia_tokens": 140,
+  "wikipedia_unique_tokens": 118,
+  "length_ratio": 0.229,
+  "text_changes": [
+    {
+      "rule": "line_break_hyphen",
+      "original": "me-\n\ntal",
+      "replacement": "metal",
+      "count": 1,
+      "samples": [
+        "me-\n\ntal"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "pre-\nportion",
+      "replacement": "preportion",
+      "count": 1,
+      "samples": [
+        "pre-\nportion"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "cafe",
+      "replacement": "case",
+      "count": 1,
+      "samples": [
+        "ght of a fluid-cafe, fering in bot"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fet",
+      "replacement": "set",
+      "count": 1,
+      "samples": [
+        "fer the frewef fet within it to t"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "flight",
+      "replacement": "slight",
+      "count": 1,
+      "samples": [
+        "he manner of a flight of a fluid-caf"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "foils",
+      "replacement": "soils",
+      "count": 1,
+      "samples": [
+        "s, as that the foils- ing cell of t"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "ufes",
+      "replacement": "uses",
+      "count": 1,
+      "samples": [
+        "the white-man ufes, are the lamin"
+      ]
+    }
+  ],
+  "metrics": {
+    "jaccard_raw": 0.0073,
+    "jaccard_normalized": 0.0073,
+    "cosine_tfidf": 0.0104,
+    "cosine_embedding": 0.0557,
+    "distinctive_britannica": [
+      "upon",
+      "figures",
+      "fig",
+      "cut",
+      "pieces",
+      "metal",
+      "piece",
+      "engraved",
+      "flat",
+      "mill",
+      "thick",
+      "laid",
+      "coin",
+      "engine",
+      "according"
+    ],
+    "distinctive_wikipedia": [
+      "coi",
+      "died",
+      "album",
+      "university",
+      "interest",
+      "computer",
+      "code",
+      "inquiry",
+      "center",
+      "community",
+      "restaurant",
+      "california",
+      "refer",
+      "policy",
+      "scientific"
+    ],
+    "shared_terms": [
+      "figure",
+      "former",
+      "given",
+      "see"
+    ]
+  },
+  "aligned_chunks": [
+    {
+      "britannica_chunk_index": 0,
+      "wikipedia_chunk_index": 0,
+      "similarity": 0.1432,
+      "britannica_excerpt": "Coin,\n\nAccording to the decouple preportion, mentioned by Livy and Julius Pollox, worth\n\nAccording to the proportion mentioned by Hectus, and which afterwards obtained, whereby the aurer exchanged for _5_ denarii its value\n\nCoin, in archite",
+      "wikipedia_excerpt": "COI, CoI or Coi may refer to:\n\nCenter on Organizational Innovation, a research center at Columbia University\n\nCentral Office of Information, a former UK Government department\n\nChurch of Ireland, an autonomous province of the Anglican Commun"
+    },
+    {
+      "britannica_chunk_index": 1,
+      "wikipedia_chunk_index": 1,
+      "similarity": 0.0656,
+      "britannica_excerpt": "Remedy the fabric of coins was different from what it is not present. They cut a large piece of metal into federal little figures, the corners of which were cut with shellsers. After having flapped thefele pieces, fo an are reader than perf",
+      "wikipedia_excerpt": "Contingency Orbit Insertion, an abort mode of the Apollo spacecraft\n\nCost of illness, see Disease burden\n\nCytochrome Oxidase Subunit 1, a gene\n\nCoprocessor Offload Infrastructure, a high-level software library for code and data offloading t"
+    },
+    {
+      "britannica_chunk_index": 4,
+      "wikipedia_chunk_index": 0,
+      "similarity": 0.0586,
+      "britannica_excerpt": "The three finest influences the white-man uses, are the laminating engines: the machine for making the imperfections on the edges of coins, and that null.",
+      "wikipedia_excerpt": "COI, CoI or Coi may refer to:\n\nCenter on Organizational Innovation, a research center at Columbia University\n\nCentral Office of Information, a former UK Government department\n\nChurch of Ireland, an autonomous province of the Anglican Commun"
+    }
+  ],
+  "topic_id": 5,
+  "topic_terms": [
+    "every",
+    "people",
+    "upon"
+  ],
+  "claims": [
+    {
+      "claim_text": "The Britannica entry \"COI I 130  COI\" uses 540 content tokens while the Wikipedia article \"COI\" uses 140; their normalized vocabularies share a Jaccard overlap of 0.0073 (raw 0.0073) and a TF-IDF cosine similarity of 0.0104.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1250"
+      ],
+      "britannica_quote": "Coin,\nAccording to the decouple pre-\nportion, mentioned by Livy and Julius Pollox, worth\n\nAccording to the proportion mentioned by Hectus, and which afterwards obtained, whereby the aurer exchanged for _5_ denarii its value\n\nCoin, in archit",
+      "wikipedia_page_id": "629195",
+      "wikipedia_revision_id": "1160908771",
+      "wikipedia_quote": "COI, CoI or Coi may refer to:\n\nCenter on Organizational Innovation, a research center at Columbia University\n\nCentral Office of Information, a former UK Government department\n\nChurch of Ireland, an autonomous province of the Anglican Commun"
+    },
+    {
+      "claim_text": "Britannica's most distinctive term is \"upon\"; Wikipedia's is \"coi\", showing the era-specific vocabulary of each source.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1250"
+      ],
+      "britannica_quote": "The planet of metal has horizontally had upon this inferior mals, to receive the thamp of it on one file, and that of the new dye, wherewith it was covered, on the other.",
+      "wikipedia_page_id": "629195",
+      "wikipedia_revision_id": "1160908771",
+      "wikipedia_quote": "COI, CoI or Coi may refer to:"
+    },
+    {
+      "claim_text": "Both sources share core vocabulary including: figure, former, given, see.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1250"
+      ],
+      "britannica_quote": "They cut a large piece of metal into federal little figures, the corners of which were cut with shellsers.",
+      "wikipedia_page_id": "629195",
+      "wikipedia_revision_id": "1160908771",
+      "wikipedia_quote": "Dennis Coi (died 1987), Canadian figure skater"
+    },
+    {
+      "claim_text": "7 normalization rules fired on the Britannica text (\"me-\n\ntal\" -> \"metal\"; \"pre-\nportion\" -> \"preportion\"; \"cafe\" -> \"case\"); residual vocabulary differences likely reflect era terminology rather than OCR noise alone.",
+      "claim_type": "inference",
+      "label": "[inference]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1250"
+      ],
+      "britannica_quote": "me-\n\ntal",
+      "wikipedia_page_id": "629195",
+      "wikipedia_revision_id": "1160908771",
+      "wikipedia_quote": "COI, CoI or Coi may refer to:\n\nCenter on Organizational Innovation, a research center at Columbia University\n\nCentral Office of Information, a former UK Government department\n\nChurch of Ireland, an autonomous province of the Anglican Commun"
+    }
+  ]
+}

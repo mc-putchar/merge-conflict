@@ -1,0 +1,179 @@
+{
+  "entry_id": "entry-liberty-of-the-press-1166",
+  "britannica_title": "LIBERTY OF THE PRESS",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1166"
+  ],
+  "britannica_sha256": "88e8c8907a7503a7a09552cc0d89c2d51d7e2c5707c76c65f7d8629140e20683",
+  "britannica_raw_chars": 7502,
+  "britannica_tokens": 536,
+  "britannica_unique_tokens": 345,
+  "wikipedia_page_id": "23369583",
+  "wikipedia_revision_id": "1311790881",
+  "wikipedia_title": "Liberties Press",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Liberties_Press",
+  "wikipedia_text_sha256": "cc075718d6b2e85b677c422f0e56082a725adec3e9777eb8099022f46093dd2c",
+  "wikipedia_raw_chars": 6280,
+  "wikipedia_tokens": 593,
+  "wikipedia_unique_tokens": 433,
+  "length_ratio": 0.837,
+  "text_changes": [
+    {
+      "rule": "archaic_spelling",
+      "original": "favour",
+      "replacement": "favor",
+      "count": 1,
+      "samples": [
+        "to be in their favour, should obtain"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "few",
+      "replacement": "sew",
+      "count": 1,
+      "samples": [
+        "n to be just a few, as they know"
+      ]
+    }
+  ],
+  "metrics": {
+    "jaccard_raw": 0.0237,
+    "jaccard_normalized": 0.0237,
+    "cosine_tfidf": 0.1092,
+    "cosine_embedding": 0.1375,
+    "distinctive_britannica": [
+      "people",
+      "government",
+      "upon",
+      "choice",
+      "man",
+      "means",
+      "power",
+      "another",
+      "use",
+      "well",
+      "know",
+      "every",
+      "good",
+      "without",
+      "cannot"
+    ],
+    "distinctive_wikipedia": [
+      "book",
+      "liberties",
+      "john",
+      "author",
+      "arts",
+      "press",
+      "michael",
+      "published",
+      "dublin",
+      "include",
+      "authors",
+      "novel",
+      "publishers",
+      "david",
+      "entered"
+    ],
+    "shared_terms": [
+      "agent",
+      "attention",
+      "case",
+      "choosing",
+      "directors",
+      "every",
+      "former",
+      "free",
+      "known",
+      "made",
+      "manner",
+      "many",
+      "press",
+      "public",
+      "published",
+      "publishing",
+      "show",
+      "significantly"
+    ]
+  },
+  "aligned_chunks": [
+    {
+      "britannica_chunk_index": 4,
+      "wikipedia_chunk_index": 8,
+      "similarity": 0.2118,
+      "britannica_excerpt": "icle! GOVERNMENT.",
+      "wikipedia_excerpt": "s in 2015, was awarded the Rooney Prize for Irish Literature, an award made annually to an Irish author under the age of 40. The book was reissued by the Borough Press, an imprint of US multinational HarperCollins, on 20 September 2018."
+    },
+    {
+      "britannica_chunk_index": 0,
+      "wikipedia_chunk_index": 0,
+      "similarity": 0.1561,
+      "britannica_excerpt": "We may then ask, if there are any possible means by which the people can make a good choice, besides the _liberty of the press_? The very foundation of a good choice is knowledge. The fuller and more perfect the know- ledge, to better the c",
+      "wikipedia_excerpt": "Liberties Press (also known as Liberties Media Ltd) is an independent book publisher based in Dublin, founded in 2003. The company's first publication was Con Houlihan 's collection of sportswriting, More Than a Game: the title was reprinte"
+    },
+    {
+      "britannica_chunk_index": 11,
+      "wikipedia_chunk_index": 0,
+      "similarity": 0.1439,
+      "britannica_excerpt": "They who say that no choice ought to be made, say in effect, that no limit whatsoever ought to be imposed upon the liberty of the press. The one of these propositions is involved in the other. To impose any restraint upon the liberty of the",
+      "wikipedia_excerpt": "Liberties Press (also known as Liberties Media Ltd) is an independent book publisher based in Dublin, founded in 2003. The company's first publication was Con Houlihan 's collection of sportswriting, More Than a Game: the title was reprinte"
+    }
+  ],
+  "topic_id": 5,
+  "topic_terms": [
+    "every",
+    "people",
+    "upon"
+  ],
+  "claims": [
+    {
+      "claim_text": "The Britannica entry \"LIBERTY OF THE PRESS\" uses 535 content tokens while the Wikipedia article \"Liberties Press\" uses 593; their normalized vocabularies share a Jaccard overlap of 0.0237 (raw 0.0237) and a TF-IDF cosine similarity of 0.1092.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1166"
+      ],
+      "britannica_quote": "We may then ask, if there are any possible means by which the people can make a good choice, besides the _liberty of the press_? The very foundation of a good choice is knowledge. The fuller and more perfect the know- ledge, to better the c",
+      "wikipedia_page_id": "23369583",
+      "wikipedia_revision_id": "1311790881",
+      "wikipedia_quote": "Liberties Press (also known as Liberties Media Ltd) is an independent book publisher based in Dublin, founded in 2003. The company's first publication was Con Houlihan 's collection of sportswriting, More Than a Game: the title was reprinte"
+    },
+    {
+      "claim_text": "Britannica's most distinctive term is \"people\"; Wikipedia's is \"book\", showing the era-specific vocabulary of each source.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1166"
+      ],
+      "britannica_quote": "We may then ask, if there are any possible means by which the people can make a good choice, besides the _liberty of the press_?",
+      "wikipedia_page_id": "23369583",
+      "wikipedia_revision_id": "1311790881",
+      "wikipedia_quote": "Liberties Press (also known as Liberties Media Ltd) is an independent book publisher based in Dublin, founded in 2003."
+    },
+    {
+      "claim_text": "Both sources share core vocabulary including: agent, attention, case, choosing, directors.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1166"
+      ],
+      "britannica_quote": "This end would be accomplished most effectively, if those who are actually significantly could point out to those who are in danger of mistakes, the true conclusions; and, show- ing the weight of evidence to be in their favour, should obtai",
+      "wikipedia_page_id": "23369583",
+      "wikipedia_revision_id": "1311790881",
+      "wikipedia_quote": "Public comment was made on this issue by, among others, literary agent Jonathan Williams, former Publishing Ireland president Ruth Hegarty, and Michael McLoughlin, publishing director of Penguin Ireland, a subsidiary of US multinational Pen"
+    },
+    {
+      "claim_text": "2 normalization rules fired on the Britannica text (\"favour\" -> \"favor\"; \"few\" -> \"sew\"); residual vocabulary differences likely reflect era terminology rather than OCR noise alone.",
+      "claim_type": "inference",
+      "label": "[inference]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1166"
+      ],
+      "britannica_quote": "to be in their favour, should obtain",
+      "wikipedia_page_id": "23369583",
+      "wikipedia_revision_id": "1311790881",
+      "wikipedia_quote": "Liberties Press (also known as Liberties Media Ltd) is an independent book publisher based in Dublin, founded in 2003. The company's first publication was Con Houlihan 's collection of sportswriting, More Than a Game: the title was reprinte"
+    }
+  ]
+}

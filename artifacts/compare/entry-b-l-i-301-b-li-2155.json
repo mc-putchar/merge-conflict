@@ -1,0 +1,195 @@
+{
+  "entry_id": "entry-b-l-i-301-b-li-2155",
+  "britannica_title": "B L I  301 B LI",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2155"
+  ],
+  "britannica_sha256": "06cce969930729e214f4851131660a2b09c6a0f7a2db3bc68b55dfdcb0a360a3",
+  "britannica_raw_chars": 4612,
+  "britannica_tokens": 395,
+  "britannica_unique_tokens": 309,
+  "wikipedia_page_id": "24497824",
+  "wikipedia_revision_id": "1293620657",
+  "wikipedia_title": "Megasporoporia",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Megasporoporia",
+  "wikipedia_text_sha256": "2023fa4b2e852085757c1b21adc222cfaccfb4d66d12a6a7750d9df6a4d2448c",
+  "wikipedia_raw_chars": 3116,
+  "wikipedia_tokens": 245,
+  "wikipedia_unique_tokens": 130,
+  "length_ratio": 0.676,
+  "text_changes": [
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fet",
+      "replacement": "set",
+      "count": 1,
+      "samples": [
+        "that shall be fet them, in their"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fets",
+      "replacement": "sets",
+      "count": 1,
+      "samples": [
+        "he perfon that fets his tone.”\n\nTh"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "few",
+      "replacement": "sew",
+      "count": 1,
+      "samples": [
+        "ittle more, my few a large lines,"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fold",
+      "replacement": "sold",
+      "count": 1,
+      "samples": [
+        "umber of every fold, to fit his tu"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "perfon",
+      "replacement": "person",
+      "count": 1,
+      "samples": [
+        "led for by the perfon that fets his"
+      ]
+    }
+  ],
+  "metrics": {
+    "jaccard_raw": 0.0162,
+    "jaccard_normalized": 0.0162,
+    "cosine_tfidf": 0.0299,
+    "cosine_embedding": 0.0462,
+    "distinctive_britannica": [
+      "lines",
+      "half",
+      "every",
+      "inch",
+      "hand",
+      "off",
+      "music",
+      "cut",
+      "top",
+      "wide",
+      "blind",
+      "notes",
+      "bele",
+      "table",
+      "names"
+    ],
+    "distinctive_wikipedia": [
+      "cui",
+      "species",
+      "dai",
+      "megasporoporia",
+      "hai",
+      "genus",
+      "megasporia",
+      "family",
+      "major",
+      "included",
+      "ryvarden",
+      "chinese",
+      "analysis",
+      "four",
+      "china"
+    ],
+    "shared_terms": [
+      "characters",
+      "large",
+      "later",
+      "long",
+      "pegs",
+      "small",
+      "system"
+    ]
+  },
+  "aligned_chunks": [
+    {
+      "britannica_chunk_index": 0,
+      "wikipedia_chunk_index": 4,
+      "similarity": 0.1243,
+      "britannica_excerpt": "Blad. that fee them, until they are taught by a make or tutors; I have (for the goodwill I later to flush unfortunate person) contrived the following table:\n\n_A New Music-Teale for fach as ate Belino._\n\nA\n\nA\n\nC\n\nC\n\nB\n\nB\n\nA\n\nA\n\nB\n\nA\n\nA\n\nB\n\nW",
+      "wikipedia_excerpt": "M. quercina Y.C.Dai (2004) = Grammothele quercina (Y.C.Dai) B.K.Cui & Hai J.Li (2013)\n\nM. rhododendri Y.C.Dai & Y.L.Wei (2004) = Megasporoporiella rhododendri (Y.C.Dai & Y.L.Wei) B.K.Cui & Hai J.Li (2013)\n\nM. subcavernulosa Y.C.Dai & Sheng "
+    },
+    {
+      "britannica_chunk_index": 2,
+      "wikipedia_chunk_index": 4,
+      "similarity": 0.1214,
+      "britannica_excerpt": "both line and faces; whilst his right hand flicks the respective key, kc. for left knowing the names of all his keys, hit lines, figures, and the mark of every peg. Let each peg be about half an inch high, when it is very fair. (N. B). The ",
+      "wikipedia_excerpt": "M. quercina Y.C.Dai (2004) = Grammothele quercina (Y.C.Dai) B.K.Cui & Hai J.Li (2013)\n\nM. rhododendri Y.C.Dai & Y.L.Wei (2004) = Megasporoporiella rhododendri (Y.C.Dai & Y.L.Wei) B.K.Cui & Hai J.Li (2013)\n\nM. subcavernulosa Y.C.Dai & Sheng "
+    },
+    {
+      "britannica_chunk_index": 6,
+      "wikipedia_chunk_index": 4,
+      "similarity": 0.1082,
+      "britannica_excerpt": "_At Clachy’ definition of for instance, for teaching Cheete's music to people deprived of fight, and to enable them to machine, precise their compositions, in the kind of compelling, with PLAXVII, and the influence of a cryptic — “Thema of ",
+      "wikipedia_excerpt": "M. quercina Y.C.Dai (2004) = Grammothele quercina (Y.C.Dai) B.K.Cui & Hai J.Li (2013)\n\nM. rhododendri Y.C.Dai & Y.L.Wei (2004) = Megasporoporiella rhododendri (Y.C.Dai & Y.L.Wei) B.K.Cui & Hai J.Li (2013)\n\nM. subcavernulosa Y.C.Dai & Sheng "
+    }
+  ],
+  "topic_id": 5,
+  "topic_terms": [
+    "every",
+    "people",
+    "upon"
+  ],
+  "claims": [
+    {
+      "claim_text": "The Britannica entry \"B L I  301 B LI\" uses 394 content tokens while the Wikipedia article \"Megasporoporia\" uses 245; their normalized vocabularies share a Jaccard overlap of 0.0162 (raw 0.0162) and a TF-IDF cosine similarity of 0.0299.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2155"
+      ],
+      "britannica_quote": "Blad. that fee them, until they are taught by a make or tutors; I have (for the goodwill I later to flush unfortunate person) contrived the following table:\n\n_A New Music-Teale for fach as ate Belino._\n\nA\nA\nC\nC\nB\nB\nA\nA\nB\nA\nA\nB\nWine Teile\nA\n",
+      "wikipedia_page_id": "24497824",
+      "wikipedia_revision_id": "1293620657",
+      "wikipedia_quote": "Megasporoporia is a genus of four species of crust fungi in the family Polyporaceae. The genus is characterized by its large spores (after which it is named), and dextrinoid skeletal hyphae.\n\nThe genus was circumscribed by mycologists Leif "
+    },
+    {
+      "claim_text": "Britannica's most distinctive term is \"lines\"; Wikipedia's is \"cui\", showing the era-specific vocabulary of each source.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2155"
+      ],
+      "britannica_quote": "\" Let A—B be a Smooth board, 3 or 4 feet long, 1 inch thick, and 9 inches wide, with 7 figures ledges glued thoron each being half an inch alunder, half inch wide, and half an inch high, which tilting edges reprefront our 5 lines of moiic, ",
+      "wikipedia_page_id": "24497824",
+      "wikipedia_revision_id": "1293620657",
+      "wikipedia_quote": "Megasporoporia bannaensis B.K.Cui & Hai J.Li (2013)"
+    },
+    {
+      "claim_text": "Both sources share core vocabulary including: characters, large, later, long, pegs.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2155"
+      ],
+      "britannica_quote": "The cypliers reprefeent to many holes lined into every line and paper, half an inch slunder > wherein pegs if different shapes are to feet, to reprend the federal forts of notes and characters of the tunes, which pegs the blind perform may ",
+      "wikipedia_page_id": "24497824",
+      "wikipedia_revision_id": "1293620657",
+      "wikipedia_quote": "Characters that can be absent or present in the hymenium include small rhomboid or bipyramidic crystals, dendrohyphidia, hyphal pegs, and cystidioles or cystidia."
+    },
+    {
+      "claim_text": "5 normalization rules fired on the Britannica text (\"fet\" -> \"set\"; \"fets\" -> \"sets\"; \"few\" -> \"sew\"); residual vocabulary differences likely reflect era terminology rather than OCR noise alone.",
+      "claim_type": "inference",
+      "label": "[inference]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2155"
+      ],
+      "britannica_quote": "that shall be fet them, in their",
+      "wikipedia_page_id": "24497824",
+      "wikipedia_revision_id": "1293620657",
+      "wikipedia_quote": "Megasporoporia is a genus of four species of crust fungi in the family Polyporaceae. The genus is characterized by its large spores (after which it is named), and dextrinoid skeletal hyphae.\n\nThe genus was circumscribed by mycologists Leif "
+    }
+  ]
+}

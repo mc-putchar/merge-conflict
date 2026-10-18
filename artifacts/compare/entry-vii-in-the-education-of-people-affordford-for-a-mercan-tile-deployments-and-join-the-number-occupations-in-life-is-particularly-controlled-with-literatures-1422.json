@@ -1,0 +1,221 @@
+{
+  "entry_id": "entry-vii-in-the-education-of-people-affordford-for-a-mercan-tile-deployments-and-join-the-number-occupations-in-life-is-particularly-controlled-with-literatures-1422",
+  "britannica_title": "VII In the Education of People Affordford for a Mercan- tile deployments and join the number Occupations in Life is particularly controlled with Literatures",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1422"
+  ],
+  "britannica_sha256": "25bc8a8a917a995d3a0519c49be039733a26f5c1fcc9f36fb7c785d99593a1f8",
+  "britannica_raw_chars": 6239,
+  "britannica_tokens": 517,
+  "britannica_unique_tokens": 428,
+  "wikipedia_page_id": "81610945",
+  "wikipedia_revision_id": "1342964766",
+  "wikipedia_title": "Mercan Erzincan",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Mercan_Erzincan",
+  "wikipedia_text_sha256": "2b346f904cae856b9387eef3120493ebc7d5609559471e67fe7a276f03fe8690",
+  "wikipedia_raw_chars": 4689,
+  "wikipedia_tokens": 432,
+  "wikipedia_unique_tokens": 270,
+  "length_ratio": 0.752,
+  "text_changes": [
+    {
+      "rule": "archaic_spelling",
+      "original": "honours",
+      "replacement": "honors",
+      "count": 1,
+      "samples": [
+        "r opulence and honours with becoming"
+      ]
+    },
+    {
+      "rule": "archaic_spelling",
+      "original": "politick",
+      "replacement": "politic",
+      "count": 1,
+      "samples": [
+        "eir spirit and politick rights which i"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "claffical",
+      "replacement": "classical",
+      "count": 1,
+      "samples": [
+        "ular course of claffical learning in a"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fend",
+      "replacement": "send",
+      "count": 1,
+      "samples": [
+        "nconvenient to fend the young man"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "few",
+      "replacement": "sew",
+      "count": 1,
+      "samples": [
+        "to trade in a few feebed to flul"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "lefs",
+      "replacement": "less",
+      "count": 1,
+      "samples": [
+        "iterature in a lefs flourishing fl"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "raife",
+      "replacement": "raise",
+      "count": 1,
+      "samples": [
+        "his mind, and raife him above low"
+      ]
+    }
+  ],
+  "metrics": {
+    "jaccard_raw": 0.022,
+    "jaccard_normalized": 0.022,
+    "cosine_tfidf": 0.0234,
+    "cosine_embedding": 0.0268,
+    "distinctive_britannica": [
+      "let",
+      "young",
+      "man",
+      "though",
+      "mind",
+      "fortune",
+      "yet",
+      "principles",
+      "ought",
+      "country",
+      "history",
+      "rank",
+      "useful",
+      "carefully",
+      "great"
+    ],
+    "distinctive_wikipedia": [
+      "music",
+      "folk",
+      "erzincan",
+      "women",
+      "turkish",
+      "mercan",
+      "world",
+      "instruments",
+      "lama",
+      "cultural",
+      "released",
+      "gave",
+      "considered",
+      "album",
+      "degree"
+    ],
+    "shared_terms": [
+      "born",
+      "character",
+      "earlier",
+      "education",
+      "environment",
+      "generation",
+      "language",
+      "literature",
+      "make",
+      "member",
+      "natural",
+      "now",
+      "play",
+      "taught",
+      "well"
+    ]
+  },
+  "aligned_chunks": [
+    {
+      "britannica_chunk_index": 1,
+      "wikipedia_chunk_index": 7,
+      "similarity": 0.3466,
+      "britannica_excerpt": "ate founds call for the fervies of her objects against any hostile attack; they whole rank and fortune place them in the most eminent fiations will be felt expected to hand forth; but if unacquated with thofe exercises which are connected w",
+      "wikipedia_excerpt": "gorize them in relation to the women's socio-cultural environment."
+    },
+    {
+      "britannica_chunk_index": 9,
+      "wikipedia_chunk_index": 7,
+      "similarity": 0.3118,
+      "britannica_excerpt": "n writing with coretherla and elegance, they shall online and publish his mind, and raise him above low and greats pleafures.” And as soon, who has any occasion to freak or write, ought to be entirely ignorant of the principles of grammar, ",
+      "wikipedia_excerpt": "gorize them in relation to the women's socio-cultural environment."
+    },
+    {
+      "britannica_chunk_index": 4,
+      "wikipedia_chunk_index": 7,
+      "similarity": 0.3049,
+      "britannica_excerpt": "Such then is the manner in which we with the education of young men of mind, and forture to be con-ducts; in order that they may be prepared for en-joying their opulence and honors with becoming dig- integrity. Let them be early inured to h",
+      "wikipedia_excerpt": "gorize them in relation to the women's socio-cultural environment."
+    }
+  ],
+  "topic_id": 7,
+  "topic_terms": [
+    "see",
+    "upon",
+    "great"
+  ],
+  "claims": [
+    {
+      "claim_text": "The Britannica entry \"VII In the Education of People Affordford for a Mercan- tile deployments and join the number Occupations in Life is particularly controlled with Literatures\" uses 516 content tokens while the Wikipedia article \"Mercan Erzincan\" uses 432; their normalized vocabularies share a Jaccard overlap of 0.022 (raw 0.022) and a TF-IDF cosine similarity of 0.0234.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1422"
+      ],
+      "britannica_quote": "highly worthy of engaging the attention of the young gentleman. Dancing, fencing, running, horteman- flip, the management of the mofics, and the motions of military glimphes, are more at them worthy of occupying his time, at proper feafons.",
+      "wikipedia_page_id": "81610945",
+      "wikipedia_revision_id": "1342964766",
+      "wikipedia_quote": "Mercan Erzincan, née Mercan Şimşek (1976 in Divriği, Sivas Province), is a Turkish singer of Turkish folk songs and a player of the long-necked lute (bağlama).\n\nMercan Erzincan was born into an Alevi family in the small Central Anatolian to"
+    },
+    {
+      "claim_text": "Britannica's most distinctive term is \"let\"; Wikipedia's is \"music\", showing the era-specific vocabulary of each source.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1422"
+      ],
+      "britannica_quote": "Let them be early inured to habit of vigorous",
+      "wikipedia_page_id": "81610945",
+      "wikipedia_revision_id": "1342964766",
+      "wikipedia_quote": "In 1987, she began her music education studies at the Istanbul State Conservatory of Music, graduating with a bachelor's degree in 1998."
+    },
+    {
+      "claim_text": "Both sources share core vocabulary including: born, character, earlier, education, environment.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1422"
+      ],
+      "britannica_quote": "With those accomplishments we hope he might become an useful member of Society, might adorn the rank and fortune to which he is born, and might find wealth than high flation a building, not a curic.",
+      "wikipedia_page_id": "81610945",
+      "wikipedia_revision_id": "1342964766",
+      "wikipedia_quote": "Mercan Erzincan was born into an Alevi family in the small Central Anatolian town of Divriği."
+    },
+    {
+      "claim_text": "7 normalization rules fired on the Britannica text (\"honours\" -> \"honors\"; \"politick\" -> \"politic\"; \"claffical\" -> \"classical\"); residual vocabulary differences likely reflect era terminology rather than OCR noise alone.",
+      "claim_type": "inference",
+      "label": "[inference]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1422"
+      ],
+      "britannica_quote": "r opulence and honours with becoming",
+      "wikipedia_page_id": "81610945",
+      "wikipedia_revision_id": "1342964766",
+      "wikipedia_quote": "Mercan Erzincan, née Mercan Şimşek (1976 in Divriği, Sivas Province), is a Turkish singer of Turkish folk songs and a player of the long-necked lute (bağlama).\n\nMercan Erzincan was born into an Alevi family in the small Central Anatolian to"
+    }
+  ]
+}

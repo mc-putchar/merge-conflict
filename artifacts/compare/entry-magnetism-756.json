@@ -1,0 +1,370 @@
+{
+  "entry_id": "entry-magnetism-756",
+  "britannica_title": "MAGNETISM",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:756"
+  ],
+  "britannica_sha256": "0810d2dd682df07e1d7efd377536c22905b0b01e5ea1b8f736acb88c22615289",
+  "britannica_raw_chars": 6815,
+  "britannica_tokens": 553,
+  "britannica_unique_tokens": 387,
+  "wikipedia_page_id": "51079",
+  "wikipedia_revision_id": "1352951244",
+  "wikipedia_title": "Magnet",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Magnet",
+  "wikipedia_text_sha256": "9ea9f98f344cff723f28efc4b699a5f3ec07ba2657cd6f4688a1bb5b84eb7501",
+  "wikipedia_raw_chars": 38818,
+  "wikipedia_tokens": 3265,
+  "wikipedia_unique_tokens": 1364,
+  "length_ratio": 5.696,
+  "text_changes": [
+    {
+      "rule": "line_break_hyphen",
+      "original": "ac-\nquiring",
+      "replacement": "acquiring",
+      "count": 1,
+      "samples": [
+        "ac-\nquiring"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "ac-\nquition",
+      "replacement": "acquition",
+      "count": 1,
+      "samples": [
+        "ac-\nquition"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "at-\ntrade",
+      "replacement": "attrade",
+      "count": 1,
+      "samples": [
+        "at-\ntrade"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "bec-\nsent",
+      "replacement": "becsent",
+      "count": 1,
+      "samples": [
+        "bec-\nsent"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "com-\nbred",
+      "replacement": "combred",
+      "count": 1,
+      "samples": [
+        "com-\nbred"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "compolio-\ntion",
+      "replacement": "compoliotion",
+      "count": 1,
+      "samples": [
+        "compolio-\ntion"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "condir-\nactions",
+      "replacement": "condiractions",
+      "count": 1,
+      "samples": [
+        "condir-\nactions"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "hop-\npus",
+      "replacement": "hoppus",
+      "count": 1,
+      "samples": [
+        "hop-\npus"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "mag-\nnetimin",
+      "replacement": "magnetimin",
+      "count": 1,
+      "samples": [
+        "mag-\nnetimin"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "mag-\nnetti",
+      "replacement": "magnetti",
+      "count": 1,
+      "samples": [
+        "mag-\nnetti"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "mag-\nretin",
+      "replacement": "magretin",
+      "count": 1,
+      "samples": [
+        "mag-\nretin"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "mag-\nseting",
+      "replacement": "magseting",
+      "count": 1,
+      "samples": [
+        "mag-\nseting"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "magne-\ntifism",
+      "replacement": "magnetifism",
+      "count": 1,
+      "samples": [
+        "magne-\ntifism"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "magre-\ntifion",
+      "replacement": "magretifion",
+      "count": 1,
+      "samples": [
+        "magre-\ntifion"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "oxyda-\ntion",
+      "replacement": "oxydation",
+      "count": 1,
+      "samples": [
+        "oxyda-\ntion"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "polo-\nry",
+      "replacement": "polory",
+      "count": 1,
+      "samples": [
+        "polo-\nry"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "remain-\ning",
+      "replacement": "remaining",
+      "count": 1,
+      "samples": [
+        "remain-\ning"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "st-\nof",
+      "replacement": "stof",
+      "count": 1,
+      "samples": [
+        "st-\nof"
+      ]
+    },
+    {
+      "rule": "line_break_hyphen",
+      "original": "trans-\nmined",
+      "replacement": "transmined",
+      "count": 1,
+      "samples": [
+        "trans-\nmined"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "faint",
+      "replacement": "saint",
+      "count": 2,
+      "samples": [
+        "becsent that a faint tooth pole. \"T",
+        "become frit a\nfaint fourth pole, a"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "few",
+      "replacement": "sew",
+      "count": 1,
+      "samples": [
+        "and, in a very few minutes, it is"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "flowly",
+      "replacement": "slowly",
+      "count": 2,
+      "samples": [
+        "gnentifin more flowly by induction\nt",
+        "ifin fill\nmore flowly by induction,"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "fort",
+      "replacement": "sort",
+      "count": 1,
+      "samples": [
+        "reading, and a fort\nof cementation"
+      ]
+    }
+  ],
+  "metrics": {
+    "jaccard_raw": 0.0674,
+    "jaccard_normalized": 0.0677,
+    "cosine_tfidf": 0.3549,
+    "cosine_embedding": 0.4509,
+    "distinctive_britannica": [
+      "edition",
+      "fourth",
+      "end",
+      "degree",
+      "piece",
+      "britannica",
+      "attraction",
+      "proportion",
+      "matter",
+      "always",
+      "gradually",
+      "action",
+      "observed",
+      "half",
+      "much"
+    ],
+    "distinctive_wikipedia": [
+      "magnetic",
+      "magnet",
+      "field",
+      "magnets",
+      "materials",
+      "used",
+      "displaystyle",
+      "magnetization",
+      "moment",
+      "force",
+      "material",
+      "ferromagnetic",
+      "current",
+      "strength",
+      "unit"
+    ],
+    "shared_terms": [
+      "account",
+      "addition",
+      "along",
+      "always",
+      "applied",
+      "attached",
+      "attract",
+      "attracted",
+      "attraction",
+      "bar",
+      "become",
+      "becomes",
+      "cannot",
+      "care",
+      "cases",
+      "causes",
+      "certain",
+      "changing",
+      "common",
+      "complex",
+      "compound",
+      "concept",
+      "contact",
+      "core",
+      "depend",
+      "difference",
+      "different",
+      "either",
+      "end",
+      "enough"
+    ]
+  },
+  "aligned_chunks": [
+    {
+      "britannica_chunk_index": 9,
+      "wikipedia_chunk_index": 39,
+      "similarity": 0.6135,
+      "britannica_excerpt": "R",
+      "wikipedia_excerpt": "l based, however, on naturally magnetic elements."
+    },
+    {
+      "britannica_chunk_index": 4,
+      "wikipedia_chunk_index": 58,
+      "similarity": 0.3859,
+      "britannica_excerpt": "of the metal in them, nor their mode of acquiring magretin.\n\nIt is of peculiar importance to work that the acquition of magnetization is gradual and progrestive, and\n\nthat the gradation is the more perceptible in proportion\n\nas the field is",
+      "wikipedia_excerpt": "At close range, many different fields are possible. For example, for a long, skinny bar magnet with its north pole at one end and south pole at the other, the magnetic field near either end falls off inversely with the square of the distanc"
+    },
+    {
+      "britannica_chunk_index": 8,
+      "wikipedia_chunk_index": 59,
+      "similarity": 0.3693,
+      "britannica_excerpt": "the weight of C cannot be supposedly be the magnifin\n\ninduced by any difference of action that may remain.\n\nWhile C is hanging D I alone, let. A be gradually\n\nenough tree, it gradually thorley the action of the\n\nnorth pole of B, to that C g",
+      "wikipedia_excerpt": "B is the magnetic induction exerted by the magnet.\n\nThis result can be easily derived using Gilbert model, which assumes that the pole of magnet is charged with magnetic monopoles that induces the same in the ferromagnetic object.\n\nIf a mag"
+    }
+  ],
+  "topic_id": 2,
+  "topic_terms": [
+    "water",
+    "acid",
+    "quantity"
+  ],
+  "claims": [
+    {
+      "claim_text": "The Britannica entry \"MAGNETISM\" uses 565 content tokens while the Wikipedia article \"Magnet\" uses 3265; their normalized vocabularies share a Jaccard overlap of 0.0677 (raw 0.0674) and a TF-IDF cosine similarity of 0.3549.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:756"
+      ],
+      "britannica_quote": "But any degree of temper that is given to feed makes\na very important change in this respect. In the first\nplace, it acquires magnentifin more flowly by induction\nthan an equal and similar piece of common iron, and its\nmaly acquired lets. T",
+      "wikipedia_page_id": "51079",
+      "wikipedia_revision_id": "1352951244",
+      "wikipedia_quote": "A magnet is a material or object that produces a magnetic field. This magnetic field is invisible but is responsible for the most notable property of a magnet: a force that pulls on other ferromagnetic materials, such as iron, steel, nickel"
+    },
+    {
+      "claim_text": "Both sources share core vocabulary including: account, addition, along, always, applied.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:756"
+      ],
+      "britannica_quote": "Brook Taylor, who _they_ now account of his obtivations",
+      "wikipedia_page_id": "51079",
+      "wikipedia_revision_id": "1352951244",
+      "wikipedia_quote": "This strip encodes the information to contact an individual's financial institution and connect with their account(s)."
+    },
+    {
+      "claim_text": "23 normalization rules fired on the Britannica text (\"ac-\nquiring\" -> \"acquiring\"; \"ac-\nquition\" -> \"acquition\"; \"at-\ntrade\" -> \"attrade\"); residual vocabulary differences likely reflect era terminology rather than OCR noise alone.",
+      "claim_type": "inference",
+      "label": "[inference]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:756"
+      ],
+      "britannica_quote": "ac-\nquiring",
+      "wikipedia_page_id": "51079",
+      "wikipedia_revision_id": "1352951244",
+      "wikipedia_quote": "A magnet is a material or object that produces a magnetic field. This magnetic field is invisible but is responsible for the most notable property of a magnet: a force that pulls on other ferromagnetic materials, such as iron, steel, nickel"
+    }
+  ]
+}
