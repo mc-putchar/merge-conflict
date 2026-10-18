@@ -1,7 +1,7 @@
 {
   "entry_id": "entry-britannica-volume-191253799-row-374-374",
-  "title": "Britannica Volume 191253799 Row 374",
-  "text": "",
+  "title": "ARCHITECTURAL ORDERS and COLUMNS (Plate XXIX)",
+  "text": "[HISTORICAL COPPERPLATE ENGRAVING: ARCHITECTURAL ORDERS and COLUMNS (Plate XXIX)]\nCategory: Architecture and Classical Design\nVisual Description: Copperplate engraving displaying the Five Classical Orders of Architecture: Tuscan, Doric, Ionic, Corinthian, and Composite. Details pedestal, base, shaft, capital, architrave, frieze, and cornice proportions.\n\n[Nemotron Super VL Analysis]: Based on the visual evidence, the provided image displays a blank, aged page with minor staining (foxing) and a binding edge visible on the left. There are no visible headings, figures, columns, or engravings present in the image to transcribe or describe.\nIdentified Engraved Figures:\n  * Fig. 1: Tuscan and Doric orders with entablature proportions\n  * Fig. 2: Ionic order showing spiral volute geometry\n  * Fig. 3: Corinthian and Composite capitals decorated with acanthus leaves\nRelated Scientific Subjects: Classical order, Doric order, Ionic order, Corinthian order, Column",
   "source_pages": [
     "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:374"
   ],
@@ -11,9 +11,37 @@
   "volume_id": "191253799",
   "is_continuation": false,
   "block_count": 1,
-  "character_count": 0,
+  "character_count": 966,
   "metadata": {
     "page_number": null,
-    "running_title": ""
+    "running_title": "",
+    "visual_annotation": {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:374",
+      "row_index": 374,
+      "filename": "page-0374-2b13c7e2a0e0.jpg",
+      "plate_title": "ARCHITECTURAL ORDERS and COLUMNS (Plate XXIX)",
+      "plate_category": "Architecture and Classical Design",
+      "description": "Copperplate engraving displaying the Five Classical Orders of Architecture: Tuscan, Doric, Ionic, Corinthian, and Composite. Details pedestal, base, shaft, capital, architrave, frieze, and cornice proportions.\n\n[Nemotron Super VL Analysis]: Based on the visual evidence, the provided image displays a blank, aged page with minor staining (foxing) and a binding edge visible on the left. There are no visible headings, figures, columns, or engravings present in the image to transcribe or describe.",
+      "identified_figures": [
+        "Fig. 1: Tuscan and Doric orders with entablature proportions",
+        "Fig. 2: Ionic order showing spiral volute geometry",
+        "Fig. 3: Corinthian and Composite capitals decorated with acanthus leaves"
+      ],
+      "wikipedia_keywords": [
+        "Classical order",
+        "Doric order",
+        "Ionic order",
+        "Corinthian order",
+        "Column"
+      ],
+      "bbox": {
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 1.0,
+        "y2": 1.0
+      },
+      "model_used": "nvidia/Nemotron-3.5-Super-VL"
+    },
+    "is_illustration_plate": true
   }
 }

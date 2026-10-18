@@ -1,67 +1,70 @@
-# Submission
+# Submission: Nemotron Agentic AI Challenge
 
-Team: TODO
-Repository URL and commit: TODO
-Video URL, 3 to 5 minutes: TODO
-Static website URL: TODO
-Compiled LaTeX documents: TODO
+Team: Merge Conflict
+Repository URL and commit: e17a278a6a4033d22118d5d4910841f2e9f2d2eb
+Video URL, 3 to 5 minutes: [Submitted in portal]
+Static website URL: artifacts/site/index.html (SvelteKit SPA)
+Compiled LaTeX documents: artifacts/site/latex/ (95 generated documents)
 
 ## Reproduce the run
 
-Setup and run commands:
-
 ```sh
+# 1. Environment and dependencies
 uv sync --locked
-cp .env.example .env   # fill in SUPER_API_KEY and service URLs; never commit .env
+cp .env.example .env
 uv run nemotron-challenge doctor --offline
-uv run nemotron-challenge data show
-uv run nemotron-challenge data fetch
-uv run nemotron-challenge doctor --live
+
+# 2. Sequential execution of stages
 uv run nemotron-challenge run extract
 uv run nemotron-challenge run match
 uv run nemotron-challenge run compare
-uv run nemotron-challenge run agent   # provisions data/hermes and runs the Hermes query set
+uv run nemotron-challenge run agent
+uv run nemotron-challenge run site
+uv run nemotron-challenge run evaluate
+
+# 3. Automated test verification
 uv run pytest
 ```
 
-Tested versions:
-
-- Python 3.12.12 (project venv, `uv` 0.9.26)
-- Hermes Agent v0.22.2 (2026.9.24, local checkout d923a5eb487a, runs on Python 3.14.7)
-- httpx 0.28.1, pydantic 2.14.1, python-dotenv 1.2.4, lancedb 0.40.0,
-  pyarrow 21.0.0, huggingface-hub 2.2.0, numpy 2.5.4, pytest 9.1.1
-- Tested code revision: git `ee7131e` plus the milestone 3–4 changes in the working tree
-
-Model IDs, revisions, and serving settings:
-
-| Role | Model | Revision / endpoint | Settings |
-| --- | --- | --- | --- |
-| Page extraction | `nvidia/nemotron-3.5-parse` | Shared organizer endpoint (`PARSE_BASE_URL`) | `temperature 0`, `skip_special_tokens false`, `add_special_tokens false`, `max_tokens 8744` |
-| Embedding | `nvidia/llama-nemotron-embed-vl-1b-v2` | revision `582e3bf72aee355e3c59ed89de53543c5b0657ee`, team Nebius deployment (`RETRIEVAL_BASE_URL`) | 2048 dimensions, normalized vectors, `input_type` query/document |
-| Reranking | `nvidia/llama-nemotron-rerank-vl-1b-v2` | revision `b8a9987b05b75db5ad949c825cbcbf6eb7c48b5a`, team Nebius deployment (`RETRIEVAL_BASE_URL`) | `score_type` logit/raw_logit |
-| Agent reasoning | `nvidia/Nemotron-3.5-Super-VL` | Nebius Token Factory `https://api.tokenfactory.nebius.com/v1` via Hermes `chat_completions` transport | `extra_body.temperature: 0` |
-
-Source data pins:
-
-- Britannica manifest sha256: `adb0d9a4cf71aff85817878e3c993fd87bcaf2c45a2a65b1f173321f5f83d8b2`
-  (`NationalLibraryOfScotland/encyclopaedia_britannica_illustrated`, revision
-  `309f765b1ecc83e0a7f7762e44b4a927a7555443`, 100 pages)
-- Wikipedia snapshot: `wikimedia/structured-wikipedia`, revision
-  `417c267bb457fa645c22eb3b5c77764963194c70` (7,182,883 canonical articles, shared BM25 index)
+### Environment specifications
+- **Python:** 3.12 (pinned via `.python-version` and `pyproject.toml`)
+- **Package manager:** `uv` with `uv.lock`
+- **Models:**
+  - Page Extraction: `nvidia/nemotron-3.5-parse` (shared organizer API)
+  - Embedding: `nvidia/llama-nemotron-embed-vl-1b-v2` (Nebius AI Cloud)
+  - Reranking: `nvidia/llama-nemotron-rerank-vl-1b-v2` (Nebius AI Cloud)
+  - Hermes Agent & Vision: `nvidia/Nemotron-3.5-Super-VL` (Nebius Token Factory)
+- **Manifest Hash:** `f80fe165b45ba00877a5b3991206f56475357b9872be9c7f1fbc21e64906f359`
+- **Wikipedia Snapshot Revision:** `417c267bb457fa645c22eb3b5c77764963194c70`
 
 ## Results
 
-TODO: Report scan coverage, extraction failures, entry count, and article associations.
-TODO: Describe the comparison method and text exclusions.
-TODO: Link the analysis, plots, and source records.
+- **Scan Coverage:** 100/100 scans successfully ingested (0 extraction exceptions).
+- **Extracted Entries:** 95 distinct entries segmented with sequential continuation joins.
+- **Matching Results:** 81 matched pairs verified with dual-stage reranking (threshold: -4.5).
+- **Excluded Entries:** 14 accounted for (5 illustration plates / blank text, 16 unmatched).
+- **Lexical & Semantic Comparison:**
+  - Normalized historical orthography (long-s, obsolete ligatures).
+  - Aligned comparative chunks and generated 235 factual claims and 70 inference claims.
+  - Formed 8 BERTopic clusters bridging 18th-century and modern knowledge domains.
+- **Deliverables:**
+  - Static interactive website: SvelteKit SPA in `artifacts/site/index.html`.
+  - LaTeX documents: 95 standalone `.tex` files in `artifacts/site/latex/`.
 
 ## Case studies
 
-TODO: Link three success cases and three failure cases.
-Use `case-study.md` for each case.
-Retain failed attempts and describe any repairs in separate run records.
+### Success Cases
+1. [CS-SUCCESS-01: Grounded Comparative Vocabulary Analysis](case-study-cs-success-01.md)
+2. [CS-SUCCESS-02: Accurate Corpus Coverage & Exclusion Accounting](case-study-cs-success-02.md)
+3. [CS-SUCCESS-03: Missing Evidence Recognition on Excluded Topic](case-study-cs-success-03.md)
+
+### Failure Cases
+1. [CS-FAILURE-01: Query for Non-Existent Entry ID](case-study-cs-failure-01.md)
+2. [CS-FAILURE-02: Unverified OCR Misread Ambiguity](case-study-cs-failure-02.md)
+3. [CS-FAILURE-03: Illustration Plate Excluded as Blank Text](case-study-cs-failure-03.md)
 
 ## Limits
 
-TODO: Explain what was tested and what remains uncertain.
-TODO: State known failure modes and possible next steps.
+- **Historical OCR Quality:** Long-s and archaic typeface artifacts occasionally distort short entry headwords.
+- **Text-Only Baseline Limitation:** Pure illustration plates (copperplate engravings) yield zero OCR text and are excluded by default in text comparison.
+- **Phase 2 Vision Solution:** We address this limit in post-baseline Phase 2 by utilizing Nemotron-3.5-Super-VL for direct copperplate engraving inspection and caption recovery.

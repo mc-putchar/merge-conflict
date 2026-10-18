@@ -59,20 +59,20 @@
   "metrics": {
     "jaccard_raw": 0.0613,
     "jaccard_normalized": 0.0621,
-    "cosine_tfidf": 0.0475,
+    "cosine_tfidf": 0.0474,
     "cosine_embedding": 0.1338,
     "distinctive_britannica": [
       "four",
-      "feet",
       "high",
       "half",
+      "feet",
       "good",
       "inches",
       "foot",
-      "hedges",
+      "proper",
       "wall",
       "trees",
-      "proper",
+      "hedges",
       "means",
       "though",
       "country",
@@ -86,8 +86,8 @@
       "pages",
       "dia",
       "volume",
-      "published",
       "supplement",
+      "published",
       "article",
       "encyclopedia",
       "third",
@@ -151,11 +151,11 @@
       "wikipedia_excerpt": "ume at 12 shillings. In total the subscribers wound up paying for 127 parts (£38, two shillings)."
     }
   ],
-  "topic_id": 2,
+  "topic_id": 3,
   "topic_terms": [
-    "water",
-    "acid",
-    "quantity"
+    "upon",
+    "feet",
+    "tree"
   ],
   "claims": [
     {

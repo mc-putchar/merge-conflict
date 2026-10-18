@@ -231,22 +231,22 @@
   "metrics": {
     "jaccard_raw": 0.0674,
     "jaccard_normalized": 0.0677,
-    "cosine_tfidf": 0.3549,
+    "cosine_tfidf": 0.3579,
     "cosine_embedding": 0.4509,
     "distinctive_britannica": [
       "edition",
+      "britannica",
       "fourth",
       "end",
       "degree",
-      "piece",
-      "britannica",
       "attraction",
-      "proportion",
-      "matter",
+      "piece",
       "always",
+      "matter",
+      "proportion",
       "gradually",
-      "action",
       "observed",
+      "action",
       "half",
       "much"
     ],
@@ -255,17 +255,17 @@
       "magnet",
       "field",
       "magnets",
-      "materials",
       "used",
       "displaystyle",
+      "materials",
       "magnetization",
-      "moment",
       "force",
       "material",
-      "ferromagnetic",
-      "current",
+      "moment",
       "strength",
-      "unit"
+      "current",
+      "unit",
+      "permanent"
     ],
     "shared_terms": [
       "account",
@@ -323,11 +323,11 @@
       "wikipedia_excerpt": "B is the magnetic induction exerted by the magnet.\n\nThis result can be easily derived using Gilbert model, which assumes that the pole of magnet is charged with magnetic monopoles that induces the same in the ferromagnetic object.\n\nIf a mag"
     }
   ],
-  "topic_id": 2,
+  "topic_id": 5,
   "topic_terms": [
+    "rays",
     "water",
-    "acid",
-    "quantity"
+    "fig"
   ],
   "claims": [
     {

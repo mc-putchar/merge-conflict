@@ -131,24 +131,24 @@
   "metrics": {
     "jaccard_raw": 0.0174,
     "jaccard_normalized": 0.0174,
-    "cosine_tfidf": 0.0228,
+    "cosine_tfidf": 0.0231,
     "cosine_embedding": 0.0559,
     "distinctive_britannica": [
       "upon",
       "force",
       "spaniards",
       "soon",
-      "city",
       "full",
+      "city",
       "charles",
       "towards",
       "great",
       "people",
-      "haffan",
       "get",
-      "things",
       "immediately",
-      "head"
+      "things",
+      "head",
+      "sort"
     ],
     "distinctive_wikipedia": [
       "word",
@@ -160,12 +160,12 @@
       "ancient",
       "roman",
       "modern",
-      "term",
-      "based",
       "used",
-      "tis",
+      "based",
+      "term",
       "prophet",
-      "terms"
+      "terms",
+      "derived"
     ],
     "shared_terms": [
       "christian",
@@ -204,11 +204,11 @@
       "wikipedia_excerpt": "In pagan Rome the vates resided on the Vatican Hill, the Hill of the Vates. The Vatican Hill takes its name from the Latin word Vaticanus, a vaticiniis ferendis, in allusion to the oracles, or vaticinia, which were anciently delivered on th"
     }
   ],
-  "topic_id": 2,
+  "topic_id": 3,
   "topic_terms": [
-    "water",
-    "acid",
-    "quantity"
+    "upon",
+    "feet",
+    "tree"
   ],
   "claims": [
     {

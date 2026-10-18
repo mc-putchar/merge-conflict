@@ -99,8 +99,25 @@ def extract(settings: Settings, work_dir: Path) -> dict[str, Any]:
     # Segment entries and join multi-page continuations
     entries = segment_entries(parsed_pages)
 
-    # Persist extracted entries and failed scans to artifacts
+    # Multimodal Vision Extension: inspect and recover copperplate illustration scans
+    from .extraction import ExtractedEntry
+    from .vision import enrich_entries_with_vision
+
+    chat_client = None
+    if settings.super_base_url and settings.super_api_key:
+        try:
+            chat_client = ChatClient(settings.super_base_url, settings.super_api_key, settings.super_model)
+        except Exception:
+            chat_client = None
+
+    vision_cache_dir = Path(os.environ.get("VISION_CACHE_DIR", "data/cache/vision"))
     entries_payload = [e.model_dump() for e in entries]
+    entries_payload, plates_recovered = enrich_entries_with_vision(
+        entries_payload, manifest, raw_dir, chat_client, vision_cache_dir
+    )
+    entries = [ExtractedEntry(**item) for item in entries_payload]
+
+    # Persist extracted entries and failed scans to artifacts
     entries_file = extract_dir / "entries.json"
     entries_file.write_text(json.dumps(entries_payload, indent=2), encoding="utf-8")
 
@@ -155,6 +172,7 @@ def extract(settings: Settings, work_dir: Path) -> dict[str, Any]:
         "scans_failed": len(failed_scans),
         "failed_scans": failed_scans,
         "entries_extracted": len(entries),
+        "plates_recovered": plates_recovered,
         "continuations": sum(1 for e in entries if e.is_continuation),
         "total_characters": sum(e.character_count for e in entries),
         "provenance_records_saved": records_saved,
@@ -710,11 +728,17 @@ def agent(settings: Settings, work_dir: Path) -> dict[str, Any]:
     }
 
 
+from .site import build_site
+
+
 def site(settings: Settings, work_dir: Path) -> dict[str, Any]:
-    """TODO: build your LaTeX documents and static website."""
-    _unfinished("site")
+    """Build compiled LaTeX documents and the SvelteKit static website."""
+    return build_site(settings, work_dir)
+
+
+from .evaluate import build_evaluation
 
 
 def evaluate(settings: Settings, work_dir: Path) -> dict[str, Any]:
-    """TODO: review your results and document successes and failures."""
-    _unfinished("evaluate")
+    """Review results, compile 6 case studies, and generate submission report."""
+    return build_evaluation(settings, work_dir)

@@ -243,24 +243,24 @@
   "metrics": {
     "jaccard_raw": 0.006,
     "jaccard_normalized": 0.0061,
-    "cosine_tfidf": 0.0093,
+    "cosine_tfidf": 0.0096,
     "cosine_embedding": 0.0776,
     "distinctive_britannica": [
       "figure",
-      "fame",
       "left",
+      "fame",
       "word",
       "says",
       "find",
       "former",
+      "against",
       "following",
       "begins",
-      "against",
       "repeated",
+      "mind",
       "makes",
-      "thing",
       "get",
-      "anthony"
+      "upon"
     ],
     "distinctive_wikipedia": [
       "part",
@@ -277,7 +277,7 @@
       "star",
       "peaks",
       "galaxy",
-      "twin"
+      "refer"
     ],
     "shared_terms": [
       "detective",
@@ -307,11 +307,11 @@
       "wikipedia_excerpt": "Brahmāstra: Part Three, third part of the Astraverse series of Indian superhero films, to be released in 2027\n\nSangliyana Part 3, a 1997 Indian film\n\nPart III of the Albanian Constitution\n\nPart III of the Constitution of India, defining fun"
     }
   ],
-  "topic_id": 5,
+  "topic_id": 6,
   "topic_terms": [
-    "every",
     "people",
-    "upon"
+    "time",
+    "great"
   ],
   "claims": [
     {

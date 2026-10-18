@@ -250,24 +250,24 @@
   "metrics": {
     "jaccard_raw": 0.046,
     "jaccard_normalized": 0.0465,
-    "cosine_tfidf": 0.082,
+    "cosine_tfidf": 0.0807,
     "cosine_embedding": 0.1678,
     "distinctive_britannica": [
       "life",
-      "france",
       "land",
-      "molt",
+      "france",
+      "gradually",
       "great",
       "kingdom",
-      "gradually",
-      "ancient",
       "made",
+      "molt",
+      "ancient",
       "greek",
-      "born",
-      "town",
       "rise",
       "father",
-      "writer"
+      "born",
+      "writer",
+      "town"
     ],
     "distinctive_wikipedia": [
       "edition",
@@ -342,11 +342,11 @@
       "wikipedia_excerpt": "— George Gleig, in the 3rd edition of the Encyclopædia Britannica"
     }
   ],
-  "topic_id": 7,
+  "topic_id": 2,
   "topic_terms": [
     "see",
-    "upon",
-    "great"
+    "brit",
+    "upon"
   ],
   "claims": [
     {

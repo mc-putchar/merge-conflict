@@ -1,0 +1,150 @@
+{
+  "entry_id": "entry-britannica-volume-191253799-row-374-374",
+  "britannica_title": "ARCHITECTURAL ORDERS and COLUMNS (Plate XXIX)",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:374"
+  ],
+  "britannica_sha256": "17369456b697a9561fee16dcbd7be0f8949c4dc808cedf76180120da781be04e",
+  "britannica_raw_chars": 966,
+  "britannica_tokens": 98,
+  "britannica_unique_tokens": 71,
+  "wikipedia_page_id": "9004976",
+  "wikipedia_revision_id": "1340071003",
+  "wikipedia_title": "History of the Encyclopædia Britannica",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/History_of_the_Encyclop%C3%A6dia_Britannica",
+  "wikipedia_text_sha256": "64dd89242f04b3e591115caca56a86f50c9129e1ec3650be302ee2bca6f05eb1",
+  "wikipedia_raw_chars": 71820,
+  "wikipedia_tokens": 5909,
+  "wikipedia_unique_tokens": 2368,
+  "length_ratio": 74.348,
+  "text_changes": [],
+  "metrics": {
+    "jaccard_raw": 0.0112,
+    "jaccard_normalized": 0.0112,
+    "cosine_tfidf": 0.023,
+    "cosine_embedding": 0.1165,
+    "distinctive_britannica": [
+      "order",
+      "classical",
+      "orders",
+      "fig",
+      "figures",
+      "engraving",
+      "copperplate",
+      "architecture",
+      "buildings",
+      "displaystyle",
+      "image",
+      "left",
+      "leaves",
+      "magnetic",
+      "evidence"
+    ],
+    "distinctive_wikipedia": [
+      "edition",
+      "britannica",
+      "articles",
+      "volumes",
+      "pages",
+      "dia",
+      "volume",
+      "supplement",
+      "article",
+      "published",
+      "encyclopedia",
+      "third",
+      "encyclop",
+      "fourth",
+      "sets"
+    ],
+    "shared_terms": [
+      "aged",
+      "analysis",
+      "architecture",
+      "based",
+      "capital",
+      "classical",
+      "copperplate",
+      "description",
+      "engraved",
+      "engraving",
+      "engravings",
+      "figures",
+      "five",
+      "historical",
+      "identified",
+      "leaves",
+      "left",
+      "minor",
+      "order",
+      "orders",
+      "page",
+      "plate",
+      "present",
+      "provided",
+      "related",
+      "scientific",
+      "subjects"
+    ]
+  },
+  "aligned_chunks": [
+    {
+      "britannica_chunk_index": 1,
+      "wikipedia_chunk_index": 35,
+      "similarity": 0.2909,
+      "britannica_excerpt": "* Fig. 3: Corinthian and Composite capitals decorated with acanthus leaves\n\nRelated Scientific Subjects: Classical order, Doric order, Ionic order, Corinthian order, Column",
+      "wikipedia_excerpt": " the 19th century."
+    },
+    {
+      "britannica_chunk_index": 0,
+      "wikipedia_chunk_index": 6,
+      "similarity": 0.2787,
+      "britannica_excerpt": "[HISTORICAL COPPERPLATE ENGRAVING: ARCHITECTURAL ORDERS and COLUMNS (Plate XXIX)]\n\nCategory: Architecture and Classical Design\n\nVisual Description: Copperplate engraving displaying the Five Classical Orders of Architecture: Tuscan, Doric, I",
+      "wikipedia_excerpt": " also featured 160 copperplate illustrations engraved by Bell. Three of the engravings in the section on midwifery, depicting childbirth in clinical detail, were sufficiently shocking to prompt some readers to tear those engravings out of t"
+    }
+  ],
+  "topic_id": 5,
+  "topic_terms": [
+    "rays",
+    "water",
+    "fig"
+  ],
+  "claims": [
+    {
+      "claim_text": "The Britannica entry \"ARCHITECTURAL ORDERS and COLUMNS (Plate XXIX)\" uses 98 content tokens while the Wikipedia article \"History of the Encyclopædia Britannica\" uses 5909; their normalized vocabularies share a Jaccard overlap of 0.0112 (raw 0.0112) and a TF-IDF cosine similarity of 0.023.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:374"
+      ],
+      "britannica_quote": "[HISTORICAL COPPERPLATE ENGRAVING: ARCHITECTURAL ORDERS and COLUMNS (Plate XXIX)]\nCategory: Architecture and Classical Design\nVisual Description: Copperplate engraving displaying the Five Classical Orders of Architecture: Tuscan, Doric, Ion",
+      "wikipedia_page_id": "9004976",
+      "wikipedia_revision_id": "1340071003",
+      "wikipedia_quote": "The Encyclopædia Britannica has been published continuously since 1768, appearing in fifteen official editions. Several editions were amended with multi-volume \"supplements\" (3rd, 4th/5th/6th), several consisted of previous editions with ad"
+    },
+    {
+      "claim_text": "Britannica's most distinctive term is \"order\"; Wikipedia's is \"edition\", showing the era-specific vocabulary of each source.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:374"
+      ],
+      "britannica_quote": "[HISTORICAL COPPERPLATE ENGRAVING: ARCHITECTURAL ORDERS and COLUMNS (Plate XXIX)]",
+      "wikipedia_page_id": "9004976",
+      "wikipedia_revision_id": "1340071003",
+      "wikipedia_quote": "The Encyclopædia Britannica has been published continuously since 1768, appearing in fifteen official editions."
+    },
+    {
+      "claim_text": "Both sources share core vocabulary including: aged, analysis, architecture, based, capital.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:374"
+      ],
+      "britannica_quote": "[Nemotron Super VL Analysis]: Based on the visual evidence, the provided image displays a blank, aged page with minor staining (foxing) and a binding edge visible on the left.",
+      "wikipedia_page_id": "9004976",
+      "wikipedia_revision_id": "1340071003",
+      "wikipedia_quote": "Macfarquhar again edited this edition up to \"Mysteries\" but died in 1793 (aged 48) of \"mental exhaustion\"; his work was taken over by George Gleig, later Bishop Gleig of Brechin (consecrated 30 October 1808)."
+    }
+  ]
+}

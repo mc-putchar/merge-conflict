@@ -94,41 +94,41 @@
   "metrics": {
     "jaccard_raw": 0.0037,
     "jaccard_normalized": 0.0037,
-    "cosine_tfidf": 0.0049,
+    "cosine_tfidf": 0.0046,
     "cosine_embedding": 0.0888,
     "distinctive_britannica": [
       "though",
       "never",
-      "molt",
-      "either",
       "upon",
+      "either",
+      "molt",
       "felt",
-      "greatest",
-      "kalmus",
       "life",
-      "rich",
-      "even",
-      "himself",
+      "greatest",
       "another",
       "among",
-      "people"
+      "himself",
+      "people",
+      "rich",
+      "kalmus",
+      "even"
     ],
     "distinctive_wikipedia": [
       "kal",
       "village",
       "code",
       "language",
-      "station",
       "province",
       "region",
+      "station",
       "limited",
+      "band",
       "abbreviation",
       "doctor",
-      "band",
-      "airport",
-      "roman",
-      "refer",
-      "editorial"
+      "edition",
+      "town",
+      "born",
+      "roman"
     ],
     "shared_terms": [
       "company",
@@ -158,11 +158,11 @@
       "wikipedia_excerpt": "Korala Associates Limited, a software company\n\nKurdish Academy of Language\n\nISO 639-2 and 639-3 codes for the Greenlandic language\n\nKalamazoo Transportation Center, station code\n\nKallang MRT station, MRT station abbreviation\n\nKaltag Airport"
     }
   ],
-  "topic_id": 5,
+  "topic_id": 3,
   "topic_terms": [
-    "every",
-    "people",
-    "upon"
+    "upon",
+    "feet",
+    "tree"
   ],
   "claims": [
     {

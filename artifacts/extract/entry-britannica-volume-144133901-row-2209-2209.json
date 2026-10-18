@@ -1,7 +1,7 @@
 {
   "entry_id": "entry-britannica-volume-144133901-row-2209-2209",
-  "title": "Britannica Volume 144133901 Row 2209",
-  "text": "Plate. XLVI",
+  "title": "BOTANY and HERBAL ANATOMY (Plate XLVI)",
+  "text": "Plate. XLVI\n\n[HISTORICAL COPPERPLATE ENGRAVING: BOTANY and HERBAL ANATOMY (Plate XLVI)]\nCategory: Botany and Plant Morphology\nVisual Description: Detailed botanical copperplate engraving detailing plant reproductive organs, Linnaean floral classification components, stamen and pistil dissections, and seed capsule morphology.\nIdentified Engraved Figures:\n  * Fig. 1: Complete floral dissection showing calyx, corolla, and stamens\n  * Fig. 2: Pistil, style, and ovary cross-section revealing ovules\n  * Fig. 3: Dehiscent seed capsule and cross-section\nRelated Scientific Subjects: Botany, Plant morphology, Linnaean taxonomy, Flower anatomy",
   "source_pages": [
     "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2209"
   ],
@@ -11,9 +11,36 @@
   "volume_id": "144133901",
   "is_continuation": false,
   "block_count": 1,
-  "character_count": 11,
+  "character_count": 640,
   "metadata": {
     "page_number": null,
-    "running_title": ""
+    "running_title": "",
+    "visual_annotation": {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2209",
+      "row_index": 2209,
+      "filename": "page-2209-1ee9bc409f67.jpg",
+      "plate_title": "BOTANY and HERBAL ANATOMY (Plate XLVI)",
+      "plate_category": "Botany and Plant Morphology",
+      "description": "Detailed botanical copperplate engraving detailing plant reproductive organs, Linnaean floral classification components, stamen and pistil dissections, and seed capsule morphology.",
+      "identified_figures": [
+        "Fig. 1: Complete floral dissection showing calyx, corolla, and stamens",
+        "Fig. 2: Pistil, style, and ovary cross-section revealing ovules",
+        "Fig. 3: Dehiscent seed capsule and cross-section"
+      ],
+      "wikipedia_keywords": [
+        "Botany",
+        "Plant morphology",
+        "Linnaean taxonomy",
+        "Flower anatomy"
+      ],
+      "bbox": {
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 1.0,
+        "y2": 1.0
+      },
+      "model_used": "nvidia/Nemotron-3.5-Super-VL"
+    },
+    "is_illustration_plate": true
   }
 }

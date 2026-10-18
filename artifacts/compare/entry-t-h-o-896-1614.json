@@ -95,23 +95,23 @@
   "metrics": {
     "jaccard_raw": 0.0158,
     "jaccard_normalized": 0.0158,
-    "cosine_tfidf": 0.0335,
+    "cosine_tfidf": 0.0341,
     "cosine_embedding": 0.0805,
     "distinctive_britannica": [
       "thomas",
       "king",
       "order",
       "river",
-      "portuguese",
-      "city",
       "church",
-      "andrew",
       "scotland",
+      "city",
       "kind",
-      "crois",
+      "andrew",
+      "portuguese",
       "see",
-      "miles",
+      "crois",
       "reign",
+      "gold",
       "offered"
     ],
     "distinctive_wikipedia": [
@@ -119,17 +119,17 @@
       "science",
       "university",
       "swade",
-      "museum",
       "computer",
+      "museum",
       "london",
-      "engine",
       "society",
+      "engine",
       "difference",
-      "computing",
-      "work",
-      "charles",
       "engineering",
-      "collections"
+      "charles",
+      "work",
+      "computing",
+      "physics"
     ],
     "shared_terms": [
       "charles",
@@ -166,11 +166,11 @@
       "wikipedia_excerpt": "Doron Swade MBE, born 1946, is a museum curator and author, specialising in the history of computing. He is especially known for his work on the computer pioneer Charles Babbage and his Difference Engine.\n\nSwade is originally from South Afr"
     }
   ],
-  "topic_id": 7,
+  "topic_id": 2,
   "topic_terms": [
     "see",
-    "upon",
-    "great"
+    "brit",
+    "upon"
   ],
   "claims": [
     {

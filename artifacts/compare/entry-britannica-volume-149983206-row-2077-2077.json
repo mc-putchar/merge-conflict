@@ -1,0 +1,147 @@
+{
+  "entry_id": "entry-britannica-volume-149983206-row-2077-2077",
+  "britannica_title": "MECHANICAL ENGINEERING and CRANES (Plate CCX)",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2077"
+  ],
+  "britannica_sha256": "9a92ed460010259e06d6e4bd85a52cfb16ef8c69198b6961f1af6eefb68a6713",
+  "britannica_raw_chars": 867,
+  "britannica_tokens": 88,
+  "britannica_unique_tokens": 68,
+  "wikipedia_page_id": "9004976",
+  "wikipedia_revision_id": "1340071003",
+  "wikipedia_title": "History of the Encyclopædia Britannica",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/History_of_the_Encyclop%C3%A6dia_Britannica",
+  "wikipedia_text_sha256": "64dd89242f04b3e591115caca56a86f50c9129e1ec3650be302ee2bca6f05eb1",
+  "wikipedia_raw_chars": 71820,
+  "wikipedia_tokens": 5909,
+  "wikipedia_unique_tokens": 2368,
+  "length_ratio": 82.837,
+  "text_changes": [],
+  "metrics": {
+    "jaccard_raw": 0.01,
+    "jaccard_normalized": 0.01,
+    "cosine_tfidf": 0.0154,
+    "cosine_embedding": 0.0425,
+    "distinctive_britannica": [
+      "figures",
+      "fig",
+      "engraving",
+      "harbor",
+      "related",
+      "copperplate",
+      "buildings",
+      "plate",
+      "therefore",
+      "displaystyle",
+      "compound",
+      "engineering",
+      "mechanical",
+      "magnetic",
+      "analysis"
+    ],
+    "distinctive_wikipedia": [
+      "edition",
+      "britannica",
+      "articles",
+      "volumes",
+      "pages",
+      "dia",
+      "volume",
+      "supplement",
+      "article",
+      "encyclopedia",
+      "published",
+      "third",
+      "encyclop",
+      "fourth",
+      "page"
+    ],
+    "shared_terms": [
+      "aged",
+      "analysis",
+      "appears",
+      "arrangement",
+      "copperplate",
+      "description",
+      "engraved",
+      "engraving",
+      "figures",
+      "harbor",
+      "historical",
+      "identified",
+      "key",
+      "paper",
+      "plate",
+      "possible",
+      "provided",
+      "related",
+      "scientific",
+      "sheet",
+      "subjects",
+      "technical",
+      "text",
+      "therefore"
+    ]
+  },
+  "aligned_chunks": [
+    {
+      "britannica_chunk_index": 1,
+      "wikipedia_chunk_index": 35,
+      "similarity": 0.4521,
+      "britannica_excerpt": "Related Scientific Subjects: Crane (machine), Block and tackle, Mechanical engineering, Capstan (nautical)",
+      "wikipedia_excerpt": " the 19th century."
+    },
+    {
+      "britannica_chunk_index": 0,
+      "wikipedia_chunk_index": 6,
+      "similarity": 0.2706,
+      "britannica_excerpt": "[HISTORICAL COPPERPLATE ENGRAVING: MECHANICAL ENGINEERING and CRANES (Plate CCX)]\n\nCategory: Mechanics and Civil Engineering\n\nVisual Description: Copperplate technical drawing of harbor cranes, compound pulley systems, capstans, and gear tr",
+      "wikipedia_excerpt": " also featured 160 copperplate illustrations engraved by Bell. Three of the engravings in the section on midwifery, depicting childbirth in clinical detail, were sufficiently shocking to prompt some readers to tear those engravings out of t"
+    }
+  ],
+  "topic_id": 5,
+  "topic_terms": [
+    "rays",
+    "water",
+    "fig"
+  ],
+  "claims": [
+    {
+      "claim_text": "The Britannica entry \"MECHANICAL ENGINEERING and CRANES (Plate CCX)\" uses 88 content tokens while the Wikipedia article \"History of the Encyclopædia Britannica\" uses 5909; their normalized vocabularies share a Jaccard overlap of 0.01 (raw 0.01) and a TF-IDF cosine similarity of 0.0154.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2077"
+      ],
+      "britannica_quote": "[HISTORICAL COPPERPLATE ENGRAVING: MECHANICAL ENGINEERING and CRANES (Plate CCX)]\nCategory: Mechanics and Civil Engineering\nVisual Description: Copperplate technical drawing of harbor cranes, compound pulley systems, capstans, and gear trai",
+      "wikipedia_page_id": "9004976",
+      "wikipedia_revision_id": "1340071003",
+      "wikipedia_quote": "The Encyclopædia Britannica has been published continuously since 1768, appearing in fifteen official editions. Several editions were amended with multi-volume \"supplements\" (3rd, 4th/5th/6th), several consisted of previous editions with ad"
+    },
+    {
+      "claim_text": "Britannica's most distinctive term is \"figures\"; Wikipedia's is \"edition\", showing the era-specific vocabulary of each source.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2077"
+      ],
+      "britannica_quote": "[Nemotron Super VL Analysis]: The provided image appears to be a blank sheet of aged paper with no visible engraving, text, headings, or figures.",
+      "wikipedia_page_id": "9004976",
+      "wikipedia_revision_id": "1340071003",
+      "wikipedia_quote": "The Encyclopædia Britannica has been published continuously since 1768, appearing in fifteen official editions."
+    },
+    {
+      "claim_text": "Both sources share core vocabulary including: aged, analysis, appears, arrangement, copperplate.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2077"
+      ],
+      "britannica_quote": "[Nemotron Super VL Analysis]: The provided image appears to be a blank sheet of aged paper with no visible engraving, text, headings, or figures.",
+      "wikipedia_page_id": "9004976",
+      "wikipedia_revision_id": "1340071003",
+      "wikipedia_quote": "Macfarquhar again edited this edition up to \"Mysteries\" but died in 1793 (aged 48) of \"mental exhaustion\"; his work was taken over by George Gleig, later Bishop Gleig of Brechin (consecrated 30 October 1808)."
+    }
+  ]
+}

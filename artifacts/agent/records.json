@@ -3,8 +3,10 @@
     "run": "00-compare-the-britannica-entry-entry-b-u-x.json",
     "status": "success",
     "tool_calls": [
+      "tool_search",
       "tool_describe",
-      "challenge_compare"
+      "challenge_compare",
+      "challenge_check_coverage"
     ]
   },
   {
@@ -20,8 +22,7 @@
     "status": "success",
     "tool_calls": [
       "tool_describe",
-      "challenge_compare",
-      "challenge_find_entry"
+      "challenge_compare"
     ]
   }
 ]

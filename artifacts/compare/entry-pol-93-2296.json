@@ -133,24 +133,24 @@
   "metrics": {
     "jaccard_raw": 0.0143,
     "jaccard_normalized": 0.0143,
-    "cosine_tfidf": 0.0048,
+    "cosine_tfidf": 0.0047,
     "cosine_embedding": -0.0053,
     "distinctive_britannica": [
       "captain",
-      "pole",
       "time",
+      "pole",
       "following",
       "open",
-      "sea",
       "gave",
       "free",
-      "account",
       "though",
+      "sea",
+      "account",
       "four",
-      "ice",
-      "reached",
+      "like",
       "lead",
-      "determined"
+      "reached",
+      "now"
     ],
     "distinctive_wikipedia": [
       "pol",
@@ -159,14 +159,14 @@
       "french",
       "country",
       "list",
-      "code",
       "state",
-      "poet",
-      "river",
-      "england",
+      "code",
       "named",
+      "england",
       "iii",
+      "river",
       "city",
+      "given",
       "india"
     ],
     "shared_terms": [
@@ -202,11 +202,11 @@
       "wikipedia_excerpt": "Pol (given name), usually a form of Paul or Polydore, with a list of people so named\n\nPol Pot (1925–1998), Cambodian revolutionary and Communist dictator\n\nAgusti Pol (born 1977), Andorran footballer\n\nAlejandro Pol Hurtado (born 1990), Venez"
     }
   ],
-  "topic_id": 4,
+  "topic_id": 6,
   "topic_terms": [
-    "blow-pipe",
-    "captain",
-    "flame"
+    "people",
+    "time",
+    "great"
   ],
   "claims": [
     {

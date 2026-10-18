@@ -86,41 +86,41 @@
   "metrics": {
     "jaccard_raw": 0.0061,
     "jaccard_normalized": 0.0061,
-    "cosine_tfidf": 0.01,
+    "cosine_tfidf": 0.0092,
     "cosine_embedding": 0.0082,
     "distinctive_britannica": [
-      "british",
       "french",
+      "british",
       "arms",
-      "army",
       "king",
+      "army",
       "ferdinand",
       "com",
       "sent",
-      "forces",
       "take",
       "age",
-      "sides",
-      "george",
       "shortly",
-      "death"
+      "forces",
+      "against",
+      "sides",
+      "quickly"
     ],
     "distinctive_wikipedia": [
       "press",
-      "university",
       "reality",
+      "university",
       "work",
-      "street",
       "books",
-      "difference",
-      "women",
-      "london",
       "love",
+      "difference",
+      "london",
       "century",
-      "poets",
+      "street",
       "book",
+      "women",
       "literary",
-      "award"
+      "poets",
+      "institute"
     ],
     "shared_terms": [
       "born",
@@ -150,10 +150,10 @@
       "wikipedia_excerpt": "ndon. She teaches at the University of East Anglia."
     }
   ],
-  "topic_id": 7,
+  "topic_id": 6,
   "topic_terms": [
-    "see",
-    "upon",
+    "people",
+    "time",
     "great"
   ],
   "claims": [

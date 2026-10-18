@@ -67,6 +67,15 @@
     },
     {
       "rule": "ocr_f_s_confusion",
+      "original": "pafs",
+      "replacement": "pass",
+      "count": 1,
+      "samples": [
+        "ns endeavor to pafs them off one w"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
       "original": "ufe",
       "replacement": "use",
       "count": 1,
@@ -78,38 +87,38 @@
   "metrics": {
     "jaccard_raw": 0.0209,
     "jaccard_normalized": 0.0228,
-    "cosine_tfidf": 0.0035,
-    "cosine_embedding": 0.1048,
+    "cosine_tfidf": 0.0033,
+    "cosine_embedding": 0.1052,
     "distinctive_britannica": [
       "called",
-      "cable",
       "word",
+      "cable",
       "divided",
-      "letters",
-      "every",
-      "chief",
       "common",
+      "every",
+      "letters",
       "given",
-      "make",
       "name",
+      "make",
+      "chief",
       "great",
-      "ropes",
-      "cabinets",
-      "changes"
+      "pure",
+      "changes",
+      "certain"
     ],
     "distinctive_wikipedia": [
       "frac",
       "displaystyle",
       "geq",
       "left",
-      "inequality",
       "right",
+      "inequality",
       "vec",
       "cdot",
       "sum",
       "let",
-      "sqrt",
       "yields",
+      "sqrt",
       "result",
       "real",
       "function"
@@ -152,10 +161,10 @@
       "wikipedia_excerpt": "(a + b) + (a + c) + (b + c) 3 ≥ 3 1 a + b + 1 a + c + 1 b + c. {\\displaystyle {\\frac {(a+b)+(a+c)+(b+c)}{3}}\\geq {\\frac {3}{\\displaystyle {\\frac {1}{a+b}}+{\\frac {1}{a+c}}+{\\frac {1}{b+c}}}}.}\n\nClearing denominators yields\n\n((a + b) + (a + "
     }
   ],
-  "topic_id": 5,
+  "topic_id": 2,
   "topic_terms": [
-    "every",
-    "people",
+    "see",
+    "brit",
     "upon"
   ],
   "claims": [

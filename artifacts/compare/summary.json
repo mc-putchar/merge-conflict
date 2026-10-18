@@ -2,39 +2,162 @@
   "stage": "compare",
   "status": "completed",
   "entries_total": 95,
-  "compared_count": 74,
-  "excluded_count": 21,
+  "compared_count": 81,
+  "excluded_count": 14,
   "exclusions_by_reason": {
-    "short_or_blank_text": 5,
-    "unmatched": 16
+    "unmatched": 14
   },
   "document_accounting_verified": true,
   "embedding_similarity_available": true,
-  "claims_factual": 216,
+  "claims_factual": 235,
   "claims_inference": 70,
   "claims_dropped_unverifiable": 0,
   "topics": [
     {
       "topic_id": 0,
-      "document_count": 31,
+      "document_count": 38,
       "britannica_entries": 0,
-      "wikipedia_articles": 31,
+      "wikipedia_articles": 38,
       "top_terms_britannica": [],
       "top_terms_wikipedia": [
         "buildings",
         "listed",
+        "displaystyle",
+        "frac",
         "agalmyla",
-        "beautiful",
-        "burtt",
-        "frac"
+        "beautiful"
       ],
       "label": "buildings, listed"
     },
     {
       "topic_id": 1,
-      "document_count": 5,
-      "britannica_entries": 1,
+      "document_count": 8,
+      "britannica_entries": 0,
+      "wikipedia_articles": 8,
+      "top_terms_britannica": [],
+      "top_terms_wikipedia": [
+        "nitrification",
+        "ammonia",
+        "oxidation",
+        "lexisnexis",
+        "westlaw",
+        "process"
+      ],
+      "label": "nitrification, ammonia"
+    },
+    {
+      "topic_id": 2,
+      "document_count": 27,
+      "britannica_entries": 21,
+      "wikipedia_articles": 6,
+      "top_terms_britannica": [
+        "see",
+        "brit",
+        "upon",
+        "king",
+        "called",
+        "great"
+      ],
+      "top_terms_wikipedia": [
+        "magnetic",
+        "magnet",
+        "lyre",
+        "magnets",
+        "field",
+        "lyres"
+      ],
+      "label": "see, brit, magnetic"
+    },
+    {
+      "topic_id": 3,
+      "document_count": 18,
+      "britannica_entries": 14,
       "wikipedia_articles": 4,
+      "top_terms_britannica": [
+        "upon",
+        "feet",
+        "tree",
+        "time",
+        "though",
+        "every"
+      ],
+      "top_terms_wikipedia": [
+        "fur",
+        "shallots",
+        "fake",
+        "shallot",
+        "phar-mor",
+        "used"
+      ],
+      "label": "upon, feet, fur"
+    },
+    {
+      "topic_id": 4,
+      "document_count": 11,
+      "britannica_entries": 0,
+      "wikipedia_articles": 11,
+      "top_terms_britannica": [],
+      "top_terms_wikipedia": [
+        "edition",
+        "britannica",
+        "articles",
+        "volumes",
+        "pages",
+        "dia"
+      ],
+      "label": "edition, britannica"
+    },
+    {
+      "topic_id": 5,
+      "document_count": 24,
+      "britannica_entries": 20,
+      "wikipedia_articles": 4,
+      "top_terms_britannica": [
+        "rays",
+        "water",
+        "fig",
+        "acid",
+        "heat",
+        "half"
+      ],
+      "top_terms_wikipedia": [
+        "litre",
+        "light",
+        "trigonometric",
+        "blowpipe",
+        "used",
+        "cubic"
+      ],
+      "label": "rays, water, litre"
+    },
+    {
+      "topic_id": 6,
+      "document_count": 30,
+      "britannica_entries": 25,
+      "wikipedia_articles": 5,
+      "top_terms_britannica": [
+        "people",
+        "time",
+        "great",
+        "every",
+        "country",
+        "now"
+      ],
+      "top_terms_wikipedia": [
+        "political",
+        "economy",
+        "economic",
+        "economics",
+        "left",
+        "politics"
+      ],
+      "label": "people, time, political"
+    },
+    {
+      "topic_id": 7,
+      "document_count": 6,
+      "britannica_entries": 1,
+      "wikipedia_articles": 5,
       "top_terms_britannica": [
         "users",
         "number",
@@ -44,131 +167,14 @@
         "used"
       ],
       "top_terms_wikipedia": [
-        "com",
-        "investment",
-        "net",
-        "inward",
-        "summons",
-        "judgment"
-      ],
-      "label": "users, number, com"
-    },
-    {
-      "topic_id": 2,
-      "document_count": 18,
-      "britannica_entries": 18,
-      "wikipedia_articles": 0,
-      "top_terms_britannica": [
-        "water",
-        "acid",
-        "quantity",
-        "time",
-        "matter",
-        "form"
-      ],
-      "top_terms_wikipedia": [],
-      "label": "water, acid"
-    },
-    {
-      "topic_id": 3,
-      "document_count": 19,
-      "britannica_entries": 0,
-      "wikipedia_articles": 19,
-      "top_terms_britannica": [],
-      "top_terms_wikipedia": [
-        "edition",
-        "britannica",
-        "articles",
-        "volumes",
-        "dia",
-        "pages"
-      ],
-      "label": "edition, britannica"
-    },
-    {
-      "topic_id": 4,
-      "document_count": 12,
-      "britannica_entries": 6,
-      "wikipedia_articles": 6,
-      "top_terms_britannica": [
-        "blow-pipe",
-        "captain",
-        "flame",
-        "time",
-        "platina",
-        "many"
-      ],
-      "top_terms_wikipedia": [
-        "magnetic",
-        "magnet",
-        "magnets",
-        "field",
-        "fur",
-        "nitrification"
-      ],
-      "label": "blow-pipe, captain, magnetic"
-    },
-    {
-      "topic_id": 5,
-      "document_count": 28,
-      "britannica_entries": 24,
-      "wikipedia_articles": 4,
-      "top_terms_britannica": [
-        "every",
-        "people",
-        "upon",
-        "rays",
-        "great",
-        "part"
-      ],
-      "top_terms_wikipedia": [
+        "midwifery",
+        "midwives",
+        "midwife",
+        "care",
         "mean",
-        "arithmetic",
-        "trigonometric",
-        "displaystyle",
-        "zephaniah",
-        "phar-mor"
+        "thumb"
       ],
-      "label": "every, people, mean"
-    },
-    {
-      "topic_id": 6,
-      "document_count": 5,
-      "britannica_entries": 0,
-      "wikipedia_articles": 5,
-      "top_terms_britannica": [],
-      "top_terms_wikipedia": [
-        "music",
-        "erzincan",
-        "folk",
-        "race",
-        "turkish",
-        "human"
-      ],
-      "label": "music, erzincan"
-    },
-    {
-      "topic_id": 7,
-      "document_count": 30,
-      "britannica_entries": 25,
-      "wikipedia_articles": 5,
-      "top_terms_britannica": [
-        "see",
-        "upon",
-        "great",
-        "king",
-        "brit",
-        "made"
-      ],
-      "top_terms_wikipedia": [
-        "textstyle",
-        "lyre",
-        "lyres",
-        "displaystyle",
-        "lexisnexis",
-        "leq"
-      ],
-      "label": "see, upon, textstyle"
+      "label": "users, number, midwifery"
     }
   ],
   "artifacts_dir": "artifacts/compare",

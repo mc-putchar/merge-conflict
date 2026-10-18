@@ -96,41 +96,41 @@
   "metrics": {
     "jaccard_raw": 0.0022,
     "jaccard_normalized": 0.0022,
-    "cosine_tfidf": 0.0453,
+    "cosine_tfidf": 0.046,
     "cosine_embedding": 0.1354,
     "distinctive_britannica": [
       "made",
-      "kind",
       "great",
+      "kind",
       "country",
-      "tree",
-      "like",
-      "parts",
       "beautiful",
+      "like",
+      "tree",
+      "parts",
       "feet",
-      "flowers",
       "every",
       "common",
-      "animals",
+      "flowers",
+      "white",
       "wild",
-      "white"
+      "animals"
     ],
     "distinctive_wikipedia": [
       "ethopia",
       "edition",
+      "britannica",
       "described",
       "genus",
-      "walker",
-      "britannica",
       "francis",
-      "moths",
-      "yang",
+      "walker",
       "articles",
+      "moths",
       "volumes",
-      "listed",
-      "published",
+      "yang",
       "pages",
-      "dia"
+      "dia",
+      "volume",
+      "published"
     ],
     "shared_terms": [
       "ethopia"
@@ -159,11 +159,11 @@
       "wikipedia_excerpt": "Ethopia is a genus of snout moths. It was described by Francis Walker in 1865.\n\nEthopia gigantea Owada, 1986\n\nEthopia polyisogramma Wu & Yang, 2007\n\nEthopia roseilinea Walker, 1865\n\nEthopia sapa Wu & Yang 2007"
     }
   ],
-  "topic_id": 5,
+  "topic_id": 3,
   "topic_terms": [
-    "every",
-    "people",
-    "upon"
+    "upon",
+    "feet",
+    "tree"
   ],
   "claims": [
     {

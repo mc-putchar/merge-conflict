@@ -1,5 +1,136 @@
 [
   {
+    "entry_id": "entry-britannica-volume-144133901-row-2209-2209",
+    "britannica_title": "BOTANY and HERBAL ANATOMY (Plate XLVI)",
+    "source_pages": [
+      "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2209"
+    ],
+    "britannica_sha256": "004d9b23a0a9758fffc20e6dfa33dbc5e79d845302429f5885b7e5b2d8457268",
+    "britannica_raw_chars": 640,
+    "britannica_tokens": 67,
+    "britannica_unique_tokens": 48,
+    "wikipedia_page_id": "9004976",
+    "wikipedia_revision_id": "1340071003",
+    "wikipedia_title": "History of the Encyclop\u00e6dia Britannica",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/History_of_the_Encyclop%C3%A6dia_Britannica",
+    "wikipedia_text_sha256": "64dd89242f04b3e591115caca56a86f50c9129e1ec3650be302ee2bca6f05eb1",
+    "wikipedia_raw_chars": 71820,
+    "wikipedia_tokens": 5909,
+    "wikipedia_unique_tokens": 2368,
+    "length_ratio": 112.219,
+    "text_changes": [],
+    "metrics": {
+      "jaccard_raw": 0.0062,
+      "jaccard_normalized": 0.0062,
+      "cosine_tfidf": 0.0138,
+      "cosine_embedding": 0.1195,
+      "distinctive_britannica": [
+        "plant",
+        "botany",
+        "fig",
+        "engraving",
+        "copperplate",
+        "buildings",
+        "plate",
+        "displaystyle",
+        "figures",
+        "magnetic",
+        "style",
+        "frac",
+        "anatomy",
+        "midwives",
+        "field"
+      ],
+      "distinctive_wikipedia": [
+        "edition",
+        "britannica",
+        "articles",
+        "volumes",
+        "pages",
+        "dia",
+        "volume",
+        "supplement",
+        "article",
+        "encyclopedia",
+        "published",
+        "third",
+        "encyclop",
+        "page",
+        "fourth"
+      ],
+      "shared_terms": [
+        "botany",
+        "complete",
+        "copperplate",
+        "description",
+        "engraved",
+        "engraving",
+        "figures",
+        "historical",
+        "identified",
+        "plant",
+        "plate",
+        "related",
+        "scientific",
+        "style",
+        "subjects"
+      ]
+    },
+    "aligned_chunks": [
+      {
+        "britannica_chunk_index": 0,
+        "wikipedia_chunk_index": 6,
+        "similarity": 0.3348,
+        "britannica_excerpt": "Plate. XLVI\n\n[HISTORICAL COPPERPLATE ENGRAVING: BOTANY and HERBAL ANATOMY (Plate XLVI)]\n\nCategory: Botany and Plant Morphology\n\nVisual Description: Detailed botanical copperplate engraving detailing plant reproductive organs, Linnaean flora",
+        "wikipedia_excerpt": " also featured 160 copperplate illustrations engraved by Bell. Three of the engravings in the section on midwifery, depicting childbirth in clinical detail, were sufficiently shocking to prompt some readers to tear those engravings out of t"
+      }
+    ],
+    "topic_id": 5,
+    "topic_terms": [
+      "rays",
+      "water",
+      "fig"
+    ],
+    "claims": [
+      {
+        "claim_text": "The Britannica entry \"BOTANY and HERBAL ANATOMY (Plate XLVI)\" uses 67 content tokens while the Wikipedia article \"History of the Encyclop\u00e6dia Britannica\" uses 5909; their normalized vocabularies share a Jaccard overlap of 0.0062 (raw 0.0062) and a TF-IDF cosine similarity of 0.0138.",
+        "claim_type": "factual",
+        "label": "[factual]",
+        "britannica_pages": [
+          "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2209"
+        ],
+        "britannica_quote": "Plate. XLVI\n\n[HISTORICAL COPPERPLATE ENGRAVING: BOTANY and HERBAL ANATOMY (Plate XLVI)]\nCategory: Botany and Plant Morphology\nVisual Description: Detailed botanical copperplate engraving detailing plant reproductive organs, Linnaean floral ",
+        "wikipedia_page_id": "9004976",
+        "wikipedia_revision_id": "1340071003",
+        "wikipedia_quote": "The Encyclop\u00e6dia Britannica has been published continuously since 1768, appearing in fifteen official editions. Several editions were amended with multi-volume \"supplements\" (3rd, 4th/5th/6th), several consisted of previous editions with ad"
+      },
+      {
+        "claim_text": "Britannica's most distinctive term is \"plant\"; Wikipedia's is \"edition\", showing the era-specific vocabulary of each source.",
+        "claim_type": "factual",
+        "label": "[factual]",
+        "britannica_pages": [
+          "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2209"
+        ],
+        "britannica_quote": "Category: Botany and Plant Morphology",
+        "wikipedia_page_id": "9004976",
+        "wikipedia_revision_id": "1340071003",
+        "wikipedia_quote": "The Encyclop\u00e6dia Britannica has been published continuously since 1768, appearing in fifteen official editions."
+      },
+      {
+        "claim_text": "Both sources share core vocabulary including: botany, complete, copperplate, description, engraved.",
+        "claim_type": "factual",
+        "label": "[factual]",
+        "britannica_pages": [
+          "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2209"
+        ],
+        "britannica_quote": "[HISTORICAL COPPERPLATE ENGRAVING: BOTANY and HERBAL ANATOMY (Plate XLVI)]",
+        "wikipedia_page_id": "9004976",
+        "wikipedia_revision_id": "1340071003",
+        "wikipedia_quote": "For example, the 56-page \"Botany\" of the third edition was replaced in the fourth with a 270-page version by moving all the individual plant articles into one."
+      }
+    ]
+  },
+  {
     "entry_id": "entry-b-u-x-697-b-y-z-2250",
     "britannica_title": "B U X  697  B Y Z",
     "source_pages": [
@@ -95,39 +226,39 @@
     "metrics": {
       "jaccard_raw": 0.0066,
       "jaccard_normalized": 0.0066,
-      "cosine_tfidf": 0.012,
+      "cosine_tfidf": 0.0116,
       "cosine_embedding": 0.0629,
       "distinctive_britannica": [
         "laws",
-        "species",
         "earth",
-        "leaves",
-        "town",
-        "waters",
-        "long",
         "kind",
-        "made",
+        "leaves",
+        "species",
         "against",
-        "lat",
+        "town",
+        "made",
+        "long",
+        "waters",
         "see",
-        "greatly",
+        "lat",
         "city",
-        "genus"
+        "placed",
+        "particular"
       ],
       "distinctive_wikipedia": [
         "left",
         "right",
         "displaystyle",
         "identity",
-        "quad",
         "product",
+        "quad",
+        "frac",
         "aligned",
         "end",
-        "frac",
         "begin",
         "numbers",
-        "similar",
         "sum",
+        "similar",
         "eight",
         "squares"
       ],
@@ -160,11 +291,11 @@
         "wikipedia_excerpt": "and,"
       }
     ],
-    "topic_id": 7,
+    "topic_id": 2,
     "topic_terms": [
       "see",
-      "upon",
-      "great"
+      "brit",
+      "upon"
     ],
     "claims": [
       {
@@ -331,39 +462,39 @@
     "metrics": {
       "jaccard_raw": 0.0183,
       "jaccard_normalized": 0.0183,
-      "cosine_tfidf": 0.0632,
+      "cosine_tfidf": 0.0641,
       "cosine_embedding": 0.085,
       "distinctive_britannica": [
         "matter",
-        "fulphur",
         "fire",
+        "fulphur",
         "operation",
-        "alum",
-        "acid",
         "air",
+        "acid",
+        "alum",
         "matters",
-        "phofhorus",
         "nothing",
         "come",
+        "phofhorus",
         "remain",
         "degree",
-        "converted",
-        "bath"
+        "bath",
+        "converted"
       ],
       "distinctive_wikipedia": [
         "products",
-        "etc",
         "edition",
+        "etc",
+        "britannica",
         "prepared",
         "strongly",
         "compound",
         "well",
-        "ammonium",
         "active",
+        "ammonium",
         "solutions",
         "soluble",
         "republic",
-        "britannica",
         "foam",
         "substance"
       ],
@@ -401,11 +532,11 @@
         "wikipedia_excerpt": "Carbethopendecinium bromide is a quaternary ammonium compound used as antiseptic and disinfectant. It is white to yellowish crystalline powder. It is well soluble in water, ethanol and chloroform; its water solutions foam strongly if shaken"
       }
     ],
-    "topic_id": 2,
+    "topic_id": 5,
     "topic_terms": [
+      "rays",
       "water",
-      "acid",
-      "quantity"
+      "fig"
     ],
     "claims": [
       {
@@ -579,6 +710,15 @@
       },
       {
         "rule": "ocr_f_s_confusion",
+        "original": "pafs",
+        "replacement": "pass",
+        "count": 1,
+        "samples": [
+          "mudded in the pafs / Originals du"
+        ]
+      },
+      {
+        "rule": "ocr_f_s_confusion",
         "original": "raife",
         "replacement": "raise",
         "count": 1,
@@ -590,8 +730,8 @@
     "metrics": {
       "jaccard_raw": 0.0146,
       "jaccard_normalized": 0.0146,
-      "cosine_tfidf": 0.0372,
-      "cosine_embedding": 0.0824,
+      "cosine_tfidf": 0.0349,
+      "cosine_embedding": 0.083,
       "distinctive_britannica": [
         "like",
         "great",
@@ -599,27 +739,27 @@
         "fall",
         "greater",
         "others",
-        "verfe",
-        "wife",
-        "rule",
-        "true",
-        "call",
-        "know",
-        "wrong",
         "mind",
-        "bad"
+        "call",
+        "wrong",
+        "know",
+        "true",
+        "rule",
+        "wife",
+        "human",
+        "perhaps"
       ],
       "distinctive_wikipedia": [
         "art",
         "works",
         "arts",
         "western",
-        "view",
-        "utarit",
         "contemporary",
+        "view",
         "cultures",
-        "born",
         "historical",
+        "utarit",
+        "born",
         "described",
         "points",
         "religious",
@@ -655,16 +795,16 @@
       {
         "britannica_chunk_index": 8,
         "wikipedia_chunk_index": 2,
-        "similarity": 0.0913,
+        "similarity": 0.094,
         "britannica_excerpt": "Moreover, to boundless ear the bold excursions of the human mind, that in the vail voit beyond real coffences, it can call forth shadowy beings, and unknown worlds, as numerous, as bright, and perhaps as falling as the flats , fuch quite-or",
         "wikipedia_excerpt": "According to one analysis, Natee's works can be regarded as finding newer perspective by creating a figurative which differs from the original / tradition views. With that, the artist's use of sociopolitical and religious points of view to "
       }
     ],
-    "topic_id": 5,
+    "topic_id": 6,
     "topic_terms": [
-      "every",
       "people",
-      "upon"
+      "time",
+      "great"
     ],
     "claims": [
       {
@@ -786,6 +926,15 @@
       },
       {
         "rule": "ocr_f_s_confusion",
+        "original": "pafs",
+        "replacement": "pass",
+        "count": 1,
+        "samples": [
+          "ns endeavor to pafs them off one w"
+        ]
+      },
+      {
+        "rule": "ocr_f_s_confusion",
         "original": "ufe",
         "replacement": "use",
         "count": 1,
@@ -797,38 +946,38 @@
     "metrics": {
       "jaccard_raw": 0.0209,
       "jaccard_normalized": 0.0228,
-      "cosine_tfidf": 0.0035,
-      "cosine_embedding": 0.1048,
+      "cosine_tfidf": 0.0033,
+      "cosine_embedding": 0.1052,
       "distinctive_britannica": [
         "called",
-        "cable",
         "word",
+        "cable",
         "divided",
-        "letters",
-        "every",
-        "chief",
         "common",
+        "every",
+        "letters",
         "given",
-        "make",
         "name",
+        "make",
+        "chief",
         "great",
-        "ropes",
-        "cabinets",
-        "changes"
+        "pure",
+        "changes",
+        "certain"
       ],
       "distinctive_wikipedia": [
         "frac",
         "displaystyle",
         "geq",
         "left",
-        "inequality",
         "right",
+        "inequality",
         "vec",
         "cdot",
         "sum",
         "let",
-        "sqrt",
         "yields",
+        "sqrt",
         "result",
         "real",
         "function"
@@ -871,10 +1020,10 @@
         "wikipedia_excerpt": "(a + b) + (a + c) + (b + c) 3 \u2265 3 1 a + b + 1 a + c + 1 b + c. {\\displaystyle {\\frac {(a+b)+(a+c)+(b+c)}{3}}\\geq {\\frac {3}{\\displaystyle {\\frac {1}{a+b}}+{\\frac {1}{a+c}}+{\\frac {1}{b+c}}}}.}\n\nClearing denominators yields\n\n((a + b) + (a + "
       }
     ],
-    "topic_id": 5,
+    "topic_id": 2,
     "topic_terms": [
-      "every",
-      "people",
+      "see",
+      "brit",
       "upon"
     ],
     "claims": [
@@ -1034,24 +1183,24 @@
     "metrics": {
       "jaccard_raw": 0.025,
       "jaccard_normalized": 0.029,
-      "cosine_tfidf": 0.259,
+      "cosine_tfidf": 0.2606,
       "cosine_embedding": 0.3786,
       "distinctive_britannica": [
         "see",
         "four",
         "feet",
-        "native",
         "viz",
+        "native",
         "body",
         "little",
         "genus",
-        "etc",
-        "friends",
         "covered",
         "call",
-        "round",
-        "fig",
-        "nine"
+        "etc",
+        "white",
+        "friends",
+        "inches",
+        "nothing"
       ],
       "distinctive_wikipedia": [
         "ass",
@@ -1059,16 +1208,16 @@
         "equus",
         "kiang",
         "hemionus",
-        "africanus",
         "several",
+        "africanus",
         "european",
         "extinct",
-        "subgenus",
-        "asinus",
-        "eastern",
+        "reputation",
         "true",
-        "western",
-        "formerly"
+        "atlas",
+        "eastern",
+        "based",
+        "western"
       ],
       "shared_terms": [
         "africa",
@@ -1111,11 +1260,11 @@
         "wikipedia_excerpt": "Asinus is a subgenus of Equus that encompasses several subspecies of the Equidae commonly known as wild asses or wild donkeys, characterized by long ears, a lean, straight-backed build, lack of a true withers, a coarse mane and tail, and a "
       }
     ],
-    "topic_id": 7,
+    "topic_id": 2,
     "topic_terms": [
       "see",
-      "upon",
-      "great"
+      "brit",
+      "upon"
     ],
     "claims": [
       {
@@ -1268,24 +1417,24 @@
     "metrics": {
       "jaccard_raw": 0.0558,
       "jaccard_normalized": 0.0581,
-      "cosine_tfidf": 0.1167,
+      "cosine_tfidf": 0.1139,
       "cosine_embedding": 0.3182,
       "distinctive_britannica": [
         "action",
         "upon",
-        "mult",
         "without",
+        "mult",
         "writing",
-        "fame",
         "days",
+        "fame",
         "actions",
         "several",
-        "defender",
         "writings",
-        "process",
         "certain",
+        "process",
         "case",
-        "pronounced"
+        "full",
+        "defender"
       ],
       "distinctive_wikipedia": [
         "judgment",
@@ -1293,16 +1442,16 @@
         "summons",
         "payment",
         "obtained",
-        "rules",
         "made",
+        "rules",
         "civil",
-        "procedure",
         "six",
         "issue",
-        "commitment",
-        "extreme",
+        "procedure",
+        "instalments",
         "act",
-        "weeks"
+        "weeks",
+        "commitment"
       ],
       "shared_terms": [
         "actions",
@@ -1358,11 +1507,11 @@
         "wikipedia_excerpt": "Imprisonment does not operate as a satisfaction or extinguishment of a debt, or deprive a person of a right of execution against the land or goods of the person imprisoned in the same manner as there had been no imprisonment. In this regard"
       }
     ],
-    "topic_id": 7,
+    "topic_id": 2,
     "topic_terms": [
       "see",
-      "upon",
-      "great"
+      "brit",
+      "upon"
     ],
     "claims": [
       {
@@ -1537,21 +1686,21 @@
     "metrics": {
       "jaccard_raw": 0.0448,
       "jaccard_normalized": 0.0523,
-      "cosine_tfidf": 0.3734,
+      "cosine_tfidf": 0.3788,
       "cosine_embedding": 0.4143,
       "distinctive_britannica": [
         "angles",
-        "fine",
         "half",
         "sum",
+        "fine",
         "difference",
         "thus",
         "spherical",
         "opposite",
         "found",
         "viz",
-        "term",
         "required",
+        "term",
         "given",
         "find",
         "leg"
@@ -1561,15 +1710,15 @@
         "list",
         "functions",
         "law",
-        "formula",
         "table",
+        "formula",
         "function",
         "problem",
-        "sine",
         "distance",
         "trigonometry",
-        "theory",
+        "sine",
         "see",
+        "theory",
         "rule",
         "identity"
       ],
@@ -1624,9 +1773,9 @@
     ],
     "topic_id": 5,
     "topic_terms": [
-      "every",
-      "people",
-      "upon"
+      "rays",
+      "water",
+      "fig"
     ],
     "claims": [
       {
@@ -1776,23 +1925,23 @@
     "metrics": {
       "jaccard_raw": 0.0158,
       "jaccard_normalized": 0.0158,
-      "cosine_tfidf": 0.0335,
+      "cosine_tfidf": 0.0341,
       "cosine_embedding": 0.0805,
       "distinctive_britannica": [
         "thomas",
         "king",
         "order",
         "river",
-        "portuguese",
-        "city",
         "church",
-        "andrew",
         "scotland",
+        "city",
         "kind",
-        "crois",
+        "andrew",
+        "portuguese",
         "see",
-        "miles",
+        "crois",
         "reign",
+        "gold",
         "offered"
       ],
       "distinctive_wikipedia": [
@@ -1800,17 +1949,17 @@
         "science",
         "university",
         "swade",
-        "museum",
         "computer",
+        "museum",
         "london",
-        "engine",
         "society",
+        "engine",
         "difference",
-        "computing",
-        "work",
-        "charles",
         "engineering",
-        "collections"
+        "charles",
+        "work",
+        "computing",
+        "physics"
       ],
       "shared_terms": [
         "charles",
@@ -1847,11 +1996,11 @@
         "wikipedia_excerpt": "Doron Swade MBE, born 1946, is a museum curator and author, specialising in the history of computing. He is especially known for his work on the computer pioneer Charles Babbage and his Difference Engine.\n\nSwade is originally from South Afr"
       }
     ],
-    "topic_id": 7,
+    "topic_id": 2,
     "topic_terms": [
       "see",
-      "upon",
-      "great"
+      "brit",
+      "upon"
     ],
     "claims": [
       {
@@ -1997,41 +2146,41 @@
     "metrics": {
       "jaccard_raw": 0.0343,
       "jaccard_normalized": 0.0343,
-      "cosine_tfidf": 0.0555,
+      "cosine_tfidf": 0.0553,
       "cosine_embedding": 0.0845,
       "distinctive_britannica": [
         "greek",
-        "helm",
         "modern",
         "among",
-        "miles",
+        "helm",
         "province",
-        "lat",
         "upon",
+        "miles",
+        "lat",
         "long",
-        "head",
         "words",
-        "character",
         "fire",
-        "sun",
-        "put"
+        "put",
+        "language",
+        "head",
+        "opinion"
       ],
       "distinctive_wikipedia": [
         "sikka",
         "people",
         "population",
-        "islands",
         "kingdom",
+        "islands",
         "east",
         "mid",
+        "number",
+        "island",
         "regency",
         "pulau",
         "district",
-        "island",
-        "number",
-        "flores",
         "along",
-        "area"
+        "north",
+        "flores"
       ],
       "shared_terms": [
         "according",
@@ -2085,10 +2234,10 @@
         "wikipedia_excerpt": "A small Sikka region (non administrative) called Iwanget\u00e9 or Iwang Get\u00e9 encompasses the villages of Watublapi (Hewokloang district), H\u00e9wokloang, Kloangpopot (Doreng district), Hale (Mapitara district), and Hebingare (and quite a few others "
       }
     ],
-    "topic_id": 5,
+    "topic_id": 2,
     "topic_terms": [
-      "every",
-      "people",
+      "see",
+      "brit",
       "upon"
     ],
     "claims": [
@@ -2175,24 +2324,24 @@
     "metrics": {
       "jaccard_raw": 0.0163,
       "jaccard_normalized": 0.0163,
-      "cosine_tfidf": 0.0758,
+      "cosine_tfidf": 0.0773,
       "cosine_embedding": 0.0159,
       "distinctive_britannica": [
         "blood",
         "pounds",
         "weight",
-        "inches",
         "left",
+        "inches",
         "heart",
         "equal",
-        "square",
         "man",
-        "minute",
+        "square",
         "tabular",
-        "ventricle",
+        "minute",
         "fiction",
-        "aorta",
-        "tubes"
+        "ventricle",
+        "begins",
+        "class"
       ],
       "distinctive_wikipedia": [
         "inward",
@@ -2201,15 +2350,15 @@
         "economic",
         "region",
         "money",
-        "relatively",
         "companies",
+        "relatively",
         "agency",
         "corporations",
-        "sources",
-        "attracting",
-        "jobs",
-        "source",
-        "car"
+        "strategy",
+        "marketing",
+        "extent",
+        "result",
+        "personnel"
       ],
       "shared_terms": [
         "area",
@@ -2241,11 +2390,11 @@
         "wikipedia_excerpt": "Examples of inward investment include investments made by Japanese corporations in the UK car industry, including those investments as a result of government policy through agencies such as the Scottish Development Agency and Welsh Developm"
       }
     ],
-    "topic_id": 2,
+    "topic_id": 3,
     "topic_terms": [
-      "water",
-      "acid",
-      "quantity"
+      "upon",
+      "feet",
+      "tree"
     ],
     "claims": [
       {
@@ -2377,7 +2526,7 @@
     "metrics": {
       "jaccard_raw": 0.0593,
       "jaccard_normalized": 0.0619,
-      "cosine_tfidf": 0.1854,
+      "cosine_tfidf": 0.1778,
       "cosine_embedding": 0.3511,
       "distinctive_britannica": [
         "rays",
@@ -2389,29 +2538,29 @@
         "man",
         "line",
         "paper",
-        "fall",
-        "picture",
         "half",
+        "fall",
         "equal",
+        "picture",
         "placed",
-        "eye"
+        "whole"
       ],
       "distinctive_wikipedia": [
         "light",
         "newton",
         "theory",
         "science",
-        "colour",
         "book",
-        "opticks",
+        "colour",
         "nature",
-        "newton's",
-        "work",
-        "physical",
-        "later",
+        "opticks",
         "principia",
+        "newton's",
+        "later",
+        "physical",
+        "work",
         "queries",
-        "colours"
+        "various"
       ],
       "shared_terms": [
         "another",
@@ -2469,11 +2618,11 @@
         "wikipedia_excerpt": " additional reflection or refraction or by passing the light through a coloured filter."
       }
     ],
-    "topic_id": 2,
+    "topic_id": 5,
     "topic_terms": [
+      "rays",
       "water",
-      "acid",
-      "quantity"
+      "fig"
     ],
     "claims": [
       {
@@ -2644,35 +2793,35 @@
     "metrics": {
       "jaccard_raw": 0.0475,
       "jaccard_normalized": 0.0486,
-      "cosine_tfidf": 0.0516,
+      "cosine_tfidf": 0.052,
       "cosine_embedding": 0.099,
       "distinctive_britannica": [
         "sleep",
         "though",
         "whole",
         "months",
+        "along",
         "fame",
         "river",
         "molt",
-        "along",
         "thick",
         "without",
-        "animal",
-        "forth",
         "age",
+        "commonly",
+        "animal",
         "part",
-        "white"
+        "especially"
       ],
       "distinctive_wikipedia": [
         "edition",
         "britannica",
-        "articles",
         "volumes",
+        "articles",
         "pages",
         "dia",
         "volume",
-        "published",
         "supplement",
+        "published",
         "article",
         "encyclopedia",
         "third",
@@ -2736,10 +2885,10 @@
         "wikipedia_excerpt": "and a somewhat melancholy article on \" Love \" that persisted in the Britannica for nearly a century (until its ninth edition):\n\nAs the force of love prevails, sighs grow deeper; a tremor affects the heart and pulse; the countenance is alter"
       }
     ],
-    "topic_id": 5,
+    "topic_id": 2,
     "topic_terms": [
-      "every",
-      "people",
+      "see",
+      "brit",
       "upon"
     ],
     "claims": [
@@ -2914,24 +3063,24 @@
     "metrics": {
       "jaccard_raw": 0.0174,
       "jaccard_normalized": 0.0174,
-      "cosine_tfidf": 0.0228,
+      "cosine_tfidf": 0.0231,
       "cosine_embedding": 0.0559,
       "distinctive_britannica": [
         "upon",
         "force",
         "spaniards",
         "soon",
-        "city",
         "full",
+        "city",
         "charles",
         "towards",
         "great",
         "people",
-        "haffan",
         "get",
-        "things",
         "immediately",
-        "head"
+        "things",
+        "head",
+        "sort"
       ],
       "distinctive_wikipedia": [
         "word",
@@ -2943,12 +3092,12 @@
         "ancient",
         "roman",
         "modern",
-        "term",
-        "based",
         "used",
-        "tis",
+        "based",
+        "term",
         "prophet",
-        "terms"
+        "terms",
+        "derived"
       ],
       "shared_terms": [
         "christian",
@@ -2987,11 +3136,11 @@
         "wikipedia_excerpt": "In pagan Rome the vates resided on the Vatican Hill, the Hill of the Vates. The Vatican Hill takes its name from the Latin word Vaticanus, a vaticiniis ferendis, in allusion to the oracles, or vaticinia, which were anciently delivered on th"
       }
     ],
-    "topic_id": 2,
+    "topic_id": 3,
     "topic_terms": [
-      "water",
-      "acid",
-      "quantity"
+      "upon",
+      "feet",
+      "tree"
     ],
     "claims": [
       {
@@ -3150,7 +3299,7 @@
     "metrics": {
       "jaccard_raw": 0.0096,
       "jaccard_normalized": 0.0096,
-      "cosine_tfidf": 0.0351,
+      "cosine_tfidf": 0.0342,
       "cosine_embedding": -0.0264,
       "distinctive_britannica": [
         "king",
@@ -3159,15 +3308,15 @@
         "money",
         "death",
         "promised",
-        "put",
         "take",
-        "crown",
+        "put",
         "england",
+        "crown",
         "without",
         "right",
-        "barons",
-        "holy",
-        "hands"
+        "father",
+        "military",
+        "accepted"
       ],
       "distinctive_wikipedia": [
         "encyclopedia",
@@ -3177,13 +3326,13 @@
         "encyclop",
         "dia",
         "editor-in-chief",
-        "editor",
-        "smellie",
+        "edition",
         "reference",
+        "smellie",
+        "editor",
         "current",
         "volumes",
         "physical",
-        "edition",
         "jason"
       ],
       "shared_terms": [
@@ -3217,11 +3366,11 @@
         "wikipedia_excerpt": "The Encyclop\u00e6dia Britannica is an English-language general reference encyclopedia, published since 1768. The Britannica was first published in Edinburgh, Scotland, in three volumes, with printer William Smellie serving as its principal edit"
       }
     ],
-    "topic_id": 7,
+    "topic_id": 2,
     "topic_terms": [
       "see",
-      "upon",
-      "great"
+      "brit",
+      "upon"
     ],
     "claims": [
       {
@@ -3393,41 +3542,41 @@
     "metrics": {
       "jaccard_raw": 0.0098,
       "jaccard_normalized": 0.0099,
-      "cosine_tfidf": 0.0856,
+      "cosine_tfidf": 0.086,
       "cosine_embedding": 0.1702,
       "distinctive_britannica": [
-        "place",
         "upon",
+        "place",
         "see",
         "engine",
-        "care",
         "england",
-        "others",
+        "care",
         "law",
+        "others",
         "north",
-        "inhabited",
         "people",
-        "sufficient",
-        "miles",
-        "northern",
+        "used",
+        "make",
+        "inhabited",
+        "art",
         "taking"
       ],
       "distinctive_wikipedia": [
         "river",
         "referred",
-        "india",
-        "east",
-        "main",
-        "likely",
-        "ten",
         "edition",
-        "dutch",
-        "derived",
+        "likely",
         "south",
-        "province",
-        "western",
+        "east",
         "fine",
-        "village"
+        "main",
+        "ten",
+        "india",
+        "dutch",
+        "britannica",
+        "derived",
+        "province",
+        "taken"
       ],
       "shared_terms": [
         "end",
@@ -3460,11 +3609,11 @@
         "wikipedia_excerpt": "The Sonderend River, also known as the Riviersonderend (Afrikaans for River without an end), is a main tributary of the Breede River, located in Western Cape Province, South Africa. The village of Riviersonderend is believed to have taken i"
       }
     ],
-    "topic_id": 7,
+    "topic_id": 2,
     "topic_terms": [
       "see",
-      "upon",
-      "great"
+      "brit",
+      "upon"
     ],
     "claims": [
       {
@@ -3550,24 +3699,24 @@
     "metrics": {
       "jaccard_raw": 0.0182,
       "jaccard_normalized": 0.0182,
-      "cosine_tfidf": 0.087,
+      "cosine_tfidf": 0.0851,
       "cosine_embedding": 0.1567,
       "distinctive_britannica": [
         "number",
         "users",
         "able",
         "use",
-        "used",
         "edition",
+        "used",
         "britannica",
         "however",
-        "addition",
         "times",
+        "addition",
         "sew",
         "available",
         "generate",
-        "compute",
-        "articles"
+        "articles",
+        "compute"
       ],
       "distinctive_wikipedia": [
         "displaystyle",
@@ -3578,11 +3727,11 @@
         "numbers",
         "sum",
         "average",
-        "values",
-        "data",
         "value",
-        "bar",
+        "data",
+        "values",
         "population",
+        "bar",
         "distribution",
         "example"
       ],
@@ -3605,7 +3754,7 @@
         "wikipedia_excerpt": "A weighted average, or weighted mean, is an average in which some data points count more heavily than others in that they are given more weight in the calculation. For example, the arithmetic mean of 3 {\\displaystyle 3} and 5 {\\displaystyle"
       }
     ],
-    "topic_id": 1,
+    "topic_id": 7,
     "topic_terms": [
       "users",
       "number",
@@ -3731,41 +3880,41 @@
     "metrics": {
       "jaccard_raw": 0.0622,
       "jaccard_normalized": 0.0631,
-      "cosine_tfidf": 0.5393,
+      "cosine_tfidf": 0.5479,
       "cosine_embedding": 0.5754,
       "distinctive_britannica": [
         "added",
         "time",
         "years",
+        "edition",
         "things",
         "afterwards",
         "many",
-        "edition",
-        "manner",
         "eighth",
-        "account",
-        "authors",
+        "britannica",
+        "manner",
         "plate",
-        "treated",
+        "authors",
+        "account",
         "mercury",
-        "extended"
+        "treated"
       ],
       "distinctive_wikipedia": [
         "lyre",
         "lyres",
         "instruments",
-        "bce",
         "instrument",
-        "strings",
-        "greek",
         "used",
+        "greek",
+        "bce",
         "modern",
+        "strings",
         "eastern",
-        "egypt",
         "known",
         "thin",
-        "type",
-        "hand"
+        "egypt",
+        "europe",
+        "type"
       ],
       "shared_terms": [
         "according",
@@ -3823,11 +3972,11 @@
         "wikipedia_excerpt": "The priest and biographer Plutarch (c. 100 CE) wrote of the musicians of the archaic period Olympus and Terpander, that they used only three strings to accompany their recitation; but there is no evidence for or against this dating from tha"
       }
     ],
-    "topic_id": 5,
+    "topic_id": 6,
     "topic_terms": [
-      "every",
       "people",
-      "upon"
+      "time",
+      "great"
     ],
     "claims": [
       {
@@ -3989,24 +4138,24 @@
     "metrics": {
       "jaccard_raw": 0.0297,
       "jaccard_normalized": 0.0331,
-      "cosine_tfidf": 0.0079,
+      "cosine_tfidf": 0.0077,
       "cosine_embedding": 0.1261,
       "distinctive_britannica": [
         "body",
         "natural",
-        "electric",
         "quantity",
         "matter",
+        "electric",
         "author",
-        "mult",
         "fire",
+        "mult",
         "man",
         "returning",
-        "electrical",
-        "infant",
         "electricity",
+        "infant",
+        "great",
         "case",
-        "great"
+        "electrical"
       ],
       "distinctive_wikipedia": [
         "displaystyle",
@@ -4017,12 +4166,12 @@
         "leq",
         "sum",
         "bar",
-        "circ",
         "set",
         "since",
+        "circ",
         "lim",
-        "theorem",
         "limit",
+        "text",
         "let"
       ],
       "shared_terms": [
@@ -4071,11 +4220,11 @@
         "wikipedia_excerpt": "}l_{i}}."
       }
     ],
-    "topic_id": 2,
+    "topic_id": 6,
     "topic_terms": [
-      "water",
-      "acid",
-      "quantity"
+      "people",
+      "time",
+      "great"
     ],
     "claims": [
       {
@@ -4192,23 +4341,23 @@
         "point",
         "upon",
         "case",
-        "parallel",
         "fame",
-        "incident",
+        "parallel",
         "equal",
         "let",
+        "incident",
         "surface",
-        "refleted",
         "falling",
-        "ray",
-        "fig"
+        "fig",
+        "refleted",
+        "ray"
       ],
       "distinctive_wikipedia": [
         "part",
         "episode",
         "album",
-        "song",
         "single",
+        "song",
         "man",
         "method",
         "true",
@@ -4250,9 +4399,9 @@
     ],
     "topic_id": 5,
     "topic_terms": [
-      "every",
-      "people",
-      "upon"
+      "rays",
+      "water",
+      "fig"
     ],
     "claims": [
       {
@@ -4550,24 +4699,24 @@
     "metrics": {
       "jaccard_raw": 0.006,
       "jaccard_normalized": 0.0061,
-      "cosine_tfidf": 0.0093,
+      "cosine_tfidf": 0.0096,
       "cosine_embedding": 0.0776,
       "distinctive_britannica": [
         "figure",
-        "fame",
         "left",
+        "fame",
         "word",
         "says",
         "find",
         "former",
+        "against",
         "following",
         "begins",
-        "against",
         "repeated",
+        "mind",
         "makes",
-        "thing",
         "get",
-        "anthony"
+        "upon"
       ],
       "distinctive_wikipedia": [
         "part",
@@ -4584,7 +4733,7 @@
         "star",
         "peaks",
         "galaxy",
-        "twin"
+        "refer"
       ],
       "shared_terms": [
         "detective",
@@ -4614,11 +4763,11 @@
         "wikipedia_excerpt": "Brahm\u0101stra: Part Three, third part of the Astraverse series of Indian superhero films, to be released in 2027\n\nSangliyana Part 3, a 1997 Indian film\n\nPart III of the Albanian Constitution\n\nPart III of the Constitution of India, defining fun"
       }
     ],
-    "topic_id": 5,
+    "topic_id": 6,
     "topic_terms": [
-      "every",
       "people",
-      "upon"
+      "time",
+      "great"
     ],
     "claims": [
       {
@@ -4824,41 +4973,41 @@
     "metrics": {
       "jaccard_raw": 0.0116,
       "jaccard_normalized": 0.0117,
-      "cosine_tfidf": 0.1476,
+      "cosine_tfidf": 0.155,
       "cosine_embedding": 0.2312,
       "distinctive_britannica": [
         "oil",
-        "oils",
         "water",
+        "oils",
         "usually",
+        "much",
         "distillation",
         "taste",
-        "much",
-        "employed",
         "certain",
-        "cinnamon",
         "great",
-        "good",
+        "employed",
         "against",
+        "good",
         "though",
-        "dole"
+        "cinnamon",
+        "indeed"
       ],
       "distinctive_wikipedia": [
         "leaves",
         "red",
         "young",
-        "fulgens",
         "plant",
+        "fulgens",
         "similar",
         "ground",
-        "species",
         "mainly",
+        "species",
         "bright",
-        "green",
+        "family",
+        "grow",
         "despite",
-        "commercial",
-        "shape",
-        "ability"
+        "ability",
+        "commercial"
       ],
       "shared_terms": [
         "acid",
@@ -4892,11 +5041,11 @@
         "wikipedia_excerpt": "Leaves of E. fulgens displayed stronger ferrous ion- chelating ability than young leaves of Camellia sinensis. Chlorogenic acid found in leaves of E. fulgens was higher in content than Lonicera japonica (Japanese honeysuckle), the commercia"
       }
     ],
-    "topic_id": 2,
+    "topic_id": 5,
     "topic_terms": [
+      "rays",
       "water",
-      "acid",
-      "quantity"
+      "fig"
     ],
     "claims": [
       {
@@ -5306,29 +5455,29 @@
     "metrics": {
       "jaccard_raw": 0.0288,
       "jaccard_normalized": 0.0311,
-      "cosine_tfidf": 0.0297,
+      "cosine_tfidf": 0.0294,
       "cosine_embedding": 0.1123,
       "distinctive_britannica": [
         "taken",
         "given",
         "form",
         "medicine",
-        "sugar",
-        "mixed",
         "mass",
-        "conferve",
+        "mixed",
         "whole",
-        "peculiar",
+        "sugar",
         "general",
-        "fome",
+        "conferve",
+        "peculiar",
         "great",
-        "vegetables",
-        "cases"
+        "fome",
+        "cases",
+        "indeed"
       ],
       "distinctive_wikipedia": [
         "phar-mor",
-        "power",
         "million",
+        "power",
         "bankruptcy",
         "company",
         "based",
@@ -5336,11 +5485,11 @@
         "stores",
         "later",
         "buying",
-        "monus",
-        "business",
-        "plan",
         "purchased",
-        "chain"
+        "plan",
+        "business",
+        "eventually",
+        "law"
       ],
       "shared_terms": [
         "against",
@@ -5387,11 +5536,11 @@
         "wikipedia_excerpt": "Phar-Mor (stylized as PHA\u211e-MOR) was a United States chain of discount drug stores, based in Youngstown, Ohio, and founded by Michael \"Mickey\" Monus and David Shapira in 1982. Some of its stores used the names Pharmhouse and Rx Place (purcha"
       }
     ],
-    "topic_id": 2,
+    "topic_id": 5,
     "topic_terms": [
+      "rays",
       "water",
-      "acid",
-      "quantity"
+      "fig"
     ],
     "claims": [
       {
@@ -5523,24 +5672,24 @@
     "metrics": {
       "jaccard_raw": 0.0059,
       "jaccard_normalized": 0.0059,
-      "cosine_tfidf": 0.0082,
+      "cosine_tfidf": 0.0076,
       "cosine_embedding": 0.0653,
       "distinctive_britannica": [
-        "metal",
         "like",
+        "metal",
         "white",
-        "metals",
-        "acid",
         "considered",
+        "acid",
         "therefore",
+        "metals",
         "known",
         "makes",
         "followed",
         "nature",
-        "far",
         "others",
-        "mention",
-        "however"
+        "far",
+        "however",
+        "called"
       ],
       "distinctive_wikipedia": [
         "text",
@@ -5548,16 +5697,16 @@
         "greek",
         "written",
         "page",
+        "edition",
         "codex",
         "testament",
-        "parchment",
-        "minuscule",
-        "edition",
-        "lines",
         "leaves",
+        "britannica",
+        "hand",
+        "list",
         "contains",
-        "added",
-        "hand"
+        "lines",
+        "added"
       ],
       "shared_terms": [
         "century",
@@ -5588,11 +5737,11 @@
         "wikipedia_excerpt": "The manuscript was bought by Theodor Constantin, in 1415, in Constantinople. It once belonged to Cardinal Bessarion (as codices 205, 357). The manuscript was added to the list of New Testament manuscripts by Scholz (1794-1852). It was exami"
       }
     ],
-    "topic_id": 4,
+    "topic_id": 5,
     "topic_terms": [
-      "blow-pipe",
-      "captain",
-      "flame"
+      "rays",
+      "water",
+      "fig"
     ],
     "claims": [
       {
@@ -5733,41 +5882,41 @@
     "metrics": {
       "jaccard_raw": 0.0061,
       "jaccard_normalized": 0.0061,
-      "cosine_tfidf": 0.01,
+      "cosine_tfidf": 0.0092,
       "cosine_embedding": 0.0082,
       "distinctive_britannica": [
-        "british",
         "french",
+        "british",
         "arms",
-        "army",
         "king",
+        "army",
         "ferdinand",
         "com",
         "sent",
-        "forces",
         "take",
         "age",
-        "sides",
-        "george",
         "shortly",
-        "death"
+        "forces",
+        "against",
+        "sides",
+        "quickly"
       ],
       "distinctive_wikipedia": [
         "press",
-        "university",
         "reality",
+        "university",
         "work",
-        "street",
         "books",
-        "difference",
-        "women",
-        "london",
         "love",
+        "difference",
+        "london",
         "century",
-        "poets",
+        "street",
         "book",
+        "women",
         "literary",
-        "award"
+        "poets",
+        "institute"
       ],
       "shared_terms": [
         "born",
@@ -5797,10 +5946,10 @@
         "wikipedia_excerpt": "ndon. She teaches at the University of East Anglia."
       }
     ],
-    "topic_id": 7,
+    "topic_id": 6,
     "topic_terms": [
-      "see",
-      "upon",
+      "people",
+      "time",
       "great"
     ],
     "claims": [
@@ -6104,41 +6253,41 @@
     "metrics": {
       "jaccard_raw": 0.0103,
       "jaccard_normalized": 0.0105,
-      "cosine_tfidf": 0.0166,
+      "cosine_tfidf": 0.0161,
       "cosine_embedding": 0.1,
       "distinctive_britannica": [
         "tree",
         "quantity",
-        "bombay",
         "september",
+        "bombay",
         "feet",
         "october",
         "called",
-        "long",
         "though",
         "wherever",
-        "particularly",
+        "long",
         "today",
-        "sort",
-        "trees",
+        "particularly",
+        "island",
+        "inches",
         "june"
       ],
       "distinctive_wikipedia": [
         "language",
         "bom",
         "code",
-        "materials",
         "england",
+        "materials",
         "born",
         "file",
         "station",
         "bank",
         "restaurant",
         "korean",
-        "singer",
         "bureau",
+        "singer",
         "airport",
-        "format"
+        "group"
       ],
       "shared_terms": [
         "day",
@@ -6171,11 +6320,11 @@
         "wikipedia_excerpt": "Byte order mark (U+FEFF and others), a Unicode character\n\nB\u014dm (restaurant), a Michelin-starred Korean restaurant in New York City\n\nBuilder's Old Measurement of a ship's cargo carrying capacity, England, 1650-1848\n\nBromborough railway statio"
       }
     ],
-    "topic_id": 2,
+    "topic_id": 3,
     "topic_terms": [
-      "water",
-      "acid",
-      "quantity"
+      "upon",
+      "feet",
+      "tree"
     ],
     "claims": [
       {
@@ -6297,41 +6446,41 @@
     "metrics": {
       "jaccard_raw": 0.0162,
       "jaccard_normalized": 0.0162,
-      "cosine_tfidf": 0.0299,
+      "cosine_tfidf": 0.0303,
       "cosine_embedding": 0.0462,
       "distinctive_britannica": [
         "lines",
         "half",
         "every",
         "inch",
-        "hand",
         "off",
+        "hand",
         "music",
         "cut",
-        "top",
         "wide",
+        "top",
         "blind",
-        "notes",
-        "bele",
+        "inches",
         "table",
-        "names"
+        "names",
+        "feet"
       ],
       "distinctive_wikipedia": [
-        "cui",
         "species",
+        "cui",
         "dai",
         "megasporoporia",
         "hai",
         "genus",
-        "megasporia",
         "family",
         "major",
-        "included",
-        "ryvarden",
         "chinese",
         "analysis",
+        "included",
+        "megasporia",
         "four",
-        "china"
+        "china",
+        "ryvarden"
       ],
       "shared_terms": [
         "characters",
@@ -6366,11 +6515,11 @@
         "wikipedia_excerpt": "M. quercina Y.C.Dai (2004) = Grammothele quercina (Y.C.Dai) B.K.Cui & Hai J.Li (2013)\n\nM. rhododendri Y.C.Dai & Y.L.Wei (2004) = Megasporoporiella rhododendri (Y.C.Dai & Y.L.Wei) B.K.Cui & Hai J.Li (2013)\n\nM. subcavernulosa Y.C.Dai & Sheng "
       }
     ],
-    "topic_id": 5,
+    "topic_id": 6,
     "topic_terms": [
-      "every",
       "people",
-      "upon"
+      "time",
+      "great"
     ],
     "claims": [
       {
@@ -6500,34 +6649,34 @@
         "influence",
         "military",
         "though",
-        "character",
+        "particular",
         "roman",
         "produce",
-        "particular",
-        "women",
+        "character",
         "remarkable",
         "nation",
         "germany",
-        "war",
-        "manners",
-        "different"
+        "different",
+        "women",
+        "use",
+        "war"
       ],
       "distinctive_wikipedia": [
         "name",
+        "edition",
         "korean",
         "born",
         "south",
         "include",
-        "poet",
         "executive",
         "given",
-        "edition",
         "philosopher",
-        "financier",
-        "chi-won",
+        "poet",
         "britannica",
+        "financier",
         "dynasty",
-        "yoon"
+        "chi-won",
+        "articles"
       ],
       "shared_terms": [
         "people"
@@ -6556,11 +6705,11 @@
         "wikipedia_excerpt": "Chi-won is a Korean given name.\n\nPeople with this name include:\n\nCh'oe Ch'iw\u014fn (fl. 857\u2013924), Korean Silla Dynasty philosopher and poet\n\nChi-Won Yoon (born 1959), South Korean financier and executive"
       }
     ],
-    "topic_id": 5,
+    "topic_id": 6,
     "topic_terms": [
-      "every",
       "people",
-      "upon"
+      "time",
+      "great"
     ],
     "claims": [
       {
@@ -6700,41 +6849,41 @@
     "metrics": {
       "jaccard_raw": 0.0073,
       "jaccard_normalized": 0.0073,
-      "cosine_tfidf": 0.0104,
+      "cosine_tfidf": 0.0093,
       "cosine_embedding": 0.0557,
       "distinctive_britannica": [
         "upon",
-        "figures",
         "fig",
+        "figures",
         "cut",
+        "engraved",
         "pieces",
         "metal",
         "piece",
-        "engraved",
-        "flat",
         "mill",
+        "flat",
         "thick",
+        "according",
         "laid",
-        "coin",
-        "engine",
-        "according"
+        "half",
+        "engine"
       ],
       "distinctive_wikipedia": [
-        "coi",
         "died",
-        "album",
+        "coi",
         "university",
-        "interest",
+        "album",
         "computer",
-        "code",
-        "inquiry",
-        "center",
+        "interest",
         "community",
+        "code",
+        "center",
+        "inquiry",
         "restaurant",
         "california",
-        "refer",
-        "policy",
-        "scientific"
+        "edition",
+        "government",
+        "india"
       ],
       "shared_terms": [
         "figure",
@@ -6768,9 +6917,9 @@
     ],
     "topic_id": 5,
     "topic_terms": [
-      "every",
-      "people",
-      "upon"
+      "rays",
+      "water",
+      "fig"
     ],
     "claims": [
       {
@@ -6921,41 +7070,41 @@
     "metrics": {
       "jaccard_raw": 0.0022,
       "jaccard_normalized": 0.0022,
-      "cosine_tfidf": 0.0453,
+      "cosine_tfidf": 0.046,
       "cosine_embedding": 0.1354,
       "distinctive_britannica": [
         "made",
-        "kind",
         "great",
+        "kind",
         "country",
-        "tree",
-        "like",
-        "parts",
         "beautiful",
+        "like",
+        "tree",
+        "parts",
         "feet",
-        "flowers",
         "every",
         "common",
-        "animals",
+        "flowers",
+        "white",
         "wild",
-        "white"
+        "animals"
       ],
       "distinctive_wikipedia": [
         "ethopia",
         "edition",
+        "britannica",
         "described",
         "genus",
-        "walker",
-        "britannica",
         "francis",
-        "moths",
-        "yang",
+        "walker",
         "articles",
+        "moths",
         "volumes",
-        "listed",
-        "published",
+        "yang",
         "pages",
-        "dia"
+        "dia",
+        "volume",
+        "published"
       ],
       "shared_terms": [
         "ethopia"
@@ -6984,11 +7133,11 @@
         "wikipedia_excerpt": "Ethopia is a genus of snout moths. It was described by Francis Walker in 1865.\n\nEthopia gigantea Owada, 1986\n\nEthopia polyisogramma Wu & Yang, 2007\n\nEthopia roseilinea Walker, 1865\n\nEthopia sapa Wu & Yang 2007"
       }
     ],
-    "topic_id": 5,
+    "topic_id": 3,
     "topic_terms": [
-      "every",
-      "people",
-      "upon"
+      "upon",
+      "feet",
+      "tree"
     ],
     "claims": [
       {
@@ -7128,24 +7277,24 @@
     "metrics": {
       "jaccard_raw": 0.022,
       "jaccard_normalized": 0.022,
-      "cosine_tfidf": 0.0234,
+      "cosine_tfidf": 0.0232,
       "cosine_embedding": 0.0268,
       "distinctive_britannica": [
         "let",
-        "young",
         "man",
+        "young",
         "though",
         "mind",
         "fortune",
         "yet",
-        "principles",
-        "ought",
         "country",
+        "ought",
+        "principles",
         "history",
+        "great",
         "rank",
         "useful",
-        "carefully",
-        "great"
+        "carefully"
       ],
       "distinctive_wikipedia": [
         "music",
@@ -7158,11 +7307,11 @@
         "instruments",
         "lama",
         "cultural",
-        "released",
-        "gave",
         "considered",
-        "album",
-        "degree"
+        "gave",
+        "released",
+        "degree",
+        "album"
       ],
       "shared_terms": [
         "born",
@@ -7205,10 +7354,10 @@
         "wikipedia_excerpt": "gorize them in relation to the women's socio-cultural environment."
       }
     ],
-    "topic_id": 7,
+    "topic_id": 6,
     "topic_terms": [
-      "see",
-      "upon",
+      "people",
+      "time",
       "great"
     ],
     "claims": [
@@ -7326,29 +7475,39 @@
         "samples": [
           "Re-holone the fun of Solomon. Ot"
         ]
+      },
+      {
+        "rule": "ocr_f_s_confusion",
+        "original": "ref",
+        "replacement": "res",
+        "count": 2,
+        "samples": [
+          "e other on the Ref Sea. The half",
+          "coasts of the Ref Sea, , but its"
+        ]
       }
     ],
     "metrics": {
       "jaccard_raw": 0.002,
       "jaccard_normalized": 0.002,
       "cosine_tfidf": 0.0026,
-      "cosine_embedding": 0.0429,
+      "cosine_embedding": 0.0423,
       "distinctive_britannica": [
         "part",
         "whole",
         "people",
-        "egypt",
-        "whether",
         "great",
+        "whether",
+        "egypt",
         "land",
         "sea",
-        "continent",
         "against",
-        "expedition",
         "country",
-        "egyptians",
+        "continent",
         "way",
-        "father"
+        "expedition",
+        "egyptians",
+        "time"
       ],
       "distinctive_wikipedia": [
         "work",
@@ -7359,13 +7518,13 @@
         "published",
         "referred",
         "violin",
-        "minor",
-        "thought",
-        "music",
-        "scholars",
         "contain",
+        "music",
         "appears",
-        "similar"
+        "thought",
+        "similar",
+        "minor",
+        "scholars"
       ],
       "shared_terms": [
         "however"
@@ -7394,11 +7553,11 @@
         "wikipedia_excerpt": "(Movements do not contain repeat markings unless indicated. The number of bars is taken from the Chrysander edition, and is the raw number in the manuscript\u2014not including repeat markings.)"
       }
     ],
-    "topic_id": 5,
+    "topic_id": 6,
     "topic_terms": [
-      "every",
       "people",
-      "upon"
+      "time",
+      "great"
     ],
     "claims": [
       {
@@ -7533,41 +7692,41 @@
     "metrics": {
       "jaccard_raw": 0.0176,
       "jaccard_normalized": 0.0176,
-      "cosine_tfidf": 0.018,
+      "cosine_tfidf": 0.0165,
       "cosine_embedding": 0.0145,
       "distinctive_britannica": [
         "weight",
         "gold",
         "mult",
         "color",
-        "blue",
         "water",
-        "heat",
-        "let",
         "iron",
+        "let",
+        "blue",
+        "heat",
         "metal",
         "employ",
         "quantity",
         "acid",
-        "native",
-        "proportion"
+        "proportion",
+        "native"
       ],
       "distinctive_wikipedia": [
         "text",
         "century",
-        "manuscript",
         "dated",
-        "greek",
+        "manuscript",
         "according",
+        "greek",
         "written",
         "page",
         "codex",
+        "edition",
         "tables",
         "examined",
+        "chapters",
         "gregory",
-        "testament",
-        "contents",
-        "chapters"
+        "testament"
       ],
       "shared_terms": [
         "added",
@@ -7604,11 +7763,11 @@
         "wikipedia_excerpt": "It was added to the list of New Testament manuscripts by Scrivener (747) and Gregory (729). It was examined and described by Paulin Martin. Gregory saw the manuscript in 1885.\n\nThe manuscript is now housed at the Biblioth\u00e8que nationale de F"
       }
     ],
-    "topic_id": 2,
+    "topic_id": 5,
     "topic_terms": [
+      "rays",
       "water",
-      "acid",
-      "quantity"
+      "fig"
     ],
     "claims": [
       {
@@ -7869,46 +8028,56 @@
         "samples": [
           "the party. If lifted this is wet, t"
         ]
+      },
+      {
+        "rule": "ocr_f_s_confusion",
+        "original": "pafs",
+        "replacement": "pass",
+        "count": 2,
+        "samples": [
+          "th ladders, to pafs the\nditch or m",
+          "re prepared to pafs the ditch,\ncli"
+        ]
       }
     ],
     "metrics": {
       "jaccard_raw": 0.0356,
       "jaccard_normalized": 0.0348,
-      "cosine_tfidf": 0.0617,
-      "cosine_embedding": 0.2322,
+      "cosine_tfidf": 0.0576,
+      "cosine_embedding": 0.2319,
       "distinctive_britannica": [
         "cells",
         "blood",
-        "natural",
+        "fig",
         "form",
         "without",
-        "fig",
+        "natural",
         "condition",
         "party",
         "years",
-        "rampart",
-        "placed",
         "figures",
         "afterwards",
+        "placed",
+        "means",
         "covered",
-        "lower"
+        "rampart"
       ],
       "distinctive_wikipedia": [
         "used",
         "shallots",
         "shallot",
-        "common",
         "french",
+        "common",
         "red",
         "often",
         "served",
         "called",
         "term",
-        "usually",
         "types",
-        "onion",
-        "raw",
-        "plant"
+        "usually",
+        "plant",
+        "regions",
+        "onion"
       ],
       "shared_terms": [
         "along",
@@ -7964,11 +8133,11 @@
         "wikipedia_excerpt": "are used as one of the ingredients for making momo."
       }
     ],
-    "topic_id": 7,
+    "topic_id": 2,
     "topic_terms": [
       "see",
-      "upon",
-      "great"
+      "brit",
+      "upon"
     ],
     "claims": [
       {
@@ -8090,7 +8259,7 @@
     "metrics": {
       "jaccard_raw": 0.0397,
       "jaccard_normalized": 0.0409,
-      "cosine_tfidf": 0.0154,
+      "cosine_tfidf": 0.0153,
       "cosine_embedding": 0.0492,
       "distinctive_britannica": [
         "end",
@@ -8099,15 +8268,15 @@
         "off",
         "prince",
         "september",
-        "arrived",
-        "river",
         "cook",
-        "beginning",
+        "arrived",
         "four",
+        "river",
+        "beginning",
         "left",
         "trade",
-        "illands",
-        "well"
+        "well",
+        "long"
       ],
       "distinctive_wikipedia": [
         "fur",
@@ -8116,15 +8285,15 @@
         "used",
         "less",
         "use",
-        "faux",
         "production",
+        "faux",
         "animals",
-        "animal",
-        "collections",
         "fashion",
-        "fall",
+        "animal",
         "materials",
-        "addition"
+        "fall",
+        "addition",
+        "unlike"
       ],
       "shared_terms": [
         "against",
@@ -8182,11 +8351,11 @@
         "wikipedia_excerpt": "Some coats labeled as having faux-fur trim were found to use actual fur in a test conducted by the Humane Society of the United States. In the United States, up until 2012, a labeling loophole allowed any piece of clothing that contains les"
       }
     ],
-    "topic_id": 2,
+    "topic_id": 3,
     "topic_terms": [
-      "water",
-      "acid",
-      "quantity"
+      "upon",
+      "feet",
+      "tree"
     ],
     "claims": [
       {
@@ -8346,24 +8515,24 @@
     "metrics": {
       "jaccard_raw": 0.0115,
       "jaccard_normalized": 0.0115,
-      "cosine_tfidf": 0.0163,
+      "cosine_tfidf": 0.0144,
       "cosine_embedding": 0.0073,
       "distinctive_britannica": [
         "author",
         "water",
         "found",
         "always",
-        "mountain",
         "north",
+        "mountain",
         "crater",
         "figure",
         "around",
         "form",
         "body",
-        "view",
+        "foot",
         "top",
-        "mountains",
-        "foot"
+        "cold",
+        "quantity"
       ],
       "distinctive_wikipedia": [
         "encyclopedia",
@@ -8373,13 +8542,13 @@
         "encyclop",
         "dia",
         "editor-in-chief",
-        "editor",
-        "smellie",
+        "edition",
         "reference",
+        "smellie",
+        "editor",
         "general",
         "volumes",
         "physical",
-        "edition",
         "jason"
       ],
       "shared_terms": [
@@ -8414,11 +8583,11 @@
         "wikipedia_excerpt": "The Encyclop\u00e6dia Britannica is an English-language general reference encyclopedia, published since 1768. The Britannica was first published in Edinburgh, Scotland, in three volumes, with printer William Smellie serving as its principal edit"
       }
     ],
-    "topic_id": 2,
+    "topic_id": 3,
     "topic_terms": [
-      "water",
-      "acid",
-      "quantity"
+      "upon",
+      "feet",
+      "tree"
     ],
     "claims": [
       {
@@ -8532,20 +8701,20 @@
     "metrics": {
       "jaccard_raw": 0.0613,
       "jaccard_normalized": 0.0621,
-      "cosine_tfidf": 0.0475,
+      "cosine_tfidf": 0.0474,
       "cosine_embedding": 0.1338,
       "distinctive_britannica": [
         "four",
-        "feet",
         "high",
         "half",
+        "feet",
         "good",
         "inches",
         "foot",
-        "hedges",
+        "proper",
         "wall",
         "trees",
-        "proper",
+        "hedges",
         "means",
         "though",
         "country",
@@ -8559,8 +8728,8 @@
         "pages",
         "dia",
         "volume",
-        "published",
         "supplement",
+        "published",
         "article",
         "encyclopedia",
         "third",
@@ -8624,11 +8793,11 @@
         "wikipedia_excerpt": "ume at 12 shillings. In total the subscribers wound up paying for 127 parts (\u00a338, two shillings)."
       }
     ],
-    "topic_id": 2,
+    "topic_id": 3,
     "topic_terms": [
-      "water",
-      "acid",
-      "quantity"
+      "upon",
+      "feet",
+      "tree"
     ],
     "claims": [
       {
@@ -8933,24 +9102,24 @@
     "metrics": {
       "jaccard_raw": 0.046,
       "jaccard_normalized": 0.0465,
-      "cosine_tfidf": 0.082,
+      "cosine_tfidf": 0.0807,
       "cosine_embedding": 0.1678,
       "distinctive_britannica": [
         "life",
-        "france",
         "land",
-        "molt",
+        "france",
+        "gradually",
         "great",
         "kingdom",
-        "gradually",
-        "ancient",
         "made",
+        "molt",
+        "ancient",
         "greek",
-        "born",
-        "town",
         "rise",
         "father",
-        "writer"
+        "born",
+        "writer",
+        "town"
       ],
       "distinctive_wikipedia": [
         "edition",
@@ -9025,11 +9194,11 @@
         "wikipedia_excerpt": "\u2014 George Gleig, in the 3rd edition of the Encyclop\u00e6dia Britannica"
       }
     ],
-    "topic_id": 7,
+    "topic_id": 2,
     "topic_terms": [
       "see",
-      "upon",
-      "great"
+      "brit",
+      "upon"
     ],
     "claims": [
       {
@@ -9326,19 +9495,19 @@
       "cosine_embedding": 0.0031,
       "distinctive_britannica": [
         "see",
+        "upon",
         "horfe",
         "four",
         "called",
-        "upon",
         "fall",
-        "horas",
         "eye",
-        "fixed",
-        "value",
-        "feet",
         "time",
-        "alo",
+        "fixed",
+        "feet",
+        "value",
+        "horas",
         "mull",
+        "alo",
         "five"
       ],
       "distinctive_wikipedia": [
@@ -9348,15 +9517,15 @@
         "encyclop",
         "dia",
         "editor-in-chief",
-        "editor",
-        "smellie",
         "reference",
+        "smellie",
+        "edition",
+        "editor",
         "general",
-        "william",
         "current",
+        "william",
         "since",
-        "volumes",
-        "physical"
+        "volumes"
       ],
       "shared_terms": [
         "since",
@@ -9386,11 +9555,11 @@
         "wikipedia_excerpt": "The Encyclop\u00e6dia Britannica is an English-language general reference encyclopedia, published since 1768. The Britannica was first published in Edinburgh, Scotland, in three volumes, with printer William Smellie serving as its principal edit"
       }
     ],
-    "topic_id": 7,
+    "topic_id": 3,
     "topic_terms": [
-      "see",
       "upon",
-      "great"
+      "feet",
+      "tree"
     ],
     "claims": [
       {
@@ -9503,24 +9672,24 @@
     "metrics": {
       "jaccard_raw": 0.0451,
       "jaccard_normalized": 0.0455,
-      "cosine_tfidf": 0.0292,
+      "cosine_tfidf": 0.0288,
       "cosine_embedding": 0.1075,
       "distinctive_britannica": [
         "law",
         "therefore",
         "common",
-        "wife",
         "proper",
         "right",
+        "wife",
         "against",
         "life",
-        "marriage",
-        "hufland",
         "certain",
         "upon",
-        "case",
+        "marriage",
+        "hufland",
         "though",
-        "blood"
+        "case",
+        "person"
       ],
       "distinctive_wikipedia": [
         "edition",
@@ -9595,11 +9764,11 @@
         "wikipedia_excerpt": "the individual articles."
       }
     ],
-    "topic_id": 7,
+    "topic_id": 2,
     "topic_terms": [
       "see",
-      "upon",
-      "great"
+      "brit",
+      "upon"
     ],
     "claims": [
       {
@@ -9743,41 +9912,41 @@
     "metrics": {
       "jaccard_raw": 0.0055,
       "jaccard_normalized": 0.0055,
-      "cosine_tfidf": 0.0192,
+      "cosine_tfidf": 0.0191,
       "cosine_embedding": 0.0052,
       "distinctive_britannica": [
         "fine",
-        "tree",
         "people",
+        "tree",
         "wood",
         "color",
-        "fruit",
-        "fallafras",
         "root",
-        "bark",
+        "fruit",
         "large",
         "time",
+        "fallafras",
+        "bark",
+        "ripe",
         "america",
         "yellow",
-        "ripe",
-        "smooth"
+        "made"
       ],
       "distinctive_wikipedia": [
         "professor",
         "social",
-        "sciences",
-        "six",
-        "management",
-        "economics",
-        "age",
-        "sir",
-        "died",
         "edition",
-        "school",
-        "sociology",
-        "claude",
+        "six",
+        "economics",
+        "management",
+        "sciences",
+        "age",
+        "des",
+        "died",
+        "sir",
+        "britannica",
+        "succeeded",
         "august",
-        "succeeded"
+        "general"
       ],
       "shared_terms": [
         "august",
@@ -9808,11 +9977,11 @@
         "wikipedia_excerpt": "Le Petit Murmure et le Bruit du monde (1999)\n\nEsquisse d'une histoire naturelle du plouc (2000)\n\nMourir (2000)\n\nLe Bricolage du social. Un trait\u00e9 de sociologie (2001)\n\nSe perd(u)re(r) (2001)\n\nLa Culotte de Madonna (2001)\n\nL'\u00c9loge de l'\u00e9liti"
       }
     ],
-    "topic_id": 2,
+    "topic_id": 3,
     "topic_terms": [
-      "water",
-      "acid",
-      "quantity"
+      "upon",
+      "feet",
+      "tree"
     ],
     "claims": [
       {
@@ -9862,6 +10031,409 @@
         "wikipedia_page_id": "68518728",
         "wikipedia_revision_id": "1342142088",
         "wikipedia_quote": "Claude Javeau (22 September 1940 \u2013 12 August 2021) was a Belgian sociologist and professor.\n\nHe studied at the Solvay Brussels School of Economics and Management. He was a professor of sociology at the Universit\u00e9 libre de Bruxelles from 198"
+      }
+    ]
+  },
+  {
+    "entry_id": "entry-britannica-volume-149982181-row-270-270",
+    "britannica_title": "HYDROSTATICS (Plate CCXXXIX)",
+    "source_pages": [
+      "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:270"
+    ],
+    "britannica_sha256": "61dee220c636eabe1bdcd7d63389f9be88272c51014f1afead4173dbb3f245f8",
+    "britannica_raw_chars": 993,
+    "britannica_tokens": 96,
+    "britannica_unique_tokens": 61,
+    "wikipedia_page_id": "78413092",
+    "wikipedia_revision_id": "1351079103",
+    "wikipedia_title": "Editor-in-chief of the Encyclop\u00e6dia Britannica",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Editor-in-chief_of_the_Encyclop%C3%A6dia_Britannica",
+    "wikipedia_text_sha256": "a88c8e5ba55a69a2c856854b269462f28ae43b532903d36db33baf393e93818b",
+    "wikipedia_raw_chars": 922,
+    "wikipedia_tokens": 76,
+    "wikipedia_unique_tokens": 47,
+    "length_ratio": 0.928,
+    "text_changes": [],
+    "metrics": {
+      "jaccard_raw": 0.0,
+      "jaccard_normalized": 0.0,
+      "cosine_tfidf": 0.0,
+      "cosine_embedding": 0.0592,
+      "distinctive_britannica": [
+        "fig",
+        "fluid",
+        "pressure",
+        "gravity",
+        "specific",
+        "hydrostatic",
+        "plate",
+        "copperplate",
+        "level",
+        "engraving",
+        "vessels",
+        "apparatus",
+        "hydrostatics",
+        "communicating",
+        "shape"
+      ],
+      "distinctive_wikipedia": [
+        "encyclopedia",
+        "editor-in-chief",
+        "since",
+        "published",
+        "current",
+        "encyclop",
+        "britannica",
+        "physical",
+        "reference",
+        "smellie",
+        "editor",
+        "general",
+        "dia",
+        "jason",
+        "william"
+      ],
+      "shared_terms": []
+    },
+    "aligned_chunks": [
+      {
+        "britannica_chunk_index": 0,
+        "wikipedia_chunk_index": 0,
+        "similarity": 0.054,
+        "britannica_excerpt": "HYDROSTATICS. Plate CCXXXIX.\n\n[HISTORICAL COPPERPLATE ENGRAVING: HYDROSTATICS (Plate CCXXXIX)]\n\nCategory: Physics and Fluid Mechanics\n\nVisual Description: Detailed 18th-century copperplate engraving illustrating principles of hydrostatics a",
+        "wikipedia_excerpt": "The editor-in-chief of the Encyclop\u00e6dia Britannica serves as the editorial leader of the Encyclop\u00e6dia Britannica, a general reference encyclopedia published since 1768. Since 2012, the encyclopedia is published exclusively on the internet, "
+      },
+      {
+        "britannica_chunk_index": 1,
+        "wikipedia_chunk_index": 0,
+        "similarity": 0.0272,
+        "britannica_excerpt": "* Fig. 4: Water-wheel turbine mechanism and hydrostatic head pressure reservoir\n\nRelated Scientific Subjects: Hydrostatics, Fluid statics, Hydrostatic paradox, Communicating vessels, Specific gravity, Archimedes' principle",
+        "wikipedia_excerpt": "The editor-in-chief of the Encyclop\u00e6dia Britannica serves as the editorial leader of the Encyclop\u00e6dia Britannica, a general reference encyclopedia published since 1768. Since 2012, the encyclopedia is published exclusively on the internet, "
+      }
+    ],
+    "topic_id": 5,
+    "topic_terms": [
+      "rays",
+      "water",
+      "fig"
+    ],
+    "claims": [
+      {
+        "claim_text": "The Britannica entry \"HYDROSTATICS (Plate CCXXXIX)\" uses 96 content tokens while the Wikipedia article \"Editor-in-chief of the Encyclop\u00e6dia Britannica\" uses 76; their normalized vocabularies share a Jaccard overlap of 0.0 (raw 0.0) and a TF-IDF cosine similarity of 0.0.",
+        "claim_type": "factual",
+        "label": "[factual]",
+        "britannica_pages": [
+          "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:270"
+        ],
+        "britannica_quote": "HYDROSTATICS. Plate CCXXXIX.\n\n[HISTORICAL COPPERPLATE ENGRAVING: HYDROSTATICS (Plate CCXXXIX)]\nCategory: Physics and Fluid Mechanics\nVisual Description: Detailed 18th-century copperplate engraving illustrating principles of hydrostatics and",
+        "wikipedia_page_id": "78413092",
+        "wikipedia_revision_id": "1351079103",
+        "wikipedia_quote": "The editor-in-chief of the Encyclop\u00e6dia Britannica serves as the editorial leader of the Encyclop\u00e6dia Britannica, a general reference encyclopedia published since 1768. Since 2012, the encyclopedia is published exclusively on the internet, "
+      },
+      {
+        "claim_text": "Britannica's most distinctive term is \"fig\"; Wikipedia's is \"encyclopedia\", showing the era-specific vocabulary of each source.",
+        "claim_type": "factual",
+        "label": "[factual]",
+        "britannica_pages": [
+          "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:270"
+        ],
+        "britannica_quote": "Identified Engraved Figures:",
+        "wikipedia_page_id": "78413092",
+        "wikipedia_revision_id": "1351079103",
+        "wikipedia_quote": "The editor-in-chief of the Encyclop\u00e6dia Britannica serves as the editorial leader of the Encyclop\u00e6dia Britannica, a general reference encyclopedia published since 1768."
+      }
+    ]
+  },
+  {
+    "entry_id": "entry-britannica-volume-149982692-row-948-948",
+    "britannica_title": "LAVA and VOLCANOLOGY (Plate CCLXXIV)",
+    "source_pages": [
+      "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:948"
+    ],
+    "britannica_sha256": "ff2c2d3fbe8d16710b072db07f4078959e1e13cb7af9fc800a048db75bc063dd",
+    "britannica_raw_chars": 1157,
+    "britannica_tokens": 117,
+    "britannica_unique_tokens": 87,
+    "wikipedia_page_id": "9004976",
+    "wikipedia_revision_id": "1340071003",
+    "wikipedia_title": "History of the Encyclop\u00e6dia Britannica",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/History_of_the_Encyclop%C3%A6dia_Britannica",
+    "wikipedia_text_sha256": "64dd89242f04b3e591115caca56a86f50c9129e1ec3650be302ee2bca6f05eb1",
+    "wikipedia_raw_chars": 71820,
+    "wikipedia_tokens": 5909,
+    "wikipedia_unique_tokens": 2368,
+    "length_ratio": 62.074,
+    "text_changes": [],
+    "metrics": {
+      "jaccard_raw": 0.0095,
+      "jaccard_normalized": 0.0095,
+      "cosine_tfidf": 0.0213,
+      "cosine_embedding": 0.0974,
+      "distinctive_britannica": [
+        "plate",
+        "fig",
+        "figures",
+        "buildings",
+        "engraved",
+        "displaystyle",
+        "lava",
+        "along",
+        "lower",
+        "magnetic",
+        "engraving",
+        "analysis",
+        "consist",
+        "birds",
+        "flow"
+      ],
+      "distinctive_wikipedia": [
+        "edition",
+        "britannica",
+        "articles",
+        "volumes",
+        "pages",
+        "dia",
+        "volume",
+        "supplement",
+        "article",
+        "published",
+        "encyclopedia",
+        "third",
+        "encyclop",
+        "fourth",
+        "page"
+      ],
+      "shared_terms": [
+        "along",
+        "analysis",
+        "consist",
+        "copperplate",
+        "description",
+        "engraved",
+        "engraving",
+        "figures",
+        "geology",
+        "historical",
+        "history",
+        "identified",
+        "illustrations",
+        "include",
+        "key",
+        "long",
+        "natural",
+        "plate",
+        "related",
+        "scientific",
+        "six",
+        "subjects",
+        "typical"
+      ]
+    },
+    "aligned_chunks": [
+      {
+        "britannica_chunk_index": 0,
+        "wikipedia_chunk_index": 6,
+        "similarity": 0.2817,
+        "britannica_excerpt": "Lava.\n\nPlate CCLXXIV.\n\n[HISTORICAL COPPERPLATE ENGRAVING: LAVA and VOLCANOLOGY (Plate CCLXXIV)]\n\nCategory: Geology and Mineralogy\n\nVisual Description: Engraved natural history plate showing volcanic rock specimens, cooled basaltic lava stru",
+        "wikipedia_excerpt": " also featured 160 copperplate illustrations engraved by Bell. Three of the engravings in the section on midwifery, depicting childbirth in clinical detail, were sufficiently shocking to prompt some readers to tear those engravings out of t"
+      },
+      {
+        "britannica_chunk_index": 1,
+        "wikipedia_chunk_index": 6,
+        "similarity": 0.2116,
+        "britannica_excerpt": "[Nemotron Super VL Analysis]: This image does not depict lava or volcanology; it is Plate CCLXXIV featuring zoological illustrations of birds and invertebrates. Visible headings include \"Livia,\" \"Lepama,\" \"Limax,\" \"Libellula,\" and \"Lumbricu",
+        "wikipedia_excerpt": " also featured 160 copperplate illustrations engraved by Bell. Three of the engravings in the section on midwifery, depicting childbirth in clinical detail, were sufficiently shocking to prompt some readers to tear those engravings out of t"
+      }
+    ],
+    "topic_id": 5,
+    "topic_terms": [
+      "rays",
+      "water",
+      "fig"
+    ],
+    "claims": [
+      {
+        "claim_text": "The Britannica entry \"LAVA and VOLCANOLOGY (Plate CCLXXIV)\" uses 117 content tokens while the Wikipedia article \"History of the Encyclop\u00e6dia Britannica\" uses 5909; their normalized vocabularies share a Jaccard overlap of 0.0095 (raw 0.0095) and a TF-IDF cosine similarity of 0.0213.",
+        "claim_type": "factual",
+        "label": "[factual]",
+        "britannica_pages": [
+          "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:948"
+        ],
+        "britannica_quote": "Lava.\nPlate CCLXXIV.\n\n[HISTORICAL COPPERPLATE ENGRAVING: LAVA and VOLCANOLOGY (Plate CCLXXIV)]\nCategory: Geology and Mineralogy\nVisual Description: Engraved natural history plate showing volcanic rock specimens, cooled basaltic lava structu",
+        "wikipedia_page_id": "9004976",
+        "wikipedia_revision_id": "1340071003",
+        "wikipedia_quote": "The Encyclop\u00e6dia Britannica has been published continuously since 1768, appearing in fifteen official editions. Several editions were amended with multi-volume \"supplements\" (3rd, 4th/5th/6th), several consisted of previous editions with ad"
+      },
+      {
+        "claim_text": "Britannica's most distinctive term is \"plate\"; Wikipedia's is \"edition\", showing the era-specific vocabulary of each source.",
+        "claim_type": "factual",
+        "label": "[factual]",
+        "britannica_pages": [
+          "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:948"
+        ],
+        "britannica_quote": "Plate CCLXXIV.",
+        "wikipedia_page_id": "9004976",
+        "wikipedia_revision_id": "1340071003",
+        "wikipedia_quote": "The Encyclop\u00e6dia Britannica has been published continuously since 1768, appearing in fifteen official editions."
+      },
+      {
+        "claim_text": "Both sources share core vocabulary including: along, analysis, consist, copperplate, description.",
+        "claim_type": "factual",
+        "label": "[factual]",
+        "britannica_pages": [
+          "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:948"
+        ],
+        "britannica_quote": "Visible headings include \"Livia,\" \"Lepama,\" \"Limax,\" \"Libellula,\" and \"Lumbricus marinus.\" The key figures consist of six birds labeled A through F perched on branches under \"Livia,\" along with lower illustrations of a larva, two mollusks, ",
+        "wikipedia_page_id": "9004976",
+        "wikipedia_revision_id": "1340071003",
+        "wikipedia_quote": "Forbes, was issued in 1856, in a separate quarto volume, \"gratis, along with Vol."
+      }
+    ]
+  },
+  {
+    "entry_id": "entry-britannica-volume-149983206-row-2077-2077",
+    "britannica_title": "MECHANICAL ENGINEERING and CRANES (Plate CCX)",
+    "source_pages": [
+      "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2077"
+    ],
+    "britannica_sha256": "9a92ed460010259e06d6e4bd85a52cfb16ef8c69198b6961f1af6eefb68a6713",
+    "britannica_raw_chars": 867,
+    "britannica_tokens": 88,
+    "britannica_unique_tokens": 68,
+    "wikipedia_page_id": "9004976",
+    "wikipedia_revision_id": "1340071003",
+    "wikipedia_title": "History of the Encyclop\u00e6dia Britannica",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/History_of_the_Encyclop%C3%A6dia_Britannica",
+    "wikipedia_text_sha256": "64dd89242f04b3e591115caca56a86f50c9129e1ec3650be302ee2bca6f05eb1",
+    "wikipedia_raw_chars": 71820,
+    "wikipedia_tokens": 5909,
+    "wikipedia_unique_tokens": 2368,
+    "length_ratio": 82.837,
+    "text_changes": [],
+    "metrics": {
+      "jaccard_raw": 0.01,
+      "jaccard_normalized": 0.01,
+      "cosine_tfidf": 0.0154,
+      "cosine_embedding": 0.0425,
+      "distinctive_britannica": [
+        "figures",
+        "fig",
+        "engraving",
+        "harbor",
+        "related",
+        "copperplate",
+        "buildings",
+        "plate",
+        "therefore",
+        "displaystyle",
+        "compound",
+        "engineering",
+        "mechanical",
+        "magnetic",
+        "analysis"
+      ],
+      "distinctive_wikipedia": [
+        "edition",
+        "britannica",
+        "articles",
+        "volumes",
+        "pages",
+        "dia",
+        "volume",
+        "supplement",
+        "article",
+        "encyclopedia",
+        "published",
+        "third",
+        "encyclop",
+        "fourth",
+        "page"
+      ],
+      "shared_terms": [
+        "aged",
+        "analysis",
+        "appears",
+        "arrangement",
+        "copperplate",
+        "description",
+        "engraved",
+        "engraving",
+        "figures",
+        "harbor",
+        "historical",
+        "identified",
+        "key",
+        "paper",
+        "plate",
+        "possible",
+        "provided",
+        "related",
+        "scientific",
+        "sheet",
+        "subjects",
+        "technical",
+        "text",
+        "therefore"
+      ]
+    },
+    "aligned_chunks": [
+      {
+        "britannica_chunk_index": 1,
+        "wikipedia_chunk_index": 35,
+        "similarity": 0.4521,
+        "britannica_excerpt": "Related Scientific Subjects: Crane (machine), Block and tackle, Mechanical engineering, Capstan (nautical)",
+        "wikipedia_excerpt": " the 19th century."
+      },
+      {
+        "britannica_chunk_index": 0,
+        "wikipedia_chunk_index": 6,
+        "similarity": 0.2706,
+        "britannica_excerpt": "[HISTORICAL COPPERPLATE ENGRAVING: MECHANICAL ENGINEERING and CRANES (Plate CCX)]\n\nCategory: Mechanics and Civil Engineering\n\nVisual Description: Copperplate technical drawing of harbor cranes, compound pulley systems, capstans, and gear tr",
+        "wikipedia_excerpt": " also featured 160 copperplate illustrations engraved by Bell. Three of the engravings in the section on midwifery, depicting childbirth in clinical detail, were sufficiently shocking to prompt some readers to tear those engravings out of t"
+      }
+    ],
+    "topic_id": 5,
+    "topic_terms": [
+      "rays",
+      "water",
+      "fig"
+    ],
+    "claims": [
+      {
+        "claim_text": "The Britannica entry \"MECHANICAL ENGINEERING and CRANES (Plate CCX)\" uses 88 content tokens while the Wikipedia article \"History of the Encyclop\u00e6dia Britannica\" uses 5909; their normalized vocabularies share a Jaccard overlap of 0.01 (raw 0.01) and a TF-IDF cosine similarity of 0.0154.",
+        "claim_type": "factual",
+        "label": "[factual]",
+        "britannica_pages": [
+          "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2077"
+        ],
+        "britannica_quote": "[HISTORICAL COPPERPLATE ENGRAVING: MECHANICAL ENGINEERING and CRANES (Plate CCX)]\nCategory: Mechanics and Civil Engineering\nVisual Description: Copperplate technical drawing of harbor cranes, compound pulley systems, capstans, and gear trai",
+        "wikipedia_page_id": "9004976",
+        "wikipedia_revision_id": "1340071003",
+        "wikipedia_quote": "The Encyclop\u00e6dia Britannica has been published continuously since 1768, appearing in fifteen official editions. Several editions were amended with multi-volume \"supplements\" (3rd, 4th/5th/6th), several consisted of previous editions with ad"
+      },
+      {
+        "claim_text": "Britannica's most distinctive term is \"figures\"; Wikipedia's is \"edition\", showing the era-specific vocabulary of each source.",
+        "claim_type": "factual",
+        "label": "[factual]",
+        "britannica_pages": [
+          "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2077"
+        ],
+        "britannica_quote": "[Nemotron Super VL Analysis]: The provided image appears to be a blank sheet of aged paper with no visible engraving, text, headings, or figures.",
+        "wikipedia_page_id": "9004976",
+        "wikipedia_revision_id": "1340071003",
+        "wikipedia_quote": "The Encyclop\u00e6dia Britannica has been published continuously since 1768, appearing in fifteen official editions."
+      },
+      {
+        "claim_text": "Both sources share core vocabulary including: aged, analysis, appears, arrangement, copperplate.",
+        "claim_type": "factual",
+        "label": "[factual]",
+        "britannica_pages": [
+          "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2077"
+        ],
+        "britannica_quote": "[Nemotron Super VL Analysis]: The provided image appears to be a blank sheet of aged paper with no visible engraving, text, headings, or figures.",
+        "wikipedia_page_id": "9004976",
+        "wikipedia_revision_id": "1340071003",
+        "wikipedia_quote": "Macfarquhar again edited this edition up to \"Mysteries\" but died in 1793 (aged 48) of \"mental exhaustion\"; his work was taken over by George Gleig, later Bishop Gleig of Brechin (consecrated 30 October 1808)."
       }
     ]
   },
@@ -9970,23 +10542,23 @@
     "metrics": {
       "jaccard_raw": 0.0084,
       "jaccard_normalized": 0.0084,
-      "cosine_tfidf": 0.0529,
+      "cosine_tfidf": 0.0528,
       "cosine_embedding": 0.035,
       "distinctive_britannica": [
         "england",
         "parliament",
         "mary",
-        "queen",
-        "elizabeth",
         "com",
         "day",
+        "elizabeth",
+        "queen",
         "against",
         "king",
+        "letter",
         "titles",
         "judgment",
-        "fail",
-        "letter",
         "thing",
+        "received",
         "friends"
       ],
       "distinctive_wikipedia": [
@@ -9995,16 +10567,16 @@
         "song",
         "album",
         "film",
-        "refer",
+        "edition",
         "species",
         "red",
         "system",
+        "refer",
+        "brothers",
         "robert",
         "distinct",
-        "brothers",
         "large",
-        "edition",
-        "used"
+        "britannica"
       ],
       "shared_terms": [
         "book",
@@ -10036,10 +10608,10 @@
         "wikipedia_excerpt": "Human Race or The Human Race may refer to:\n\nHuman species\n\nRace (human categorization), a classification system used to categorize humans into large and distinct populations\n\nThe Human Race (film), 2013 film\n\nL'Esp\u00e8ce humaine (The Human Rac"
       }
     ],
-    "topic_id": 7,
+    "topic_id": 6,
     "topic_terms": [
-      "see",
-      "upon",
+      "people",
+      "time",
       "great"
     ],
     "claims": [
@@ -10090,6 +10662,156 @@
         "wikipedia_page_id": "3007061",
         "wikipedia_revision_id": "1305540824",
         "wikipedia_quote": "Human Race or The Human Race may refer to:\n\nHuman species\n\nRace (human categorization), a classification system used to categorize humans into large and distinct populations\n\nThe Human Race (film), 2013 film\n\nL'Esp\u00e8ce humaine (The Human Rac"
+      }
+    ]
+  },
+  {
+    "entry_id": "entry-britannica-volume-191253799-row-374-374",
+    "britannica_title": "ARCHITECTURAL ORDERS and COLUMNS (Plate XXIX)",
+    "source_pages": [
+      "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:374"
+    ],
+    "britannica_sha256": "17369456b697a9561fee16dcbd7be0f8949c4dc808cedf76180120da781be04e",
+    "britannica_raw_chars": 966,
+    "britannica_tokens": 98,
+    "britannica_unique_tokens": 71,
+    "wikipedia_page_id": "9004976",
+    "wikipedia_revision_id": "1340071003",
+    "wikipedia_title": "History of the Encyclop\u00e6dia Britannica",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/History_of_the_Encyclop%C3%A6dia_Britannica",
+    "wikipedia_text_sha256": "64dd89242f04b3e591115caca56a86f50c9129e1ec3650be302ee2bca6f05eb1",
+    "wikipedia_raw_chars": 71820,
+    "wikipedia_tokens": 5909,
+    "wikipedia_unique_tokens": 2368,
+    "length_ratio": 74.348,
+    "text_changes": [],
+    "metrics": {
+      "jaccard_raw": 0.0112,
+      "jaccard_normalized": 0.0112,
+      "cosine_tfidf": 0.023,
+      "cosine_embedding": 0.1165,
+      "distinctive_britannica": [
+        "order",
+        "classical",
+        "orders",
+        "fig",
+        "figures",
+        "engraving",
+        "copperplate",
+        "architecture",
+        "buildings",
+        "displaystyle",
+        "image",
+        "left",
+        "leaves",
+        "magnetic",
+        "evidence"
+      ],
+      "distinctive_wikipedia": [
+        "edition",
+        "britannica",
+        "articles",
+        "volumes",
+        "pages",
+        "dia",
+        "volume",
+        "supplement",
+        "article",
+        "published",
+        "encyclopedia",
+        "third",
+        "encyclop",
+        "fourth",
+        "sets"
+      ],
+      "shared_terms": [
+        "aged",
+        "analysis",
+        "architecture",
+        "based",
+        "capital",
+        "classical",
+        "copperplate",
+        "description",
+        "engraved",
+        "engraving",
+        "engravings",
+        "figures",
+        "five",
+        "historical",
+        "identified",
+        "leaves",
+        "left",
+        "minor",
+        "order",
+        "orders",
+        "page",
+        "plate",
+        "present",
+        "provided",
+        "related",
+        "scientific",
+        "subjects"
+      ]
+    },
+    "aligned_chunks": [
+      {
+        "britannica_chunk_index": 1,
+        "wikipedia_chunk_index": 35,
+        "similarity": 0.2909,
+        "britannica_excerpt": "* Fig. 3: Corinthian and Composite capitals decorated with acanthus leaves\n\nRelated Scientific Subjects: Classical order, Doric order, Ionic order, Corinthian order, Column",
+        "wikipedia_excerpt": " the 19th century."
+      },
+      {
+        "britannica_chunk_index": 0,
+        "wikipedia_chunk_index": 6,
+        "similarity": 0.2787,
+        "britannica_excerpt": "[HISTORICAL COPPERPLATE ENGRAVING: ARCHITECTURAL ORDERS and COLUMNS (Plate XXIX)]\n\nCategory: Architecture and Classical Design\n\nVisual Description: Copperplate engraving displaying the Five Classical Orders of Architecture: Tuscan, Doric, I",
+        "wikipedia_excerpt": " also featured 160 copperplate illustrations engraved by Bell. Three of the engravings in the section on midwifery, depicting childbirth in clinical detail, were sufficiently shocking to prompt some readers to tear those engravings out of t"
+      }
+    ],
+    "topic_id": 5,
+    "topic_terms": [
+      "rays",
+      "water",
+      "fig"
+    ],
+    "claims": [
+      {
+        "claim_text": "The Britannica entry \"ARCHITECTURAL ORDERS and COLUMNS (Plate XXIX)\" uses 98 content tokens while the Wikipedia article \"History of the Encyclop\u00e6dia Britannica\" uses 5909; their normalized vocabularies share a Jaccard overlap of 0.0112 (raw 0.0112) and a TF-IDF cosine similarity of 0.023.",
+        "claim_type": "factual",
+        "label": "[factual]",
+        "britannica_pages": [
+          "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:374"
+        ],
+        "britannica_quote": "[HISTORICAL COPPERPLATE ENGRAVING: ARCHITECTURAL ORDERS and COLUMNS (Plate XXIX)]\nCategory: Architecture and Classical Design\nVisual Description: Copperplate engraving displaying the Five Classical Orders of Architecture: Tuscan, Doric, Ion",
+        "wikipedia_page_id": "9004976",
+        "wikipedia_revision_id": "1340071003",
+        "wikipedia_quote": "The Encyclop\u00e6dia Britannica has been published continuously since 1768, appearing in fifteen official editions. Several editions were amended with multi-volume \"supplements\" (3rd, 4th/5th/6th), several consisted of previous editions with ad"
+      },
+      {
+        "claim_text": "Britannica's most distinctive term is \"order\"; Wikipedia's is \"edition\", showing the era-specific vocabulary of each source.",
+        "claim_type": "factual",
+        "label": "[factual]",
+        "britannica_pages": [
+          "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:374"
+        ],
+        "britannica_quote": "[HISTORICAL COPPERPLATE ENGRAVING: ARCHITECTURAL ORDERS and COLUMNS (Plate XXIX)]",
+        "wikipedia_page_id": "9004976",
+        "wikipedia_revision_id": "1340071003",
+        "wikipedia_quote": "The Encyclop\u00e6dia Britannica has been published continuously since 1768, appearing in fifteen official editions."
+      },
+      {
+        "claim_text": "Both sources share core vocabulary including: aged, analysis, architecture, based, capital.",
+        "claim_type": "factual",
+        "label": "[factual]",
+        "britannica_pages": [
+          "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:374"
+        ],
+        "britannica_quote": "[Nemotron Super VL Analysis]: Based on the visual evidence, the provided image displays a blank, aged page with minor staining (foxing) and a binding edge visible on the left.",
+        "wikipedia_page_id": "9004976",
+        "wikipedia_revision_id": "1340071003",
+        "wikipedia_quote": "Macfarquhar again edited this edition up to \"Mysteries\" but died in 1793 (aged 48) of \"mental exhaustion\"; his work was taken over by George Gleig, later Bishop Gleig of Brechin (consecrated 30 October 1808)."
       }
     ]
   },
@@ -10326,22 +11048,22 @@
     "metrics": {
       "jaccard_raw": 0.0674,
       "jaccard_normalized": 0.0677,
-      "cosine_tfidf": 0.3549,
+      "cosine_tfidf": 0.3579,
       "cosine_embedding": 0.4509,
       "distinctive_britannica": [
         "edition",
+        "britannica",
         "fourth",
         "end",
         "degree",
-        "piece",
-        "britannica",
         "attraction",
-        "proportion",
-        "matter",
+        "piece",
         "always",
+        "matter",
+        "proportion",
         "gradually",
-        "action",
         "observed",
+        "action",
         "half",
         "much"
       ],
@@ -10350,17 +11072,17 @@
         "magnet",
         "field",
         "magnets",
-        "materials",
         "used",
         "displaystyle",
+        "materials",
         "magnetization",
-        "moment",
         "force",
         "material",
-        "ferromagnetic",
-        "current",
+        "moment",
         "strength",
-        "unit"
+        "current",
+        "unit",
+        "permanent"
       ],
       "shared_terms": [
         "account",
@@ -10418,11 +11140,11 @@
         "wikipedia_excerpt": "B is the magnetic induction exerted by the magnet.\n\nThis result can be easily derived using Gilbert model, which assumes that the pole of magnet is charged with magnetic monopoles that induces the same in the ferromagnetic object.\n\nIf a mag"
       }
     ],
-    "topic_id": 2,
+    "topic_id": 5,
     "topic_terms": [
+      "rays",
       "water",
-      "acid",
-      "quantity"
+      "fig"
     ],
     "claims": [
       {
@@ -10555,40 +11277,40 @@
     "metrics": {
       "jaccard_raw": 0.0091,
       "jaccard_normalized": 0.0091,
-      "cosine_tfidf": 0.0091,
+      "cosine_tfidf": 0.0092,
       "cosine_embedding": 0.0834,
       "distinctive_britannica": [
         "sun",
         "whole",
         "egypt",
-        "mountains",
         "continue",
-        "rain",
         "however",
-        "towards",
-        "nile",
+        "mountains",
         "time",
+        "towards",
+        "rain",
         "river",
+        "form",
         "produced",
         "high",
-        "form",
-        "rivers"
+        "nile",
+        "parts"
       ],
       "distinctive_wikipedia": [
         "law",
         "lexisnexis",
         "university",
-        "westlaw",
         "american",
-        "press",
+        "westlaw",
         "history",
+        "press",
         "hein",
         "green",
         "john",
         "rev",
-        "property",
         "oxford",
         "process",
+        "property",
         "real"
       ],
       "shared_terms": [
@@ -10623,11 +11345,11 @@
         "wikipedia_excerpt": "\"Confusion Worse Confounded\": The Residential Rental Agreement Act, 78 N.C. L. REV. 783 (2000). Hein LexisNexis Westlaw\n\nHistory and the Eleventh Amendment, 75 NOTRE DAME L. REV. 1147 (2000). Hein LexisNexis Westlaw\n\nJohn Marshall and \"Debt"
       }
     ],
-    "topic_id": 2,
+    "topic_id": 3,
     "topic_terms": [
-      "water",
-      "acid",
-      "quantity"
+      "upon",
+      "feet",
+      "tree"
     ],
     "claims": [
       {
@@ -10803,24 +11525,24 @@
     "metrics": {
       "jaccard_raw": 0.0143,
       "jaccard_normalized": 0.0143,
-      "cosine_tfidf": 0.0048,
+      "cosine_tfidf": 0.0047,
       "cosine_embedding": -0.0053,
       "distinctive_britannica": [
         "captain",
-        "pole",
         "time",
+        "pole",
         "following",
         "open",
-        "sea",
         "gave",
         "free",
-        "account",
         "though",
+        "sea",
+        "account",
         "four",
-        "ice",
-        "reached",
+        "like",
         "lead",
-        "determined"
+        "reached",
+        "now"
       ],
       "distinctive_wikipedia": [
         "pol",
@@ -10829,14 +11551,14 @@
         "french",
         "country",
         "list",
-        "code",
         "state",
-        "poet",
-        "river",
-        "england",
+        "code",
         "named",
+        "england",
         "iii",
+        "river",
         "city",
+        "given",
         "india"
       ],
       "shared_terms": [
@@ -10872,11 +11594,11 @@
         "wikipedia_excerpt": "Pol (given name), usually a form of Paul or Polydore, with a list of people so named\n\nPol Pot (1925\u20131998), Cambodian revolutionary and Communist dictator\n\nAgusti Pol (born 1977), Andorran footballer\n\nAlejandro Pol Hurtado (born 1990), Venez"
       }
     ],
-    "topic_id": 4,
+    "topic_id": 6,
     "topic_terms": [
-      "blow-pipe",
-      "captain",
-      "flame"
+      "people",
+      "time",
+      "great"
     ],
     "claims": [
       {
@@ -10968,18 +11690,18 @@
         "print",
         "works",
         "nature",
-        "fine",
         "degree",
+        "fine",
         "figure",
-        "art",
         "particularly",
+        "art",
+        "engraving",
         "much",
-        "figures",
-        "lines",
-        "excellent",
+        "effect",
         "ever",
-        "effects",
-        "influence"
+        "figures",
+        "influence",
+        "excellent"
       ],
       "distinctive_wikipedia": [
         "thumb",
@@ -10988,15 +11710,15 @@
         "hand",
         "function",
         "less",
-        "hypoplasia",
         "children",
         "always",
-        "cases",
         "developed",
-        "finger",
+        "hypoplasia",
+        "cases",
         "important",
+        "associated",
         "space",
-        "associated"
+        "treated"
       ],
       "shared_terms": [
         "affected",
@@ -11040,10 +11762,10 @@
         "wikipedia_excerpt": "d to anomalous tendons coming from the forearm (extrinsic muscles, like an aberrant long thumb flexor \u2013 flexor pollicis longus)."
       }
     ],
-    "topic_id": 7,
+    "topic_id": 6,
     "topic_terms": [
-      "see",
-      "upon",
+      "people",
+      "time",
       "great"
     ],
     "claims": [
@@ -11128,6 +11850,15 @@
       },
       {
         "rule": "ocr_f_s_confusion",
+        "original": "fanc",
+        "replacement": "sanc",
+        "count": 1,
+        "samples": [
+          "llowed to take fanc-tany and abqui"
+        ]
+      },
+      {
+        "rule": "ocr_f_s_confusion",
         "original": "finging",
         "replacement": "singing",
         "count": 2,
@@ -11158,24 +11889,24 @@
     "metrics": {
       "jaccard_raw": 0.01,
       "jaccard_normalized": 0.01,
-      "cosine_tfidf": 0.0221,
-      "cosine_embedding": 0.1792,
+      "cosine_tfidf": 0.0203,
+      "cosine_embedding": 0.1795,
       "distinctive_britannica": [
         "body",
         "law",
         "exercise",
-        "weak",
-        "mind",
         "laws",
-        "french",
         "power",
+        "mind",
+        "french",
         "among",
+        "weak",
         "letters",
         "manner",
         "either",
-        "model",
-        "animal",
-        "effects"
+        "see",
+        "effects",
+        "model"
       ],
       "distinctive_wikipedia": [
         "exe",
@@ -11184,15 +11915,15 @@
         "series",
         "interest",
         "edition",
+        "britannica",
         "island",
+        "terms",
         "refer",
         "electric",
-        "terms",
         "episode",
+        "involving",
         "engine",
-        "extreme",
-        "file",
-        "involving"
+        "extreme"
       ],
       "shared_terms": [
         "england",
@@ -11220,16 +11951,16 @@
       {
         "britannica_chunk_index": 0,
         "wikipedia_chunk_index": 0,
-        "similarity": 0.178,
-        "britannica_excerpt": "Execution a criminal, fo reviewing was not allowed to take fanc-tany and abquire the realm, but his flecing to facilitate Xemplar. was held an escape in the officer.\n\nExecutive in the two of Scotland. See Law _Index._ Exerction, in the Fren",
+        "similarity": 0.1752,
+        "britannica_excerpt": "Execution a criminal, fo reviewing was not allowed to take sanc-tany and abquire the realm, but his flecing to facilitate Xemplar. was held an escape in the officer.\n\nExecutive in the two of Scotland. See Law _Index._ Exerction, in the Fren",
         "wikipedia_excerpt": "Exe or EXE may refer to:\n\n.exe, a file extension\n\nexe., abbreviation for executive\n\nRiver Exe, in England\n\nExe Estuary, in England\n\nExe Island, in Exeter, England\n\nExe (locomotive), a British locomotive\n\nRolls-Royce Exe, an aircraft engine\n"
       }
     ],
-    "topic_id": 7,
+    "topic_id": 2,
     "topic_terms": [
       "see",
-      "upon",
-      "great"
+      "brit",
+      "upon"
     ],
     "claims": [
       {
@@ -11622,41 +12353,41 @@
     "metrics": {
       "jaccard_raw": 0.0107,
       "jaccard_normalized": 0.0142,
-      "cosine_tfidf": 0.0545,
+      "cosine_tfidf": 0.0537,
       "cosine_embedding": 0.1764,
       "distinctive_britannica": [
         "cantons",
         "see",
-        "head",
         "home",
-        "blade",
+        "head",
         "king",
+        "blade",
         "people",
-        "round",
-        "arms",
-        "oxford",
-        "famous",
         "trade",
-        "except",
-        "turn",
-        "practice"
+        "fish",
+        "piece",
+        "mult",
+        "lines",
+        "arms",
+        "allowed",
+        "oxford"
       ],
       "distinctive_wikipedia": [
         "code",
         "work",
         "standard",
-        "software",
-        "imaging",
         "edition",
-        "interrupt",
-        "family",
-        "kingdom",
-        "system",
-        "scotland",
-        "refer",
+        "software",
+        "britannica",
+        "imaging",
         "scientific",
-        "free",
-        "national"
+        "system",
+        "kingdom",
+        "scotland",
+        "family",
+        "national",
+        "medical",
+        "free"
       ],
       "shared_terms": [
         "arm",
@@ -11693,11 +12424,11 @@
         "wikipedia_excerpt": "SWI may refer to:\n\nSwitzerland (this is not the ISO 3166-1 code, which is CHE)\n\nSwindon railway station (National Rail code SWI), serving Swindon, Wiltshire, United Kingdom\n\nSWI-Prolog, a free implementation of the programming language Prol"
       }
     ],
-    "topic_id": 7,
+    "topic_id": 2,
     "topic_terms": [
       "see",
-      "upon",
-      "great"
+      "brit",
+      "upon"
     ],
     "claims": [
       {
@@ -11867,7 +12598,7 @@
     "metrics": {
       "jaccard_raw": 0.0439,
       "jaccard_normalized": 0.044,
-      "cosine_tfidf": 0.0535,
+      "cosine_tfidf": 0.0546,
       "cosine_embedding": 0.1852,
       "distinctive_britannica": [
         "london",
@@ -11876,14 +12607,14 @@
         "himself",
         "town",
         "oxford",
+        "king",
+        "upon",
         "fame",
+        "whole",
         "sir",
         "house",
-        "built",
-        "king",
-        "whole",
-        "upon",
         "name",
+        "built",
         "afterwards"
       ],
       "distinctive_wikipedia": [
@@ -11894,14 +12625,14 @@
         "encyclop",
         "sales",
         "editions",
-        "published",
         "sears",
-        "sold",
-        "university",
+        "published",
         "benton",
+        "university",
+        "sold",
         "bought",
         "released",
-        "hooper"
+        "united"
       ],
       "shared_terms": [
         "acknowledged",
@@ -11959,11 +12690,11 @@
         "wikipedia_excerpt": "The company was founded in Edinburgh, Scotland, in the 18th century, during the historical period termed the Scottish Enlightenment. Colin Macfarquhar and Andrew Bell began the first edition in 1768. The pair engaged William Smellie, who co"
       }
     ],
-    "topic_id": 7,
+    "topic_id": 2,
     "topic_terms": [
       "see",
-      "upon",
-      "great"
+      "brit",
+      "upon"
     ],
     "claims": [
       {
@@ -12090,6 +12821,15 @@
       },
       {
         "rule": "ocr_f_s_confusion",
+        "original": "fure",
+        "replacement": "sure",
+        "count": 1,
+        "samples": [
+          "ice of grain a fure standard for t"
+        ]
+      },
+      {
+        "rule": "ocr_f_s_confusion",
         "original": "rife",
         "replacement": "rise",
         "count": 1,
@@ -12101,24 +12841,24 @@
     "metrics": {
       "jaccard_raw": 0.0663,
       "jaccard_normalized": 0.0663,
-      "cosine_tfidf": 0.0789,
-      "cosine_embedding": 0.3607,
+      "cosine_tfidf": 0.0787,
+      "cosine_embedding": 0.3605,
       "distinctive_britannica": [
         "price",
         "land",
         "greater",
         "make",
         "meet",
+        "edition",
         "country",
-        "proportion",
-        "hence",
-        "likely",
-        "animals",
         "articles",
-        "thefe",
+        "proportion",
+        "likely",
+        "hence",
+        "improved",
         "labor",
         "even",
-        "improved"
+        "animals"
       ],
       "distinctive_wikipedia": [
         "political",
@@ -12127,15 +12867,15 @@
         "economics",
         "international",
         "politics",
-        "studies",
         "science",
-        "term",
+        "studies",
         "state",
+        "term",
         "field",
-        "social",
         "within",
         "modern",
-        "theory"
+        "theory",
+        "century"
       ],
       "shared_terms": [
         "according",
@@ -12193,10 +12933,10 @@
         "wikipedia_excerpt": "tson and Robert W. Cox."
       }
     ],
-    "topic_id": 7,
+    "topic_id": 6,
     "topic_terms": [
-      "see",
-      "upon",
+      "people",
+      "time",
       "great"
     ],
     "claims": [
@@ -12247,6 +12987,141 @@
         "wikipedia_page_id": "46044",
         "wikipedia_revision_id": "1353267562",
         "wikipedia_quote": "Political economy \u2013 sometimes referred to as comparative economy \u2013 is an interdisciplinary field in political science and economics that studies the relationship between political and economic systems, including how they influence each othe"
+      }
+    ]
+  },
+  {
+    "entry_id": "entry-britannica-volume-191689065-row-1400-1400",
+    "britannica_title": "MIDWIFERY and OBSTETRICS (Plate CCCXLVII)",
+    "source_pages": [
+      "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1400"
+    ],
+    "britannica_sha256": "a3e2eb3f81012bbbb9206e104fe1ac1bdd881b435f9ab2e734007d7325bed3ce",
+    "britannica_raw_chars": 1194,
+    "britannica_tokens": 113,
+    "britannica_unique_tokens": 74,
+    "wikipedia_page_id": "47456362",
+    "wikipedia_revision_id": "1350826529",
+    "wikipedia_title": "Midwife",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Midwife",
+    "wikipedia_text_sha256": "bafd50cc67f4440c2ee686c8c8abea9dda1329fbfa5d3d68c0277f8f711107d6",
+    "wikipedia_raw_chars": 39991,
+    "wikipedia_tokens": 3456,
+    "wikipedia_unique_tokens": 1431,
+    "length_ratio": 33.493,
+    "text_changes": [],
+    "metrics": {
+      "jaccard_raw": 0.0162,
+      "jaccard_normalized": 0.0162,
+      "cosine_tfidf": 0.1714,
+      "cosine_embedding": 0.2512,
+      "distinctive_britannica": [
+        "edition",
+        "britannica",
+        "fig",
+        "articles",
+        "forceps",
+        "plate",
+        "volumes",
+        "william",
+        "pages",
+        "dia",
+        "obstetrics",
+        "engraving",
+        "figures",
+        "related",
+        "encyclopedia"
+      ],
+      "distinctive_wikipedia": [
+        "midwifery",
+        "midwives",
+        "midwife",
+        "care",
+        "women",
+        "practice",
+        "education",
+        "health",
+        "birth",
+        "professional",
+        "programs",
+        "registered",
+        "male",
+        "degree",
+        "regulated"
+      ],
+      "shared_terms": [
+        "assist",
+        "breech",
+        "child",
+        "childbirth",
+        "deliveries",
+        "demonstrates",
+        "figure",
+        "figures",
+        "forceps",
+        "historical",
+        "include",
+        "infant",
+        "instruments",
+        "medical",
+        "midwifery",
+        "normal",
+        "obstetrician",
+        "obstetrics",
+        "placenta",
+        "related",
+        "smellie",
+        "surgical",
+        "william",
+        "within"
+      ]
+    },
+    "aligned_chunks": [
+      {
+        "britannica_chunk_index": 0,
+        "wikipedia_chunk_index": 61,
+        "similarity": 0.3264,
+        "britannica_excerpt": "MIDWIFERY PLATE CCCXLVII.\n\nFig. 1.\n\nFig. 2.\n\nFig. 3.\n\n[HISTORICAL COPPERPLATE ENGRAVING: MIDWIFERY and OBSTETRICS (Plate CCCXLVII)]\n\nCategory: Medical Anatomy and Obstetrics\n\nVisual Description: Classical obstetrical copperplate engraving i",
+        "wikipedia_excerpt": "William Smellie is credited with innovations on the shape of forceps. This invention corresponds with the development towards obstetrics. He advised male midwives to wear dresses to reduce controversy over having a man present at birth.\n\nAs"
+      },
+      {
+        "britannica_chunk_index": 1,
+        "wikipedia_chunk_index": 61,
+        "similarity": 0.3097,
+        "britannica_excerpt": "Identified Engraved Figures:\n\n* Fig. 1: Normal vertex presentation of infant in anatomical pelvis\n\n* Fig. 2: Breech presentation and obstetrical maneuvers\n\n* Fig. 3: Curved obstetrical forceps with leather-covered blades\n\n* Fig. 4: Transver",
+        "wikipedia_excerpt": "William Smellie is credited with innovations on the shape of forceps. This invention corresponds with the development towards obstetrics. He advised male midwives to wear dresses to reduce controversy over having a man present at birth.\n\nAs"
+      }
+    ],
+    "topic_id": 5,
+    "topic_terms": [
+      "rays",
+      "water",
+      "fig"
+    ],
+    "claims": [
+      {
+        "claim_text": "The Britannica entry \"MIDWIFERY and OBSTETRICS (Plate CCCXLVII)\" uses 113 content tokens while the Wikipedia article \"Midwife\" uses 3456; their normalized vocabularies share a Jaccard overlap of 0.0162 (raw 0.0162) and a TF-IDF cosine similarity of 0.1714.",
+        "claim_type": "factual",
+        "label": "[factual]",
+        "britannica_pages": [
+          "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1400"
+        ],
+        "britannica_quote": "MIDWIFERY PLATE CCCXLVII.\nFig. 1.\nFig. 2.\nFig. 3.\n\n[HISTORICAL COPPERPLATE ENGRAVING: MIDWIFERY and OBSTETRICS (Plate CCCXLVII)]\nCategory: Medical Anatomy and Obstetrics\nVisual Description: Classical obstetrical copperplate engraving illust",
+        "wikipedia_page_id": "47456362",
+        "wikipedia_revision_id": "1350826529",
+        "wikipedia_quote": "A midwife (pl.: midwives) is a health professional who cares for mothers and newborns around childbirth, a specialisation known as midwifery.\n\nThe education and training for a midwife concentrates extensively on the care of women throughout"
+      },
+      {
+        "claim_text": "Both sources share core vocabulary including: assist, breech, child, childbirth, deliveries.",
+        "claim_type": "factual",
+        "label": "[factual]",
+        "britannica_pages": [
+          "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1400"
+        ],
+        "britannica_quote": "Demonstrates William Smellie's obstetrical mechanisms and surgical instruments designed to assist difficult child deliveries.",
+        "wikipedia_page_id": "47456362",
+        "wikipedia_revision_id": "1350826529",
+        "wikipedia_quote": "The word derives from Middle English mid, \"with\", and wif, \"woman\", and thus originally meant \"with-woman\", that is, a woman who is with another woman and assists her in giving birth."
       }
     ]
   },
@@ -12501,41 +13376,41 @@
     "metrics": {
       "jaccard_raw": 0.0249,
       "jaccard_normalized": 0.0251,
-      "cosine_tfidf": 0.0467,
+      "cosine_tfidf": 0.0454,
       "cosine_embedding": 0.0643,
       "distinctive_britannica": [
         "place",
-        "acid",
-        "left",
         "water",
-        "neck",
-        "hand",
+        "left",
+        "acid",
         "matter",
+        "hand",
         "immediately",
+        "neck",
         "hours",
         "quantity",
         "quality",
-        "entirely",
         "taken",
-        "prevent",
-        "gas"
+        "entirely",
+        "different",
+        "prevent"
       ],
       "distinctive_wikipedia": [
         "works",
         "thomas",
         "main",
         "became",
+        "house",
+        "english",
+        "area",
+        "using",
         "wallsuches",
         "horwich",
-        "area",
-        "english",
-        "house",
-        "using",
-        "bleach",
         "access",
+        "bleach",
         "site",
         "highly",
-        "provide"
+        "sons"
       ],
       "shared_terms": [
         "bleaching",
@@ -12577,11 +13452,11 @@
         "wikipedia_excerpt": "The Ridgways lived across the main access road from the works in a house called \"Whitehouse\", which they renamed \"Ridgmont House\", which still stands. Thomas Ridgmont sponsored French chemists Matthew Vallet and Anthony Bourboulon de Boneui"
       }
     ],
-    "topic_id": 2,
+    "topic_id": 5,
     "topic_terms": [
+      "rays",
       "water",
-      "acid",
-      "quantity"
+      "fig"
     ],
     "claims": [
       {
@@ -12703,41 +13578,41 @@
     "metrics": {
       "jaccard_raw": 0.0209,
       "jaccard_normalized": 0.0208,
-      "cosine_tfidf": 0.0435,
+      "cosine_tfidf": 0.0438,
       "cosine_embedding": 0.1226,
       "distinctive_britannica": [
-        "country",
         "king",
+        "country",
         "part",
-        "lies",
         "generally",
+        "lies",
         "poland",
         "see",
-        "inhabitants",
         "upper",
         "derived",
-        "several",
-        "provided",
+        "inhabitants",
         "regard",
-        "dead",
-        "immediately"
+        "born",
+        "provided",
+        "immediately",
+        "several"
       ],
       "distinctive_wikipedia": [
         "island",
         "middle",
         "area",
-        "chiemsee",
         "space",
-        "islands",
-        "herb",
         "made",
+        "islands",
         "stone",
+        "chiemsee",
         "ages",
+        "herb",
         "district",
+        "edition",
         "vegetables",
         "meters",
-        "received",
-        "west"
+        "offer"
       ],
       "shared_terms": [
         "among",
@@ -12777,11 +13652,11 @@
         "wikipedia_excerpt": "Two nameless small islands 54 and 80 meters south of the herb island form its southern foothills. They are connected to one another by a gravel bank. They each have only a few square meters of space and only offer space for one tree or shru"
       }
     ],
-    "topic_id": 7,
+    "topic_id": 2,
     "topic_terms": [
       "see",
-      "upon",
-      "great"
+      "brit",
+      "upon"
     ],
     "claims": [
       {
@@ -12886,24 +13761,24 @@
     "metrics": {
       "jaccard_raw": 0.0258,
       "jaccard_normalized": 0.0258,
-      "cosine_tfidf": 0.0241,
+      "cosine_tfidf": 0.0228,
       "cosine_embedding": -0.0039,
       "distinctive_britannica": [
         "part",
         "formed",
-        "nerves",
         "eighth",
-        "inferior",
         "body",
         "large",
-        "neck",
+        "inferior",
+        "nerves",
         "upon",
-        "tongue",
-        "commonly",
+        "neck",
         "middle",
+        "certain",
+        "commonly",
         "figure",
         "side",
-        "certain"
+        "shape"
       ],
       "distinctive_wikipedia": [
         "good",
@@ -12912,15 +13787,15 @@
         "principle",
         "political",
         "former",
-        "constitution",
         "hennessy",
+        "constitution",
         "even",
+        "information",
         "idea",
         "andrew",
-        "information",
-        "chaps",
+        "senior",
         "written",
-        "civil"
+        "peter"
       ],
       "shared_terms": [
         "accepted",
@@ -12961,11 +13836,11 @@
         "wikipedia_excerpt": "ritten rules are and wanting to adhere to them, even if doing so might frustrate the attainment of their policy objectives, party political goals, or personal ambitions \u2013 the argument being that \u2018good chaps\u2019 (of different sexes) know where "
       }
     ],
-    "topic_id": 5,
+    "topic_id": 3,
     "topic_terms": [
-      "every",
-      "people",
-      "upon"
+      "upon",
+      "feet",
+      "tree"
     ],
     "claims": [
       {
@@ -13061,41 +13936,41 @@
     "metrics": {
       "jaccard_raw": 0.0043,
       "jaccard_normalized": 0.0043,
-      "cosine_tfidf": 0.0214,
+      "cosine_tfidf": 0.0222,
       "cosine_embedding": 0.0183,
       "distinctive_britannica": [
         "time",
         "people",
         "death",
-        "ethiopian",
-        "himself",
         "country",
-        "principal",
+        "himself",
+        "ethiopian",
         "already",
         "mentioned",
+        "principal",
+        "according",
         "army",
         "christians",
-        "according",
-        "war",
-        "arabian",
-        "arabia"
+        "family",
+        "come",
+        "however"
       ],
       "distinctive_wikipedia": [
         "edition",
+        "britannica",
         "average",
         "mavri",
-        "britannica",
-        "metres",
-        "schinia",
         "sea",
-        "point",
         "around",
+        "point",
         "south",
-        "east",
-        "west",
         "january",
+        "east",
+        "metres",
         "level",
-        "larger"
+        "west",
+        "month",
+        "community"
       ],
       "shared_terms": [
         "highest",
@@ -13126,11 +14001,11 @@
         "wikipedia_excerpt": "Mavri Sinia or Mavri Schinia is a mountain in Neo Chorio in the Paphos District of Cyprus. Its peak elevation is 429 metres (1,407 ft) above sea level. The terrain around Mavri Schinia is hilly on the east, but flat in the west and the sea "
       }
     ],
-    "topic_id": 5,
+    "topic_id": 6,
     "topic_terms": [
-      "every",
       "people",
-      "upon"
+      "time",
+      "great"
     ],
     "claims": [
       {
@@ -13283,41 +14158,41 @@
     "metrics": {
       "jaccard_raw": 0.0037,
       "jaccard_normalized": 0.0037,
-      "cosine_tfidf": 0.0049,
+      "cosine_tfidf": 0.0046,
       "cosine_embedding": 0.0888,
       "distinctive_britannica": [
         "though",
         "never",
-        "molt",
-        "either",
         "upon",
+        "either",
+        "molt",
         "felt",
-        "greatest",
-        "kalmus",
         "life",
-        "rich",
-        "even",
-        "himself",
+        "greatest",
         "another",
         "among",
-        "people"
+        "himself",
+        "people",
+        "rich",
+        "kalmus",
+        "even"
       ],
       "distinctive_wikipedia": [
         "kal",
         "village",
         "code",
         "language",
-        "station",
         "province",
         "region",
+        "station",
         "limited",
+        "band",
         "abbreviation",
         "doctor",
-        "band",
-        "airport",
-        "roman",
-        "refer",
-        "editorial"
+        "edition",
+        "town",
+        "born",
+        "roman"
       ],
       "shared_terms": [
         "company",
@@ -13347,11 +14222,11 @@
         "wikipedia_excerpt": "Korala Associates Limited, a software company\n\nKurdish Academy of Language\n\nISO 639-2 and 639-3 codes for the Greenlandic language\n\nKalamazoo Transportation Center, station code\n\nKallang MRT station, MRT station abbreviation\n\nKaltag Airport"
       }
     ],
-    "topic_id": 5,
+    "topic_id": 3,
     "topic_terms": [
-      "every",
-      "people",
-      "upon"
+      "upon",
+      "feet",
+      "tree"
     ],
     "claims": [
       {
@@ -13435,33 +14310,33 @@
         "britannica",
         "articles",
         "volumes",
-        "listed",
-        "published",
         "pages",
         "dia",
         "volume",
-        "buildings",
+        "published",
         "encyclopedia",
-        "used",
-        "time",
-        "article"
+        "article",
+        "supplement",
+        "third",
+        "encyclop",
+        "fourth"
       ],
       "distinctive_wikipedia": [
         "period",
         "studies",
         "study",
-        "meaning",
         "johann",
+        "meaning",
         "century",
         "friedrich",
         "peter",
-        "started",
-        "era",
-        "publications",
-        "wave",
         "japanese",
         "effects",
-        "scientific"
+        "wave",
+        "carl",
+        "started",
+        "era",
+        "described"
       ],
       "shared_terms": []
     },
@@ -13474,11 +14349,11 @@
         "wikipedia_excerpt": "The Japanese parasitologist Satyu Yamaguti was one of the most active helminthologists of the 20th century; he wrote the six-volume Systema Helminthum."
       }
     ],
-    "topic_id": 5,
+    "topic_id": 3,
     "topic_terms": [
-      "every",
-      "people",
-      "upon"
+      "upon",
+      "feet",
+      "tree"
     ],
     "claims": [
       {
@@ -13574,7 +14449,7 @@
     "metrics": {
       "jaccard_raw": 0.0387,
       "jaccard_normalized": 0.0409,
-      "cosine_tfidf": 0.2869,
+      "cosine_tfidf": 0.2907,
       "cosine_embedding": 0.1669,
       "distinctive_britannica": [
         "acid",
@@ -13583,32 +14458,32 @@
         "heat",
         "formed",
         "air",
-        "magnella",
-        "fall",
         "earth",
-        "cold",
         "gas",
         "form",
+        "cold",
+        "fall",
+        "magnella",
         "off",
-        "remains",
-        "either"
+        "either",
+        "behind"
       ],
       "distinctive_wikipedia": [
         "nitrification",
-        "process",
         "ammonia",
+        "process",
         "oxidation",
+        "nitrate",
         "nitrite",
         "bacteria",
         "amo",
         "step",
-        "nitrate",
         "soil",
         "compounds",
-        "nitrogen",
         "production",
-        "inhibitors",
-        "aob"
+        "nitrogen",
+        "product",
+        "inhibitors"
       ],
       "shared_terms": [
         "acid",
@@ -13666,11 +14541,11 @@
         "wikipedia_excerpt": "The idea that oxidation of ammonia to nitrate is in fact a biological process was first given by Louis Pasteur in 1862. Later in 1875, Alexander M\u00fcller, while conducting a quality assessment of water from wells in Berlin, noted that ammoniu"
       }
     ],
-    "topic_id": 2,
+    "topic_id": 5,
     "topic_terms": [
+      "rays",
       "water",
-      "acid",
-      "quantity"
+      "fig"
     ],
     "claims": [
       {
@@ -13756,41 +14631,41 @@
     "metrics": {
       "jaccard_raw": 0.0221,
       "jaccard_normalized": 0.0221,
-      "cosine_tfidf": 0.0413,
+      "cosine_tfidf": 0.0421,
       "cosine_embedding": 0.14,
       "distinctive_britannica": [
         "island",
-        "east",
-        "side",
-        "river",
         "great",
         "south",
+        "river",
+        "east",
+        "side",
         "children",
         "man",
-        "small",
         "country",
+        "small",
         "made",
         "several",
-        "chief",
-        "trade",
-        "miles"
+        "opposite",
+        "near",
+        "collected"
       ],
       "distinctive_wikipedia": [
         "book",
         "gallows",
-        "troll",
         "series",
         "richard",
+        "troll",
         "film",
-        "snake",
         "illustrated",
         "praised",
+        "snake",
         "bellied",
-        "sky",
-        "fantasy",
+        "wild",
         "particularly",
-        "blood",
-        "followed"
+        "city",
+        "followed",
+        "direct"
       ],
       "shared_terms": [
         "bring",
@@ -13830,11 +14705,11 @@
         "wikipedia_excerpt": "Will Gallows, a young elfling sky cowboy, rides out on a perilous quest to bring the evil snake-bellied troll bandit, Noose Wormworx, to justice. Noose is wanted for the murder of Will's pa - the former deputy sheriff of Oretown.Will's jour"
       }
     ],
-    "topic_id": 7,
+    "topic_id": 2,
     "topic_terms": [
       "see",
-      "upon",
-      "great"
+      "brit",
+      "upon"
     ],
     "claims": [
       {
@@ -13920,40 +14795,40 @@
     "metrics": {
       "jaccard_raw": 0.0023,
       "jaccard_normalized": 0.0023,
-      "cosine_tfidf": 0.0144,
+      "cosine_tfidf": 0.0136,
       "cosine_embedding": -0.0304,
       "distinctive_britannica": [
         "india",
         "country",
         "alexander",
-        "sea",
         "means",
         "authority",
-        "indeed",
-        "indus",
-        "countries",
+        "sea",
         "red",
+        "indeed",
+        "countries",
         "view",
         "concerning",
-        "accounts",
         "modern",
-        "rivers"
+        "indus",
+        "robertson",
+        "provinces"
       ],
       "distinctive_wikipedia": [
         "publication",
-        "astonishing",
         "edition",
-        "album",
-        "refer",
-        "song",
-        "women",
-        "science",
+        "astonishing",
+        "britannica",
         "published",
+        "song",
+        "refer",
+        "album",
+        "science",
         "atlas",
+        "women",
         "american",
         "comics",
         "fiction",
-        "britannica",
         "magazine"
       ],
       "shared_terms": [
@@ -13983,11 +14858,11 @@
         "wikipedia_excerpt": "Astonishing may refer to:\n\nAstonishing, Atlas Comics / Marvel Comics publication from 1951 to 1957\n\nAstonishing Tales, Marvel Comics publication from 1970 to 1976 and 2009\n\nThe Astonishing, a 2016 album by Dream Theater\n\nAstonishing Stories"
       }
     ],
-    "topic_id": 4,
+    "topic_id": 6,
     "topic_terms": [
-      "blow-pipe",
-      "captain",
-      "flame"
+      "people",
+      "time",
+      "great"
     ],
     "claims": [
       {
@@ -14164,24 +15039,24 @@
     "metrics": {
       "jaccard_raw": 0.0508,
       "jaccard_normalized": 0.0505,
-      "cosine_tfidf": 0.0338,
+      "cosine_tfidf": 0.0337,
       "cosine_embedding": 0.1191,
       "distinctive_britannica": [
         "kind",
-        "agreeable",
         "common",
-        "certain",
-        "feeling",
+        "agreeable",
         "variety",
+        "feeling",
         "nature",
+        "certain",
         "great",
         "means",
         "mind",
-        "call",
         "degree",
+        "call",
         "every",
-        "family",
-        "fields"
+        "fields",
+        "fact"
       ],
       "distinctive_wikipedia": [
         "edition",
@@ -14191,8 +15066,8 @@
         "pages",
         "dia",
         "volume",
-        "published",
         "supplement",
+        "published",
         "article",
         "encyclopedia",
         "third",
@@ -14256,11 +15131,11 @@
         "wikipedia_excerpt": "the individual articles."
       }
     ],
-    "topic_id": 5,
+    "topic_id": 6,
     "topic_terms": [
-      "every",
       "people",
-      "upon"
+      "time",
+      "great"
     ],
     "claims": [
       {
@@ -14339,38 +15214,38 @@
       "cosine_tfidf": 0.0,
       "cosine_embedding": 0.0643,
       "distinctive_britannica": [
-        "himself",
         "country",
+        "himself",
         "court",
-        "received",
         "employed",
-        "greatest",
-        "tubingen",
+        "received",
+        "power",
+        "without",
         "died",
         "situation",
-        "power",
+        "greatest",
         "almost",
-        "without",
         "left",
-        "ibid",
-        "billinger"
+        "tubingen",
+        "enlightened",
+        "ibid"
       ],
       "distinctive_wikipedia": [
         "agalmyla",
         "burtt",
         "hilliard",
         "clarke",
-        "schltr",
         "plants",
-        "elmer",
+        "schltr",
         "moore",
+        "elmer",
         "lauterb",
-        "accepted",
         "scott",
-        "april",
         "genus",
-        "minor",
-        "family"
+        "accepted",
+        "april",
+        "family",
+        "species"
       ],
       "shared_terms": []
     },
@@ -14397,11 +15272,11 @@
         "wikipedia_excerpt": "Agalmyla manuselae Hilliard & B.L.Burtt\n\nAgalmyla minor (K.Schum. & Lauterb.) Hilliard & B.L.Burtt\n\nAgalmyla montis-tomasii Hilliard & B.L.Burtt\n\nAgalmyla multiflora (Kaneh. & Hatus.) Hilliard & B.L.Burtt\n\nAgalmyla murudiana Hilliard & B.L."
       }
     ],
-    "topic_id": 4,
+    "topic_id": 6,
     "topic_terms": [
-      "blow-pipe",
-      "captain",
-      "flame"
+      "people",
+      "time",
+      "great"
     ],
     "claims": [
       {
@@ -14463,40 +15338,40 @@
     "metrics": {
       "jaccard_raw": 0.0943,
       "jaccard_normalized": 0.0945,
-      "cosine_tfidf": 0.3087,
+      "cosine_tfidf": 0.3112,
       "cosine_embedding": 0.6165,
       "distinctive_britannica": [
-        "blow-pipe",
         "heat",
+        "blow-pipe",
         "charcoal",
         "made",
         "body",
         "inches",
         "platina",
-        "kept",
-        "along",
-        "quantity",
-        "quality",
         "become",
-        "metal",
+        "along",
+        "quality",
+        "kept",
         "less",
+        "quantity",
+        "metal",
         "flame"
       ],
       "distinctive_wikipedia": [
-        "blowpipe",
         "blow",
+        "blowpipe",
         "air",
         "used",
         "term",
         "fire",
         "chemistry",
         "english",
-        "glass",
         "treatise",
-        "blowpipes",
         "tool",
         "established",
+        "glass",
         "pipe",
+        "blowpipes",
         "considered"
       ],
       "shared_terms": [
@@ -14555,11 +15430,11 @@
         "wikipedia_excerpt": "If a stream or jet of air is directed through a flame, fuel air mixing is enhanced and the jet exiting the flame is intensely hot. Jewelers and glassblowers engaged in lampwork have used the blowpipe since ancient times, with the blast bein"
       }
     ],
-    "topic_id": 4,
+    "topic_id": 5,
     "topic_terms": [
-      "blow-pipe",
-      "captain",
-      "flame"
+      "rays",
+      "water",
+      "fig"
     ],
     "claims": [
       {
@@ -14635,41 +15510,41 @@
     "metrics": {
       "jaccard_raw": 0.0142,
       "jaccard_normalized": 0.0142,
-      "cosine_tfidf": 0.0862,
+      "cosine_tfidf": 0.0881,
       "cosine_embedding": 0.1357,
       "distinctive_britannica": [
         "nature",
         "objects",
-        "object",
         "therefore",
-        "sound",
+        "object",
         "beauty",
         "feeling",
+        "sound",
         "even",
         "produced",
         "little",
         "mind",
-        "emotions",
         "every",
-        "feelings",
-        "however"
+        "however",
+        "emotions",
+        "others"
       ],
       "distinctive_wikipedia": [
         "beautiful",
         "song",
-        "album",
         "title",
+        "album",
         "film",
         "directed",
         "music",
         "king",
         "american",
+        "band",
         "park",
         "musical",
-        "band",
         "paul",
         "ladies",
-        "lightfoot"
+        "green"
       ],
       "shared_terms": [
         "another",
@@ -14706,11 +15581,11 @@
         "wikipedia_excerpt": "\"Beautiful\", by Mandalay from Empathy, 1998\n\n\"Beautiful\", by Marillion from Afraid of Sunlight, 1995\n\n\"Beautiful\", by Matt Darey, 2002\n\n\"Beautiful\", by Michelle Williams from Journey to Freedom, 2014\n\n\"Beautiful\", by Monsta X, 2017\n\n\"Beauti"
       }
     ],
-    "topic_id": 5,
+    "topic_id": 6,
     "topic_terms": [
-      "every",
       "people",
-      "upon"
+      "time",
+      "great"
     ],
     "claims": [
       {
@@ -14793,41 +15668,41 @@
     "metrics": {
       "jaccard_raw": 0.0237,
       "jaccard_normalized": 0.0237,
-      "cosine_tfidf": 0.1092,
+      "cosine_tfidf": 0.0997,
       "cosine_embedding": 0.1375,
       "distinctive_britannica": [
         "people",
         "government",
-        "upon",
         "choice",
+        "upon",
         "man",
         "means",
-        "power",
-        "another",
         "use",
+        "another",
+        "power",
         "well",
-        "know",
         "every",
-        "good",
+        "know",
         "without",
-        "cannot"
+        "knowledge",
+        "good"
       ],
       "distinctive_wikipedia": [
         "book",
-        "liberties",
         "john",
+        "liberties",
         "author",
         "arts",
         "press",
         "michael",
-        "published",
         "dublin",
-        "include",
         "authors",
-        "novel",
         "publishers",
+        "include",
+        "publisher",
         "david",
-        "entered"
+        "entered",
+        "published"
       ],
       "shared_terms": [
         "agent",
@@ -14873,11 +15748,11 @@
         "wikipedia_excerpt": "Liberties Press (also known as Liberties Media Ltd) is an independent book publisher based in Dublin, founded in 2003. The company's first publication was Con Houlihan 's collection of sportswriting, More Than a Game: the title was reprinte"
       }
     ],
-    "topic_id": 5,
+    "topic_id": 6,
     "topic_terms": [
-      "every",
       "people",
-      "upon"
+      "time",
+      "great"
     ],
     "claims": [
       {
@@ -14963,24 +15838,24 @@
     "metrics": {
       "jaccard_raw": 0.0178,
       "jaccard_normalized": 0.0178,
-      "cosine_tfidf": 0.2361,
+      "cosine_tfidf": 0.2457,
       "cosine_embedding": 0.1312,
       "distinctive_britannica": [
         "government",
         "french",
         "character",
-        "conduct",
         "house",
         "egypt",
+        "conduct",
         "principle",
+        "country",
         "circumstances",
+        "war",
         "boaparate",
         "restoration",
-        "country",
-        "war",
-        "ministers",
+        "treat",
         "support",
-        "treat"
+        "ten"
       ],
       "distinctive_wikipedia": [
         "list",
@@ -14988,16 +15863,16 @@
         "ambassadors",
         "united",
         "kingdom",
-        "refer",
+        "edition",
         "south",
         "england",
-        "edition",
+        "refer",
         "japan",
+        "britannica",
         "greece",
         "germany",
         "canada",
-        "italy",
-        "lists"
+        "italy"
       ],
       "shared_terms": [
         "austria",
@@ -15034,10 +15909,10 @@
         "wikipedia_excerpt": "List of ambassadors of France to the Kingdom of Great Britain\n\nList of ambassadors of France to the United Kingdom\n\nList of ambassadors of France to the United States"
       }
     ],
-    "topic_id": 7,
+    "topic_id": 6,
     "topic_terms": [
-      "see",
-      "upon",
+      "people",
+      "time",
       "great"
     ],
     "claims": [
@@ -15114,41 +15989,41 @@
     "metrics": {
       "jaccard_raw": 0.0184,
       "jaccard_normalized": 0.0184,
-      "cosine_tfidf": 0.0179,
+      "cosine_tfidf": 0.0182,
       "cosine_embedding": 0.0401,
       "distinctive_britannica": [
         "people",
         "divided",
-        "curtu",
         "every",
-        "particular",
         "proper",
-        "comitia",
+        "particular",
+        "curtu",
         "name",
         "city",
-        "paris",
         "never",
+        "comitia",
+        "paris",
         "man",
-        "thirty",
         "louis",
+        "thirty",
         "centuries"
       ],
       "distinctive_wikipedia": [
         "com",
-        "net",
         "type",
         "types",
+        "net",
         "objects",
         "component",
         "access",
         "object",
         "managed",
-        "values",
+        "equivalent",
         "translation",
         "library",
-        "equivalent",
-        "interop",
-        "exe"
+        "values",
+        "tool",
+        "provides"
       ],
       "shared_terms": [
         "assembly",
@@ -15187,11 +16062,11 @@
         "wikipedia_excerpt": "The.NET Framework creates a type library and special registry entries when a component is registered. It provides a specialized utility (RegAsm.exe, usually located in C:\\Windows\\Microsoft.NET\\Framework) that exports the managed types into "
       }
     ],
-    "topic_id": 7,
+    "topic_id": 2,
     "topic_terms": [
       "see",
-      "upon",
-      "great"
+      "brit",
+      "upon"
     ],
     "claims": [
       {
@@ -15265,24 +16140,24 @@
     "metrics": {
       "jaccard_raw": 0.0197,
       "jaccard_normalized": 0.0196,
-      "cosine_tfidf": 0.4939,
+      "cosine_tfidf": 0.4524,
       "cosine_embedding": 0.1835,
       "distinctive_britannica": [
         "however",
         "great",
         "afterwards",
         "appeared",
-        "west",
         "education",
-        "uncle",
+        "west",
         "trade",
         "french",
-        "indies",
-        "talents",
         "master",
+        "uncle",
         "much",
+        "now",
         "island",
-        "year"
+        "indies",
+        "acquired"
       ],
       "distinctive_wikipedia": [
         "edwards",
@@ -15294,12 +16169,12 @@
         "american",
         "county",
         "ruling",
-        "supreme",
         "former",
         "york",
-        "food",
+        "supreme",
         "brand",
-        "california"
+        "food",
+        "appeal"
       ],
       "shared_terms": [
         "business",
@@ -15340,10 +16215,10 @@
         "wikipedia_excerpt": "Indiana v. Edwards, a 2008 U.S. Supreme Court ruling on competency to stand trial\n\nEdwards v. Canada (Attorney General), also known as the Persons Case, a 1930 case in the Judicial Committee of the Imperial Privy Council on women's eligibil"
       }
     ],
-    "topic_id": 7,
+    "topic_id": 6,
     "topic_terms": [
-      "see",
-      "upon",
+      "people",
+      "time",
       "great"
     ],
     "claims": [
@@ -15434,18 +16309,18 @@
       "cosine_embedding": -0.0132,
       "distinctive_britannica": [
         "cattle",
-        "food",
         "fully",
-        "breed",
-        "daily",
-        "sheep",
-        "opinion",
-        "animals",
+        "food",
         "much",
-        "best",
+        "now",
+        "opinion",
+        "daily",
+        "breed",
+        "animals",
         "line",
         "degree",
-        "now",
+        "best",
+        "sheep",
         "present",
         "breeds"
       ],
@@ -15453,18 +16328,18 @@
         "museum",
         "agricultural",
         "refer",
-        "canada",
-        "agriculture",
-        "usa",
         "edition",
+        "agriculture",
+        "canada",
+        "britannica",
         "egypt",
         "oil",
         "irish",
+        "usa",
         "american",
         "turkey",
         "institution",
-        "britannica",
-        "magazine"
+        "manitoba"
       ],
       "shared_terms": []
     },
@@ -15491,11 +16366,11 @@
         "wikipedia_excerpt": "Agricultural Museum may refer to:\n\nAgricultural museum, the institution where agricultural artifacts are displayed.\n\nIt may also refer to:\n\nAgricultural Museum (periodical), an American agricultural magazine\n\nAdatepe Olive Oil Museum, Turke"
       }
     ],
-    "topic_id": 2,
+    "topic_id": 3,
     "topic_terms": [
-      "water",
-      "acid",
-      "quantity"
+      "upon",
+      "feet",
+      "tree"
     ],
     "claims": [
       {
@@ -15578,24 +16453,24 @@
     "metrics": {
       "jaccard_raw": 0.0578,
       "jaccard_normalized": 0.0577,
-      "cosine_tfidf": 0.0769,
+      "cosine_tfidf": 0.0765,
       "cosine_embedding": 0.2935,
       "distinctive_britannica": [
         "language",
         "letters",
-        "ethiopians",
         "people",
+        "ethiopians",
         "modern",
-        "account",
         "now",
-        "sacred",
+        "account",
         "ancient",
         "concerning",
-        "religion",
-        "call",
+        "sacred",
         "highly",
         "learned",
-        "nations"
+        "call",
+        "religion",
+        "alphabet"
       ],
       "distinctive_wikipedia": [
         "book",
@@ -15603,16 +16478,16 @@
         "century",
         "text",
         "name",
-        "codex",
         "tradition",
-        "son",
-        "lord",
+        "codex",
         "king",
+        "lord",
         "containing",
-        "bce",
+        "son",
         "reign",
-        "prophets",
-        "bible"
+        "bce",
+        "bible",
+        "minor"
       ],
       "shared_terms": [
         "ancient",
@@ -15670,11 +16545,11 @@
         "wikipedia_excerpt": "The original manuscript of this book has been lost. Some early manuscripts containing the text of this book in Hebrew are of the Masoretic Text tradition, which includes the Codex Cairensis (895), the Petersburg Codex of the Prophets (916),"
       }
     ],
-    "topic_id": 5,
+    "topic_id": 6,
     "topic_terms": [
-      "every",
       "people",
-      "upon"
+      "time",
+      "great"
     ],
     "claims": [
       {
@@ -15761,19 +16636,19 @@
     "metrics": {
       "jaccard_raw": 0.013,
       "jaccard_normalized": 0.013,
-      "cosine_tfidf": 0.0995,
+      "cosine_tfidf": 0.1029,
       "cosine_embedding": 0.1684,
       "distinctive_britannica": [
         "history",
         "works",
         "historical",
-        "taste",
         "hindus",
+        "taste",
         "design",
         "art",
+        "architecture",
         "religious",
         "says",
-        "architecture",
         "beauty",
         "many",
         "structures",
@@ -15786,16 +16661,16 @@
         "per",
         "across",
         "launched",
+        "available",
+        "edition",
         "limited",
         "daily",
-        "available",
         "hindi",
-        "edition",
-        "december",
         "major",
         "group",
-        "separate",
-        "named"
+        "key",
+        "apart",
+        "separate"
       ],
       "shared_terms": [
         "according",
@@ -15830,11 +16705,11 @@
         "wikipedia_excerpt": "Hindustan dominates in Bihar with a readership of about 5 million (as per the IRS 2011, Q4). It commands a massive 73% share of the Hindi readership market of Bihar. On 24 April 2018, Hindustan launched its 5th edition in Purnea. On 13 May "
       }
     ],
-    "topic_id": 4,
+    "topic_id": 6,
     "topic_terms": [
-      "blow-pipe",
-      "captain",
-      "flame"
+      "people",
+      "time",
+      "great"
     ],
     "claims": [
       {
@@ -15888,6 +16763,139 @@
     ]
   },
   {
+    "entry_id": "entry-britannica-volume-193819043-row-1845-1845",
+    "britannica_title": "OPTICS and REFRACTION INSTRUMENTS (Plate XVII)",
+    "source_pages": [
+      "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1845"
+    ],
+    "britannica_sha256": "ff59437222194443731943137cd4427ccb89c1d8543e0ffc5a87c62e55df0d6c",
+    "britannica_raw_chars": 706,
+    "britannica_tokens": 70,
+    "britannica_unique_tokens": 50,
+    "wikipedia_page_id": "9004976",
+    "wikipedia_revision_id": "1340071003",
+    "wikipedia_title": "History of the Encyclop\u00e6dia Britannica",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/History_of_the_Encyclop%C3%A6dia_Britannica",
+    "wikipedia_text_sha256": "64dd89242f04b3e591115caca56a86f50c9129e1ec3650be302ee2bca6f05eb1",
+    "wikipedia_raw_chars": 71820,
+    "wikipedia_tokens": 5909,
+    "wikipedia_unique_tokens": 2368,
+    "length_ratio": 101.728,
+    "text_changes": [],
+    "metrics": {
+      "jaccard_raw": 0.0071,
+      "jaccard_normalized": 0.0071,
+      "cosine_tfidf": 0.0108,
+      "cosine_embedding": 0.0809,
+      "distinctive_britannica": [
+        "optics",
+        "fig",
+        "mirror",
+        "optical",
+        "copperplate",
+        "buildings",
+        "engraved",
+        "light",
+        "displaystyle",
+        "system",
+        "figures",
+        "instruments",
+        "physical",
+        "magnetic",
+        "refraction"
+      ],
+      "distinctive_wikipedia": [
+        "edition",
+        "britannica",
+        "articles",
+        "volumes",
+        "pages",
+        "dia",
+        "volume",
+        "supplement",
+        "article",
+        "encyclopedia",
+        "published",
+        "third",
+        "encyclop",
+        "page",
+        "fourth"
+      ],
+      "shared_terms": [
+        "astronomy",
+        "copperplate",
+        "description",
+        "engraved",
+        "engraving",
+        "figures",
+        "historical",
+        "identified",
+        "light",
+        "mirror",
+        "optical",
+        "optics",
+        "plate",
+        "related",
+        "scientific",
+        "subjects",
+        "system"
+      ]
+    },
+    "aligned_chunks": [
+      {
+        "britannica_chunk_index": 0,
+        "wikipedia_chunk_index": 55,
+        "similarity": 0.2435,
+        "britannica_excerpt": "XVII.\n\n[HISTORICAL COPPERPLATE ENGRAVING: OPTICS and REFRACTION INSTRUMENTS (Plate XVII)]\n\nCategory: Physical Optics and Astronomy\n\nVisual Description: Engraved copperplate illustrating optical refraction, ray tracing through convex and con",
+        "wikipedia_excerpt": "venth edition. Mathematical diagrams and illustrations were made from woodcuts, and for the first time in Britannica's history, were printed on the same pages as the text, in addition to the copperplates."
+      }
+    ],
+    "topic_id": 5,
+    "topic_terms": [
+      "rays",
+      "water",
+      "fig"
+    ],
+    "claims": [
+      {
+        "claim_text": "The Britannica entry \"OPTICS and REFRACTION INSTRUMENTS (Plate XVII)\" uses 70 content tokens while the Wikipedia article \"History of the Encyclop\u00e6dia Britannica\" uses 5909; their normalized vocabularies share a Jaccard overlap of 0.0071 (raw 0.0071) and a TF-IDF cosine similarity of 0.0108.",
+        "claim_type": "factual",
+        "label": "[factual]",
+        "britannica_pages": [
+          "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1845"
+        ],
+        "britannica_quote": "XVII.\n\n[HISTORICAL COPPERPLATE ENGRAVING: OPTICS and REFRACTION INSTRUMENTS (Plate XVII)]\nCategory: Physical Optics and Astronomy\nVisual Description: Engraved copperplate illustrating optical refraction, ray tracing through convex and conca",
+        "wikipedia_page_id": "9004976",
+        "wikipedia_revision_id": "1340071003",
+        "wikipedia_quote": "The Encyclop\u00e6dia Britannica has been published continuously since 1768, appearing in fifteen official editions. Several editions were amended with multi-volume \"supplements\" (3rd, 4th/5th/6th), several consisted of previous editions with ad"
+      },
+      {
+        "claim_text": "Britannica's most distinctive term is \"optics\"; Wikipedia's is \"edition\", showing the era-specific vocabulary of each source.",
+        "claim_type": "factual",
+        "label": "[factual]",
+        "britannica_pages": [
+          "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1845"
+        ],
+        "britannica_quote": "[HISTORICAL COPPERPLATE ENGRAVING: OPTICS and REFRACTION INSTRUMENTS (Plate XVII)]",
+        "wikipedia_page_id": "9004976",
+        "wikipedia_revision_id": "1340071003",
+        "wikipedia_quote": "The Encyclop\u00e6dia Britannica has been published continuously since 1768, appearing in fifteen official editions."
+      },
+      {
+        "claim_text": "Both sources share core vocabulary including: astronomy, copperplate, description, engraved, engraving.",
+        "claim_type": "factual",
+        "label": "[factual]",
+        "britannica_pages": [
+          "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1845"
+        ],
+        "britannica_quote": "Category: Physical Optics and Astronomy",
+        "wikipedia_page_id": "9004976",
+        "wikipedia_revision_id": "1340071003",
+        "wikipedia_quote": "Its illustrious contributors are legion, including Baden Baden-Powell writing on kite-flying; Arthur Eddington on astronomy; Edmund Gosse on literature and Donald Tovey on music."
+      }
+    ]
+  },
+  {
     "entry_id": "entry-weights-and-measures-104",
     "britannica_title": "WEIGHTS AND MEASURES",
     "source_pages": [
@@ -15920,7 +16928,7 @@
     "metrics": {
       "jaccard_raw": 0.0726,
       "jaccard_normalized": 0.0726,
-      "cosine_tfidf": 0.1373,
+      "cosine_tfidf": 0.1363,
       "cosine_embedding": 0.4205,
       "distinctive_britannica": [
         "brit",
@@ -15932,12 +16940,12 @@
         "measures",
         "nearly",
         "contains",
-        "explained",
-        "feet",
-        "latter",
-        "make",
         "commercial",
-        "gold"
+        "explained",
+        "college",
+        "feet",
+        "make",
+        "latter"
       ],
       "distinctive_wikipedia": [
         "litre",
@@ -15951,10 +16959,10 @@
         "decimetre",
         "often",
         "letter",
-        "symbol",
         "countries",
-        "defined",
-        "exactly"
+        "exactly",
+        "symbol",
+        "commonly"
       ],
       "shared_terms": [
         "allow",
@@ -16012,11 +17020,11 @@
         "wikipedia_excerpt": "The CJK Compatibility block also includes U+3351 \u3351 SQUARE RITTORU corresponding to \u30ea\u30c3\u30c8\u30eb rittoru, Japanese for 'litre'.\n\nThe first name of the litre was \"Cadil\"; standards are shown at the Mus\u00e9e des Arts et M\u00e9tiers in Paris.\n\nThe litre was i"
       }
     ],
-    "topic_id": 7,
+    "topic_id": 2,
     "topic_terms": [
       "see",
-      "upon",
-      "great"
+      "brit",
+      "upon"
     ],
     "claims": [
       {
@@ -16106,20 +17114,20 @@
       "cosine_embedding": -0.0296,
       "distinctive_britannica": [
         "henry",
-        "paris",
         "life",
+        "paris",
         "death",
         "written",
         "author",
-        "years",
         "history",
+        "years",
         "church",
         "public",
         "nearly",
         "engaged",
-        "macedonia",
-        "accepted",
-        "miles"
+        "remains",
+        "wife",
+        "assisted"
       ],
       "distinctive_wikipedia": [
         "king",
@@ -16127,15 +17135,15 @@
         "neomirandea",
         "less",
         "american",
-        "family",
+        "edition",
         "species",
-        "central",
+        "family",
         "south",
+        "central",
         "genus",
         "plants",
-        "tribe",
         "britannica",
-        "edition",
+        "tribe",
         "dillon"
       ],
       "shared_terms": [
@@ -16165,11 +17173,11 @@
         "wikipedia_excerpt": "Neomirandea gracilis R.M.King & H.Rob.\n\nNeomirandea grosvenorii R.M.King & H.Rob.\n\nNeomirandea guevarii R.M.King & H.Rob.\n\nNeomirandea homogama (Hieron.) H.Rob. & Brettell\n\nNeomirandea ovandensis R.M.King & H.Rob.\n\nNeomirandea panamensis R."
       }
     ],
-    "topic_id": 7,
+    "topic_id": 2,
     "topic_terms": [
       "see",
-      "upon",
-      "great"
+      "brit",
+      "upon"
     ],
     "claims": [
       {
@@ -16255,24 +17263,24 @@
     "metrics": {
       "jaccard_raw": 0.0078,
       "jaccard_normalized": 0.0078,
-      "cosine_tfidf": 0.0258,
+      "cosine_tfidf": 0.0272,
       "cosine_embedding": 0.0444,
       "distinctive_britannica": [
         "system",
         "upper",
         "part",
         "manner",
-        "ship",
         "several",
         "direction",
         "lower",
-        "frame",
+        "ship",
         "side",
-        "edge",
-        "various",
+        "frame",
         "form",
+        "various",
         "point",
-        "base"
+        "edge",
+        "parts"
       ],
       "distinctive_wikipedia": [
         "buildings",
@@ -16282,14 +17290,14 @@
         "nottingham",
         "south",
         "east",
-        "west",
         "north",
+        "west",
         "historical",
         "interest",
         "grade",
-        "cum",
         "national",
-        "consists"
+        "consists",
+        "cum"
       ],
       "shared_terms": [
         "building",
@@ -16323,11 +17331,11 @@
         "wikipedia_excerpt": "Listed buildings in Shireoaks\n\nListed buildings in South Leverton\n\nListed buildings in Stokeham\n\nListed buildings in Sturton le Steeple\n\nListed buildings in Styrrup with Oldcotes\n\nListed buildings in Sutton cum Lound\n\nListed buildings in To"
       }
     ],
-    "topic_id": 5,
+    "topic_id": 6,
     "topic_terms": [
-      "every",
       "people",
-      "upon"
+      "time",
+      "great"
     ],
     "claims": [
       {
@@ -16454,37 +17462,37 @@
       "cosine_embedding": 0.0426,
       "distinctive_britannica": [
         "without",
-        "arabia",
         "mankind",
-        "arabian",
+        "arabia",
         "war",
-        "freedom",
-        "blood",
-        "heart",
-        "nation",
-        "familiar",
+        "arabian",
         "mult",
+        "blood",
         "character",
-        "spirit",
-        "princes",
-        "divided"
+        "heart",
+        "familiar",
+        "freedom",
+        "nation",
+        "sew",
+        "divided",
+        "influence"
       ],
       "distinctive_wikipedia": [
-        "text",
         "century",
+        "text",
         "dated",
         "contains",
         "family",
         "page",
         "manuscript",
         "codex",
+        "edition",
         "tables",
-        "luke",
         "chapters",
-        "parchment",
-        "minuscule",
-        "lines",
-        "letters"
+        "luke",
+        "placed",
+        "size",
+        "method"
       ],
       "shared_terms": [
         "according",
@@ -16521,11 +17529,11 @@
         "wikipedia_excerpt": "The Greek text of the codex is a representative of the Byzantine text-type. Aland placed it in Category V. According to the Claremont Profile Method it belongs to the textual family K r in Luke 1. In Luke 10 and Luke 20 it represents textua"
       }
     ],
-    "topic_id": 5,
+    "topic_id": 6,
     "topic_terms": [
-      "every",
       "people",
-      "upon"
+      "time",
+      "great"
     ],
     "claims": [
       {
@@ -16611,41 +17619,41 @@
     "metrics": {
       "jaccard_raw": 0.0096,
       "jaccard_normalized": 0.0096,
-      "cosine_tfidf": 0.0358,
+      "cosine_tfidf": 0.035,
       "cosine_embedding": 0.1356,
       "distinctive_britannica": [
-        "nazareth",
         "called",
         "church",
         "city",
+        "nazareth",
         "north",
         "large",
         "island",
-        "miles",
         "several",
+        "miles",
+        "life",
         "wall",
         "shown",
-        "life",
         "prophets",
-        "buckingham",
-        "service"
+        "hall",
+        "laid"
       ],
       "distinctive_wikipedia": [
+        "edition",
         "iran",
         "naz",
-        "edition",
-        "refer",
+        "britannica",
         "former",
+        "refer",
+        "plant",
         "dutch",
         "province",
         "range",
-        "plant",
-        "mountain",
         "japanese",
+        "mountain",
         "switzerland",
         "persian",
-        "britannica",
-        "automobile"
+        "healthcare"
       ],
       "shared_terms": [
         "islands",
@@ -16678,10 +17686,10 @@
         "wikipedia_excerpt": "Naz or NAZ may refer to:\n\nNaz (name)\n\nNAZ (studio), Japanese animation studio\n\nNaz, Iran, a village in Hormozgan Province, Iran\n\nNaz, Vaud, a former municipality in the canton of Vaud, Switzerland\n\nNaaz islands, a set of tidal islands in th"
       }
     ],
-    "topic_id": 5,
+    "topic_id": 2,
     "topic_terms": [
-      "every",
-      "people",
+      "see",
+      "brit",
       "upon"
     ],
     "claims": [

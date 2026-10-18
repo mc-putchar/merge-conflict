@@ -65,7 +65,7 @@
   "metrics": {
     "jaccard_raw": 0.0387,
     "jaccard_normalized": 0.0409,
-    "cosine_tfidf": 0.2869,
+    "cosine_tfidf": 0.2907,
     "cosine_embedding": 0.1669,
     "distinctive_britannica": [
       "acid",
@@ -74,32 +74,32 @@
       "heat",
       "formed",
       "air",
-      "magnella",
-      "fall",
       "earth",
-      "cold",
       "gas",
       "form",
+      "cold",
+      "fall",
+      "magnella",
       "off",
-      "remains",
-      "either"
+      "either",
+      "behind"
     ],
     "distinctive_wikipedia": [
       "nitrification",
-      "process",
       "ammonia",
+      "process",
       "oxidation",
+      "nitrate",
       "nitrite",
       "bacteria",
       "amo",
       "step",
-      "nitrate",
       "soil",
       "compounds",
-      "nitrogen",
       "production",
-      "inhibitors",
-      "aob"
+      "nitrogen",
+      "product",
+      "inhibitors"
     ],
     "shared_terms": [
       "acid",
@@ -157,11 +157,11 @@
       "wikipedia_excerpt": "The idea that oxidation of ammonia to nitrate is in fact a biological process was first given by Louis Pasteur in 1862. Later in 1875, Alexander Müller, while conducting a quality assessment of water from wells in Berlin, noted that ammoniu"
     }
   ],
-  "topic_id": 2,
+  "topic_id": 5,
   "topic_terms": [
+    "rays",
     "water",
-    "acid",
-    "quantity"
+    "fig"
   ],
   "claims": [
     {

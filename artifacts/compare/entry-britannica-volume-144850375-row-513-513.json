@@ -104,7 +104,7 @@
   "metrics": {
     "jaccard_raw": 0.0096,
     "jaccard_normalized": 0.0096,
-    "cosine_tfidf": 0.0351,
+    "cosine_tfidf": 0.0342,
     "cosine_embedding": -0.0264,
     "distinctive_britannica": [
       "king",
@@ -113,15 +113,15 @@
       "money",
       "death",
       "promised",
-      "put",
       "take",
-      "crown",
+      "put",
       "england",
+      "crown",
       "without",
       "right",
-      "barons",
-      "holy",
-      "hands"
+      "father",
+      "military",
+      "accepted"
     ],
     "distinctive_wikipedia": [
       "encyclopedia",
@@ -131,13 +131,13 @@
       "encyclop",
       "dia",
       "editor-in-chief",
-      "editor",
-      "smellie",
+      "edition",
       "reference",
+      "smellie",
+      "editor",
       "current",
       "volumes",
       "physical",
-      "edition",
       "jason"
     ],
     "shared_terms": [
@@ -171,11 +171,11 @@
       "wikipedia_excerpt": "The Encyclopædia Britannica is an English-language general reference encyclopedia, published since 1768. The Britannica was first published in Edinburgh, Scotland, in three volumes, with printer William Smellie serving as its principal edit"
     }
   ],
-  "topic_id": 7,
+  "topic_id": 2,
   "topic_terms": [
     "see",
-    "upon",
-    "great"
+    "brit",
+    "upon"
   ],
   "claims": [
     {

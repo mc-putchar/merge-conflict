@@ -20,7 +20,8 @@ def test_offline_doctor_needs_no_secrets_or_network(monkeypatch, capsys):
     assert main(["doctor", "--offline"]) == 0
     data = json.loads(capsys.readouterr().out)
     assert data["inference"] == "not tested"
-    assert data["challenge_stages"] == "not implemented"
+    assert set(data["challenge_stages"]) == {"extract", "match", "compare", "agent", "site", "evaluate"}
+    assert all(s in {"todo", "implemented", "completed"} for s in data["challenge_stages"].values())
     assert all(row["status"] == "not_tested" for row in data["checks"] if "configured" in row)
 
 
@@ -33,12 +34,44 @@ def test_live_doctor_reports_missing_resources(monkeypatch):
     assert report["inference"] == "not tested"
 
 
-@pytest.mark.parametrize("stage", ["site", "evaluate"])
-def test_unfinished_stage_fails_with_guide_and_creates_no_result(stage, tmp_path, capsys):
-    path = tmp_path / "team-artifacts"
-    assert main(["run", stage, "--work-dir", str(path)]) == 2
-    assert f"docs/milestones.md#{stage}" in capsys.readouterr().err
-    assert not path.exists()
+def test_site_stage_execution(tmp_path, monkeypatch):
+    artifacts_path = tmp_path / "artifacts"
+    extract_dir = artifacts_path / "extract"
+    extract_dir.mkdir(parents=True, exist_ok=True)
+    sample_entries = [
+        {
+            "entry_id": "test-entry-site",
+            "title": "ABYSSINIA",
+            "text": "Historical text on Abyssinia.",
+            "source_pages": ["britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:13"],
+            "source_row_indices": [13],
+            "volume_id": "193913444",
+            "is_continuation": False,
+            "block_count": 1,
+            "character_count": 28,
+        }
+    ]
+    (extract_dir / "entries.json").write_text(json.dumps(sample_entries), encoding="utf-8")
+    db_path = tmp_path / "test.lancedb"
+    monkeypatch.setenv("CHALLENGE_DB_PATH", str(db_path))
+
+    assert main(["run", "site", "--work-dir", str(artifacts_path)]) == 0
+    assert (artifacts_path / "site" / "index.html").is_file()
+    assert (artifacts_path / "site" / "latex" / "test-entry-site.tex").is_file()
+    assert "ABYSSINIA" in (artifacts_path / "site" / "latex" / "test-entry-site.tex").read_text()
+
+
+def test_evaluate_stage_execution(tmp_path, monkeypatch):
+    artifacts_path = tmp_path / "artifacts"
+    eval_dir = artifacts_path / "evaluate"
+    db_path = tmp_path / "test.lancedb"
+    monkeypatch.setenv("CHALLENGE_DB_PATH", str(db_path))
+
+    assert main(["run", "evaluate", "--work-dir", str(artifacts_path)]) == 0
+    assert (eval_dir / "submission.md").is_file()
+    assert (eval_dir / "case-study-cs-success-01.md").is_file()
+    assert (eval_dir / "case-study-cs-failure-01.md").is_file()
+
 
 
 def test_extract_stage_with_mocked_parse(monkeypatch, tmp_path):
@@ -302,10 +335,20 @@ def test_agent_stage_execution(monkeypatch, tmp_path):
     assert detail["tool_uses"][0]["name"] == "challenge_compare"
 
 
-def test_stages_list_has_todos(capsys):
-    assert main(["stages"]) == 0
+def test_stages_report_implementation_and_run_status(capsys, tmp_path):
+    assert main(["stages", "--work-dir", str(tmp_path)]) == 0
     rows = json.loads(capsys.readouterr().out)
-    assert len(rows) == 6 and all(row["status"] == "TODO" for row in rows)
+    assert len(rows) == 6
+    assert all(row["status"] == "implemented" for row in rows)
+    assert all(row["guide"] == f"docs/milestones.md#{row['stage']}" for row in rows)
+
+    sentinel = tmp_path / "extract" / "entries.json"
+    sentinel.parent.mkdir(parents=True)
+    sentinel.write_text("[]", encoding="utf-8")
+    assert main(["stages", "--work-dir", str(tmp_path)]) == 0
+    by_stage = {row["stage"]: row for row in json.loads(capsys.readouterr().out)}
+    assert by_stage["extract"]["status"] == "completed"
+    assert by_stage["match"]["status"] == "implemented"
 
 
 def test_keys_are_not_exposed_by_settings_repr():

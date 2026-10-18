@@ -98,24 +98,24 @@
   "metrics": {
     "jaccard_raw": 0.0558,
     "jaccard_normalized": 0.0581,
-    "cosine_tfidf": 0.1167,
+    "cosine_tfidf": 0.1139,
     "cosine_embedding": 0.3182,
     "distinctive_britannica": [
       "action",
       "upon",
-      "mult",
       "without",
+      "mult",
       "writing",
-      "fame",
       "days",
+      "fame",
       "actions",
       "several",
-      "defender",
       "writings",
-      "process",
       "certain",
+      "process",
       "case",
-      "pronounced"
+      "full",
+      "defender"
     ],
     "distinctive_wikipedia": [
       "judgment",
@@ -123,16 +123,16 @@
       "summons",
       "payment",
       "obtained",
-      "rules",
       "made",
+      "rules",
       "civil",
-      "procedure",
       "six",
       "issue",
-      "commitment",
-      "extreme",
+      "procedure",
+      "instalments",
       "act",
-      "weeks"
+      "weeks",
+      "commitment"
     ],
     "shared_terms": [
       "actions",
@@ -188,11 +188,11 @@
       "wikipedia_excerpt": "Imprisonment does not operate as a satisfaction or extinguishment of a debt, or deprive a person of a right of execution against the land or goods of the person imprisoned in the same manner as there had been no imprisonment. In this regard"
     }
   ],
-  "topic_id": 7,
+  "topic_id": 2,
   "topic_terms": [
     "see",
-    "upon",
-    "great"
+    "brit",
+    "upon"
   ],
   "claims": [
     {

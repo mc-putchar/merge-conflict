@@ -62,29 +62,39 @@
       "samples": [
         "Re-holone the fun of Solomon. Ot"
       ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "ref",
+      "replacement": "res",
+      "count": 2,
+      "samples": [
+        "e other on the Ref Sea. The half",
+        "coasts of the Ref Sea, , but its"
+      ]
     }
   ],
   "metrics": {
     "jaccard_raw": 0.002,
     "jaccard_normalized": 0.002,
     "cosine_tfidf": 0.0026,
-    "cosine_embedding": 0.0429,
+    "cosine_embedding": 0.0423,
     "distinctive_britannica": [
       "part",
       "whole",
       "people",
-      "egypt",
-      "whether",
       "great",
+      "whether",
+      "egypt",
       "land",
       "sea",
-      "continent",
       "against",
-      "expedition",
       "country",
-      "egyptians",
+      "continent",
       "way",
-      "father"
+      "expedition",
+      "egyptians",
+      "time"
     ],
     "distinctive_wikipedia": [
       "work",
@@ -95,13 +105,13 @@
       "published",
       "referred",
       "violin",
-      "minor",
-      "thought",
-      "music",
-      "scholars",
       "contain",
+      "music",
       "appears",
-      "similar"
+      "thought",
+      "similar",
+      "minor",
+      "scholars"
     ],
     "shared_terms": [
       "however"
@@ -130,11 +140,11 @@
       "wikipedia_excerpt": "(Movements do not contain repeat markings unless indicated. The number of bars is taken from the Chrysander edition, and is the raw number in the manuscript—not including repeat markings.)"
     }
   ],
-  "topic_id": 5,
+  "topic_id": 6,
   "topic_terms": [
-    "every",
     "people",
-    "upon"
+    "time",
+    "great"
   ],
   "claims": [
     {

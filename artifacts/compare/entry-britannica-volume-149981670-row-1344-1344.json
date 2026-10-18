@@ -242,19 +242,19 @@
     "cosine_embedding": 0.0031,
     "distinctive_britannica": [
       "see",
+      "upon",
       "horfe",
       "four",
       "called",
-      "upon",
       "fall",
-      "horas",
       "eye",
-      "fixed",
-      "value",
-      "feet",
       "time",
-      "alo",
+      "fixed",
+      "feet",
+      "value",
+      "horas",
       "mull",
+      "alo",
       "five"
     ],
     "distinctive_wikipedia": [
@@ -264,15 +264,15 @@
       "encyclop",
       "dia",
       "editor-in-chief",
-      "editor",
-      "smellie",
       "reference",
+      "smellie",
+      "edition",
+      "editor",
       "general",
-      "william",
       "current",
+      "william",
       "since",
-      "volumes",
-      "physical"
+      "volumes"
     ],
     "shared_terms": [
       "since",
@@ -302,11 +302,11 @@
       "wikipedia_excerpt": "The Encyclopædia Britannica is an English-language general reference encyclopedia, published since 1768. The Britannica was first published in Edinburgh, Scotland, in three volumes, with printer William Smellie serving as its principal edit"
     }
   ],
-  "topic_id": 7,
+  "topic_id": 3,
   "topic_terms": [
-    "see",
     "upon",
-    "great"
+    "feet",
+    "tree"
   ],
   "claims": [
     {

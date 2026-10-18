@@ -1,0 +1,131 @@
+{
+  "entry_id": "entry-britannica-volume-144133901-row-2209-2209",
+  "britannica_title": "BOTANY and HERBAL ANATOMY (Plate XLVI)",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2209"
+  ],
+  "britannica_sha256": "004d9b23a0a9758fffc20e6dfa33dbc5e79d845302429f5885b7e5b2d8457268",
+  "britannica_raw_chars": 640,
+  "britannica_tokens": 67,
+  "britannica_unique_tokens": 48,
+  "wikipedia_page_id": "9004976",
+  "wikipedia_revision_id": "1340071003",
+  "wikipedia_title": "History of the Encyclopædia Britannica",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/History_of_the_Encyclop%C3%A6dia_Britannica",
+  "wikipedia_text_sha256": "64dd89242f04b3e591115caca56a86f50c9129e1ec3650be302ee2bca6f05eb1",
+  "wikipedia_raw_chars": 71820,
+  "wikipedia_tokens": 5909,
+  "wikipedia_unique_tokens": 2368,
+  "length_ratio": 112.219,
+  "text_changes": [],
+  "metrics": {
+    "jaccard_raw": 0.0062,
+    "jaccard_normalized": 0.0062,
+    "cosine_tfidf": 0.0138,
+    "cosine_embedding": 0.1195,
+    "distinctive_britannica": [
+      "plant",
+      "botany",
+      "fig",
+      "engraving",
+      "copperplate",
+      "buildings",
+      "plate",
+      "displaystyle",
+      "figures",
+      "magnetic",
+      "style",
+      "frac",
+      "anatomy",
+      "midwives",
+      "field"
+    ],
+    "distinctive_wikipedia": [
+      "edition",
+      "britannica",
+      "articles",
+      "volumes",
+      "pages",
+      "dia",
+      "volume",
+      "supplement",
+      "article",
+      "encyclopedia",
+      "published",
+      "third",
+      "encyclop",
+      "page",
+      "fourth"
+    ],
+    "shared_terms": [
+      "botany",
+      "complete",
+      "copperplate",
+      "description",
+      "engraved",
+      "engraving",
+      "figures",
+      "historical",
+      "identified",
+      "plant",
+      "plate",
+      "related",
+      "scientific",
+      "style",
+      "subjects"
+    ]
+  },
+  "aligned_chunks": [
+    {
+      "britannica_chunk_index": 0,
+      "wikipedia_chunk_index": 6,
+      "similarity": 0.3348,
+      "britannica_excerpt": "Plate. XLVI\n\n[HISTORICAL COPPERPLATE ENGRAVING: BOTANY and HERBAL ANATOMY (Plate XLVI)]\n\nCategory: Botany and Plant Morphology\n\nVisual Description: Detailed botanical copperplate engraving detailing plant reproductive organs, Linnaean flora",
+      "wikipedia_excerpt": " also featured 160 copperplate illustrations engraved by Bell. Three of the engravings in the section on midwifery, depicting childbirth in clinical detail, were sufficiently shocking to prompt some readers to tear those engravings out of t"
+    }
+  ],
+  "topic_id": 5,
+  "topic_terms": [
+    "rays",
+    "water",
+    "fig"
+  ],
+  "claims": [
+    {
+      "claim_text": "The Britannica entry \"BOTANY and HERBAL ANATOMY (Plate XLVI)\" uses 67 content tokens while the Wikipedia article \"History of the Encyclopædia Britannica\" uses 5909; their normalized vocabularies share a Jaccard overlap of 0.0062 (raw 0.0062) and a TF-IDF cosine similarity of 0.0138.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2209"
+      ],
+      "britannica_quote": "Plate. XLVI\n\n[HISTORICAL COPPERPLATE ENGRAVING: BOTANY and HERBAL ANATOMY (Plate XLVI)]\nCategory: Botany and Plant Morphology\nVisual Description: Detailed botanical copperplate engraving detailing plant reproductive organs, Linnaean floral ",
+      "wikipedia_page_id": "9004976",
+      "wikipedia_revision_id": "1340071003",
+      "wikipedia_quote": "The Encyclopædia Britannica has been published continuously since 1768, appearing in fifteen official editions. Several editions were amended with multi-volume \"supplements\" (3rd, 4th/5th/6th), several consisted of previous editions with ad"
+    },
+    {
+      "claim_text": "Britannica's most distinctive term is \"plant\"; Wikipedia's is \"edition\", showing the era-specific vocabulary of each source.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2209"
+      ],
+      "britannica_quote": "Category: Botany and Plant Morphology",
+      "wikipedia_page_id": "9004976",
+      "wikipedia_revision_id": "1340071003",
+      "wikipedia_quote": "The Encyclopædia Britannica has been published continuously since 1768, appearing in fifteen official editions."
+    },
+    {
+      "claim_text": "Both sources share core vocabulary including: botany, complete, copperplate, description, engraved.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2209"
+      ],
+      "britannica_quote": "[HISTORICAL COPPERPLATE ENGRAVING: BOTANY and HERBAL ANATOMY (Plate XLVI)]",
+      "wikipedia_page_id": "9004976",
+      "wikipedia_revision_id": "1340071003",
+      "wikipedia_quote": "For example, the 56-page \"Botany\" of the third edition was replaced in the fourth with a 270-page version by moving all the individual plant articles into one."
+    }
+  ]
+}

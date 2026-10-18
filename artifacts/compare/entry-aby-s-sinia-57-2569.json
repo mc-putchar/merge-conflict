@@ -41,41 +41,41 @@
   "metrics": {
     "jaccard_raw": 0.0043,
     "jaccard_normalized": 0.0043,
-    "cosine_tfidf": 0.0214,
+    "cosine_tfidf": 0.0222,
     "cosine_embedding": 0.0183,
     "distinctive_britannica": [
       "time",
       "people",
       "death",
-      "ethiopian",
-      "himself",
       "country",
-      "principal",
+      "himself",
+      "ethiopian",
       "already",
       "mentioned",
+      "principal",
+      "according",
       "army",
       "christians",
-      "according",
-      "war",
-      "arabian",
-      "arabia"
+      "family",
+      "come",
+      "however"
     ],
     "distinctive_wikipedia": [
       "edition",
+      "britannica",
       "average",
       "mavri",
-      "britannica",
-      "metres",
-      "schinia",
       "sea",
-      "point",
       "around",
+      "point",
       "south",
-      "east",
-      "west",
       "january",
+      "east",
+      "metres",
       "level",
-      "larger"
+      "west",
+      "month",
+      "community"
     ],
     "shared_terms": [
       "highest",
@@ -106,11 +106,11 @@
       "wikipedia_excerpt": "Mavri Sinia or Mavri Schinia is a mountain in Neo Chorio in the Paphos District of Cyprus. Its peak elevation is 429 metres (1,407 ft) above sea level. The terrain around Mavri Schinia is hilly on the east, but flat in the west and the sea "
     }
   ],
-  "topic_id": 5,
+  "topic_id": 6,
   "topic_terms": [
-    "every",
     "people",
-    "upon"
+    "time",
+    "great"
   ],
   "claims": [
     {

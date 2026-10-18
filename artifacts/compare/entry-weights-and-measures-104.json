@@ -31,7 +31,7 @@
   "metrics": {
     "jaccard_raw": 0.0726,
     "jaccard_normalized": 0.0726,
-    "cosine_tfidf": 0.1373,
+    "cosine_tfidf": 0.1363,
     "cosine_embedding": 0.4205,
     "distinctive_britannica": [
       "brit",
@@ -43,12 +43,12 @@
       "measures",
       "nearly",
       "contains",
-      "explained",
-      "feet",
-      "latter",
-      "make",
       "commercial",
-      "gold"
+      "explained",
+      "college",
+      "feet",
+      "make",
+      "latter"
     ],
     "distinctive_wikipedia": [
       "litre",
@@ -62,10 +62,10 @@
       "decimetre",
       "often",
       "letter",
-      "symbol",
       "countries",
-      "defined",
-      "exactly"
+      "exactly",
+      "symbol",
+      "commonly"
     ],
     "shared_terms": [
       "allow",
@@ -123,11 +123,11 @@
       "wikipedia_excerpt": "The CJK Compatibility block also includes U+3351 ㍑ SQUARE RITTORU corresponding to リットル rittoru, Japanese for 'litre'.\n\nThe first name of the litre was \"Cadil\"; standards are shown at the Musée des Arts et Métiers in Paris.\n\nThe litre was i"
     }
   ],
-  "topic_id": 7,
+  "topic_id": 2,
   "topic_terms": [
     "see",
-    "upon",
-    "great"
+    "brit",
+    "upon"
   ],
   "claims": [
     {

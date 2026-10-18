@@ -31,24 +31,24 @@
   "metrics": {
     "jaccard_raw": 0.0178,
     "jaccard_normalized": 0.0178,
-    "cosine_tfidf": 0.2361,
+    "cosine_tfidf": 0.2457,
     "cosine_embedding": 0.1312,
     "distinctive_britannica": [
       "government",
       "french",
       "character",
-      "conduct",
       "house",
       "egypt",
+      "conduct",
       "principle",
+      "country",
       "circumstances",
+      "war",
       "boaparate",
       "restoration",
-      "country",
-      "war",
-      "ministers",
+      "treat",
       "support",
-      "treat"
+      "ten"
     ],
     "distinctive_wikipedia": [
       "list",
@@ -56,16 +56,16 @@
       "ambassadors",
       "united",
       "kingdom",
-      "refer",
+      "edition",
       "south",
       "england",
-      "edition",
+      "refer",
       "japan",
+      "britannica",
       "greece",
       "germany",
       "canada",
-      "italy",
-      "lists"
+      "italy"
     ],
     "shared_terms": [
       "austria",
@@ -102,10 +102,10 @@
       "wikipedia_excerpt": "List of ambassadors of France to the Kingdom of Great Britain\n\nList of ambassadors of France to the United Kingdom\n\nList of ambassadors of France to the United States"
     }
   ],
-  "topic_id": 7,
+  "topic_id": 6,
   "topic_terms": [
-    "see",
-    "upon",
+    "people",
+    "time",
     "great"
   ],
   "claims": [

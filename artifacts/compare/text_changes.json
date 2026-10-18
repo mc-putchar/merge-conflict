@@ -292,6 +292,16 @@
   {
     "entry_id": "entry-nates-fine-feminine-facets-2448",
     "rule": "ocr_f_s_confusion",
+    "original": "pafs",
+    "replacement": "pass",
+    "count": 1,
+    "samples": [
+      "mudded in the pafs / Originals du"
+    ]
+  },
+  {
+    "entry_id": "entry-nates-fine-feminine-facets-2448",
+    "rule": "ocr_f_s_confusion",
     "original": "raife",
     "replacement": "raise",
     "count": 1,
@@ -349,6 +359,16 @@
     "samples": [
       "ed. The fecond fort of cabbals, ca",
       "ise, a certain fort of magic is, b"
+    ]
+  },
+  {
+    "entry_id": "entry-c-a-b-2-c-a-b-2464",
+    "rule": "ocr_f_s_confusion",
+    "original": "pafs",
+    "replacement": "pass",
+    "count": 1,
+    "samples": [
+      "ns endeavor to pafs them off one w"
     ]
   },
   {
@@ -2990,6 +3010,17 @@
     ]
   },
   {
+    "entry_id": "entry-egy-368-e-g-y-1430",
+    "rule": "ocr_f_s_confusion",
+    "original": "ref",
+    "replacement": "res",
+    "count": 2,
+    "samples": [
+      "e other on the Ref Sea. The half",
+      "coasts of the Ref Sea, , but its"
+    ]
+  },
+  {
     "entry_id": "entry-e-s-s-729-e-s-s-1466",
     "rule": "archaic_spelling",
     "original": "colour",
@@ -3261,6 +3292,17 @@
     "count": 1,
     "samples": [
       "the party. If lifted this is wet, t"
+    ]
+  },
+  {
+    "entry_id": "entry-eschalot-or-shallot-see-alum-1473",
+    "rule": "ocr_f_s_confusion",
+    "original": "pafs",
+    "replacement": "pass",
+    "count": 2,
+    "samples": [
+      "th ladders, to pafs the\nditch or m",
+      "re prepared to pafs the ditch,\ncli"
     ]
   },
   {
@@ -4595,6 +4637,16 @@
   {
     "entry_id": "entry-exe-375-exe-1805",
     "rule": "ocr_f_s_confusion",
+    "original": "fanc",
+    "replacement": "sanc",
+    "count": 1,
+    "samples": [
+      "llowed to take fanc-tany and abqui"
+    ]
+  },
+  {
+    "entry_id": "entry-exe-375-exe-1805",
+    "rule": "ocr_f_s_confusion",
     "original": "finging",
     "replacement": "singing",
     "count": 2,
@@ -5127,6 +5179,16 @@
     "samples": [
       "Y.\n\nThe second fort is of those wh",
       "n.?\n\nThe third fort conflicts of t"
+    ]
+  },
+  {
+    "entry_id": "entry-chapii-of-the-source-of-wealth-383",
+    "rule": "ocr_f_s_confusion",
+    "original": "fure",
+    "replacement": "sure",
+    "count": 1,
+    "samples": [
+      "ice of grain a fure standard for t"
     ]
   },
   {

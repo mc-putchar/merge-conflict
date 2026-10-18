@@ -21,41 +21,41 @@
   "metrics": {
     "jaccard_raw": 0.0142,
     "jaccard_normalized": 0.0142,
-    "cosine_tfidf": 0.0862,
+    "cosine_tfidf": 0.0881,
     "cosine_embedding": 0.1357,
     "distinctive_britannica": [
       "nature",
       "objects",
-      "object",
       "therefore",
-      "sound",
+      "object",
       "beauty",
       "feeling",
+      "sound",
       "even",
       "produced",
       "little",
       "mind",
-      "emotions",
       "every",
-      "feelings",
-      "however"
+      "however",
+      "emotions",
+      "others"
     ],
     "distinctive_wikipedia": [
       "beautiful",
       "song",
-      "album",
       "title",
+      "album",
       "film",
       "directed",
       "music",
       "king",
       "american",
+      "band",
       "park",
       "musical",
-      "band",
       "paul",
       "ladies",
-      "lightfoot"
+      "green"
     ],
     "shared_terms": [
       "another",
@@ -92,11 +92,11 @@
       "wikipedia_excerpt": "\"Beautiful\", by Mandalay from Empathy, 1998\n\n\"Beautiful\", by Marillion from Afraid of Sunlight, 1995\n\n\"Beautiful\", by Matt Darey, 2002\n\n\"Beautiful\", by Michelle Williams from Journey to Freedom, 2014\n\n\"Beautiful\", by Monsta X, 2017\n\n\"Beauti"
     }
   ],
-  "topic_id": 5,
+  "topic_id": 6,
   "topic_terms": [
-    "every",
     "people",
-    "upon"
+    "time",
+    "great"
   ],
   "claims": [
     {

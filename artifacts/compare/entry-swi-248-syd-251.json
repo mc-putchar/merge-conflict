@@ -338,41 +338,41 @@
   "metrics": {
     "jaccard_raw": 0.0107,
     "jaccard_normalized": 0.0142,
-    "cosine_tfidf": 0.0545,
+    "cosine_tfidf": 0.0537,
     "cosine_embedding": 0.1764,
     "distinctive_britannica": [
       "cantons",
       "see",
-      "head",
       "home",
-      "blade",
+      "head",
       "king",
+      "blade",
       "people",
-      "round",
-      "arms",
-      "oxford",
-      "famous",
       "trade",
-      "except",
-      "turn",
-      "practice"
+      "fish",
+      "piece",
+      "mult",
+      "lines",
+      "arms",
+      "allowed",
+      "oxford"
     ],
     "distinctive_wikipedia": [
       "code",
       "work",
       "standard",
-      "software",
-      "imaging",
       "edition",
-      "interrupt",
-      "family",
-      "kingdom",
-      "system",
-      "scotland",
-      "refer",
+      "software",
+      "britannica",
+      "imaging",
       "scientific",
-      "free",
-      "national"
+      "system",
+      "kingdom",
+      "scotland",
+      "family",
+      "national",
+      "medical",
+      "free"
     ],
     "shared_terms": [
       "arm",
@@ -409,11 +409,11 @@
       "wikipedia_excerpt": "SWI may refer to:\n\nSwitzerland (this is not the ISO 3166-1 code, which is CHE)\n\nSwindon railway station (National Rail code SWI), serving Swindon, Wiltshire, United Kingdom\n\nSWI-Prolog, a free implementation of the programming language Prol"
     }
   ],
-  "topic_id": 7,
+  "topic_id": 2,
   "topic_terms": [
     "see",
-    "upon",
-    "great"
+    "brit",
+    "upon"
   ],
   "claims": [
     {

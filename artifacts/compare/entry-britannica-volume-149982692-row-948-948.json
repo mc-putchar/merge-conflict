@@ -1,0 +1,146 @@
+{
+  "entry_id": "entry-britannica-volume-149982692-row-948-948",
+  "britannica_title": "LAVA and VOLCANOLOGY (Plate CCLXXIV)",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:948"
+  ],
+  "britannica_sha256": "ff2c2d3fbe8d16710b072db07f4078959e1e13cb7af9fc800a048db75bc063dd",
+  "britannica_raw_chars": 1157,
+  "britannica_tokens": 117,
+  "britannica_unique_tokens": 87,
+  "wikipedia_page_id": "9004976",
+  "wikipedia_revision_id": "1340071003",
+  "wikipedia_title": "History of the Encyclopædia Britannica",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/History_of_the_Encyclop%C3%A6dia_Britannica",
+  "wikipedia_text_sha256": "64dd89242f04b3e591115caca56a86f50c9129e1ec3650be302ee2bca6f05eb1",
+  "wikipedia_raw_chars": 71820,
+  "wikipedia_tokens": 5909,
+  "wikipedia_unique_tokens": 2368,
+  "length_ratio": 62.074,
+  "text_changes": [],
+  "metrics": {
+    "jaccard_raw": 0.0095,
+    "jaccard_normalized": 0.0095,
+    "cosine_tfidf": 0.0213,
+    "cosine_embedding": 0.0974,
+    "distinctive_britannica": [
+      "plate",
+      "fig",
+      "figures",
+      "buildings",
+      "engraved",
+      "displaystyle",
+      "lava",
+      "along",
+      "lower",
+      "magnetic",
+      "engraving",
+      "analysis",
+      "consist",
+      "birds",
+      "flow"
+    ],
+    "distinctive_wikipedia": [
+      "edition",
+      "britannica",
+      "articles",
+      "volumes",
+      "pages",
+      "dia",
+      "volume",
+      "supplement",
+      "article",
+      "published",
+      "encyclopedia",
+      "third",
+      "encyclop",
+      "fourth",
+      "page"
+    ],
+    "shared_terms": [
+      "along",
+      "analysis",
+      "consist",
+      "copperplate",
+      "description",
+      "engraved",
+      "engraving",
+      "figures",
+      "geology",
+      "historical",
+      "history",
+      "identified",
+      "illustrations",
+      "include",
+      "key",
+      "long",
+      "natural",
+      "plate",
+      "related",
+      "scientific",
+      "six",
+      "subjects",
+      "typical"
+    ]
+  },
+  "aligned_chunks": [
+    {
+      "britannica_chunk_index": 0,
+      "wikipedia_chunk_index": 6,
+      "similarity": 0.2817,
+      "britannica_excerpt": "Lava.\n\nPlate CCLXXIV.\n\n[HISTORICAL COPPERPLATE ENGRAVING: LAVA and VOLCANOLOGY (Plate CCLXXIV)]\n\nCategory: Geology and Mineralogy\n\nVisual Description: Engraved natural history plate showing volcanic rock specimens, cooled basaltic lava stru",
+      "wikipedia_excerpt": " also featured 160 copperplate illustrations engraved by Bell. Three of the engravings in the section on midwifery, depicting childbirth in clinical detail, were sufficiently shocking to prompt some readers to tear those engravings out of t"
+    },
+    {
+      "britannica_chunk_index": 1,
+      "wikipedia_chunk_index": 6,
+      "similarity": 0.2116,
+      "britannica_excerpt": "[Nemotron Super VL Analysis]: This image does not depict lava or volcanology; it is Plate CCLXXIV featuring zoological illustrations of birds and invertebrates. Visible headings include \"Livia,\" \"Lepama,\" \"Limax,\" \"Libellula,\" and \"Lumbricu",
+      "wikipedia_excerpt": " also featured 160 copperplate illustrations engraved by Bell. Three of the engravings in the section on midwifery, depicting childbirth in clinical detail, were sufficiently shocking to prompt some readers to tear those engravings out of t"
+    }
+  ],
+  "topic_id": 5,
+  "topic_terms": [
+    "rays",
+    "water",
+    "fig"
+  ],
+  "claims": [
+    {
+      "claim_text": "The Britannica entry \"LAVA and VOLCANOLOGY (Plate CCLXXIV)\" uses 117 content tokens while the Wikipedia article \"History of the Encyclopædia Britannica\" uses 5909; their normalized vocabularies share a Jaccard overlap of 0.0095 (raw 0.0095) and a TF-IDF cosine similarity of 0.0213.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:948"
+      ],
+      "britannica_quote": "Lava.\nPlate CCLXXIV.\n\n[HISTORICAL COPPERPLATE ENGRAVING: LAVA and VOLCANOLOGY (Plate CCLXXIV)]\nCategory: Geology and Mineralogy\nVisual Description: Engraved natural history plate showing volcanic rock specimens, cooled basaltic lava structu",
+      "wikipedia_page_id": "9004976",
+      "wikipedia_revision_id": "1340071003",
+      "wikipedia_quote": "The Encyclopædia Britannica has been published continuously since 1768, appearing in fifteen official editions. Several editions were amended with multi-volume \"supplements\" (3rd, 4th/5th/6th), several consisted of previous editions with ad"
+    },
+    {
+      "claim_text": "Britannica's most distinctive term is \"plate\"; Wikipedia's is \"edition\", showing the era-specific vocabulary of each source.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:948"
+      ],
+      "britannica_quote": "Plate CCLXXIV.",
+      "wikipedia_page_id": "9004976",
+      "wikipedia_revision_id": "1340071003",
+      "wikipedia_quote": "The Encyclopædia Britannica has been published continuously since 1768, appearing in fifteen official editions."
+    },
+    {
+      "claim_text": "Both sources share core vocabulary including: along, analysis, consist, copperplate, description.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:948"
+      ],
+      "britannica_quote": "Visible headings include \"Livia,\" \"Lepama,\" \"Limax,\" \"Libellula,\" and \"Lumbricus marinus.\" The key figures consist of six birds labeled A through F perched on branches under \"Livia,\" along with lower illustrations of a larva, two mollusks, ",
+      "wikipedia_page_id": "9004976",
+      "wikipedia_revision_id": "1340071003",
+      "wikipedia_quote": "Forbes, was issued in 1856, in a separate quarto volume, \"gratis, along with Vol."
+    }
+  ]
+}

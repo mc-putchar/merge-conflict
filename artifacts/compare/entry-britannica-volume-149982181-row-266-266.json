@@ -58,24 +58,24 @@
   "metrics": {
     "jaccard_raw": 0.0451,
     "jaccard_normalized": 0.0455,
-    "cosine_tfidf": 0.0292,
+    "cosine_tfidf": 0.0288,
     "cosine_embedding": 0.1075,
     "distinctive_britannica": [
       "law",
       "therefore",
       "common",
-      "wife",
       "proper",
       "right",
+      "wife",
       "against",
       "life",
-      "marriage",
-      "hufland",
       "certain",
       "upon",
-      "case",
+      "marriage",
+      "hufland",
       "though",
-      "blood"
+      "case",
+      "person"
     ],
     "distinctive_wikipedia": [
       "edition",
@@ -150,11 +150,11 @@
       "wikipedia_excerpt": "the individual articles."
     }
   ],
-  "topic_id": 7,
+  "topic_id": 2,
   "topic_terms": [
     "see",
-    "upon",
-    "great"
+    "brit",
+    "upon"
   ],
   "claims": [
     {

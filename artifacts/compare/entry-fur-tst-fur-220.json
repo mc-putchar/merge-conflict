@@ -67,7 +67,7 @@
   "metrics": {
     "jaccard_raw": 0.0397,
     "jaccard_normalized": 0.0409,
-    "cosine_tfidf": 0.0154,
+    "cosine_tfidf": 0.0153,
     "cosine_embedding": 0.0492,
     "distinctive_britannica": [
       "end",
@@ -76,15 +76,15 @@
       "off",
       "prince",
       "september",
-      "arrived",
-      "river",
       "cook",
-      "beginning",
+      "arrived",
       "four",
+      "river",
+      "beginning",
       "left",
       "trade",
-      "illands",
-      "well"
+      "well",
+      "long"
     ],
     "distinctive_wikipedia": [
       "fur",
@@ -93,15 +93,15 @@
       "used",
       "less",
       "use",
-      "faux",
       "production",
+      "faux",
       "animals",
-      "animal",
-      "collections",
       "fashion",
-      "fall",
+      "animal",
       "materials",
-      "addition"
+      "fall",
+      "addition",
+      "unlike"
     ],
     "shared_terms": [
       "against",
@@ -159,11 +159,11 @@
       "wikipedia_excerpt": "Some coats labeled as having faux-fur trim were found to use actual fur in a test conducted by the Humane Society of the United States. In the United States, up until 2012, a labeling loophole allowed any piece of clothing that contains les"
     }
   ],
-  "topic_id": 2,
+  "topic_id": 3,
   "topic_terms": [
-    "water",
-    "acid",
-    "quantity"
+    "upon",
+    "feet",
+    "tree"
   ],
   "claims": [
     {

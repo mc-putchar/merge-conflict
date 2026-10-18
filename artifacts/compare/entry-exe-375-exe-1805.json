@@ -29,6 +29,15 @@
     },
     {
       "rule": "ocr_f_s_confusion",
+      "original": "fanc",
+      "replacement": "sanc",
+      "count": 1,
+      "samples": [
+        "llowed to take fanc-tany and abqui"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
       "original": "finging",
       "replacement": "singing",
       "count": 2,
@@ -59,24 +68,24 @@
   "metrics": {
     "jaccard_raw": 0.01,
     "jaccard_normalized": 0.01,
-    "cosine_tfidf": 0.0221,
-    "cosine_embedding": 0.1792,
+    "cosine_tfidf": 0.0203,
+    "cosine_embedding": 0.1795,
     "distinctive_britannica": [
       "body",
       "law",
       "exercise",
-      "weak",
-      "mind",
       "laws",
-      "french",
       "power",
+      "mind",
+      "french",
       "among",
+      "weak",
       "letters",
       "manner",
       "either",
-      "model",
-      "animal",
-      "effects"
+      "see",
+      "effects",
+      "model"
     ],
     "distinctive_wikipedia": [
       "exe",
@@ -85,15 +94,15 @@
       "series",
       "interest",
       "edition",
+      "britannica",
       "island",
+      "terms",
       "refer",
       "electric",
-      "terms",
       "episode",
+      "involving",
       "engine",
-      "extreme",
-      "file",
-      "involving"
+      "extreme"
     ],
     "shared_terms": [
       "england",
@@ -121,16 +130,16 @@
     {
       "britannica_chunk_index": 0,
       "wikipedia_chunk_index": 0,
-      "similarity": 0.178,
-      "britannica_excerpt": "Execution a criminal, fo reviewing was not allowed to take fanc-tany and abquire the realm, but his flecing to facilitate Xemplar. was held an escape in the officer.\n\nExecutive in the two of Scotland. See Law _Index._ Exerction, in the Fren",
+      "similarity": 0.1752,
+      "britannica_excerpt": "Execution a criminal, fo reviewing was not allowed to take sanc-tany and abquire the realm, but his flecing to facilitate Xemplar. was held an escape in the officer.\n\nExecutive in the two of Scotland. See Law _Index._ Exerction, in the Fren",
       "wikipedia_excerpt": "Exe or EXE may refer to:\n\n.exe, a file extension\n\nexe., abbreviation for executive\n\nRiver Exe, in England\n\nExe Estuary, in England\n\nExe Island, in Exeter, England\n\nExe (locomotive), a British locomotive\n\nRolls-Royce Exe, an aircraft engine\n"
     }
   ],
-  "topic_id": 7,
+  "topic_id": 2,
   "topic_terms": [
     "see",
-    "upon",
-    "great"
+    "brit",
+    "upon"
   ],
   "claims": [
     {

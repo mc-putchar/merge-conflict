@@ -115,7 +115,7 @@
   "metrics": {
     "jaccard_raw": 0.0439,
     "jaccard_normalized": 0.044,
-    "cosine_tfidf": 0.0535,
+    "cosine_tfidf": 0.0546,
     "cosine_embedding": 0.1852,
     "distinctive_britannica": [
       "london",
@@ -124,14 +124,14 @@
       "himself",
       "town",
       "oxford",
+      "king",
+      "upon",
       "fame",
+      "whole",
       "sir",
       "house",
-      "built",
-      "king",
-      "whole",
-      "upon",
       "name",
+      "built",
       "afterwards"
     ],
     "distinctive_wikipedia": [
@@ -142,14 +142,14 @@
       "encyclop",
       "sales",
       "editions",
-      "published",
       "sears",
-      "sold",
-      "university",
+      "published",
       "benton",
+      "university",
+      "sold",
       "bought",
       "released",
-      "hooper"
+      "united"
     ],
     "shared_terms": [
       "acknowledged",
@@ -207,11 +207,11 @@
       "wikipedia_excerpt": "The company was founded in Edinburgh, Scotland, in the 18th century, during the historical period termed the Scottish Enlightenment. Colin Macfarquhar and Andrew Bell began the first edition in 1768. The pair engaged William Smellie, who co"
     }
   ],
-  "topic_id": 7,
+  "topic_id": 2,
   "topic_terms": [
     "see",
-    "upon",
-    "great"
+    "brit",
+    "upon"
   ],
   "claims": [
     {

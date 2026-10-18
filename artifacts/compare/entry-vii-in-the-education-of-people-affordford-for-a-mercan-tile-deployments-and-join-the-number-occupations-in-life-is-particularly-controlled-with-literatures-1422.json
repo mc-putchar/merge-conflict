@@ -85,24 +85,24 @@
   "metrics": {
     "jaccard_raw": 0.022,
     "jaccard_normalized": 0.022,
-    "cosine_tfidf": 0.0234,
+    "cosine_tfidf": 0.0232,
     "cosine_embedding": 0.0268,
     "distinctive_britannica": [
       "let",
-      "young",
       "man",
+      "young",
       "though",
       "mind",
       "fortune",
       "yet",
-      "principles",
-      "ought",
       "country",
+      "ought",
+      "principles",
       "history",
+      "great",
       "rank",
       "useful",
-      "carefully",
-      "great"
+      "carefully"
     ],
     "distinctive_wikipedia": [
       "music",
@@ -115,11 +115,11 @@
       "instruments",
       "lama",
       "cultural",
-      "released",
-      "gave",
       "considered",
-      "album",
-      "degree"
+      "gave",
+      "released",
+      "degree",
+      "album"
     ],
     "shared_terms": [
       "born",
@@ -162,10 +162,10 @@
       "wikipedia_excerpt": "gorize them in relation to the women's socio-cultural environment."
     }
   ],
-  "topic_id": 7,
+  "topic_id": 6,
   "topic_terms": [
-    "see",
-    "upon",
+    "people",
+    "time",
     "great"
   ],
   "claims": [

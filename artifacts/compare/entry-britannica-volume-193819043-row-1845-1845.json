@@ -1,0 +1,133 @@
+{
+  "entry_id": "entry-britannica-volume-193819043-row-1845-1845",
+  "britannica_title": "OPTICS and REFRACTION INSTRUMENTS (Plate XVII)",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1845"
+  ],
+  "britannica_sha256": "ff59437222194443731943137cd4427ccb89c1d8543e0ffc5a87c62e55df0d6c",
+  "britannica_raw_chars": 706,
+  "britannica_tokens": 70,
+  "britannica_unique_tokens": 50,
+  "wikipedia_page_id": "9004976",
+  "wikipedia_revision_id": "1340071003",
+  "wikipedia_title": "History of the Encyclopædia Britannica",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/History_of_the_Encyclop%C3%A6dia_Britannica",
+  "wikipedia_text_sha256": "64dd89242f04b3e591115caca56a86f50c9129e1ec3650be302ee2bca6f05eb1",
+  "wikipedia_raw_chars": 71820,
+  "wikipedia_tokens": 5909,
+  "wikipedia_unique_tokens": 2368,
+  "length_ratio": 101.728,
+  "text_changes": [],
+  "metrics": {
+    "jaccard_raw": 0.0071,
+    "jaccard_normalized": 0.0071,
+    "cosine_tfidf": 0.0108,
+    "cosine_embedding": 0.0809,
+    "distinctive_britannica": [
+      "optics",
+      "fig",
+      "mirror",
+      "optical",
+      "copperplate",
+      "buildings",
+      "engraved",
+      "light",
+      "displaystyle",
+      "system",
+      "figures",
+      "instruments",
+      "physical",
+      "magnetic",
+      "refraction"
+    ],
+    "distinctive_wikipedia": [
+      "edition",
+      "britannica",
+      "articles",
+      "volumes",
+      "pages",
+      "dia",
+      "volume",
+      "supplement",
+      "article",
+      "encyclopedia",
+      "published",
+      "third",
+      "encyclop",
+      "page",
+      "fourth"
+    ],
+    "shared_terms": [
+      "astronomy",
+      "copperplate",
+      "description",
+      "engraved",
+      "engraving",
+      "figures",
+      "historical",
+      "identified",
+      "light",
+      "mirror",
+      "optical",
+      "optics",
+      "plate",
+      "related",
+      "scientific",
+      "subjects",
+      "system"
+    ]
+  },
+  "aligned_chunks": [
+    {
+      "britannica_chunk_index": 0,
+      "wikipedia_chunk_index": 55,
+      "similarity": 0.2435,
+      "britannica_excerpt": "XVII.\n\n[HISTORICAL COPPERPLATE ENGRAVING: OPTICS and REFRACTION INSTRUMENTS (Plate XVII)]\n\nCategory: Physical Optics and Astronomy\n\nVisual Description: Engraved copperplate illustrating optical refraction, ray tracing through convex and con",
+      "wikipedia_excerpt": "venth edition. Mathematical diagrams and illustrations were made from woodcuts, and for the first time in Britannica's history, were printed on the same pages as the text, in addition to the copperplates."
+    }
+  ],
+  "topic_id": 5,
+  "topic_terms": [
+    "rays",
+    "water",
+    "fig"
+  ],
+  "claims": [
+    {
+      "claim_text": "The Britannica entry \"OPTICS and REFRACTION INSTRUMENTS (Plate XVII)\" uses 70 content tokens while the Wikipedia article \"History of the Encyclopædia Britannica\" uses 5909; their normalized vocabularies share a Jaccard overlap of 0.0071 (raw 0.0071) and a TF-IDF cosine similarity of 0.0108.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1845"
+      ],
+      "britannica_quote": "XVII.\n\n[HISTORICAL COPPERPLATE ENGRAVING: OPTICS and REFRACTION INSTRUMENTS (Plate XVII)]\nCategory: Physical Optics and Astronomy\nVisual Description: Engraved copperplate illustrating optical refraction, ray tracing through convex and conca",
+      "wikipedia_page_id": "9004976",
+      "wikipedia_revision_id": "1340071003",
+      "wikipedia_quote": "The Encyclopædia Britannica has been published continuously since 1768, appearing in fifteen official editions. Several editions were amended with multi-volume \"supplements\" (3rd, 4th/5th/6th), several consisted of previous editions with ad"
+    },
+    {
+      "claim_text": "Britannica's most distinctive term is \"optics\"; Wikipedia's is \"edition\", showing the era-specific vocabulary of each source.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1845"
+      ],
+      "britannica_quote": "[HISTORICAL COPPERPLATE ENGRAVING: OPTICS and REFRACTION INSTRUMENTS (Plate XVII)]",
+      "wikipedia_page_id": "9004976",
+      "wikipedia_revision_id": "1340071003",
+      "wikipedia_quote": "The Encyclopædia Britannica has been published continuously since 1768, appearing in fifteen official editions."
+    },
+    {
+      "claim_text": "Both sources share core vocabulary including: astronomy, copperplate, description, engraved, engraving.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1845"
+      ],
+      "britannica_quote": "Category: Physical Optics and Astronomy",
+      "wikipedia_page_id": "9004976",
+      "wikipedia_revision_id": "1340071003",
+      "wikipedia_quote": "Its illustrious contributors are legion, including Baden Baden-Powell writing on kite-flying; Arthur Eddington on astronomy; Edmund Gosse on literature and Donald Tovey on music."
+    }
+  ]
+}

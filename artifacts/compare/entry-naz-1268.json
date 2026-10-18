@@ -31,41 +31,41 @@
   "metrics": {
     "jaccard_raw": 0.0096,
     "jaccard_normalized": 0.0096,
-    "cosine_tfidf": 0.0358,
+    "cosine_tfidf": 0.035,
     "cosine_embedding": 0.1356,
     "distinctive_britannica": [
-      "nazareth",
       "called",
       "church",
       "city",
+      "nazareth",
       "north",
       "large",
       "island",
-      "miles",
       "several",
+      "miles",
+      "life",
       "wall",
       "shown",
-      "life",
       "prophets",
-      "buckingham",
-      "service"
+      "hall",
+      "laid"
     ],
     "distinctive_wikipedia": [
+      "edition",
       "iran",
       "naz",
-      "edition",
-      "refer",
+      "britannica",
       "former",
+      "refer",
+      "plant",
       "dutch",
       "province",
       "range",
-      "plant",
-      "mountain",
       "japanese",
+      "mountain",
       "switzerland",
       "persian",
-      "britannica",
-      "automobile"
+      "healthcare"
     ],
     "shared_terms": [
       "islands",
@@ -98,10 +98,10 @@
       "wikipedia_excerpt": "Naz or NAZ may refer to:\n\nNaz (name)\n\nNAZ (studio), Japanese animation studio\n\nNaz, Iran, a village in Hormozgan Province, Iran\n\nNaz, Vaud, a former municipality in the canton of Vaud, Switzerland\n\nNaaz islands, a set of tidal islands in th"
     }
   ],
-  "topic_id": 5,
+  "topic_id": 2,
   "topic_terms": [
-    "every",
-    "people",
+    "see",
+    "brit",
     "upon"
   ],
   "claims": [

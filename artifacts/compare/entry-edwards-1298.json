@@ -31,24 +31,24 @@
   "metrics": {
     "jaccard_raw": 0.0197,
     "jaccard_normalized": 0.0196,
-    "cosine_tfidf": 0.4939,
+    "cosine_tfidf": 0.4524,
     "cosine_embedding": 0.1835,
     "distinctive_britannica": [
       "however",
       "great",
       "afterwards",
       "appeared",
-      "west",
       "education",
-      "uncle",
+      "west",
       "trade",
       "french",
-      "indies",
-      "talents",
       "master",
+      "uncle",
       "much",
+      "now",
       "island",
-      "year"
+      "indies",
+      "acquired"
     ],
     "distinctive_wikipedia": [
       "edwards",
@@ -60,12 +60,12 @@
       "american",
       "county",
       "ruling",
-      "supreme",
       "former",
       "york",
-      "food",
+      "supreme",
       "brand",
-      "california"
+      "food",
+      "appeal"
     ],
     "shared_terms": [
       "business",
@@ -106,10 +106,10 @@
       "wikipedia_excerpt": "Indiana v. Edwards, a 2008 U.S. Supreme Court ruling on competency to stand trial\n\nEdwards v. Canada (Attorney General), also known as the Persons Case, a 1930 case in the Judicial Committee of the Imperial Privy Council on women's eligibil"
     }
   ],
-  "topic_id": 7,
+  "topic_id": 6,
   "topic_terms": [
-    "see",
-    "upon",
+    "people",
+    "time",
     "great"
   ],
   "claims": [

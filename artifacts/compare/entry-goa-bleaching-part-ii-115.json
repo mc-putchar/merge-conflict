@@ -249,41 +249,41 @@
   "metrics": {
     "jaccard_raw": 0.0249,
     "jaccard_normalized": 0.0251,
-    "cosine_tfidf": 0.0467,
+    "cosine_tfidf": 0.0454,
     "cosine_embedding": 0.0643,
     "distinctive_britannica": [
       "place",
-      "acid",
-      "left",
       "water",
-      "neck",
-      "hand",
+      "left",
+      "acid",
       "matter",
+      "hand",
       "immediately",
+      "neck",
       "hours",
       "quantity",
       "quality",
-      "entirely",
       "taken",
-      "prevent",
-      "gas"
+      "entirely",
+      "different",
+      "prevent"
     ],
     "distinctive_wikipedia": [
       "works",
       "thomas",
       "main",
       "became",
+      "house",
+      "english",
+      "area",
+      "using",
       "wallsuches",
       "horwich",
-      "area",
-      "english",
-      "house",
-      "using",
-      "bleach",
       "access",
+      "bleach",
       "site",
       "highly",
-      "provide"
+      "sons"
     ],
     "shared_terms": [
       "bleaching",
@@ -325,11 +325,11 @@
       "wikipedia_excerpt": "The Ridgways lived across the main access road from the works in a house called \"Whitehouse\", which they renamed \"Ridgmont House\", which still stands. Thomas Ridgmont sponsored French chemists Matthew Vallet and Anthony Bourboulon de Boneui"
     }
   ],
-  "topic_id": 2,
+  "topic_id": 5,
   "topic_terms": [
+    "rays",
     "water",
-    "acid",
-    "quantity"
+    "fig"
   ],
   "claims": [
     {

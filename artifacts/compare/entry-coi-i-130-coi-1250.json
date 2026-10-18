@@ -85,41 +85,41 @@
   "metrics": {
     "jaccard_raw": 0.0073,
     "jaccard_normalized": 0.0073,
-    "cosine_tfidf": 0.0104,
+    "cosine_tfidf": 0.0093,
     "cosine_embedding": 0.0557,
     "distinctive_britannica": [
       "upon",
-      "figures",
       "fig",
+      "figures",
       "cut",
+      "engraved",
       "pieces",
       "metal",
       "piece",
-      "engraved",
-      "flat",
       "mill",
+      "flat",
       "thick",
+      "according",
       "laid",
-      "coin",
-      "engine",
-      "according"
+      "half",
+      "engine"
     ],
     "distinctive_wikipedia": [
-      "coi",
       "died",
-      "album",
+      "coi",
       "university",
-      "interest",
+      "album",
       "computer",
-      "code",
-      "inquiry",
-      "center",
+      "interest",
       "community",
+      "code",
+      "center",
+      "inquiry",
       "restaurant",
       "california",
-      "refer",
-      "policy",
-      "scientific"
+      "edition",
+      "government",
+      "india"
     ],
     "shared_terms": [
       "figure",
@@ -153,9 +153,9 @@
   ],
   "topic_id": 5,
   "topic_terms": [
-    "every",
-    "people",
-    "upon"
+    "rays",
+    "water",
+    "fig"
   ],
   "claims": [
     {

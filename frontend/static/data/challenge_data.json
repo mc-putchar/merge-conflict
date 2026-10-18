@@ -1,0 +1,39 @@
+{
+  "dataset_manifest": {
+    "dataset": "NationalLibraryOfScotland/encyclopaedia_britannica_illustrated",
+    "revision": "309f765b1ecc83e0a7f7762e44b4a927a7555443",
+    "scans_total": 100
+  },
+  "stats": {
+    "entries_total": 1,
+    "matches_accepted": 0,
+    "matches_rejected": 0,
+    "compared_count": 0,
+    "excluded_count": 0
+  },
+  "compare_summary": {},
+  "topics": [],
+  "exclusions": [],
+  "entries": [
+    {
+      "entry_id": "test-entry-site",
+      "title": "ABYSSINIA",
+      "text": "Historical text on Abyssinia.",
+      "character_count": 28,
+      "source_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:13"
+      ],
+      "source_row_indices": [
+        13
+      ],
+      "volume_id": "193913444",
+      "is_continuation": false,
+      "matched": false,
+      "match_status": "unmatched",
+      "wikipedia_article": null,
+      "comparison": null,
+      "latex_file": "latex/test-entry-site.tex"
+    }
+  ],
+  "agent_runs": []
+}

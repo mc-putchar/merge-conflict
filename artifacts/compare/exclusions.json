@@ -1,15 +1,5 @@
 [
   {
-    "entry_id": "entry-britannica-volume-144133901-row-2209-2209",
-    "britannica_title": "Britannica Volume 144133901 Row 2209",
-    "source_pages": [
-      "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2209"
-    ],
-    "reason": "short_or_blank_text",
-    "match_status": "accepted",
-    "character_count": 11
-  },
-  {
     "entry_id": "entry-a-s-t-852-a-s-t-2171",
     "britannica_title": "A S T  852 A S T",
     "source_pages": [
@@ -60,16 +50,6 @@
     "character_count": 6814
   },
   {
-    "entry_id": "entry-britannica-volume-149982181-row-270-270",
-    "britannica_title": "Britannica Volume 149982181 Row 270",
-    "source_pages": [
-      "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:270"
-    ],
-    "reason": "short_or_blank_text",
-    "match_status": "accepted",
-    "character_count": 28
-  },
-  {
     "entry_id": "entry-taxes-of-lono-meafors-944",
     "britannica_title": "Taxes of Lono Meafors",
     "source_pages": [
@@ -78,36 +58,6 @@
     "reason": "unmatched",
     "match_status": "rejected_threshold",
     "character_count": 2291
-  },
-  {
-    "entry_id": "entry-britannica-volume-149982692-row-948-948",
-    "britannica_title": "Britannica Volume 149982692 Row 948",
-    "source_pages": [
-      "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:948"
-    ],
-    "reason": "short_or_blank_text",
-    "match_status": "accepted",
-    "character_count": 20
-  },
-  {
-    "entry_id": "entry-britannica-volume-149983206-row-2077-2077",
-    "britannica_title": "Britannica Volume 149983206 Row 2077",
-    "source_pages": [
-      "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2077"
-    ],
-    "reason": "unmatched",
-    "match_status": "rejected_threshold",
-    "character_count": 0
-  },
-  {
-    "entry_id": "entry-britannica-volume-191253799-row-374-374",
-    "britannica_title": "Britannica Volume 191253799 Row 374",
-    "source_pages": [
-      "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:374"
-    ],
-    "reason": "unmatched",
-    "match_status": "rejected_threshold",
-    "character_count": 0
   },
   {
     "entry_id": "entry-ami-619-a-m-i-560",
@@ -138,16 +88,6 @@
     "reason": "unmatched",
     "match_status": "rejected_threshold",
     "character_count": 6222
-  },
-  {
-    "entry_id": "entry-britannica-volume-191689065-row-1400-1400",
-    "britannica_title": "Britannica Volume 191689065 Row 1400",
-    "source_pages": [
-      "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1400"
-    ],
-    "reason": "short_or_blank_text",
-    "match_status": "accepted",
-    "character_count": 49
   },
   {
     "entry_id": "entry-b-eyes-six-placed-thus-261",
@@ -198,15 +138,5 @@
     "reason": "unmatched",
     "match_status": "rejected_threshold",
     "character_count": 5381
-  },
-  {
-    "entry_id": "entry-britannica-volume-193819043-row-1845-1845",
-    "britannica_title": "Britannica Volume 193819043 Row 1845",
-    "source_pages": [
-      "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1845"
-    ],
-    "reason": "short_or_blank_text",
-    "match_status": "accepted",
-    "character_count": 5
   }
 ]

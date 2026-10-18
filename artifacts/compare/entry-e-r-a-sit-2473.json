@@ -104,24 +104,24 @@
   "metrics": {
     "jaccard_raw": 0.025,
     "jaccard_normalized": 0.029,
-    "cosine_tfidf": 0.259,
+    "cosine_tfidf": 0.2606,
     "cosine_embedding": 0.3786,
     "distinctive_britannica": [
       "see",
       "four",
       "feet",
-      "native",
       "viz",
+      "native",
       "body",
       "little",
       "genus",
-      "etc",
-      "friends",
       "covered",
       "call",
-      "round",
-      "fig",
-      "nine"
+      "etc",
+      "white",
+      "friends",
+      "inches",
+      "nothing"
     ],
     "distinctive_wikipedia": [
       "ass",
@@ -129,16 +129,16 @@
       "equus",
       "kiang",
       "hemionus",
-      "africanus",
       "several",
+      "africanus",
       "european",
       "extinct",
-      "subgenus",
-      "asinus",
-      "eastern",
+      "reputation",
       "true",
-      "western",
-      "formerly"
+      "atlas",
+      "eastern",
+      "based",
+      "western"
     ],
     "shared_terms": [
       "africa",
@@ -181,11 +181,11 @@
       "wikipedia_excerpt": "Asinus is a subgenus of Equus that encompasses several subspecies of the Equidae commonly known as wild asses or wild donkeys, characterized by long ears, a lean, straight-backed build, lack of a true withers, a coarse mane and tail, and a "
     }
   ],
-  "topic_id": 7,
+  "topic_id": 2,
   "topic_terms": [
     "see",
-    "upon",
-    "great"
+    "brit",
+    "upon"
   ],
   "claims": [
     {

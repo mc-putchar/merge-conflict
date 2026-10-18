@@ -355,29 +355,29 @@
   "metrics": {
     "jaccard_raw": 0.0288,
     "jaccard_normalized": 0.0311,
-    "cosine_tfidf": 0.0297,
+    "cosine_tfidf": 0.0294,
     "cosine_embedding": 0.1123,
     "distinctive_britannica": [
       "taken",
       "given",
       "form",
       "medicine",
-      "sugar",
-      "mixed",
       "mass",
-      "conferve",
+      "mixed",
       "whole",
-      "peculiar",
+      "sugar",
       "general",
-      "fome",
+      "conferve",
+      "peculiar",
       "great",
-      "vegetables",
-      "cases"
+      "fome",
+      "cases",
+      "indeed"
     ],
     "distinctive_wikipedia": [
       "phar-mor",
-      "power",
       "million",
+      "power",
       "bankruptcy",
       "company",
       "based",
@@ -385,11 +385,11 @@
       "stores",
       "later",
       "buying",
-      "monus",
-      "business",
-      "plan",
       "purchased",
-      "chain"
+      "plan",
+      "business",
+      "eventually",
+      "law"
     ],
     "shared_terms": [
       "against",
@@ -436,11 +436,11 @@
       "wikipedia_excerpt": "Phar-Mor (stylized as PHA℞-MOR) was a United States chain of discount drug stores, based in Youngstown, Ohio, and founded by Michael \"Mickey\" Monus and David Shapira in 1982. Some of its stores used the names Pharmhouse and Rx Place (purcha"
     }
   ],
-  "topic_id": 2,
+  "topic_id": 5,
   "topic_terms": [
+    "rays",
     "water",
-    "acid",
-    "quantity"
+    "fig"
   ],
   "claims": [
     {

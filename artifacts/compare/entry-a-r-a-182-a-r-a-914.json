@@ -72,37 +72,37 @@
     "cosine_embedding": 0.0426,
     "distinctive_britannica": [
       "without",
-      "arabia",
       "mankind",
-      "arabian",
+      "arabia",
       "war",
-      "freedom",
-      "blood",
-      "heart",
-      "nation",
-      "familiar",
+      "arabian",
       "mult",
+      "blood",
       "character",
-      "spirit",
-      "princes",
-      "divided"
+      "heart",
+      "familiar",
+      "freedom",
+      "nation",
+      "sew",
+      "divided",
+      "influence"
     ],
     "distinctive_wikipedia": [
-      "text",
       "century",
+      "text",
       "dated",
       "contains",
       "family",
       "page",
       "manuscript",
       "codex",
+      "edition",
       "tables",
-      "luke",
       "chapters",
-      "parchment",
-      "minuscule",
-      "lines",
-      "letters"
+      "luke",
+      "placed",
+      "size",
+      "method"
     ],
     "shared_terms": [
       "according",
@@ -139,11 +139,11 @@
       "wikipedia_excerpt": "The Greek text of the codex is a representative of the Byzantine text-type. Aland placed it in Category V. According to the Claremont Profile Method it belongs to the textual family K r in Luke 1. In Luke 10 and Luke 20 it represents textua"
     }
   ],
-  "topic_id": 5,
+  "topic_id": 6,
   "topic_terms": [
-    "every",
     "people",
-    "upon"
+    "time",
+    "great"
   ],
   "claims": [
     {

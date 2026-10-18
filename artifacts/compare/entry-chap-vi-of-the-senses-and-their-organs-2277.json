@@ -50,24 +50,24 @@
   "metrics": {
     "jaccard_raw": 0.0258,
     "jaccard_normalized": 0.0258,
-    "cosine_tfidf": 0.0241,
+    "cosine_tfidf": 0.0228,
     "cosine_embedding": -0.0039,
     "distinctive_britannica": [
       "part",
       "formed",
-      "nerves",
       "eighth",
-      "inferior",
       "body",
       "large",
-      "neck",
+      "inferior",
+      "nerves",
       "upon",
-      "tongue",
-      "commonly",
+      "neck",
       "middle",
+      "certain",
+      "commonly",
       "figure",
       "side",
-      "certain"
+      "shape"
     ],
     "distinctive_wikipedia": [
       "good",
@@ -76,15 +76,15 @@
       "principle",
       "political",
       "former",
-      "constitution",
       "hennessy",
+      "constitution",
       "even",
+      "information",
       "idea",
       "andrew",
-      "information",
-      "chaps",
+      "senior",
       "written",
-      "civil"
+      "peter"
     ],
     "shared_terms": [
       "accepted",
@@ -125,11 +125,11 @@
       "wikipedia_excerpt": "ritten rules are and wanting to adhere to them, even if doing so might frustrate the attainment of their policy objectives, party political goals, or personal ambitions – the argument being that ‘good chaps’ (of different sexes) know where "
     }
   ],
-  "topic_id": 5,
+  "topic_id": 3,
   "topic_terms": [
-    "every",
-    "people",
-    "upon"
+    "upon",
+    "feet",
+    "tree"
   ],
   "claims": [
     {

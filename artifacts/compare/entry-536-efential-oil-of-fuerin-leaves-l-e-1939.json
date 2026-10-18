@@ -151,41 +151,41 @@
   "metrics": {
     "jaccard_raw": 0.0116,
     "jaccard_normalized": 0.0117,
-    "cosine_tfidf": 0.1476,
+    "cosine_tfidf": 0.155,
     "cosine_embedding": 0.2312,
     "distinctive_britannica": [
       "oil",
-      "oils",
       "water",
+      "oils",
       "usually",
+      "much",
       "distillation",
       "taste",
-      "much",
-      "employed",
       "certain",
-      "cinnamon",
       "great",
-      "good",
+      "employed",
       "against",
+      "good",
       "though",
-      "dole"
+      "cinnamon",
+      "indeed"
     ],
     "distinctive_wikipedia": [
       "leaves",
       "red",
       "young",
-      "fulgens",
       "plant",
+      "fulgens",
       "similar",
       "ground",
-      "species",
       "mainly",
+      "species",
       "bright",
-      "green",
+      "family",
+      "grow",
       "despite",
-      "commercial",
-      "shape",
-      "ability"
+      "ability",
+      "commercial"
     ],
     "shared_terms": [
       "acid",
@@ -219,11 +219,11 @@
       "wikipedia_excerpt": "Leaves of E. fulgens displayed stronger ferrous ion- chelating ability than young leaves of Camellia sinensis. Chlorogenic acid found in leaves of E. fulgens was higher in content than Lonicera japonica (Japanese honeysuckle), the commercia"
     }
   ],
-  "topic_id": 2,
+  "topic_id": 5,
   "topic_terms": [
+    "rays",
     "water",
-    "acid",
-    "quantity"
+    "fig"
   ],
   "claims": [
     {

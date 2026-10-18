@@ -31,40 +31,40 @@
   "metrics": {
     "jaccard_raw": 0.0023,
     "jaccard_normalized": 0.0023,
-    "cosine_tfidf": 0.0144,
+    "cosine_tfidf": 0.0136,
     "cosine_embedding": -0.0304,
     "distinctive_britannica": [
       "india",
       "country",
       "alexander",
-      "sea",
       "means",
       "authority",
-      "indeed",
-      "indus",
-      "countries",
+      "sea",
       "red",
+      "indeed",
+      "countries",
       "view",
       "concerning",
-      "accounts",
       "modern",
-      "rivers"
+      "indus",
+      "robertson",
+      "provinces"
     ],
     "distinctive_wikipedia": [
       "publication",
-      "astonishing",
       "edition",
-      "album",
-      "refer",
-      "song",
-      "women",
-      "science",
+      "astonishing",
+      "britannica",
       "published",
+      "song",
+      "refer",
+      "album",
+      "science",
       "atlas",
+      "women",
       "american",
       "comics",
       "fiction",
-      "britannica",
       "magazine"
     ],
     "shared_terms": [
@@ -94,11 +94,11 @@
       "wikipedia_excerpt": "Astonishing may refer to:\n\nAstonishing, Atlas Comics / Marvel Comics publication from 1951 to 1957\n\nAstonishing Tales, Marvel Comics publication from 1970 to 1976 and 2009\n\nThe Astonishing, a 2016 album by Dream Theater\n\nAstonishing Stories"
     }
   ],
-  "topic_id": 4,
+  "topic_id": 6,
   "topic_terms": [
-    "blow-pipe",
-    "captain",
-    "flame"
+    "people",
+    "time",
+    "great"
   ],
   "claims": [
     {

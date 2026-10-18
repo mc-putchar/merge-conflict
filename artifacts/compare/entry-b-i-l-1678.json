@@ -24,38 +24,38 @@
     "cosine_tfidf": 0.0,
     "cosine_embedding": 0.0643,
     "distinctive_britannica": [
-      "himself",
       "country",
+      "himself",
       "court",
-      "received",
       "employed",
-      "greatest",
-      "tubingen",
+      "received",
+      "power",
+      "without",
       "died",
       "situation",
-      "power",
+      "greatest",
       "almost",
-      "without",
       "left",
-      "ibid",
-      "billinger"
+      "tubingen",
+      "enlightened",
+      "ibid"
     ],
     "distinctive_wikipedia": [
       "agalmyla",
       "burtt",
       "hilliard",
       "clarke",
-      "schltr",
       "plants",
-      "elmer",
+      "schltr",
       "moore",
+      "elmer",
       "lauterb",
-      "accepted",
       "scott",
-      "april",
       "genus",
-      "minor",
-      "family"
+      "accepted",
+      "april",
+      "family",
+      "species"
     ],
     "shared_terms": []
   },
@@ -82,11 +82,11 @@
       "wikipedia_excerpt": "Agalmyla manuselae Hilliard & B.L.Burtt\n\nAgalmyla minor (K.Schum. & Lauterb.) Hilliard & B.L.Burtt\n\nAgalmyla montis-tomasii Hilliard & B.L.Burtt\n\nAgalmyla multiflora (Kaneh. & Hatus.) Hilliard & B.L.Burtt\n\nAgalmyla murudiana Hilliard & B.L."
     }
   ],
-  "topic_id": 4,
+  "topic_id": 6,
   "topic_terms": [
-    "blow-pipe",
-    "captain",
-    "flame"
+    "people",
+    "time",
+    "great"
   ],
   "claims": [
     {

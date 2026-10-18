@@ -35,18 +35,18 @@
     "cosine_embedding": -0.0132,
     "distinctive_britannica": [
       "cattle",
-      "food",
       "fully",
-      "breed",
-      "daily",
-      "sheep",
-      "opinion",
-      "animals",
+      "food",
       "much",
-      "best",
+      "now",
+      "opinion",
+      "daily",
+      "breed",
+      "animals",
       "line",
       "degree",
-      "now",
+      "best",
+      "sheep",
       "present",
       "breeds"
     ],
@@ -54,18 +54,18 @@
       "museum",
       "agricultural",
       "refer",
-      "canada",
-      "agriculture",
-      "usa",
       "edition",
+      "agriculture",
+      "canada",
+      "britannica",
       "egypt",
       "oil",
       "irish",
+      "usa",
       "american",
       "turkey",
       "institution",
-      "britannica",
-      "magazine"
+      "manitoba"
     ],
     "shared_terms": []
   },
@@ -92,11 +92,11 @@
       "wikipedia_excerpt": "Agricultural Museum may refer to:\n\nAgricultural museum, the institution where agricultural artifacts are displayed.\n\nIt may also refer to:\n\nAgricultural Museum (periodical), an American agricultural magazine\n\nAdatepe Olive Oil Museum, Turke"
     }
   ],
-  "topic_id": 2,
+  "topic_id": 3,
   "topic_terms": [
-    "water",
-    "acid",
-    "quantity"
+    "upon",
+    "feet",
+    "tree"
   ],
   "claims": [
     {

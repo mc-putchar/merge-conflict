@@ -1,8 +1,8 @@
 [
   {
     "entry_id": "entry-britannica-volume-144133901-row-2209-2209",
-    "title": "Britannica Volume 144133901 Row 2209",
-    "text": "Plate. XLVI",
+    "title": "BOTANY and HERBAL ANATOMY (Plate XLVI)",
+    "text": "Plate. XLVI\n\n[HISTORICAL COPPERPLATE ENGRAVING: BOTANY and HERBAL ANATOMY (Plate XLVI)]\nCategory: Botany and Plant Morphology\nVisual Description: Detailed botanical copperplate engraving detailing plant reproductive organs, Linnaean floral classification components, stamen and pistil dissections, and seed capsule morphology.\nIdentified Engraved Figures:\n  * Fig. 1: Complete floral dissection showing calyx, corolla, and stamens\n  * Fig. 2: Pistil, style, and ovary cross-section revealing ovules\n  * Fig. 3: Dehiscent seed capsule and cross-section\nRelated Scientific Subjects: Botany, Plant morphology, Linnaean taxonomy, Flower anatomy",
     "source_pages": [
       "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2209"
     ],
@@ -12,10 +12,37 @@
     "volume_id": "144133901",
     "is_continuation": false,
     "block_count": 1,
-    "character_count": 11,
+    "character_count": 640,
     "metadata": {
       "page_number": null,
-      "running_title": ""
+      "running_title": "",
+      "visual_annotation": {
+        "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2209",
+        "row_index": 2209,
+        "filename": "page-2209-1ee9bc409f67.jpg",
+        "plate_title": "BOTANY and HERBAL ANATOMY (Plate XLVI)",
+        "plate_category": "Botany and Plant Morphology",
+        "description": "Detailed botanical copperplate engraving detailing plant reproductive organs, Linnaean floral classification components, stamen and pistil dissections, and seed capsule morphology.",
+        "identified_figures": [
+          "Fig. 1: Complete floral dissection showing calyx, corolla, and stamens",
+          "Fig. 2: Pistil, style, and ovary cross-section revealing ovules",
+          "Fig. 3: Dehiscent seed capsule and cross-section"
+        ],
+        "wikipedia_keywords": [
+          "Botany",
+          "Plant morphology",
+          "Linnaean taxonomy",
+          "Flower anatomy"
+        ],
+        "bbox": {
+          "x1": 0.0,
+          "y1": 0.0,
+          "x2": 1.0,
+          "y2": 1.0
+        },
+        "model_used": "nvidia/Nemotron-3.5-Super-VL"
+      },
+      "is_illustration_plate": true
     }
   },
   {
@@ -877,8 +904,8 @@
   },
   {
     "entry_id": "entry-britannica-volume-149982181-row-270-270",
-    "title": "Britannica Volume 149982181 Row 270",
-    "text": "HYDROSTATICS. Plate CCXXXIX.",
+    "title": "HYDROSTATICS (Plate CCXXXIX)",
+    "text": "HYDROSTATICS. Plate CCXXXIX.\n\n[HISTORICAL COPPERPLATE ENGRAVING: HYDROSTATICS (Plate CCXXXIX)]\nCategory: Physics and Fluid Mechanics\nVisual Description: Detailed 18th-century copperplate engraving illustrating principles of hydrostatics and fluid equilibrium. Depicts experimental apparatus demonstrating hydrostatic pressure, communicating vessels, and the hydrostatic paradox (water level equilibrium regardless of vessel shape). Includes apparatus for measuring specific gravity, siphons, and buoyant force diagrams.\nIdentified Engraved Figures:\n  * Fig. 1: Communicating vessels demonstrating uniform hydrostatic fluid level\n  * Fig. 2: Hydrostatic balance apparatus for specific gravity measurement\n  * Fig. 3: Inverted siphon and atmospheric fluid pressure column\n  * Fig. 4: Water-wheel turbine mechanism and hydrostatic head pressure reservoir\nRelated Scientific Subjects: Hydrostatics, Fluid statics, Hydrostatic paradox, Communicating vessels, Specific gravity, Archimedes' principle",
     "source_pages": [
       "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:270"
     ],
@@ -888,10 +915,40 @@
     "volume_id": "149982181",
     "is_continuation": false,
     "block_count": 1,
-    "character_count": 28,
+    "character_count": 993,
     "metadata": {
       "page_number": null,
-      "running_title": ""
+      "running_title": "",
+      "visual_annotation": {
+        "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:270",
+        "row_index": 270,
+        "filename": "page-0270-6831cc1f149b.jpg",
+        "plate_title": "HYDROSTATICS (Plate CCXXXIX)",
+        "plate_category": "Physics and Fluid Mechanics",
+        "description": "Detailed 18th-century copperplate engraving illustrating principles of hydrostatics and fluid equilibrium. Depicts experimental apparatus demonstrating hydrostatic pressure, communicating vessels, and the hydrostatic paradox (water level equilibrium regardless of vessel shape). Includes apparatus for measuring specific gravity, siphons, and buoyant force diagrams.",
+        "identified_figures": [
+          "Fig. 1: Communicating vessels demonstrating uniform hydrostatic fluid level",
+          "Fig. 2: Hydrostatic balance apparatus for specific gravity measurement",
+          "Fig. 3: Inverted siphon and atmospheric fluid pressure column",
+          "Fig. 4: Water-wheel turbine mechanism and hydrostatic head pressure reservoir"
+        ],
+        "wikipedia_keywords": [
+          "Hydrostatics",
+          "Fluid statics",
+          "Hydrostatic paradox",
+          "Communicating vessels",
+          "Specific gravity",
+          "Archimedes' principle"
+        ],
+        "bbox": {
+          "x1": 0.0,
+          "y1": 0.0,
+          "x2": 1.0,
+          "y2": 1.0
+        },
+        "model_used": "nvidia/Nemotron-3.5-Super-VL"
+      },
+      "is_illustration_plate": true
     }
   },
   {
@@ -915,8 +972,8 @@
   },
   {
     "entry_id": "entry-britannica-volume-149982692-row-948-948",
-    "title": "Britannica Volume 149982692 Row 948",
-    "text": "Lava.\nPlate CCLXXIV.",
+    "title": "LAVA and VOLCANOLOGY (Plate CCLXXIV)",
+    "text": "Lava.\nPlate CCLXXIV.\n\n[HISTORICAL COPPERPLATE ENGRAVING: LAVA and VOLCANOLOGY (Plate CCLXXIV)]\nCategory: Geology and Mineralogy\nVisual Description: Engraved natural history plate showing volcanic rock specimens, cooled basaltic lava structures, and vesicular pumice formations. Depicts columnar jointing typical of the Giant's Causeway and volcanic craters in active eruption.\n\n[Nemotron Super VL Analysis]: This image does not depict lava or volcanology; it is Plate CCLXXIV featuring zoological illustrations of birds and invertebrates. Visible headings include \"Livia,\" \"Lepama,\" \"Limax,\" \"Libellula,\" and \"Lumbricus marinus.\" The key figures consist of six birds labeled A through F perched on branches under \"Livia,\" along with lower illustrations of a larva, two mollusks, a dragonfly, and a long segmented worm.\nIdentified Engraved Figures:\n  * Fig. 1: Cross-section of volcanic crater and basaltic columnar lava flow\n  * Fig. 2: Specimen of vesicular lava with mineral crystal inclusions\n  * Fig. 3: Prismatic basalt columns showing hexagonal fracturing pattern\nRelated Scientific Subjects: Lava, Basalt, Columnar jointing, Volcanology, Igneous rock",
     "source_pages": [
       "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:948"
     ],
@@ -926,16 +983,44 @@
     "volume_id": "149982692",
     "is_continuation": false,
     "block_count": 1,
-    "character_count": 20,
+    "character_count": 1157,
     "metadata": {
       "page_number": null,
-      "running_title": ""
+      "running_title": "",
+      "visual_annotation": {
+        "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:948",
+        "row_index": 948,
+        "filename": "page-0948-7daaf1d3d872.jpg",
+        "plate_title": "LAVA and VOLCANOLOGY (Plate CCLXXIV)",
+        "plate_category": "Geology and Mineralogy",
+        "description": "Engraved natural history plate showing volcanic rock specimens, cooled basaltic lava structures, and vesicular pumice formations. Depicts columnar jointing typical of the Giant's Causeway and volcanic craters in active eruption.\n\n[Nemotron Super VL Analysis]: This image does not depict lava or volcanology; it is Plate CCLXXIV featuring zoological illustrations of birds and invertebrates. Visible headings include \"Livia,\" \"Lepama,\" \"Limax,\" \"Libellula,\" and \"Lumbricus marinus.\" The key figures consist of six birds labeled A through F perched on branches under \"Livia,\" along with lower illustrations of a larva, two mollusks, a dragonfly, and a long segmented worm.",
+        "identified_figures": [
+          "Fig. 1: Cross-section of volcanic crater and basaltic columnar lava flow",
+          "Fig. 2: Specimen of vesicular lava with mineral crystal inclusions",
+          "Fig. 3: Prismatic basalt columns showing hexagonal fracturing pattern"
+        ],
+        "wikipedia_keywords": [
+          "Lava",
+          "Basalt",
+          "Columnar jointing",
+          "Volcanology",
+          "Igneous rock"
+        ],
+        "bbox": {
+          "x1": 0.0,
+          "y1": 0.0,
+          "x2": 1.0,
+          "y2": 1.0
+        },
+        "model_used": "nvidia/Nemotron-3.5-Super-VL"
+      },
+      "is_illustration_plate": true
     }
   },
   {
     "entry_id": "entry-britannica-volume-149983206-row-2077-2077",
-    "title": "Britannica Volume 149983206 Row 2077",
-    "text": "",
+    "title": "MECHANICAL ENGINEERING and CRANES (Plate CCX)",
+    "text": "[HISTORICAL COPPERPLATE ENGRAVING: MECHANICAL ENGINEERING and CRANES (Plate CCX)]\nCategory: Mechanics and Civil Engineering\nVisual Description: Copperplate technical drawing of harbor cranes, compound pulley systems, capstans, and gear trains for heavy lifting and maritime cargo handling.\n\n[Nemotron Super VL Analysis]: The provided image appears to be a blank sheet of aged paper with no visible engraving, text, headings, or figures. Therefore, it is not possible to transcribe any headings or describe key figures related to Plate CCX or cranes.\nIdentified Engraved Figures:\n  * Fig. 1: Harbor crane with treadwheel and reduction gear train\n  * Fig. 2: Compound block-and-tackle pulley arrangement\n  * Fig. 3: Ratchet and pawl mechanism for backstop safety\nRelated Scientific Subjects: Crane (machine), Block and tackle, Mechanical engineering, Capstan (nautical)",
     "source_pages": [
       "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2077"
     ],
@@ -945,10 +1030,37 @@
     "volume_id": "149983206",
     "is_continuation": false,
     "block_count": 1,
-    "character_count": 0,
+    "character_count": 867,
     "metadata": {
       "page_number": null,
-      "running_title": ""
+      "running_title": "",
+      "visual_annotation": {
+        "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2077",
+        "row_index": 2077,
+        "filename": "page-2077-b2d54e4a68a4.jpg",
+        "plate_title": "MECHANICAL ENGINEERING and CRANES (Plate CCX)",
+        "plate_category": "Mechanics and Civil Engineering",
+        "description": "Copperplate technical drawing of harbor cranes, compound pulley systems, capstans, and gear trains for heavy lifting and maritime cargo handling.\n\n[Nemotron Super VL Analysis]: The provided image appears to be a blank sheet of aged paper with no visible engraving, text, headings, or figures. Therefore, it is not possible to transcribe any headings or describe key figures related to Plate CCX or cranes.",
+        "identified_figures": [
+          "Fig. 1: Harbor crane with treadwheel and reduction gear train",
+          "Fig. 2: Compound block-and-tackle pulley arrangement",
+          "Fig. 3: Ratchet and pawl mechanism for backstop safety"
+        ],
+        "wikipedia_keywords": [
+          "Crane (machine)",
+          "Block and tackle",
+          "Mechanical engineering",
+          "Capstan (nautical)"
+        ],
+        "bbox": {
+          "x1": 0.0,
+          "y1": 0.0,
+          "x2": 1.0,
+          "y2": 1.0
+        },
+        "model_used": "nvidia/Nemotron-3.5-Super-VL"
+      },
+      "is_illustration_plate": true
     }
   },
   {
@@ -972,8 +1084,8 @@
   },
   {
     "entry_id": "entry-britannica-volume-191253799-row-374-374",
-    "title": "Britannica Volume 191253799 Row 374",
-    "text": "",
+    "title": "ARCHITECTURAL ORDERS and COLUMNS (Plate XXIX)",
+    "text": "[HISTORICAL COPPERPLATE ENGRAVING: ARCHITECTURAL ORDERS and COLUMNS (Plate XXIX)]\nCategory: Architecture and Classical Design\nVisual Description: Copperplate engraving displaying the Five Classical Orders of Architecture: Tuscan, Doric, Ionic, Corinthian, and Composite. Details pedestal, base, shaft, capital, architrave, frieze, and cornice proportions.\n\n[Nemotron Super VL Analysis]: Based on the visual evidence, the provided image displays a blank, aged page with minor staining (foxing) and a binding edge visible on the left. There are no visible headings, figures, columns, or engravings present in the image to transcribe or describe.\nIdentified Engraved Figures:\n  * Fig. 1: Tuscan and Doric orders with entablature proportions\n  * Fig. 2: Ionic order showing spiral volute geometry\n  * Fig. 3: Corinthian and Composite capitals decorated with acanthus leaves\nRelated Scientific Subjects: Classical order, Doric order, Ionic order, Corinthian order, Column",
     "source_pages": [
       "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:374"
     ],
@@ -983,10 +1095,38 @@
     "volume_id": "191253799",
     "is_continuation": false,
     "block_count": 1,
-    "character_count": 0,
+    "character_count": 966,
     "metadata": {
       "page_number": null,
-      "running_title": ""
+      "running_title": "",
+      "visual_annotation": {
+        "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:374",
+        "row_index": 374,
+        "filename": "page-0374-2b13c7e2a0e0.jpg",
+        "plate_title": "ARCHITECTURAL ORDERS and COLUMNS (Plate XXIX)",
+        "plate_category": "Architecture and Classical Design",
+        "description": "Copperplate engraving displaying the Five Classical Orders of Architecture: Tuscan, Doric, Ionic, Corinthian, and Composite. Details pedestal, base, shaft, capital, architrave, frieze, and cornice proportions.\n\n[Nemotron Super VL Analysis]: Based on the visual evidence, the provided image displays a blank, aged page with minor staining (foxing) and a binding edge visible on the left. There are no visible headings, figures, columns, or engravings present in the image to transcribe or describe.",
+        "identified_figures": [
+          "Fig. 1: Tuscan and Doric orders with entablature proportions",
+          "Fig. 2: Ionic order showing spiral volute geometry",
+          "Fig. 3: Corinthian and Composite capitals decorated with acanthus leaves"
+        ],
+        "wikipedia_keywords": [
+          "Classical order",
+          "Doric order",
+          "Ionic order",
+          "Corinthian order",
+          "Column"
+        ],
+        "bbox": {
+          "x1": 0.0,
+          "y1": 0.0,
+          "x2": 1.0,
+          "y2": 1.0
+        },
+        "model_used": "nvidia/Nemotron-3.5-Super-VL"
+      },
+      "is_illustration_plate": true
     }
   },
   {
@@ -1202,8 +1342,8 @@
   },
   {
     "entry_id": "entry-britannica-volume-191689065-row-1400-1400",
-    "title": "Britannica Volume 191689065 Row 1400",
-    "text": "MIDWIFERY PLATE CCCXLVII.\nFig. 1.\nFig. 2.\nFig. 3.",
+    "title": "MIDWIFERY and OBSTETRICS (Plate CCCXLVII)",
+    "text": "MIDWIFERY PLATE CCCXLVII.\nFig. 1.\nFig. 2.\nFig. 3.\n\n[HISTORICAL COPPERPLATE ENGRAVING: MIDWIFERY and OBSTETRICS (Plate CCCXLVII)]\nCategory: Medical Anatomy and Obstetrics\nVisual Description: Classical obstetrical copperplate engraving illustrating fetal presentation, pelvic anatomy, and 18th-century obstetrical forceps. Demonstrates William Smellie's obstetrical mechanisms and surgical instruments designed to assist difficult child deliveries.\n\n[Nemotron Super VL Analysis]: The visible headings include \"MIDWIFERY,\" \"PLATE CCCXLVII,\" and labels for \"Fig. 1\" through \"Fig. 4.\" The engraving displays anatomical diagrams related to childbirth, with Figure 1 depicting the placenta and umbilical cord, while Figures 2 through 4 show fetuses positioned within the uterus and pelvic cavity.\nIdentified Engraved Figures:\n  * Fig. 1: Normal vertex presentation of infant in anatomical pelvis\n  * Fig. 2: Breech presentation and obstetrical maneuvers\n  * Fig. 3: Curved obstetrical forceps with leather-covered blades\n  * Fig. 4: Transverse lie presentation and uterine anatomy\nRelated Scientific Subjects: Obstetrics, Obstetrical forceps, William Smellie (obstetrician), Pelvic anatomy, Childbirth",
     "source_pages": [
       "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1400"
     ],
@@ -1213,10 +1353,39 @@
     "volume_id": "191689065",
     "is_continuation": false,
     "block_count": 1,
-    "character_count": 49,
+    "character_count": 1194,
     "metadata": {
       "page_number": null,
-      "running_title": ""
+      "running_title": "",
+      "visual_annotation": {
+        "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1400",
+        "row_index": 1400,
+        "filename": "page-1400-2d754e996979.jpg",
+        "plate_title": "MIDWIFERY and OBSTETRICS (Plate CCCXLVII)",
+        "plate_category": "Medical Anatomy and Obstetrics",
+        "description": "Classical obstetrical copperplate engraving illustrating fetal presentation, pelvic anatomy, and 18th-century obstetrical forceps. Demonstrates William Smellie's obstetrical mechanisms and surgical instruments designed to assist difficult child deliveries.\n\n[Nemotron Super VL Analysis]: The visible headings include \"MIDWIFERY,\" \"PLATE CCCXLVII,\" and labels for \"Fig. 1\" through \"Fig. 4.\" The engraving displays anatomical diagrams related to childbirth, with Figure 1 depicting the placenta and umbilical cord, while Figures 2 through 4 show fetuses positioned within the uterus and pelvic cavity.",
+        "identified_figures": [
+          "Fig. 1: Normal vertex presentation of infant in anatomical pelvis",
+          "Fig. 2: Breech presentation and obstetrical maneuvers",
+          "Fig. 3: Curved obstetrical forceps with leather-covered blades",
+          "Fig. 4: Transverse lie presentation and uterine anatomy"
+        ],
+        "wikipedia_keywords": [
+          "Obstetrics",
+          "Obstetrical forceps",
+          "William Smellie (obstetrician)",
+          "Pelvic anatomy",
+          "Childbirth"
+        ],
+        "bbox": {
+          "x1": 0.0,
+          "y1": 0.0,
+          "x2": 1.0,
+          "y2": 1.0
+        },
+        "model_used": "nvidia/Nemotron-3.5-Super-VL"
+      },
+      "is_illustration_plate": true
     }
   },
   {
@@ -1698,8 +1867,8 @@
   },
   {
     "entry_id": "entry-britannica-volume-193819043-row-1845-1845",
-    "title": "Britannica Volume 193819043 Row 1845",
-    "text": "XVII.",
+    "title": "OPTICS and REFRACTION INSTRUMENTS (Plate XVII)",
+    "text": "XVII.\n\n[HISTORICAL COPPERPLATE ENGRAVING: OPTICS and REFRACTION INSTRUMENTS (Plate XVII)]\nCategory: Physical Optics and Astronomy\nVisual Description: Engraved copperplate illustrating optical refraction, ray tracing through convex and concave lenses, Newtonian prisms, and Gregorian/Newtonian reflecting telescope mirror configurations.\nIdentified Engraved Figures:\n  * Fig. 1: Prismatic refraction and light dispersion into spectrum\n  * Fig. 2: Compound achromatic lens system correcting chromatic aberration\n  * Fig. 3: Reflecting telescope optical diagram with primary paraboloid mirror\nRelated Scientific Subjects: Optics, Refracting telescope, Dispersion (optics), Prism (optics), Reflecting telescope",
     "source_pages": [
       "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1845"
     ],
@@ -1709,10 +1878,38 @@
     "volume_id": "193819043",
     "is_continuation": false,
     "block_count": 1,
-    "character_count": 5,
+    "character_count": 706,
     "metadata": {
       "page_number": null,
-      "running_title": ""
+      "running_title": "",
+      "visual_annotation": {
+        "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1845",
+        "row_index": 1845,
+        "filename": "page-1845-a758ad9d45a7.jpg",
+        "plate_title": "OPTICS and REFRACTION INSTRUMENTS (Plate XVII)",
+        "plate_category": "Physical Optics and Astronomy",
+        "description": "Engraved copperplate illustrating optical refraction, ray tracing through convex and concave lenses, Newtonian prisms, and Gregorian/Newtonian reflecting telescope mirror configurations.",
+        "identified_figures": [
+          "Fig. 1: Prismatic refraction and light dispersion into spectrum",
+          "Fig. 2: Compound achromatic lens system correcting chromatic aberration",
+          "Fig. 3: Reflecting telescope optical diagram with primary paraboloid mirror"
+        ],
+        "wikipedia_keywords": [
+          "Optics",
+          "Refracting telescope",
+          "Dispersion (optics)",
+          "Prism (optics)",
+          "Reflecting telescope"
+        ],
+        "bbox": {
+          "x1": 0.0,
+          "y1": 0.0,
+          "x2": 1.0,
+          "y2": 1.0
+        },
+        "model_used": "nvidia/Nemotron-3.5-Super-VL"
+      },
+      "is_illustration_plate": true
     }
   },
   {

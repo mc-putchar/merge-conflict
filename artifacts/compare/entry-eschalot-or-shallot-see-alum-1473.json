@@ -206,46 +206,56 @@
       "samples": [
         "the party. If lifted this is wet, t"
       ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
+      "original": "pafs",
+      "replacement": "pass",
+      "count": 2,
+      "samples": [
+        "th ladders, to pafs the\nditch or m",
+        "re prepared to pafs the ditch,\ncli"
+      ]
     }
   ],
   "metrics": {
     "jaccard_raw": 0.0356,
     "jaccard_normalized": 0.0348,
-    "cosine_tfidf": 0.0617,
-    "cosine_embedding": 0.2322,
+    "cosine_tfidf": 0.0576,
+    "cosine_embedding": 0.2319,
     "distinctive_britannica": [
       "cells",
       "blood",
-      "natural",
+      "fig",
       "form",
       "without",
-      "fig",
+      "natural",
       "condition",
       "party",
       "years",
-      "rampart",
-      "placed",
       "figures",
       "afterwards",
+      "placed",
+      "means",
       "covered",
-      "lower"
+      "rampart"
     ],
     "distinctive_wikipedia": [
       "used",
       "shallots",
       "shallot",
-      "common",
       "french",
+      "common",
       "red",
       "often",
       "served",
       "called",
       "term",
-      "usually",
       "types",
-      "onion",
-      "raw",
-      "plant"
+      "usually",
+      "plant",
+      "regions",
+      "onion"
     ],
     "shared_terms": [
       "along",
@@ -301,11 +311,11 @@
       "wikipedia_excerpt": "are used as one of the ingredients for making momo."
     }
   ],
-  "topic_id": 7,
+  "topic_id": 2,
   "topic_terms": [
     "see",
-    "upon",
-    "great"
+    "brit",
+    "upon"
   ],
   "claims": [
     {

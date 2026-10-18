@@ -62,6 +62,14 @@ def extract_fallback_queries(title: str, text: str) -> list[str]:
     if clean_title:
         queries.append(clean_title)
 
+    # Visual plate keyword extraction
+    subj_match = re.search(r"Related Scientific Subjects:\s*([^\n]+)", text)
+    if subj_match:
+        for term in subj_match.group(1).split(","):
+            cleaned = term.strip()
+            if cleaned and cleaned not in queries:
+                queries.append(cleaned)
+
     # First sentence / phrase
     sentences = re.split(r"[.!?\n]", text)
     if sentences:
@@ -69,10 +77,10 @@ def extract_fallback_queries(title: str, text: str) -> list[str]:
         words = [w for w in re.findall(r"[A-Za-z0-9-]+", first_sentence) if len(w) > 3]
         if len(words) >= 2:
             snippet = " ".join(words[:4])
-            if snippet.lower() != clean_title.lower():
+            if snippet.lower() != clean_title.lower() and snippet not in queries:
                 queries.append(snippet)
 
-    return queries[:3] if queries else ["Britannica"]
+    return queries[:4] if queries else ["Britannica"]
 
 
 def generate_search_queries(

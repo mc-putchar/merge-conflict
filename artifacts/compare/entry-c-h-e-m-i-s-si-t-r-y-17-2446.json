@@ -112,39 +112,39 @@
   "metrics": {
     "jaccard_raw": 0.0183,
     "jaccard_normalized": 0.0183,
-    "cosine_tfidf": 0.0632,
+    "cosine_tfidf": 0.0641,
     "cosine_embedding": 0.085,
     "distinctive_britannica": [
       "matter",
-      "fulphur",
       "fire",
+      "fulphur",
       "operation",
-      "alum",
-      "acid",
       "air",
+      "acid",
+      "alum",
       "matters",
-      "phofhorus",
       "nothing",
       "come",
+      "phofhorus",
       "remain",
       "degree",
-      "converted",
-      "bath"
+      "bath",
+      "converted"
     ],
     "distinctive_wikipedia": [
       "products",
-      "etc",
       "edition",
+      "etc",
+      "britannica",
       "prepared",
       "strongly",
       "compound",
       "well",
-      "ammonium",
       "active",
+      "ammonium",
       "solutions",
       "soluble",
       "republic",
-      "britannica",
       "foam",
       "substance"
     ],
@@ -182,11 +182,11 @@
       "wikipedia_excerpt": "Carbethopendecinium bromide is a quaternary ammonium compound used as antiseptic and disinfectant. It is white to yellowish crystalline powder. It is well soluble in water, ethanol and chloroform; its water solutions foam strongly if shaken"
     }
   ],
-  "topic_id": 2,
+  "topic_id": 5,
   "topic_terms": [
+    "rays",
     "water",
-    "acid",
-    "quantity"
+    "fig"
   ],
   "claims": [
     {

@@ -67,41 +67,41 @@
   "metrics": {
     "jaccard_raw": 0.0209,
     "jaccard_normalized": 0.0208,
-    "cosine_tfidf": 0.0435,
+    "cosine_tfidf": 0.0438,
     "cosine_embedding": 0.1226,
     "distinctive_britannica": [
-      "country",
       "king",
+      "country",
       "part",
-      "lies",
       "generally",
+      "lies",
       "poland",
       "see",
-      "inhabitants",
       "upper",
       "derived",
-      "several",
-      "provided",
+      "inhabitants",
       "regard",
-      "dead",
-      "immediately"
+      "born",
+      "provided",
+      "immediately",
+      "several"
     ],
     "distinctive_wikipedia": [
       "island",
       "middle",
       "area",
-      "chiemsee",
       "space",
-      "islands",
-      "herb",
       "made",
+      "islands",
       "stone",
+      "chiemsee",
       "ages",
+      "herb",
       "district",
+      "edition",
       "vegetables",
       "meters",
-      "received",
-      "west"
+      "offer"
     ],
     "shared_terms": [
       "among",
@@ -141,11 +141,11 @@
       "wikipedia_excerpt": "Two nameless small islands 54 and 80 meters south of the herb island form its southern foothills. They are connected to one another by a gravel bank. They each have only a few square meters of space and only offer space for one tree or shru"
     }
   ],
-  "topic_id": 7,
+  "topic_id": 2,
   "topic_terms": [
     "see",
-    "upon",
-    "great"
+    "brit",
+    "upon"
   ],
   "claims": [
     {

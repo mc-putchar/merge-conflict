@@ -1,0 +1,135 @@
+{
+  "entry_id": "entry-britannica-volume-191689065-row-1400-1400",
+  "britannica_title": "MIDWIFERY and OBSTETRICS (Plate CCCXLVII)",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1400"
+  ],
+  "britannica_sha256": "a3e2eb3f81012bbbb9206e104fe1ac1bdd881b435f9ab2e734007d7325bed3ce",
+  "britannica_raw_chars": 1194,
+  "britannica_tokens": 113,
+  "britannica_unique_tokens": 74,
+  "wikipedia_page_id": "47456362",
+  "wikipedia_revision_id": "1350826529",
+  "wikipedia_title": "Midwife",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Midwife",
+  "wikipedia_text_sha256": "bafd50cc67f4440c2ee686c8c8abea9dda1329fbfa5d3d68c0277f8f711107d6",
+  "wikipedia_raw_chars": 39991,
+  "wikipedia_tokens": 3456,
+  "wikipedia_unique_tokens": 1431,
+  "length_ratio": 33.493,
+  "text_changes": [],
+  "metrics": {
+    "jaccard_raw": 0.0162,
+    "jaccard_normalized": 0.0162,
+    "cosine_tfidf": 0.1714,
+    "cosine_embedding": 0.2512,
+    "distinctive_britannica": [
+      "edition",
+      "britannica",
+      "fig",
+      "articles",
+      "forceps",
+      "plate",
+      "volumes",
+      "william",
+      "pages",
+      "dia",
+      "obstetrics",
+      "engraving",
+      "figures",
+      "related",
+      "encyclopedia"
+    ],
+    "distinctive_wikipedia": [
+      "midwifery",
+      "midwives",
+      "midwife",
+      "care",
+      "women",
+      "practice",
+      "education",
+      "health",
+      "birth",
+      "professional",
+      "programs",
+      "registered",
+      "male",
+      "degree",
+      "regulated"
+    ],
+    "shared_terms": [
+      "assist",
+      "breech",
+      "child",
+      "childbirth",
+      "deliveries",
+      "demonstrates",
+      "figure",
+      "figures",
+      "forceps",
+      "historical",
+      "include",
+      "infant",
+      "instruments",
+      "medical",
+      "midwifery",
+      "normal",
+      "obstetrician",
+      "obstetrics",
+      "placenta",
+      "related",
+      "smellie",
+      "surgical",
+      "william",
+      "within"
+    ]
+  },
+  "aligned_chunks": [
+    {
+      "britannica_chunk_index": 0,
+      "wikipedia_chunk_index": 61,
+      "similarity": 0.3264,
+      "britannica_excerpt": "MIDWIFERY PLATE CCCXLVII.\n\nFig. 1.\n\nFig. 2.\n\nFig. 3.\n\n[HISTORICAL COPPERPLATE ENGRAVING: MIDWIFERY and OBSTETRICS (Plate CCCXLVII)]\n\nCategory: Medical Anatomy and Obstetrics\n\nVisual Description: Classical obstetrical copperplate engraving i",
+      "wikipedia_excerpt": "William Smellie is credited with innovations on the shape of forceps. This invention corresponds with the development towards obstetrics. He advised male midwives to wear dresses to reduce controversy over having a man present at birth.\n\nAs"
+    },
+    {
+      "britannica_chunk_index": 1,
+      "wikipedia_chunk_index": 61,
+      "similarity": 0.3097,
+      "britannica_excerpt": "Identified Engraved Figures:\n\n* Fig. 1: Normal vertex presentation of infant in anatomical pelvis\n\n* Fig. 2: Breech presentation and obstetrical maneuvers\n\n* Fig. 3: Curved obstetrical forceps with leather-covered blades\n\n* Fig. 4: Transver",
+      "wikipedia_excerpt": "William Smellie is credited with innovations on the shape of forceps. This invention corresponds with the development towards obstetrics. He advised male midwives to wear dresses to reduce controversy over having a man present at birth.\n\nAs"
+    }
+  ],
+  "topic_id": 5,
+  "topic_terms": [
+    "rays",
+    "water",
+    "fig"
+  ],
+  "claims": [
+    {
+      "claim_text": "The Britannica entry \"MIDWIFERY and OBSTETRICS (Plate CCCXLVII)\" uses 113 content tokens while the Wikipedia article \"Midwife\" uses 3456; their normalized vocabularies share a Jaccard overlap of 0.0162 (raw 0.0162) and a TF-IDF cosine similarity of 0.1714.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1400"
+      ],
+      "britannica_quote": "MIDWIFERY PLATE CCCXLVII.\nFig. 1.\nFig. 2.\nFig. 3.\n\n[HISTORICAL COPPERPLATE ENGRAVING: MIDWIFERY and OBSTETRICS (Plate CCCXLVII)]\nCategory: Medical Anatomy and Obstetrics\nVisual Description: Classical obstetrical copperplate engraving illust",
+      "wikipedia_page_id": "47456362",
+      "wikipedia_revision_id": "1350826529",
+      "wikipedia_quote": "A midwife (pl.: midwives) is a health professional who cares for mothers and newborns around childbirth, a specialisation known as midwifery.\n\nThe education and training for a midwife concentrates extensively on the care of women throughout"
+    },
+    {
+      "claim_text": "Both sources share core vocabulary including: assist, breech, child, childbirth, deliveries.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1400"
+      ],
+      "britannica_quote": "Demonstrates William Smellie's obstetrical mechanisms and surgical instruments designed to assist difficult child deliveries.",
+      "wikipedia_page_id": "47456362",
+      "wikipedia_revision_id": "1350826529",
+      "wikipedia_quote": "The word derives from Middle English mid, \"with\", and wif, \"woman\", and thus originally meant \"with-woman\", that is, a woman who is with another woman and assists her in giving birth."
+    }
+  ]
+}

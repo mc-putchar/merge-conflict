@@ -25,3 +25,5 @@ site/
 !.devin/skills/
 !.devin/config.json
 !.devin/mcp_config.json
+node_modules/
+.svelte-kit/

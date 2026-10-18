@@ -107,24 +107,24 @@
   "metrics": {
     "jaccard_raw": 0.0297,
     "jaccard_normalized": 0.0331,
-    "cosine_tfidf": 0.0079,
+    "cosine_tfidf": 0.0077,
     "cosine_embedding": 0.1261,
     "distinctive_britannica": [
       "body",
       "natural",
-      "electric",
       "quantity",
       "matter",
+      "electric",
       "author",
-      "mult",
       "fire",
+      "mult",
       "man",
       "returning",
-      "electrical",
-      "infant",
       "electricity",
+      "infant",
+      "great",
       "case",
-      "great"
+      "electrical"
     ],
     "distinctive_wikipedia": [
       "displaystyle",
@@ -135,12 +135,12 @@
       "leq",
       "sum",
       "bar",
-      "circ",
       "set",
       "since",
+      "circ",
       "lim",
-      "theorem",
       "limit",
+      "text",
       "let"
     ],
     "shared_terms": [
@@ -189,11 +189,11 @@
       "wikipedia_excerpt": "}l_{i}}."
     }
   ],
-  "topic_id": 2,
+  "topic_id": 6,
   "topic_terms": [
-    "water",
-    "acid",
-    "quantity"
+    "people",
+    "time",
+    "great"
   ],
   "claims": [
     {

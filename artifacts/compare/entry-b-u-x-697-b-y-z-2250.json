@@ -94,39 +94,39 @@
   "metrics": {
     "jaccard_raw": 0.0066,
     "jaccard_normalized": 0.0066,
-    "cosine_tfidf": 0.012,
+    "cosine_tfidf": 0.0116,
     "cosine_embedding": 0.0629,
     "distinctive_britannica": [
       "laws",
-      "species",
       "earth",
-      "leaves",
-      "town",
-      "waters",
-      "long",
       "kind",
-      "made",
+      "leaves",
+      "species",
       "against",
-      "lat",
+      "town",
+      "made",
+      "long",
+      "waters",
       "see",
-      "greatly",
+      "lat",
       "city",
-      "genus"
+      "placed",
+      "particular"
     ],
     "distinctive_wikipedia": [
       "left",
       "right",
       "displaystyle",
       "identity",
-      "quad",
       "product",
+      "quad",
+      "frac",
       "aligned",
       "end",
-      "frac",
       "begin",
       "numbers",
-      "similar",
       "sum",
+      "similar",
       "eight",
       "squares"
     ],
@@ -159,11 +159,11 @@
       "wikipedia_excerpt": "and,"
     }
   ],
-  "topic_id": 7,
+  "topic_id": 2,
   "topic_terms": [
     "see",
-    "upon",
-    "great"
+    "brit",
+    "upon"
   ],
   "claims": [
     {

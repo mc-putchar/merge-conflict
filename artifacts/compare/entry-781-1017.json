@@ -87,41 +87,41 @@
   "metrics": {
     "jaccard_raw": 0.0343,
     "jaccard_normalized": 0.0343,
-    "cosine_tfidf": 0.0555,
+    "cosine_tfidf": 0.0553,
     "cosine_embedding": 0.0845,
     "distinctive_britannica": [
       "greek",
-      "helm",
       "modern",
       "among",
-      "miles",
+      "helm",
       "province",
-      "lat",
       "upon",
+      "miles",
+      "lat",
       "long",
-      "head",
       "words",
-      "character",
       "fire",
-      "sun",
-      "put"
+      "put",
+      "language",
+      "head",
+      "opinion"
     ],
     "distinctive_wikipedia": [
       "sikka",
       "people",
       "population",
-      "islands",
       "kingdom",
+      "islands",
       "east",
       "mid",
+      "number",
+      "island",
       "regency",
       "pulau",
       "district",
-      "island",
-      "number",
-      "flores",
       "along",
-      "area"
+      "north",
+      "flores"
     ],
     "shared_terms": [
       "according",
@@ -175,10 +175,10 @@
       "wikipedia_excerpt": "A small Sikka region (non administrative) called Iwangeté or Iwang Geté encompasses the villages of Watublapi (Hewokloang district), Héwokloang, Kloangpopot (Doreng district), Hale (Mapitara district), and Hebingare (and quite a few others "
     }
   ],
-  "topic_id": 5,
+  "topic_id": 2,
   "topic_terms": [
-    "every",
-    "people",
+    "see",
+    "brit",
     "upon"
   ],
   "claims": [

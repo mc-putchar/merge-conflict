@@ -122,24 +122,24 @@
   "metrics": {
     "jaccard_raw": 0.0508,
     "jaccard_normalized": 0.0505,
-    "cosine_tfidf": 0.0338,
+    "cosine_tfidf": 0.0337,
     "cosine_embedding": 0.1191,
     "distinctive_britannica": [
       "kind",
-      "agreeable",
       "common",
-      "certain",
-      "feeling",
+      "agreeable",
       "variety",
+      "feeling",
       "nature",
+      "certain",
       "great",
       "means",
       "mind",
-      "call",
       "degree",
+      "call",
       "every",
-      "family",
-      "fields"
+      "fields",
+      "fact"
     ],
     "distinctive_wikipedia": [
       "edition",
@@ -149,8 +149,8 @@
       "pages",
       "dia",
       "volume",
-      "published",
       "supplement",
+      "published",
       "article",
       "encyclopedia",
       "third",
@@ -214,11 +214,11 @@
       "wikipedia_excerpt": "the individual articles."
     }
   ],
-  "topic_id": 5,
+  "topic_id": 6,
   "topic_terms": [
-    "every",
     "people",
-    "upon"
+    "time",
+    "great"
   ],
   "claims": [
     {

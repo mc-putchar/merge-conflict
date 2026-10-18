@@ -120,21 +120,21 @@
   "metrics": {
     "jaccard_raw": 0.0448,
     "jaccard_normalized": 0.0523,
-    "cosine_tfidf": 0.3734,
+    "cosine_tfidf": 0.3788,
     "cosine_embedding": 0.4143,
     "distinctive_britannica": [
       "angles",
-      "fine",
       "half",
       "sum",
+      "fine",
       "difference",
       "thus",
       "spherical",
       "opposite",
       "found",
       "viz",
-      "term",
       "required",
+      "term",
       "given",
       "find",
       "leg"
@@ -144,15 +144,15 @@
       "list",
       "functions",
       "law",
-      "formula",
       "table",
+      "formula",
       "function",
       "problem",
-      "sine",
       "distance",
       "trigonometry",
-      "theory",
+      "sine",
       "see",
+      "theory",
       "rule",
       "identity"
     ],
@@ -207,9 +207,9 @@
   ],
   "topic_id": 5,
   "topic_terms": [
-    "every",
-    "people",
-    "upon"
+    "rays",
+    "water",
+    "fig"
   ],
   "claims": [
     {

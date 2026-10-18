@@ -80,41 +80,41 @@
   "metrics": {
     "jaccard_raw": 0.0176,
     "jaccard_normalized": 0.0176,
-    "cosine_tfidf": 0.018,
+    "cosine_tfidf": 0.0165,
     "cosine_embedding": 0.0145,
     "distinctive_britannica": [
       "weight",
       "gold",
       "mult",
       "color",
-      "blue",
       "water",
-      "heat",
-      "let",
       "iron",
+      "let",
+      "blue",
+      "heat",
       "metal",
       "employ",
       "quantity",
       "acid",
-      "native",
-      "proportion"
+      "proportion",
+      "native"
     ],
     "distinctive_wikipedia": [
       "text",
       "century",
-      "manuscript",
       "dated",
-      "greek",
+      "manuscript",
       "according",
+      "greek",
       "written",
       "page",
       "codex",
+      "edition",
       "tables",
       "examined",
+      "chapters",
       "gregory",
-      "testament",
-      "contents",
-      "chapters"
+      "testament"
     ],
     "shared_terms": [
       "added",
@@ -151,11 +151,11 @@
       "wikipedia_excerpt": "It was added to the list of New Testament manuscripts by Scrivener (747) and Gregory (729). It was examined and described by Paulin Martin. Gregory saw the manuscript in 1885.\n\nThe manuscript is now housed at the Bibliothèque nationale de F"
     }
   ],
-  "topic_id": 2,
+  "topic_id": 5,
   "topic_terms": [
+    "rays",
     "water",
-    "acid",
-    "quantity"
+    "fig"
   ],
   "claims": [
     {

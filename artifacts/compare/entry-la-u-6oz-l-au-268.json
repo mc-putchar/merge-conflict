@@ -89,41 +89,41 @@
   "metrics": {
     "jaccard_raw": 0.0055,
     "jaccard_normalized": 0.0055,
-    "cosine_tfidf": 0.0192,
+    "cosine_tfidf": 0.0191,
     "cosine_embedding": 0.0052,
     "distinctive_britannica": [
       "fine",
-      "tree",
       "people",
+      "tree",
       "wood",
       "color",
-      "fruit",
-      "fallafras",
       "root",
-      "bark",
+      "fruit",
       "large",
       "time",
+      "fallafras",
+      "bark",
+      "ripe",
       "america",
       "yellow",
-      "ripe",
-      "smooth"
+      "made"
     ],
     "distinctive_wikipedia": [
       "professor",
       "social",
-      "sciences",
-      "six",
-      "management",
-      "economics",
-      "age",
-      "sir",
-      "died",
       "edition",
-      "school",
-      "sociology",
-      "claude",
+      "six",
+      "economics",
+      "management",
+      "sciences",
+      "age",
+      "des",
+      "died",
+      "sir",
+      "britannica",
+      "succeeded",
       "august",
-      "succeeded"
+      "general"
     ],
     "shared_terms": [
       "august",
@@ -154,11 +154,11 @@
       "wikipedia_excerpt": "Le Petit Murmure et le Bruit du monde (1999)\n\nEsquisse d'une histoire naturelle du plouc (2000)\n\nMourir (2000)\n\nLe Bricolage du social. Un traité de sociologie (2001)\n\nSe perd(u)re(r) (2001)\n\nLa Culotte de Madonna (2001)\n\nL'Éloge de l'éliti"
     }
   ],
-  "topic_id": 2,
+  "topic_id": 3,
   "topic_terms": [
-    "water",
-    "acid",
-    "quantity"
+    "upon",
+    "feet",
+    "tree"
   ],
   "claims": [
     {

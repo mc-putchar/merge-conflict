@@ -119,6 +119,15 @@
     },
     {
       "rule": "ocr_f_s_confusion",
+      "original": "pafs",
+      "replacement": "pass",
+      "count": 1,
+      "samples": [
+        "mudded in the pafs / Originals du"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
       "original": "raife",
       "replacement": "raise",
       "count": 1,
@@ -130,8 +139,8 @@
   "metrics": {
     "jaccard_raw": 0.0146,
     "jaccard_normalized": 0.0146,
-    "cosine_tfidf": 0.0372,
-    "cosine_embedding": 0.0824,
+    "cosine_tfidf": 0.0349,
+    "cosine_embedding": 0.083,
     "distinctive_britannica": [
       "like",
       "great",
@@ -139,27 +148,27 @@
       "fall",
       "greater",
       "others",
-      "verfe",
-      "wife",
-      "rule",
-      "true",
-      "call",
-      "know",
-      "wrong",
       "mind",
-      "bad"
+      "call",
+      "wrong",
+      "know",
+      "true",
+      "rule",
+      "wife",
+      "human",
+      "perhaps"
     ],
     "distinctive_wikipedia": [
       "art",
       "works",
       "arts",
       "western",
-      "view",
-      "utarit",
       "contemporary",
+      "view",
       "cultures",
-      "born",
       "historical",
+      "utarit",
+      "born",
       "described",
       "points",
       "religious",
@@ -195,16 +204,16 @@
     {
       "britannica_chunk_index": 8,
       "wikipedia_chunk_index": 2,
-      "similarity": 0.0913,
+      "similarity": 0.094,
       "britannica_excerpt": "Moreover, to boundless ear the bold excursions of the human mind, that in the vail voit beyond real coffences, it can call forth shadowy beings, and unknown worlds, as numerous, as bright, and perhaps as falling as the flats , fuch quite-or",
       "wikipedia_excerpt": "According to one analysis, Natee's works can be regarded as finding newer perspective by creating a figurative which differs from the original / tradition views. With that, the artist's use of sociopolitical and religious points of view to "
     }
   ],
-  "topic_id": 5,
+  "topic_id": 6,
   "topic_terms": [
-    "every",
     "people",
-    "upon"
+    "time",
+    "great"
   ],
   "claims": [
     {

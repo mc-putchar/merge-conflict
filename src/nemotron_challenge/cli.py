@@ -12,6 +12,33 @@ from . import tasks
 from .clients import ChatClient, ParseClient, RetrievalClient, ServiceError, WikiClient
 from .config import ConfigurationError, Settings
 
+# Artifact each stage writes last; its presence marks a completed run.
+STAGE_SENTINELS = {
+    "extract": ("extract", "entries.json"),
+    "match": ("match", "matches.json"),
+    "compare": ("compare", "summary.json"),
+    "agent": ("agent", "records.json"),
+    "site": ("site", "index.html"),
+    "evaluate": ("evaluate", "submission.md"),
+}
+
+
+def stage_status(work_dir: Path) -> dict[str, str]:
+    """Report each milestone as todo, implemented, or completed (artifacts present)."""
+    import inspect
+
+    report = {}
+    for stage in tasks.STAGES:
+        implemented = "_unfinished" not in inspect.getsource(getattr(tasks, stage))
+        sentinel = work_dir.joinpath(*STAGE_SENTINELS[stage])
+        if not implemented:
+            report[stage] = "todo"
+        elif sentinel.is_file():
+            report[stage] = "completed"
+        else:
+            report[stage] = "implemented"
+    return report
+
 
 def doctor(settings: Settings, *, live: bool) -> tuple[dict[str, Any], int]:
     checks = []
@@ -49,7 +76,7 @@ def doctor(settings: Settings, *, live: bool) -> tuple[dict[str, Any], int]:
     failed = any(check["status"] in {"failed", "missing"} for check in checks)
     return {
         "mode": "live" if live else "offline", "checks": checks,
-        "challenge_stages": "not implemented", "inference": "not tested",
+        "challenge_stages": stage_status(Path("artifacts")), "inference": "not tested",
     }, int(failed)
 
 
@@ -60,7 +87,8 @@ def parser() -> argparse.ArgumentParser:
     mode = check.add_mutually_exclusive_group()
     mode.add_argument("--offline", action="store_true", help="check packages without network access")
     mode.add_argument("--live", action="store_true", help="check resource catalogs and readiness; does not run inference")
-    sub.add_parser("stages", help="list unfinished challenge milestones")
+    stages_cmd = sub.add_parser("stages", help="list milestone implementation and run status")
+    stages_cmd.add_argument("--work-dir", type=Path, default=Path("artifacts"))
     run = sub.add_parser("run", help="run a team milestone")
     run.add_argument("stage", choices=tasks.STAGES)
     run.add_argument("--work-dir", type=Path, default=Path("artifacts"))
@@ -77,7 +105,9 @@ def main(argv: list[str] | None = None) -> int:
     args = parser().parse_args(argv)
     try:
         if args.command == "stages":
-            result = [{"stage": stage, "status": "TODO", "guide": f"docs/milestones.md#{stage}"} for stage in tasks.STAGES]
+            statuses = stage_status(args.work_dir)
+            result = [{"stage": stage, "status": statuses[stage], "guide": f"docs/milestones.md#{stage}"}
+                      for stage in tasks.STAGES]
         elif args.command == "data":
             from .data import fetch_sample, load_manifest
 

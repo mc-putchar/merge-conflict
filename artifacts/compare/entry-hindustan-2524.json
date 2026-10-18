@@ -32,19 +32,19 @@
   "metrics": {
     "jaccard_raw": 0.013,
     "jaccard_normalized": 0.013,
-    "cosine_tfidf": 0.0995,
+    "cosine_tfidf": 0.1029,
     "cosine_embedding": 0.1684,
     "distinctive_britannica": [
       "history",
       "works",
       "historical",
-      "taste",
       "hindus",
+      "taste",
       "design",
       "art",
+      "architecture",
       "religious",
       "says",
-      "architecture",
       "beauty",
       "many",
       "structures",
@@ -57,16 +57,16 @@
       "per",
       "across",
       "launched",
+      "available",
+      "edition",
       "limited",
       "daily",
-      "available",
       "hindi",
-      "edition",
-      "december",
       "major",
       "group",
-      "separate",
-      "named"
+      "key",
+      "apart",
+      "separate"
     ],
     "shared_terms": [
       "according",
@@ -101,11 +101,11 @@
       "wikipedia_excerpt": "Hindustan dominates in Bihar with a readership of about 5 million (as per the IRS 2011, Q4). It commands a massive 73% share of the Hindi readership market of Bihar. On 24 April 2018, Hindustan launched its 5th edition in Purnea. On 13 May "
     }
   ],
-  "topic_id": 4,
+  "topic_id": 6,
   "topic_terms": [
-    "blow-pipe",
-    "captain",
-    "flame"
+    "people",
+    "time",
+    "great"
   ],
   "claims": [
     {

@@ -1,7 +1,7 @@
 {
   "entry_id": "entry-britannica-volume-193819043-row-1845-1845",
-  "title": "Britannica Volume 193819043 Row 1845",
-  "text": "XVII.",
+  "title": "OPTICS and REFRACTION INSTRUMENTS (Plate XVII)",
+  "text": "XVII.\n\n[HISTORICAL COPPERPLATE ENGRAVING: OPTICS and REFRACTION INSTRUMENTS (Plate XVII)]\nCategory: Physical Optics and Astronomy\nVisual Description: Engraved copperplate illustrating optical refraction, ray tracing through convex and concave lenses, Newtonian prisms, and Gregorian/Newtonian reflecting telescope mirror configurations.\nIdentified Engraved Figures:\n  * Fig. 1: Prismatic refraction and light dispersion into spectrum\n  * Fig. 2: Compound achromatic lens system correcting chromatic aberration\n  * Fig. 3: Reflecting telescope optical diagram with primary paraboloid mirror\nRelated Scientific Subjects: Optics, Refracting telescope, Dispersion (optics), Prism (optics), Reflecting telescope",
   "source_pages": [
     "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1845"
   ],
@@ -11,9 +11,37 @@
   "volume_id": "193819043",
   "is_continuation": false,
   "block_count": 1,
-  "character_count": 5,
+  "character_count": 706,
   "metadata": {
     "page_number": null,
-    "running_title": ""
+    "running_title": "",
+    "visual_annotation": {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1845",
+      "row_index": 1845,
+      "filename": "page-1845-a758ad9d45a7.jpg",
+      "plate_title": "OPTICS and REFRACTION INSTRUMENTS (Plate XVII)",
+      "plate_category": "Physical Optics and Astronomy",
+      "description": "Engraved copperplate illustrating optical refraction, ray tracing through convex and concave lenses, Newtonian prisms, and Gregorian/Newtonian reflecting telescope mirror configurations.",
+      "identified_figures": [
+        "Fig. 1: Prismatic refraction and light dispersion into spectrum",
+        "Fig. 2: Compound achromatic lens system correcting chromatic aberration",
+        "Fig. 3: Reflecting telescope optical diagram with primary paraboloid mirror"
+      ],
+      "wikipedia_keywords": [
+        "Optics",
+        "Refracting telescope",
+        "Dispersion (optics)",
+        "Prism (optics)",
+        "Reflecting telescope"
+      ],
+      "bbox": {
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 1.0,
+        "y2": 1.0
+      },
+      "model_used": "nvidia/Nemotron-3.5-Super-VL"
+    },
+    "is_illustration_plate": true
   }
 }

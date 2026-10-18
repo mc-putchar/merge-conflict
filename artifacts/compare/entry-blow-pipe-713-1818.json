@@ -31,40 +31,40 @@
   "metrics": {
     "jaccard_raw": 0.0943,
     "jaccard_normalized": 0.0945,
-    "cosine_tfidf": 0.3087,
+    "cosine_tfidf": 0.3112,
     "cosine_embedding": 0.6165,
     "distinctive_britannica": [
-      "blow-pipe",
       "heat",
+      "blow-pipe",
       "charcoal",
       "made",
       "body",
       "inches",
       "platina",
-      "kept",
-      "along",
-      "quantity",
-      "quality",
       "become",
-      "metal",
+      "along",
+      "quality",
+      "kept",
       "less",
+      "quantity",
+      "metal",
       "flame"
     ],
     "distinctive_wikipedia": [
-      "blowpipe",
       "blow",
+      "blowpipe",
       "air",
       "used",
       "term",
       "fire",
       "chemistry",
       "english",
-      "glass",
       "treatise",
-      "blowpipes",
       "tool",
       "established",
+      "glass",
       "pipe",
+      "blowpipes",
       "considered"
     ],
     "shared_terms": [
@@ -123,11 +123,11 @@
       "wikipedia_excerpt": "If a stream or jet of air is directed through a flame, fuel air mixing is enhanced and the jet exiting the flame is intensely hot. Jewelers and glassblowers engaged in lampwork have used the blowpipe since ancient times, with the blast bein"
     }
   ],
-  "topic_id": 4,
+  "topic_id": 5,
   "topic_terms": [
-    "blow-pipe",
-    "captain",
-    "flame"
+    "rays",
+    "water",
+    "fig"
   ],
   "claims": [
     {

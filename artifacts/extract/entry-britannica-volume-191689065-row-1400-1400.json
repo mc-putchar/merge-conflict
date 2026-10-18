@@ -1,7 +1,7 @@
 {
   "entry_id": "entry-britannica-volume-191689065-row-1400-1400",
-  "title": "Britannica Volume 191689065 Row 1400",
-  "text": "MIDWIFERY PLATE CCCXLVII.\nFig. 1.\nFig. 2.\nFig. 3.",
+  "title": "MIDWIFERY and OBSTETRICS (Plate CCCXLVII)",
+  "text": "MIDWIFERY PLATE CCCXLVII.\nFig. 1.\nFig. 2.\nFig. 3.\n\n[HISTORICAL COPPERPLATE ENGRAVING: MIDWIFERY and OBSTETRICS (Plate CCCXLVII)]\nCategory: Medical Anatomy and Obstetrics\nVisual Description: Classical obstetrical copperplate engraving illustrating fetal presentation, pelvic anatomy, and 18th-century obstetrical forceps. Demonstrates William Smellie's obstetrical mechanisms and surgical instruments designed to assist difficult child deliveries.\n\n[Nemotron Super VL Analysis]: The visible headings include \"MIDWIFERY,\" \"PLATE CCCXLVII,\" and labels for \"Fig. 1\" through \"Fig. 4.\" The engraving displays anatomical diagrams related to childbirth, with Figure 1 depicting the placenta and umbilical cord, while Figures 2 through 4 show fetuses positioned within the uterus and pelvic cavity.\nIdentified Engraved Figures:\n  * Fig. 1: Normal vertex presentation of infant in anatomical pelvis\n  * Fig. 2: Breech presentation and obstetrical maneuvers\n  * Fig. 3: Curved obstetrical forceps with leather-covered blades\n  * Fig. 4: Transverse lie presentation and uterine anatomy\nRelated Scientific Subjects: Obstetrics, Obstetrical forceps, William Smellie (obstetrician), Pelvic anatomy, Childbirth",
   "source_pages": [
     "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1400"
   ],
@@ -11,9 +11,38 @@
   "volume_id": "191689065",
   "is_continuation": false,
   "block_count": 1,
-  "character_count": 49,
+  "character_count": 1194,
   "metadata": {
     "page_number": null,
-    "running_title": ""
+    "running_title": "",
+    "visual_annotation": {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:1400",
+      "row_index": 1400,
+      "filename": "page-1400-2d754e996979.jpg",
+      "plate_title": "MIDWIFERY and OBSTETRICS (Plate CCCXLVII)",
+      "plate_category": "Medical Anatomy and Obstetrics",
+      "description": "Classical obstetrical copperplate engraving illustrating fetal presentation, pelvic anatomy, and 18th-century obstetrical forceps. Demonstrates William Smellie's obstetrical mechanisms and surgical instruments designed to assist difficult child deliveries.\n\n[Nemotron Super VL Analysis]: The visible headings include \"MIDWIFERY,\" \"PLATE CCCXLVII,\" and labels for \"Fig. 1\" through \"Fig. 4.\" The engraving displays anatomical diagrams related to childbirth, with Figure 1 depicting the placenta and umbilical cord, while Figures 2 through 4 show fetuses positioned within the uterus and pelvic cavity.",
+      "identified_figures": [
+        "Fig. 1: Normal vertex presentation of infant in anatomical pelvis",
+        "Fig. 2: Breech presentation and obstetrical maneuvers",
+        "Fig. 3: Curved obstetrical forceps with leather-covered blades",
+        "Fig. 4: Transverse lie presentation and uterine anatomy"
+      ],
+      "wikipedia_keywords": [
+        "Obstetrics",
+        "Obstetrical forceps",
+        "William Smellie (obstetrician)",
+        "Pelvic anatomy",
+        "Childbirth"
+      ],
+      "bbox": {
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 1.0,
+        "y2": 1.0
+      },
+      "model_used": "nvidia/Nemotron-3.5-Super-VL"
+    },
+    "is_illustration_plate": true
   }
 }

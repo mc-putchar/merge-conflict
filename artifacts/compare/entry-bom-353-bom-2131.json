@@ -248,41 +248,41 @@
   "metrics": {
     "jaccard_raw": 0.0103,
     "jaccard_normalized": 0.0105,
-    "cosine_tfidf": 0.0166,
+    "cosine_tfidf": 0.0161,
     "cosine_embedding": 0.1,
     "distinctive_britannica": [
       "tree",
       "quantity",
-      "bombay",
       "september",
+      "bombay",
       "feet",
       "october",
       "called",
-      "long",
       "though",
       "wherever",
-      "particularly",
+      "long",
       "today",
-      "sort",
-      "trees",
+      "particularly",
+      "island",
+      "inches",
       "june"
     ],
     "distinctive_wikipedia": [
       "language",
       "bom",
       "code",
-      "materials",
       "england",
+      "materials",
       "born",
       "file",
       "station",
       "bank",
       "restaurant",
       "korean",
-      "singer",
       "bureau",
+      "singer",
       "airport",
-      "format"
+      "group"
     ],
     "shared_terms": [
       "day",
@@ -315,11 +315,11 @@
       "wikipedia_excerpt": "Byte order mark (U+FEFF and others), a Unicode character\n\nBōm (restaurant), a Michelin-starred Korean restaurant in New York City\n\nBuilder's Old Measurement of a ship's cargo carrying capacity, England, 1650-1848\n\nBromborough railway statio"
     }
   ],
-  "topic_id": 2,
+  "topic_id": 3,
   "topic_terms": [
-    "water",
-    "acid",
-    "quantity"
+    "upon",
+    "feet",
+    "tree"
   ],
   "claims": [
     {

@@ -1,0 +1,110 @@
+{
+  "entry_id": "entry-britannica-volume-149982181-row-270-270",
+  "britannica_title": "HYDROSTATICS (Plate CCXXXIX)",
+  "source_pages": [
+    "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:270"
+  ],
+  "britannica_sha256": "61dee220c636eabe1bdcd7d63389f9be88272c51014f1afead4173dbb3f245f8",
+  "britannica_raw_chars": 993,
+  "britannica_tokens": 96,
+  "britannica_unique_tokens": 61,
+  "wikipedia_page_id": "78413092",
+  "wikipedia_revision_id": "1351079103",
+  "wikipedia_title": "Editor-in-chief of the Encyclopædia Britannica",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Editor-in-chief_of_the_Encyclop%C3%A6dia_Britannica",
+  "wikipedia_text_sha256": "a88c8e5ba55a69a2c856854b269462f28ae43b532903d36db33baf393e93818b",
+  "wikipedia_raw_chars": 922,
+  "wikipedia_tokens": 76,
+  "wikipedia_unique_tokens": 47,
+  "length_ratio": 0.928,
+  "text_changes": [],
+  "metrics": {
+    "jaccard_raw": 0.0,
+    "jaccard_normalized": 0.0,
+    "cosine_tfidf": 0.0,
+    "cosine_embedding": 0.0592,
+    "distinctive_britannica": [
+      "fig",
+      "fluid",
+      "pressure",
+      "gravity",
+      "specific",
+      "hydrostatic",
+      "plate",
+      "copperplate",
+      "level",
+      "engraving",
+      "vessels",
+      "apparatus",
+      "hydrostatics",
+      "communicating",
+      "shape"
+    ],
+    "distinctive_wikipedia": [
+      "encyclopedia",
+      "editor-in-chief",
+      "since",
+      "published",
+      "current",
+      "encyclop",
+      "britannica",
+      "physical",
+      "reference",
+      "smellie",
+      "editor",
+      "general",
+      "dia",
+      "jason",
+      "william"
+    ],
+    "shared_terms": []
+  },
+  "aligned_chunks": [
+    {
+      "britannica_chunk_index": 0,
+      "wikipedia_chunk_index": 0,
+      "similarity": 0.054,
+      "britannica_excerpt": "HYDROSTATICS. Plate CCXXXIX.\n\n[HISTORICAL COPPERPLATE ENGRAVING: HYDROSTATICS (Plate CCXXXIX)]\n\nCategory: Physics and Fluid Mechanics\n\nVisual Description: Detailed 18th-century copperplate engraving illustrating principles of hydrostatics a",
+      "wikipedia_excerpt": "The editor-in-chief of the Encyclopædia Britannica serves as the editorial leader of the Encyclopædia Britannica, a general reference encyclopedia published since 1768. Since 2012, the encyclopedia is published exclusively on the internet, "
+    },
+    {
+      "britannica_chunk_index": 1,
+      "wikipedia_chunk_index": 0,
+      "similarity": 0.0272,
+      "britannica_excerpt": "* Fig. 4: Water-wheel turbine mechanism and hydrostatic head pressure reservoir\n\nRelated Scientific Subjects: Hydrostatics, Fluid statics, Hydrostatic paradox, Communicating vessels, Specific gravity, Archimedes' principle",
+      "wikipedia_excerpt": "The editor-in-chief of the Encyclopædia Britannica serves as the editorial leader of the Encyclopædia Britannica, a general reference encyclopedia published since 1768. Since 2012, the encyclopedia is published exclusively on the internet, "
+    }
+  ],
+  "topic_id": 5,
+  "topic_terms": [
+    "rays",
+    "water",
+    "fig"
+  ],
+  "claims": [
+    {
+      "claim_text": "The Britannica entry \"HYDROSTATICS (Plate CCXXXIX)\" uses 96 content tokens while the Wikipedia article \"Editor-in-chief of the Encyclopædia Britannica\" uses 76; their normalized vocabularies share a Jaccard overlap of 0.0 (raw 0.0) and a TF-IDF cosine similarity of 0.0.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:270"
+      ],
+      "britannica_quote": "HYDROSTATICS. Plate CCXXXIX.\n\n[HISTORICAL COPPERPLATE ENGRAVING: HYDROSTATICS (Plate CCXXXIX)]\nCategory: Physics and Fluid Mechanics\nVisual Description: Detailed 18th-century copperplate engraving illustrating principles of hydrostatics and",
+      "wikipedia_page_id": "78413092",
+      "wikipedia_revision_id": "1351079103",
+      "wikipedia_quote": "The editor-in-chief of the Encyclopædia Britannica serves as the editorial leader of the Encyclopædia Britannica, a general reference encyclopedia published since 1768. Since 2012, the encyclopedia is published exclusively on the internet, "
+    },
+    {
+      "claim_text": "Britannica's most distinctive term is \"fig\"; Wikipedia's is \"encyclopedia\", showing the era-specific vocabulary of each source.",
+      "claim_type": "factual",
+      "label": "[factual]",
+      "britannica_pages": [
+        "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:270"
+      ],
+      "britannica_quote": "Identified Engraved Figures:",
+      "wikipedia_page_id": "78413092",
+      "wikipedia_revision_id": "1351079103",
+      "wikipedia_quote": "The editor-in-chief of the Encyclopædia Britannica serves as the editorial leader of the Encyclopædia Britannica, a general reference encyclopedia published since 1768."
+    }
+  ]
+}

@@ -105,24 +105,24 @@
   "metrics": {
     "jaccard_raw": 0.0115,
     "jaccard_normalized": 0.0115,
-    "cosine_tfidf": 0.0163,
+    "cosine_tfidf": 0.0144,
     "cosine_embedding": 0.0073,
     "distinctive_britannica": [
       "author",
       "water",
       "found",
       "always",
-      "mountain",
       "north",
+      "mountain",
       "crater",
       "figure",
       "around",
       "form",
       "body",
-      "view",
+      "foot",
       "top",
-      "mountains",
-      "foot"
+      "cold",
+      "quantity"
     ],
     "distinctive_wikipedia": [
       "encyclopedia",
@@ -132,13 +132,13 @@
       "encyclop",
       "dia",
       "editor-in-chief",
-      "editor",
-      "smellie",
+      "edition",
       "reference",
+      "smellie",
+      "editor",
       "general",
       "volumes",
       "physical",
-      "edition",
       "jason"
     ],
     "shared_terms": [
@@ -173,11 +173,11 @@
       "wikipedia_excerpt": "The Encyclopædia Britannica is an English-language general reference encyclopedia, published since 1768. The Britannica was first published in Edinburgh, Scotland, in three volumes, with printer William Smellie serving as its principal edit"
     }
   ],
-  "topic_id": 2,
+  "topic_id": 3,
   "topic_terms": [
-    "water",
-    "acid",
-    "quantity"
+    "upon",
+    "feet",
+    "tree"
   ],
   "claims": [
     {

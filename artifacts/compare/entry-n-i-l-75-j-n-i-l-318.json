@@ -90,40 +90,40 @@
   "metrics": {
     "jaccard_raw": 0.0091,
     "jaccard_normalized": 0.0091,
-    "cosine_tfidf": 0.0091,
+    "cosine_tfidf": 0.0092,
     "cosine_embedding": 0.0834,
     "distinctive_britannica": [
       "sun",
       "whole",
       "egypt",
-      "mountains",
       "continue",
-      "rain",
       "however",
-      "towards",
-      "nile",
+      "mountains",
       "time",
+      "towards",
+      "rain",
       "river",
+      "form",
       "produced",
       "high",
-      "form",
-      "rivers"
+      "nile",
+      "parts"
     ],
     "distinctive_wikipedia": [
       "law",
       "lexisnexis",
       "university",
-      "westlaw",
       "american",
-      "press",
+      "westlaw",
       "history",
+      "press",
       "hein",
       "green",
       "john",
       "rev",
-      "property",
       "oxford",
       "process",
+      "property",
       "real"
     ],
     "shared_terms": [
@@ -158,11 +158,11 @@
       "wikipedia_excerpt": "\"Confusion Worse Confounded\": The Residential Rental Agreement Act, 78 N.C. L. REV. 783 (2000). Hein LexisNexis Westlaw\n\nHistory and the Eleventh Amendment, 75 NOTRE DAME L. REV. 1147 (2000). Hein LexisNexis Westlaw\n\nJohn Marshall and \"Debt"
     }
   ],
-  "topic_id": 2,
+  "topic_id": 3,
   "topic_terms": [
-    "water",
-    "acid",
-    "quantity"
+    "upon",
+    "feet",
+    "tree"
   ],
   "claims": [
     {

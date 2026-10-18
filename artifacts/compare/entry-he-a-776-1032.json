@@ -31,24 +31,24 @@
   "metrics": {
     "jaccard_raw": 0.0163,
     "jaccard_normalized": 0.0163,
-    "cosine_tfidf": 0.0758,
+    "cosine_tfidf": 0.0773,
     "cosine_embedding": 0.0159,
     "distinctive_britannica": [
       "blood",
       "pounds",
       "weight",
-      "inches",
       "left",
+      "inches",
       "heart",
       "equal",
-      "square",
       "man",
-      "minute",
+      "square",
       "tabular",
-      "ventricle",
+      "minute",
       "fiction",
-      "aorta",
-      "tubes"
+      "ventricle",
+      "begins",
+      "class"
     ],
     "distinctive_wikipedia": [
       "inward",
@@ -57,15 +57,15 @@
       "economic",
       "region",
       "money",
-      "relatively",
       "companies",
+      "relatively",
       "agency",
       "corporations",
-      "sources",
-      "attracting",
-      "jobs",
-      "source",
-      "car"
+      "strategy",
+      "marketing",
+      "extent",
+      "result",
+      "personnel"
     ],
     "shared_terms": [
       "area",
@@ -97,11 +97,11 @@
       "wikipedia_excerpt": "Examples of inward investment include investments made by Japanese corporations in the UK car industry, including those investments as a result of government policy through agencies such as the Scottish Development Agency and Welsh Developm"
     }
   ],
-  "topic_id": 2,
+  "topic_id": 3,
   "topic_terms": [
-    "water",
-    "acid",
-    "quantity"
+    "upon",
+    "feet",
+    "tree"
   ],
   "claims": [
     {

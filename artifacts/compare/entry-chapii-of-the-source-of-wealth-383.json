@@ -68,6 +68,15 @@
     },
     {
       "rule": "ocr_f_s_confusion",
+      "original": "fure",
+      "replacement": "sure",
+      "count": 1,
+      "samples": [
+        "ice of grain a fure standard for t"
+      ]
+    },
+    {
+      "rule": "ocr_f_s_confusion",
       "original": "rife",
       "replacement": "rise",
       "count": 1,
@@ -79,24 +88,24 @@
   "metrics": {
     "jaccard_raw": 0.0663,
     "jaccard_normalized": 0.0663,
-    "cosine_tfidf": 0.0789,
-    "cosine_embedding": 0.3607,
+    "cosine_tfidf": 0.0787,
+    "cosine_embedding": 0.3605,
     "distinctive_britannica": [
       "price",
       "land",
       "greater",
       "make",
       "meet",
+      "edition",
       "country",
-      "proportion",
-      "hence",
-      "likely",
-      "animals",
       "articles",
-      "thefe",
+      "proportion",
+      "likely",
+      "hence",
+      "improved",
       "labor",
       "even",
-      "improved"
+      "animals"
     ],
     "distinctive_wikipedia": [
       "political",
@@ -105,15 +114,15 @@
       "economics",
       "international",
       "politics",
-      "studies",
       "science",
-      "term",
+      "studies",
       "state",
+      "term",
       "field",
-      "social",
       "within",
       "modern",
-      "theory"
+      "theory",
+      "century"
     ],
     "shared_terms": [
       "according",
@@ -171,10 +180,10 @@
       "wikipedia_excerpt": "tson and Robert W. Cox."
     }
   ],
-  "topic_id": 7,
+  "topic_id": 6,
   "topic_terms": [
-    "see",
-    "upon",
+    "people",
+    "time",
     "great"
   ],
   "claims": [

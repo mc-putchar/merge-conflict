@@ -77,7 +77,7 @@
   "metrics": {
     "jaccard_raw": 0.0593,
     "jaccard_normalized": 0.0619,
-    "cosine_tfidf": 0.1854,
+    "cosine_tfidf": 0.1778,
     "cosine_embedding": 0.3511,
     "distinctive_britannica": [
       "rays",
@@ -89,29 +89,29 @@
       "man",
       "line",
       "paper",
-      "fall",
-      "picture",
       "half",
+      "fall",
       "equal",
+      "picture",
       "placed",
-      "eye"
+      "whole"
     ],
     "distinctive_wikipedia": [
       "light",
       "newton",
       "theory",
       "science",
-      "colour",
       "book",
-      "opticks",
+      "colour",
       "nature",
-      "newton's",
-      "work",
-      "physical",
-      "later",
+      "opticks",
       "principia",
+      "newton's",
+      "later",
+      "physical",
+      "work",
       "queries",
-      "colours"
+      "various"
     ],
     "shared_terms": [
       "another",
@@ -169,11 +169,11 @@
       "wikipedia_excerpt": " additional reflection or refraction or by passing the light through a coloured filter."
     }
   ],
-  "topic_id": 2,
+  "topic_id": 5,
   "topic_terms": [
+    "rays",
     "water",
-    "acid",
-    "quantity"
+    "fig"
   ],
   "claims": [
     {

@@ -67,41 +67,41 @@
   "metrics": {
     "jaccard_raw": 0.0162,
     "jaccard_normalized": 0.0162,
-    "cosine_tfidf": 0.0299,
+    "cosine_tfidf": 0.0303,
     "cosine_embedding": 0.0462,
     "distinctive_britannica": [
       "lines",
       "half",
       "every",
       "inch",
-      "hand",
       "off",
+      "hand",
       "music",
       "cut",
-      "top",
       "wide",
+      "top",
       "blind",
-      "notes",
-      "bele",
+      "inches",
       "table",
-      "names"
+      "names",
+      "feet"
     ],
     "distinctive_wikipedia": [
-      "cui",
       "species",
+      "cui",
       "dai",
       "megasporoporia",
       "hai",
       "genus",
-      "megasporia",
       "family",
       "major",
-      "included",
-      "ryvarden",
       "chinese",
       "analysis",
+      "included",
+      "megasporia",
       "four",
-      "china"
+      "china",
+      "ryvarden"
     ],
     "shared_terms": [
       "characters",
@@ -136,11 +136,11 @@
       "wikipedia_excerpt": "M. quercina Y.C.Dai (2004) = Grammothele quercina (Y.C.Dai) B.K.Cui & Hai J.Li (2013)\n\nM. rhododendri Y.C.Dai & Y.L.Wei (2004) = Megasporoporiella rhododendri (Y.C.Dai & Y.L.Wei) B.K.Cui & Hai J.Li (2013)\n\nM. subcavernulosa Y.C.Dai & Sheng "
     }
   ],
-  "topic_id": 5,
+  "topic_id": 6,
   "topic_terms": [
-    "every",
     "people",
-    "upon"
+    "time",
+    "great"
   ],
   "claims": [
     {

@@ -35,20 +35,20 @@
     "cosine_embedding": -0.0296,
     "distinctive_britannica": [
       "henry",
-      "paris",
       "life",
+      "paris",
       "death",
       "written",
       "author",
-      "years",
       "history",
+      "years",
       "church",
       "public",
       "nearly",
       "engaged",
-      "macedonia",
-      "accepted",
-      "miles"
+      "remains",
+      "wife",
+      "assisted"
     ],
     "distinctive_wikipedia": [
       "king",
@@ -56,15 +56,15 @@
       "neomirandea",
       "less",
       "american",
-      "family",
+      "edition",
       "species",
-      "central",
+      "family",
       "south",
+      "central",
       "genus",
       "plants",
-      "tribe",
       "britannica",
-      "edition",
+      "tribe",
       "dillon"
     ],
     "shared_terms": [
@@ -94,11 +94,11 @@
       "wikipedia_excerpt": "Neomirandea gracilis R.M.King & H.Rob.\n\nNeomirandea grosvenorii R.M.King & H.Rob.\n\nNeomirandea guevarii R.M.King & H.Rob.\n\nNeomirandea homogama (Hieron.) H.Rob. & Brettell\n\nNeomirandea ovandensis R.M.King & H.Rob.\n\nNeomirandea panamensis R."
     }
   ],
-  "topic_id": 7,
+  "topic_id": 2,
   "topic_terms": [
     "see",
-    "upon",
-    "great"
+    "brit",
+    "upon"
   ],
   "claims": [
     {

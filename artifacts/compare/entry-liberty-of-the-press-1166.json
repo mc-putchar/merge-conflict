@@ -40,41 +40,41 @@
   "metrics": {
     "jaccard_raw": 0.0237,
     "jaccard_normalized": 0.0237,
-    "cosine_tfidf": 0.1092,
+    "cosine_tfidf": 0.0997,
     "cosine_embedding": 0.1375,
     "distinctive_britannica": [
       "people",
       "government",
-      "upon",
       "choice",
+      "upon",
       "man",
       "means",
-      "power",
-      "another",
       "use",
+      "another",
+      "power",
       "well",
-      "know",
       "every",
-      "good",
+      "know",
       "without",
-      "cannot"
+      "knowledge",
+      "good"
     ],
     "distinctive_wikipedia": [
       "book",
-      "liberties",
       "john",
+      "liberties",
       "author",
       "arts",
       "press",
       "michael",
-      "published",
       "dublin",
-      "include",
       "authors",
-      "novel",
       "publishers",
+      "include",
+      "publisher",
       "david",
-      "entered"
+      "entered",
+      "published"
     ],
     "shared_terms": [
       "agent",
@@ -120,11 +120,11 @@
       "wikipedia_excerpt": "Liberties Press (also known as Liberties Media Ltd) is an independent book publisher based in Dublin, founded in 2003. The company's first publication was Con Houlihan 's collection of sportswriting, More Than a Game: the title was reprinte"
     }
   ],
-  "topic_id": 5,
+  "topic_id": 6,
   "topic_terms": [
-    "every",
     "people",
-    "upon"
+    "time",
+    "great"
   ],
   "claims": [
     {

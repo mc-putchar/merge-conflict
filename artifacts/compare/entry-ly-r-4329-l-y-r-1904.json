@@ -67,41 +67,41 @@
   "metrics": {
     "jaccard_raw": 0.0622,
     "jaccard_normalized": 0.0631,
-    "cosine_tfidf": 0.5393,
+    "cosine_tfidf": 0.5479,
     "cosine_embedding": 0.5754,
     "distinctive_britannica": [
       "added",
       "time",
       "years",
+      "edition",
       "things",
       "afterwards",
       "many",
-      "edition",
-      "manner",
       "eighth",
-      "account",
-      "authors",
+      "britannica",
+      "manner",
       "plate",
-      "treated",
+      "authors",
+      "account",
       "mercury",
-      "extended"
+      "treated"
     ],
     "distinctive_wikipedia": [
       "lyre",
       "lyres",
       "instruments",
-      "bce",
       "instrument",
-      "strings",
-      "greek",
       "used",
+      "greek",
+      "bce",
       "modern",
+      "strings",
       "eastern",
-      "egypt",
       "known",
       "thin",
-      "type",
-      "hand"
+      "egypt",
+      "europe",
+      "type"
     ],
     "shared_terms": [
       "according",
@@ -159,11 +159,11 @@
       "wikipedia_excerpt": "The priest and biographer Plutarch (c. 100 CE) wrote of the musicians of the archaic period Olympus and Terpander, that they used only three strings to accompany their recitation; but there is no evidence for or against this dating from tha"
     }
   ],
-  "topic_id": 5,
+  "topic_id": 6,
   "topic_terms": [
-    "every",
     "people",
-    "upon"
+    "time",
+    "great"
   ],
   "claims": [
     {

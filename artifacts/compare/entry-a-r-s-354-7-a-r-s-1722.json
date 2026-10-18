@@ -77,24 +77,24 @@
   "metrics": {
     "jaccard_raw": 0.0059,
     "jaccard_normalized": 0.0059,
-    "cosine_tfidf": 0.0082,
+    "cosine_tfidf": 0.0076,
     "cosine_embedding": 0.0653,
     "distinctive_britannica": [
-      "metal",
       "like",
+      "metal",
       "white",
-      "metals",
-      "acid",
       "considered",
+      "acid",
       "therefore",
+      "metals",
       "known",
       "makes",
       "followed",
       "nature",
-      "far",
       "others",
-      "mention",
-      "however"
+      "far",
+      "however",
+      "called"
     ],
     "distinctive_wikipedia": [
       "text",
@@ -102,16 +102,16 @@
       "greek",
       "written",
       "page",
+      "edition",
       "codex",
       "testament",
-      "parchment",
-      "minuscule",
-      "edition",
-      "lines",
       "leaves",
+      "britannica",
+      "hand",
+      "list",
       "contains",
-      "added",
-      "hand"
+      "lines",
+      "added"
     ],
     "shared_terms": [
       "century",
@@ -142,11 +142,11 @@
       "wikipedia_excerpt": "The manuscript was bought by Theodor Constantin, in 1415, in Constantinople. It once belonged to Cardinal Bessarion (as codices 205, 357). The manuscript was added to the list of New Testament manuscripts by Scholz (1794-1852). It was exami"
     }
   ],
-  "topic_id": 4,
+  "topic_id": 5,
   "topic_terms": [
-    "blow-pipe",
-    "captain",
-    "flame"
+    "rays",
+    "water",
+    "fig"
   ],
   "claims": [
     {

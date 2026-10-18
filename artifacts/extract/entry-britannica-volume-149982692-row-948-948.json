@@ -1,7 +1,7 @@
 {
   "entry_id": "entry-britannica-volume-149982692-row-948-948",
-  "title": "Britannica Volume 149982692 Row 948",
-  "text": "Lava.\nPlate CCLXXIV.",
+  "title": "LAVA and VOLCANOLOGY (Plate CCLXXIV)",
+  "text": "Lava.\nPlate CCLXXIV.\n\n[HISTORICAL COPPERPLATE ENGRAVING: LAVA and VOLCANOLOGY (Plate CCLXXIV)]\nCategory: Geology and Mineralogy\nVisual Description: Engraved natural history plate showing volcanic rock specimens, cooled basaltic lava structures, and vesicular pumice formations. Depicts columnar jointing typical of the Giant's Causeway and volcanic craters in active eruption.\n\n[Nemotron Super VL Analysis]: This image does not depict lava or volcanology; it is Plate CCLXXIV featuring zoological illustrations of birds and invertebrates. Visible headings include \"Livia,\" \"Lepama,\" \"Limax,\" \"Libellula,\" and \"Lumbricus marinus.\" The key figures consist of six birds labeled A through F perched on branches under \"Livia,\" along with lower illustrations of a larva, two mollusks, a dragonfly, and a long segmented worm.\nIdentified Engraved Figures:\n  * Fig. 1: Cross-section of volcanic crater and basaltic columnar lava flow\n  * Fig. 2: Specimen of vesicular lava with mineral crystal inclusions\n  * Fig. 3: Prismatic basalt columns showing hexagonal fracturing pattern\nRelated Scientific Subjects: Lava, Basalt, Columnar jointing, Volcanology, Igneous rock",
   "source_pages": [
     "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:948"
   ],
@@ -11,9 +11,37 @@
   "volume_id": "149982692",
   "is_continuation": false,
   "block_count": 1,
-  "character_count": 20,
+  "character_count": 1157,
   "metadata": {
     "page_number": null,
-    "running_title": ""
+    "running_title": "",
+    "visual_annotation": {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:948",
+      "row_index": 948,
+      "filename": "page-0948-7daaf1d3d872.jpg",
+      "plate_title": "LAVA and VOLCANOLOGY (Plate CCLXXIV)",
+      "plate_category": "Geology and Mineralogy",
+      "description": "Engraved natural history plate showing volcanic rock specimens, cooled basaltic lava structures, and vesicular pumice formations. Depicts columnar jointing typical of the Giant's Causeway and volcanic craters in active eruption.\n\n[Nemotron Super VL Analysis]: This image does not depict lava or volcanology; it is Plate CCLXXIV featuring zoological illustrations of birds and invertebrates. Visible headings include \"Livia,\" \"Lepama,\" \"Limax,\" \"Libellula,\" and \"Lumbricus marinus.\" The key figures consist of six birds labeled A through F perched on branches under \"Livia,\" along with lower illustrations of a larva, two mollusks, a dragonfly, and a long segmented worm.",
+      "identified_figures": [
+        "Fig. 1: Cross-section of volcanic crater and basaltic columnar lava flow",
+        "Fig. 2: Specimen of vesicular lava with mineral crystal inclusions",
+        "Fig. 3: Prismatic basalt columns showing hexagonal fracturing pattern"
+      ],
+      "wikipedia_keywords": [
+        "Lava",
+        "Basalt",
+        "Columnar jointing",
+        "Volcanology",
+        "Igneous rock"
+      ],
+      "bbox": {
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 1.0,
+        "y2": 1.0
+      },
+      "model_used": "nvidia/Nemotron-3.5-Super-VL"
+    },
+    "is_illustration_plate": true
   }
 }

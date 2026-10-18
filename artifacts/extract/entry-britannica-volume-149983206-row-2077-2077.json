@@ -1,7 +1,7 @@
 {
   "entry_id": "entry-britannica-volume-149983206-row-2077-2077",
-  "title": "Britannica Volume 149983206 Row 2077",
-  "text": "",
+  "title": "MECHANICAL ENGINEERING and CRANES (Plate CCX)",
+  "text": "[HISTORICAL COPPERPLATE ENGRAVING: MECHANICAL ENGINEERING and CRANES (Plate CCX)]\nCategory: Mechanics and Civil Engineering\nVisual Description: Copperplate technical drawing of harbor cranes, compound pulley systems, capstans, and gear trains for heavy lifting and maritime cargo handling.\n\n[Nemotron Super VL Analysis]: The provided image appears to be a blank sheet of aged paper with no visible engraving, text, headings, or figures. Therefore, it is not possible to transcribe any headings or describe key figures related to Plate CCX or cranes.\nIdentified Engraved Figures:\n  * Fig. 1: Harbor crane with treadwheel and reduction gear train\n  * Fig. 2: Compound block-and-tackle pulley arrangement\n  * Fig. 3: Ratchet and pawl mechanism for backstop safety\nRelated Scientific Subjects: Crane (machine), Block and tackle, Mechanical engineering, Capstan (nautical)",
   "source_pages": [
     "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2077"
   ],
@@ -11,9 +11,36 @@
   "volume_id": "149983206",
   "is_continuation": false,
   "block_count": 1,
-  "character_count": 0,
+  "character_count": 867,
   "metadata": {
     "page_number": null,
-    "running_title": ""
+    "running_title": "",
+    "visual_annotation": {
+      "page_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:2077",
+      "row_index": 2077,
+      "filename": "page-2077-b2d54e4a68a4.jpg",
+      "plate_title": "MECHANICAL ENGINEERING and CRANES (Plate CCX)",
+      "plate_category": "Mechanics and Civil Engineering",
+      "description": "Copperplate technical drawing of harbor cranes, compound pulley systems, capstans, and gear trains for heavy lifting and maritime cargo handling.\n\n[Nemotron Super VL Analysis]: The provided image appears to be a blank sheet of aged paper with no visible engraving, text, headings, or figures. Therefore, it is not possible to transcribe any headings or describe key figures related to Plate CCX or cranes.",
+      "identified_figures": [
+        "Fig. 1: Harbor crane with treadwheel and reduction gear train",
+        "Fig. 2: Compound block-and-tackle pulley arrangement",
+        "Fig. 3: Ratchet and pawl mechanism for backstop safety"
+      ],
+      "wikipedia_keywords": [
+        "Crane (machine)",
+        "Block and tackle",
+        "Mechanical engineering",
+        "Capstan (nautical)"
+      ],
+      "bbox": {
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 1.0,
+        "y2": 1.0
+      },
+      "model_used": "nvidia/Nemotron-3.5-Super-VL"
+    },
+    "is_illustration_plate": true
   }
 }

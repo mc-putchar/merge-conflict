@@ -117,41 +117,41 @@
   "metrics": {
     "jaccard_raw": 0.0098,
     "jaccard_normalized": 0.0099,
-    "cosine_tfidf": 0.0856,
+    "cosine_tfidf": 0.086,
     "cosine_embedding": 0.1702,
     "distinctive_britannica": [
-      "place",
       "upon",
+      "place",
       "see",
       "engine",
-      "care",
       "england",
-      "others",
+      "care",
       "law",
+      "others",
       "north",
-      "inhabited",
       "people",
-      "sufficient",
-      "miles",
-      "northern",
+      "used",
+      "make",
+      "inhabited",
+      "art",
       "taking"
     ],
     "distinctive_wikipedia": [
       "river",
       "referred",
-      "india",
-      "east",
-      "main",
-      "likely",
-      "ten",
       "edition",
-      "dutch",
-      "derived",
+      "likely",
       "south",
-      "province",
-      "western",
+      "east",
       "fine",
-      "village"
+      "main",
+      "ten",
+      "india",
+      "dutch",
+      "britannica",
+      "derived",
+      "province",
+      "taken"
     ],
     "shared_terms": [
       "end",
@@ -184,11 +184,11 @@
       "wikipedia_excerpt": "The Sonderend River, also known as the Riviersonderend (Afrikaans for River without an end), is a main tributary of the Breede River, located in Western Cape Province, South Africa. The village of Riviersonderend is believed to have taken i"
     }
   ],
-  "topic_id": 7,
+  "topic_id": 2,
   "topic_terms": [
     "see",
-    "upon",
-    "great"
+    "brit",
+    "upon"
   ],
   "claims": [
     {

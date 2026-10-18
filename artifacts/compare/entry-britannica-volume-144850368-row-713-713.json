@@ -116,35 +116,35 @@
   "metrics": {
     "jaccard_raw": 0.0475,
     "jaccard_normalized": 0.0486,
-    "cosine_tfidf": 0.0516,
+    "cosine_tfidf": 0.052,
     "cosine_embedding": 0.099,
     "distinctive_britannica": [
       "sleep",
       "though",
       "whole",
       "months",
+      "along",
       "fame",
       "river",
       "molt",
-      "along",
       "thick",
       "without",
-      "animal",
-      "forth",
       "age",
+      "commonly",
+      "animal",
       "part",
-      "white"
+      "especially"
     ],
     "distinctive_wikipedia": [
       "edition",
       "britannica",
-      "articles",
       "volumes",
+      "articles",
       "pages",
       "dia",
       "volume",
-      "published",
       "supplement",
+      "published",
       "article",
       "encyclopedia",
       "third",
@@ -208,10 +208,10 @@
       "wikipedia_excerpt": "and a somewhat melancholy article on \" Love \" that persisted in the Britannica for nearly a century (until its ninth edition):\n\nAs the force of love prevails, sighs grow deeper; a tremor affects the heart and pulse; the countenance is alter"
     }
   ],
-  "topic_id": 5,
+  "topic_id": 2,
   "topic_terms": [
-    "every",
-    "people",
+    "see",
+    "brit",
     "upon"
   ],
   "claims": [

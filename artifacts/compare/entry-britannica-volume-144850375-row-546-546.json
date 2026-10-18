@@ -31,24 +31,24 @@
   "metrics": {
     "jaccard_raw": 0.0182,
     "jaccard_normalized": 0.0182,
-    "cosine_tfidf": 0.087,
+    "cosine_tfidf": 0.0851,
     "cosine_embedding": 0.1567,
     "distinctive_britannica": [
       "number",
       "users",
       "able",
       "use",
-      "used",
       "edition",
+      "used",
       "britannica",
       "however",
-      "addition",
       "times",
+      "addition",
       "sew",
       "available",
       "generate",
-      "compute",
-      "articles"
+      "articles",
+      "compute"
     ],
     "distinctive_wikipedia": [
       "displaystyle",
@@ -59,11 +59,11 @@
       "numbers",
       "sum",
       "average",
-      "values",
-      "data",
       "value",
-      "bar",
+      "data",
+      "values",
       "population",
+      "bar",
       "distribution",
       "example"
     ],
@@ -86,7 +86,7 @@
       "wikipedia_excerpt": "A weighted average, or weighted mean, is an average in which some data points count more heavily than others in that they are given more weight in the calculation. For example, the arithmetic mean of 3 {\\displaystyle 3} and 5 {\\displaystyle"
     }
   ],
-  "topic_id": 1,
+  "topic_id": 7,
   "topic_terms": [
     "users",
     "number",

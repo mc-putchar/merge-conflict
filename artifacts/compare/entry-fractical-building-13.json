@@ -31,24 +31,24 @@
   "metrics": {
     "jaccard_raw": 0.0078,
     "jaccard_normalized": 0.0078,
-    "cosine_tfidf": 0.0258,
+    "cosine_tfidf": 0.0272,
     "cosine_embedding": 0.0444,
     "distinctive_britannica": [
       "system",
       "upper",
       "part",
       "manner",
-      "ship",
       "several",
       "direction",
       "lower",
-      "frame",
+      "ship",
       "side",
-      "edge",
-      "various",
+      "frame",
       "form",
+      "various",
       "point",
-      "base"
+      "edge",
+      "parts"
     ],
     "distinctive_wikipedia": [
       "buildings",
@@ -58,14 +58,14 @@
       "nottingham",
       "south",
       "east",
-      "west",
       "north",
+      "west",
       "historical",
       "interest",
       "grade",
-      "cum",
       "national",
-      "consists"
+      "consists",
+      "cum"
     ],
     "shared_terms": [
       "building",
@@ -99,11 +99,11 @@
       "wikipedia_excerpt": "Listed buildings in Shireoaks\n\nListed buildings in South Leverton\n\nListed buildings in Stokeham\n\nListed buildings in Sturton le Steeple\n\nListed buildings in Styrrup with Oldcotes\n\nListed buildings in Sutton cum Lound\n\nListed buildings in To"
     }
   ],
-  "topic_id": 5,
+  "topic_id": 6,
   "topic_terms": [
-    "every",
     "people",
-    "upon"
+    "time",
+    "great"
   ],
   "claims": [
     {

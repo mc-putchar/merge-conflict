@@ -31,41 +31,41 @@
   "metrics": {
     "jaccard_raw": 0.0221,
     "jaccard_normalized": 0.0221,
-    "cosine_tfidf": 0.0413,
+    "cosine_tfidf": 0.0421,
     "cosine_embedding": 0.14,
     "distinctive_britannica": [
       "island",
-      "east",
-      "side",
-      "river",
       "great",
       "south",
+      "river",
+      "east",
+      "side",
       "children",
       "man",
-      "small",
       "country",
+      "small",
       "made",
       "several",
-      "chief",
-      "trade",
-      "miles"
+      "opposite",
+      "near",
+      "collected"
     ],
     "distinctive_wikipedia": [
       "book",
       "gallows",
-      "troll",
       "series",
       "richard",
+      "troll",
       "film",
-      "snake",
       "illustrated",
       "praised",
+      "snake",
       "bellied",
-      "sky",
-      "fantasy",
+      "wild",
       "particularly",
-      "blood",
-      "followed"
+      "city",
+      "followed",
+      "direct"
     ],
     "shared_terms": [
       "bring",
@@ -105,11 +105,11 @@
       "wikipedia_excerpt": "Will Gallows, a young elfling sky cowboy, rides out on a perilous quest to bring the evil snake-bellied troll bandit, Noose Wormworx, to justice. Noose is wanted for the murder of Will's pa - the former deputy sheriff of Oretown.Will's jour"
     }
   ],
-  "topic_id": 7,
+  "topic_id": 2,
   "topic_terms": [
     "see",
-    "upon",
-    "great"
+    "brit",
+    "upon"
   ],
   "claims": [
     {
